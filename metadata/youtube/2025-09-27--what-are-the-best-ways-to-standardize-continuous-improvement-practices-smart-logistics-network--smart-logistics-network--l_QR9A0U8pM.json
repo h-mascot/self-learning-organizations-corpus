@@ -1,0 +1,53 @@
+{
+  "asr_models": [
+    "whisper-large-v3"
+  ],
+  "availability": "public",
+  "caption_error": "YouTube captions unavailable; recovered from cached signed audio URL.",
+  "channel": "Smart Logistics Network",
+  "duration_seconds": 226,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "c5fb96eb0c5b00f660abd1bbffe58ba9845c3f8120717ef3accbbe60dd1db29f",
+    "source-info.json": "eaae79cd5a09d33c08e5788387874e3a08688156734e2a2ddc983b84a272e96a"
+  },
+  "raw_path": "raw/youtube/2025-09-27--what-are-the-best-ways-to-standardize-continuous-improvement-practices-smart-logistics-network--smart-logistics-network--l_QR9A0U8pM",
+  "relevance_categories": [
+    "continuous-improvement",
+    "feedback-systems"
+  ],
+  "relevance_evidence": [
+    "continuous improvement",
+    "feedback loop",
+    "kaizen"
+  ],
+  "relevance_spans": [
+    {
+      "category": "continuous-improvement",
+      "phrase": "continuous improvement",
+      "text": "What are the best ways to standardize continuous improvement practices?",
+      "timestamp": "0:00"
+    },
+    {
+      "category": "continuous-improvement",
+      "phrase": "kaizen",
+      "text": "Using proven improvement methods like the Plan-Do-Check-Act cycle, Kaizen, Six Sigma,",
+      "timestamp": "1:17"
+    },
+    {
+      "category": "feedback-systems",
+      "phrase": "feedback loop",
+      "text": "Create feedback loops by encouraging workers and managers to share their observations.",
+      "timestamp": "2:26"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 37,
+  "source_url": "https://www.youtube.com/watch?v=l_QR9A0U8pM",
+  "title": "What Are The Best Ways To Standardize Continuous Improvement Practices? - Smart Logistics Network",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "transcripts/youtube/2025-09-27--what-are-the-best-ways-to-standardize-continuous-improvement-practices-smart-logistics-network--smart-logistics-network--l_QR9A0U8pM.md",
+  "transcript_sha256": "fd88e404f312a260d578e12f25f751c51461f708b1a778257785579b89498b78",
+  "upload_date": "20250927",
+  "video_id": "l_QR9A0U8pM"
+}

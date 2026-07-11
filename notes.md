@@ -16,8 +16,8 @@
 
 - 25 reproducible search queries yielded 478 unique candidates.
 - Caption retrieval is externally rate-limited (HTTP 429), so ASR is currently the operative fallback.
-- Final blocker checkpoint: 63 relevant sources with timestamped transcript evidence (`metadata_files=63`, `unique_video_ids=63`, `errors=0`).
+- Final blocker checkpoint: 64 relevant sources with timestamped transcript evidence (`metadata_files=64`, `unique_video_ids=64`, `errors=0`).
 - Quarantined during validation: `yk2o6Sj3XQk` (ASR returned only repeated “Thank you”) and `dFIM6WcjYEc` (individual memory-training advertisement).
 - Groq exposes `whisper-large-v3` and `whisper-large-v3-turbo`, each with a 7,200 audio-seconds/hour limit.
 - Final YouTube probe with Chrome cookies and `--remote-components ejs:github` returned HTTP 429 and “Sign in to confirm you’re not a bot.”
-- 48 attempted/unresolved sources are materialized in `research/progress/youtube-failures.jsonl`.
+- 47 attempted/unresolved sources are materialized in `research/progress/youtube-failures.jsonl`.

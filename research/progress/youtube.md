@@ -8,7 +8,7 @@
 
 ## Current checkpoint
 
-- Validated relevant transcripts: **63** (`errors=0`).
+- Validated relevant transcripts: **64** (`errors=0`).
 - Mandatory seed ingestion: complete (`I9c8STV7Hnw`, 1,062 ASR segments, raw chunk JSON preserved).
 - Filename migration: complete for all six legacy files; manifest at `metadata/youtube-filename-migration.json`.
 - Required quarantine: complete (`fVut0ceg2IY`, unrelated OpenTable advertisement, excluded from metadata/count).
@@ -33,9 +33,9 @@ errors=0
 Final blocker checkpoint:
 
 ```text
-validated_relevant_transcripts=63
-metadata_files=63
-unique_video_ids=63
+validated_relevant_transcripts=64
+metadata_files=64
+unique_video_ids=64
 errors=0
 ```
 
@@ -49,11 +49,11 @@ errors=0
 
 ## Hard external blocker
 
-After 63 validated transcripts, the final recovery probe used both the available Chrome cookie database and yt-dlp's recommended remote EJS component:
+After 64 validated transcripts, the final recovery probe used both the available Chrome cookie database and yt-dlp's recommended remote EJS component:
 
 ```text
 WARNING: [youtube] Xsrcf1jMFWk: Unable to download webpage: HTTP Error 429: Too Many Requests
 ERROR: [youtube] Xsrcf1jMFWk: Sign in to confirm you’re not a bot.
 ```
 
-Cached signed audio URLs were attempted without new YouTube page requests. Google Video repeatedly returned `OpenSSL SSL_read: Connection reset by peer`; signed URLs are time-limited. Groq also enforced 7,200 audio-seconds/hour on each available Whisper model. The 48 attempted but unresolved source IDs, URLs, and last errors are preserved in `research/progress/youtube-failures.jsonl`.
+Cached signed audio URLs were attempted without new YouTube page requests. Google Video repeatedly returned `OpenSSL SSL_read: Connection reset by peer`; signed URLs are time-limited. Groq also enforced 7,200 audio-seconds/hour on each available Whisper model. The 47 attempted but unresolved source IDs, URLs, and last errors are preserved in `research/progress/youtube-failures.jsonl`.
