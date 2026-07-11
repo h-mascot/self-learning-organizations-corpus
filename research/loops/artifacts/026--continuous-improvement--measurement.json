@@ -1,0 +1,65 @@
+{
+  "loop": 26,
+  "topic": "continuous improvement",
+  "facet": "measurement",
+  "query": "\"continuous improvement\" measurement",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22continuous+improvement%22+measurement&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:50.217851+00:00",
+  "completed_at": "2026-07-11T14:08:50.772945+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.1201/b12529-10",
+      "title": [
+        "Measurement and Continuous Improvement ........................... Provision 8.1: Measurement and Analysis for Continuous"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2017,
+            7,
+            27
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1201/b12529-10",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.1201/b12529-15",
+      "title": [
+        "- Measurement and Continuous Improvement: Details"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2017,
+            7,
+            27
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1201/b12529-15",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.1515/9781501520426-033",
+      "title": [
+        "Chapter 26: Experimenting, Refining, and Continuous Improvement"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            12,
+            10
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1515/9781501520426-033",
+      "type": "book-chapter"
+    }
+  ]
+}

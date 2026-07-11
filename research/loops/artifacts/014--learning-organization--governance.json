@@ -1,0 +1,60 @@
+{
+  "loop": 14,
+  "topic": "learning organization",
+  "facet": "governance",
+  "query": "\"learning organization\" governance",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22learning+organization%22+governance&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:49.110737+00:00",
+  "completed_at": "2026-07-11T14:08:49.784115+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.1007/978-3-031-52015-0_3",
+      "title": [
+        "Organizational Learning Versus Individual Learning in the Organization"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2024
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1007/978-3-031-52015-0_3",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.1007/978-3-031-52015-0_2",
+      "title": [
+        "The Nature of Organization and Its Implications for Organizational Learning"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2024
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1007/978-3-031-52015-0_2",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.1046/j.1365-2834.2003.00435.x",
+      "title": [
+        "Clinical governance and the learning organization"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2004,
+            3
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1046/j.1365-2834.2003.00435.x",
+      "type": "journal-article"
+    }
+  ]
+}

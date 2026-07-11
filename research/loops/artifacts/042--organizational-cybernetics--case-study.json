@@ -1,0 +1,63 @@
+{
+  "loop": 42,
+  "topic": "organizational cybernetics",
+  "facet": "case study",
+  "query": "\"organizational cybernetics\" case study",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22organizational+cybernetics%22+case+study&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:51.608878+00:00",
+  "completed_at": "2026-07-11T14:08:52.208212+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.1109/icci68752.2026.11506445",
+      "title": [
+        "Evidence-Based Organizational Design: A Case Study of the Rubber Authority of Thailand"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            1
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1109/icci68752.2026.11506445",
+      "type": "proceedings-article"
+    },
+    {
+      "DOI": "10.4324/9780203361566-27",
+      "title": [
+        "Organizational Cybernetics"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2003,
+            9,
+            2
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.4324/9780203361566-27",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.4135/9781412957397.n237",
+      "title": [
+        "Organizational Culture"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2010
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.4135/9781412957397.n237",
+      "type": "reference-entry"
+    }
+  ]
+}

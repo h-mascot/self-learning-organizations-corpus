@@ -1,0 +1,59 @@
+{
+  "loop": 169,
+  "topic": "data flywheel",
+  "facet": "production deployment",
+  "query": "\"data flywheel\" production deployment",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22data+flywheel%22+production+deployment&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:09:01.062640+00:00",
+  "completed_at": "2026-07-11T14:09:01.752745+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.70593/978-93-7185-364-4_8",
+      "title": [
+        "Continuous Integration and Deployment for Data Systems"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            30
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.70593/978-93-7185-364-4_8",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.36040/flywheel.v17i1",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            17
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.36040/flywheel.v17i1",
+      "type": "journal-issue"
+    },
+    {
+      "DOI": "10.36040/flywheel.v15i2",
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            30
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.36040/flywheel.v15i2",
+      "type": "journal-issue"
+    }
+  ]
+}

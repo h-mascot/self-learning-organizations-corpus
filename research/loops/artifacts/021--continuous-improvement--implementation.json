@@ -1,0 +1,63 @@
+{
+  "loop": 21,
+  "topic": "continuous improvement",
+  "facet": "implementation",
+  "query": "\"continuous improvement\" implementation",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22continuous+improvement%22+implementation&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:49.789350+00:00",
+  "completed_at": "2026-07-11T14:08:50.464660+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.7249/rba4409-1",
+      "title": [
+        "Evaluation of Networks for School Improvement: Impacts, Implementation, and Lessons for Network-Based Continuous Improvement"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.7249/rba4409-1",
+      "type": "edited-book"
+    },
+    {
+      "DOI": "10.4324/9781315853741-2",
+      "title": [
+        "Continuous School Improvement"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2013,
+            10,
+            2
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.4324/9781315853741-2",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.2172/446291",
+      "title": [
+        "Reservoir continuous process improvement six sigma methodology implementation"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1996,
+            12,
+            1
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.2172/446291",
+      "type": "report"
+    }
+  ]
+}

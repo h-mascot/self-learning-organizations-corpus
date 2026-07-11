@@ -1,0 +1,59 @@
+{
+  "loop": 4,
+  "topic": "organizational learning",
+  "facet": "governance",
+  "query": "\"organizational learning\" governance",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22organizational+learning%22+governance&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:48.308118+00:00",
+  "completed_at": "2026-07-11T14:08:49.103417+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.1007/978-3-031-52015-0_8",
+      "title": [
+        "Empirical Study on Organizational Learning as Relational Governance"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2024
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1007/978-3-031-52015-0_8",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.4135/9781412952613.n372",
+      "title": [
+        "Organizational Learning"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2007
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.4135/9781412952613.n372",
+      "type": "reference-entry"
+    },
+    {
+      "DOI": "10.1007/978-3-031-52015-0_3",
+      "title": [
+        "Organizational Learning Versus Individual Learning in the Organization"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2024
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1007/978-3-031-52015-0_3",
+      "type": "book-chapter"
+    }
+  ]
+}

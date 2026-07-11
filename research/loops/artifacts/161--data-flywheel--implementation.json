@@ -1,0 +1,59 @@
+{
+  "loop": 161,
+  "topic": "data flywheel",
+  "facet": "implementation",
+  "query": "\"data flywheel\" implementation",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22data+flywheel%22+implementation&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:09:00.355619+00:00",
+  "completed_at": "2026-07-11T14:09:01.062456+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.1109/icdsec67721.2025.11439499",
+      "title": [
+        "Design and Implementation of a New Edge Detection Algorithm for Flywheel Detection"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            4
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1109/icdsec67721.2025.11439499",
+      "type": "proceedings-article"
+    },
+    {
+      "DOI": "10.36040/flywheel.v17i1",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            17
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.36040/flywheel.v17i1",
+      "type": "journal-issue"
+    },
+    {
+      "DOI": "10.36040/flywheel.v15i2",
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            30
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.36040/flywheel.v15i2",
+      "type": "journal-issue"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "loop": 91,
+  "topic": "agentic organization",
+  "facet": "implementation",
+  "query": "\"agentic organization\" implementation",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22agentic+organization%22+implementation&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:54.881745+00:00",
+  "completed_at": "2026-07-11T14:08:56.465031+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "HTTPError: HTTP Error 429: Too Many Requests",
+  "works": [
+    {
+      "DOI": "10.1007/978-3-032-23024-9_16",
+      "title": [
+        "Organization and Human Resources for Agentic AI in Procurement"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1007/978-3-032-23024-9_16",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.1007/978-3-032-23024-9_14",
+      "title": [
+        "Agentic AI Implementation for the Procurement: Roadmap and Lessons Learned"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1007/978-3-032-23024-9_14",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.5220/0014398700004070",
+      "title": [
+        "Agentic AI in Pharmacovigilance: A Position Paper on Opportunities, Challenges, and Implementation"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.5220/0014398700004070",
+      "type": "proceedings-article"
+    }
+  ]
+}

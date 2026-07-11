@@ -1,0 +1,62 @@
+{
+  "loop": 154,
+  "topic": "eval driven development",
+  "facet": "governance",
+  "query": "\"eval driven development\" governance",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22eval+driven+development%22+governance&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:59.717433+00:00",
+  "completed_at": "2026-07-11T14:09:00.355499+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.20944/preprints202601.0195.v1",
+      "title": [
+        "Eval-Driven Memory (EDM): A Persistence Governance Layer for Reliable Agentic AI via Metric-Guided Selective Consolidation"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            5
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.20944/preprints202601.0195.v1",
+      "type": "posted-content"
+    },
+    {
+      "DOI": "10.1007/s11092-022-09383-1",
+      "title": [
+        "Data-driven approaches to education governance and their implications"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            2
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1007/s11092-022-09383-1",
+      "type": "journal-article"
+    },
+    {
+      "DOI": "10.2139/ssrn.6372119",
+      "title": [
+        "Harness Engineering: Deterministic Architectural Governance for AI-Driven Software Development"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.2139/ssrn.6372119",
+      "type": "posted-content"
+    }
+  ]
+}

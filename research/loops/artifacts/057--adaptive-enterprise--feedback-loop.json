@@ -1,0 +1,62 @@
+{
+  "loop": 57,
+  "topic": "adaptive enterprise",
+  "facet": "feedback loop",
+  "query": "\"adaptive enterprise\" feedback loop",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22adaptive+enterprise%22+feedback+loop&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:52.662848+00:00",
+  "completed_at": "2026-07-11T14:08:53.162920+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.1109/sice.2008.4655038",
+      "title": [
+        "Remarks on feedback loop gain characteristics of adaptive type neural network feedforward feedback controller"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2008,
+            8
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1109/sice.2008.4655038",
+      "type": "proceedings-article"
+    },
+    {
+      "DOI": "10.1364/adop.1996.athc.20",
+      "title": [
+        "High Resolution Adaptive System with a Phase Knife in the Optical Feedback Loop"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1996
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1364/adop.1996.athc.20",
+      "type": "proceedings-article"
+    },
+    {
+      "DOI": "10.21236/ada382655",
+      "title": [
+        "FALCON: Feedback Adaptive Loop for Content-Based Retrieval"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2000,
+            6,
+            1
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.21236/ada382655",
+      "type": "report"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "loop": 5,
+  "topic": "organizational learning",
+  "facet": "failure",
+  "query": "\"organizational learning\" failure",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22organizational+learning%22+failure&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:48.308419+00:00",
+  "completed_at": "2026-07-11T14:08:49.043196+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.1093/oxfordhb/9780190263362.013.29",
+      "title": [
+        "Organizational Learning From Failure"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2017,
+            6,
+            6
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1093/oxfordhb/9780190263362.013.29",
+      "type": "reference-entry"
+    },
+    {
+      "DOI": "10.1007/978-1-4419-1428-6_5175",
+      "title": [
+        "Organizational Learning from Failure"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2012
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1007/978-1-4419-1428-6_5175",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.1016/j.orgdyn.2016.02.001",
+      "title": [
+        "The breakdown and rebuilding of learning during organizational crisis, disaster, and failure"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2016,
+            4
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1016/j.orgdyn.2016.02.001",
+      "type": "journal-article"
+    }
+  ]
+}

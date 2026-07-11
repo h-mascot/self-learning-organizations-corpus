@@ -1,0 +1,62 @@
+{
+  "loop": 47,
+  "topic": "organizational cybernetics",
+  "facet": "feedback loop",
+  "query": "\"organizational cybernetics\" feedback loop",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22organizational+cybernetics%22+feedback+loop&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:51.886637+00:00",
+  "completed_at": "2026-07-11T14:08:52.399828+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.1007/978-3-642-93104-8_4",
+      "title": [
+        "Simulation-Reality: A Feedback Loop"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1978
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1007/978-3-642-93104-8_4",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.2307/j.ctt7svbw.25",
+      "title": [
+        "IN THE LOOP:"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2002,
+            3,
+            4
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.2307/j.ctt7svbw.25",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.1080/01969720490443354",
+      "title": [
+        "THYROTROPIC FEEDBACK CONTROL: EVIDENCE FOR AN ADDITIONAL ULTRASHORT FEEDBACK LOOP FROM FRACTAL ANALYSIS"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2004,
+            6
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1080/01969720490443354",
+      "type": "journal-article"
+    }
+  ]
+}

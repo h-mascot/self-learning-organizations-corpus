@@ -1,0 +1,59 @@
+{
+  "loop": 173,
+  "topic": "decision intelligence",
+  "facet": "empirical evidence",
+  "query": "\"decision intelligence\" empirical evidence",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22decision+intelligence%22+empirical+evidence&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:09:01.449273+00:00",
+  "completed_at": "2026-07-11T14:09:11.179463+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.52783/pst.2372",
+      "title": [
+        "The Influence of Explainable Artificial Intelligence on Human Decision-Making: A Review of Empirical Evidence"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.52783/pst.2372",
+      "type": "journal-article"
+    },
+    {
+      "DOI": "10.1007/978-3-319-95049-5_3",
+      "title": [
+        "The Decision to Delist: International Empirical Evidence"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2018
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1007/978-3-319-95049-5_3",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.2139/ssrn.6962198",
+      "title": [
+        "Does the choice of eXplainable Artificial Intelligence method matter for trustworthy explanations? From empirical evidence to decision support"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.2139/ssrn.6962198",
+      "type": "posted-content"
+    }
+  ]
+}

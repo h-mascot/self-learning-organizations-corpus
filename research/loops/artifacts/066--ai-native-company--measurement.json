@@ -1,0 +1,65 @@
+{
+  "loop": 66,
+  "topic": "AI native company",
+  "facet": "measurement",
+  "query": "\"AI native company\" measurement",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22AI+native+company%22+measurement&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:53.282702+00:00",
+  "completed_at": "2026-07-11T14:08:53.775345+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.3139/9783446486508.fm",
+      "title": [
+        "AI Native"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            7
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.3139/9783446486508.fm",
+      "type": "other"
+    },
+    {
+      "DOI": "10.1201/9781003559665-7",
+      "title": [
+        "AI Native"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            9
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1201/9781003559665-7",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.3139/9783446486508.016",
+      "title": [
+        "Schlusswort: AI First und wieso AI Native eine Vision bleibt"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            7
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.3139/9783446486508.016",
+      "type": "book-chapter"
+    }
+  ]
+}

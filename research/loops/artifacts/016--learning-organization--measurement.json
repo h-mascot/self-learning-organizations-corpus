@@ -1,0 +1,63 @@
+{
+  "loop": 16,
+  "topic": "learning organization",
+  "facet": "measurement",
+  "query": "\"learning organization\" measurement",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22learning+organization%22+measurement&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:49.144823+00:00",
+  "completed_at": "2026-07-11T14:08:49.789266+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.1093/oxfordhb/9780198832355.013.16",
+      "title": [
+        "Measurement of the Learning Organization Construct: A Critical Perspective and Future Directions for Research"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2019,
+            12,
+            12
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1093/oxfordhb/9780198832355.013.16",
+      "type": "reference-entry"
+    },
+    {
+      "DOI": "10.4324/9781315652566-5",
+      "title": [
+        "The emergent feedback organization"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2016,
+            2,
+            26
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.4324/9781315652566-5",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.3102/2192626",
+      "title": [
+        "Aligning and Defining Measurement for an Informal STEM Learning Organization"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.3102/2192626",
+      "type": "proceedings-article"
+    }
+  ]
+}

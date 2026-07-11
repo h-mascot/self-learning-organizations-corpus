@@ -1,0 +1,65 @@
+{
+  "loop": 99,
+  "topic": "agentic organization",
+  "facet": "production deployment",
+  "query": "\"agentic organization\" production deployment",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22agentic+organization%22+production+deployment&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:55.728966+00:00",
+  "completed_at": "2026-07-11T14:08:56.295486+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.1109/aiiot68874.2026.11569604",
+      "title": [
+        "PARA: A Production Agentic Readiness Assessment Framework for Closing the Enterprise AI Deployment Gap"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            20
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1109/aiiot68874.2026.11569604",
+      "type": "proceedings-article"
+    },
+    {
+      "DOI": "10.4324/9781003757108-6",
+      "title": [
+        "Agentic Organization Paradigm"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            18
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.4324/9781003757108-6",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.4324/9781003676157-4",
+      "title": [
+        "Developing Scalable Agentic AI Models for Healthcare Production"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            22
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.4324/9781003676157-4",
+      "type": "book-chapter"
+    }
+  ]
+}

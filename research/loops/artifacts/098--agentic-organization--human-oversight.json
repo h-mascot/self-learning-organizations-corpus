@@ -1,0 +1,59 @@
+{
+  "loop": 98,
+  "topic": "agentic organization",
+  "facet": "human oversight",
+  "query": "\"agentic organization\" human oversight",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22agentic+organization%22+human+oversight&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:55.404072+00:00",
+  "completed_at": "2026-07-11T14:08:55.945783+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.2139/ssrn.5529058",
+      "title": [
+        "Agentic AI has a Human Oversight Problem"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.2139/ssrn.5529058",
+      "type": "posted-content"
+    },
+    {
+      "DOI": "10.2139/ssrn.6224460",
+      "title": [
+        "The Evaluation Paradox: Cognitive Atrophy and the Erosion of Human Oversight in Agentic Workflows"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.2139/ssrn.6224460",
+      "type": "posted-content"
+    },
+    {
+      "DOI": "10.2139/ssrn.6699098",
+      "title": [
+        "The Environmental Gap in Agentic AI Governance: Why Human Oversight Fails Without Pre-Deployment Infrastructure Assessment"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.2139/ssrn.6699098",
+      "type": "posted-content"
+    }
+  ]
+}

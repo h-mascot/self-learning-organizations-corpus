@@ -1,0 +1,63 @@
+{
+  "loop": 34,
+  "topic": "lean kaizen",
+  "facet": "governance",
+  "query": "\"lean kaizen\" governance",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22lean+kaizen%22+governance&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:50.989775+00:00",
+  "completed_at": "2026-07-11T14:08:51.479760+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.1201/b12745-6",
+      "title": [
+        "- What Is Kaizen?"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2017,
+            7,
+            27
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1201/b12745-6",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.1142/9789811292446_0001",
+      "title": [
+        "Lean Management and Kaizen"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            9
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1142/9789811292446_0001",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.1142/9789811292446_0015",
+      "title": [
+        "Lean Innovation — Kaikaku, Kaizen, and Innovation"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            9
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1142/9789811292446_0015",
+      "type": "book-chapter"
+    }
+  ]
+}

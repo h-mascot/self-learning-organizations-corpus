@@ -1,0 +1,54 @@
+{
+  "loop": 199,
+  "topic": "knowledge creating company",
+  "facet": "production deployment",
+  "query": "\"knowledge creating company\" production deployment",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22knowledge+creating+company%22+production+deployment&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:09:11.929834+00:00",
+  "completed_at": "2026-07-11T14:09:12.736228+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.1201/b12358-11",
+      "title": [
+        "Creating Your Lean Road Map (Strategy Deployment)"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2012,
+            6,
+            29
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1201/b12358-11",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.1057/9781137024961.0022",
+      "title": [
+        "Knowledge after the Knowledge Creating Company"
+      ],
+      "URL": "https://doi.org/10.1057/9781137024961.0022",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.1016/b978-0-7506-7009-8.50016-1",
+      "title": [
+        "The Knowledge-Creating Company"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1998
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1016/b978-0-7506-7009-8.50016-1",
+      "type": "book-chapter"
+    }
+  ]
+}

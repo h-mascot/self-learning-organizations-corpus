@@ -1,0 +1,54 @@
+{
+  "loop": 200,
+  "topic": "knowledge creating company",
+  "facet": "evaluation",
+  "query": "\"knowledge creating company\" evaluation",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22knowledge+creating+company%22+evaluation&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:09:12.102504+00:00",
+  "completed_at": "2026-07-11T14:09:12.764046+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.1057/9781137024961.0022",
+      "title": [
+        "Knowledge after the Knowledge Creating Company"
+      ],
+      "URL": "https://doi.org/10.1057/9781137024961.0022",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.1016/b978-0-7506-7009-8.50016-1",
+      "title": [
+        "The Knowledge-Creating Company"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1998
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1016/b978-0-7506-7009-8.50016-1",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.1093/oso/9780195092691.003.0004",
+      "title": [
+        "Creating Knowledge in Practice"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1995,
+            5,
+            18
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1093/oso/9780195092691.003.0004",
+      "type": "book-chapter"
+    }
+  ]
+}

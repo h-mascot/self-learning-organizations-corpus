@@ -1,0 +1,63 @@
+{
+  "loop": 144,
+  "topic": "agent monitoring repair",
+  "facet": "governance",
+  "query": "\"agent monitoring repair\" governance",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22agent+monitoring+repair%22+governance&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:58.968824+00:00",
+  "completed_at": "2026-07-11T14:08:59.607173+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.37896/jxu14.5/212",
+      "title": [
+        "Analogy between Agent Less Monitoring and Agent Based Monitoring"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2020,
+            5,
+            9
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.37896/jxu14.5/212",
+      "type": "journal-article"
+    },
+    {
+      "DOI": "10.4135/9781412952613.n421",
+      "title": [
+        "Principal-Agent Model"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2007
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.4135/9781412952613.n421",
+      "type": "reference-entry"
+    },
+    {
+      "DOI": "10.32388/618e5i",
+      "title": [
+        "DNA Repair Enzyme Topical Agent"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2020,
+            2,
+            7
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.32388/618e5i",
+      "type": "reference-entry"
+    }
+  ]
+}

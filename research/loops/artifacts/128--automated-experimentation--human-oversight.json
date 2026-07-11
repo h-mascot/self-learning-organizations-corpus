@@ -1,0 +1,65 @@
+{
+  "loop": 128,
+  "topic": "automated experimentation",
+  "facet": "human oversight",
+  "query": "\"automated experimentation\" human oversight",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22automated+experimentation%22+human+oversight&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:57.752316+00:00",
+  "completed_at": "2026-07-11T14:08:58.382346+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.4324/9781315198231-16",
+      "title": [
+        "Is National, Independent Oversight Needed for the Protection of Human Subjects?"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2017,
+            7,
+            12
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.4324/9781315198231-16",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.4324/9781315198231-17",
+      "title": [
+        "National, Independent Oversight: Reinforcing the Safety Net for Human Subjects Research*"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2017,
+            7,
+            12
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.4324/9781315198231-17",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.21275/sr251113081129",
+      "title": [
+        "Integrating Human Oversight with AI-Based Planning Systems: A Framework for Ethical Business Intelligence and Adaptive Experimentation in Nationally Critical Sectors"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            17
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.21275/sr251113081129",
+      "type": "journal-article"
+    }
+  ]
+}

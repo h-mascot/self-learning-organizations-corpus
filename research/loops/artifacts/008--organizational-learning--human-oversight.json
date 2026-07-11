@@ -1,0 +1,63 @@
+{
+  "loop": 8,
+  "topic": "organizational learning",
+  "facet": "human oversight",
+  "query": "\"organizational learning\" human oversight",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22organizational+learning%22+human+oversight&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:48.309354+00:00",
+  "completed_at": "2026-07-11T14:08:49.116628+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.4324/9781315853253",
+      "title": [
+        "Organizational Oversight"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2013,
+            10,
+            18
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.4324/9781315853253",
+      "type": "book"
+    },
+    {
+      "DOI": "10.1109/hfpp.2007.4413178",
+      "title": [
+        "New reactor and safety culture considerations in Finland - oversight of organizational factors"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2007,
+            8
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1109/hfpp.2007.4413178",
+      "type": "proceedings-article"
+    },
+    {
+      "DOI": "10.7176/jiea/15-2-09",
+      "title": [
+        "Recalibrating Responsible AI: Non-Western Ethics, Sustainable Machine Learning, and Human Oversight"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            9
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.7176/jiea/15-2-09",
+      "type": "journal-article"
+    }
+  ]
+}

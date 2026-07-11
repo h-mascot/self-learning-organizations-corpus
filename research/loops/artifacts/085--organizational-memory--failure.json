@@ -1,0 +1,65 @@
+{
+  "loop": 85,
+  "topic": "organizational memory",
+  "facet": "failure",
+  "query": "\"organizational memory\" failure",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22organizational+memory%22+failure&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:54.572497+00:00",
+  "completed_at": "2026-07-11T14:08:55.082644+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.4324/9781315259284-6",
+      "title": [
+        "Where Failure is not Delayed Success"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2017,
+            5,
+            15
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.4324/9781315259284-6",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.1145/3624875.3624877",
+      "title": [
+        "How Computer Usage affects Organizational Memory - Case Study of a Japanese Company Implementing Organizational Learning from Failure"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            4
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1145/3624875.3624877",
+      "type": "proceedings-article"
+    },
+    {
+      "DOI": "10.1109/ieem63636.2025.11357755",
+      "title": [
+        "Organizational Memory Enhanced by Computer Usage in Organizational Learning from Failure Practice: A Reproducibility Study Using Latest Data"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            7
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1109/ieem63636.2025.11357755",
+      "type": "proceedings-article"
+    }
+  ]
+}

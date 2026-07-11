@@ -1,0 +1,60 @@
+{
+  "loop": 157,
+  "topic": "eval driven development",
+  "facet": "feedback loop",
+  "query": "\"eval driven development\" feedback loop",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22eval+driven+development%22+feedback+loop&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:59.932537+00:00",
+  "completed_at": "2026-07-11T14:09:00.557077+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.2139/ssrn.5828963",
+      "title": [
+        "The B Feedback Loop (BFL): A Data-Driven Framework for Strategic Customer Feedback Management"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.2139/ssrn.5828963",
+      "type": "journal-article"
+    },
+    {
+      "DOI": "10.1145/1007771.55597",
+      "title": [
+        "Efficient distributed event driven simulations of multiple-loop networks"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1988,
+            5
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1145/1007771.55597",
+      "type": "journal-article"
+    },
+    {
+      "DOI": "10.2139/ssrn.5997695",
+      "title": [
+        "Demand-Driven Contractual Closed-Loop Theory : A Framework for Resource Allocation Based on Real Usage Feedback"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.2139/ssrn.5997695",
+      "type": "posted-content"
+    }
+  ]
+}

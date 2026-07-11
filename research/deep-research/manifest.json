@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-11T14:10:00Z",
+  "runs": [
+    {
+      "provider": "OpenAI",
+      "surface": "Codex CLI native web search",
+      "model": "gpt-5.4",
+      "date": "2026-07-11",
+      "status": "complete",
+      "report": "openai/report.md",
+      "execution_log": "openai/execution.log",
+      "preflight": "openai/preflight.txt",
+      "report_bytes": 22386,
+      "citation_list_entries": 17,
+      "notes": "Complete model answer and tool execution log preserved. Citations require ongoing link/relevance review."
+    },
+    {
+      "provider": "Perplexity",
+      "surface": "CLI/MCP discovery and direct API recovery probe",
+      "model": "sonar-deep-research",
+      "date": "2026-07-11",
+      "status": "blocked",
+      "report": null,
+      "blocker": "No CLI, MCP server, or credential found; API returned HTTP 401 invalid_api_key.",
+      "proof": "perplexity/blocker-proof.txt",
+      "recovery": "Configure a valid Perplexity API key/provider and rerun the same prompt."
+    }
+  ]
+}

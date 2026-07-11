@@ -1,0 +1,56 @@
+{
+  "loop": 31,
+  "topic": "lean kaizen",
+  "facet": "implementation",
+  "query": "\"lean kaizen\" implementation",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22lean+kaizen%22+implementation&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:50.513845+00:00",
+  "completed_at": "2026-07-11T14:08:51.064632+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.4337/9781035302918.00024",
+      "title": [
+        "Anxiety that drives kaizen: a strategic blueprint for kaizen implementation across borders"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            3,
+            21
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.4337/9781035302918.00024",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.20474/jabs-3.6.2",
+      "title": [
+        "A frontier in organizational and business process innovation in service management through lean six sigma Kaizen project implementation"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2017,
+            12,
+            4
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.20474/jabs-3.6.2",
+      "type": "journal-article"
+    },
+    {
+      "DOI": "10.51415/10321/3644",
+      "title": [
+        "An application of lean six sigma techniques to accelerate the implementation of Kaizen in the film packaging industry"
+      ],
+      "URL": "https://doi.org/10.51415/10321/3644",
+      "type": "dissertation"
+    }
+  ]
+}

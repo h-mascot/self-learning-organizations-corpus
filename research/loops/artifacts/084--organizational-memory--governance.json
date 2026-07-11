@@ -1,0 +1,47 @@
+{
+  "loop": 84,
+  "topic": "organizational memory",
+  "facet": "governance",
+  "query": "\"organizational memory\" governance",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22organizational+memory%22+governance&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:54.568182+00:00",
+  "completed_at": "2026-07-11T14:08:55.091447+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.1108/s1746-979120160000012017",
+      "title": [
+        "Emotions and Organizational Governance"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2016,
+            6,
+            14
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1108/s1746-979120160000012017",
+      "type": "other"
+    },
+    {
+      "DOI": "10.1007/springerreference_75643",
+      "title": [
+        "Governance, Organizational"
+      ],
+      "URL": "https://doi.org/10.1007/springerreference_75643",
+      "type": "reference-entry"
+    },
+    {
+      "DOI": "10.1057/9781137264237.0010",
+      "title": [
+        "Breaking Organizational Boundaries"
+      ],
+      "URL": "https://doi.org/10.1057/9781137264237.0010",
+      "type": "book-chapter"
+    }
+  ]
+}

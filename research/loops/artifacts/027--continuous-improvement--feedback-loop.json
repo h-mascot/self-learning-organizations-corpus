@@ -1,0 +1,61 @@
+{
+  "loop": 27,
+  "topic": "continuous improvement",
+  "facet": "feedback loop",
+  "query": "\"continuous improvement\" feedback loop",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22continuous+improvement%22+feedback+loop&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:50.433925+00:00",
+  "completed_at": "2026-07-11T14:08:50.989673+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.64357/neya-gjnps-prdvnevlmximp-tp-08",
+      "title": [
+        "Teaching Paper: Feedback Loop Implementation for Continuous Improvement in Non-Profit Organizations: Using stakeholder feedback to enhance program effectiveness and organizational learning"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.64357/neya-gjnps-prdvnevlmximp-tp-08",
+      "type": "journal-article"
+    },
+    {
+      "DOI": "10.5040/9798216410270.ch-005",
+      "title": [
+        "The Role of Failure and Feedback in the Continuous-Improvement Process"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2023
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.5040/9798216410270.ch-005",
+      "type": "other"
+    },
+    {
+      "DOI": "10.4324/9781410608871-24",
+      "title": [
+        "Changing Technologies and Jobs: Toward Feedback-Oriented, Continuous Learning Environments"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2003,
+            9,
+            12
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.4324/9781410608871-24",
+      "type": "book-chapter"
+    }
+  ]
+}

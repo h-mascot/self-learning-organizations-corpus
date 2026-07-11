@@ -1,0 +1,61 @@
+{
+  "loop": 68,
+  "topic": "AI native company",
+  "facet": "human oversight",
+  "query": "\"AI native company\" human oversight",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22AI+native+company%22+human+oversight&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:53.458728+00:00",
+  "completed_at": "2026-07-11T14:08:54.055501+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.2139/ssrn.5529058",
+      "title": [
+        "Agentic AI has a Human Oversight Problem"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.2139/ssrn.5529058",
+      "type": "posted-content"
+    },
+    {
+      "DOI": "10.2139/ssrn.5131229",
+      "title": [
+        "Requirements of high-risk AI systems: AI Act. Article 14. Human oversight"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.2139/ssrn.5131229",
+      "type": "posted-content"
+    },
+    {
+      "DOI": "10.31274/cc-20260223-24",
+      "title": [
+        "Human Oversight and Governance Mechanisms for Generative AI in Organizations"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            1
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.31274/cc-20260223-24",
+      "type": "report"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "loop": 29,
+  "topic": "continuous improvement",
+  "facet": "production deployment",
+  "query": "\"continuous improvement\" production deployment",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22continuous+improvement%22+production+deployment&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:50.456571+00:00",
+  "completed_at": "2026-07-11T14:08:51.068793+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.4324/9781315369624-3",
+      "title": [
+        "The New Lean—A Fresh New Approach to Lean Deployment and Continuous Improvement"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            4,
+            29
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.4324/9781315369624-3",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.1007/979-8-8688-1536-2",
+      "title": [
+        "AI Management Framework"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1007/979-8-8688-1536-2",
+      "type": "book"
+    },
+    {
+      "DOI": "10.5772/16602",
+      "title": [
+        "Quality Function Deployment in Continuous Improvement"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2011,
+            7,
+            14
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.5772/16602",
+      "type": "book-chapter"
+    }
+  ]
+}

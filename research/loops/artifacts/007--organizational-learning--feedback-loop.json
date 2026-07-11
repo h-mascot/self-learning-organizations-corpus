@@ -1,0 +1,63 @@
+{
+  "loop": 7,
+  "topic": "organizational learning",
+  "facet": "feedback loop",
+  "query": "\"organizational learning\" feedback loop",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22organizational+learning%22+feedback+loop&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:48.309116+00:00",
+  "completed_at": "2026-07-11T14:08:49.110645+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.64357/neya-gjnps-prdvnevlmximp-tp-08",
+      "title": [
+        "Teaching Paper: Feedback Loop Implementation for Continuous Improvement in Non-Profit Organizations: Using stakeholder feedback to enhance program effectiveness and organizational learning"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.64357/neya-gjnps-prdvnevlmximp-tp-08",
+      "type": "journal-article"
+    },
+    {
+      "DOI": "10.1108/978-1-80071-505-920211002",
+      "title": [
+        "The Feedback Loop: Learning from Videogame Experiences"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            4,
+            22
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1108/978-1-80071-505-920211002",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.31234/osf.io/upwt8",
+      "title": [
+        "Inhibitory Learning as Prediction Error Feedback Loop"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            8,
+            17
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.31234/osf.io/upwt8",
+      "type": "posted-content"
+    }
+  ]
+}

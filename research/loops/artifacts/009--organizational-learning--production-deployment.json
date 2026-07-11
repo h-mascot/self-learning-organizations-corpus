@@ -1,0 +1,54 @@
+{
+  "loop": 9,
+  "topic": "organizational learning",
+  "facet": "production deployment",
+  "query": "\"organizational learning\" production deployment",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22organizational+learning%22+production+deployment&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:49.043309+00:00",
+  "completed_at": "2026-07-11T14:08:49.560927+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.33612/diss.1226372588",
+      "title": [
+        "Towards Real-World Deployment of Reinforcement Learning"
+      ],
+      "URL": "https://doi.org/10.33612/diss.1226372588",
+      "type": "dissertation"
+    },
+    {
+      "DOI": "10.3997/2214-4609.202113332",
+      "title": [
+        "Deployment of Machine Learning Solutions to Production Seismic Processing"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2021
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.3997/2214-4609.202113332",
+      "type": "proceedings-article"
+    },
+    {
+      "DOI": "10.1007/978-1-4842-6546-8_5",
+      "title": [
+        "Machine Learning Deployment Using Kubernetes"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2020,
+            12,
+            15
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1007/978-1-4842-6546-8_5",
+      "type": "book-chapter"
+    }
+  ]
+}

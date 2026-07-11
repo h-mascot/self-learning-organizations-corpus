@@ -1,0 +1,47 @@
+{
+  "loop": 179,
+  "topic": "decision intelligence",
+  "facet": "production deployment",
+  "query": "\"decision intelligence\" production deployment",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22decision+intelligence%22+production+deployment&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:09:02.280277+00:00",
+  "completed_at": "2026-07-11T14:09:11.922946+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.1163/ejb9789004244627.b09008",
+      "title": [
+        "Interagency Intelligence Report, A Soviet Land-Mobile ICBM ::Evidence of Development and Considerations Affecting a Decision on Deployment, October 1974, Top Secret."
+      ],
+      "URL": "https://doi.org/10.1163/ejb9789004244627.b09008",
+      "type": "dataset"
+    },
+    {
+      "DOI": "10.36227/techrxiv.175203708.81014137/v1",
+      "title": [
+        "Pilot Deployment of an AI-Driven Production Intelligence Platform in a Textile Assembly Line Author"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            9
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.36227/techrxiv.175203708.81014137/v1",
+      "type": "posted-content"
+    },
+    {
+      "DOI": "10.1163/ejb9789004244627.b05036",
+      "title": [
+        "CIA, Office of Research and Reports, Factors Affecting Soviet Missile Production and Deployment, August 11, 1959, Top Secret [Daunt]."
+      ],
+      "URL": "https://doi.org/10.1163/ejb9789004244627.b05036",
+      "type": "dataset"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "loop": 185,
+  "topic": "organizational digital twin",
+  "facet": "failure",
+  "query": "\"organizational digital twin\" failure",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22organizational+digital+twin%22+failure&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:09:10.271164+00:00",
+  "completed_at": "2026-07-11T14:09:11.873844+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.21272/sec.5(3).126-133.2021",
+      "title": [
+        "Towards Organizational Development In Digital Organizational Twin"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2021
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.21272/sec.5(3).126-133.2021",
+      "type": "journal-article"
+    },
+    {
+      "DOI": "10.31219/osf.io/pa53r",
+      "title": [
+        "Advancing Congestive Heart Failure Management through Digital Twin Integration"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            3,
+            25
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.31219/osf.io/pa53r",
+      "type": "posted-content"
+    },
+    {
+      "DOI": "10.1016/b978-0-443-45573-5.00012-4",
+      "title": [
+        "Exploring the concept and use of organizational digital twin"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1016/b978-0-443-45573-5.00012-4",
+      "type": "book-chapter"
+    }
+  ]
+}

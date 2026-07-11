@@ -1,0 +1,301 @@
+Title: How to Build a Self-Improving Company with AI  : YC Startup Library | Y Combinator
+URL: https://www.ycombinator.com/library/Qf-how-to-build-a-self-improving-company-with-ai
+Published: 2026-05-21T00:00:00.000Z
+Author: N/A
+Highlights:
+In this recent batch talk, YC General Partner Tom Blomfield breaks down how to build a self-improving company using AI. He'll cover how to create a series of recursive, self-improving AI loops and explain why the founders who get this right will run companies that can improve while they sleep.
+
+## Transcript
+...
+Tom Blomfield (presenter): This is based a little bit off a talk Diana gave. There's a video up over the weekend, which is super cool. Um Jack Dorsey was tweeting some stuff like two or three weeks ago that I thought was super cool. And I've kind of um stolen a bunch of those ideas and shoved them into here. This talk is like pretty conceptual and high-level about thinking about how to build companies. So the Roman legions were designed to Project power over two continents or something, from Rome at the centre to like these people on Hadrian's wall up in Scotland. And the idea was um this nested hierarchies with consistent spans of control. And you had like named individual with spans of control to pass orders down and send information back up the hierarchy. And if you think about most companies today, they are organized like a Roman Legion, where human beings are the conduit for information flowing up and down. And so Jack Dorsey's tweet, which I thought was great, was it's like this underlying assumption that hierarchically organized companies are the are the way that we should be organizing like our economic units of value. And I think AI basically breaks that. If you talk to people a year ago about how AI was useful, they talked about productivity, like copilots, making engineers 20% more productive, adding copilots to workflows, shipping more software. But I think that is actually a broken way of thinking about AI. That's like P had a great blog post. We're basically just like taking the old way of working and adding like a more powerful engine onto it. And instead of that, I think you can reimagine like what a company is and how it acts. And so as Gary's talking, like, he I genuinely believe can produce more code than an entire engineering team. The thing that's really stuck with me is this idea of like extracting the domain knowledge from your company and defining it as a as like context or a set of skills or whatever you want to call it. But like this idea that there's domain knowledge or business knowledge or some know-how that's inside the heads of people and in Slack messages and in emails and in notion, all of this like information together defines how your company works. And if you can make that legible, you suddenly can can move from this hierarchical organization to a sort of intelligent AI-powered organization with AI native software. AI isn't the something it's not something you bolt onto the side of the company. It's not like a tool you give to your engineers to make them more productive. But I think you can reimagine what a company is as a set of recursive, self-improving AI loops. I think this is really, really, really important because when it gets there, I think the company starts to self improve even when you're sleeping. So let me give you an example. Diana's talk talks about this as well. This AI loop, you start with like a sensor layer, which is like that's a fancy word, but really it might be like emails from your customers, might be support tickets, code changes, people cancelling their subscription, uh product telemetry. It's like sensor data to get information from the outside world. And then a policy layer, decision layer, like rules about what you can do, what it has to ask a human permission for, what it must log, a tool layer. That's kind of Gary's skills and code, like the tool layer is Gary's code. It's basically deterministic APIs, things like query my database or look at my calendar. Um a set of tools that the the AI can pull, a quality gate, like that might be evals, deterministic checks, safety filters, human review for high risk stuff, and then a learning mechanism. It's like your system interacts with the real world, picks up where it doesn't work, and loops back into the top again. And if you can run every single step of that without human intervention, without with minimal human intervention, your system gets better and better and better while you're sleeping. And I can give you actual examples of this that are live right now. We started with an agent that you can ask and it it has deterministic tools to query our database. Pretty simple, like when did I last have office hours with this company? Then it got a little bit smarter, which was like for this company I'm doing office hours with right now, they need introductions for anyone in petrochemicals or something. And it could query the database in different ways and use RAG and all sorts of stuff to like come up with five relevant founders for you to meet. But again, this is like, this is a sidekick, right? This is an agent. This is like the old, this is last year's version of how A how AI is making me better as a group partner. It's making me twenty or thirty percent more effective. The aha moment for me came when we put a monitoring agent on top of that, which looked at every single query every single YC employee was doing and saw when it worked and when it did not work. And when it did not work, it's like, oh, why not? What would have made this query work? Do we need different deterministic tools? Do we need to update the skills file? Do we need a different database view? Do we need a new index? And this happened, this literally happens overnight now. Let's write the code, put in a merge request of the YC code base, have an agent review it and merge it and deploy it. So when a human comes the next day to ask the same query, it will now succeed. For me, that was like the Holy fucking shit. Right. That's not just AI making you 20 or 30% more valuable. It is the AI going through this loop to figure out how to self-improve. And I think basically, if you can identify parts of your company that work like this and eliminate as much have the human and kind of a monitoring of supervisory capacity, you can just throw tokens at this problem and your company will get better. And so other examples might be if you have product analytics. Having an agent go through your product analytics to figure out what part of your sales funnel is presenting the highest amount of friction, researching best practices, putting in place an A-B test, running it for a week, picking the best version and deploying it. Then just doing that again and again and again for your product. So just have a self-optimizing, like product loop. Or you do it with customer service queries. You have customer. Suggestions coming in and in and in, you triage it with a kind of you have to have an agent which is like your chief product officer and your chief technology officer who make kind of judgment calls about okay, this is a suggestion we just don't want to do, we'll discard it. But no, this is a suggestion which is now in line with our roadmap. Um, we can do it overnight. Let's write the code, let's deploy it, let's ship it to the customer without a human being involved. So I think if you can think about each part of your company as a self-improving, like recursive AI loop.
+...
+): It becomes
+...
+. We are seeing
+...
+I think that's going to continue to series A and series B
+...
+And by the end of the weekend, he had a 150 page user manual, which is dramatically better than the existing user manual. And now we can also update it every single month. So our user manual becomes self improving. Every new piece of advice we give, it's compared with the existing user manual and either incorporated or thrown away. So the user manual becomes this up to date living brain of the advice we give to founders. And obviously, it doesn't stop as a user manual. You then pump it in as context to an AI agent, and suddenly you can ask a super intelligent AI.
+...
+one-shot to a pretty high level of quality
+
+---
+
+Title: The Playbook For Building An A… - Y Combinator Startup Podcast - Apple Podcasts
+URL: https://podcasts.apple.com/us/podcast/the-playbook-for-building-an-ai-native-company/id1236907421?i=1000763451424
+Published: 2026-04-24T15:05:14.000Z
+Author: N/A
+Highlights:
+# The Playbook For Building An AI Native Company
+...
+AI isn't just making teams more productive. It's changing how companies should be built.
+...
+In this episode of Startup School, YC Partner Diana Hu explains what it means to build an AI-native company, where AI isn't just a tool but the operating system your company runs on.
+...
+She breaks down how to make your company queryable so agents can improve across every function, why management hierarchies break down when an intelligence layer replaces human middleware, and why early-stage founders have a massive edge in building this way from day one.
+
+---
+
+Title: How to Build a Self-Improving Company with AI
+URL: https://www.youtube.com/watch?v=X_JsIHUfUjc
+Published: 2026-05-21T14:00:51.000Z
+Author: Y Combinator
+Highlights:
+# How to Build a Self-Improving Company with AI
+...
+In this recent batch talk, YC General Partner Tom Blomfield breaks down how to build a self-improving company using AI. He'll cover how to create a series of recursive, self-improving AI loops and explain why the founders who get this right will run companies that can improve while they sleep.
+...
+- 00:00 Companies Are Roman Legions
+- 00:54 Copilots Are the Wrong Mental Model
+- 01:55 Extract the Domain Knowledge
+- 02:24 The Recursive Self-Improving Loop
+- 04:12 The Holy Shit Moment at YC
+- 05:50 Self-Optimizing Product and Support Loops
+- 06:29 Burn Tokens, Not Headcount
+- 07:23 Middle Management Is Over
+- 08:05 Make Everything Legible to AI
+- 09:40 Regenerating the YC User Manual
+- 11:19 Software Is Ephemeral, Context Is Valuable
+- 12:18 Where Humans Still Matter
+...
+And if you can make that legible, you suddenly can can move from this hierarchical organization to a sort of intelligent AI-powered organization with AI-native software. AI isn't the something It's not something you bolt onto the side of a company. It's not like a tool you give to engineers to make them more productive. But I think you can reimagine what a company is as a set of recursive self-improving AI loops. I think this is really, really, really important because when it gets there, I think the company starts to self-improve even when you're sleeping.
+...
+So let me give you an example. Diane's talk talks about this as well. This AI loop, you start with like a sensor layer which is like That's a fancy word, but really it might be like emails from your customers. Might be support tickets, code changes, people canceling their subscription, uh product telemetry. It's like sensor data to get information from the outside world. And then a a policy layer, decision layer, like rules about what you can do, what it has to ask a human permission for, what it must log. A tool layer that's kind of Gary's skills and code, like the tool layer is Gary's code. It's basically deterministic APIs, things like query my database or look at my calendar. Um a set of tools that the the AI can call. A quality gate, like that might be eval's deterministic checks, safety filters, human review for high-risk stuff. And then a learning mechanism. It's like your system interacts with the real world, picks up where it doesn't work and loops back into the top again. And if you can run every single step of that without human intervention without with minimal human intervention, your system gets better and better and better while you're are And I can give you actual examples of this that are live right now. We started with an agent that you can ask and if it has deterministic tools to query our database. Pretty simple, like when did I last have office hours with this company? Then it got a little bit smarter, which was like, for this company I'm doing office hours with right now, they need introductions for anyone in petrochemicals or something.
+...
+And when it did not work, it's like, oh, why not? What would have made this query work? Do we need different deterministic tools? Do we need to update the skills file? Do we need a different database for you? Do we need a new index? And this happened This literally happens overnight now. Let's write the code, put in a merge request to the YC code base, have an agent review it, and merge it, and deploy it. So, when a human comes the next day to ask the same query, it will now succeed. For me, that was like the holy [ __ ] [ __ ] But that's not just AI making you 20 or 30% more valuable, it is the AI going through this loop to figure out how to self-improve. And I think basically, if you can identify parts of your company that work like this and eliminate as much of have the human in kind of a monitoring or supervisory capacity, you can just throw tokens at this problem and your company will get better.
+...
+And so, other examples might be, if you have product analytics, having an agent go through your product analytics to to figure out what part of your sales funnel is presenting the highest amount of friction, researching best practices, putting in place an AB test, running it for a week, picking the best version, and deploying it. Then doing that again and again and again for your product. So you have a self-optimizing like product loop. Or you do it with customer service queries. You have customer suggestions coming in and in and in. You triage it with a kind of You have to have an agent which is like your chief product officer and your chief technology officer who make kind of judgment calls about Okay, this is a suggestion which we just don't want to do. We'll discard it. But no, this is a suggestion which is now in line with our road map. Um we can do it overnight.
+...
+So I think if you can think about each part of your company as a self-improving like recursive AI loop, it becomes very very different to this like hierarchically organized Roman legion of a company. So what? So like if you want to do this, what are the implications?
+...
+And I think you can build companies based on ICs effectively. I I think just middle management is is over. So, building the self-improving company, that's the dream. And by the way, I think like people are at the bleeding edge of this right now.
+...
+I might be wrong. You might prove me wrong. What would I do? First of all, this is really, really important. I would make the entire organization legible to AI. What does that mean? It means you've got to record everything.
+...
+I'm going to talk to 20 people." Yeah, so it needs to be on my phone or a or or smart glasses. Or we deck out every room with like microphones. But basically, everything needs to be recorded so that it can be legible to the AI. And then as Garry talked about like diarization, you cannot pump in 100,000 hours worth of recordings into context window. So, you have to diarize it. You have to basically aggregate it down, synthesize it into the important parts, and then give the AI breadcrumbs.
+...
+And so, you can click like you give it a set of instructions, you basically diarize it down, synthesis like categorize it into certain areas like fundraising, hiring, co-founder disputes, whatever, and then write me a new user manual.
+...
+And by the end of the weekend, he had a 150 page user manual, which is dramatically better than the existing user manual. And now we can also update it every single month. So, our user manual becomes self-improving. Every new piece of advice we give, it's compared with the existing user manual and either incorporated or thrown away. So, the user manual becomes this up-to-date living brain of the advice we give to founders.
+...
+But only if it's legible. So, you have to record everything. The second point is kind of the same, right? Like if it creates an artifact that can self-improve, it's legible. If it doesn't, you throw it away. The third point then is that every function can generate This used to say dashboards.
+...
+So, all of your internal operations teams should be sitting on this layer of like kind of intelligence understanding, and then creating their own dashboards and their own workflows. And I would see that those as entirely disposable. I would very preciously store all the data. So, as Garry said, he puts it all all of his emails in markdown. Never throw anything away, but then treat these the software as ephemeral. You can you can generate it.
+...
+You can regenerate it. The valuable part is like the comprehension inside people's heads of like this is how the function works. This is how we run a YC event, whatever. The software to actually run the event you can generate for the event. You can throw it away.
+...
+The the models get smarter in a month or two. Throw the software away. Give it your original set of instructions and regenerate the software.
+...
+So I think the business context and and skills are the valuable part. I think the software on top of it is ephemeral.
+
+---
+
+Title: How to Build a Self-Improving Company with AI
+URL: https://www.youtube.com/watch?v=t-G67yKAHBQ
+Published: 2026-05-19T18:23:12.000Z
+Author: YC Root Access
+Highlights:
+# How to Build a Self-Improving Company with AI
+...
+In this recent batch talk, YC General Partner Tom Blomfield breaks down how to build a self-improving company using AI. He'll cover how to create a series of recursive, self-improving AI loops and explain why the founders who get this right will run companies that can improve while they sleep.
+...
+- 00:00 Companies Are Roman Legions
+- 00:54 Copilots Are the Wrong Mental Model
+- 01:55 Extract the Domain Knowledge
+- 02:24 The Recursive Self-Improving Loop
+- 04:12 The Holy Shit Moment at YC
+- 05:50 Self-Optimizing Product and Support Loops
+- 06:29 Burn Tokens, Not Headcount
+- 07:23 Middle Management Is Over
+- 08:05 Make Everything Legible to AI
+- 09:40 Regenerating the YC User Manual
+- 11:19 Software Is Ephemeral, Context Is Valuable
+- 12:18 Where Humans Still Matter
+...
+And if you can make that legible, you suddenly can can move from this hierarchical organization to a sort of intelligent AI-powered organization with AI-native software. AI isn't the something It's not something you bolt onto the side of a company. It's not like a tool you give to engineers to make them more productive. But I think you can reimagine what a company is as a set of recursive self-improving AI loops. I think this is really really really important because when it gets there, I think the company starts to self-improve even when you're sleeping.
+...
+So let me give you an example. Diana's talk talks about this as well. This AI loop, you start with like a sensor layer which is like That's a fancy word, but really it might be like emails from your customers. Might be support tickets, code changes, people canceling their subscription, uh product telemetry. It's like sensor data to get information from the outside world. And then a a policy layer, a decision layer, like rules about what you can do, what it has to ask a human permission for, what it must log. A tool layer that's kind of Gary's skills and code like the tool layer is Gary's code. It's basically deterministic APIs, things like query my database or look at my calendar. Um a set of tools that the the AI can call. A quality gate, like that might be eval's deterministic checks, safety filters, human review for high-risk stuff, and then a learning mechanism. It's like your system interacts with the real world, picks up where it doesn't work, and loops back into the top again. And if you can run every single step of that without human intervention without with minimal human intervention, your system gets better and better and better while you're are And I can give you actual examples of this that are live right now. We started with an agent that you can ask and if it has deterministic tools to query our database. Pretty simple, like, "When did I last have office hours with this company?" Then it got a little bit smarter, which was like, "For this company I'm doing office hours with right now, they need introductions for anyone in petrochemicals or something." And it could query the database in different ways and use rag and all sorts of stuff to like come up with five relevant founders for you to meet. But again, this is like this is a sidekick, right? This is an agent. This is like the old This is last year's version of how a how AI is making me better as a group partner. It's making me 20 or 30% more effective.
+...
+For me, that was like the holy [ __ ] [ __ ] But that's not just AI making you 20 or 30% more valuable, it is the AI going through this loop to figure out how to self-improve. And I think basically, if you can identify parts of your company that work like this and eliminate as much of have the human in kind of a monitoring or supervisory capacity, you can just throw tokens at this problem and your company will get better.
+...
+And so, other examples might be if you have product analytics, having an agent go through your product analytics to to figure out what part of your sales funnel is presenting the highest amount of friction, researching best practices, putting in place an AB test, running it for a week, picking the best version, and deploying it. And then doing that again and again and again for your product. So you just have a self-optimizing like product loop. Or you do it with customer service queries.
+...
+about okay,
+...
+we just don't want
+...
+do, we'll discard
+...
+So I think if you can think about each part of your company as a self-improving like recursive AI loop, it becomes very very different to this like hierarchically organized Roman legion of a company. So what? So like if you want to do this, what are the implications?
+...
+One is like burn tokens, not headcount.
+...
+And I think you can build companies based on ICs effectively. I I think just middle management is is over. So, building the self-improving company, that's the dream. And by the way, I think like people are at the bleeding edge of this right now.
+...
+I might be wrong. You might prove me wrong. What would I do? First of all, this is really, really important. I would make the entire organization legible to AI. What does that mean? It means you've got to record everything.
+...
+Um simplistically, all of our um partner emails, now if you email a YC partner, that email is in the YC database. Every Slack message, every DM, every office hour we've started recording for the last three or four months. Every single thing that happens, if it is recorded, it happened to the AI. If it did not get recorded, it is it did not happen to your intelligence. You know what I mean?
+...
+I'm going to talk to 20 people." Yeah, so it needs to be a microphone or a clip or or smart glasses. Or we deck out every room with like microphones. But basically, everything needs to be recorded so that it can be legible to the AI. And then as Garry talked about like diarization, you cannot pump in 100,000 hours worth of recordings into a context window. So, you have to diarize it. You have to basically aggregate it down, synthesize it into the important parts, and then give the AI breadcrumbs.
+...
+And so, you can click like you give it a set of instructions, you basically diarize it down, synthesize like categorize it into certain areas like fundraising, hiring, co-founder disputes, whatever, and then write me a new user manual.
+...
+And by the end of the weekend, he had a 150 page user manual, which is dramatically better than the existing user manual. And now we can also update it every single month. So, our user manual becomes self-improving. Every new piece of advice we give, it's compared with the existing user manual and either incorporated or thrown away. So, the user manual becomes this up-to-date living brain of the advice we give to founders.
+...
+But only if it's legible. So, you have to record everything. The second point is kind of the same, right? Like if it creates an artifact that can self-improve, it's legible. If it doesn't, you throw it away. The third point then is that every function can generate This used to say dashboards.
+...
+So, all of your internal operations teams should be sitting on this layer of like kind of intelligence understanding, and then creating their own dashboards and their own workflows. And I would see that those as entirely disposable. I would very preciously store all the data. So, as Garry said, he puts it all all of his emails in markdown. Never throw anything away, but then treat these the software as ephemeral. You can you can generate it.
+...
+You can regenerate it. The valuable part is like the comprehension inside people's heads of like this is how the function works. This is how we run a YC event, whatever. The software to actually run the event you can generate for the event. You can throw it away.
+...
+The the models get smarter in a month or two. Throw the software away. Give it your original set of instructions and regenerate the software.
+...
+So I think the business context and and skills are the valuable part. I think the software on top of it is ephemeral.
+
+---
+
+Title: The Playbook For Building An AI Native Company - Y Combinator Startup Podcast - Podcast Episode - Podscan.fm
+URL: https://podscan.fm/podcasts/y-combinator-startup-podcast/episodes/the-playbook-for-building-an-ai-native-company
+Published: 2026-04-24T16:30:00.000Z
+Author: Y Combinator
+Highlights:
+AI native company closed loop systems queryable organization software factories AI agents 1,000x engineer token maxing management hierarchy collapse founder advantage Jack Dorsey Block
+...
+In this episode of Startup School, YC Partner Diana Hu explains what it means to build an AI-native company, where AI isn't just a tool but the operating system your company runs on.
+...
+She breaks down how to make your company queryable so agents can improve across every function, why management hierarchies break down when an intelligence layer replaces human middleware, and why early-stage founders have a massive edge in building this way from day one.
+...
+In this episode, I'm going to discuss how founders should think about building an AI native company, what roles their team should have, and what concrete internal practices they can adopt right now to move much faster. Currently, most people talk about AI in terms of productivity. They'll talk at length about how it can make engineers more productive or say we need to add co-pilots to existing workflows and ship more features.
+...
+It should be the operating system your company runs on. Every workflow, every decision, and every process should flow through an intelligent layer that is constantly learning and improving. What this means concretely is every important process in your company should be captured by an intelligent closed loop. A closed loop captures inflammation, feeds it back into an intelligent system, and improves the process over time.
+...
+If you've ever studied controlled systems, you'll be familiar with the difference between an open loop and a closed loop system. Open loops are controlled systems without feedback loops. In the old world, companies basically ran as open loops. You made a decision, executed it, and didn't always systematically measure the outcome and adjust the process. Open loops are inherently lossy. A closed loop, on the other hand, is self-regulating.
+...
+It continuously monitors its output and adjusts its process to better meet the stated goal. Closed loops are extremely powerful for correctness and stability. With self-improving agents, your company should run as a closed loop. To build these closed loops, you will need to make your entire company queryable. In other words, the whole organization should be legible to AI.
+...
+Every important action should produce an artifact that the intelligence at the center of the company can learn from and use to self-improve. This means recording your meetings with an AI note taker, minimizing DMs and emails, and embedding agents throughout communication of all channels. It also means building custom dashboards with everything in the company. Revenue, sales, engineering, hiring, ops, everything. Here's a concrete example of how it could work. Take engineering, management, and sprint planning.
+...
+With full visibility into what shipped, what worked, and what didn't, agents can start looking ahead. They can propose sprint plans for engineers that are way more predictable and accurate and on track. The days of eng manager status roll-ups that are super lossy are gone. Having managed engineering teams myself, and now seeing this across multiple YC companies, this is a game-changer. What used to require constant coordination becomes legible and queryable by default.
+...
+I've seen teams that do this cut their engineering sprint time in half and get close to 10x more than in that time. The overarching principle here is that to get their full capabilities, you need to provide models with as much context as you would provide an employee. When you do this, your company stops operating as an open loop, where information is fragmented and manually interpreted. It becomes instead a closed-loop system.
+...
+Status, decisions, and outcomes are continuously captured and fed back into this intelligence layer. The result is a system that always has an up-to-date view of what's actually happening. There's also a new paradigm emerging for how the highest-velocity companies build product. AI software factories. If you're familiar with the test-driven development, or TDD, this is the next evolution of that.
+...
+With software factories, humans write a spec and a set of tests that define success. And then AI agents generate the implementation and code and iterate until the test pass. The human defines what to build and judges the output. The actual code is the agent's job. Some companies have already pushed this to the point where their repos contain no handwritten code, just specs and test harnesses.
+...
+Strong DM's AI team is an example of how to do this. Their end goal was a system that essentially eliminated the need for a human to write or review code. And so, they built their own software factory where specs and scenario-based validations drive agents to write, tests, and iterate on code until it meets a probabilistic satisfaction threshold. And it works.
+...
+This is how you achieve the 1,000x engineer that Steve Yege talks about by surrounding a single engineer with a system of agents that enable them to build things they would have never been able to build before. The era of the 1,000 or even 10,000x engineer is here. One implication of building your company this way with AI loops everywhere, acquirable organization, and software factories, is that the classic management hierarchy no longer makes sense.
+...
+In the old world, you needed middle managers and coordinators to route information inefficiently up and down an organization. In the new world, the intelligence layer serves that purpose. If your company is queryable, artifact-rich, and legible to an AI, you should have almost no human middleware. This matters because your company's velocity is only as fast as its information flow.
+...
+Every layer of human routing you can remove is a direct speed gain. A great example is what Jack Dorsey is doing over at Block. After going deep on the tools, he's come to the same conclusion many have. This is about more than just incremental productivity gains. His view is that if you keep the same org chart and management structure, you'd miss the shift entirely.
+...
+The company itself has to be rebuilt as an intelligence layer, with humans at the edge guiding it rather than routing information through it. Going forward, Jack suggests every company will have three employee archetypes. The first is the individual contributor or IC, basically the builder operator. This is someone who directly makes and runs things. In an AI-native company, this is not limited to engineers. Everyone builds. Eng, ops, support, sales.
+...
+Everyone comes to meetings with working prototypes, not pitch decks. Second is the DRI, the directly responsible individual. Focus on strategy and customer outcomes. This is not a classic manager. It's the person with a clear responsibility for the result. One person, one outcome, no hiding. The third is the AI founder type. This person still builds, still coaches, and leads by example.
+...
+If you're the founder, this needs to be you at the forefront. Showing your team what massive capability gains look like, not delicating your AI strategy to someone else. With this structure, companies will be able to get outsized results with much smaller teams. Maximizing token usage, not headcount, will be the critical shift. The best companies will be the ones that are token maxing. Think of the trade-off this way.
+...
+AI isn't just making teams more productive. It's changing how companies should be built.In this episode of Startup School, YC Partner Diana Hu explains what it means to build an AI-native company, where AI isn't just a tool but the operating system your company runs on.She breaks down how to make your company queryable so agents can improve across every function, why management hierarchies break down when an intelligence layer replaces human middleware, and why early-stage founders have a massive edge in building this way from day one. ",
+
+---
+
+Title: Shai Wininger Takes on AI-firs… - Almost Human - Apple Podcasts
+URL: https://podcasts.apple.com/us/podcast/shai-wininger-takes-on-ai-first-product-organizations-pt-2/id1839219882?i=1000764704012
+Published: 2026-04-30T10:25:32.000Z
+Author: N/A
+Highlights:
+In this episode, Shai Wininger (co-founder of Lemonade) lays out a concrete framework for AI-native organizations: where agents are the default operators, humans are summoned only when needed, and companies evolve into self-improving systems.
+...
+We explore what it actually means for “humans to become tools,” how AI systems decide when to escalate to humans, and how uncertainty is measured in production environments. Shai breaks down Lemonade’s real-world approach—from claims automation to risk guardrails—and shares how they think about confidence scoring, hierarchical decision systems, and human-in-the-loop design.
+...
+The conversation goes deeper into the future of product development: self-healing code, self-implementing systems, and eventually self-driving innovation – where agents generate, test, deploy, and kill features autonomously.
+...
+We also cover why traditional metrics and benchmarks are breaking down, how to think about continuous improvement instead, and where founders are wasting time with AI today. Shai argues that software is rapidly commoditizing and that durable value is shifting toward hard problems: distribution, regulation, and real-world complexity.
+...
+This is a tactical and forward-looking conversation about how companies will actually operate in an AI-first world.
+
+---
+
+Title: The Foundation of an AI-Native... - The Gist Talk - Apple Podcasts
+URL: https://podcasts.apple.com/es/podcast/the-foundation-of-an-ai-native-company/id1783208488?i=1000767544498
+Published: 2026-05-13T15:41:10.000Z
+Author: N/A
+Highlights:
+# The Foundation of an AI-Native Company: Closed Loops and Intelligence Layers
+...
+The fundamental shift in the AI era is treating AI not merely as a productivity tool, but as the underlying operating system of the company. Startups must transition from "open loop" systems—where decisions are executed without systematic measurement or feedback—to "closed loop" systems. A closed loop is self-regulating; it captures information, monitors outputs, and feeds that data back into an intelligent system to continuously improve the process.To achieve this, the entire organization must become "legible to AI" and queryable. This involves recording all meetings with AI note-takers, minimizing fragmented communication like emails and DMs, embedding agents into communication channels, and creating custom dashboards for everything from sales to engineering. By doing this, a company replaces the traditional, lossy information routing of middle management with an intelligence layer that has a real-time, accurate view of the organization.AI Software Factories and the "1000x Engineer" The way software is built is evolving into "AI software factories" heavily inspired by test-driven development. In this new paradigm, human engineers write the specifications and the tests that define success, while AI agents iteratively generate the implementation and code until the tests pass. Companies like Strong DM have even built repos that contain absolutely no handwritten code—only specs and scenario-based validations. By surrounding a single engineer with an ecosystem of specialized AI agents, companies can unlock the era of the 1,000x or even 10,000x engineer.A prime example of this ecosystem in action is GStack, an open-source tool that turns Claude Code into an entire AI engineering team using a "thin harness, fat skills" approach. GStack is equipped with specialized skills, such as:
+...
+- The Individual Contributor (IC): A builder/operator who directly makes things, bringing working prototypes rather than pitch decks to meetings.
+
+- The Directly Responsible Individual (DRI): The person focused strictly on strategy and customer outcomes—owning a result with nowhere to hide.
+
+- The AI Founder: A leader who builds, coaches, and stays at the forefront of AI capabilities rather than ...
+
+---
+
+Title: The Framework for Building AI-Native Organizations | Melissa Ree…
+URL: https://www.anhourofinnovation.com/the-framework-for-building-ai-native-organizations-melissa-reeve/
+Published: 2026-05-19T11:00:00.000Z
+Author: N/A
+Highlights:
+In this episode of An Hour of Innovation podcast, Vit Lyoshin speaks with Melissa Reeve, AI transformation strategist and author of the book Hyperadaptive, about why most companies are approaching AI the wrong way.Rather than treating AI as just another software upgrade, Melissa argues that AI requires a complete redesign of how organizations operate. The conversation explores why traditional enterprise structures struggle to adapt to AI, how agentic workflows are reshaping jobs and decision-making, and why organizations must move toward continuous learning, value streams, and adaptive operating models.Melissa breaks down her five-stage Hyperadaptive framework, which helps organizations evolve from early AI experimentation to fully AI-native operations. She explains how AI-powered decision-making, integrated learning loops, AI governance, and organizational sensing systems will fundamentally change the future of work and enterprise leadership.Vit and Melissa also discuss why many AI initiatives fail, the risks of rushing into automation without strong foundations, and how companies can gradually transform without repeating the mistakes of past digital transformations. They explore the growing importance of adaptability inside modern organizations and why careers themselves may evolve from traditional ladders into fluid portfolios of experiences.The episode also looks at real-world examples from companies like Toyota, Unilever, and Ping An Insurance, showing how AI-native thinking can create entirely new business models and competitive advantages.This conversation is especially valuable for product leaders, founders, executives, engineers, and anyone trying to understand how AI will reshape organizations over the next decade.
+...
+Melissa Reeve is an AI transformation strategist focused on helping organizations become more adaptive, AI-native, and resilient in rapidly changing environments. Her work combines systems thinking, Agile transformation, Lean manufacturing principles, and enterprise AI strategy into a practical framework for organizational redesign. She is the author of Hyperadaptive, a model that helps companies evolve beyond traditional siloed structures into continuously learning and adapting organizations. Melissa’s perspective stands out because she focuses less on AI tools themselves and more on how AI fundamentally changes decision-making, workflows, governance, and the future of work inside enterprises.
+...
+- Why most AI transformation initiatives stall inside enterprises
+- The hidden problem with traditional organizational structures
+- How agentic AI changes workflows and operational models
+- AI-native organizations versus legacy enterprise operating systems
+- Why companies rush into AI too early
+- AI governance models built for constant technological change
+- How AI reshapes careers and workforce adaptability
+- The future of AI-powered decision-making in organizations
+- Why value streams matter more in AI-driven businesses
+- Building hyperadaptive companies through continuous organizational learning
+...
+11:39 2. Integrated Learning Loops
+...
+17:42 4. AI-Powered Sensing
+...
+19:37 5. Continuous Adaptation
+...
+27:59 Stage 3: Agentic AI
+...
+35:09 Stage 5: Hyperadaptive AI
+...
+Agile Software Development https://agilemanifesto.org A framework for iterative product development centered around learning loops and adaptability.
+
+---
+
+Title: The Organizational Singularity: AI-Proof Your Company | EP #258 - Moonshots with Peter Diamandis | Podcast on Spotify
+URL: https://open.spotify.com/episode/05i12b3oGSqR72GsPStLPa
+Published: 2026-05-26T23:33:40.000Z
+Author: N/A
+Highlights:
+The Organizational Singularity: AI-Proof Your Company | EP #258 - Moonshots with Peter Diamandis | Podcast on Spotify
+...
+The Organizational Singularity: AI-Proof Your Company | EP #258 - Moonshots with Peter Diamandis | Podcast on Spotify
+
+---
+
+Title: How to build an AI-native team & company: The six-principle playbook from Y-Combinator | Listen Notes
+URL: https://www.listennotes.com/podcasts/in-the-loop/how-to-build-an-ai-native-J8DCGh90sFV/
+Published: 2026-05-07T18:51:14.000Z
+Author: N/A
+Highlights:
+AI-native team &
+...
+-principle
+...
+-native team & company: The
+...
+-principle playbook from
+...
+Y Combinator have just published a playbook for building a company that runs on AI rather than just using it.Six principles, written by a general partner who works with hundreds of the very best leading AI-native startups every year.
+...
+In this episode of In The Loop, I'm walking through Diana Hu's framework for building a truly AI-native company. I cover all principles and how you can do the same in your team or company — from running AI as your operating system to building your intelligence layer so you can be 10 steps ahead of everyone else
+...
+Episode highlights(01:00) – YC's Diana Hu publishes the playbook(03:00) – Dorsey cuts 40% at Block — and why(05:30) – Principle 1: AI as your operating system(08:00) – Principle 2: closing open loops(10:30) – Principle 3: making your company queryable(13:00) – Principle 4: the thousand-x engineer(15:30) – Principles 5 & 6: token-max and software factories(19:00) – Principles 7 & 8: intelligence layers and honest signals(22:00) – Four moves to start this week Links & resources
+

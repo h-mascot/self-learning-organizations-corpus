@@ -1,0 +1,59 @@
+{
+  "loop": 190,
+  "topic": "organizational digital twin",
+  "facet": "evaluation",
+  "query": "\"organizational digital twin\" evaluation",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22organizational+digital+twin%22+evaluation&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:09:11.094442+00:00",
+  "completed_at": "2026-07-11T14:09:12.122264+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.21272/sec.5(3).126-133.2021",
+      "title": [
+        "Towards Organizational Development In Digital Organizational Twin"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2021
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.21272/sec.5(3).126-133.2021",
+      "type": "journal-article"
+    },
+    {
+      "DOI": "10.1016/b978-0-12-818918-4.00005-1",
+      "title": [
+        "Digital twin driven design evaluation"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2020
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1016/b978-0-12-818918-4.00005-1",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.1016/b978-0-12-818918-4.00012-9",
+      "title": [
+        "Digital twin driven process design evaluation"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2020
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1016/b978-0-12-818918-4.00012-9",
+      "type": "book-chapter"
+    }
+  ]
+}

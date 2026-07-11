@@ -1,0 +1,63 @@
+{
+  "loop": 43,
+  "topic": "organizational cybernetics",
+  "facet": "empirical evidence",
+  "query": "\"organizational cybernetics\" empirical evidence",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22organizational+cybernetics%22+empirical+evidence&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:51.619750+00:00",
+  "completed_at": "2026-07-11T14:08:52.230639+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.1016/b978-0-08-025837-9.50010-2",
+      "title": [
+        "THE EMPIRICAL EVIDENCE"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1981
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1016/b978-0-08-025837-9.50010-2",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.33399/biibfad.1066162",
+      "title": [
+        "Mediating Role of Organizational Innovation in the Relationship between Human Resources Management Strategies and Organizational Performance Empirical Evidence from Iraq"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            8,
+            29
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.33399/biibfad.1066162",
+      "type": "journal-article"
+    },
+    {
+      "DOI": "10.47059/revistageintec.v11i3.1946",
+      "title": [
+        "Career Success, Career Commitment and Organizational Support: Empirical Evidence from the Banking Sector"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            6,
+            30
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.47059/revistageintec.v11i3.1946",
+      "type": "journal-article"
+    }
+  ]
+}

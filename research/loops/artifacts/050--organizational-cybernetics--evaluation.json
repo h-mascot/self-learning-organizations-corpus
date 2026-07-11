@@ -1,0 +1,62 @@
+{
+  "loop": 50,
+  "topic": "organizational cybernetics",
+  "facet": "evaluation",
+  "query": "\"organizational cybernetics\" evaluation",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22organizational+cybernetics%22+evaluation&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:52.208358+00:00",
+  "completed_at": "2026-07-11T14:08:52.743978+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.4324/9780203361566-27",
+      "title": [
+        "Organizational Cybernetics"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2003,
+            9,
+            2
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.4324/9780203361566-27",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.1007/978-1-4613-0213-1_1",
+      "title": [
+        "Organizational Cybernetics"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2003
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1007/978-1-4613-0213-1_1",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.1080/01969729108902273",
+      "title": [
+        "AN ORGANIZATIONAL VIEW OF SYSTEMS PROBLEM SOLVING"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1991,
+            1
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1080/01969729108902273",
+      "type": "journal-article"
+    }
+  ]
+}

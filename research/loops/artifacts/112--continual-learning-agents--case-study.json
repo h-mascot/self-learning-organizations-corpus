@@ -1,0 +1,59 @@
+{
+  "loop": 112,
+  "topic": "continual learning agents",
+  "facet": "case study",
+  "query": "\"continual learning agents\" case study",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22continual+learning+agents%22+case+study&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:56.510626+00:00",
+  "completed_at": "2026-07-11T14:08:57.175291+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.5220/0007687103670373",
+      "title": [
+        "Continual Representation Learning for Images with Variational Continual Auto-Encoder"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.5220/0007687103670373",
+      "type": "proceedings-article"
+    },
+    {
+      "DOI": "10.5220/0013190000003890",
+      "title": [
+        "Hierarchically Gated Experts for Efficient Online Continual Learning"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.5220/0013190000003890",
+      "type": "proceedings-article"
+    },
+    {
+      "DOI": "10.5220/0012314000003636",
+      "title": [
+        "CNNs Sparsification and Expansion for Continual Learning"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2024
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.5220/0012314000003636",
+      "type": "proceedings-article"
+    }
+  ]
+}

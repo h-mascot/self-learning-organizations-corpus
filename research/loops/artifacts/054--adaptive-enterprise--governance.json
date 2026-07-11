@@ -1,0 +1,59 @@
+{
+  "loop": 54,
+  "topic": "adaptive enterprise",
+  "facet": "governance",
+  "query": "\"adaptive enterprise\" governance",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22adaptive+enterprise%22+governance&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:52.317693+00:00",
+  "completed_at": "2026-07-11T14:08:52.869450+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.1007/978-3-540-92671-9_7",
+      "title": [
+        "Enterprise Governance"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2009
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1007/978-3-540-92671-9_7",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.1057/9781403943903_1",
+      "title": [
+        "Adaptive Efficiency and the Evolving Diversity of Enterprise Ownership and Governance Forms: An Overview"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2003
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1057/9781403943903_1",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.1007/978-3-540-92671-9_6",
+      "title": [
+        "IT Governance"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2009
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1007/978-3-540-92671-9_6",
+      "type": "book-chapter"
+    }
+  ]
+}

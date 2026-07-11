@@ -1,0 +1,63 @@
+{
+  "loop": 61,
+  "topic": "AI native company",
+  "facet": "implementation",
+  "query": "\"AI native company\" implementation",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22AI+native+company%22+implementation&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:52.871123+00:00",
+  "completed_at": "2026-07-11T14:08:53.471052+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.1109/6gnet68413.2025.11314139",
+      "title": [
+        "Implementation-Aware AI Management Framework for AI-Native Networks"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            17
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1109/6gnet68413.2025.11314139",
+      "type": "proceedings-article"
+    },
+    {
+      "DOI": "10.1007/978-1-4842-5028-0_8",
+      "title": [
+        "Implementation of AI"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1007/978-1-4842-5028-0_8",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.21203/rs.3.rs-9890341/v1",
+      "title": [
+        "A Layered Guardrail Architecture for Agentic AI in Cloud-Native DevOps Pipelines: Design, Implementation, and Empirical Evaluation on Live AWS Infrastructure"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            3
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.21203/rs.3.rs-9890341/v1",
+      "type": "posted-content"
+    }
+  ]
+}

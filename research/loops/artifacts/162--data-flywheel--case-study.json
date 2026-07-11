@@ -1,0 +1,64 @@
+{
+  "loop": 162,
+  "topic": "data flywheel",
+  "facet": "case study",
+  "query": "\"data flywheel\" case study",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22data+flywheel%22+case+study&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:09:00.366214+00:00",
+  "completed_at": "2026-07-11T14:09:01.156206+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.1202/0002-8894(1994)055<0236:ftcsoa>2.0.co;2",
+      "title": [
+        "Flywheel Truing—A Case Study of an Ergonomic Intervention"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1994,
+            3
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1202/0002-8894(1994)055<0236:ftcsoa>2.0.co;2",
+      "type": "journal-article"
+    },
+    {
+      "DOI": "10.3390/en15031096",
+      "title": [
+        "Flywheel Energy Storage System in Italian Regional Transport Railways: A Case Study"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            2,
+            1
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.3390/en15031096",
+      "type": "journal-article"
+    },
+    {
+      "DOI": "10.63363/aijfr.2025.v06i05.1375",
+      "title": [
+        "Profit Optimization in Agro-Processing: A Case Study of a Lever–Flywheel Pounding Machine"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            19
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.63363/aijfr.2025.v06i05.1375",
+      "type": "journal-article"
+    }
+  ]
+}

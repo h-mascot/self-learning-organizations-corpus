@@ -1,0 +1,60 @@
+{
+  "loop": 141,
+  "topic": "agent monitoring repair",
+  "facet": "implementation",
+  "query": "\"agent monitoring repair\" implementation",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22agent+monitoring+repair%22+implementation&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:58.704734+00:00",
+  "completed_at": "2026-07-11T14:08:59.386365+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.4135/9781071878736.n12",
+      "title": [
+        "Choose Implementation Monitoring Methods and Compile the Comprehensive Implementation Monitoring Plan"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2016
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.4135/9781071878736.n12",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.4135/9781071878736.n11",
+      "title": [
+        "Develop Initial Implementation Monitoring Questions"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2016
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.4135/9781071878736.n11",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.1109/icise.2010.5688822",
+      "title": [
+        "Study and implementation of agent-based grid resource monitoring model"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2010,
+            12
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1109/icise.2010.5688822",
+      "type": "proceedings-article"
+    }
+  ]
+}

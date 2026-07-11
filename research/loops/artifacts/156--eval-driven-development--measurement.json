@@ -1,0 +1,46 @@
+{
+  "loop": 156,
+  "topic": "eval driven development",
+  "facet": "measurement",
+  "query": "\"eval driven development\" measurement",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22eval+driven+development%22+measurement&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:59.930847+00:00",
+  "completed_at": "2026-07-11T14:09:00.550211+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.70675/afea934cz80bdz4322zb565z7bb268aaf80a",
+      "title": [
+        "Development and validation of a bayesian measurement technique for data-driven measurement reduction"
+      ],
+      "URL": "https://doi.org/10.70675/afea934cz80bdz4322zb565z7bb268aaf80a",
+      "type": "dissertation"
+    },
+    {
+      "DOI": "10.12681/eadd/59501",
+      "title": [
+        "Entrepreneurship education"
+      ],
+      "URL": "https://doi.org/10.12681/eadd/59501",
+      "type": "dissertation"
+    },
+    {
+      "DOI": "10.1016/j.measen.2022.100442",
+      "title": [
+        "Model-driven development of interoperable communication interfaces for FAIR sensor services"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            12
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1016/j.measen.2022.100442",
+      "type": "journal-article"
+    }
+  ]
+}

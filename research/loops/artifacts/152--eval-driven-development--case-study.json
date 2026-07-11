@@ -1,0 +1,61 @@
+{
+  "loop": 152,
+  "topic": "eval driven development",
+  "facet": "case study",
+  "query": "\"eval driven development\" case study",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22eval+driven+development%22+case+study&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:59.654120+00:00",
+  "completed_at": "2026-07-11T14:09:00.366102+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.5220/0004999901330144",
+      "title": [
+        "Model-Driven Development Versus Aspect-Oriented Programming - A Case Study"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2014
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.5220/0004999901330144",
+      "type": "proceedings-article"
+    },
+    {
+      "DOI": "10.7763/jocet.2013.v1.73",
+      "title": [
+        "Developing Secure Websites Using Feature Driven Development (FDD): A Case Study"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2013
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.7763/jocet.2013.v1.73",
+      "type": "journal-article"
+    },
+    {
+      "DOI": "10.4324/9781003426691",
+      "title": [
+        "Purpose-driven Innovation Leadership for Sustainable Development"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            5,
+            29
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.4324/9781003426691",
+      "type": "monograph"
+    }
+  ]
+}

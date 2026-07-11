@@ -1,0 +1,65 @@
+{
+  "provider": "GitHub CLI authenticated repository search",
+  "model": null,
+  "date": "2026-07-11",
+  "queries": [
+    {
+      "query": "learning organization corpus",
+      "executed_at": "2026-07-11T14:05:57.061Z",
+      "exit_code": 0,
+      "results": [
+        {
+          "description": "Open corpus of self-learning, self-improving, AI-native organizations",
+          "fullName": "h-mascot/self-learning-organizations-corpus",
+          "stargazersCount": 0,
+          "updatedAt": "2026-07-11T12:34:13Z",
+          "url": "https://github.com/h-mascot/self-learning-organizations-corpus"
+        }
+      ],
+      "stderr": ""
+    },
+    {
+      "query": "self-learning organizations",
+      "executed_at": "2026-07-11T14:05:57.602Z",
+      "exit_code": 0,
+      "results": [
+        {
+          "description": "Open corpus of self-learning, self-improving, AI-native organizations",
+          "fullName": "h-mascot/self-learning-organizations-corpus",
+          "stargazersCount": 0,
+          "updatedAt": "2026-07-11T12:34:13Z",
+          "url": "https://github.com/h-mascot/self-learning-organizations-corpus"
+        }
+      ],
+      "stderr": ""
+    },
+    {
+      "query": "AI-native company corpus",
+      "executed_at": "2026-07-11T14:05:58.002Z",
+      "exit_code": 0,
+      "results": [],
+      "stderr": ""
+    },
+    {
+      "query": "organizational learning dataset",
+      "executed_at": "2026-07-11T14:05:58.471Z",
+      "exit_code": 0,
+      "results": [],
+      "stderr": ""
+    },
+    {
+      "query": "recursive improvement organization",
+      "executed_at": "2026-07-11T14:05:58.958Z",
+      "exit_code": 0,
+      "results": [],
+      "stderr": ""
+    },
+    {
+      "query": "autonomous enterprise corpus",
+      "executed_at": "2026-07-11T14:05:59.436Z",
+      "exit_code": 0,
+      "results": [],
+      "stderr": ""
+    }
+  ]
+}

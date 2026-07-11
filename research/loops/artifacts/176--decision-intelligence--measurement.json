@@ -1,0 +1,64 @@
+{
+  "loop": 176,
+  "topic": "decision intelligence",
+  "facet": "measurement",
+  "query": "\"decision intelligence\" measurement",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22decision+intelligence%22+measurement&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:09:01.822834+00:00",
+  "completed_at": "2026-07-11T14:09:02.540722+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.1016/j.dss.2018.05.002",
+      "title": [
+        "Business intelligence for performance measurement: A case based analysis"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2018,
+            7
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1016/j.dss.2018.05.002",
+      "type": "journal-article"
+    },
+    {
+      "DOI": "10.1098/rsos.230513/v1/decision1",
+      "title": [
+        "Decision letter for \"A formal model accounting for measurement reliability shows attenuated effect of higher education on intelligence in longitudinal data\""
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            8,
+            26
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1098/rsos.230513/v1/decision1",
+      "type": "peer-review"
+    },
+    {
+      "DOI": "10.1098/rsos.230513/v3/decision1",
+      "title": [
+        "Decision letter for \"A formal model accounting for measurement reliability shows attenuated effect of higher education on intelligence in longitudinal data\""
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            23
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1098/rsos.230513/v3/decision1",
+      "type": "peer-review"
+    }
+  ]
+}

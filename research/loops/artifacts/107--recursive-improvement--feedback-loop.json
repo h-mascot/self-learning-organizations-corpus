@@ -1,0 +1,61 @@
+{
+  "loop": 107,
+  "topic": "recursive improvement",
+  "facet": "feedback loop",
+  "query": "\"recursive improvement\" feedback loop",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22recursive+improvement%22+feedback+loop&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:56.295581+00:00",
+  "completed_at": "2026-07-11T14:08:56.885843+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.2139/ssrn.6091646",
+      "title": [
+        "Authority Transfer in Recursive and Networked AI Systems Closed-Loop Self-Improvement (CLSI), Recursive Leverage (RLF), and Synchronized Recursive Leverage (SRL)"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.2139/ssrn.6091646",
+      "type": "posted-content"
+    },
+    {
+      "DOI": "10.2139/ssrn.6082447",
+      "title": [
+        "On Closed-Loop Self-Improvement Interval (CLSI) and Recursive Leverage Factor (RLF) A Conceptual Framework for Recursive Intelligence Systems"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.2139/ssrn.6082447",
+      "type": "posted-content"
+    },
+    {
+      "DOI": "10.21203/rs.3.rs-8617092/v1",
+      "title": [
+        "Auto-Intoxication Feedback Loop: Measuring Recursive Poisoning in RAG-GenAI Systems"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            23
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.21203/rs.3.rs-8617092/v1",
+      "type": "posted-content"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "loop": 6,
+  "topic": "organizational learning",
+  "facet": "measurement",
+  "query": "\"organizational learning\" measurement",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22organizational+learning%22+measurement&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:48.308793+00:00",
+  "completed_at": "2026-07-11T14:08:49.074255+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.48009/2_iis_2005_147-153",
+      "title": [
+        "ACHIEVING COMPETITIVENESS BY ORGANIZATIONAL LEARNING: STRATEGY, TRANSFORMATION AND MEASUREMENT"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2005
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.48009/2_iis_2005_147-153",
+      "type": "journal-article"
+    },
+    {
+      "DOI": "10.17092/jibr.2012.9.4.135",
+      "title": [
+        "Performance Management, Use of Performance Measurement Systems, Organizational Learning and Organizational Performance"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2012,
+            12
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.17092/jibr.2012.9.4.135",
+      "type": "journal-article"
+    },
+    {
+      "DOI": "10.1108/jaoc.2011.31507aad.001",
+      "title": [
+        "An exploratory study of organizational learning from a performance measurement system: a grounded theory approach"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2011,
+            3,
+            22
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1108/jaoc.2011.31507aad.001",
+      "type": "journal-article"
+    }
+  ]
+}

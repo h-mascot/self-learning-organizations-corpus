@@ -1,0 +1,63 @@
+{
+  "loop": 72,
+  "topic": "autonomous enterprise",
+  "facet": "case study",
+  "query": "\"autonomous enterprise\" case study",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22autonomous+enterprise%22+case+study&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:53.601014+00:00",
+  "completed_at": "2026-07-11T14:08:54.237449+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.5220/0012439600003690",
+      "title": [
+        "Requirements Engineering for Continuous Queries on IoRT Data: A Case Study in Agricultural Autonomous Robots Monitoring"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2024
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.5220/0012439600003690",
+      "type": "proceedings-article"
+    },
+    {
+      "DOI": "10.1049/pbpc008e_ch7",
+      "title": [
+        "Enterprise architecture case study"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2010,
+            1,
+            1
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1049/pbpc008e_ch7",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.3940/rina.as.2022.02",
+      "title": [
+        "REGULATING AUTONOMOUS SHIPPING- A CASE STUDY"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            4,
+            1
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.3940/rina.as.2022.02",
+      "type": "journal-article"
+    }
+  ]
+}

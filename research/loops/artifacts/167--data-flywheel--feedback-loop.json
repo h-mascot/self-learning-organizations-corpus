@@ -1,0 +1,56 @@
+{
+  "loop": 167,
+  "topic": "data flywheel",
+  "facet": "feedback loop",
+  "query": "\"data flywheel\" feedback loop",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22data+flywheel%22+feedback+loop&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:09:00.748080+00:00",
+  "completed_at": "2026-07-11T14:09:01.449165+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.7717/peerj-cs.1630/fig-2",
+      "title": [
+        "Figure 2: Trio bias feedback loop among data, algorithm and user."
+      ],
+      "URL": "https://doi.org/10.7717/peerj-cs.1630/fig-2",
+      "type": "component"
+    },
+    {
+      "DOI": "10.1515/9780691256740-011",
+      "title": [
+        "9 Data in Production and the Data Feedback Loop"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            31
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1515/9780691256740-011",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.2307/jj.17453118.13",
+      "title": [
+        "Data in Production and the Data Feedback Loop"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            1,
+            14
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.2307/jj.17453118.13",
+      "type": "book-chapter"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "loop": 153,
+  "topic": "eval driven development",
+  "facet": "empirical evidence",
+  "query": "\"eval driven development\" empirical evidence",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22eval+driven+development%22+empirical+evidence&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:59.676694+00:00",
+  "completed_at": "2026-07-11T14:09:00.317068+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.20944/preprints202502.0194.v5",
+      "title": [
+        "Unveiling Pathways and Barriers: How AIGC-Driven Personalized Learning Shapes Sustainable Educational Development—Empirical Evidence from Chinese Higher Education"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            8,
+            7
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.20944/preprints202502.0194.v5",
+      "type": "posted-content"
+    },
+    {
+      "DOI": "10.2139/ssrn.6560258",
+      "title": [
+        "XRP Bridging Corridor: Empirical Microstructure Evidence for Settlement-Driven Spread Compression"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.2139/ssrn.6560258",
+      "type": "posted-content"
+    },
+    {
+      "DOI": "10.1177/0193841x241241354",
+      "title": [
+        "Education Experiments in Latin America: Empirical Evidence to Guide Evaluation Design"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            3,
+            29
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1177/0193841x241241354",
+      "type": "journal-article"
+    }
+  ]
+}

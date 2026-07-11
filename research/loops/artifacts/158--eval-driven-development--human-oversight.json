@@ -1,0 +1,63 @@
+{
+  "loop": 158,
+  "topic": "eval driven development",
+  "facet": "human oversight",
+  "query": "\"eval driven development\" human oversight",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22eval+driven+development%22+human+oversight&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:59.947521+00:00",
+  "completed_at": "2026-07-11T14:09:00.621454+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.20944/preprints202602.0374.v1",
+      "title": [
+        "Metrics Driven Human Oversight Framework for AI Systems"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            5
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.20944/preprints202602.0374.v1",
+      "type": "posted-content"
+    },
+    {
+      "DOI": "10.62637/sup.dasw4926.9",
+      "title": [
+        "A civilian-driven model for surveillance oversight in Zimbabwe"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.62637/sup.dasw4926.9",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.2139/ssrn.6252918",
+      "title": [
+        "The Ethics of AI-Assisted Code Migration in Regulated Financial Systems: Accountability, Transparency, and Human Oversight in LLM-Driven Software Conversion"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.2139/ssrn.6252918",
+      "type": "posted-content"
+    }
+  ]
+}

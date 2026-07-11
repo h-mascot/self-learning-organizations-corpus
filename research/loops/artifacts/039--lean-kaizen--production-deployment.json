@@ -1,0 +1,62 @@
+{
+  "loop": 39,
+  "topic": "lean kaizen",
+  "facet": "production deployment",
+  "query": "\"lean kaizen\" production deployment",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22lean+kaizen%22+production+deployment&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:51.325306+00:00",
+  "completed_at": "2026-07-11T14:08:51.815387+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.3139/9783446477384.002",
+      "title": [
+        "2 KAIZEN – der japanische Erfolgsschlüssel"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            13
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.3139/9783446477384.002",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.1142/9789811292446_0003",
+      "title": [
+        "Lean Policy Deployment — Strategic and Cultural Transformation"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            9
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1142/9789811292446_0003",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.1007/978-3-446-45394-4_2",
+      "title": [
+        "KAIZEN – der japanische Erfolgsschlüssel"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2017
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1007/978-3-446-45394-4_2",
+      "type": "book-chapter"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "loop": 151,
+  "topic": "eval driven development",
+  "facet": "implementation",
+  "query": "\"eval driven development\" implementation",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22eval+driven+development%22+implementation&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:59.607275+00:00",
+  "completed_at": "2026-07-11T14:09:00.123460+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.1177/0193841x8901300306",
+      "title": [
+        "Beneficiary Assessment"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1989,
+            6
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1177/0193841x8901300306",
+      "type": "journal-article"
+    },
+    {
+      "DOI": "10.5220/0006329602290238",
+      "title": [
+        "Model Driven Implementation of Security Management Process"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2017
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.5220/0006329602290238",
+      "type": "proceedings-article"
+    },
+    {
+      "DOI": "10.1007/s11092-008-9055-x",
+      "title": [
+        "Development and Validation of a Principal Implementation Practices Measure: The Principal Implementation Questionnaire"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2007,
+            12
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1007/s11092-008-9055-x",
+      "type": "journal-article"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "loop": 92,
+  "topic": "agentic organization",
+  "facet": "case study",
+  "query": "\"agentic organization\" case study",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22agentic+organization%22+case+study&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:55.082747+00:00",
+  "completed_at": "2026-07-11T14:08:55.728859+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.35542/osf.io/fvm5a_v1",
+      "title": [
+        "Agentic Live Case Study"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            18
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.35542/osf.io/fvm5a_v1",
+      "type": "posted-content"
+    },
+    {
+      "DOI": "10.35542/osf.io/fvm5a_v2",
+      "title": [
+        "Agentic Live Case Study"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            21
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.35542/osf.io/fvm5a_v2",
+      "type": "posted-content"
+    },
+    {
+      "DOI": "10.1007/978-3-032-23024-9_16",
+      "title": [
+        "Organization and Human Resources for Agentic AI in Procurement"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1007/978-3-032-23024-9_16",
+      "type": "book-chapter"
+    }
+  ]
+}

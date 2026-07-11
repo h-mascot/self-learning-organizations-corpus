@@ -1,0 +1,63 @@
+{
+  "loop": 56,
+  "topic": "adaptive enterprise",
+  "facet": "measurement",
+  "query": "\"adaptive enterprise\" measurement",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22adaptive+enterprise%22+measurement&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:52.546654+00:00",
+  "completed_at": "2026-07-11T14:08:53.049360+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.5220/0001703601420147",
+      "title": [
+        "DEVELOP ADAPTIVE WORKPLACE E-LEARNING ENVIRONMENTS BY USING PERFORMANCE MEASUREMENT SYSTEMS"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2008
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.5220/0001703601420147",
+      "type": "proceedings-article"
+    },
+    {
+      "DOI": "10.1142/9789814632133_0003",
+      "title": [
+        "The Adaptive Enterprise Service System Metamodel"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2015,
+            6,
+            10
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1142/9789814632133_0003",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.1142/9789814632133_0004",
+      "title": [
+        "The Adaptive Enterprise Service System Lifecycle Management"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2015,
+            6,
+            10
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1142/9789814632133_0004",
+      "type": "book-chapter"
+    }
+  ]
+}

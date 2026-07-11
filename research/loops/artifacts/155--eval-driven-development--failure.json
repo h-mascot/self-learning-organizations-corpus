@@ -1,0 +1,64 @@
+{
+  "loop": 155,
+  "topic": "eval driven development",
+  "facet": "failure",
+  "query": "\"eval driven development\" failure",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22eval+driven+development%22+failure&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:59.921885+00:00",
+  "completed_at": "2026-07-11T14:09:00.519575+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.1145/3263923",
+      "title": [
+        "Session details: Failure analysis and reliability"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2011,
+            6,
+            7
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1145/3263923",
+      "type": "journal-article"
+    },
+    {
+      "DOI": "10.56645/jmde.v11i24.414",
+      "title": [
+        "Question-Driven Methods or Method-Driven Questions? How We Limit What We Learn by Limiting What We Ask"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2015,
+            4,
+            10
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.56645/jmde.v11i24.414",
+      "type": "journal-article"
+    },
+    {
+      "DOI": "10.1177/0193841x8100500507",
+      "title": [
+        "Hypothesis Tests for Limited Failure Survival Distributions"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1981,
+            10
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1177/0193841x8100500507",
+      "type": "journal-article"
+    }
+  ]
+}

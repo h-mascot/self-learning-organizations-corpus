@@ -1,0 +1,61 @@
+{
+  "loop": 74,
+  "topic": "autonomous enterprise",
+  "facet": "governance",
+  "query": "\"autonomous enterprise\" governance",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22autonomous+enterprise%22+governance&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:53.775459+00:00",
+  "completed_at": "2026-07-11T14:08:54.265989+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.2139/ssrn.6439998",
+      "title": [
+        "Identity-aware Governance for Autonomous AI Agents: A Framework for Enterprise Authorization, Delegation, and Audit"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.2139/ssrn.6439998",
+      "type": "posted-content"
+    },
+    {
+      "DOI": "10.1007/978-3-540-92671-9_7",
+      "title": [
+        "Enterprise Governance"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2009
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1007/978-3-540-92671-9_7",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.70593/978-93-7185-592-1_9",
+      "title": [
+        "Data Governance, Trust, and Responsible AI Operations"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            10
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.70593/978-93-7185-592-1_9",
+      "type": "book-chapter"
+    }
+  ]
+}

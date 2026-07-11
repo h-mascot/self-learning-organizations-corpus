@@ -1,0 +1,63 @@
+{
+  "loop": 30,
+  "topic": "continuous improvement",
+  "facet": "evaluation",
+  "query": "\"continuous improvement\" evaluation",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22continuous+improvement%22+evaluation&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:50.464766+00:00",
+  "completed_at": "2026-07-11T14:08:51.078061+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.13052/rp-9788793237377",
+      "title": [
+        "Continuous Glucose Monitoring Algorithm: Accuracy Improvement and Evaluation in Type 1 Diabetes"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2014
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.13052/rp-9788793237377",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.4324/9781315853741-10",
+      "title": [
+        "Continuous Improvement and Evaluation"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2013,
+            10,
+            2
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.4324/9781315853741-10",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.4324/9781315853741-2",
+      "title": [
+        "Continuous School Improvement"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2013,
+            10,
+            2
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.4324/9781315853741-2",
+      "type": "book-chapter"
+    }
+  ]
+}

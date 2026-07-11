@@ -1,0 +1,63 @@
+{
+  "loop": 148,
+  "topic": "agent monitoring repair",
+  "facet": "human oversight",
+  "query": "\"agent monitoring repair\" human oversight",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22agent+monitoring+repair%22+human+oversight&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:59.363081+00:00",
+  "completed_at": "2026-07-11T14:08:59.930732+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.59573/emsj.9(5).2025.51",
+      "title": [
+        "Regulatory Human-Agent Teams: Co-Creating Ethical Oversight"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            16
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.59573/emsj.9(5).2025.51",
+      "type": "journal-article"
+    },
+    {
+      "DOI": "10.47760/cognizance.2025.v05i03.020",
+      "title": [
+        "Human-in-the-Loop Self-Healing Systems: Integrating Human Oversight for Autonomous Failure Detection, Repair and System Optimization"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            30
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.47760/cognizance.2025.v05i03.020",
+      "type": "journal-article"
+    },
+    {
+      "DOI": "10.2139/ssrn.2331213",
+      "title": [
+        "Monitoring and Oversight of Human Rights in Closed Environments"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2010
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.2139/ssrn.2331213",
+      "type": "journal-article"
+    }
+  ]
+}

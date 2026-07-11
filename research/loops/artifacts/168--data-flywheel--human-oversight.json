@@ -1,0 +1,45 @@
+{
+  "loop": 168,
+  "topic": "data flywheel",
+  "facet": "human oversight",
+  "query": "\"data flywheel\" human oversight",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22data+flywheel%22+human+oversight&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:09:00.881020+00:00",
+  "completed_at": "2026-07-11T14:09:01.544604+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.4135/9788132106005.n12",
+      "title": [
+        "National Human Rights Commission and Police Oversight"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2010
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.4135/9788132106005.n12",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.5040/9781472562173.ch-005",
+      "title": [
+        "Evaluating the Performance of External Oversight Bodies"
+      ],
+      "URL": "https://doi.org/10.5040/9781472562173.ch-005",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.5040/9781472562173.ch-012",
+      "title": [
+        "Called to Account: Civilian Oversight in the Palestinian Context"
+      ],
+      "URL": "https://doi.org/10.5040/9781472562173.ch-012",
+      "type": "book-chapter"
+    }
+  ]
+}

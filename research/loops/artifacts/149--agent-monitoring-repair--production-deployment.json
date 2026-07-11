@@ -1,0 +1,62 @@
+{
+  "loop": 149,
+  "topic": "agent monitoring repair",
+  "facet": "production deployment",
+  "query": "\"agent monitoring repair\" production deployment",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22agent+monitoring+repair%22+production+deployment&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:59.386502+00:00",
+  "completed_at": "2026-07-11T14:08:59.932432+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.31234/osf.io/rmptw",
+      "title": [
+        "An Update on Monitoring, Control, and Repair in Language Production"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            16
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.31234/osf.io/rmptw",
+      "type": "posted-content"
+    },
+    {
+      "DOI": "10.1007/978-3-319-29442-1_5",
+      "title": [
+        "Deployment of Regulation of the Production Processes in the Serial Production of a Specific Production Company"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2016
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1007/978-3-319-29442-1_5",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.1109/skg.2005.33",
+      "title": [
+        "An Agent-based Grid Monitoring System Featuring Dynamic and On-demand Sensor Deployment and Management"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2005,
+            11
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1109/skg.2005.33",
+      "type": "proceedings-article"
+    }
+  ]
+}

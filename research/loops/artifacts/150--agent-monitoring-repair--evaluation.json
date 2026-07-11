@@ -1,0 +1,62 @@
+{
+  "loop": 150,
+  "topic": "agent monitoring repair",
+  "facet": "evaluation",
+  "query": "\"agent monitoring repair\" evaluation",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22agent+monitoring+repair%22+evaluation&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:59.429751+00:00",
+  "completed_at": "2026-07-11T14:08:59.947409+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.7176/ikm/11-4-05",
+      "title": [
+        "Intelligent agent based-Real time monitoring and Evaluation of GSM quality of service"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            6
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.7176/ikm/11-4-05",
+      "type": "journal-article"
+    },
+    {
+      "DOI": "10.1201/9781482294552-14",
+      "title": [
+        "MONITORING AND AGENT EVALUATION"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1999,
+            1,
+            1
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1201/9781482294552-14",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.1007/978-94-009-2153-5_7",
+      "title": [
+        "Long-Term Monitoring of Bridge Deformation"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1990
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1007/978-94-009-2153-5_7",
+      "type": "book-chapter"
+    }
+  ]
+}

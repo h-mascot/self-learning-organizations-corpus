@@ -1,0 +1,63 @@
+{
+  "loop": 97,
+  "topic": "agentic organization",
+  "facet": "feedback loop",
+  "query": "\"agentic organization\" feedback loop",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22agentic+organization%22+feedback+loop&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:55.392183+00:00",
+  "completed_at": "2026-07-11T14:08:56.025411+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.2139/ssrn.6617798",
+      "title": [
+        "When Conformity Becomes Structural: A Coupled Feedback Loop Model of Agentic AI and Principal Overconfidence"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.2139/ssrn.6617798",
+      "type": "posted-content"
+    },
+    {
+      "DOI": "10.55277/researchhub.7qgquya5.1",
+      "title": [
+        "The Human-in-the-Loop (HITL) Framework for Agentic Systems"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            20
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.55277/researchhub.7qgquya5.1",
+      "type": "report"
+    },
+    {
+      "DOI": "10.1145/3786167.3788407",
+      "title": [
+        "ContReAct: A Feedback-Based Architecture for Continuous Agentic Operation"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            12
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1145/3786167.3788407",
+      "type": "proceedings-article"
+    }
+  ]
+}

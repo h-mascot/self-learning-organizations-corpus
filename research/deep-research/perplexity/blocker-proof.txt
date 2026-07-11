@@ -1,0 +1,25 @@
+2026-07-11T14:06:10Z
+command -v perplexity:
+mcporter servers:
+mcporter 0.9.0 — Listing 4 server(s) (per-server timeout: 30s)
+- codedb (offline — unable to reach server, 0.1s) [source: ~/.claude.json]
+- headroom (offline — unable to reach server, 0.0s) [source: ~/.claude.json]
+- gitnexus (offline — unable to reach server, 0.1s) [source: ~/.claude.json]
+- exa (2 tools, 0.5s)
+✔ Listed 4 servers (1 healthy; 3 offline).
+credential names:
+documented config search:
+unauthenticated API probe:
+HTTP/2 401 
+date: Sat, 11 Jul 2026 14:06:12 GMT
+content-type: application/json
+server: cloudflare
+access-control-allow-origin: *
+cf-cache-status: DYNAMIC
+set-cookie: __cf_bm=Ll6U0xeCVcpd3IvzXqWtQH3X6UuBDkoYUvk9V7HHoBI-1783778772.3970919-1.0.1.1-1A1ztQVoqB2kxG8i4Pcl.wTq1FDUyewNaZG6bOZjMOWrkImEEoHxswP2HMWoS2FZOwPywZbljfihEhhC_YuOPKegvRiKW9KJqBbufMzzZ2F5.Wue_Z4QoafW9FXUTjUA; HttpOnly; SameSite=None; Secure; Path=/; Domain=perplexity.ai; Expires=Sat, 11 Jul 2026 14:36:12 GMT
+set-cookie: __cflb=04dToWaRite5R1fQA5HfyWsXiTjNxDHmHhYNSmeFvm; HttpOnly; SameSite=None; Secure; Path=/; Expires=Sat, 11 Jul 2026 14:36:12 GMT
+strict-transport-security: max-age=15552000; includeSubDomains; preload
+cf-ray: a1985e0f7c50aa73-LHR
+
+{"error":{"message":"Invalid API key provided. Ensure your API key is correct and active.","type":"invalid_api_key","code":401}}
+

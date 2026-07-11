@@ -1,0 +1,65 @@
+{
+  "loop": 69,
+  "topic": "AI native company",
+  "facet": "production deployment",
+  "query": "\"AI native company\" production deployment",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22AI+native+company%22+production+deployment&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:53.471152+00:00",
+  "completed_at": "2026-07-11T14:08:54.053914+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.70593/978-93-7185-753-6_1",
+      "title": [
+        "Scalable artificial intelligence architectures: Cloud-native, edge-AI, and hybrid models"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            28
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.70593/978-93-7185-753-6_1",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.21203/rs.3.rs-8714776/v1",
+      "title": [
+        "Adaptive FHIR Native AI Governance for Clinical Decision Support:\nA Modular, Auditable Deployment Framework for Real World Clinical AI"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            29
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.21203/rs.3.rs-8714776/v1",
+      "type": "posted-content"
+    },
+    {
+      "DOI": "10.70593/978-93-7185-753-6",
+      "title": [
+        "Scalable Artificial Intelligence Systems: Cloud-Native, Edge-AI, MLOps, and Governance for Real-World Deployment"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            28
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.70593/978-93-7185-753-6",
+      "type": "monograph"
+    }
+  ]
+}

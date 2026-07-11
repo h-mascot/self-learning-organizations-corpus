@@ -1,0 +1,65 @@
+{
+  "loop": 71,
+  "topic": "autonomous enterprise",
+  "facet": "implementation",
+  "query": "\"autonomous enterprise\" implementation",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22autonomous+enterprise%22+implementation&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:53.598110+00:00",
+  "completed_at": "2026-07-11T14:08:54.240900+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.7250/9789934227943",
+      "title": [
+        "Modular Implementation of Autonomous Decision Making Algorithms in Enterprise Resource Planning Systems"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            10,
+            10
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.7250/9789934227943",
+      "type": "edited-book"
+    },
+    {
+      "DOI": "10.70593/978-93-7185-592-1_1",
+      "title": [
+        "Foundations of the Autonomous Data Enterprise"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            10
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.70593/978-93-7185-592-1_1",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.70593/978-93-7185-975-2_9",
+      "title": [
+        "Scaling Autonomous Execution Across Enterprise Services"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            18
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.70593/978-93-7185-975-2_9",
+      "type": "book-chapter"
+    }
+  ]
+}

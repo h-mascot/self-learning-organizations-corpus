@@ -1,0 +1,62 @@
+{
+  "loop": 62,
+  "topic": "AI native company",
+  "facet": "case study",
+  "query": "\"AI native company\" case study",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22AI+native+company%22+case+study&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:52.891758+00:00",
+  "completed_at": "2026-07-11T14:08:53.600911+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.2139/ssrn.6704338",
+      "title": [
+        "Regulatory Reporting Architecture Using Event Streaming: A CAT and FINRA Case Study An AI-Driven Cloud-Native Architecture MLflow, and Large Language Models"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.2139/ssrn.6704338",
+      "type": "posted-content"
+    },
+    {
+      "DOI": "10.3391/ai.2013.8.2.10",
+      "title": [
+        "Tolerance of native and non-native fish species to chemical stress: a case study for the River Rhine"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2013,
+            6
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.3391/ai.2013.8.2.10",
+      "type": "journal-article"
+    },
+    {
+      "DOI": "10.33140/jar.02.01.06",
+      "title": [
+        "Friends’ Company Affected My Life: A Case Study"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2018,
+            4,
+            5
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.33140/jar.02.01.06",
+      "type": "journal-article"
+    }
+  ]
+}

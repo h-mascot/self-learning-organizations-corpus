@@ -1,0 +1,64 @@
+{
+  "loop": 90,
+  "topic": "organizational memory",
+  "facet": "evaluation",
+  "query": "\"organizational memory\" evaluation",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22organizational+memory%22+evaluation&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:54.845707+00:00",
+  "completed_at": "2026-07-11T14:08:55.392089+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.1093/oso/9780198747451.003.0007",
+      "title": [
+        "Organizing the Organizational Memory"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2018,
+            3,
+            22
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1093/oso/9780198747451.003.0007",
+      "type": "book"
+    },
+    {
+      "DOI": "10.4324/9781315669786-2",
+      "title": [
+        "Organizational and Collective Memory"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2019,
+            1,
+            15
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.4324/9781315669786-2",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.1002/ev.385",
+      "title": [
+        "Using organizational memory directories to analyze networks"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2011,
+            9
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1002/ev.385",
+      "type": "journal-article"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "loop": 174,
+  "topic": "decision intelligence",
+  "facet": "governance",
+  "query": "\"decision intelligence\" governance",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22decision+intelligence%22+governance&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:09:01.544715+00:00",
+  "completed_at": "2026-07-11T14:09:02.280170+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.21275/sr251012093941",
+      "title": [
+        "The Impact of Artificial Intelligence on Global Governance and Political Decision-Making"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            16
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.21275/sr251012093941",
+      "type": "journal-article"
+    },
+    {
+      "DOI": "10.24108/preprints-3115180",
+      "title": [
+        "PRGDAI-SD 360+ Decision Architecture: Integrating Performance, Risk, Governance, Data, Artificial Intelligence, Sustainability, and Decision Execution"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            8
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.24108/preprints-3115180",
+      "type": "posted-content"
+    },
+    {
+      "DOI": "10.62311/nesx/rb8m-978-81-687299-2-6",
+      "title": [
+        "Quantum–AI Decision Intelligence for Public Policy, Welfare Targeting, and Crisis Governance"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            30
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.62311/nesx/rb8m-978-81-687299-2-6",
+      "type": "reference-book"
+    }
+  ]
+}

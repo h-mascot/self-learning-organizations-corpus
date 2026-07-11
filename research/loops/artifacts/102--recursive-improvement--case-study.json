@@ -1,0 +1,61 @@
+{
+  "loop": 102,
+  "topic": "recursive improvement",
+  "facet": "case study",
+  "query": "\"recursive improvement\" case study",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22recursive+improvement%22+case+study&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:55.822869+00:00",
+  "completed_at": "2026-07-11T14:08:56.506384+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.2139/ssrn.6091646",
+      "title": [
+        "Authority Transfer in Recursive and Networked AI Systems Closed-Loop Self-Improvement (CLSI), Recursive Leverage (RLF), and Synchronized Recursive Leverage (SRL)"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.2139/ssrn.6091646",
+      "type": "posted-content"
+    },
+    {
+      "DOI": "10.2139/ssrn.6082447",
+      "title": [
+        "On Closed-Loop Self-Improvement Interval (CLSI) and Recursive Leverage Factor (RLF) A Conceptual Framework for Recursive Intelligence Systems"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.2139/ssrn.6082447",
+      "type": "posted-content"
+    },
+    {
+      "DOI": "10.1016/s0166-5316(03)00136-6",
+      "title": [
+        "Improving availability with recursive microreboots: a soft-state system case study"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2003,
+            10,
+            2
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1016/s0166-5316(03)00136-6",
+      "type": "journal-article"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "loop": 180,
+  "topic": "decision intelligence",
+  "facet": "evaluation",
+  "query": "\"decision intelligence\" evaluation",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22decision+intelligence%22+evaluation&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:09:02.540829+00:00",
+  "completed_at": "2026-07-11T14:09:03.100705+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.1002/9780470634431.ch10",
+      "title": [
+        "Implementation and Evaluation"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2011,
+            1,
+            7
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1002/9780470634431.ch10",
+      "type": "other"
+    },
+    {
+      "DOI": "10.21275/sr24422170306",
+      "title": [
+        "Comparative Evaluation of Business Intelligence Platforms for Enhanced Decision-Making in Retail Organizations"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            10,
+            5
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.21275/sr24422170306",
+      "type": "journal-article"
+    },
+    {
+      "DOI": "10.1142/9789812799470_0150",
+      "title": [
+        "EVALUATION OF E-LEARNING WEB SITES USING FUZZY AXIOMATIC DESIGN WITH GROUP DECISION"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2008,
+            8
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1142/9789812799470_0150",
+      "type": "proceedings-article"
+    }
+  ]
+}

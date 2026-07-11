@@ -1,0 +1,63 @@
+{
+  "loop": 25,
+  "topic": "continuous improvement",
+  "facet": "failure",
+  "query": "\"continuous improvement\" failure",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22continuous+improvement%22+failure&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:50.104152+00:00",
+  "completed_at": "2026-07-11T14:08:50.606514+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.5040/9798216410270.ch-005",
+      "title": [
+        "The Role of Failure and Feedback in the Continuous-Improvement Process"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2023
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.5040/9798216410270.ch-005",
+      "type": "other"
+    },
+    {
+      "DOI": "10.1201/b17746-3",
+      "title": [
+        "Failure"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2017,
+            7,
+            27
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1201/b17746-3",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.1201/b17746-2",
+      "title": [
+        "Failure"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2014,
+            11,
+            5
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1201/b17746-2",
+      "type": "book-chapter"
+    }
+  ]
+}

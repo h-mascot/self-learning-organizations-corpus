@@ -1,0 +1,65 @@
+{
+  "loop": 172,
+  "topic": "decision intelligence",
+  "facet": "case study",
+  "query": "\"decision intelligence\" case study",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22decision+intelligence%22+case+study&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:09:01.369847+00:00",
+  "completed_at": "2026-07-11T14:09:10.271056+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.1108/00251749010139378",
+      "title": [
+        "Developing Successful Market Intelligence: A Case Study"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1990,
+            1,
+            1
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1108/00251749010139378",
+      "type": "journal-article"
+    },
+    {
+      "DOI": "10.1111/joor.13383/v1/decision1",
+      "title": [
+        "Decision letter for \"Artificial intelligence to support early diagnosis of temporomandibular disorders: a preliminary case study\""
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            4,
+            13
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1111/joor.13383/v1/decision1",
+      "type": "peer-review"
+    },
+    {
+      "DOI": "10.1111/joor.13383/v3/decision1",
+      "title": [
+        "Decision letter for \"Artificial intelligence to support early diagnosis of temporomandibular disorders: a preliminary case study\""
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            10,
+            17
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1111/joor.13383/v3/decision1",
+      "type": "peer-review"
+    }
+  ]
+}
