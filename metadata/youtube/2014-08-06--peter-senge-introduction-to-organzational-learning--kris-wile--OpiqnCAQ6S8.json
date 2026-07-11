@@ -1,0 +1,38 @@
+{
+  "asr_models": [
+    "whisper-large-v3"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: Unable to download video subtitles for 'en-orig': HTTP Error 429: Too Many Requests",
+  "channel": "Kris Wile",
+  "duration_seconds": 193,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "87e9a06e285feb9c507dbebb91dd7aa29be378ff12687a39b8e409020faeb401",
+    "source-info.json": "801a6facc0b13719c3abb248fc5839b6a173af76ecef35e755026e73bcc86241"
+  },
+  "raw_path": "raw/youtube/2014-08-06--peter-senge-introduction-to-organzational-learning--kris-wile--OpiqnCAQ6S8",
+  "relevance_categories": [
+    "feedback-systems"
+  ],
+  "relevance_evidence": [
+    "systems thinking"
+  ],
+  "relevance_spans": [
+    {
+      "category": "feedback-systems",
+      "phrase": "systems thinking",
+      "text": "we don really even need terms like systems thinking you can say well show me an example where people have acted really intelligently And almost always the examples will have to do with balancing the short term and the long term",
+      "timestamp": "1:31"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 47,
+  "source_url": "https://www.youtube.com/watch?v=OpiqnCAQ6S8",
+  "title": "Peter Senge Introduction to Organzational Learning",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "transcripts/youtube/2014-08-06--peter-senge-introduction-to-organzational-learning--kris-wile--OpiqnCAQ6S8.md",
+  "transcript_sha256": "1e798a5508b7ba341ae451e23000afeb298aa0a4871cf13282e6b490cc8458a2",
+  "upload_date": "20140806",
+  "video_id": "OpiqnCAQ6S8"
+}

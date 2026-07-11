@@ -1,0 +1,38 @@
+{
+  "asr_models": [
+    "whisper-large-v3"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: Unable to download video subtitles for 'en-orig': HTTP Error 429: Too Many Requests",
+  "channel": "Victor J Menasce",
+  "duration_seconds": 304,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "d1e33976b3c29bf3f1bf62f35cde91e54fe95f1852f3179c7070eec4861f8ac3",
+    "source-info.json": "b5be9707c1ae6e5084d0f68cb7c55160e0bd232b4d61e6f9070e22c507e08381"
+  },
+  "raw_path": "raw/youtube/2026-03-09--a-second-brain-becomes-your-corporate-memory--victor-j-menasce--7po3hiHqBLE",
+  "relevance_categories": [
+    "organizational-memory"
+  ],
+  "relevance_evidence": [
+    "second brain"
+  ],
+  "relevance_spans": [
+    {
+      "category": "organizational-memory",
+      "phrase": "second brain",
+      "text": "Today, I want to talk about the benefit of having an artificial intelligence second brain",
+      "timestamp": "0:07"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 68,
+  "source_url": "https://www.youtube.com/watch?v=7po3hiHqBLE",
+  "title": "A Second Brain Becomes Your Corporate Memory",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "transcripts/youtube/2026-03-09--a-second-brain-becomes-your-corporate-memory--victor-j-menasce--7po3hiHqBLE.md",
+  "transcript_sha256": "402b6b6a710a008066c3d5241c4676dfd89ea7b2feaa018ee7a9faa7c14b50a1",
+  "upload_date": "20260309",
+  "video_id": "7po3hiHqBLE"
+}

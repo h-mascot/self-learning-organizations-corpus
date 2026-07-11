@@ -1,0 +1,38 @@
+{
+  "asr_models": [
+    "whisper-large-v3"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: Unable to download video subtitles for 'en-orig': HTTP Error 429: Too Many Requests",
+  "channel": "Lentra",
+  "duration_seconds": 249,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "76f86875b314dfda1de49b960a332ef9f6b491048cf1340a7f7b78ed37736407",
+    "source-info.json": "64fb33bb913707c312f47c5adac3e100d8b7e999fc1578a42b60c834c7c0058e"
+  },
+  "raw_path": "raw/youtube/2022-02-03--brex-data-streams-to-automated-decisions-instantly--lentra--_yqxvzl1CtQ",
+  "relevance_categories": [
+    "named-lanes"
+  ],
+  "relevance_evidence": [
+    "brex"
+  ],
+  "relevance_spans": [
+    {
+      "category": "named-lanes",
+      "phrase": "brex",
+      "text": "The easy to configure Brex helps in an easy configurability and making the policy active within minutes.",
+      "timestamp": "0:30"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 36,
+  "source_url": "https://www.youtube.com/watch?v=_yqxvzl1CtQ",
+  "title": "BREx - Data Streams to Automated Decisions, Instantly",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "transcripts/youtube/2022-02-03--brex-data-streams-to-automated-decisions-instantly--lentra--_yqxvzl1CtQ.md",
+  "transcript_sha256": "809a4d23dc091a8160e08fd8bf773ef8395b36294cd27e26ecb5127413ed18e1",
+  "upload_date": "20220203",
+  "video_id": "_yqxvzl1CtQ"
+}

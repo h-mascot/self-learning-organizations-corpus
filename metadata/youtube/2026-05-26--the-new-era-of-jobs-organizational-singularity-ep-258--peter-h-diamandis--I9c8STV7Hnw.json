@@ -1,0 +1,79 @@
+{
+  "availability": "public",
+  "caption_error": "Command '['yt-dlp', '--write-subs', '--write-auto-subs', '--sub-langs', 'en-orig,en', '--sub-format', 'vtt', '--skip-download', '-o', '/tmp/youtube-ingest-8x63o_wu/caption.%(ext)s', 'https://www.youtube.com/watch?v=I9c8STV7Hnw']' returned non-zero exit status 1.",
+  "channel": "Peter H. Diamandis",
+  "duration_seconds": 3709,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "adca29a42ea79fda5a28cf37eb402650038289a613dab4324e4235d9276a034a",
+    "asr-001.json": "dd99f0557504f7899f568ca256c327790f1b87bc9883c7b0278753c77f31c83c",
+    "asr-002.json": "c8269ede71c442b93210cdcbd3982e58a1e03cb6c66ae00c60497af4502e718f",
+    "asr-003.json": "d99fcb537e29676e3439abb4cc104b18336b34beee6abba4cb15586a167208a8",
+    "asr-004.json": "36bff56bf3c12743565828ff5990cf2e2cca125eb611cb7ae82690aec5211023",
+    "asr-005.json": "6164079b6b43fbfecccb20ec906f9f74c8f38b4f2c033f90517a12eafea2eb78",
+    "asr-006.json": "bbcb6466a0f4e6c3f041c6154c8dcb3a8b8fdb14613541cdb96c4b210ea44907",
+    "source-info.json": "a1ceba2ac16998f829a216f588e1834d8b0a3718ce23dc9cf18688275a04e35a"
+  },
+  "raw_path": "raw/youtube/2026-05-26--the-new-era-of-jobs-organizational-singularity-ep-258--peter-h-diamandis--I9c8STV7Hnw",
+  "relevance_categories": [
+    "continuous-improvement",
+    "feedback-systems",
+    "ai-native-company",
+    "agent-operations"
+  ],
+  "relevance_evidence": [
+    "agents",
+    "ai agent",
+    "ai native",
+    "ai-native",
+    "feedback loop",
+    "improvement loop"
+  ],
+  "relevance_spans": [
+    {
+      "category": "continuous-improvement",
+      "phrase": "improvement loop",
+      "text": "So you run this in parallel until you hit that recursive self-improvement loop.",
+      "timestamp": "33:10"
+    },
+    {
+      "category": "feedback-systems",
+      "phrase": "feedback loop",
+      "text": "What are the feedback loops that tell you you're within the cone of the MTP or not stepping outside the cone?",
+      "timestamp": "11:37"
+    },
+    {
+      "category": "ai-native-company",
+      "phrase": "ai native",
+      "text": "You need an AI native environment to do this.",
+      "timestamp": "9:37"
+    },
+    {
+      "category": "ai-native-company",
+      "phrase": "ai-native",
+      "text": "And now they need to be AI-native, agentic workflow.",
+      "timestamp": "0:39"
+    },
+    {
+      "category": "agent-operations",
+      "phrase": "ai agent",
+      "text": "So MTP becomes an actual protocol and a guide for AI agents and human agents and whatever to act properly.",
+      "timestamp": "11:19"
+    },
+    {
+      "category": "agent-operations",
+      "phrase": "agents",
+      "text": "Agents, AI, AGI, ASI, it's going to restructure how every company,",
+      "timestamp": "1:12"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 1061,
+  "source_url": "https://www.youtube.com/watch?v=I9c8STV7Hnw",
+  "title": "The New Era of Jobs: Organizational Singularity | EP #258",
+  "transcript_method": "groq-whisper-large-v3-turbo",
+  "transcript_path": "transcripts/youtube/2026-05-26--the-new-era-of-jobs-organizational-singularity-ep-258--peter-h-diamandis--I9c8STV7Hnw.md",
+  "transcript_sha256": "f2ff578e752e5da4c308784986bc8f7b799b90c6c024099b0f2399b145174267",
+  "upload_date": "20260526",
+  "video_id": "I9c8STV7Hnw"
+}

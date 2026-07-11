@@ -1,0 +1,45 @@
+{
+  "asr_models": [
+    "whisper-large-v3"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: Unable to download video subtitles for 'en-orig': HTTP Error 429: Too Many Requests",
+  "channel": "FulcrumDigital",
+  "duration_seconds": 92,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "41a3454e51410e84ed5cbf6db1b141e8d59bce6d2597dbed3e230320c256850f",
+    "source-info.json": "9ad8cb7015b0c543b1abd2993bd35beca3c1bbf588cddd79868a1206037c475f"
+  },
+  "raw_path": "raw/youtube/2025-12-30--the-use-case-no-one-is-talking-about-organizational-memory--fulcrumdigital--wdZSq2XZ0Yg",
+  "relevance_categories": [
+    "organizational-memory"
+  ],
+  "relevance_evidence": [
+    "institutional knowledge",
+    "organizational memory"
+  ],
+  "relevance_spans": [
+    {
+      "category": "organizational-memory",
+      "phrase": "organizational memory",
+      "text": "But what nobody is talking about is your organizational memory.",
+      "timestamp": "0:40"
+    },
+    {
+      "category": "organizational-memory",
+      "phrase": "institutional knowledge",
+      "text": "like artifacts thrown all over so the institutional knowledge you know agency if they can maintain",
+      "timestamp": "0:58"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 13,
+  "source_url": "https://www.youtube.com/watch?v=wdZSq2XZ0Yg",
+  "title": "“The Use Case No One Is Talking About: Organizational Memory”",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "transcripts/youtube/2025-12-30--the-use-case-no-one-is-talking-about-organizational-memory--fulcrumdigital--wdZSq2XZ0Yg.md",
+  "transcript_sha256": "823c4cb5fa3f99f23c09a7d6a80eee74f9d2d78cfea05c15cd5261bece2d4486",
+  "upload_date": "20251230",
+  "video_id": "wdZSq2XZ0Yg"
+}

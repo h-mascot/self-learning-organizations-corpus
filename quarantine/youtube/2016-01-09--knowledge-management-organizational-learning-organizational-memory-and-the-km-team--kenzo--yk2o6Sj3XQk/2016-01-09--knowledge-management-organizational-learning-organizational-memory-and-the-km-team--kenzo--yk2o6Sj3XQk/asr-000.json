@@ -1,0 +1,135 @@
+{
+  "task": "transcribe",
+  "language": "English",
+  "duration": 193.723373056,
+  "text": " The Thank you. Thank you. Thank you Thank you. Thank you. Thank you.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0,
+      "end": 2,
+      "text": " The",
+      "tokens": [
+        50365,
+        440,
+        50465
+      ],
+      "temperature": 0,
+      "avg_logprob": -1.7063111,
+      "compression_ratio": 0.33333334,
+      "no_speech_prob": 0
+    },
+    {
+      "id": 1,
+      "seek": 3000,
+      "start": 30,
+      "end": 59.98,
+      "text": " Thank you.",
+      "tokens": [
+        50365,
+        1044,
+        291,
+        13,
+        51864
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.2391076,
+      "compression_ratio": 0.57894737,
+      "no_speech_prob": 0
+    },
+    {
+      "id": 2,
+      "seek": 6000,
+      "start": 60,
+      "end": 89.979996,
+      "text": " Thank you.",
+      "tokens": [
+        50365,
+        1044,
+        291,
+        13,
+        51864
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.34991336,
+      "compression_ratio": 0.57894737,
+      "no_speech_prob": 0
+    },
+    {
+      "id": 3,
+      "seek": 92,
+      "start": 90,
+      "end": 122.035995,
+      "text": " Thank you",
+      "tokens": [
+        50365,
+        1044,
+        291,
+        13,
+        51864
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.36940908,
+      "compression_ratio": 0.57894737,
+      "no_speech_prob": 0
+    },
+    {
+      "id": 4,
+      "seek": 3092,
+      "start": 122.056,
+      "end": 152.036,
+      "text": " Thank you.",
+      "tokens": [
+        50365,
+        1044,
+        291,
+        13,
+        51864
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.28993633,
+      "compression_ratio": 0.57894737,
+      "no_speech_prob": 0
+    },
+    {
+      "id": 5,
+      "seek": 6092,
+      "start": 152.056,
+      "end": 182.036,
+      "text": " Thank you.",
+      "tokens": [
+        50365,
+        1044,
+        291,
+        13,
+        51864
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.33484992,
+      "compression_ratio": 0.57894737,
+      "no_speech_prob": 0
+    },
+    {
+      "id": 6,
+      "seek": 9092,
+      "start": 182.056,
+      "end": 212.036,
+      "text": " Thank you.",
+      "tokens": [
+        50365,
+        1044,
+        291,
+        13,
+        51864
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.9549651,
+      "compression_ratio": 0.57894737,
+      "no_speech_prob": 0
+    }
+  ],
+  "x_groq": {
+    "id": "req_01kx8r61tjf0bvb5d00w2axfkq"
+  }
+}

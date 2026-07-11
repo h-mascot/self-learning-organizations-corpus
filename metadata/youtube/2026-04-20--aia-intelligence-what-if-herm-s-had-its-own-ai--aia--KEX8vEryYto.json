@@ -1,0 +1,38 @@
+{
+  "asr_models": [
+    "whisper-large-v3"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: Unable to download video subtitles for 'en-orig': HTTP Error 429: Too Many Requests",
+  "channel": "AIA",
+  "duration_seconds": 348,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "bc6ebd19dcf24386a04295f6f6a86d05178d182359a136622a86e2556a36a79a",
+    "source-info.json": "bd9b984c08b79cb2ae17333fd95ee60c86c350384408a55005daf162cf5f0eae"
+  },
+  "raw_path": "raw/youtube/2026-04-20--aia-intelligence-what-if-herm-s-had-its-own-ai--aia--KEX8vEryYto",
+  "relevance_categories": [
+    "organizational-memory"
+  ],
+  "relevance_evidence": [
+    "siloed emails"
+  ],
+  "relevance_spans": [
+    {
+      "category": "organizational-memory",
+      "phrase": "siloed emails",
+      "text": "So much knowledge just, well, evaporates across siloed emails or random meetings.",
+      "timestamp": "1:48"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 103,
+  "source_url": "https://www.youtube.com/watch?v=KEX8vEryYto",
+  "title": "AIA Intelligence: What If HERMÈS Had Its Own AI?",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "transcripts/youtube/2026-04-20--aia-intelligence-what-if-herm-s-had-its-own-ai--aia--KEX8vEryYto.md",
+  "transcript_sha256": "86d2c73878b7e3b702d575f5209814103d05e9a0018da8a93594a9efea17b6a8",
+  "upload_date": "20260420",
+  "video_id": "KEX8vEryYto"
+}

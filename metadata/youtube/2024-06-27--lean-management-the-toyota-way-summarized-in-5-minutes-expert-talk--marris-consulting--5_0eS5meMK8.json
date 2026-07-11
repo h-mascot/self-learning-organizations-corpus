@@ -1,0 +1,38 @@
+{
+  "asr_models": [
+    "whisper-large-v3-turbo"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests",
+  "channel": "Marris Consulting",
+  "duration_seconds": 295,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "1ce0ebd11c730bce80bc1a66ce0bda9bbc599dd94483fa4ab2e88b03060085d4",
+    "source-info.json": "5b625496fafe92f9e9cbde89ff01788a6d8a697b5383eb09dc74b1bd28987156"
+  },
+  "raw_path": "raw/youtube/2024-06-27--lean-management-the-toyota-way-summarized-in-5-minutes-expert-talk--marris-consulting--5_0eS5meMK8",
+  "relevance_categories": [
+    "continuous-improvement"
+  ],
+  "relevance_evidence": [
+    "continuous improvement"
+  ],
+  "relevance_spans": [
+    {
+      "category": "continuous-improvement",
+      "phrase": "continuous improvement",
+      "text": "and will contribute to develop a continuous improvement.",
+      "timestamp": "2:36"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 57,
+  "source_url": "https://www.youtube.com/watch?v=5_0eS5meMK8",
+  "title": "Lean Management the Toyota Way summarized in 5 minutes - Expert talk",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "transcripts/youtube/2024-06-27--lean-management-the-toyota-way-summarized-in-5-minutes-expert-talk--marris-consulting--5_0eS5meMK8.md",
+  "transcript_sha256": "5c74a13f87fad2492e7af6cd57bec6f523bb5fdb7a6b0578b5513c23412d3a30",
+  "upload_date": "20240627",
+  "video_id": "5_0eS5meMK8"
+}

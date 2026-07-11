@@ -1,0 +1,60 @@
+{
+  "asr_models": [
+    "whisper-large-v3"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: Unable to download video subtitles for 'en-orig': HTTP Error 429: Too Many Requests",
+  "channel": "Miles MacFarlane",
+  "duration_seconds": 169,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "3bf99f297926f2477a2167c0749ac936b2200f390d0aaf58eeb9c119565d786a",
+    "source-info.json": "a78bccd4b0f190cb3731055078eb8f71b6dff25a22878737692d9985fc172b90"
+  },
+  "raw_path": "raw/youtube/2016-10-27--the-fifth-discipline-in-three-minutes--miles-macfarlane--MQMRMAmT2gg",
+  "relevance_categories": [
+    "organizational-learning",
+    "feedback-systems"
+  ],
+  "relevance_evidence": [
+    "feedback loop",
+    "learning organization",
+    "organizational learning",
+    "systems thinking"
+  ],
+  "relevance_spans": [
+    {
+      "category": "organizational-learning",
+      "phrase": "organizational learning",
+      "text": "books on organizational learning and systems thinking. Rather than a set of management",
+      "timestamp": "0:05"
+    },
+    {
+      "category": "organizational-learning",
+      "phrase": "learning organization",
+      "text": "are those that know how to learn, and a learning organization, he says, understands how everything",
+      "timestamp": "0:24"
+    },
+    {
+      "category": "feedback-systems",
+      "phrase": "feedback loop",
+      "text": "he describes how feedback loops are not really loops",
+      "timestamp": "2:14"
+    },
+    {
+      "category": "feedback-systems",
+      "phrase": "systems thinking",
+      "text": "books on organizational learning and systems thinking. Rather than a set of management",
+      "timestamp": "0:05"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 34,
+  "source_url": "https://www.youtube.com/watch?v=MQMRMAmT2gg",
+  "title": "The Fifth Discipline in Three Minutes",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "transcripts/youtube/2016-10-27--the-fifth-discipline-in-three-minutes--miles-macfarlane--MQMRMAmT2gg.md",
+  "transcript_sha256": "3dfc67408b67387b1e3f4a9db86b1d6d8868a05ec9be80d29aa3e8e35c2205d3",
+  "upload_date": "20161027",
+  "video_id": "MQMRMAmT2gg"
+}

@@ -1,0 +1,45 @@
+{
+  "asr_models": [
+    "whisper-large-v3"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: Unable to download video subtitles for 'en-orig': HTTP Error 429: Too Many Requests",
+  "channel": "Socialism Explained",
+  "duration_seconds": 213,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "47762bbee210546808c214a032ac5e3861663f5412a39657e881c1b9e82a0e09",
+    "source-info.json": "1b9eb75ba94754598b295b1c8043d484c9f5632f47d34aecdc1526e330b2f3de"
+  },
+  "raw_path": "raw/youtube/2025-05-24--what-is-the-viable-system-model-socialism-explained--socialism-explained--3VUGtNFDSVo",
+  "relevance_categories": [
+    "feedback-systems"
+  ],
+  "relevance_evidence": [
+    "cybernetic",
+    "feedback loop"
+  ],
+  "relevance_spans": [
+    {
+      "category": "feedback-systems",
+      "phrase": "feedback loop",
+      "text": "the model supports feedback loops.",
+      "timestamp": "2:23"
+    },
+    {
+      "category": "feedback-systems",
+      "phrase": "cybernetic",
+      "text": "Developed by Stafford Beer, a key figure in cybernetics,",
+      "timestamp": "0:16"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 37,
+  "source_url": "https://www.youtube.com/watch?v=3VUGtNFDSVo",
+  "title": "What Is The Viable System Model? - Socialism Explained",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "transcripts/youtube/2025-05-24--what-is-the-viable-system-model-socialism-explained--socialism-explained--3VUGtNFDSVo.md",
+  "transcript_sha256": "1e9641fab8fc46c34e81fd93e77df334edfe963e1498cd8665f7b3ac682ecbc2",
+  "upload_date": "20250524",
+  "video_id": "3VUGtNFDSVo"
+}

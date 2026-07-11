@@ -1,0 +1,38 @@
+{
+  "asr_models": [
+    "whisper-large-v3"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: Unable to download video subtitles for 'en-orig': HTTP Error 429: Too Many Requests",
+  "channel": "Growth Tribe",
+  "duration_seconds": 264,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "8521ac6772572eddb8bac888e5a39364245736d9e194966ee8471aae676643ba",
+    "source-info.json": "d313734486c0769c3ffdb57ea51f39ca4290d888f9ce099f1dec5f0ee2497f64"
+  },
+  "raw_path": "raw/youtube/2019-04-10--how-to-build-a-self-learning-organisation--growth-tribe--aXzKibGn_b4",
+  "relevance_categories": [
+    "organizational-learning"
+  ],
+  "relevance_evidence": [
+    "learning organization"
+  ],
+  "relevance_spans": [
+    {
+      "category": "organizational-learning",
+      "phrase": "learning organization",
+      "text": "These companies have been able to build not only self-driving organizations, but they've built self-learning organizations.",
+      "timestamp": "2:21"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 57,
+  "source_url": "https://www.youtube.com/watch?v=aXzKibGn_b4",
+  "title": "How to Build a Self-Learning Organisation",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "transcripts/youtube/2019-04-10--how-to-build-a-self-learning-organisation--growth-tribe--aXzKibGn_b4.md",
+  "transcript_sha256": "0707dc6c32b6259475677b51f73677c9e26844405633af1f94febb0cc06b917e",
+  "upload_date": "20190410",
+  "video_id": "aXzKibGn_b4"
+}

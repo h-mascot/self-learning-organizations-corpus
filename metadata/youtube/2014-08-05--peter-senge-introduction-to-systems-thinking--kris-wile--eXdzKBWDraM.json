@@ -1,0 +1,38 @@
+{
+  "asr_models": [
+    "whisper-large-v3"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: Unable to download video subtitles for 'en-orig': HTTP Error 429: Too Many Requests",
+  "channel": "Kris Wile",
+  "duration_seconds": 141,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "db05115aad8ee3442b5a57a6d845028287b39d564f62d767691822e10d66b855",
+    "source-info.json": "104ee3054e104d672048b72e2b1670284b417b8aaa9342dc1e5353b277f5cf76"
+  },
+  "raw_path": "raw/youtube/2014-08-05--peter-senge-introduction-to-systems-thinking--kris-wile--eXdzKBWDraM",
+  "relevance_categories": [
+    "feedback-systems"
+  ],
+  "relevance_evidence": [
+    "systems thinking"
+  ],
+  "relevance_spans": [
+    {
+      "category": "feedback-systems",
+      "phrase": "systems thinking",
+      "text": "Well, the term systems thinking is really a mixed bag, and I use it very, very cautiously.",
+      "timestamp": "0:00"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 28,
+  "source_url": "https://www.youtube.com/watch?v=eXdzKBWDraM",
+  "title": "Peter Senge Introduction to Systems Thinking",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "transcripts/youtube/2014-08-05--peter-senge-introduction-to-systems-thinking--kris-wile--eXdzKBWDraM.md",
+  "transcript_sha256": "e18b9302696dcc42a15ec3a87f1fc8984a35ff3deefa86371f3a4fdb32a17a11",
+  "upload_date": "20140805",
+  "video_id": "eXdzKBWDraM"
+}

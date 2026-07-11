@@ -1,0 +1,65 @@
+{
+  "availability": "public-at-ingestion",
+  "caption_error": null,
+  "channel": "Y Combinator",
+  "duration_seconds": 2790,
+  "license": null,
+  "raw_files": {
+    "legacy-transcript.md": "f55e4fdba5db85d5f64af0103ad24885c5c24a64273f6344ed7cf8956a4ce071",
+    "source-info.json": "7fa05795db9e202664b5c9ec38a03e70e1a64e7dc7f32e5cc7a08dd02ac433a7"
+  },
+  "raw_path": "raw/youtube/2026-05-27--inside-yc-s-ai-playbook--y-combinator--B246K_G7mHU",
+  "relevance_categories": [
+    "ai-native-company",
+    "agent-operations",
+    "named-lanes"
+  ],
+  "relevance_evidence": [
+    "agents",
+    "ai native",
+    "ai-native",
+    "ramp",
+    "y combinator"
+  ],
+  "relevance_spans": [
+    {
+      "category": "ai-native-company",
+      "phrase": "ai native",
+      "text": "how to build that AI native",
+      "timestamp": "25:14"
+    },
+    {
+      "category": "ai-native-company",
+      "phrase": "ai-native",
+      "text": "how to build AI-native companies that",
+      "timestamp": "1:19"
+    },
+    {
+      "category": "agent-operations",
+      "phrase": "agents",
+      "text": "for kind of YC specific agents",
+      "timestamp": "2:50"
+    },
+    {
+      "category": "named-lanes",
+      "phrase": "ramp",
+      "text": "it could just like trample on anything?",
+      "timestamp": "6:50"
+    },
+    {
+      "category": "named-lanes",
+      "phrase": "y combinator",
+      "text": "again. Y Combinator Startup School is",
+      "timestamp": "18:05"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 1318,
+  "source_url": "https://youtu.be/B246K_G7mHU",
+  "title": "Inside YC's AI Playbook",
+  "transcript_method": "legacy-youtube-captions",
+  "transcript_path": "transcripts/youtube/2026-05-27--inside-yc-s-ai-playbook--y-combinator--B246K_G7mHU.md",
+  "transcript_sha256": "f972bf29c1ac63b3cd3bd72c39662c8a5950f5aca770f61741b245fdfa8b760f",
+  "upload_date": "20260527",
+  "video_id": "B246K_G7mHU"
+}

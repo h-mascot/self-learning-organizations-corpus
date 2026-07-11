@@ -1,0 +1,38 @@
+{
+  "asr_models": [
+    "whisper-large-v3"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: Unable to download video subtitles for 'en-orig': HTTP Error 429: Too Many Requests",
+  "channel": "BrettLeeVideos VoteDavis",
+  "duration_seconds": 143,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "640c3cc82db56229c6b56986d218484432be67ebe34186822e2d804a83144b42",
+    "source-info.json": "0519e3c20a948c80ca402b667def16ebc0bdec2888bb16c48983e027ef95da34"
+  },
+  "raw_path": "raw/youtube/2012-05-02--brett-lee-interview-the-viable-systems-model-and-tell-us-about-the-london-school-of-economics--brettleevideos-votedavis--1Mk14yQZ1pE",
+  "relevance_categories": [
+    "feedback-systems"
+  ],
+  "relevance_evidence": [
+    "viable system"
+  ],
+  "relevance_spans": [
+    {
+      "category": "feedback-systems",
+      "phrase": "viable system",
+      "text": "I'd be talking about the viable system model no matter what we were talking about,",
+      "timestamp": "0:06"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 29,
+  "source_url": "https://www.youtube.com/watch?v=1Mk14yQZ1pE",
+  "title": "Brett Lee Interview: The Viable Systems Model & \"Tell us about the London School of Economics?\"",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "transcripts/youtube/2012-05-02--brett-lee-interview-the-viable-systems-model-and-tell-us-about-the-london-school-of-economics--brettleevideos-votedavis--1Mk14yQZ1pE.md",
+  "transcript_sha256": "2b1fc4ba3b55ff933da688a7d4ce4c090c53922d750d596452995c8aaaf8e3f2",
+  "upload_date": "20120502",
+  "video_id": "1Mk14yQZ1pE"
+}

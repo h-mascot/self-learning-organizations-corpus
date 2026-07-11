@@ -1,0 +1,38 @@
+{
+  "asr_models": [
+    "whisper-large-v3"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: Unable to download video subtitles for 'en-orig': HTTP Error 429: Too Many Requests",
+  "channel": "Alison McDowell",
+  "duration_seconds": 414,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "0d3f9e98afb70fa0bbbf0577426d16883a9d77daf4912346dc5104ed2bda7f4f",
+    "source-info.json": "c7b5b9139b48c56dd747506439e09a431f1c351338a7a1738d72f0bc0cc29c05"
+  },
+  "raw_path": "raw/youtube/2022-04-28--clip-stafford-beer-on-management-cybernetics-computer-control-of-social-systems--alison-mcdowell--CzDod4bXmlE",
+  "relevance_categories": [
+    "feedback-systems"
+  ],
+  "relevance_evidence": [
+    "cybernetic"
+  ],
+  "relevance_spans": [
+    {
+      "category": "feedback-systems",
+      "phrase": "cybernetic",
+      "text": "That is Kubernetes, from which we get cybernetics.",
+      "timestamp": "0:37"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 99,
+  "source_url": "https://www.youtube.com/watch?v=CzDod4bXmlE",
+  "title": "Clip - Stafford Beer on Management Cybernetics, Computer Control of Social Systems",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "transcripts/youtube/2022-04-28--clip-stafford-beer-on-management-cybernetics-computer-control-of-social-systems--alison-mcdowell--CzDod4bXmlE.md",
+  "transcript_sha256": "5425c1f05460e8f3ed504466c674bc7f293e70f4387fb71c65e3f5b12593a28d",
+  "upload_date": "20220428",
+  "video_id": "CzDod4bXmlE"
+}

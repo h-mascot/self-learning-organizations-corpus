@@ -1,0 +1,38 @@
+{
+  "asr_models": [
+    "whisper-large-v3"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: Unable to download video subtitles for 'en-orig': HTTP Error 429: Too Many Requests",
+  "channel": "Armour1x TV",
+  "duration_seconds": 92,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "257da8bfe947d89c5c3e21ecbcc386d7d72d69880220b11024b38f7bff9c7f64",
+    "source-info.json": "8a46c114f6e6d59297039bf5c8664f670cc9bc5485eb71e89d2837e326af1931"
+  },
+  "raw_path": "raw/youtube/2026-07-01--the-future-of-enterprise-agentic-ai-explained-armour1x-tv-episode-1--armour1x-tv--0rOTbUv8LAo",
+  "relevance_categories": [
+    "agent-operations"
+  ],
+  "relevance_evidence": [
+    "agents"
+  ],
+  "relevance_spans": [
+    {
+      "category": "agent-operations",
+      "phrase": "agents",
+      "text": "Instead of answering questions, intelligent agents work together to achieve business goals.",
+      "timestamp": "0:54"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 19,
+  "source_url": "https://www.youtube.com/watch?v=0rOTbUv8LAo",
+  "title": "The Future of Enterprise: Agentic AI Explained | Armour1x TV | Episode 1",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "transcripts/youtube/2026-07-01--the-future-of-enterprise-agentic-ai-explained-armour1x-tv-episode-1--armour1x-tv--0rOTbUv8LAo.md",
+  "transcript_sha256": "b1874c550403503bfd463afae930127b8babf55931b4da7bb7d0bfff46fc2c5f",
+  "upload_date": "20260701",
+  "video_id": "0rOTbUv8LAo"
+}

@@ -1,0 +1,42 @@
+{
+  "availability": "public",
+  "caption_error": "Command '['yt-dlp', '--write-subs', '--write-auto-subs', '--sub-langs', 'en-orig,en', '--sub-format', 'vtt', '--skip-download', '-o', '/tmp/youtube-ingest-g_hwfc4h/caption.%(ext)s', 'https://www.youtube.com/watch?v=m6FTkNJBwCg']' returned non-zero exit status 1.",
+  "channel": "CNBC Television",
+  "duration_seconds": 235,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "00b8e69df2cb9060d79940588f1fc0e12f725e5bf0ebaef2b7e9d4a1e76ae05c",
+    "source-info.json": "f0b9b364ff3bacbe5fae3785134cdb1a548fe1fc16ba179d4f518dcf88985fcd"
+  },
+  "raw_path": "raw/youtube/2024-05-15--disruptor-50-4-brex-co-ceo-talks-using-ai-to-streamline-company-finances--cnbc-television--m6FTkNJBwCg",
+  "relevance_categories": [
+    "named-lanes"
+  ],
+  "relevance_evidence": [
+    "brex",
+    "pedro franceschi"
+  ],
+  "relevance_spans": [
+    {
+      "category": "named-lanes",
+      "phrase": "pedro franceschi",
+      "text": "And joining us now is Brex co-CEO, Pedro Franceschi.",
+      "timestamp": "0:12"
+    },
+    {
+      "category": "named-lanes",
+      "phrase": "brex",
+      "text": "Coming in at number four is Brex.",
+      "timestamp": "0:03"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 43,
+  "source_url": "https://www.youtube.com/watch?v=m6FTkNJBwCg",
+  "title": "Disruptor 50 #4: Brex Co-CEO talks using AI to streamline company finances",
+  "transcript_method": "groq-whisper-large-v3-turbo",
+  "transcript_path": "transcripts/youtube/2024-05-15--disruptor-50-4-brex-co-ceo-talks-using-ai-to-streamline-company-finances--cnbc-television--m6FTkNJBwCg.md",
+  "transcript_sha256": "ebe66f91dfc39d84c5db7898569f7a6b56c00efb6d99078a21199edcfda1ae5b",
+  "upload_date": "20240515",
+  "video_id": "m6FTkNJBwCg"
+}

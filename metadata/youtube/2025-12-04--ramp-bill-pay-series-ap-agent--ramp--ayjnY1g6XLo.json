@@ -1,0 +1,53 @@
+{
+  "asr_models": [
+    "whisper-large-v3"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nWARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests",
+  "channel": "Ramp",
+  "duration_seconds": 163,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "224e6988647c59965678cd5008237f32897b2b0b528a72135b634dcd5a14a795",
+    "source-info.json": "a5c236398368f2a0f7a7ecc90f0cdccaae05909e15f992982dc9337fb623cc7b"
+  },
+  "raw_path": "raw/youtube/2025-12-04--ramp-bill-pay-series-ap-agent--ramp--ayjnY1g6XLo",
+  "relevance_categories": [
+    "agent-operations",
+    "named-lanes"
+  ],
+  "relevance_evidence": [
+    "agents",
+    "ai agent",
+    "ramp"
+  ],
+  "relevance_spans": [
+    {
+      "category": "agent-operations",
+      "phrase": "ai agent",
+      "text": "AI agents are now working for you directly in BillPay.",
+      "timestamp": "0:00"
+    },
+    {
+      "category": "agent-operations",
+      "phrase": "agents",
+      "text": "AI agents are now working for you directly in BillPay.",
+      "timestamp": "0:00"
+    },
+    {
+      "category": "named-lanes",
+      "phrase": "ramp",
+      "text": "bill details will be pre-filled using RAMP's industry-leading OCR technology in just a",
+      "timestamp": "0:36"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 32,
+  "source_url": "https://www.youtube.com/watch?v=ayjnY1g6XLo",
+  "title": "Ramp Bill Pay Series: AP Agent",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "transcripts/youtube/2025-12-04--ramp-bill-pay-series-ap-agent--ramp--ayjnY1g6XLo.md",
+  "transcript_sha256": "c10886e445142e90e95684866f68fc8fbd3e2f400d9ebc7e66d6629c19c01002",
+  "upload_date": "20251204",
+  "video_id": "ayjnY1g6XLo"
+}

@@ -1,0 +1,38 @@
+{
+  "asr_models": [
+    "whisper-large-v3"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: Unable to download video subtitles for 'en-orig': HTTP Error 429: Too Many Requests",
+  "channel": "Ramp",
+  "duration_seconds": 249,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "ca474739112849a86ea2079f42a065fd6a355a31d0bd3bcf38e3c8b4aa74b85e",
+    "source-info.json": "30007c5bd34b8e149730b20415db27edf658dc4019cf7cf37c020edf72ab02a5"
+  },
+  "raw_path": "raw/youtube/2026-02-12--ramp-accounting-series-accounting-agent--ramp--t8rye2lRB3o",
+  "relevance_categories": [
+    "named-lanes"
+  ],
+  "relevance_evidence": [
+    "ramp"
+  ],
+  "relevance_spans": [
+    {
+      "category": "named-lanes",
+      "phrase": "ramp",
+      "text": "Closing the books in RAMP has never been easier with RAMP's Accounting Agent.",
+      "timestamp": "0:00"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 39,
+  "source_url": "https://www.youtube.com/watch?v=t8rye2lRB3o",
+  "title": "Ramp Accounting Series: Accounting Agent",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "transcripts/youtube/2026-02-12--ramp-accounting-series-accounting-agent--ramp--t8rye2lRB3o.md",
+  "transcript_sha256": "06678f6c5cabd81bc1b4f3021910f7b48d5eb12b75ca2ad21bdc4d930d44ac72",
+  "upload_date": "20260212",
+  "video_id": "t8rye2lRB3o"
+}

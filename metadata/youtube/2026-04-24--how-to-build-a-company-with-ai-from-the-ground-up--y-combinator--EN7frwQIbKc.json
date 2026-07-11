@@ -1,0 +1,65 @@
+{
+  "availability": "public-at-ingestion",
+  "caption_error": null,
+  "channel": "Y Combinator",
+  "duration_seconds": 627,
+  "license": null,
+  "raw_files": {
+    "legacy-transcript.md": "2c1155556d0e13651a010ea0ecb70971739605086ba7b776c99081b4a8a42fca",
+    "source-info.json": "571dcb7e06a2f97a32ba9be3e723b1381ae2402bafc5e022722ab98835d0bb03"
+  },
+  "raw_path": "raw/youtube/2026-04-24--how-to-build-a-company-with-ai-from-the-ground-up--y-combinator--EN7frwQIbKc",
+  "relevance_categories": [
+    "feedback-systems",
+    "ai-native-company",
+    "agent-operations"
+  ],
+  "relevance_evidence": [
+    "agents",
+    "ai agent",
+    "ai native",
+    "ai-native",
+    "feedback loop"
+  ],
+  "relevance_spans": [
+    {
+      "category": "feedback-systems",
+      "phrase": "feedback loop",
+      "text": "feedback loops. In the old world,",
+      "timestamp": "1:55"
+    },
+    {
+      "category": "ai-native-company",
+      "phrase": "ai native",
+      "text": "think about building an AI native",
+      "timestamp": "0:31"
+    },
+    {
+      "category": "ai-native-company",
+      "phrase": "ai-native",
+      "text": "AI-native company, this is not limited",
+      "timestamp": "7:32"
+    },
+    {
+      "category": "agent-operations",
+      "phrase": "ai agent",
+      "text": "And then AI agents generate the",
+      "timestamp": "5:00"
+    },
+    {
+      "category": "agent-operations",
+      "phrase": "agents",
+      "text": "With self-improving agents, your company",
+      "timestamp": "2:22"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 260,
+  "source_url": "https://youtu.be/EN7frwQIbKc",
+  "title": "How To Build A Company With AI From The Ground Up",
+  "transcript_method": "legacy-youtube-captions",
+  "transcript_path": "transcripts/youtube/2026-04-24--how-to-build-a-company-with-ai-from-the-ground-up--y-combinator--EN7frwQIbKc.md",
+  "transcript_sha256": "c9ed217e29e044ded4bc9ee711b8e698f2ff8a514a7c605317adca7c38bb0df0",
+  "upload_date": "20260424",
+  "video_id": "EN7frwQIbKc"
+}

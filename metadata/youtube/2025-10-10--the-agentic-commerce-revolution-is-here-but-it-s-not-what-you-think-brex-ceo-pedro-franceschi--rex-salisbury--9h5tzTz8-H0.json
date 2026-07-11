@@ -1,0 +1,47 @@
+{
+  "availability": "public",
+  "caption_error": "Command '['yt-dlp', '--write-subs', '--write-auto-subs', '--sub-langs', 'en-orig,en', '--sub-format', 'vtt', '--skip-download', '-o', '/tmp/youtube-ingest-bqducevt/caption.%(ext)s', 'https://www.youtube.com/watch?v=9h5tzTz8-H0']' returned non-zero exit status 1.",
+  "channel": "Rex Salisbury",
+  "duration_seconds": 2944,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "6f7d891a25a41f835c03492747d15bdc1e04ee98da56c906e7c024c7026d0e1a",
+    "asr-001.json": "6f47d6b2954ce9ede032786d6700b724e3a2f0f1d9d13fafa402e59d0dadb8ad",
+    "asr-002.json": "c6b13105ee90ec84fa3592dfa05909f8d5fb593b6a75a1ea4a134c6a986c8be1",
+    "asr-003.json": "cb6e8ab85cb1ec89c6c00828829b6684003fb54a878ea2ab378de66433365fd7",
+    "asr-004.json": "f4215baae12fd40959e249b361595a2d8eb645da50aeaaa928d970f0c9c6c2de",
+    "source-info.json": "e7d16e476fce944581b80e22c338e94b93325bbebe64b14ea1376db805a0f338"
+  },
+  "raw_path": "raw/youtube/2025-10-10--the-agentic-commerce-revolution-is-here-but-it-s-not-what-you-think-brex-ceo-pedro-franceschi--rex-salisbury--9h5tzTz8-H0",
+  "relevance_categories": [
+    "agent-operations",
+    "named-lanes"
+  ],
+  "relevance_evidence": [
+    "agents",
+    "brex"
+  ],
+  "relevance_spans": [
+    {
+      "category": "agent-operations",
+      "phrase": "agents",
+      "text": "you want to buy a new piece of clothes You have to decide okay which brand I want where is the store located what price what alternatives I have what the delivery time And agents turn out to",
+      "timestamp": "2:23"
+    },
+    {
+      "category": "named-lanes",
+      "phrase": "brex",
+      "text": "But now you have these tech-native companies like Brex who are operating at scale, who are going all in on AI.",
+      "timestamp": "1:01"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 787,
+  "source_url": "https://www.youtube.com/watch?v=9h5tzTz8-H0",
+  "title": "The Agentic Commerce Revolution is here - but it's not what you think! (Brex CEO Pedro Franceschi)",
+  "transcript_method": "groq-whisper-large-v3-turbo",
+  "transcript_path": "transcripts/youtube/2025-10-10--the-agentic-commerce-revolution-is-here-but-it-s-not-what-you-think-brex-ceo-pedro-franceschi--rex-salisbury--9h5tzTz8-H0.md",
+  "transcript_sha256": "1f23d2cf8cb49425e2468227d717f1ed7e3fb4dcff9348dedab319ea4987a18f",
+  "upload_date": "20251010",
+  "video_id": "9h5tzTz8-H0"
+}

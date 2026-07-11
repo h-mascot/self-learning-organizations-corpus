@@ -1,0 +1,38 @@
+{
+  "asr_models": [
+    "whisper-large-v3"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: [youtube] Incomplete data received in embedded initial data; re-fetching using API.\nWARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: Unable to download video subtitles for 'en-orig': HTTP Error 429: Too Many Requests",
+  "channel": "Nacsoft Yazılım",
+  "duration_seconds": 126,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "190a04bf77fc02393439f919b37240b7d9243c7646329e8f8ab6bcd57a061dc6",
+    "source-info.json": "9887098792a041088472de5cd67737d3c8753c4e1e387cd39fde0e12a20851d0"
+  },
+  "raw_path": "raw/youtube/2019-06-25--how-to-manage-your-corporate-memory--nacsoft-yaz-l-m--X7Dh_pvSw4Y",
+  "relevance_categories": [
+    "organizational-memory"
+  ],
+  "relevance_evidence": [
+    "corporate memory"
+  ],
+  "relevance_spans": [
+    {
+      "category": "organizational-memory",
+      "phrase": "corporate memory",
+      "text": "your corporate memory more efficiently thanks to Eva. Let's get started. On a previous video,",
+      "timestamp": "0:04"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 21,
+  "source_url": "https://www.youtube.com/watch?v=X7Dh_pvSw4Y",
+  "title": "How To Manage Your Corporate Memory",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "transcripts/youtube/2019-06-25--how-to-manage-your-corporate-memory--nacsoft-yaz-l-m--X7Dh_pvSw4Y.md",
+  "transcript_sha256": "47690c137eef98bb1727cbc2e04b460e12e339233f67fe48aa8bf6f56bd26368",
+  "upload_date": "20190625",
+  "video_id": "X7Dh_pvSw4Y"
+}

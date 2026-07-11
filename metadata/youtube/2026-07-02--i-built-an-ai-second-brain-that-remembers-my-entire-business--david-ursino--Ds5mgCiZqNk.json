@@ -1,0 +1,46 @@
+{
+  "asr_models": [
+    "whisper-large-v3"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: Unable to download video subtitles for 'en-orig': HTTP Error 429: Too Many Requests",
+  "channel": "David Ursino",
+  "duration_seconds": 143,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "97a76c72f48b50e24dd46d278feb1b5c9af4c94438c41c02eb512e14c6ef6a8e",
+    "source-info.json": "6950750cd38257a8e2dc5392e5d779fc72b029bbcd9fd753d975d6350c4d5914"
+  },
+  "raw_path": "raw/youtube/2026-07-02--i-built-an-ai-second-brain-that-remembers-my-entire-business--david-ursino--Ds5mgCiZqNk",
+  "relevance_categories": [
+    "organizational-memory",
+    "agent-operations"
+  ],
+  "relevance_evidence": [
+    "agents",
+    "second brain"
+  ],
+  "relevance_spans": [
+    {
+      "category": "organizational-memory",
+      "phrase": "second brain",
+      "text": "It has access to my calendars and my inboxes and tells me what actually matters every morning through a dashboard It aptly named my second brain By the way comment brain and I send you how mine works It knows every project I",
+      "timestamp": "1:04"
+    },
+    {
+      "category": "agent-operations",
+      "phrase": "agents",
+      "text": "I manage a brokerage with 300 agents.",
+      "timestamp": "0:14"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 29,
+  "source_url": "https://www.youtube.com/watch?v=Ds5mgCiZqNk",
+  "title": "I Built an AI “Second Brain” That Remembers My Entire Business",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "transcripts/youtube/2026-07-02--i-built-an-ai-second-brain-that-remembers-my-entire-business--david-ursino--Ds5mgCiZqNk.md",
+  "transcript_sha256": "9a3cbbbe5deb153a4df90bfda6062e9d417f264ff19d96d914af44809880d962",
+  "upload_date": "20260702",
+  "video_id": "Ds5mgCiZqNk"
+}

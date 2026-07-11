@@ -1,0 +1,45 @@
+{
+  "asr_models": [
+    "whisper-large-v3"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: Unable to download video subtitles for 'en-orig': HTTP Error 429: Too Many Requests",
+  "channel": "Sullivan & Stanley",
+  "duration_seconds": 367,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "33ab9fae9754ebb2ccc8a80f22553c84032eaded2e4815b68ddf73be7b934bb4",
+    "source-info.json": "b3a07fb564fbd0968ef07e4c367dbf5f56c77609f74fd4d222da8faf28ecb212"
+  },
+  "raw_path": "raw/youtube/2026-05-19--agentic-mesh-in-the-enterprise-what-it-is-and-where-we-actually-are--sullivan-and-stanley--Ns8rBRUrxnY",
+  "relevance_categories": [
+    "agent-operations"
+  ],
+  "relevance_evidence": [
+    "agents",
+    "ai agent"
+  ],
+  "relevance_spans": [
+    {
+      "category": "agent-operations",
+      "phrase": "ai agent",
+      "text": "impressive demo an agentic mesh is what happens when multiple ai agents each with a role are",
+      "timestamp": "0:45"
+    },
+    {
+      "category": "agent-operations",
+      "phrase": "agents",
+      "text": "impressive demo an agentic mesh is what happens when multiple ai agents each with a role are",
+      "timestamp": "0:45"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 67,
+  "source_url": "https://www.youtube.com/watch?v=Ns8rBRUrxnY",
+  "title": "Agentic Mesh in the Enterprise: What It Is, and Where We Actually Are",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "transcripts/youtube/2026-05-19--agentic-mesh-in-the-enterprise-what-it-is-and-where-we-actually-are--sullivan-and-stanley--Ns8rBRUrxnY.md",
+  "transcript_sha256": "9ad40265df2aaef3b1312f43659a6e92c196c0940c9ccfbb214b5692157cc82d",
+  "upload_date": "20260519",
+  "video_id": "Ns8rBRUrxnY"
+}

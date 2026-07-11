@@ -1,0 +1,45 @@
+{
+  "asr_models": [
+    "whisper-large-v3"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: Unable to download video subtitles for 'en-orig': HTTP Error 429: Too Many Requests",
+  "channel": "Acuvate Software",
+  "duration_seconds": 199,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "84c89e6b855b254290afa02cef30095cf9aa48a6c1239fca960976847572db15",
+    "source-info.json": "38c88599399ea64f3a3158c053970694fc4a2782a8c592791a887baf1af2bd21"
+  },
+  "raw_path": "raw/youtube/2025-10-14--how-autonomous-ai-agents-drive-measurable-business-value-coreshift2025-insights--acuvate-software--A6UVT5ZKsOE",
+  "relevance_categories": [
+    "agent-operations"
+  ],
+  "relevance_evidence": [
+    "agents",
+    "ai agent"
+  ],
+  "relevance_spans": [
+    {
+      "category": "agent-operations",
+      "phrase": "ai agent",
+      "text": "Additionally, 82% of organizations are planning to integrate AI agents within the next one",
+      "timestamp": "1:01"
+    },
+    {
+      "category": "agent-operations",
+      "phrase": "agents",
+      "text": "agentic intelligence agentic agents give us the ability to build agents or kind of in the vein",
+      "timestamp": "0:00"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 33,
+  "source_url": "https://www.youtube.com/watch?v=A6UVT5ZKsOE",
+  "title": "How Autonomous AI Agents Drive Measurable Business Value – CoreShift2025 Insights",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "transcripts/youtube/2025-10-14--how-autonomous-ai-agents-drive-measurable-business-value-coreshift2025-insights--acuvate-software--A6UVT5ZKsOE.md",
+  "transcript_sha256": "cc1cece2c9bc414bff77d1d4354bf1c9058e9acd65843ac95d7be72f4a0a4b83",
+  "upload_date": "20251014",
+  "video_id": "A6UVT5ZKsOE"
+}
