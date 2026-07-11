@@ -1,10 +1,19 @@
 ---
-video_id: B246K_G7mHU
+schema_version: 1
+platform: youtube
+stable_id: B246K_G7mHU
 title: "Inside YC's AI Playbook"
-channel: "Y Combinator"
-source_url: https://youtu.be/B246K_G7mHU
+publisher: "Y Combinator"
+canonical_url: https://www.youtube.com/watch?v=B246K_G7mHU
+published_date: 2026-05-27
+content_type: transcript
+status: accepted
+relevance_status: relevant
+provenance: "YouTube captions retained from the original repository seed"
+rights_status: third-party
+rights_holder: "Y Combinator"
+content_sha256: 9d439e50cb6fe35ded44e207bae53e236ca6d3cb7786b322839d5d4a0807a7e3
 duration_seconds: 2790
-upload_date: 20260527
 transcript_source: youtube captions
 ---
 
