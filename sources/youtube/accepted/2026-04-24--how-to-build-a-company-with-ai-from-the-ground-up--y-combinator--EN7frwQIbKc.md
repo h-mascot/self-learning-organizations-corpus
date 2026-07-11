@@ -1,10 +1,19 @@
 ---
-video_id: EN7frwQIbKc
+schema_version: 1
+platform: youtube
+stable_id: EN7frwQIbKc
 title: "How To Build A Company With AI From The Ground Up"
-channel: "Y Combinator"
-source_url: https://youtu.be/EN7frwQIbKc
+publisher: "Y Combinator"
+canonical_url: https://www.youtube.com/watch?v=EN7frwQIbKc
+published_date: 2026-04-24
+content_type: transcript
+status: accepted
+relevance_status: relevant
+provenance: "YouTube captions retained from the original repository seed"
+rights_status: third-party
+rights_holder: "Y Combinator"
+content_sha256: 60f46320599df96af85b1e2aa2e1109e9ed57444eb01208db3929a872ef5e600
 duration_seconds: 627
-upload_date: 20260424
 transcript_source: youtube captions
 ---
 

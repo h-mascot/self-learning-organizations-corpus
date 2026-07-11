@@ -1,10 +1,19 @@
 ---
-video_id: mPAHvz8kW24
+schema_version: 1
+platform: youtube
+stable_id: mPAHvz8kW24
 title: "The Most AI-Pilled CEO We Know"
-channel: "Y Combinator"
-source_url: https://youtu.be/mPAHvz8kW24
+publisher: "Y Combinator"
+canonical_url: https://www.youtube.com/watch?v=mPAHvz8kW24
+published_date: 2026-06-10
+content_type: transcript
+status: accepted
+relevance_status: relevant
+provenance: "YouTube captions retained from the original repository seed"
+rights_status: third-party
+rights_holder: "Y Combinator"
+content_sha256: 748bf07194cce57e02136aca19c83f98db4f2f93839f100754ff83013935b2c8
 duration_seconds: 3247
-upload_date: 20260610
 transcript_source: youtube captions
 ---
 

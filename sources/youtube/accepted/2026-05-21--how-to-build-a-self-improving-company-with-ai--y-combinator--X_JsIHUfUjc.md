@@ -1,10 +1,19 @@
 ---
-video_id: X_JsIHUfUjc
+schema_version: 1
+platform: youtube
+stable_id: X_JsIHUfUjc
 title: "How to Build a Self-Improving Company with AI"
-channel: "Y Combinator"
-source_url: https://youtu.be/X_JsIHUfUjc
+publisher: "Y Combinator"
+canonical_url: https://www.youtube.com/watch?v=X_JsIHUfUjc
+published_date: 2026-05-21
+content_type: transcript
+status: accepted
+relevance_status: relevant
+provenance: "YouTube captions retained from the original repository seed"
+rights_status: third-party
+rights_holder: "Y Combinator"
+content_sha256: ec6917220497e7ba58d41ad1c9ec99f23df417597684c814cee9abd09470d7dc
 duration_seconds: 808
-upload_date: 20260521
 transcript_source: youtube captions
 ---
 

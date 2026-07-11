@@ -1,0 +1,14 @@
+{
+  "by_platform": {
+    "youtube": 6
+  },
+  "by_status": {
+    "accepted": 5,
+    "rejected": 1
+  },
+  "complete_timestamped_transcripts": 5,
+  "discovered_sources": 6,
+  "rejected_sources": 1,
+  "schema_version": 1,
+  "validated_relevant_sources": 5
+}
