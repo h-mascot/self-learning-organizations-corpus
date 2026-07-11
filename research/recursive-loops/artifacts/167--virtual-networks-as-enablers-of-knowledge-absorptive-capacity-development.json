@@ -1,0 +1,37 @@
+{
+  "schema_version": 2,
+  "loop": 167,
+  "parent_loop": 64,
+  "parent_source": "https://ieeexplore.ieee.org/iel5/5594059/5602021/05603372.pdf",
+  "selected_item": "https://openalex.org/W2247552713",
+  "selected_title": "Virtual networks as enablers of knowledge absorptive capacity development",
+  "discovered_as": "related_works link exposed by loop 64",
+  "question": "Which measurable boundary in “Virtual networks as enablers of knowledge absorptive capacity development” changes how Knowledge management should be evaluated after “Evaluating the military's technology absorptive capacity”?",
+  "retrieval_url": "https://api.openalex.org/works/W2247552713?mailto=corpus@example.invalid",
+  "canonical_url": "https://dialnet.unirioja.es/descarga/articulo/2710867.pdf",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:30:13.527825+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "Organisations are finding it more difficult to keep abreast with the pace of change. The continuous rise of business opportunities and the increase in global competition demands a capability to acquire, assimilate, transform and apply external critical knowledge to renew and reconfigure existing capabilities and knowledge, and to innovate. Developing this dynamic capability requires, in turn, new proactive knowledge management tools, and new organisational forms. This chapter presents a framework in which virtual networks constitute more flexible new organisational structures to absorb and create knowledge. It also describes how embeddedness in such a network can affect most of the factors identified as antecedents of absorptive capacity. In addition, it evidences the important role of the firm�s relational capabilities in taking advantage of the relevant business information, knowledge,"
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Knowledge management, Absorptive capacity through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 136 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [
+    "https://openalex.org/W2324721901",
+    "https://openalex.org/W103780086",
+    "https://openalex.org/W2547295386",
+    "https://openalex.org/W1993244061",
+    "https://openalex.org/W2062028892"
+  ],
+  "corpus_changes": [
+    "sources/arxiv/2008--virtual-networks-as-enablers-of-knowledge-absorptive-capacity-development--c-sar-camis-n-zornoza--w2247552713.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W2247552713"
+}

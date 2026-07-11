@@ -1,0 +1,33 @@
+{
+  "schema_version": 2,
+  "loop": 107,
+  "parent_loop": 43,
+  "parent_source": "https://doi.org/10.3390/admsci10030048",
+  "selected_item": "https://openalex.org/W2097751394",
+  "selected_title": "The applicability of Grant’s framework in the dynamic digital age",
+  "discovered_as": "related_works link exposed by loop 43",
+  "question": "Which measurable boundary in “The applicability of Grant’s framework in the dynamic digital age” changes how Dynamic capabilities should be evaluated after “The Relations between Dynamic Capabilities and Core Competencies on the Case of Polish Companies”?",
+  "retrieval_url": "https://api.openalex.org/works/W2097751394?mailto=corpus@example.invalid",
+  "canonical_url": "https://doi.org/10.1108/ebr-03-2014-0023",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:29:05.776600+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "Purpose – This paper aims to investigate the applicability of Grant’s framework in the current changing and dynamic environment. Design/methodology/approach – In this paper, a critical review of Grant’s paper was conducted to identify the limitations and weaknesses of the framework, which prevent its effective application in the current digital age. Findings – As a result, this paper presented a modified framework and four propositions to consider dynamic capabilities in the new turbulent environment and extend the relationships between a firm’s resources, capabilities, dynamic capabilities, competitive advantage and competitive strategy. Findings tied to this initiative will provide important contributions to research. Originality/value – Rooted in resource-based view (RBV), the proposed framework puts forward a valid theoretical foundation on how to create a competitive advantage from "
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Dynamic capabilities, Competitive advantage through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 158 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [
+    "https://openalex.org/W2126276979"
+  ],
+  "corpus_changes": [
+    "sources/arxiv/2015--the-applicability-of-grant-s-framework-in-the-dynamic-digital-age--mona-rashidirad--w2097751394.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W2097751394"
+}

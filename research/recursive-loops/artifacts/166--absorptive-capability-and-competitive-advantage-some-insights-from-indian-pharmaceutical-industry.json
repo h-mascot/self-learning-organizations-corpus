@@ -1,0 +1,39 @@
+{
+  "schema_version": 2,
+  "loop": 166,
+  "parent_loop": 64,
+  "parent_source": "https://ieeexplore.ieee.org/iel5/5594059/5602021/05603372.pdf",
+  "selected_item": "https://openalex.org/W2250236342",
+  "selected_title": "Absorptive Capability and Competitive Advantage: Some Insights from Indian Pharmaceutical Industry",
+  "discovered_as": "related_works link exposed by loop 64",
+  "question": "What mechanism does Jyoti Sharma identify in “Absorptive Capability and Competitive Advantage: Some Insights from Indian Pharmaceutical Industry” that deepens the evidence from “Evaluating the military's technology absorptive capacity”?",
+  "retrieval_url": "https://api.openalex.org/works/W2250236342?mailto=corpus@example.invalid",
+  "canonical_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.941.3971",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:30:13.053616+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "ABSTRACT: Every firm learns through firm specific methods. This learning process is operationalized by firm’s knowledge management practices. Therefore, knowledge to result in successful learning should be assisted by a combinative framework which can enhance a firms ’ absorptive capability. This in turn will play a decisive role for achieving competitive advantage. Current literature in strategic management focuses towards dynamic capability as a source of competitive advantage. Earlier studies have focused their attention on direct relationships among few selective factors like knowledge management framework only; therefore the lack of clarity can be traced to under-specification of the models that the previous studies have examined. Specifically, studies provide limited view of absorptive capability by ignoring the constituting factors which should be integrated. Absorptive capability"
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Absorptive capacity, Competitive advantage through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 175 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [
+    "https://openalex.org/W2990301947",
+    "https://openalex.org/W1596657130",
+    "https://openalex.org/W329430355",
+    "https://openalex.org/W3124316260",
+    "https://openalex.org/W2169147219",
+    "https://openalex.org/W2612833782",
+    "https://openalex.org/W2099941344"
+  ],
+  "corpus_changes": [
+    "sources/arxiv/2012--absorptive-capability-and-competitive-advantage-some-insights-from-indian-pharmaceutical-industry--jyoti-sharma--w2250236342.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W2250236342"
+}

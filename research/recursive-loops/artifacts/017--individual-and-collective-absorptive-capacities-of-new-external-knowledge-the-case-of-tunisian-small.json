@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "loop": 17,
+  "parent_loop": 4,
+  "parent_source": "https://doi.org/10.5465/ambpp.2018.15817abstract",
+  "selected_item": "https://openalex.org/W2783544070",
+  "selected_title": "Individual and collective absorptive capacities of new external knowledge: The case of Tunisian small and medium-sized enterprises (SMEs)",
+  "discovered_as": "related_works link exposed by loop 4",
+  "question": "Which measurable boundary in “Individual and collective absorptive capacities of new external knowledge: The case of Tunisian small and medium-sized enterprises (SMEs)” changes how Absorptive capacity should be evaluated after “Absorbing Partner Knowledge in R&D Collaborations – The Influence of Founders on Absorptive Capacity”?",
+  "retrieval_url": "https://api.openalex.org/works/W2783544070?mailto=corpus@example.invalid",
+  "canonical_url": "https://doi.org/10.1386/tmsd.16.3.209_1",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:27:45.803396+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "Abstract This article attempts to address a company’s absorptive capacity as a dynamic capability made up of a set of organizational learning capacities. We consider the different levels of organizational learning and distinguish between individual and collective absorptive capabilities. Unlike most previous studies, knowledge sharing is considered, here, as a crucial and a full dimension of the company’s absorptive capacity. An operationalization is proposed and a measure scale is constructed for the five absorptive capacity dimensions that are distinguished in this work. The Empirical study of 104 Tunisian small and medium-sized enterprises (SMEs) validates the absorptive capacity conceptualization proposed in this article. It also outlines the main characteristics of this capacity in the Tunisian context."
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Absorptive capacity, Operationalization through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 115 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [
+    "https://openalex.org/W2263871505",
+    "https://openalex.org/W4249267101",
+    "https://openalex.org/W1990194743",
+    "https://openalex.org/W2372732631",
+    "https://openalex.org/W2347728333",
+    "https://openalex.org/W2247065183",
+    "https://openalex.org/W4231164885",
+    "https://openalex.org/W2088588090"
+  ],
+  "corpus_changes": [
+    "sources/arxiv/2017--individual-and-collective-absorptive-capacities-of-new-external-knowledge-the-case-of-tunisian-small--salha-oumaya--w2783544070.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W2783544070"
+}

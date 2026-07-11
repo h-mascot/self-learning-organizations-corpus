@@ -21,3 +21,14 @@
 
 ## Completion rule
 Do not mark Goal 1 achieved until every GOAL.md criterion has independent proof. Worker checkboxes and prose are not proof.
+
+## Corrective recursive-research run
+- [x] Audited manager correction: the 200 Crossref topic×facet results are discovery searches, not recursive loops.
+- [x] Defined a separate dependent-loop schema and validator under `research/recursive-loops/`.
+- [x] Execute and checkpoint 200 evidence-bearing dependent loops.
+- [x] Convert useful discoveries to canonical platform source records, emphasizing Pedro/Brex and Ramp.
+- [x] Re-run benchmark and all validators; commit each coherent 20-loop batch.
+
+## Errors encountered
+- `agent-reach doctor --json` was unavailable because `agent-reach` is not installed on PATH; using the skill's documented direct HTTP/Jina fallback.
+- Initial OpenAlex run produced zero loops because DOI resolver identifiers were over-encoded and the URL-shaped resolver hit a depleted paid route; corrected to the supported `doi:` resolver form.

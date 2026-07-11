@@ -1,0 +1,38 @@
+{
+  "schema_version": 2,
+  "loop": 105,
+  "parent_loop": 41,
+  "parent_source": "https://doi.org/10.3390/su132313202",
+  "selected_item": "https://openalex.org/W2109597629",
+  "selected_title": "Knowledge transfer among face-to-face information systems development team members: examining the role of knowledge, source, and relational context",
+  "discovered_as": "related_works link exposed by loop 41",
+  "question": "How does the evidence in “Knowledge transfer among face-to-face information systems development team members: examining the role of knowledge, source, and relational context” constrain claims about transfer from individual to organizational learning?",
+  "retrieval_url": "https://api.openalex.org/works/W2109597629?mailto=corpus@example.invalid",
+  "canonical_url": "https://doi.org/10.1109/hicss.2004.1265596",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:28:54.981450+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "Knowledge transfer has been proclaimed as one of the most critical knowledge management activities in the current information age where organizations have to continually learn and continually innovate to remain competitive. Research in the area of knowledge transfer has been conducted in many settings and for various objectives. However, limited attention has been directed towards examining the role of knowledge transfer in information systems development projects (ISD). In this study we empirically examine the impact of source context, knowledge context, and relation context on the process of knowledge transfer among ISD face to face team members. Specifically, we test the impact of ISD team member's capability, credibility, and extent of communication on the process of knowledge transfer. Our findings suggest that in face to face ISD teams, an individual is perceived to transfer a sign"
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Knowledge transfer, Knowledge management through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 168 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [
+    "https://openalex.org/W4377102682",
+    "https://openalex.org/W2790391411",
+    "https://openalex.org/W2104135493",
+    "https://openalex.org/W2610611383",
+    "https://openalex.org/W1969576307",
+    "https://openalex.org/W2588975127"
+  ],
+  "corpus_changes": [
+    "sources/arxiv/2004--knowledge-transfer-among-face-to-face-information-systems-development-team-members-examining-the-rol--k-d-joshi--w2109597629.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W2109597629"
+}

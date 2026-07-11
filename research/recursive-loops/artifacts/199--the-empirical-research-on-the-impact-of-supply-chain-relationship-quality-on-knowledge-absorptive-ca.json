@@ -1,0 +1,35 @@
+{
+  "schema_version": 2,
+  "loop": 199,
+  "parent_loop": 75,
+  "parent_source": "https://pure.eur.nl/en/publications/896ee9ef-d3a9-4225-af6d-55e106397826",
+  "selected_item": "https://openalex.org/W2392323350",
+  "selected_title": "The Empirical Research on the Impact of Supply Chain Relationship Quality on Knowledge Absorptive Capacity and Cooperation Innovation Performance",
+  "discovered_as": "related_works link exposed by loop 75",
+  "question": "What operational artifact in “The Empirical Research on the Impact of Supply Chain Relationship Quality on Knowledge Absorptive Capacity and Cooperation Innovation Performance” could make the Absorptive capacity feedback loop auditable?",
+  "retrieval_url": "https://api.openalex.org/works/W2392323350?mailto=corpus@example.invalid",
+  "canonical_url": "http://en.cnki.com.cn/Article_en/CJFDTOTAL-TJLT201211017.htm",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:30:23.215593+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "Relationship quality between enterprises affected absorptive capacity and acquisitive capacity of knowledge directly,and absorptive capacity is the key factor for technological innovation.Based on supply chain,this study established a conceptual model which is the impact of relationship quality on knowledge absorptive capacity and cooperation innovation performance,distinguished between potential absorptive capacity and realized absorptive capacity,and discussed the differences of the impact between business with suppliers and business with customers.The result showed the relationship quality had a positive impact on potential absorptive capacity;absorptive capacity had a positive impact on innovation performance,realized absorption capacity significantly affected the cooperation performance;the relationship quality between enterprises and their suppliers had a positive impact on innovat"
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Absorptive capacity, Business through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 127 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [
+    "https://openalex.org/W3023030657",
+    "https://openalex.org/W2228292199",
+    "https://openalex.org/W2386976961"
+  ],
+  "corpus_changes": [
+    "sources/arxiv/2012--the-empirical-research-on-the-impact-of-supply-chain-relationship-quality-on-knowledge-absorptive-ca--hongcui-wu--w2392323350.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W2392323350"
+}

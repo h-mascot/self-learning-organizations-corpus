@@ -1,0 +1,31 @@
+{
+  "schema_version": 2,
+  "loop": 169,
+  "parent_loop": 65,
+  "parent_source": "https://doi.org/10.5465/ambpp.2018.13612abstract",
+  "selected_item": "https://openalex.org/W2334087974",
+  "selected_title": "Strategic decision-making and the rationale for economizing-strategizing choices.",
+  "discovered_as": "related_works link exposed by loop 65",
+  "question": "What operational artifact in “Strategic decision-making and the rationale for economizing-strategizing choices.” could make the Absorptive capacity feedback loop auditable?",
+  "retrieval_url": "https://api.openalex.org/works/W2334087974?mailto=corpus@example.invalid",
+  "canonical_url": "https://doi.org/10.5465/ambpp.2013.10336abstract",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:30:14.631050+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "This study investigates strategic decision making through the lens of firm economizing and firm strategizing relative to performance using data from the GLOBE studies. Empirical findings suggest that while CEOs with absorptive capacity will select economizing as a fundamental strategy, CEOs with adaptive capacity will select strategizing as a fundamental strategy. Moderating effects of technological uncertainty, market uncertainty and regulatory uncertainty are also investigated. Our results indicate that absorptive capacity and economizing have a stronger and positive relationship than absorptive capacity and strategizing. Also, the relationship between adaptive capacity and strategizing is stronger than the relationship between adaptive capacity and economizing."
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Absorptive capacity, Adaptive capacity through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 101 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [],
+  "corpus_changes": [
+    "sources/arxiv/2013--strategic-decision-making-and-the-rationale-for-economizing-strategizing-choices--isaac-wanasika--w2334087974.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W2334087974"
+}

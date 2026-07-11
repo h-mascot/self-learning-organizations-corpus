@@ -1,0 +1,37 @@
+{
+  "schema_version": 2,
+  "loop": 85,
+  "parent_loop": 34,
+  "parent_source": "https://en.cnki.com.cn/Article_en/CJFDTOTAL-KXYJ200303017.htm",
+  "selected_item": "https://openalex.org/W2391996585",
+  "selected_title": "Study on Relationship between Knowledge Absorptive Capacity and Incubating Enterprise Performance",
+  "discovered_as": "related_works link exposed by loop 34",
+  "question": "How does the evidence in “Study on Relationship between Knowledge Absorptive Capacity and Incubating Enterprise Performance” constrain claims about transfer from individual to organizational learning?",
+  "retrieval_url": "https://api.openalex.org/works/W2391996585?mailto=corpus@example.invalid",
+  "canonical_url": "http://en.cnki.com.cn/Article_en/CJFDTOTAL-SYCH201306014.htm",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:28:29.575217+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "This paper considers the relationship among the enterprise knowledge absorptive capacity,the influencing factors of knowledge absorptive capacity,incubating enterprise performance to form a new analysis framework and put forward some hypothesis and a conceptual model.The main proposition is that the knowledge base of enterprise,the RD investment of enterprise,the learning force and methods of enterprise,enterprise learning mechanism affect the knowledge absorptive capacity,meanwhile,the enterprise knowledge absorptive capacity promotes the incubating enterprise performance."
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Absorptive capacity, Business through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 69 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [
+    "https://openalex.org/W2334365333",
+    "https://openalex.org/W2350999385",
+    "https://openalex.org/W3038814544",
+    "https://openalex.org/W2036552049",
+    "https://openalex.org/W2379802124"
+  ],
+  "corpus_changes": [
+    "sources/arxiv/2013--study-on-relationship-between-knowledge-absorptive-capacity-and-incubating-enterprise-performance--zhang-gen-min--w2391996585.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W2391996585"
+}

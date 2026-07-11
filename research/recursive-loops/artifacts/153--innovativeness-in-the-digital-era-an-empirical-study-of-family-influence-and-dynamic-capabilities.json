@@ -1,0 +1,33 @@
+{
+  "schema_version": 2,
+  "loop": 153,
+  "parent_loop": 54,
+  "parent_source": "https://doi.org/10.1108/17506201111131550",
+  "selected_item": "https://openalex.org/W3045566683",
+  "selected_title": "Innovativeness in the Digital Era: An Empirical Study of Family Influence and Dynamic Capabilities",
+  "discovered_as": "related_works link exposed by loop 54",
+  "question": "Where does “Innovativeness in the Digital Era: An Empirical Study of Family Influence and Dynamic Capabilities” support or contradict the causal account advanced by “Environmental dynamism, innovation, and dynamic capabilities: the case of China”?",
+  "retrieval_url": "https://api.openalex.org/works/W3045566683?mailto=corpus@example.invalid",
+  "canonical_url": "https://doi.org/10.5465/ambpp.2020.19351abstract",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:29:47.242489+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "New digital paradigms have prompted many firms to innovate their business models. Consequently, new sets of dynamic capabilities are required to cope with these new digital paradigms. We examine the heterogeneity of organizations’ dynamic capabilities and introduce such capabilities as a key driver of digital business model innovation (BMI) in family and non-family firms operating in environments with different levels of dynamism. Based on unique survey data from 1,444 German family and non-family firms, we examine dynamic capabilities in terms of knowledge exploitation, entrepreneurial capability, risk management, networking, development and change management, and market and customer knowledge, showing that this wide range of heterogeneous dynamic capabilities in combination fully mediates the positive relationship between family influence and digital BMI. Moreover, we find that the med"
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Dynamism, Dynamic capabilities through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 210 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [
+    "https://openalex.org/W4297288183"
+  ],
+  "corpus_changes": [
+    "sources/arxiv/2020--innovativeness-in-the-digital-era-an-empirical-study-of-family-influence-and-dynamic-capabilities--jonas-soluk--w3045566683.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W3045566683"
+}

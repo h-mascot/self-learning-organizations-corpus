@@ -1,0 +1,38 @@
+{
+  "schema_version": 2,
+  "loop": 100,
+  "parent_loop": 40,
+  "parent_source": "https://doi.org/10.1016/j.ajog.2012.06.051",
+  "selected_item": "https://openalex.org/W2360499881",
+  "selected_title": "MNC Knowledge Transferring Process Study from Absorptive Capacity",
+  "discovered_as": "related_works link exposed by loop 40",
+  "question": "How does the evidence in “MNC Knowledge Transferring Process Study from Absorptive Capacity” constrain claims about transfer from individual to organizational learning?",
+  "retrieval_url": "https://api.openalex.org/works/W2360499881?mailto=corpus@example.invalid",
+  "canonical_url": "http://en.cnki.com.cn/Article_en/CJFDTOTAL-WSLD200606005.htm",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:28:44.992838+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "The cooperation between MNC and native companies is the most important source of obtaining external knowledge and absorptive capacity plays a key role in successful knowledge transfer.The article first states the definition of absorptive capacity,which includes recognizing ability,assimilating ability,learning ability and application ability.Then it builds absorptive capacity and MNC knowledge transfer process model based on the relationship between absorptive capacity and MNC knowledge transfer.Finally the effect of four capabilities on each stages of knowledge transfer is presented."
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Absorptive capacity, Knowledge transfer through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 77 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [
+    "https://openalex.org/W1702810443",
+    "https://openalex.org/W2998678600",
+    "https://openalex.org/W2606594002",
+    "https://openalex.org/W2606762399",
+    "https://openalex.org/W1829659284",
+    "https://openalex.org/W1553985585"
+  ],
+  "corpus_changes": [
+    "sources/arxiv/2006--mnc-knowledge-transferring-process-study-from-absorptive-capacity--qing-li--w2360499881.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W2360499881"
+}

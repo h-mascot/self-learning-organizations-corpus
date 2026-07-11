@@ -1,0 +1,33 @@
+{
+  "schema_version": 2,
+  "loop": 113,
+  "parent_loop": 44,
+  "parent_source": "https://doi.org/10.1109/icmss.2009.5300911",
+  "selected_item": "https://openalex.org/W4295768358",
+  "selected_title": "Distinguishing Absorptive Capacity based on the Nature of Knowledge : The Casual Relationships among the Sub-Components of Absorptive Capacity",
+  "discovered_as": "related_works link exposed by loop 44",
+  "question": "Where does “Distinguishing Absorptive Capacity based on the Nature of Knowledge : The Casual Relationships among the Sub-Components of Absorptive Capacity” support or contradict the causal account advanced by “Absorptive Capacity: Enhancing the Absorption of Information Technology”?",
+  "retrieval_url": "https://api.openalex.org/works/W4295768358?mailto=corpus@example.invalid",
+  "canonical_url": "https://doi.org/10.23919/picmet53225.2022.9882856",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:29:07.735247+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "The purpose of this study is to establish a new distinction regarding absorptive capacity (AC) and to test the causal relationships among its different dimensions. Unlike prior research that divides AC into potential and realized dimensions based on external knowledge-accessing activities, this study provides a new distinction based on both the nature of external knowledge-accessing activities and external knowledge itself. To empirically test the new distinction and causal relationships among each dimension, we collected data from 378 members of 32 research and development (R&D) teams of two leading Japanese manufacturers and analyzed them through partial least squares structural equation modeling. Our findings show that the processes and routines required for marketing knowledge absorption differ from those for technology absorption; however, the former will help organizations better a"
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Absorptive capacity, Casual through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 191 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [
+    "https://openalex.org/W2987708058"
+  ],
+  "corpus_changes": [
+    "sources/arxiv/2022--distinguishing-absorptive-capacity-based-on-the-nature-of-knowledge-the-casual-relationships-among-t--xiang-yu--w4295768358.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W4295768358"
+}

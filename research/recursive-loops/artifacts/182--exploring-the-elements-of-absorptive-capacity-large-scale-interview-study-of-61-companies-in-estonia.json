@@ -1,0 +1,31 @@
+{
+  "schema_version": 2,
+  "loop": 182,
+  "parent_loop": 70,
+  "parent_source": "https://doi.org/10.9876/sim.v25i1.929",
+  "selected_item": "https://openalex.org/W3029106931",
+  "selected_title": "Exploring the elements of absorptive capacity: large-scale interview study of 61 companies in Estonia",
+  "discovered_as": "related_works link exposed by loop 70",
+  "question": "Which measurable boundary in “Exploring the elements of absorptive capacity: large-scale interview study of 61 companies in Estonia” changes how Absorptive capacity should be evaluated after “Open Source Companies’ Absorptive Capacity: from Business Model to Business Intention”?",
+  "retrieval_url": "https://api.openalex.org/works/W3029106931?mailto=corpus@example.invalid",
+  "canonical_url": "https://doi.org/10.1504/ijtis.2020.10029699",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:30:18.376349+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "The increasingly dynamic business environment encourages companies to combine externally available information and internal ideas to maximise company performance. A company's ability to capture external knowledge and to use it for its own benefit is shaped by organisational absorptive capacity. Using data gathered from interviews with 61 Estonian companies, this research attempts to further investigate a recently proposed model of absorptive capacity suggesting that it is a set of simultaneous, rather than consecutive, elements. The paper provides an in-depth study of the suggested elements and patterns that make up the phenomenon of absorptive capacity and demonstrates that companies value external information, sourcing it and making their strategic choices based on the competitive situation. While providing support for the proposed model of absorptive capacity, the results also reveal "
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Absorptive capacity, Competitor analysis through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 144 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [],
+  "corpus_changes": [
+    "sources/arxiv/2020--exploring-the-elements-of-absorptive-capacity-large-scale-interview-study-of-61-companies-in-estonia--valeria-kiisk--w3029106931.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W3029106931"
+}
