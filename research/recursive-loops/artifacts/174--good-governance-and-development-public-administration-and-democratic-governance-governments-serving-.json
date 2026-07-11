@@ -1,0 +1,39 @@
+{
+  "schema_version": 2,
+  "loop": 174,
+  "parent_loop": 50,
+  "parent_source": "https://doi.org/10.5860/choice.42-3658",
+  "selected_item": "https://openalex.org/W1571173029",
+  "selected_title": "Good Governance and Development; Public Administration and Democratic Governance: Governments Serving Citizens; Learning Civil Societies: Shifting Contexts for Democratic Planning and Governance",
+  "discovered_as": "related_works link exposed by loop 50",
+  "question": "What operational artifact in “Good Governance and Development; Public Administration and Democratic Governance: Governments Serving Citizens; Learning Civil Societies: Shifting Contexts for Democratic Planning and Governance” could make the Democracy feedback loop auditable?",
+  "retrieval_url": "https://api.openalex.org/works/W1571173029?mailto=corpus@example.invalid",
+  "canonical_url": "https://doi.org/10.1080/09614520802387148",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:22:34.644973+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "Basingstoke/New York, Palgrave Macmillan, 2007, ISBN-13: 978-0-230-52566-5, 320 pp. New York, United Nations, 2007, ISBN: 978-92-1-123160-1, 359 pp. Toronto/Buffalo/London, University of Toronto Pr..."
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Democracy, Civil society through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 23 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [
+    "https://openalex.org/W2123695874",
+    "https://openalex.org/W2030928955",
+    "https://openalex.org/W2107529881",
+    "https://openalex.org/W4206153802",
+    "https://openalex.org/W4307592207",
+    "https://openalex.org/W2035347336",
+    "https://openalex.org/W3123433607"
+  ],
+  "corpus_changes": [
+    "sources/arxiv/2008--good-governance-and-development-public-administration-and-democratic-governance-governments-serving---jo-rowlands--w1571173029.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W1571173029"
+}

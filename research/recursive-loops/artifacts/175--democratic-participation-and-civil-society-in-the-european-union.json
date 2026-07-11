@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "loop": 175,
+  "parent_loop": 50,
+  "parent_source": "https://doi.org/10.5860/choice.42-3658",
+  "selected_item": "https://openalex.org/W594292287",
+  "selected_title": "Democratic Participation and Civil Society in the European Union",
+  "discovered_as": "related_works link exposed by loop 50",
+  "question": "How does the evidence in “Democratic Participation and Civil Society in the European Union” constrain claims about transfer from individual to organizational learning?",
+  "retrieval_url": "https://api.openalex.org/works/W594292287?mailto=corpus@example.invalid",
+  "canonical_url": "http://bvbr.bib-bvb.de:8991/F?func=service&doc_library=BVB01&local_base=BVB01&doc_number=024380755&sequence=000002&line_number=0001&func_code=DB_RECORDS&service_type=MEDIA",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:22:34.951431+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "Can the participation of civil society organisations democratise policy making in the European Union? This book challenges the widespread optimism about civil society participation in European governance and offers a nuanced and realistic evaluation of its democratic potential. Friedrich argues that the participation of these groups is only of democratic value if participatory patterns are democratised through appropriate institutional means. This book systematically brings together insights from normative democratic theory with an empirical evaluation of concrete policy-processes. It demonstrates that the participation of civil society organisation cannot be conceived as a panacea for the European Union’s democratic deficit, because the participatory pattern of EU policy-making violates the key democratic value of political equality. This book will be of interest to all of those concern"
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Civil society, Democracy through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 144 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [
+    "https://openalex.org/W804779808",
+    "https://openalex.org/W181829065",
+    "https://openalex.org/W2965296660",
+    "https://openalex.org/W2601279810",
+    "https://openalex.org/W2993492673",
+    "https://openalex.org/W1014113969",
+    "https://openalex.org/W1491380437",
+    "https://openalex.org/W2559657557"
+  ],
+  "corpus_changes": [
+    "sources/arxiv/2011--democratic-participation-and-civil-society-in-the-european-union--dawid-friedrich--w594292287.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W594292287"
+}

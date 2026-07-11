@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "loop": 179,
+  "parent_loop": 52,
+  "parent_source": "https://doi.org/10.1007/978-94-007-0956-0_2",
+  "selected_item": "https://openalex.org/W2186336397",
+  "selected_title": "Decentralization and Its Effect on Provincial Political Power in Thailand",
+  "discovered_as": "related_works link exposed by loop 52",
+  "question": "What operational artifact in “Decentralization and Its Effect on Provincial Political Power in Thailand” could make the Decentralization feedback loop auditable?",
+  "retrieval_url": "https://api.openalex.org/works/W2186336397?mailto=corpus@example.invalid",
+  "canonical_url": "https://www.asafas.kyoto-u.ac.jp/dl/publications/no_0602/454-470.pdf",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:22:45.461551+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "Thailand started decentralization in earnest in 1994. It has been over a decade that decentralization in Thailand has been implemented. This article examines the effects of decentralization on provincial power structures, 1) presenting empirical evidence from fi eld research in two case study provinces. The author argues that although decentralization over the last decade has brought about a reinvention of local selfgovernment organizations, powerful MPs of the pre-decentralization era have regained and amassed even more power and have further entrenched themselves, mainly owing to their preeminent ability to win a large portion of vote."
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Decentralization, Politics through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 94 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [
+    "https://openalex.org/W2258277127",
+    "https://openalex.org/W2143775898",
+    "https://openalex.org/W2024406621",
+    "https://openalex.org/W1594327409",
+    "https://openalex.org/W2157984554",
+    "https://openalex.org/W2167223348",
+    "https://openalex.org/W2337718684",
+    "https://openalex.org/W2558387610"
+  ],
+  "corpus_changes": [
+    "sources/arxiv/2007--decentralization-and-its-effect-on-provincial-political-power-in-thailand--achakorn-wongpreedee--w2186336397.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W2186336397"
+}
