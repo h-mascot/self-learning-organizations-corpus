@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W2093465784
 publication_year: 2013
 authors: ["Korcan Kavuşan", "Niels Noorderhaven"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 119
+recursive_loop: 50
 ---
 
 # Non-Absorptive Benefits of Absorptive Capacity

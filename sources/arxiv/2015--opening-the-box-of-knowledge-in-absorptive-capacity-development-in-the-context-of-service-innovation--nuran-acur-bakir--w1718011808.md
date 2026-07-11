@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W1718011808
 publication_year: 2015
 authors: ["Nuran Acur Bakir", "Marisa Smith", "Lesley Walls"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 110
+recursive_loop: 47
 ---
 
 # Opening the box of knowledge in absorptive capacity development in the context of service innovation

@@ -1,0 +1,37 @@
+{
+  "schema_version": 2,
+  "loop": 147,
+  "parent_loop": 51,
+  "parent_source": "http://penerbit.uthm.edu.my/ojs/index.php/jtmb/article/view/913",
+  "selected_item": "https://openalex.org/W2786484532",
+  "selected_title": "Knowledge absorptive capacity and innovation performance in high-tech companies: A multi-mediating analysis",
+  "discovered_as": "related_works link exposed by loop 51",
+  "question": "Which measurable boundary in “Knowledge absorptive capacity and innovation performance in high-tech companies: A multi-mediating analysis” changes how Absorptive capacity should be evaluated after “KNOWLEDGE ABSORPTIVE CAPACITY AND PROCESS INNOVATION: THE MODERATING EFFECT OF ENVIRONMENTAL DYNAMISM”?",
+  "retrieval_url": "https://api.openalex.org/works/W2786484532?mailto=corpus@example.invalid",
+  "canonical_url": "https://doi.org/10.1016/j.jbusres.2018.01.019",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:29:45.220875+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "Knowledge absorptive capacity and innovation performance in high-tech companies: A multi-mediating analysis"
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Absorptive capacity, Business through the evidence summarized in the preserved span.",
+    "Only bibliographic primary metadata was available; no full-text inference is made."
+  ],
+  "contradictions": [],
+  "generated_children": [
+    "https://openalex.org/W1982127651",
+    "https://openalex.org/W2108650778",
+    "https://openalex.org/W1515589220",
+    "https://openalex.org/W3136251790",
+    "https://openalex.org/W2380206002"
+  ],
+  "corpus_changes": [
+    "sources/arxiv/2018--knowledge-absorptive-capacity-and-innovation-performance-in-high-tech-companies-a-multi-mediating-an--xuemei-xie--w2786484532.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W2786484532"
+}

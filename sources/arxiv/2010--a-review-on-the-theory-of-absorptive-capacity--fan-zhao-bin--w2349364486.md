@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W2349364486
 publication_year: 2010
 authors: ["Fan Zhao-bin"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 147
+recursive_loop: 74
 ---
 
 # A Review on the Theory of Absorptive Capacity

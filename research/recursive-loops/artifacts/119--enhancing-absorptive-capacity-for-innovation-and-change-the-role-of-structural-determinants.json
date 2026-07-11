@@ -1,0 +1,31 @@
+{
+  "schema_version": 2,
+  "loop": 119,
+  "parent_loop": 44,
+  "parent_source": "https://doi.org/10.1109/icmss.2009.5300911",
+  "selected_item": "https://openalex.org/W1999525915",
+  "selected_title": "Enhancing Absorptive Capacity for Innovation and Change: The Role of Structural Determinants",
+  "discovered_as": "related_works link exposed by loop 44",
+  "question": "What operational artifact in “Enhancing Absorptive Capacity for Innovation and Change: The Role of Structural Determinants” could make the Absorptive capacity feedback loop auditable?",
+  "retrieval_url": "https://api.openalex.org/works/W1999525915?mailto=corpus@example.invalid",
+  "canonical_url": "https://doi.org/10.1080/14697017.2014.988637",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:29:18.038285+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "In 1989, absorptive capacity was introduced as an important factor for organizational innovation and change. Since then, the concept has been enhanced through reconceptualizations and extended by various empirical studies. However, previous research paid sparse attention to determinants of absorptive capacity and especially the single dimensions of the knowledge absorption process. Consequently, it remains unclear why some firms are better able to absorb new external knowledge than others. This paper focuses on organizational structure as one important determinant of absorptive capacity. Using case studies of two German high-tech firms, the paper discusses four structural factors influencing the acquisition, integration and exploitation dimensions of absorptive capacity: division form, R&D centrality, gatekeeper positions and interface positions. The paper enhances our understanding of t"
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Absorptive capacity, Centrality through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 130 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [],
+  "corpus_changes": [
+    "sources/arxiv/2014--enhancing-absorptive-capacity-for-innovation-and-change-the-role-of-structural-determinants--stephanie-duchek--w1999525915.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W1999525915"
+}

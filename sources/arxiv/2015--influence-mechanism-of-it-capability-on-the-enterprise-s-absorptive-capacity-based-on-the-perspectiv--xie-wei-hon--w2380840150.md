@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W2380840150
 publication_year: 2015
 authors: ["Xie Wei-hon"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 165
+recursive_loop: 91
 ---
 
 # Influence Mechanism of IT Capability on the Enterprise's Absorptive Capacity——Based on the Perspective of IT Governance

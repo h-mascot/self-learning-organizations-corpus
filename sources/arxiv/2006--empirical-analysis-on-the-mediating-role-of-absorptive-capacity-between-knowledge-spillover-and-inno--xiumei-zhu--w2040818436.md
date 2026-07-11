@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W2040818436
 publication_year: 2006
 authors: ["Xiumei Zhu", "Cai Li", "Cui Qi-guo"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 35
+recursive_loop: 23
 ---
 
 # Empirical Analysis on the Mediating Role of Absorptive Capacity between Knowledge Spillover and Innovative Performance of Firms within High-tech Industry Cluster

@@ -11,13 +11,20 @@ from pathlib import Path
 SEEDS = [
     "https://doi.org/10.1287/orsc.2.1.71",
     "https://doi.org/10.2307/2393553",
-    "https://doi.org/10.1016/j.riob.2017.10.002",
     "https://doi.org/10.1145/3442188.3445922",
     "https://arxiv.org/abs/2210.03629",
 ]
 OUT = Path("research/recursive-loops")
 SOURCES = Path("sources/arxiv")
 UA = "self-learning-organizations-corpus/0.2 (mailto:corpus@example.invalid)"
+RELEVANCE = re.compile(
+    r"organizational learn|absorptive capacit|knowledge (?:creation|transfer|acquisition|assimilation|sharing)|"
+    r"(?:firm|enterprise|compan)[^.]{0,80}(?:innovation|learning|knowledge|dynamic capabilit)|"
+    r"(?:innovation|learning|knowledge|dynamic capabilit)[^.]{0,80}(?:firm|enterprise|compan)|"
+    r"artificial intelligence|machine learning|language model|AI agent|agentic|automation|"
+    r"software engineering|human oversight|algorithmic decision|data flywheel|experimentation platform",
+    re.I,
+)
 
 def get_json(url, attempts=5):
     error = ""
@@ -103,7 +110,7 @@ def main():
     frontier = []
     for seed in SEEDS:
         frontier.append({"selected": seed, "parent_loop": None, "parent_source": "research/discovery-inventory.md", "discovered_as": "validated foundation seed"})
-    queued = set(SEEDS); visited = set(); rows = []; children_by_loop = {}
+    queued = set(SEEDS); visited = set(); rows = []; rejected = 0
     while frontier and len(rows) < args.limit:
         item = frontier.pop(0); selected = item["selected"]
         work, retrieval, status, error = openalex_id(selected)
@@ -113,7 +120,10 @@ def main():
         title = clean(work.get("title"))
         abstract = clean(inv_abstract(work.get("abstract_inverted_index")))
         excerpt = (abstract or title)[:900]
-        if len(excerpt) < 25: continue
+        # Count only when the preserved evidence span itself proves relevance.
+        if len(excerpt) < 25 or not RELEVANCE.search(f"{title} {excerpt}"):
+            rejected += 1
+            continue
         authors = [a.get("author", {}).get("display_name", "") for a in work.get("authorships", []) if a.get("author")]
         concepts = [x.get("display_name", "") for x in work.get("concepts", [])[:4] if x.get("display_name")]
         parent_no = item["parent_loop"]
@@ -145,7 +155,7 @@ def main():
             frontier.append({"selected": child, "parent_loop": loop_no, "parent_source": canonical, "discovered_as": f"related_works link exposed by loop {loop_no}"})
         if loop_no % 20 == 0: print(f"checkpoint {loop_no}: frontier={len(frontier)} unique={len(visited)}", flush=True)
     ledger = OUT / "ledger.jsonl"; ledger.write_text("".join(json.dumps(r, ensure_ascii=False) + "\n" for r in rows))
-    summary = {"schema_version": 2, "requested_loops": args.limit, "productive_loops": len(rows), "seed_loops": sum(r["parent_loop"] is None for r in rows), "edges": sum(r["parent_loop"] is not None for r in rows), "unique_sources": len({r["canonical_url"] for r in rows})}
+    summary = {"schema_version": 2, "requested_loops": args.limit, "productive_loops": len(rows), "seed_loops": sum(r["parent_loop"] is None for r in rows), "edges": sum(r["parent_loop"] is not None for r in rows), "unique_sources": len({r["canonical_url"] for r in rows}), "relevance_rejections": rejected}
     (OUT / "summary.json").write_text(json.dumps(summary, indent=2) + "\n")
     print(json.dumps(summary, indent=2))
     if len(rows) != args.limit: raise SystemExit(f"only built {len(rows)} loops")

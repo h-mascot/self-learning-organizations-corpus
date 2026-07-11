@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W2355425519
 publication_year: 2010
 authors: ["Jian Li"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 41
+recursive_loop: 29
 ---
 
 # Theoretical Review of Absorptive Capacity

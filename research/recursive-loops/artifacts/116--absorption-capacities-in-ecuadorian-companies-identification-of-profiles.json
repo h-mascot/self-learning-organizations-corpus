@@ -1,0 +1,31 @@
+{
+  "schema_version": 2,
+  "loop": 116,
+  "parent_loop": 44,
+  "parent_source": "https://doi.org/10.1109/icmss.2009.5300911",
+  "selected_item": "https://openalex.org/W4285502288",
+  "selected_title": "Absorption capacities in Ecuadorian companies: Identification of profiles",
+  "discovered_as": "related_works link exposed by loop 44",
+  "question": "What mechanism does Julio Ríos-Zaruma identify in “Absorption capacities in Ecuadorian companies: Identification of profiles” that deepens the evidence from “Absorptive Capacity: Enhancing the Absorption of Information Technology”?",
+  "retrieval_url": "https://api.openalex.org/works/W4285502288?mailto=corpus@example.invalid",
+  "canonical_url": "https://doi.org/10.23919/cisti54924.2022.9820028",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:29:17.147786+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "This article aims to identify the absorptive capacity profiles and their association with innovation in Ecuadorian companies. The cluster method was applied to determine the profiles, the sample was made up of xx companies and their association was determined through a comparison of means analysis. The main result is the composition of 3 different clusters of different intensities in their absorptive and innovation capacity, cluster 1 shows that a greater absorptive capacity is associated with a better innovation capacity."
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Absorptive capacity, Absorption capacity through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 79 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [],
+  "corpus_changes": [
+    "sources/arxiv/2022--absorption-capacities-in-ecuadorian-companies-identification-of-profiles--julio-r-os-zaruma--w4285502288.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W4285502288"
+}

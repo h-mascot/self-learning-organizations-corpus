@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W2765646572
 publication_year: 2018
 authors: ["Araceli María Rojo Gallego Burín", "Mark Stevenson", "Francisco Javier Lloréns Montes", "María Nieves Pérez-Aróstegui"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 125
+recursive_loop: 56
 ---
 
 # Supply chain flexibility in dynamic environments

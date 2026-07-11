@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W2464478539
 publication_year: 2016
 authors: ["Bárbara Larrañeta", "José Luís Galán González", "Rocío Munguia Aguilar"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 7
+recursive_loop: 5
 ---
 
 # Early efforts to develop absorptive capacity and their performance implications: differences among corporate and independent ventures

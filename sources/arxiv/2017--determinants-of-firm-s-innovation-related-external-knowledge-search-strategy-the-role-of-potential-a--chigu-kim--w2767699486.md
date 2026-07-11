@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W2767699486
 publication_year: 2017
 authors: ["CHIGU KIM", "Chul Lee", "Jina Kang"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 37
+recursive_loop: 25
 ---
 
 # DETERMINANTS OF FIRM’S INNOVATION-RELATED EXTERNAL KNOWLEDGE SEARCH STRATEGY: THE ROLE OF POTENTIAL ABSORPTIVE CAPACITY AND APPROPRIABILITY REGIME

@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W1525574620
 publication_year: 2010
 authors: ["Madeleine Jacobs", "A. Buys"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 136
+recursive_loop: 64
 ---
 
 # Evaluating the military's technology absorptive capacity

@@ -1,0 +1,15 @@
+{
+  "provider": "GitHub CLI authenticated repository search",
+  "date": "2026-07-11",
+  "queries": [
+    "self learning organization corpus",
+    "organizational learning dataset",
+    "AI native company research"
+  ],
+  "unique_result_count": 3,
+  "results": [
+    {"fullName":"Elainewangyuyan/yy-gtm-lens","url":"https://github.com/Elainewangyuyan/yy-gtm-lens","stargazersCount":4,"updatedAt":"2026-07-06T03:04:02Z","description":"YY GTM Lens: a Codex skill for AI-native company research through a GTM and growth lens, generating Chinese reports, websites, and PDFs."},
+    {"fullName":"h-mascot/self-learning-organizations-corpus","url":"https://github.com/h-mascot/self-learning-organizations-corpus","stargazersCount":0,"updatedAt":"2026-07-11T14:12:28Z","description":"Open corpus of self-learning, self-improving, AI-native organizations"},
+    {"fullName":"jeremy9682/ai-native-company-research","url":"https://github.com/jeremy9682/ai-native-company-research","stargazersCount":0,"updatedAt":"2026-07-09T04:43:33Z","description":"Public research notes on AI-native company operating systems, context engineering, internal agents, and self-improving loops."}
+  ]
+}

@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W2783544070
 publication_year: 2017
 authors: ["Salha Oumaya", "Lamia Gharbi"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 29
+recursive_loop: 17
 ---
 
 # Individual and collective absorptive capacities of new external knowledge: The case of Tunisian small and medium-sized enterprises (SMEs)

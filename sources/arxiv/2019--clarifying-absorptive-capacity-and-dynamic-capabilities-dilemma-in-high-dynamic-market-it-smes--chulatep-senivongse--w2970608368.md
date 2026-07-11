@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W2970608368
 publication_year: 2019
 authors: ["Chulatep Senivongse", "Alex Bennet", "Stefania Mariano"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 30
+recursive_loop: 18
 ---
 
 # Clarifying absorptive capacity and dynamic capabilities dilemma in high dynamic market IT SMEs

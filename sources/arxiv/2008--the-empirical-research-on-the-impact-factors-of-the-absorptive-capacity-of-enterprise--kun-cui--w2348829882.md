@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W2348829882
 publication_year: 2008
 authors: ["Kun Cui"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 162
+recursive_loop: 87
 ---
 
 # The Empirical Research on the Impact Factors of the Absorptive Capacity of Enterprise

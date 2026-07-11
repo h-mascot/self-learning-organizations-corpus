@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W2252777709
 publication_year: 2013
 authors: ["Matej Lahovnik", "Lidija Breznik"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 157
+recursive_loop: 83
 ---
 
 # Innovation Management and Technological Capabilities as a Source of Competitive Advantage

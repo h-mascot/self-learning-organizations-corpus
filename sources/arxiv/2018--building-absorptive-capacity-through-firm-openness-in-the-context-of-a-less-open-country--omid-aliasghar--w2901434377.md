@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W2901434377
 publication_year: 2018
 authors: ["Omid Aliasghar", "Elizabeth L. Rose", "Sylvie Chetty"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 141
+recursive_loop: 68
 ---
 
 # Building absorptive capacity through firm openness in the context of a less-open country

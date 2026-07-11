@@ -1,0 +1,38 @@
+{
+  "schema_version": 2,
+  "loop": 120,
+  "parent_loop": 45,
+  "parent_source": "https://en.cnki.com.cn/Article_en/CJFDTOTAL-HDCS200804008.htm",
+  "selected_item": "https://openalex.org/W2114883614",
+  "selected_title": "The impact of customer knowledge capability and relational capability on new service development performance: The case of health service",
+  "discovered_as": "related_works link exposed by loop 45",
+  "question": "How does the evidence in “The impact of customer knowledge capability and relational capability on new service development performance: The case of health service” constrain claims about transfer from individual to organizational learning?",
+  "retrieval_url": "https://api.openalex.org/works/W2114883614?mailto=corpus@example.invalid",
+  "canonical_url": "https://doi.org/10.1017/s1833367200000560",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:29:18.320177+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "Abstract This study intends to explore the impact of the customer knowledge integration capability, customer knowledge absorptive capability, customer knowledge creation capability, and customer relationship capability on new service development (NSD) performance for Taiwan's hospitals from customer knowledge and customer relationship perspectives. We employ the self-administered mail survey to collect research data and select self-pay medical service managers or top managers as key informants. After testing the fitness of sample representativeness, non-response error, common method variance, reliability, and validity, we adopt structure equation model to test the research model. Empirical results indicate the customer knowledge absorptive capability of a hospital is positively associated with NSD performance, and the customer knowledge integration capability of a hospital fully mediates"
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Customer knowledge, Knowledge management through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 151 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [
+    "https://openalex.org/W3013184534",
+    "https://openalex.org/W2124748206",
+    "https://openalex.org/W1983787324",
+    "https://openalex.org/W2368761584",
+    "https://openalex.org/W2354761646",
+    "https://openalex.org/W592274603"
+  ],
+  "corpus_changes": [
+    "sources/arxiv/2012--the-impact-of-customer-knowledge-capability-and-relational-capability-on-new-service-development-per--rhay-hung-weng--w2114883614.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W2114883614"
+}

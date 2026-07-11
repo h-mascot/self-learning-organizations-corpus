@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W3046524639
 publication_year: 2020
 authors: ["Paweł Cegliński"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 99
+recursive_loop: 43
 ---
 
 # The Relations between Dynamic Capabilities and Core Competencies on the Case of Polish Companies

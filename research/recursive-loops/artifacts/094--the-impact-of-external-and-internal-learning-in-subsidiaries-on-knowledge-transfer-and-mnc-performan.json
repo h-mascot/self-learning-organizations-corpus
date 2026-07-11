@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "loop": 94,
+  "parent_loop": 38,
+  "parent_source": "https://doi.org/10.1057/jibs.2013.55",
+  "selected_item": "https://openalex.org/W354275420",
+  "selected_title": "The Impact of External and Internal Learning in Subsidiaries on Knowledge Transfer and MNC Performance",
+  "discovered_as": "related_works link exposed by loop 38",
+  "question": "What operational artifact in “The Impact of External and Internal Learning in Subsidiaries on Knowledge Transfer and MNC Performance” could make the Subsidiary feedback loop auditable?",
+  "retrieval_url": "https://api.openalex.org/works/W354275420?mailto=corpus@example.invalid",
+  "canonical_url": "http://www.diva-portal.org/smash/record.jsf?pid=diva2:165196",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:28:43.443942+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "Research on the multinational corporation (MNC) has highlighted the development of knowledge that occurs in geographically dispersed subsidiaries, and several scholars have emphasized the significance of subsidiary knowledge for the success of the MNC. This thesis contributes to the understanding of how knowledge is developed within MNC subsidiaries and how the development of subsidiary knowledge is related to the transfer of subsidiary knowledge and subsidiary impact on the performance of the larger MNC.The empirical setting consists of a combination of quantitative and qualitative data. The results of the empirical studies suggest that the development of subsidiary knowledge is contingent upon the business conditions within the local environment and, in particularly, interactive learning within relationships with important business actors external to the organization. Furthermore, the "
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Subsidiary, Multinational corporation through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 275 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [
+    "https://openalex.org/W1566717664",
+    "https://openalex.org/W638096930",
+    "https://openalex.org/W1971025437",
+    "https://openalex.org/W2968120902",
+    "https://openalex.org/W1501984460",
+    "https://openalex.org/W2073486267",
+    "https://openalex.org/W280925276",
+    "https://openalex.org/W1578041236"
+  ],
+  "corpus_changes": [
+    "sources/arxiv/2004--the-impact-of-external-and-internal-learning-in-subsidiaries-on-knowledge-transfer-and-mnc-performan--christine-holmstr-m--w354275420.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W354275420"
+}

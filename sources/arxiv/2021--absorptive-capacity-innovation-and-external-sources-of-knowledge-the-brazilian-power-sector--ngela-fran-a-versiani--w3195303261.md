@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W3195303261
 publication_year: 2021
 authors: ["Ângela França Versiani", "Marina de Almeida Cruz", "Sérgio Fernando Loureiro Rezende", "José Márcio de Castro"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 47
+recursive_loop: 35
 ---
 
 # ABSORPTIVE CAPACITY, INNOVATION, AND EXTERNAL SOURCES OF KNOWLEDGE: THE BRAZILIAN POWER SECTOR

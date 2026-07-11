@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W2160195859
 publication_year: 2007
 authors: ["Nassim Belbaly", "Hind Benbya", "Régis Meissonier"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 111
+recursive_loop: 48
 ---
 
 # An Empirical Investigation of the Customer Knowledge Creation Impact on NPD Performance

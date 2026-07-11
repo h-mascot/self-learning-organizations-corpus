@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W2091681150
 publication_year: 2011
 authors: ["Hao Jiao", "Ilan Alon", "Yu Cui"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 123
+recursive_loop: 54
 ---
 
 # Environmental dynamism, innovation, and dynamic capabilities: the case of China

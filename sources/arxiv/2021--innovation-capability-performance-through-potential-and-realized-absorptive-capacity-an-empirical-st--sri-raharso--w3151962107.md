@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W3151962107
 publication_year: 2021
 authors: ["Sri Raharso"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 45
+recursive_loop: 33
 ---
 
 # Innovation Capability Performance through Potential and Realized Absorptive Capacity: an Empirical Study in the West Java Mini Market

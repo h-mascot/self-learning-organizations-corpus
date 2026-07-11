@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W3197212781
 publication_year: 2020
 authors: ["Khaireddine Mouakhar", "Nordine Benkeltoum"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 143
+recursive_loop: 70
 ---
 
 # Open Source Companies’ Absorptive Capacity: from Business Model to Business Intention

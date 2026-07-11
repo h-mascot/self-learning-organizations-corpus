@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W4323637042
 publication_year: 2023
 authors: ["Caiting Dong", "Xielin Liu", "Fangcheng Tang", "Shumin Qiu"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 126
+recursive_loop: 57
 ---
 
 # How upstream innovativeness of ecosystems affects firms' innovation: The contingent role of absorptive capacity and upstream dependence

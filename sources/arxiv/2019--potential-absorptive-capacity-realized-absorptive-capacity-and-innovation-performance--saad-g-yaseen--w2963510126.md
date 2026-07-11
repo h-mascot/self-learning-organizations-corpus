@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W2963510126
 publication_year: 2019
 authors: ["Saad G. Yaseen"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 42
+recursive_loop: 30
 ---
 
 # Potential Absorptive Capacity, Realized Absorptive Capacity and Innovation Performance

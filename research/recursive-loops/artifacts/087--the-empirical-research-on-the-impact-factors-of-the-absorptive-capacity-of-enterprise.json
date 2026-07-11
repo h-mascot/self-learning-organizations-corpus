@@ -1,0 +1,33 @@
+{
+  "schema_version": 2,
+  "loop": 87,
+  "parent_loop": 34,
+  "parent_source": "https://en.cnki.com.cn/Article_en/CJFDTOTAL-KXYJ200303017.htm",
+  "selected_item": "https://openalex.org/W2348829882",
+  "selected_title": "The Empirical Research on the Impact Factors of the Absorptive Capacity of Enterprise",
+  "discovered_as": "related_works link exposed by loop 34",
+  "question": "Which measurable boundary in “The Empirical Research on the Impact Factors of the Absorptive Capacity of Enterprise” changes how Absorptive capacity should be evaluated after “On the main factors of knowledge absorptive capacity of enterprise”?",
+  "retrieval_url": "https://api.openalex.org/works/W2348829882?mailto=corpus@example.invalid",
+  "canonical_url": "https://en.cnki.com.cn/Article_en/CJFDTOTAL-HRBG200801025.htm",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:28:30.112121+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "Nowadays,absorptive capacity has become the key factor for enterprises to distinguish market chance,keep continuous innovation by using external knowledge and obtain and improve competitive advantage.Absorptive capacity is influenced by many factors.In order to identify the main influencing factors of china's enterprise,proposed the theoretical hypothesis by theoretical analysis,used structural equation model and questionnaire to take empirical study on the influencing factors of china's enterprise.The study indicates that five factors including internal levels of human capital,priori knowledge,internal organization and management factors,R D activities and external social capital,play dominant role in the influence on absorptive capacity of china's enterprise.At the same time,the will of absorbing knowledge has no significant effect on absorptive capacity."
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Absorptive capacity, Business through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 110 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [
+    "https://openalex.org/W2361383953"
+  ],
+  "corpus_changes": [
+    "sources/arxiv/2008--the-empirical-research-on-the-impact-factors-of-the-absorptive-capacity-of-enterprise--kun-cui--w2348829882.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W2348829882"
+}

@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W2037209812
 publication_year: 2011
 authors: ["Michael Weeks", "Stephanie J. Thomason"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 26
+recursive_loop: 14
 ---
 
 # AN EXPLORATORY ASSESSMENT OF THE LINKAGES BETWEEN HRM PRACTICES, ABSORPTIVE CAPACITY, AND INNOVATION IN OUTSOURCING RELATIONSHIPS

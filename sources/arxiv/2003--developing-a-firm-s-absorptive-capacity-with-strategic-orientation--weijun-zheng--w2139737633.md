@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W2139737633
 publication_year: 2003
 authors: ["Weijun Zheng"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 140
+recursive_loop: 67
 ---
 
 # Developing a Firm's Absorptive Capacity with Strategic Orientation

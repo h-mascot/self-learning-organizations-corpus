@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W3165549842
 publication_year: 2021
 authors: ["Youngkeun Choi", "Sug-In Chang", "Sung-Jun Youn"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 150
+recursive_loop: 77
 ---
 
 # The effect of knowledge absorptive capacity on social ventures’ performance

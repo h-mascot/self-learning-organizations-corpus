@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W3190349563
 publication_year: 2021
 authors: ["Júlio Eduardo Rohenkohl", "Andréia Cunha da Rosa", "Janaína Ruffoni", "Orlando Martinelli"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 152
+recursive_loop: 79
 ---
 
 # Necessary and sufficient conditions for the absorptive capacity of firms that interact with universities

@@ -1,0 +1,9 @@
+{
+  "schema_version": 2,
+  "requested_loops": 200,
+  "productive_loops": 200,
+  "seed_loops": 3,
+  "edges": 197,
+  "unique_sources": 200,
+  "relevance_rejections": 106
+}

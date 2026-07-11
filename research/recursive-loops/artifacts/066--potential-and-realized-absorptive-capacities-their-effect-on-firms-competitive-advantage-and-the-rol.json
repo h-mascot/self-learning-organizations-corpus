@@ -1,0 +1,31 @@
+{
+  "schema_version": 2,
+  "loop": 66,
+  "parent_loop": 27,
+  "parent_source": "http://en.cnki.com.cn/Article_en/CJFDTOTAL-JCJJ200902002.htm",
+  "selected_item": "https://openalex.org/W2054873847",
+  "selected_title": "Potential and realized absorptive capacities: Their effect on firms' competitive advantage and the role of communication",
+  "discovered_as": "related_works link exposed by loop 27",
+  "question": "What mechanism does Erming Xu identify in “Potential and realized absorptive capacities: Their effect on firms' competitive advantage and the role of communication” that deepens the evidence from “The Effect of Absorptive Capacity on Firm's Competitive Advantage in China”?",
+  "retrieval_url": "https://api.openalex.org/works/W2054873847?mailto=corpus@example.invalid",
+  "canonical_url": "https://doi.org/10.1109/icmse.2009.5317398",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:28:23.536329+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "Based on the resource-based view of the firm, this paper investigates the effect of potential absorptive capacity and realized absorptive capacity on the firm's competitive advantage with a sample of 286 corporations in China. Results indicate that both potential and realized absorptive capacities of Chinese corporations contribute to the firms' competitive advantage, yet realized absorptive capacity accounts for most of the contribution. In addition, by focusing on one single antecedent--communication, this paper is able to pinpoint the roles of three different levels of communication in absorptive capacity building. Ownership structure is also introduced as a moderating variable to refine the study. These results extend understanding of absorptive capacity by providing empirical evidence to existing theories and provide insights into Chinese corporations who are transforming into innov"
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Absorptive capacity, Industrial organization through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 126 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [],
+  "corpus_changes": [
+    "sources/arxiv/2009--potential-and-realized-absorptive-capacities-their-effect-on-firms-competitive-advantage-and-the-rol--erming-xu--w2054873847.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W2054873847"
+}

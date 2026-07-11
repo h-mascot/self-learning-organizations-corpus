@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W1832704641
 publication_year: 2015
 authors: ["David D. Dobrzykowski", "Rudolf Leuschner", "Paul Hong", "James Jungbae Roh"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 24
+recursive_loop: 12
 ---
 
 # Examining Absorptive Capacity in Supply Chains: Linking Responsive Strategy and Firm Performance

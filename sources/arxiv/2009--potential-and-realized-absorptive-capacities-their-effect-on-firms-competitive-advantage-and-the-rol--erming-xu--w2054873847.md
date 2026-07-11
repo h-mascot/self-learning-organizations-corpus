@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W2054873847
 publication_year: 2009
 authors: ["Erming Xu", "Chen Yin", "Sun-dong Kwon", "Hua-long Fang"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 139
+recursive_loop: 66
 ---
 
 # Potential and realized absorptive capacities: Their effect on firms' competitive advantage and the role of communication

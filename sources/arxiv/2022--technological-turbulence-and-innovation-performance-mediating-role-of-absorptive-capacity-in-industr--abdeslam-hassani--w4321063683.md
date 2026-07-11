@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W4321063683
 publication_year: 2022
 authors: ["Abdeslam Hassani", "Hussam Al Halbusi", "Ouissale El Gharbaoui"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 127
+recursive_loop: 58
 ---
 
 # Technological turbulence and innovation performance: mediating role of absorptive capacity in Industrial SMEs

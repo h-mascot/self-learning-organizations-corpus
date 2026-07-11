@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W2788157583
 publication_year: 2018
 authors: ["Tim Schweisfurth", "Christina Raasch"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 161
+recursive_loop: 86
 ---
 
 # Absorptive capacity for need knowledge: Antecedents and effects for employee innovativeness

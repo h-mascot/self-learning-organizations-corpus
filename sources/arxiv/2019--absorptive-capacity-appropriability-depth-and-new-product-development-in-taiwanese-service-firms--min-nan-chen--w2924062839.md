@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W2924062839
 publication_year: 2019
 authors: ["Min-Nan Chen", "Yuan‐Chieh Chang"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 38
+recursive_loop: 26
 ---
 
 # Absorptive capacity, appropriability depth and new product development in Taiwanese service firms

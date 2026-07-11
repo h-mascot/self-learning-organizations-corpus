@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W3119539330
 publication_year: 2020
 authors: ["Roy Setiawan"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 153
+recursive_loop: 80
 ---
 
 # The Roles Of Environmental Strategy And Innovation Performance: The Effects Of Absorptive Capacity To Competitive Advantage

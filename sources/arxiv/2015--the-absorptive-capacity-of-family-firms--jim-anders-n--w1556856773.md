@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W1556856773
 publication_year: 2015
 authors: ["Jim Andersén"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 48
+recursive_loop: 36
 ---
 
 # The absorptive capacity of family firms

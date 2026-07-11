@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W2129650137
 publication_year: 2011
 authors: ["Αιμιλία Πρωτόγερου", "Yannis Caloghirou", "Spyros Lioukas"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 122
+recursive_loop: 53
 ---
 
 # Dynamic capabilities and their indirect impact on firm performance

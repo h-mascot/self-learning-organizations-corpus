@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W2783456758
 publication_year: 2017
 authors: ["T. Diana L. van Aduard de Macedo-Soares", "Fábio de Oliveira Paula", "Hudson Lima Mendonça"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 27
+recursive_loop: 15
 ---
 
 # Leveraging firm innovation performance through alliance portfolios in emerging economies: the role of absorptive capacity

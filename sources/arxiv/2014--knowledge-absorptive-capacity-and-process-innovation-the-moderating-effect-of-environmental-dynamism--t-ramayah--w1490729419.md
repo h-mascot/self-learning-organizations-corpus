@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W1490729419
 publication_year: 2014
 authors: ["T. Ramayah", "Khoo Kah Kheng", "Jasmine A.L. Yeap"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 120
+recursive_loop: 51
 ---
 
 # KNOWLEDGE ABSORPTIVE CAPACITY AND PROCESS INNOVATION: THE MODERATING EFFECT OF ENVIRONMENTAL DYNAMISM

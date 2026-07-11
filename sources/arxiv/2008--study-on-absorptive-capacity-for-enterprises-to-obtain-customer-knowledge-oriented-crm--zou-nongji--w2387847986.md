@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W2387847986
 publication_year: 2008
 authors: ["Zou Nongji"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 108
+recursive_loop: 45
 ---
 
 # Study on Absorptive Capacity for Enterprises to Obtain Customer Knowledge Oriented CRM

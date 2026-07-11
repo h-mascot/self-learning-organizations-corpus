@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W3045996744
 publication_year: 2020
 authors: ["Alireza Javanmardi Kashan", "Kavoos Mohannak"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 149
+recursive_loop: 76
 ---
 
 # An Empirical Investigation of Knowledge Processes in Absorptive Capacity Development

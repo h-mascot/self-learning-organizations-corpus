@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W3209894979
 publication_year: 2021
 authors: ["Tebogo Simon Ramaoka", "Erika Kraemer‐Mbula"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 93
+recursive_loop: 37
 ---
 
 # Technology transfer and absorptive capacities in South Africa's medical device industry

@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W2127436640
 publication_year: 2010
 authors: ["Qiao Penghua", "Xu Kaifeng"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 151
+recursive_loop: 78
 ---
 
 # The empirical research on the enterprise knowledge absorptive capacity of the dynamic evolution model

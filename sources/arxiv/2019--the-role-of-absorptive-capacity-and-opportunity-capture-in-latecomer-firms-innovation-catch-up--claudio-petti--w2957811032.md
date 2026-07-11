@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W2957811032
 publication_year: 2019
 authors: ["Claudio Petti", "Yongli Tang", "Elisa Barbieri", "Lauretta Rubini"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 33
+recursive_loop: 21
 ---
 
 # The role of absorptive capacity and opportunity capture in latecomer firms’ innovation catch-up

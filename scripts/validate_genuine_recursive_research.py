@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
-import json, sys
+import json, re, sys
 from pathlib import Path
 
 root = Path("research/recursive-loops"); errors = []
 rows = [json.loads(line) for line in (root / "ledger.jsonl").read_text().splitlines() if line.strip()]
 seen_ids = set(); seen_urls = set(); questions = set(); seeds = 0; edges = 0
+relevance = re.compile(r"organizational learn|absorptive capacit|knowledge (?:creation|transfer|acquisition|assimilation|sharing)|(?:firm|enterprise|compan)[^.]{0,80}(?:innovation|learning|knowledge|dynamic capabilit)|(?:innovation|learning|knowledge|dynamic capabilit)[^.]{0,80}(?:firm|enterprise|compan)|artificial intelligence|machine learning|language model|AI agent|agentic|automation|software engineering|human oversight|algorithmic decision|data flywheel|experimentation platform", re.I)
 for expected, row in enumerate(rows, 1):
     n = row.get("loop"); parent = row.get("parent_loop")
     if n != expected: errors.append(f"loop sequence mismatch at {expected}: {n}")
@@ -19,6 +20,7 @@ for expected, row in enumerate(rows, 1):
     spans = row.get("evidence_spans", [])
     if not spans or not all(s.get("text", "").strip() for s in spans): errors.append(f"loop {n}: empty evidence")
     if not row.get("learned_claims") or not all(x.strip() for x in row["learned_claims"]): errors.append(f"loop {n}: empty findings")
+    if not relevance.search(row.get("selected_title", "") + " " + " ".join(s.get("text", "") for s in spans)): errors.append(f"loop {n}: evidence fails topical relevance gate")
     if row.get("http_status") != 200 and not row.get("retrieval_error"): errors.append(f"loop {n}: unresolved URL lacks preserved retrieval evidence")
     url = row.get("canonical_url"); wid = row.get("selected_openalex_id")
     if not url: errors.append(f"loop {n}: missing canonical URL")

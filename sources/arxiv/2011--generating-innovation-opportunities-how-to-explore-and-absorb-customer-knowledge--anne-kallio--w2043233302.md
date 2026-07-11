@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W2043233302
 publication_year: 2011
 authors: ["Anne Kallio", "Carsten Bergenholtz"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 28
+recursive_loop: 16
 ---
 
 # Generating innovation opportunities: how to explore and absorb customer knowledge

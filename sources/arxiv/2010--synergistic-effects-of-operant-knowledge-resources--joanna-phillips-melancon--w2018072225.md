@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W2018072225
 publication_year: 2010
 authors: ["Joanna Phillips Melancon", "David A. Griffith", "Stephanie Noble", "Qimei Chen"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 114
+recursive_loop: 49
 ---
 
 # Synergistic effects of operant knowledge resources

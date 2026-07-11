@@ -1,0 +1,37 @@
+{
+  "schema_version": 2,
+  "loop": 91,
+  "parent_loop": 34,
+  "parent_source": "https://en.cnki.com.cn/Article_en/CJFDTOTAL-KXYJ200303017.htm",
+  "selected_item": "https://openalex.org/W2380840150",
+  "selected_title": "Influence Mechanism of IT Capability on the Enterprise's Absorptive Capacity——Based on the Perspective of IT Governance",
+  "discovered_as": "related_works link exposed by loop 34",
+  "question": "What mechanism does Xie Wei-hon identify in “Influence Mechanism of IT Capability on the Enterprise's Absorptive Capacity——Based on the Perspective of IT Governance” that deepens the evidence from “On the main factors of knowledge absorptive capacity of enterprise”?",
+  "retrieval_url": "https://api.openalex.org/works/W2380840150?mailto=corpus@example.invalid",
+  "canonical_url": "https://en.cnki.com.cn/Article_en/CJFDTOTAL-YJYF201506015.htm",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:28:31.049326+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "Selecting 221 enterprises as the research object,it discussed the relationships among IT capability,absorptive capacity and IT governance. The result shows: both knowledge breadth IT capability and knowledge depth IT capability have positive effects on potential absorptive capacity; process oriented IT capability has no significant positive effect on potential absorptive capacity; knowledge oriented IT capability has indirect influence on realized absorptive capacity through potential absorptive capacity; IT governance moderates the impact of knowledge depth IT capability on potential absorptive capacity,and it also moderates the relationship between process oriented IT capability and absorptive capacity. These conclusion can be helpful to understand the influence mechanism of IT capability on absorptive capacity. It can provide certain reference for the theory and practice."
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Absorptive capacity, Business through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 118 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [
+    "https://openalex.org/W2995425954",
+    "https://openalex.org/W2373752044",
+    "https://openalex.org/W2174473669",
+    "https://openalex.org/W2387362606",
+    "https://openalex.org/W2113450072"
+  ],
+  "corpus_changes": [
+    "sources/arxiv/2015--influence-mechanism-of-it-capability-on-the-enterprise-s-absorptive-capacity-based-on-the-perspectiv--xie-wei-hon--w2380840150.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W2380840150"
+}

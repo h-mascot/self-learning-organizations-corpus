@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W2940153225
 publication_year: 2018
 authors: ["Xin-Ran Yu", "Tae-In Kim"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 10
+recursive_loop: 8
 ---
 
 # Entrepreneurship, Absorptive Capacity, Technical Capability and Innovation Performance

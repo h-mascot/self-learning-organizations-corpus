@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W2005142374
 publication_year: 2015
 authors: ["Ana Isabel Martínez Senra", "María de los Ángeles Quintás Corredoira", "António Sartal", "Xosé H. Vázquez"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 36
+recursive_loop: 24
 ---
 
 # How Can Firms’ Basic Research Turn Into Product Innovation? The Role of Absorptive Capacity and Industry Appropriability

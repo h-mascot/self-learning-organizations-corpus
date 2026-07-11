@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W3190917026
 publication_year: 2021
 authors: ["Yuxia Kong"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 142
+recursive_loop: 69
 ---
 
 # The Causal Model of Absorptive Capacity, Strategic Flexibility and Innovation Performance on Sustainable Competitive Advantage: An Internationalization Perspective

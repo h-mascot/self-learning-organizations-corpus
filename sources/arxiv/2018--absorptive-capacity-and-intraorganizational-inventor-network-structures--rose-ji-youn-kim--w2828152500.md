@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W2828152500
 publication_year: 2018
 authors: ["Rose Ji Youn Kim", "H. Kevin Steensma", "Ralph A. Heidl"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 137
+recursive_loop: 65
 ---
 
 # Absorptive capacity and intraorganizational inventor network structures

@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W2891018755
 publication_year: 2018
 authors: ["Siqing Shan", "Yiting Luo", "Yuan Zhou", "Yigang Wei"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 158
+recursive_loop: 84
 ---
 
 # Big data analysis adaptation and enterprises’ competitive advantages: the perspective of dynamic capability and resource-based theories

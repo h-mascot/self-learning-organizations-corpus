@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W2784810216
 publication_year: 2018
 authors: ["Zhaleh Najafi-Tavani", "Matthew J. Robson", "Ghasem Zaefarian", "Ulf Andersson", "Chong Yu"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 95
+recursive_loop: 39
 ---
 
 # Building subsidiary local responsiveness: (When) does the directionality of intrafirm knowledge transfers matter?

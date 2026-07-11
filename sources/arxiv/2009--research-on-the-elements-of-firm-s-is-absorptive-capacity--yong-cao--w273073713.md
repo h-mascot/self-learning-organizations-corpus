@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W273073713
 publication_year: 2009
 authors: ["Yong Cao"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 11
+recursive_loop: 9
 ---
 
 # Research on the Elements of Firm's IS Absorptive Capacity

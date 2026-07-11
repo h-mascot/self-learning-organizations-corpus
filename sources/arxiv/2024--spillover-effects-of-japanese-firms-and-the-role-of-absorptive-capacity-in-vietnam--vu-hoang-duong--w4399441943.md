@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W4399441943
 publication_year: 2024
 authors: ["Vu Hoang Duong", "Tuong Phi Vinh"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 129
+recursive_loop: 60
 ---
 
 # Spillover effects of Japanese firms and the role of absorptive capacity in Vietnam

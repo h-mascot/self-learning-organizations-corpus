@@ -1,0 +1,31 @@
+{
+  "schema_version": 2,
+  "loop": 148,
+  "parent_loop": 51,
+  "parent_source": "http://penerbit.uthm.edu.my/ojs/index.php/jtmb/article/view/913",
+  "selected_item": "https://openalex.org/W2166318386",
+  "selected_title": "Linking properties of knowledge with innovation performance: the moderate role of absorptive capacity",
+  "discovered_as": "related_works link exposed by loop 51",
+  "question": "Where does “Linking properties of knowledge with innovation performance: the moderate role of absorptive capacity” support or contradict the causal account advanced by “KNOWLEDGE ABSORPTIVE CAPACITY AND PROCESS INNOVATION: THE MODERATING EFFECT OF ENVIRONMENTAL DYNAMISM”?",
+  "retrieval_url": "https://api.openalex.org/works/W2166318386?mailto=corpus@example.invalid",
+  "canonical_url": "https://doi.org/10.1108/13673271111174339",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:29:45.528273+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "Purpose The purpose of this paper is to unravel the complex linkages between properties of knowledge, firm's absorptive capacities, and innovation performance in China small and medium‐sized enterprises (SMEs). Design/methodology/approach The authors utilize moderated multiple regression (MMR) to explore the complex relationships by using the empirical data of Chinese information technology and electro‐communication firms during 2005‐2008. Findings The results show that only a few knowledge properties have negative effects on innovation performance. Most knowledge properties have a positive effect on innovation. The results also claim that the relationship between properties of knowledge and innovation performance is more pronounced when the firm has higher absorptive capacity. Originality/value The study indicates that properties of knowledge and absorptive capacity are two inseparable "
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Absorptive capacity, Knowledge management through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 136 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [],
+  "corpus_changes": [
+    "sources/arxiv/2011--linking-properties-of-knowledge-with-innovation-performance-the-moderate-role-of-absorptive-capacity--changfeng-wang--w2166318386.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W2166318386"
+}

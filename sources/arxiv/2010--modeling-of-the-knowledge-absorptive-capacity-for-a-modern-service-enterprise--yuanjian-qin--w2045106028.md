@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W2045106028
 publication_year: 2010
 authors: ["Yuanjian Qin", "Xinyan Zhu"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 146
+recursive_loop: 72
 ---
 
 # Modeling of the Knowledge Absorptive Capacity for a Modern Service Enterprise

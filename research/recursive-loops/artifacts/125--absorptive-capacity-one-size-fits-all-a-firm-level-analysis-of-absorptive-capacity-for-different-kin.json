@@ -1,0 +1,39 @@
+{
+  "schema_version": 2,
+  "loop": 125,
+  "parent_loop": 46,
+  "parent_source": "https://doi.org/10.1016/j.jbusres.2024.114811",
+  "selected_item": "https://openalex.org/W2096545732",
+  "selected_title": "Absorptive capacity—one size fits all? A firm‐level analysis of absorptive capacity for different kinds of knowledge",
+  "discovered_as": "related_works link exposed by loop 46",
+  "question": "How does the evidence in “Absorptive capacity—one size fits all? A firm‐level analysis of absorptive capacity for different kinds of knowledge” constrain claims about transfer from individual to organizational learning?",
+  "retrieval_url": "https://api.openalex.org/works/W2096545732?mailto=corpus@example.invalid",
+  "canonical_url": "https://doi.org/10.1002/mde.1423",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:29:20.509969+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "Abstract This paper empirically analyzes the effect of R&D activities, human resource and knowledge management, and the organization of knowledge sharing within a firm on the absorptive capacity of innovative firms for three different types of knowledge, namely absorptive capacity to use knowledge from a firm's own industry, knowledge from other industries and knowledge from research institutions. Using data from the German innovation survey, we investigate how firms are able to exploit knowledge from external partners for successful innovation activities. The estimation results show that the determinants of absorptive capacity differ with respect to the type of knowledge absorbed for innovation activities. In particular, we find that the R&D intensity does not significantly influence absorptive capacity for intra‐ and inter‐industry knowledge. Additionally, our results suggest that abso"
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Absorptive capacity, Exploit through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 158 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [
+    "https://openalex.org/W2005144066",
+    "https://openalex.org/W2160380001",
+    "https://openalex.org/W2093497333",
+    "https://openalex.org/W2114026318",
+    "https://openalex.org/W2087712586",
+    "https://openalex.org/W2082298179",
+    "https://openalex.org/W2123709218"
+  ],
+  "corpus_changes": [
+    "sources/arxiv/2009--absorptive-capacity-one-size-fits-all-a-firm-level-analysis-of-absorptive-capacity-for-different-kin--tobias-schmidt--w2096545732.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W2096545732"
+}

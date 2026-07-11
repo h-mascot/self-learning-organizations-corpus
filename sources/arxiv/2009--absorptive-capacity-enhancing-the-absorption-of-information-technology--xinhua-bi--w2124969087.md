@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W2124969087
 publication_year: 2009
 authors: ["Xinhua Bi", "Cuiling Yu", "Taibo Chen", "Xiaoyun Qi"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 100
+recursive_loop: 44
 ---
 
 # Absorptive Capacity: Enhancing the Absorption of Information Technology

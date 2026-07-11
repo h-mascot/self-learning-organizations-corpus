@@ -1,0 +1,31 @@
+{
+  "schema_version": 2,
+  "loop": 127,
+  "parent_loop": 47,
+  "parent_source": "https://openalex.org/W1718011808",
+  "selected_item": "https://openalex.org/W1751124435",
+  "selected_title": "Enriching Absorptive Capacity through Social Interaction",
+  "discovered_as": "related_works link exposed by loop 47",
+  "question": "Which measurable boundary in “Enriching Absorptive Capacity through Social Interaction” changes how Absorptive capacity should be evaluated after “Opening the box of knowledge in absorptive capacity development in the context of service innovation”?",
+  "retrieval_url": "https://api.openalex.org/works/W1751124435?mailto=corpus@example.invalid",
+  "canonical_url": "https://doi.org/10.1111/j.1467-8551.2011.00749.x",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:29:38.368395+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "Absorptive capacity is frequently highlighted as a key determinant of knowledge transfer within multinational enterprises. But how individual behaviour translates into absorptive capacity at the subsidiary level, and how this is contingent on subsidiaries' social context, remains under‐addressed. This not only limits our understanding of the relationship between individual‐ and organizational‐level absorptive capacity, but also hampers further research on potentially relevant managerial and organizational antecedents, and limits the implications we can draw for practitioners who seek to increase their organization's capacity to put new knowledge to use. To address this shortcoming we conduct an in‐depth comparative case study of a headquarters‐initiated knowledge transfer at two subsidiaries of the same multinational enterprise. The findings demonstrate that social interaction is a prere"
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Absorptive capacity, Business through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 196 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [],
+  "corpus_changes": [
+    "sources/arxiv/2011--enriching-absorptive-capacity-through-social-interaction--jasper-j-hotho--w1751124435.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W1751124435"
+}

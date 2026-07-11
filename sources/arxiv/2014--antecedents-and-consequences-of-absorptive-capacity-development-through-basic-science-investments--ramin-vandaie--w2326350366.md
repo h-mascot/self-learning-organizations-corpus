@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W2326350366
 publication_year: 2014
 authors: ["Ramin Vandaie"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 8
+recursive_loop: 6
 ---
 
 # Antecedents and Consequences of Absorptive Capacity Development through Basic Science Investments

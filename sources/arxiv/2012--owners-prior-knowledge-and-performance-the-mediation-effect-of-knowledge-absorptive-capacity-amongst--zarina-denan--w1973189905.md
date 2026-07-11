@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W1973189905
 publication_year: 2012
 authors: ["Zarina Denan", "Noraini Ismail", "T. Ramayah"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 25
+recursive_loop: 13
 ---
 
 # Owners' prior knowledge and performance: The mediation effect of knowledge absorptive capacity amongst SMEs

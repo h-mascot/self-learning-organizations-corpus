@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "loop": 154,
+  "parent_loop": 59,
+  "parent_source": "https://doi.org/10.2991/hss-26.2016.118",
+  "selected_item": "https://openalex.org/W2349869695",
+  "selected_title": "The Relationship of the Intellectual Capital and Technology Innovation——Taking Absorptive Capacity as Moderator",
+  "discovered_as": "related_works link exposed by loop 59",
+  "question": "What operational artifact in “The Relationship of the Intellectual Capital and Technology Innovation——Taking Absorptive Capacity as Moderator” could make the Absorptive capacity feedback loop auditable?",
+  "retrieval_url": "https://api.openalex.org/works/W2349869695?mailto=corpus@example.invalid",
+  "canonical_url": "https://en.cnki.com.cn/Article_en/CJFDTOTAL-XUXI200903017.htm",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:29:49.470113+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "In this paper,research findings on intellectual capital,absorptive capacity and technology innovation are reviewed.And then the conceptual model for assessing the correlation between intellectual capital and absorptive capacity on technology innovation performance is developed on the basis pf various hypothesis.The results shows that various components of intellectual capital are interactive;intellectual capital and absorptive capacity have significant effect on technology innovation performance;absorptive capacity enhance the positive effect of human capital and social capital on technology innovation performance."
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Absorptive capacity, Intellectual capital through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 75 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [
+    "https://openalex.org/W3106885443",
+    "https://openalex.org/W3030889293",
+    "https://openalex.org/W2974065832",
+    "https://openalex.org/W2032055045",
+    "https://openalex.org/W2335752124",
+    "https://openalex.org/W1581922435",
+    "https://openalex.org/W2362465596",
+    "https://openalex.org/W2800700831"
+  ],
+  "corpus_changes": [
+    "sources/arxiv/2009--the-relationship-of-the-intellectual-capital-and-technology-innovation-taking-absorptive-capacity-as--zhang-xue-hua--w2349869695.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W2349869695"
+}

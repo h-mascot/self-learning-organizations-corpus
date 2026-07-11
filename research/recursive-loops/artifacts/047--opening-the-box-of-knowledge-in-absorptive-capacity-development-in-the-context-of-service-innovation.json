@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "loop": 47,
+  "parent_loop": 16,
+  "parent_source": "https://doi.org/10.1504/ijtm.2011.042981",
+  "selected_item": "https://openalex.org/W1718011808",
+  "selected_title": "Opening the box of knowledge in absorptive capacity development in the context of service innovation",
+  "discovered_as": "related_works link exposed by loop 16",
+  "question": "Which measurable boundary in “Opening the box of knowledge in absorptive capacity development in the context of service innovation” changes how Absorptive capacity should be evaluated after “Generating innovation opportunities: how to explore and absorb customer knowledge”?",
+  "retrieval_url": "https://api.openalex.org/works/W1718011808?mailto=corpus@example.invalid",
+  "canonical_url": "https://openalex.org/W1718011808",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:28:05.637244+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "How does the flow of different knowledge forms develop operational absorptive capacity in a service innovation? We interpret empirical findings from our five year longitudinal case of a business-to-consumer service through the multiple theoretical perspectives of operational absorptive capacity development, knowledge management and service innovation to address this question. We move beyond acknowledging the importance of the customer to understand how customers might more effectively assist in operational absorptive capacity development if a firm consciously shifts the focus of their customer engagement during the life of a service innovation. We characterize how alignment of a champion’s motives with the interests of the firm can direct the path of knowledge during absorptive capacity development. We generate insight into how relational, experiential and structural elements develop abs"
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Absorptive capacity, Knowledge management through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 188 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [
+    "https://openalex.org/W2753684301",
+    "https://openalex.org/W1751124435",
+    "https://openalex.org/W98219716",
+    "https://openalex.org/W2304811421",
+    "https://openalex.org/W2350547853",
+    "https://openalex.org/W2407579429",
+    "https://openalex.org/W3011443804",
+    "https://openalex.org/W2071418825"
+  ],
+  "corpus_changes": [
+    "sources/arxiv/2015--opening-the-box-of-knowledge-in-absorptive-capacity-development-in-the-context-of-service-innovation--nuran-acur-bakir--w1718011808.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W1718011808"
+}

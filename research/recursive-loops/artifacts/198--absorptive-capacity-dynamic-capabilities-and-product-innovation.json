@@ -1,0 +1,39 @@
+{
+  "schema_version": 2,
+  "loop": 198,
+  "parent_loop": 74,
+  "parent_source": "https://en.cnki.com.cn/Article_en/CJFDTOTAL-WLYF201011016.htm",
+  "selected_item": "https://openalex.org/W2913302557",
+  "selected_title": "Absorptive Capacity, Dynamic Capabilities and Product Innovation",
+  "discovered_as": "related_works link exposed by loop 74",
+  "question": "Where does “Absorptive Capacity, Dynamic Capabilities and Product Innovation” support or contradict the causal account advanced by “A Review on the Theory of Absorptive Capacity”?",
+  "retrieval_url": "https://api.openalex.org/works/W2913302557?mailto=corpus@example.invalid",
+  "canonical_url": "https://openalex.org/W2913302557",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:30:23.009404+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "A firm's ability to exploit external knowledge into product innovation is critical to its business success.Two well-established models, Absorptive Capacity (ACAP) and Dynamic Capabilities (DCAPs), offer insights into this issue.However, the constructs of these two models are confusingly mingled; and their effects are ambiguous.We argue that the ambiguity on effects is associated with the confusion of their underlying characteristics.This paper seeks to better understand the constructs and effects of these two models through a critical literature review and survey research.A 'Best Practice' study further observed what the more successful firms have done differently.We provide a view to untangle the confusion by dividing DCAPs into two dimensions (D1 and D2).Results suggest that it is D2-DCAPs that matters the most for innovation success.Finally, the 'Best Practice' study provides practica"
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Absorptive capacity, Product (mathematics) through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 135 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [
+    "https://openalex.org/W3172149828",
+    "https://openalex.org/W3010828585",
+    "https://openalex.org/W2368245230",
+    "https://openalex.org/W2211596238",
+    "https://openalex.org/W113664215",
+    "https://openalex.org/W2960977465",
+    "https://openalex.org/W3199259094"
+  ],
+  "corpus_changes": [
+    "sources/arxiv/2014--absorptive-capacity-dynamic-capabilities-and-product-innovation--rebecca-ru-yuh-liu--w2913302557.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W2913302557"
+}

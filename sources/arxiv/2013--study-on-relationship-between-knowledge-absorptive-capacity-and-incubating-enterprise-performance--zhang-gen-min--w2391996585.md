@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W2391996585
 publication_year: 2013
 authors: ["Zhang Gen-min"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 160
+recursive_loop: 85
 ---
 
 # Study on Relationship between Knowledge Absorptive Capacity and Incubating Enterprise Performance

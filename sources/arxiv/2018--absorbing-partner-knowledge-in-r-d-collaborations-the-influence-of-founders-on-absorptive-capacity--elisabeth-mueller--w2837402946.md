@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W2837402946
 publication_year: 2018
 authors: ["Elisabeth Mueller", "Carolin Haeussler", "Lorna Syme"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 6
+recursive_loop: 4
 ---
 
 # Absorbing Partner Knowledge in R&D Collaborations – The Influence of Founders on Absorptive Capacity

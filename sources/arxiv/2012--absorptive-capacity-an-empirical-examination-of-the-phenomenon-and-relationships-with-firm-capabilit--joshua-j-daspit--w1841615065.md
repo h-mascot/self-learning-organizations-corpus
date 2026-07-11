@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W1841615065
 publication_year: 2012
 authors: ["Joshua J. Daspit"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 43
+recursive_loop: 31
 ---
 
 # Absorptive Capacity: An Empirical Examination of the Phenomenon and Relationships with Firm Capabilities

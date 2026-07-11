@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W391337096
 publication_year: 2003
 authors: ["Justin J.P. Jansen", "van den Bosch, Frans", "Volberda, Henk"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 148
+recursive_loop: 75
 ---
 
 # Absorptive Capacity, Adaptation, and Performance: An Intra-organizational Perspective

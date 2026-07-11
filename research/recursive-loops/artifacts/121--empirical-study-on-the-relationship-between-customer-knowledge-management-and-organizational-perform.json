@@ -1,0 +1,38 @@
+{
+  "schema_version": 2,
+  "loop": 121,
+  "parent_loop": 45,
+  "parent_source": "https://en.cnki.com.cn/Article_en/CJFDTOTAL-HDCS200804008.htm",
+  "selected_item": "https://openalex.org/W2357842919",
+  "selected_title": "Empirical Study on the Relationship between Customer Knowledge Management and Organizational Performance:Perspective of Customer Response Capacity",
+  "discovered_as": "related_works link exposed by loop 45",
+  "question": "What mechanism does MA Zhen-zhong identify in “Empirical Study on the Relationship between Customer Knowledge Management and Organizational Performance:Perspective of Customer Response Capacity” that deepens the evidence from “Study on Absorptive Capacity for Enterprises to Obtain Customer Knowledge Oriented CRM”?",
+  "retrieval_url": "https://api.openalex.org/works/W2357842919?mailto=corpus@example.invalid",
+  "canonical_url": "http://en.cnki.com.cn/Article_en/CJFDTOTAL-ZGRK200909018.htm",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:29:18.815233+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "Customer knowledge management as a business strategy can help the enterprises to cope with the challenges of the market.At present,most of the researches on customer knowledge management are about theory discussion and lack of empirical study.Based on the previous studies,first the paper proposes the dimension of customer knowledge management and revises the dimension of customer response capacity.And then the paper constructs the model of customer knowledge management-customer response capacity-organizational performance and makes empirical study on it."
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Customer advocacy, Customer intelligence through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 76 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [
+    "https://openalex.org/W2945273032",
+    "https://openalex.org/W2992928209",
+    "https://openalex.org/W2009078990",
+    "https://openalex.org/W1996439528",
+    "https://openalex.org/W2361490919",
+    "https://openalex.org/W3107933099"
+  ],
+  "corpus_changes": [
+    "sources/arxiv/2009--empirical-study-on-the-relationship-between-customer-knowledge-management-and-organizational-perform--ma-zhen-zhong--w2357842919.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W2357842919"
+}

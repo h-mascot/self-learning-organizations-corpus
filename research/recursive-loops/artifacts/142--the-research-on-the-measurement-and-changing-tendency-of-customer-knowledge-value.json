@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "loop": 142,
+  "parent_loop": 49,
+  "parent_source": "https://doi.org/10.1108/08876041011060693",
+  "selected_item": "https://openalex.org/W2351266377",
+  "selected_title": "The research on the measurement and changing tendency of customer knowledge value",
+  "discovered_as": "related_works link exposed by loop 49",
+  "question": "Which measurable boundary in “The research on the measurement and changing tendency of customer knowledge value” changes how Customer knowledge should be evaluated after “Synergistic effects of operant knowledge resources”?",
+  "retrieval_url": "https://api.openalex.org/works/W2351266377?mailto=corpus@example.invalid",
+  "canonical_url": "http://en.cnki.com.cn/Article_en/CJFDTotal-KXYJ2005S1045.htm",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:29:43.998110+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "With the increasing of knowledge's effect in customer relationship management,knowledge will become important factor for evaluating customer value.In this paper,the authors put forward analyzing customer value based on customer knowledge value.At first,the authors define the concept of customer knowledge value,and then put forward the measurement through measuring customer knowledge capacity and intention of knowledge communion.At the end of the paper,the authors analyze the changing tendency of customer knowledge management in customer lifecycle.The research of this paper will improve the concept of customer value and provide help for enterprises to implement customer knowledge in effect."
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Customer knowledge, Customer advocacy through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 94 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [
+    "https://openalex.org/W2380009853",
+    "https://openalex.org/W825355940",
+    "https://openalex.org/W1523356455",
+    "https://openalex.org/W2019149621",
+    "https://openalex.org/W2362552550",
+    "https://openalex.org/W2377816269",
+    "https://openalex.org/W2168568112",
+    "https://openalex.org/W2374535488"
+  ],
+  "corpus_changes": [
+    "sources/arxiv/2005--the-research-on-the-measurement-and-changing-tendency-of-customer-knowledge-value--peiji-shao--w2351266377.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W2351266377"
+}

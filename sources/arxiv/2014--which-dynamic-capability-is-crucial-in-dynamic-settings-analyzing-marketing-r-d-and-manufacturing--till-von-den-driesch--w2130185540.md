@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W2130185540
 publication_year: 2014
 authors: ["Till von den Driesch", "Tessa Christina Flatten"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 121
+recursive_loop: 52
 ---
 
 # "Which Dynamic Capability is Crucial in Dynamic Settings? Analyzing Marketing, R&D and Manufacturing"

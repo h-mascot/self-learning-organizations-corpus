@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W3217510971
 publication_year: 2021
 authors: ["Zihanxin Li", "Guilong Zhu"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 97
+recursive_loop: 41
 ---
 
 # Knowledge Transfer Performance of Industry-University-Research Institute Collaboration in China: The Moderating Effect of Partner Difference

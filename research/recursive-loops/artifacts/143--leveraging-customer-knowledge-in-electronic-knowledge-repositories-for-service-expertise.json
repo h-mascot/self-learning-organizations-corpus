@@ -1,0 +1,39 @@
+{
+  "schema_version": 2,
+  "loop": 143,
+  "parent_loop": 49,
+  "parent_source": "https://doi.org/10.1108/08876041011060693",
+  "selected_item": "https://openalex.org/W121121963",
+  "selected_title": "Leveraging Customer Knowledge in Electronic Knowledge Repositories for Service Expertise",
+  "discovered_as": "related_works link exposed by loop 49",
+  "question": "Where does “Leveraging Customer Knowledge in Electronic Knowledge Repositories for Service Expertise” support or contradict the causal account advanced by “Synergistic effects of operant knowledge resources”?",
+  "retrieval_url": "https://api.openalex.org/works/W121121963?mailto=corpus@example.invalid",
+  "canonical_url": "http://www.pacis-net.org/file/2013/PACIS2013-027.pdf",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:29:44.190750+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "This study examines how three dimensions of electronic knowledge repositories (EKRs), namely customer knowledge level, customer knowledge integration and accessibility of customer knowledge, contribute to increasing customer service representatives (CSRs)’ service expertise and their customer knowledge utilization and acquisition. Furthermore, the study empirically tests the proposition that service quality is influenced by CSRs’ service expertise and their customer knowledge utilization and acquisition. To test the proposed model and hypotheses, data were collected on CSRs working for call centers using EKRs such as knowledge management systems. All the hypothesized relationships were found to be significant except that between customer knowledge acquisition and service quality. Service expertise was strongly affected by customer knowledge level. While customer knowledge utilization was"
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Customer knowledge, Customer advocacy through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 158 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [
+    "https://openalex.org/W3201190389",
+    "https://openalex.org/W145017309",
+    "https://openalex.org/W2537247941",
+    "https://openalex.org/W2770757881",
+    "https://openalex.org/W2183165623",
+    "https://openalex.org/W209528146",
+    "https://openalex.org/W2357852901"
+  ],
+  "corpus_changes": [
+    "sources/arxiv/2013--leveraging-customer-knowledge-in-electronic-knowledge-repositories-for-service-expertise--sujeong-choi--w121121963.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W121121963"
+}

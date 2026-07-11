@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W2374226729
 publication_year: 2008
 authors: ["Zhou Pei"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 164
+recursive_loop: 89
 ---
 
 # Study on Relationship between Knowledge Absorptive Capacity and Performance Based on the View of Corporate Entrepreneurship

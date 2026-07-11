@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W3133702157
 publication_year: 2021
 authors: ["Emily M. Bender", "Timnit Gebru", "Angelina McMillan-Major", "Shmargaret Shmitchell"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 4
+recursive_loop: 3
 ---
 
 # On the Dangers of Stochastic Parrots

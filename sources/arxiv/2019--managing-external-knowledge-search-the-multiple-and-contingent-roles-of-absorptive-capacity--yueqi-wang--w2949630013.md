@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W2949630013
 publication_year: 2019
 authors: ["Yueqi Wang", "Bin Guo"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 40
+recursive_loop: 28
 ---
 
 # Managing external knowledge search: the multiple and contingent roles of absorptive capacity

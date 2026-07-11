@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W2765356250
 publication_year: 2017
 authors: ["Noora Marttila", "Isabelle Notter", "Simone A. Schweiger", "Tatiana Romanova Stettler", "Artur Baldauf"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 44
+recursive_loop: 32
 ---
 
 # Illuminating the Relationship Between Absorptive Capacity and Firm Performance: A Meta-Analysis

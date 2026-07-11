@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W2375844141
 publication_year: 2008
 authors: ["Zhang Han"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 163
+recursive_loop: 88
 ---
 
 # Relationship Between the Capabilities of Enterprise's Absorbing Knowledge and Its Performance in China

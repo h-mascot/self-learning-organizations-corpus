@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W2065309558
 publication_year: 2007
 authors: ["Hongwu “Sam” Ouyang"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 23
+recursive_loop: 10
 ---
 
 # Resources, absorptive capacity, and technology sourcing

@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W4244396275
 publication_year: 2017
 authors: ["Vikas Verma", "Sangeeta Shah Bharadwaj", "Madhushree Nanda"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 31
+recursive_loop: 19
 ---
 
 # Comparing agility and absorptive capacity for superior firm performance in dynamic environment

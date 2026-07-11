@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W2291105470
 publication_year: 2016
 authors: ["Ulrich Lichtenthaler"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 144
+recursive_loop: 71
 ---
 
 # Absorptive capacity and firm performance: an integrative framework of benefits and downsides

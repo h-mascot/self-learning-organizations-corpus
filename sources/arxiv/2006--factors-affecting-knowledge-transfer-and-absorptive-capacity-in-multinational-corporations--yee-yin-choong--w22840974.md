@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W22840974
 publication_year: 2006
 authors: ["Yee‐Yin Choong", "Chi Wu Fang"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 96
+recursive_loop: 40
 ---
 
 # Factors affecting knowledge transfer and absorptive capacity in multinational corporations

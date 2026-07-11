@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W1999462942
 publication_year: 2011
 authors: ["Haifeng Qian", "Zoltán J. Ács"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 131
+recursive_loop: 62
 ---
 
 # An absorptive capacity theory of knowledge spillover entrepreneurship

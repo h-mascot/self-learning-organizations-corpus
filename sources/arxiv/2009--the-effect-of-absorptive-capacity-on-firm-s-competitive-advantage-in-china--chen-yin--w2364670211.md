@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W2364670211
 publication_year: 2009
 authors: ["Chen Yin"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 39
+recursive_loop: 27
 ---
 
 # The Effect of Absorptive Capacity on Firm's Competitive Advantage in China

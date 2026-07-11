@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W4400268572
 publication_year: 2024
 authors: ["Elena Ji", "Syed Mahmudur Rahman", "Ralf Wilden", "Nidthida Lin", "Norma Harrison"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 109
+recursive_loop: 46
 ---
 
 # Leveraging customer knowledge obtained through social media: The roles of R&D intensity and absorptive capacity

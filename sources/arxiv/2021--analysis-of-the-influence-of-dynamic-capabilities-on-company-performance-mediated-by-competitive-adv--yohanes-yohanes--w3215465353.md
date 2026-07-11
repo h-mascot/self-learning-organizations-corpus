@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W3215465353
 publication_year: 2021
 authors: ["Yohanes Yohanes", "Farah Margaretha", "Yvonne Augustine Sudibyo"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 155
+recursive_loop: 81
 ---
 
 # Analysis of the Influence of Dynamic Capabilities on Company Performance Mediated By Competitive Advantage

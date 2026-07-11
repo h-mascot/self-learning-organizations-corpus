@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W1658993051
 publication_year: 2012
 authors: ["Katsufumi Fukuda"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 132
+recursive_loop: 63
 ---
 
 # Gains and Losses from International Trade in a Knowledge-driven Semi-endogenous Growth Model with Heterogeneous Firms

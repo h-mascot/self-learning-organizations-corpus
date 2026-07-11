@@ -1,0 +1,39 @@
+{
+  "schema_version": 2,
+  "loop": 200,
+  "parent_loop": 75,
+  "parent_source": "https://pure.eur.nl/en/publications/896ee9ef-d3a9-4225-af6d-55e106397826",
+  "selected_item": "https://openalex.org/W2168129067",
+  "selected_title": "Review and Extension on Ambidexterity: A Theoretical Model Integrating Networks and Absorptive Capacity",
+  "discovered_as": "related_works link exposed by loop 75",
+  "question": "How does the evidence in “Review and Extension on Ambidexterity: A Theoretical Model Integrating Networks and Absorptive Capacity” constrain claims about transfer from individual to organizational learning?",
+  "retrieval_url": "https://api.openalex.org/works/W2168129067?mailto=corpus@example.invalid",
+  "canonical_url": "https://doi.org/10.5430/jms.v2n1p2",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:30:23.508187+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "We provided an integrative model linking ambidexterity, absorptive capacity and networks. External networks, measured through centrality and multiplexity, and internal networks through behavioral context, dual structure and top management teams affect an organization’s ambidexterity. In addition, multiplexity positively affects an organization’s realized and potential absorptive capacity, while centrality has an inverse-u relationship with potential and a positive relation with realized absorptive capacity. Also, internal networks through coordination, capabilities and socialization capabilities affect an organization realized and potential absorptive capacity. Realized absorptive capacity positively affects ambidexterity, while potential absorptive capacity moderates the relationship between realized absorptive capacity and ambidexterity. In posing our model, it was assumed that the ope"
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Absorptive capacity, Ambidexterity through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 127 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [
+    "https://openalex.org/W2916257678",
+    "https://openalex.org/W2097658120",
+    "https://openalex.org/W3121291938",
+    "https://openalex.org/W2122295371",
+    "https://openalex.org/W2799674983",
+    "https://openalex.org/W2042122794",
+    "https://openalex.org/W3124616729"
+  ],
+  "corpus_changes": [
+    "sources/arxiv/2011--review-and-extension-on-ambidexterity-a-theoretical-model-integrating-networks-and-absorptive-capaci--avimanyu-datta--w2168129067.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W2168129067"
+}

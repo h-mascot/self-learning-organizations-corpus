@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W2360228312
 publication_year: 2003
 authors: ["Liu Chang-yong"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 46
+recursive_loop: 34
 ---
 
 # On the main factors of knowledge absorptive capacity of enterprise

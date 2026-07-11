@@ -6,7 +6,7 @@ openalex_url: https://openalex.org/W2319564280
 publication_year: 2016
 authors: ["Zhengqun Zhan", "Min Li", "Yan Xie"]
 rights_status: metadata-and-short-evidence-span-only
-recursive_loop: 128
+recursive_loop: 59
 ---
 
 # How Technology Import Improves the Enterprise's Innovation Capacity: The Mediating Role of Absorptive Capacity
