@@ -1,0 +1,45 @@
+{
+  "asr_models": [
+    "whisper-large-v3-turbo"
+  ],
+  "availability": "public",
+  "caption_error": "YouTube captions unavailable; recovered from cached signed audio URL.",
+  "channel": "Ken Titmuss",
+  "duration_seconds": 330,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "101d291b8646ccb44d03891ae695148f68456b5a67da33e3174a755cced3ff8f",
+    "source-info.json": "20b5d82f43ef37fadde84382e1fe6e5f0229966e98e46e5e5dc907a0da427dd8"
+  },
+  "raw_path": "raw/youtube/2025-04-14--interview-with-carol-ptak-about-the-adaptive-enterprise-foundations-program--ken-titmuss--sew1BfVSp5U",
+  "relevance_categories": [
+    "adaptive-enterprise"
+  ],
+  "relevance_evidence": [
+    "adaptive enterprise",
+    "adaptive organization"
+  ],
+  "relevance_spans": [
+    {
+      "category": "adaptive-enterprise",
+      "phrase": "adaptive enterprise",
+      "text": "Today we would like to ask you some questions regarding the Adaptive Enterprise Foundation",
+      "timestamp": "0:20"
+    },
+    {
+      "category": "adaptive-enterprise",
+      "phrase": "adaptive organization",
+      "text": "So what we mean by an adaptive organization is that ability to be able to quickly and dynamically adjust both its structure and the behavior to the changing state around us.",
+      "timestamp": "1:50"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 51,
+  "source_url": "https://www.youtube.com/watch?v=sew1BfVSp5U",
+  "title": "Interview with Carol Ptak about the Adaptive Enterprise Foundations™ Program",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "transcripts/youtube/2025-04-14--interview-with-carol-ptak-about-the-adaptive-enterprise-foundations-program--ken-titmuss--sew1BfVSp5U.md",
+  "transcript_sha256": "497aa6dece69676a3b8fd99c9481d1f18f5520544b81597dfa7498dc7cd198eb",
+  "upload_date": "20250414",
+  "video_id": "sew1BfVSp5U"
+}

@@ -1,0 +1,54 @@
+{
+  "asr_models": [
+    "whisper-large-v3"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: Unable to download video subtitles for 'en-orig': HTTP Error 429: Too Many Requests",
+  "channel": "Toronto Machine Learning Society (TMLS)",
+  "duration_seconds": 306,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "ffb8d884079d517185442fb69565725eebcac3d25639a7e91cf67d3c7cdd0a34",
+    "source-info.json": "172cdde9956d8500b58b6c13a4fa8f510b641a1924b8a25d7d50762ddf32bca3"
+  },
+  "raw_path": "raw/youtube/2025-10-29--beyond-the-vibe-eval-driven-development-robert-shelton-redis-lightning-talks--toronto-machine-learning-society-tmls--HSQscMY6YZI",
+  "relevance_categories": [
+    "feedback-systems",
+    "ai-native-company",
+    "agent-operations"
+  ],
+  "relevance_evidence": [
+    "ai-native",
+    "eval driven",
+    "feedback loop"
+  ],
+  "relevance_spans": [
+    {
+      "category": "feedback-systems",
+      "phrase": "feedback loop",
+      "text": "And then automate your feedback loops.",
+      "timestamp": "2:17"
+    },
+    {
+      "category": "ai-native-company",
+      "phrase": "ai-native",
+      "text": "there's people who are building AI-native apps",
+      "timestamp": "2:20"
+    },
+    {
+      "category": "agent-operations",
+      "phrase": "eval driven",
+      "text": "So today we're going to be talking about eval driven development which is kind of",
+      "timestamp": "0:00"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 76,
+  "source_url": "https://www.youtube.com/watch?v=HSQscMY6YZI",
+  "title": "Beyond the Vibe: Eval-Driven Development | Robert Shelton, Redis | Lightning Talks",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "transcripts/youtube/2025-10-29--beyond-the-vibe-eval-driven-development-robert-shelton-redis-lightning-talks--toronto-machine-learning-society-tmls--HSQscMY6YZI.md",
+  "transcript_sha256": "ed1b978085e70a70ccc330b9558003d13a0b0367b38a1b8f6d03b9aaf26d26ab",
+  "upload_date": "20251029",
+  "video_id": "HSQscMY6YZI"
+}

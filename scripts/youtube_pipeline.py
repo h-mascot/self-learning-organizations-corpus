@@ -29,11 +29,11 @@ CSV_PATH = ROOT / "metadata" / "videos.csv"
 
 TERMS = {
     "organizational-learning": ["organizational learning", "organisational learning", "learning organization", "learning organisation", "learn as an organization", "organisation as a whole can learn"],
-    "continuous-improvement": ["continuous improvement", "kaizen", "improvement loop"],
+    "continuous-improvement": ["continuous improvement", "kaizen", "improvement loop", "experiment their way forward", "pdsa"],
     "feedback-systems": ["feedback loop", "cybernetic", "systems thinking", "viable system"],
     "ai-native-company": ["ai native", "ai-native", "company with ai", "agentic organization"],
     "organizational-memory": ["organizational memory", "organisational memory", "organisation's memory", "corporate memory", "company brain", "second brain", "institutional knowledge", "knowledge management", "company knowledge", "siloed emails"],
-    "adaptive-enterprise": ["adaptive enterprise", "adaptive organization", "self organizing"],
+    "adaptive-enterprise": ["adaptive enterprise", "adaptive organization", "adaptable organization", "adaptable organizations", "self organizing"],
     "agent-operations": ["ai agent", "agents", "agent monitoring", "agent evaluation", "eval driven"],
     "experimentation-flywheel": ["experimentation", "data flywheel", "self optimizing", "decision intelligence"],
     "named-lanes": ["pedro franceschi", "brex", "ramp", "y combinator"],
@@ -109,12 +109,23 @@ def groq_key() -> str | None:
     return None
 
 
-def transcribe_asr(url: str, work: Path, raw_dir: Path) -> tuple[list[dict], list[str]]:
+def transcribe_asr(url: str, work: Path, raw_dir: Path, cached_info: dict | None = None) -> tuple[list[dict], list[str]]:
     key = groq_key()
     if not key:
         raise RuntimeError("ASR fallback unavailable: no GROQ_API_KEY or agent-reach Groq key")
-    audio = work / "audio.mp3"
-    run(["yt-dlp", "-f", "bestaudio", "-x", "--audio-format", "mp3", "--audio-quality", "9", "-o", str(audio), url])
+    audio = work / "audio-source"
+    if cached_info:
+        prefetched = Path("/tmp/youtube-cached-audio") / cached_info["id"]
+        if prefetched.exists():
+            shutil.copy2(prefetched, audio)
+        else:
+            formats = [f for f in cached_info.get("formats", []) if f.get("vcodec") == "none" and f.get("acodec") not in (None, "none") and f.get("url")]
+            if not formats: raise RuntimeError("Cached source metadata has no signed audio format URL")
+            selected = min(formats, key=lambda f: f.get("abr") or 99999)
+            run(["curl", "-fsSL", "--retry", "8", "--retry-all-errors", "--continue-at", "-", "-o", str(audio), selected["url"]])
+    else:
+        audio = work / "audio.mp3"
+        run(["yt-dlp", "-f", "bestaudio", "-x", "--audio-format", "mp3", "--audio-quality", "9", "-o", str(audio), url])
     chunks = work / "chunks"
     chunks.mkdir()
     run(["ffmpeg", "-hide_banner", "-loglevel", "error", "-i", str(audio), "-f", "segment", "-segment_time", "600", "-ac", "1", "-ar", "16000", "-b:a", "32k", str(chunks / "%03d.mp3")])
@@ -124,7 +135,9 @@ def transcribe_asr(url: str, work: Path, raw_dir: Path) -> tuple[list[dict], lis
         models.reverse()
     for idx, chunk in enumerate(sorted(chunks.glob("*.mp3"))):
         raw_json = raw_dir / f"asr-{idx:03d}.json"
-        for attempt in range(6):
+        # ASPH quotas are rolling hourly windows. Keep the already-downloaded
+        # chunk and retry in place rather than redownloading or losing work.
+        for attempt in range(120):
             model = models[attempt % len(models)]
             result = subprocess.run([
                 "curl", "-sS", "-X", "POST", "https://api.groq.com/openai/v1/audio/transcriptions",
@@ -137,9 +150,11 @@ def transcribe_asr(url: str, work: Path, raw_dir: Path) -> tuple[list[dict], lis
                 raw_json.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n")
                 models_used.append(model)
                 break
-            if attempt == 4:
+            if attempt == 119:
                 raise RuntimeError(f"Groq ASR failed: {data.get('error', data)}")
-            time.sleep(min(10, 2 ** attempt))
+            message = str(data.get("error", {}).get("message", ""))
+            retry = re.search(r"try again in ([0-9.]+)s", message, re.I)
+            time.sleep(max(15, float(retry.group(1)) if retry else min(60, 2 ** min(attempt, 6))))
         offset = idx * 600
         output.extend({"start": offset + float(s["start"]), "text": s["text"].strip()} for s in data["segments"] if s.get("text", "").strip())
     return output, sorted(set(models_used))
@@ -237,11 +252,29 @@ def ingest(url: str, prebuilt_asr: Path | None = None) -> Path:
         return write_source(info, segments, method, raw_dir, caption_error, locals().get("asr_models", ["whisper-large-v3-turbo"] if prebuilt_asr else []))
 
 
+def resume_cached(raw_dir: Path) -> Path:
+    info = json.loads((raw_dir / "source-info.json").read_text())
+    with tempfile.TemporaryDirectory(prefix="youtube-resume-") as temp:
+        segments, models = transcribe_asr(info.get("webpage_url") or f"https://www.youtube.com/watch?v={info['id']}", Path(temp), raw_dir, info)
+    return write_source(info, segments, "groq-whisper-asr", raw_dir, "YouTube captions unavailable; recovered from cached signed audio URL.", models)
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("urls", nargs="*")
     parser.add_argument("--prebuilt-asr", type=Path)
+    parser.add_argument("--resume-cached", action="store_true")
+    parser.add_argument("--max-duration", type=int, default=600)
     args = parser.parse_args()
+    if args.resume_cached:
+        existing = {json.loads(p.read_text())["video_id"] for p in META.glob("*.json")}
+        for info_path in sorted(RAW.glob("*/source-info.json")):
+            info = json.loads(info_path.read_text())
+            if info.get("id") in existing or (info.get("duration") or 0) > args.max_duration: continue
+            try: print(resume_cached(info_path.parent))
+            except Exception as exc: print(f"FAILED-CACHED {info.get('id')}: {exc}")
+        rebuild_csv()
+        return
     for url in args.urls:
         try:
             print(ingest(url, args.prebuilt_asr))

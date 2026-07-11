@@ -24,6 +24,9 @@ Build and prove a reproducible corpus of 100 validated, relevant, timestamped Yo
 - Initial `yt-dlp` launcher was broken (`ModuleNotFoundError: yt_dlp`); repaired with isolated `pipx install --force yt-dlp`.
 - YouTube caption CDN returned HTTP 429; pipeline invoked Groq Whisper ASR fallback.
 - Groq enforces 7,200 audio-seconds/hour per Whisper model; pipeline now rotates both available models and uses short-form batches.
+- Cached Googlevideo audio stalled on a plain full-file request (16 KB after several minutes); explicit `Range: bytes=0-` retrieved the same complete 1.9 MB object immediately, so cached resume now uses a bounded ranged download.
+- YouTube escalated to HTTP 429 plus “Sign in to confirm you’re not a bot”; Chrome cookies and the recommended EJS component did not recover page access.
+- Cached signed-media recovery later suffered repeated TLS connection resets; 48 attempted sources remain in the failure ledger.
 
 ## Status
-**Currently in Phase 3** — 43 transcripts pass the transcript-grounded validator; continuing short-form ingestion after API quota recovery.
+**Blocked in Phase 3** — 63 transcripts pass the transcript-grounded validator; YouTube page access is externally blocked after cookie/EJS recovery attempts, and remaining cached media transfers are reset or expired.

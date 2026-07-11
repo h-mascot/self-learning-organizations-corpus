@@ -11,10 +11,11 @@ transcript_method: "groq-whisper-asr"
 asr_models: ["whisper-large-v3"]
 caption_error: "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: Unable to download video subtitles for 'en-orig': HTTP Error 429: Too Many Requests"
 segment_count: 59
-relevance_categories: []
-relevance_evidence: []
+relevance_categories: ["organizational-memory"]
+relevance_evidence: ["corporate memory"]
+relevance_spans: [{"category": "organizational-memory", "timestamp": "0:17", "phrase": "corporate memory", "text": "discuss the course objectives for a corporate memory improvement course and reasons how this"}]
 rights_note: "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed."
-raw_files: {"asr-000.json": "d8119ff4c8bfb2888af81dcb04e175f69823bfbd494f622d8401823b686e0d57", "source-info.json": "65a9323e8e5abbc537927414e9ca13760a729c2e7b73ec9d46f25d4913d67bc3"}
+raw_files: {"asr-000.json": "a53e27a60dac99cb6e9388032f741816e32e80a9e89338ec7f6c5bdaea1424ed", "source-info.json": "8b41947432479ff0960a3c0c2ad86e6596a6f17137b6bbce2364160625bd201b"}
 ---
 
 # Corporate Memory Improvement Course by Umonic

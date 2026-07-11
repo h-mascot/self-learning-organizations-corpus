@@ -1,0 +1,45 @@
+{
+  "asr_models": [
+    "whisper-large-v3-turbo"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: Unable to download video subtitles for 'en-orig': HTTP Error 429: Too Many Requests",
+  "channel": "Marketing Business Network",
+  "duration_seconds": 186,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "ec14057c5f94fba16c565814867e5caa620b46f0cad26dcd322060f6f9e0fd15",
+    "source-info.json": "d996506ebdcbaa931e9e7ad26d5497f59e7111ac12140ad52af24354dc0bccba"
+  },
+  "raw_path": "raw/youtube/2023-01-11--what-is-organizational-memory--marketing-business-network--kkwR45_GtIc",
+  "relevance_categories": [
+    "organizational-memory"
+  ],
+  "relevance_evidence": [
+    "organisational memory",
+    "organizational memory"
+  ],
+  "relevance_spans": [
+    {
+      "category": "organizational-memory",
+      "phrase": "organizational memory",
+      "text": "What is organizational memory?",
+      "timestamp": "0:00"
+    },
+    {
+      "category": "organizational-memory",
+      "phrase": "organisational memory",
+      "text": "are some components of organisational memory.",
+      "timestamp": "1:23"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 31,
+  "source_url": "https://www.youtube.com/watch?v=kkwR45_GtIc",
+  "title": "What is Organizational Memory?",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "transcripts/youtube/2023-01-11--what-is-organizational-memory--marketing-business-network--kkwR45_GtIc.md",
+  "transcript_sha256": "e6af86fcd2f8924cf1153adaaeea45ce805652c68cfd75ea1b8a64d4c6a5b2a7",
+  "upload_date": "20230111",
+  "video_id": "kkwR45_GtIc"
+}
