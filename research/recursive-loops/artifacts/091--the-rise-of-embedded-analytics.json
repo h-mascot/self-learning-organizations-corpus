@@ -1,0 +1,38 @@
+{
+  "schema_version": 2,
+  "loop": 91,
+  "parent_loop": 22,
+  "parent_source": "https://doi.org/10.24032/ijeacs/0206/02",
+  "selected_item": "https://openalex.org/W3068949829",
+  "selected_title": "The Rise of Embedded Analytics",
+  "discovered_as": "related_works link exposed by loop 22",
+  "question": "What mechanism does Mohsen Attaran identify in “The Rise of Embedded Analytics” that deepens the evidence from “Survey on Big Data Analytics”?",
+  "retrieval_url": "https://api.openalex.org/works/W3068949829?mailto=corpus@example.invalid",
+  "canonical_url": "https://doi.org/10.4018/ijbir.2018010102",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:21:41.122450+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "This article describes how in today's hyper-competitive environment, business leaders around the world are using analytics technologies to create business values, and to gain a better understanding of their customer's needs and wants. However, traditional business analytics are undergoing major changes. The Internet revolution, cloud computing, and the evolution to self-service analytics have all contributed to the changing dimensions of business intelligence. To compete effectively in a digitally driven world, business leaders must understand and address the critical shifts taking place in the field of analytics, and how these shifts impact their overall strategy. The key objective of this article is to propose a conceptual model for successful implementation of Embedded Analytics in organizations. This article also covers some of the potential benefits of analytics, explores the changi"
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Business analytics, Analytics through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 195 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [
+    "https://openalex.org/W2782244122",
+    "https://openalex.org/W4285327177",
+    "https://openalex.org/W2512710090",
+    "https://openalex.org/W4297979599",
+    "https://openalex.org/W2004707691",
+    "https://openalex.org/W2418999"
+  ],
+  "corpus_changes": [
+    "sources/arxiv/2018--the-rise-of-embedded-analytics--mohsen-attaran--w3068949829.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W3068949829"
+}

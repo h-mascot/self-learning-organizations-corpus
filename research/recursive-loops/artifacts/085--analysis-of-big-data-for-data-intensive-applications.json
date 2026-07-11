@@ -1,0 +1,31 @@
+{
+  "schema_version": 2,
+  "loop": 85,
+  "parent_loop": 21,
+  "parent_source": "https://openalex.org/W1039292361",
+  "selected_item": "https://openalex.org/W2626412998",
+  "selected_title": "Analysis of big data for data-intensive applications",
+  "discovered_as": "related_works link exposed by loop 21",
+  "question": "How does the evidence in “Analysis of big data for data-intensive applications” constrain claims about transfer from individual to organizational learning?",
+  "retrieval_url": "https://api.openalex.org/works/W2626412998?mailto=corpus@example.invalid",
+  "canonical_url": "https://doi.org/10.1109/icraie.2016.7939551",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:21:37.553568+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "In the recent decade big data has attracted attention from decision and policy makers in enterprises and governments, market analysts, and data scientists. The growth of information in the current decade has exceeded the Moore's law, and the vast amount of data is increasing the pain towards managing and analyzing. However, this high amount of data has a great potential and extremely useful information is hidden in it. Data-intensive scientific discovery helps to identify big data problems. The big data problems are found in various areas and sectors such as economic activities to provide effective public administration, national security, and scientific research. Several progressions in various fields were made possible because of big data and there is no doubt that the future challenges in business enhancements will converge to explore big data. Few difficulties that arise in big data "
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Big data, Data science through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 184 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [],
+  "corpus_changes": [
+    "sources/arxiv/2016--analysis-of-big-data-for-data-intensive-applications--meenu-dave--w2626412998.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W2626412998"
+}

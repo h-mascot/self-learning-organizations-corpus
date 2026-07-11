@@ -1,0 +1,39 @@
+{
+  "schema_version": 2,
+  "loop": 88,
+  "parent_loop": 22,
+  "parent_source": "https://doi.org/10.24032/ijeacs/0206/02",
+  "selected_item": "https://openalex.org/W4367856707",
+  "selected_title": "Leveraging HR Analytics using Business Intelligence and Analytics",
+  "discovered_as": "related_works link exposed by loop 22",
+  "question": "Where does “Leveraging HR Analytics using Business Intelligence and Analytics” support or contradict the causal account advanced by “Survey on Big Data Analytics”?",
+  "retrieval_url": "https://api.openalex.org/works/W4367856707?mailto=corpus@example.invalid",
+  "canonical_url": "https://doi.org/10.48175/ijarsct-9708",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:21:40.233270+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "Organizations are becoming more and more interested in human resources (HR) analytics. Businesses now have new perspectives on their employees thanks to the application of business intelligence (BI) and analytics in HR, which helps them make wiser decisions. The use of BI and analytics tools to leverage HR analytics is covered in this article. We look at how HR analytics may help in identifying talent, lowering employee turnover, and boosting engagement. We also go over the difficulties with HR analytics, including issues with data quality and privacy, and how to overcome them. Lastly, we give examples of companies who successfully applied HR analytics through utilizing BI and analytics tools, along with the effects it had on their business operations. Overall, this paper offers insights into the potential value of HR analytics as a tool for businesses aiming to enhance both their HR ope"
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Business intelligence, Analytics through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 147 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [
+    "https://openalex.org/W2610964225",
+    "https://openalex.org/W2543688022",
+    "https://openalex.org/W2615638395",
+    "https://openalex.org/W2061916519",
+    "https://openalex.org/W2891671198",
+    "https://openalex.org/W2888058966",
+    "https://openalex.org/W2490894467"
+  ],
+  "corpus_changes": [
+    "sources/arxiv/2023--leveraging-hr-analytics-using-business-intelligence-and-analytics--dr-girisha-h--w4367856707.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W4367856707"
+}

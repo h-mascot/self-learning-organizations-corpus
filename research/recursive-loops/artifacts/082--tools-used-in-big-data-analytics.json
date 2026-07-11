@@ -1,0 +1,37 @@
+{
+  "schema_version": 2,
+  "loop": 82,
+  "parent_loop": 19,
+  "parent_source": "https://doi.org/10.1109/compsac.2018.00066",
+  "selected_item": "https://openalex.org/W3184179822",
+  "selected_title": "Tools Used in Big Data Analytics",
+  "discovered_as": "related_works link exposed by loop 19",
+  "question": "Which measurable boundary in “Tools Used in Big Data Analytics” changes how Big data should be evaluated after “Deciphering Big Data Research Themes”?",
+  "retrieval_url": "https://api.openalex.org/works/W3184179822?mailto=corpus@example.invalid",
+  "canonical_url": "http://ijfrcsce.org/index.php/ijfrcsce/article/view/1296",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:21:26.568350+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "Big data is the current state of the art topic creating its unique place in the research and industry minds to look into depth of topic to get valuable results needed to meet the future data mining and analysis needs. Big data refers to enormous amounts of unstructured data created as a result of high performance applications ranging from scientific to social networks, from e-government to medical information system and so on. So, there also prevails the need of to analyze the data to get valuable data results from it. This paper deals with analytic emphasis on big data and what are the different tools used for big data analysis In this paper, different sections through an overlook on different aspects on big data such as big data analysis, big data storage techniques and tools used for big data analysis."
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Big data, Data science through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 140 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [
+    "https://openalex.org/W2560490618",
+    "https://openalex.org/W2979734795",
+    "https://openalex.org/W2589424763",
+    "https://openalex.org/W2743677945",
+    "https://openalex.org/W3196869255"
+  ],
+  "corpus_changes": [
+    "sources/arxiv/2018--tools-used-in-big-data-analytics--hardeep-singh--w3184179822.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W3184179822"
+}

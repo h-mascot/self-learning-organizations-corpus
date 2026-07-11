@@ -1,0 +1,38 @@
+{
+  "schema_version": 2,
+  "loop": 87,
+  "parent_loop": 21,
+  "parent_source": "https://openalex.org/W1039292361",
+  "selected_item": "https://openalex.org/W3005169028",
+  "selected_title": "Evolution to Big Data Analytics Techniques and Challenging Issues in Data Mining With Big Data",
+  "discovered_as": "related_works link exposed by loop 21",
+  "question": "Which measurable boundary in “Evolution to Big Data Analytics Techniques and Challenging Issues in Data Mining With Big Data” changes how Big data should be evaluated after “Sketch of Big Data Real-Time Analytics Model”?",
+  "retrieval_url": "https://api.openalex.org/works/W3005169028?mailto=corpus@example.invalid",
+  "canonical_url": "http://ijitr.com/index.php/ojs/article/view/2545",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:21:38.942680+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "Big Data is another term used to recognize the datasets that because of their enormous size and multifaceted nature. Big Data are currently quickly growing in all science and engineering domains, including physical, natural and biomedical sciences. Big Data mining is the capacity of separating helpful information from these huge datasets or floods of data, that because of its volume, changeability, and velocity, it was impractical before to do it. The Big Data challenge is getting one of the most energizing open doors for the following years. In the present time of digitization, we take a shot at the variety of data. Colossal measure of data will be prepared by Google, Microsoft and Amazon. Regular routine these organization prepared huge measure of data. In such way we have to require some approach to adjust the innovation in with the end goal that every one of the data will be prepared"
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Big data, Data science through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 302 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [
+    "https://openalex.org/W2518836938",
+    "https://openalex.org/W2548567768",
+    "https://openalex.org/W2187273046",
+    "https://openalex.org/W2592038014",
+    "https://openalex.org/W3003669106",
+    "https://openalex.org/W3142176593"
+  ],
+  "corpus_changes": [
+    "sources/arxiv/2020--evolution-to-big-data-analytics-techniques-and-challenging-issues-in-data-mining-with-big-data--g-vijaya-kumari--w3005169028.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W3005169028"
+}
