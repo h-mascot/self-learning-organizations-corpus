@@ -1,0 +1,36 @@
+{
+  "schema_version": 2,
+  "loop": 140,
+  "parent_loop": 39,
+  "parent_source": "http://en.cnki.com.cn/Article_en/CJFDTOTAL-JCJJ200902002.htm",
+  "selected_item": "https://openalex.org/W2139737633",
+  "selected_title": "Developing a Firm's Absorptive Capacity with Strategic Orientation",
+  "discovered_as": "related_works link exposed by loop 39",
+  "question": "How does the evidence in “Developing a Firm's Absorptive Capacity with Strategic Orientation” constrain claims about transfer from individual to organizational learning?",
+  "retrieval_url": "https://api.openalex.org/works/W2139737633?mailto=corpus@example.invalid",
+  "canonical_url": "http://aisel.aisnet.org/amcis2003/343",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:22:13.049094+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "Absorptive capacity confers an ability to recognize the value of new information, assimilate it and apply it to commercial ends.It is well believed that the stronger absorptive capacity means the greater competitive advantage.However, this perception of firms' knowledge transferring seems to misunderstand real learning due to three characteristics of absorptive capacity: path dependence, relativity, and expensive cost.In contrast, this paper shows that, given that absorptive capacity is highly path dependence, relative, and expensive to develop and maintain, it is necessary for firms to manage this scarce resource under their long-term strategy orientation aiming at continuing competence.From this perspective, three characteristics of absorptive capacity are analyzed in depth.Then, on the basis of a literature review of strategic orientation, the interaction between strategic orientation"
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Absorptive capacity, Competitive advantage through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 241 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [
+    "https://openalex.org/W3006286288",
+    "https://openalex.org/W2387197579",
+    "https://openalex.org/W83397471",
+    "https://openalex.org/W1992325436"
+  ],
+  "corpus_changes": [
+    "sources/arxiv/2003--developing-a-firm-s-absorptive-capacity-with-strategic-orientation--weijun-zheng--w2139737633.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W2139737633"
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "loop": 135,
+  "parent_loop": 35,
+  "parent_source": "https://doi.org/10.1109/icmse.2006.314077",
+  "selected_item": "https://openalex.org/W2364541708",
+  "selected_title": "The Empirical Studies of Mar-Effect & Jac-Effect of Knowledge Spillover in HighTech Industrial Clusters in China",
+  "discovered_as": "related_works link exposed by loop 35",
+  "question": "How does the evidence in “The Empirical Studies of Mar-Effect & Jac-Effect of Knowledge Spillover in HighTech Industrial Clusters in China” constrain claims about transfer from individual to organizational learning?",
+  "retrieval_url": "https://api.openalex.org/works/W2364541708?mailto=corpus@example.invalid",
+  "canonical_url": "http://en.cnki.com.cn/Article_en/CJFDTOTAL-KXXG201308011.htm",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:22:03.062974+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "This paper selected 54 high-tech industrial development zones in China as the research sample.Firstly,the Mar-effect and Jac-effect of knowledge spillover were measured in high-tech industry clusters in China.The results show that the Mar-effect was greater than Jac-effect in coastal developed region clusters,and it was opposite in the western underdeveloped regions.Secondly,by constructing the knowledge spillover radius model,and setting up space weight matrix,the knowledge spatial spillover effect of the high-tech industry clusters is discussed.The results revealed that: the Mar-spillover and the Jac-spillover can well reflect respectively,the knowledge spatial spillover effect within the high-tech industry cluster and among the high-tech industry clusters.When the spillover effects of the knowledge with Mar-effect,Jac-effect by extracting,the economics development variables of high-te"
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Spillover effect, Knowledge spillover through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 177 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [
+    "https://openalex.org/W2388038657",
+    "https://openalex.org/W2883057916",
+    "https://openalex.org/W3007685859",
+    "https://openalex.org/W2158311350",
+    "https://openalex.org/W2364903931",
+    "https://openalex.org/W2357669019",
+    "https://openalex.org/W2369665267",
+    "https://openalex.org/W1584713868"
+  ],
+  "corpus_changes": [
+    "sources/arxiv/2013--the-empirical-studies-of-mar-effect-jac-effect-of-knowledge-spillover-in-hightech-industrial-cluster--liu-manfeng--w2364541708.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W2364541708"
+}
