@@ -1,0 +1,39 @@
+{
+  "schema_version": 2,
+  "loop": 21,
+  "parent_loop": 4,
+  "parent_source": "https://doi.org/10.1145/3442188.3445922",
+  "selected_item": "https://openalex.org/W1039292361",
+  "selected_title": "Sketch of Big Data Real-Time Analytics Model",
+  "discovered_as": "related_works link exposed by loop 4",
+  "question": "What mechanism does Bakhtiar Amen identify in “Sketch of Big Data Real-Time Analytics Model” that deepens the evidence from “On the Dangers of Stochastic Parrots”?",
+  "retrieval_url": "https://api.openalex.org/works/W1039292361?mailto=corpus@example.invalid",
+  "canonical_url": "https://openalex.org/W1039292361",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:20:28.959175+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "Big Data has drawn huge attention from researchers in information sciences, decision makers in governments and enterprises. However, there is a lot of potential and highly useful value hidden in the huge volume of data. Data is the new oil, but unlike oil data can be refined further to create even more value. Therefore, a new scientific paradigm is born as data-intensive scientific discovery, also known as Big Data. The growth volume of real-time data requires new techniques and technologies to discover insight value. In this paper we introduce the Big Data real-time analytics model as a new technique. We discuss and compare several Big Data technologies for real-time processing along with various challenges and issues in adapting Big Data. Real-time Big Data analysis based on cloud computing approach is our future research direction."
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Big data, Data science through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 134 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [
+    "https://openalex.org/W2626412998",
+    "https://openalex.org/W2261525379",
+    "https://openalex.org/W2891293693",
+    "https://openalex.org/W2775619118",
+    "https://openalex.org/W2895501059",
+    "https://openalex.org/W3005169028",
+    "https://openalex.org/W809159567"
+  ],
+  "corpus_changes": [
+    "sources/arxiv/2015--sketch-of-big-data-real-time-analytics-model--bakhtiar-amen--w1039292361.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W1039292361"
+}

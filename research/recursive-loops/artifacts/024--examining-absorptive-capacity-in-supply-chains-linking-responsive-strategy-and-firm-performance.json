@@ -1,0 +1,33 @@
+{
+  "schema_version": 2,
+  "loop": 24,
+  "parent_loop": 6,
+  "parent_source": "https://doi.org/10.5465/ambpp.2018.15817abstract",
+  "selected_item": "https://openalex.org/W1832704641",
+  "selected_title": "Examining Absorptive Capacity in Supply Chains: Linking Responsive Strategy and Firm Performance",
+  "discovered_as": "related_works link exposed by loop 6",
+  "question": "What operational artifact in “Examining Absorptive Capacity in Supply Chains: Linking Responsive Strategy and Firm Performance” could make the Absorptive capacity feedback loop auditable?",
+  "retrieval_url": "https://api.openalex.org/works/W1832704641?mailto=corpus@example.invalid",
+  "canonical_url": "https://doi.org/10.1111/jscm.12085",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:20:39.206791+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "Information management is a core supply chain activity that is increasing in importance as firms strive to become more responsive to growing customer demand for innovative products. However, effective processing of information from customers and suppliers remains a struggle for most firms. Absorptive capacity provides a useful view of information processing activities, but the current understanding of how firms use it to improve performance and why some firms seem to develop it while others do not remains unclear. This study is grounded in information processing theory, and examines the role of absorptive capacity in linking a firm's responsive strategy and performance. We test a structural equation model on data from 711 manufacturing firms, and validate our results on a second sample of 677 firms. Our study makes three major contributions by providing evidence that: (1) absorptive capa"
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Absorptive capacity, Business through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 205 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [
+    "https://openalex.org/W3046524639"
+  ],
+  "corpus_changes": [
+    "sources/arxiv/2015--examining-absorptive-capacity-in-supply-chains-linking-responsive-strategy-and-firm-performance--david-d-dobrzykowski--w1832704641.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W1832704641"
+}

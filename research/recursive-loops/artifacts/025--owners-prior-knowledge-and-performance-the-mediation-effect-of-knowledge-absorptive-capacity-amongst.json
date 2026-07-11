@@ -1,0 +1,33 @@
+{
+  "schema_version": 2,
+  "loop": 25,
+  "parent_loop": 6,
+  "parent_source": "https://doi.org/10.5465/ambpp.2018.15817abstract",
+  "selected_item": "https://openalex.org/W1973189905",
+  "selected_title": "Owners' prior knowledge and performance: The mediation effect of knowledge absorptive capacity amongst SMEs",
+  "discovered_as": "related_works link exposed by loop 6",
+  "question": "How does the evidence in “Owners' prior knowledge and performance: The mediation effect of knowledge absorptive capacity amongst SMEs” constrain claims about transfer from individual to organizational learning?",
+  "retrieval_url": "https://api.openalex.org/works/W1973189905?mailto=corpus@example.invalid",
+  "canonical_url": "https://doi.org/10.1109/itmc.2012.6306355",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:20:39.488026+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "This research empirically examines the importance of SMEs having absorptive capacity in order to achieve superior operational performance. Though SMEs are facing with lots of challenges in globalized environment, they have great potential to promote domestic-led growth in the existing industries. Knowledge-based views (KBV) believe that firm's success is not measured on how firm overcome its scarcity problem but on how firm use its ability to learn and use learning more efficiently than others. This paper focuses on knowledge absorptive capacity and its mediating role between owners' prior knowledge and operational performance in small medium enterprises. Using data from 170 manufacturing SMEs in Malaysia, research was conducted through self-administered interview with owner or manager of SMEs. The results showed positive and significant relationship between owners' prior knowledge and o"
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Absorptive capacity, Business through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 165 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [
+    "https://openalex.org/W2124969087"
+  ],
+  "corpus_changes": [
+    "sources/arxiv/2012--owners-prior-knowledge-and-performance-the-mediation-effect-of-knowledge-absorptive-capacity-amongst--zarina-denan--w1973189905.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W1973189905"
+}
