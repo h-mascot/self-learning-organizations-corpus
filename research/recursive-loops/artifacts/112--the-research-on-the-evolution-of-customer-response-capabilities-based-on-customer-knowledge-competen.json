@@ -1,0 +1,37 @@
+{
+  "schema_version": 2,
+  "loop": 112,
+  "parent_loop": 28,
+  "parent_source": "https://doi.org/10.1504/ijtm.2011.042981",
+  "selected_item": "https://openalex.org/W2389271398",
+  "selected_title": "The Research on the Evolution of Customer Response Capabilities Based on Customer Knowledge Competence",
+  "discovered_as": "related_works link exposed by loop 28",
+  "question": "Which measurable boundary in “The Research on the Evolution of Customer Response Capabilities Based on Customer Knowledge Competence” changes how Business should be evaluated after “Generating innovation opportunities: how to explore and absorb customer knowledge”?",
+  "retrieval_url": "https://api.openalex.org/works/W2389271398?mailto=corpus@example.invalid",
+  "canonical_url": "http://en.cnki.com.cn/Article_en/CJFDTotal-BUSI200807029.htm",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:21:55.717644+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "In the complex and dynamic environment,satisfying customer needs through effective and quick response is critical for sustained success.Customer knowledge influences customer response capabilities.By integrating the views of content centered and process centered about knowledge management,the paper studies the promotion mechanism of customer knowledge competence to customer response capabilities evolution."
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Business, Customer advocacy through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 49 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [
+    "https://openalex.org/W3168508217",
+    "https://openalex.org/W2902427633",
+    "https://openalex.org/W3096271265",
+    "https://openalex.org/W2964991289",
+    "https://openalex.org/W1481238695"
+  ],
+  "corpus_changes": [
+    "sources/arxiv/2008--the-research-on-the-evolution-of-customer-response-capabilities-based-on-customer-knowledge-competen--dong-ling-ning--w2389271398.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W2389271398"
+}

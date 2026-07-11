@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "loop": 117,
+  "parent_loop": 29,
+  "parent_source": "https://doi.org/10.1386/tmsd.16.3.209_1",
+  "selected_item": "https://openalex.org/W2247065183",
+  "selected_title": "Ruger Responds - 'Health Capability: Conceptualization and Operationalization'",
+  "discovered_as": "related_works link exposed by loop 29",
+  "question": "Which measurable boundary in “Ruger Responds - 'Health Capability: Conceptualization and Operationalization'” changes how Conceptualization should be evaluated after “Individual and collective absorptive capacities of new external knowledge: The case of Tunisian small and medium-sized enterprises (SMEs)”?",
+  "retrieval_url": "https://api.openalex.org/works/W2247065183?mailto=corpus@example.invalid",
+  "canonical_url": "https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID2510872_code670462.pdf?abstractid=2510872&mirid=1",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:21:57.781918+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "Capability: Conceptualization and Operationalization received numerous comments. In this response I clarify some misconceptions regarding health capability and the health capability paradigm developed in and Social Justice (Ruger 2009). Health capability rests on both health functioning and health agency and focuses on life-long abilities and the situations and conditions that enable optimal health."
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Conceptualization, Operationalization through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 53 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [
+    "https://openalex.org/W2982681048",
+    "https://openalex.org/W2051031546",
+    "https://openalex.org/W2012634482",
+    "https://openalex.org/W2905147953",
+    "https://openalex.org/W2911617335",
+    "https://openalex.org/W3196014574",
+    "https://openalex.org/W2415349246",
+    "https://openalex.org/W3122383249"
+  ],
+  "corpus_changes": [
+    "sources/arxiv/2010--ruger-responds-health-capability-conceptualization-and-operationalization--jennifer-prah-ruger--w2247065183.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W2247065183"
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "loop": 114,
+  "parent_loop": 28,
+  "parent_source": "https://doi.org/10.1504/ijtm.2011.042981",
+  "selected_item": "https://openalex.org/W2018072225",
+  "selected_title": "Synergistic effects of operant knowledge resources",
+  "discovered_as": "related_works link exposed by loop 28",
+  "question": "What operational artifact in “Synergistic effects of operant knowledge resources” could make the Competitor analysis feedback loop auditable?",
+  "retrieval_url": "https://api.openalex.org/works/W2018072225?mailto=corpus@example.invalid",
+  "canonical_url": "https://doi.org/10.1108/08876041011060693",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:21:56.219391+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "Purpose Building on the service-centered dominant logic, this paper aims to investigate the effects of firm knowledge (knowledge of customers, industry, and practices) and synergistic combinations of different types of employee knowledge as a foundation for competitive advantage in retail and service organizations. Specifically, it seeks to theorize that the firm's operant knowledge resources combine to develop the service-based value proposition of enhanced ability to meet customer needs that results in greater performance. Design/methodology/approach A survey methodology was used to test the hypotheses using a sample of 293 retail and service providers. Findings Employees' knowledge of its customers and competitors allow the firm to enhance its ability to meet customer needs, whereas knowledge of firm practices, in isolation, does not enhance a firm's ability to meet customer needs. Wh"
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Competitor analysis, Business through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 295 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [
+    "https://openalex.org/W4243692361",
+    "https://openalex.org/W4230885242",
+    "https://openalex.org/W2025030878",
+    "https://openalex.org/W2026140270",
+    "https://openalex.org/W1952543176",
+    "https://openalex.org/W2351266377",
+    "https://openalex.org/W121121963",
+    "https://openalex.org/W2092972183"
+  ],
+  "corpus_changes": [
+    "sources/arxiv/2010--synergistic-effects-of-operant-knowledge-resources--joanna-phillips-melancon--w2018072225.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W2018072225"
+}
