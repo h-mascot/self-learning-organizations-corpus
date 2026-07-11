@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "loop": 70,
+  "parent_loop": 17,
+  "parent_source": "http://en.cnki.com.cn/Article_en/CJFDTOTAL-FZFZ200703012.htm",
+  "selected_item": "https://openalex.org/W2144143832",
+  "selected_title": "Coordinating Changes in M-form and U-form Organizations",
+  "discovered_as": "related_works link exposed by loop 17",
+  "question": "How does the evidence in “Coordinating Changes in M-form and U-form Organizations” constrain claims about transfer from individual to organizational learning?",
+  "retrieval_url": "https://api.openalex.org/works/W2144143832?mailto=corpus@example.invalid",
+  "canonical_url": "https://hdl.handle.net/2027.42/39668",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:21:13.808782+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "We introduce a method of modelling coordination inside an organization as a process of &quot;attribute matching.&quot; Using this method, we compare organizational forms (U-form and M-form) in coordinating changes. In our model, organizational forms affect the information structure of an organization and thus the way to coordinate changes. Compared to the U-form, the M-form organization achieves better coordination but suffers from higher costs due to a lack of scale economies or a lack of what we call &amp;quot;attribute compatibility. &amp;quot; The M-form has a distinctive advantage in carrying out experimentation which gives the organization more flexibility leading to more innovation and reform. We apply our theory to business firms, transition economies, and the organization of government (especially federalism). In the case of transition economies, our theory relates the initial c"
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Business through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 149 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [
+    "https://openalex.org/W2765153054",
+    "https://openalex.org/W2931838652",
+    "https://openalex.org/W2596173151",
+    "https://openalex.org/W2051331738",
+    "https://openalex.org/W3080576469",
+    "https://openalex.org/W4231340554",
+    "https://openalex.org/W1491839574",
+    "https://openalex.org/W2624733068"
+  ],
+  "corpus_changes": [
+    "sources/arxiv/1999--coordinating-changes-in-m-form-and-u-form-organizations--yingyi-qian--w2144143832.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W2144143832"
+}

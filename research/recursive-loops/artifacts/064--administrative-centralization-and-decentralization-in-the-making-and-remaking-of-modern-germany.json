@@ -1,0 +1,34 @@
+{
+  "schema_version": 2,
+  "loop": 64,
+  "parent_loop": 15,
+  "parent_source": "https://doi.org/10.32837/chern.v0i2.340",
+  "selected_item": "https://openalex.org/W2021290756",
+  "selected_title": "Administrative Centralization and Decentralization in the Making and Remaking of Modern Germany",
+  "discovered_as": "related_works link exposed by loop 15",
+  "question": "What operational artifact in “Administrative Centralization and Decentralization in the Making and Remaking of Modern Germany” could make the Decentralization feedback loop auditable?",
+  "retrieval_url": "https://api.openalex.org/works/W2021290756?mailto=corpus@example.invalid",
+  "canonical_url": "https://doi.org/10.1017/s0034670500047914",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:21:11.810646+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "Centralization and decentralization have been applied in Germany not only to geographical relationships between levels of government and to hierarchical relationships within levels of government but also to hierarchical relationships between levels of government. American-style dual federalism is not a part of the German administrative tradition. Subnational units in Germany have traditionally been responsible for implementing the laws of larger units. With the creation of a German federal state in 1871, the Prussian system became in large part the German system of administration. Today there are five levels of administration in the Federal Republic, and strong parallels can be drawn to the earlier Prussian traditions. In spite of the institutional arrangements for decentralized administration and local self-government, there are complaints about the alleged lack of opportunities for pop"
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Decentralization, Parallels through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 156 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [
+    "https://openalex.org/W2090493921",
+    "https://openalex.org/W602873407"
+  ],
+  "corpus_changes": [
+    "sources/arxiv/1984--administrative-centralization-and-decentralization-in-the-making-and-remaking-of-modern-germany--arthur-b-gunlicks--w2021290756.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W2021290756"
+}

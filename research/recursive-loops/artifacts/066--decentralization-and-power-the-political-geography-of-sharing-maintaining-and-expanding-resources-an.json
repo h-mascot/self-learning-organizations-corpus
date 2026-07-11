@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "loop": 66,
+  "parent_loop": 16,
+  "parent_source": "https://doi.org/10.1080/13597560701691821",
+  "selected_item": "https://openalex.org/W1598088591",
+  "selected_title": "Decentralization and Power: The Political Geography of Sharing, Maintaining, and Expanding Resources and Coercion",
+  "discovered_as": "related_works link exposed by loop 16",
+  "question": "What mechanism does Meghan Mcconaughey identify in “Decentralization and Power: The Political Geography of Sharing, Maintaining, and Expanding Resources and Coercion” that deepens the evidence from “Relations Between Central and Local Government in Sweden During the 1990s: Mixed Patterns of Centralization and Decentralization”?",
+  "retrieval_url": "https://api.openalex.org/works/W1598088591?mailto=corpus@example.invalid",
+  "canonical_url": "https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID2300587_code2096801.pdf?abstractid=2300587&mirid=1",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:21:12.732008+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "Why do central governments decentralize power to subnational units? Given that decentralization necessarily involves a reduction in relative power in favor of state or provincial governments, why would central governments allow this change? This paper posits that decentralization, if it increases the efficiency of governance or the center's ability to govern, can actually increase overall central control despite reducing relative control. I first present a simple model illustrating the logic of this theory, where the central government balances its ability to govern with the agency costs that decentralization involves. I then use cross-national time-series regressions to demonstrate that factors explaining levels of decentralization are the same factors that we should expect if central governments were making decisions in accordance with the theory presented here."
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Decentralization, Central government through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 124 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [
+    "https://openalex.org/W2742583684",
+    "https://openalex.org/W3116904258",
+    "https://openalex.org/W3121649117",
+    "https://openalex.org/W2996351628",
+    "https://openalex.org/W3122151374",
+    "https://openalex.org/W3123858976",
+    "https://openalex.org/W2511954631",
+    "https://openalex.org/W3121630304"
+  ],
+  "corpus_changes": [
+    "sources/arxiv/2013--decentralization-and-power-the-political-geography-of-sharing-maintaining-and-expanding-resources-an--meghan-mcconaughey--w1598088591.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W1598088591"
+}
