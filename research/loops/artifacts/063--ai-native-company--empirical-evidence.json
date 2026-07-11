@@ -1,0 +1,54 @@
+{
+  "loop": 63,
+  "topic": "AI native company",
+  "facet": "empirical evidence",
+  "query": "\"AI native company\" empirical evidence",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22AI+native+company%22+empirical+evidence&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:52.911385+00:00",
+  "completed_at": "2026-07-11T14:08:53.549345+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.36227/techrxiv.175203764.42125626/v1",
+      "title": [
+        "Empirical Evidence of Consciousness in Frontier AI Systems"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            9
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.36227/techrxiv.175203764.42125626/v1",
+      "type": "posted-content"
+    },
+    {
+      "DOI": "10.2139/ssrn.5331919",
+      "title": [
+        "Empirical Evidence of Consciousness in Frontier AI Systems"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.2139/ssrn.5331919",
+      "type": "posted-content"
+    },
+    {
+      "DOI": "10.14711/thesis-991013202258503412",
+      "title": [
+        "Is Financial news reliable? : empirical evidence in the age of AI"
+      ],
+      "URL": "https://doi.org/10.14711/thesis-991013202258503412",
+      "type": "dissertation"
+    }
+  ]
+}

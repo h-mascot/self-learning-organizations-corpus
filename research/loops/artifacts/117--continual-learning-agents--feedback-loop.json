@@ -1,0 +1,52 @@
+{
+  "loop": 117,
+  "topic": "continual learning agents",
+  "facet": "feedback loop",
+  "query": "\"continual learning agents\" feedback loop",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22continual+learning+agents%22+feedback+loop&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:57.067286+00:00",
+  "completed_at": "2026-07-11T14:08:57.597679+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.5821/dissertation-2117-445821",
+      "title": [
+        "Human-on-the-loop continual learning: data, knowledge and agents for model adaptation"
+      ],
+      "URL": "https://doi.org/10.5821/dissertation-2117-445821",
+      "type": "dissertation"
+    },
+    {
+      "DOI": "10.5220/0011660300003393",
+      "title": [
+        "Continual Optimization of In-Production Machine Learning Systems Through Semantic Analysis of User Feedback"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2023
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.5220/0011660300003393",
+      "type": "proceedings-article"
+    },
+    {
+      "DOI": "10.5220/0007687103670373",
+      "title": [
+        "Continual Representation Learning for Images with Variational Continual Auto-Encoder"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.5220/0007687103670373",
+      "type": "proceedings-article"
+    }
+  ]
+}

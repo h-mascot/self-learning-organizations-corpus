@@ -1,0 +1,61 @@
+{
+  "loop": 142,
+  "topic": "agent monitoring repair",
+  "facet": "case study",
+  "query": "\"agent monitoring repair\" case study",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22agent+monitoring+repair%22+case+study&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:58.751921+00:00",
+  "completed_at": "2026-07-11T14:08:59.654007+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.1109/norchip.2010.5669428",
+      "title": [
+        "Hierarchical power monitoring on NoC - a case study for hierarchical agent monitoring design approach"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2010,
+            11
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1109/norchip.2010.5669428",
+      "type": "proceedings-article"
+    },
+    {
+      "DOI": "10.1016/j.displa.2021.102041",
+      "title": [
+        "Multi-agent system for tunnel-settlement monitoring: A case study in Shanghai"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            9
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1016/j.displa.2021.102041",
+      "type": "journal-article"
+    },
+    {
+      "DOI": "10.1007/978-3-642-03668-2_29",
+      "title": [
+        "Contract Monitoring in Agent-Based Systems: Case Study"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2009
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1007/978-3-642-03668-2_29",
+      "type": "book-chapter"
+    }
+  ]
+}

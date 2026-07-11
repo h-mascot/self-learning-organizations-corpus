@@ -1,0 +1,62 @@
+{
+  "loop": 24,
+  "topic": "continuous improvement",
+  "facet": "governance",
+  "query": "\"continuous improvement\" governance",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22continuous+improvement%22+governance&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:49.877135+00:00",
+  "completed_at": "2026-07-11T14:08:51.403494+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "HTTPError: HTTP Error 429: Too Many Requests",
+  "works": [
+    {
+      "DOI": "10.1201/9781315116921-6",
+      "title": [
+        "Project Governance"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2017,
+            7,
+            12
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1201/9781315116921-6",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.1002/pfi.20105",
+      "title": [
+        "Human governance: A neglected mantra for continuous performance improvement"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2009,
+            10
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1002/pfi.20105",
+      "type": "journal-article"
+    },
+    {
+      "DOI": "10.1211/pj.2024.1.313535",
+      "title": [
+        "Advancing equitable governance: a commitment to transparency and continuous improvement"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2024
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1211/pj.2024.1.313535",
+      "type": "journal-article"
+    }
+  ]
+}

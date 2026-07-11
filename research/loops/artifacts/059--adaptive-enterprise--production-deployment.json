@@ -1,0 +1,63 @@
+{
+  "loop": 59,
+  "topic": "adaptive enterprise",
+  "facet": "production deployment",
+  "query": "\"adaptive enterprise\" production deployment",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22adaptive+enterprise%22+production+deployment&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:52.823443+00:00",
+  "completed_at": "2026-07-11T14:08:53.366007+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.1007/979-8-8688-1808-0_15",
+      "title": [
+        "Production Deployment and Scaling Strategies"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1007/979-8-8688-1808-0_15",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.1111/j.1937-5956.2006.tb00004.x",
+      "title": [
+        "An Empirical Study of Operational Performance Parity Following Enterprise System Deployment"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2006,
+            1,
+            3
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1111/j.1937-5956.2006.tb00004.x",
+      "type": "journal-article"
+    },
+    {
+      "DOI": "10.1109/aiiot68874.2026.11569604",
+      "title": [
+        "PARA: A Production Agentic Readiness Assessment Framework for Closing the Enterprise AI Deployment Gap"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            20
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1109/aiiot68874.2026.11569604",
+      "type": "proceedings-article"
+    }
+  ]
+}

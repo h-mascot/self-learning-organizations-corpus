@@ -1,29 +1,23 @@
-# Task Plan: Engineering/QA Corpus Lane
+# Goal 1 Active Plan
 
-## Goal
-Deliver a committed, migration-safe corpus platform with canonical structure/schema, validation, generated documentation/statistics, CI, and regression coverage while preserving all current evidence.
+## Completed
+- [x] Durable goal contract committed.
+- [x] Canonical corpus schema, title-based naming, migrations, validators, tests, generated statistics, README, and CI created.
+- [x] Legacy YouTube records migrated; OpenTable advertisement quarantined.
+- [x] Initial OpenAI/GPT deep-research report completed and preserved.
+- [x] Perplexity availability diagnosed with exact blocker proof.
+- [x] Crossref discovery matrix completed: 200 successful evidence-bearing searches.
+- [x] Initial company index and GitHub competitor benchmark created.
 
-## Phases
-- [x] Phase 1: Inventory repository, data, and existing tooling before migration
-- [x] Phase 2: Define canonical contracts and migration design
-- [x] Phase 3: Implement tooling, safe migration, generated artifacts, and CI
-- [x] Phase 4: Add and run regression tests; audit repository data
-- [x] Phase 5: Checkpoint engineering progress, review diff, and commit
+## Active
+- [ ] Reach 100 validated, complete YouTube transcripts.
+- [ ] Ingest missing seed `I9c8STV7Hnw` and validate it under canonical schema.
+- [ ] Convert research discovery results into categorized canonical source records.
+- [ ] Complete true recursive research loops where each loop selects and deepens an item from earlier evidence; predetermined query matrices do not qualify.
+- [ ] Complete Pedro/Brex and Ramp evidence collections.
+- [ ] Add arXiv, X, Reddit, Substack, blogs, podcasts, conferences, books, and case-study records.
+- [ ] Rerun competitive benchmark against final corpus.
+- [ ] Merge remaining worker branches, run full audit, push, and verify live GitHub/CI.
 
-## Key Questions
-1. What formats, paths, and metadata are already present and must remain compatible?
-2. Which files can be migrated automatically without losing evidence or breaking links?
-3. How should counted versus rejected sources be represented and verified?
-4. What remaining data incompatibilities prevent a fully clean audit?
-
-## Decisions Made
-- Preserve raw source content and use a manifest for every path migration.
-- Treat generated statistics and README sections as reproducible outputs of the validator.
-- Use `sources/<platform>/<accepted|rejected>/` so exclusions remain preserved and auditable.
-- Hash the exact Markdown body; migration manifests additionally hash each complete legacy file.
-
-## Errors Encountered
-- Generated CSVs initially used Python's platform-default CRLF terminator, which `git diff --check` reported as trailing whitespace; generators now explicitly use deterministic LF and artifacts were regenerated.
-
-## Status
-**Complete** - Preservation hashes, tests, corpus audit, generated-file reproducibility, and staged diff checks pass; committing the coherent engineering lane.
+## Completion rule
+Do not mark Goal 1 achieved until every GOAL.md criterion has independent proof. Worker checkboxes and prose are not proof.

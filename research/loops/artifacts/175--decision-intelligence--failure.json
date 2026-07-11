@@ -1,0 +1,62 @@
+{
+  "loop": 175,
+  "topic": "decision intelligence",
+  "facet": "failure",
+  "query": "\"decision intelligence\" failure",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22decision+intelligence%22+failure&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:09:01.752872+00:00",
+  "completed_at": "2026-07-11T14:09:11.094334+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.2139/ssrn.6174138",
+      "title": [
+        "Governing Adaptive Clinical Artificial Intelligence: Structural Failure Modes, Auditability, and Infrastructure for Decision Safety"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.2139/ssrn.6174138",
+      "type": "posted-content"
+    },
+    {
+      "DOI": "10.1201/9781315576138-35",
+      "title": [
+        "Intelligence, Uncertainty, Interpretations and Prediction Failure"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2017,
+            9,
+            18
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1201/9781315576138-35",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.1109/csci49370.2019.00050",
+      "title": [
+        "AI Decision Support Prognostics for IoT Asset Health Monitoring, Failure Prediction, Time to Failure"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2019,
+            12
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1109/csci49370.2019.00050",
+      "type": "proceedings-article"
+    }
+  ]
+}

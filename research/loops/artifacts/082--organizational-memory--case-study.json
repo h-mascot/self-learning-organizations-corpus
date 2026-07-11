@@ -1,0 +1,64 @@
+{
+  "loop": 82,
+  "topic": "organizational memory",
+  "facet": "case study",
+  "query": "\"organizational memory\" case study",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22organizational+memory%22+case+study&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:54.266140+00:00",
+  "completed_at": "2026-07-11T14:08:54.845593+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.4018/978-1-59904-540-5.ch013",
+      "title": [
+        "Creating and Sustaining Meta Organizational Memory"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2009,
+            3,
+            31
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.4018/978-1-59904-540-5.ch013",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.1080/17449359.2018.1534596",
+      "title": [
+        "War memorials in organizational memory: a case study of the Bank of England"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2018,
+            10,
+            2
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1080/17449359.2018.1534596",
+      "type": "journal-article"
+    },
+    {
+      "DOI": "10.1109/iwaise.2008.17",
+      "title": [
+        "Designing a Virtual Organizational Memory- A Case Study"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2008,
+            4
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1109/iwaise.2008.17",
+      "type": "proceedings-article"
+    }
+  ]
+}

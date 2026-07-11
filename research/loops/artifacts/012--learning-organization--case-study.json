@@ -1,0 +1,55 @@
+{
+  "loop": 12,
+  "topic": "learning organization",
+  "facet": "case study",
+  "query": "\"learning organization\" case study",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22learning+organization%22+case+study&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:49.102108+00:00",
+  "completed_at": "2026-07-11T14:08:49.877017+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.1108/09696470410515733",
+      "title": [
+        "Organizational learning, knowledge and technology transfer: a case study"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2004,
+            2
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1108/09696470410515733",
+      "type": "journal-article"
+    },
+    {
+      "DOI": "10.1108/09696479910299938",
+      "title": [
+        "The learning organization ten years on: a case study"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1999,
+            12,
+            1
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1108/09696479910299938",
+      "type": "journal-article"
+    },
+    {
+      "DOI": "10.31979/etd.8hkc-t59q",
+      "title": [
+        "The transformation to a learning organization"
+      ],
+      "URL": "https://doi.org/10.31979/etd.8hkc-t59q",
+      "type": "dissertation"
+    }
+  ]
+}

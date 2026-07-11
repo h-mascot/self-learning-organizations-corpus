@@ -1,0 +1,59 @@
+{
+  "loop": 143,
+  "topic": "agent monitoring repair",
+  "facet": "empirical evidence",
+  "query": "\"agent monitoring repair\" empirical evidence",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22agent+monitoring+repair%22+empirical+evidence&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:58.849551+00:00",
+  "completed_at": "2026-07-11T14:08:59.429648+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.2139/ssrn.6197359",
+      "title": [
+        "Geometric Detection of Cognitive Collapse: Empirical Evidence from Real-Time State Monitoring"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.2139/ssrn.6197359",
+      "type": "posted-content"
+    },
+    {
+      "DOI": "10.2139/ssrn.6197338",
+      "title": [
+        "Geometric Detection of Cognitive Collapse: Empirical Evidence from Real-Time State Monitoring"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.2139/ssrn.6197338",
+      "type": "posted-content"
+    },
+    {
+      "DOI": "10.3389/fneur.2013.00139",
+      "title": [
+        "Modafinil as a Catecholaminergic Agent: Empirical Evidence and Unanswered Questions"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2013
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.3389/fneur.2013.00139",
+      "type": "journal-article"
+    }
+  ]
+}

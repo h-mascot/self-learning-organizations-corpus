@@ -1,0 +1,64 @@
+{
+  "loop": 160,
+  "topic": "eval driven development",
+  "facet": "evaluation",
+  "query": "\"eval driven development\" evaluation",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22eval+driven+development%22+evaluation&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:09:00.317177+00:00",
+  "completed_at": "2026-07-11T14:09:00.880902+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.56645/jmde.v21i50.1189",
+      "title": [
+        "Capacity Development in Evaluation: The Role of the International Program for Development Evaluation Training (IPDET)"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            25
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.56645/jmde.v21i50.1189",
+      "type": "journal-article"
+    },
+    {
+      "DOI": "10.1177/0193841x9702100402",
+      "title": [
+        "Development Assistance Evaluation and the Foundations of Program Evaluation"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1997,
+            8
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1177/0193841x9702100402",
+      "type": "journal-article"
+    },
+    {
+      "DOI": "10.56645/jmde.v5i9.168",
+      "title": [
+        "An Association to Improve Evaluation of Development Aid"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2008,
+            2,
+            29
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.56645/jmde.v5i9.168",
+      "type": "journal-article"
+    }
+  ]
+}

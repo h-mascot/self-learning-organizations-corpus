@@ -1,0 +1,62 @@
+{
+  "loop": 20,
+  "topic": "learning organization",
+  "facet": "evaluation",
+  "query": "\"learning organization\" evaluation",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22learning+organization%22+evaluation&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:49.784209+00:00",
+  "completed_at": "2026-07-11T14:08:50.456448+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.1108/09696479710156442",
+      "title": [
+        "The learning organization: a review and evaluation"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1997,
+            3
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1108/09696479710156442",
+      "type": "journal-article"
+    },
+    {
+      "DOI": "10.4324/9781315609690-14",
+      "title": [
+        "Evaluation for a Learning Organization?"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2016,
+            4,
+            1
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.4324/9781315609690-14",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.4135/9781412950558.n308",
+      "title": [
+        "Learning Organization"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2005
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.4135/9781412950558.n308",
+      "type": "reference-entry"
+    }
+  ]
+}

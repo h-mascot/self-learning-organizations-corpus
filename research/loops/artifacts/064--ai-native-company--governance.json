@@ -1,0 +1,59 @@
+{
+  "loop": 64,
+  "topic": "AI native company",
+  "facet": "governance",
+  "query": "\"AI native company\" governance",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22AI+native+company%22+governance&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:53.049528+00:00",
+  "completed_at": "2026-07-11T14:08:53.598001+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.2139/ssrn.6861422",
+      "title": [
+        "The Picken Governance Institute™: AI Governance Direct Limited | Company No. 16860497 ADSR™ — AI Displacement Sovereign Risk™"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.2139/ssrn.6861422",
+      "type": "posted-content"
+    },
+    {
+      "DOI": "10.2139/ssrn.5845902",
+      "title": [
+        "A Unified Governance Architecture for Agentic AI: Integrating Microsoft Azure AI Foundry, Cloud-Native Guardrails, Frontier AI Safety Research, Zero-Trust Principles, and the 4th.GRC Governance Engine"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.2139/ssrn.5845902",
+      "type": "posted-content"
+    },
+    {
+      "DOI": "10.2139/ssrn.5819502",
+      "title": [
+        "A Unified Governance Architecture for Agentic AI: Integrating Microsoft Azure AI Foundry, Cloud-Native Guardrails, Frontier AI Safety Research, Zero-Trust Principles, and the 4th.GRC Governance Engine"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.2139/ssrn.5819502",
+      "type": "posted-content"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "loop": 109,
+  "topic": "recursive improvement",
+  "facet": "production deployment",
+  "query": "\"recursive improvement\" production deployment",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22recursive+improvement%22+production+deployment&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:56.439238+00:00",
+  "completed_at": "2026-07-11T14:08:57.067172+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.2139/ssrn.6091646",
+      "title": [
+        "Authority Transfer in Recursive and Networked AI Systems Closed-Loop Self-Improvement (CLSI), Recursive Leverage (RLF), and Synchronized Recursive Leverage (SRL)"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.2139/ssrn.6091646",
+      "type": "posted-content"
+    },
+    {
+      "DOI": "10.17487/rfc9539",
+      "title": [
+        "Unilateral Opportunistic Deployment of Encrypted Recursive-to-Authoritative DNS"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            2
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.17487/rfc9539",
+      "type": "report"
+    },
+    {
+      "DOI": "10.1016/s0959-6526(00)00080-9",
+      "title": [
+        "Using quality function deployment for technique selection for optimum environmental performance improvement"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2001,
+            10
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1016/s0959-6526(00)00080-9",
+      "type": "journal-article"
+    }
+  ]
+}

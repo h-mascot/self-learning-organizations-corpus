@@ -1,0 +1,56 @@
+{
+  "loop": 77,
+  "topic": "autonomous enterprise",
+  "facet": "feedback loop",
+  "query": "\"autonomous enterprise\" feedback loop",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22autonomous+enterprise%22+feedback+loop&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:54.055596+00:00",
+  "completed_at": "2026-07-11T14:08:54.572365+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.31274/td-20251215-383",
+      "title": [
+        "Robust, optimal, safe, and stable visual-inertial based navigation of autonomous  vehicle with neural network in feedback loop"
+      ],
+      "URL": "https://doi.org/10.31274/td-20251215-383",
+      "type": "dissertation"
+    },
+    {
+      "DOI": "10.1101/2021.02.10.430574",
+      "title": [
+        "Autonomous epithelial folding induced by an intracellular mechano–polarity feedback loop"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            2,
+            11
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1101/2021.02.10.430574",
+      "type": "posted-content"
+    },
+    {
+      "DOI": "10.2172/6579230",
+      "title": [
+        "Derivation of three closed loop kinematic velocity models using normalized quaternion feedback for an autonomous redundant manipulator with application to inverse kinematics"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1993,
+            4,
+            1
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.2172/6579230",
+      "type": "report"
+    }
+  ]
+}

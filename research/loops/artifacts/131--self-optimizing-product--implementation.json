@@ -1,0 +1,47 @@
+{
+  "loop": 131,
+  "topic": "self optimizing product",
+  "facet": "implementation",
+  "query": "\"self optimizing product\" implementation",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22self+optimizing+product%22+implementation&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:57.972604+00:00",
+  "completed_at": "2026-07-11T14:08:58.587699+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.1021/acs.joc.8b01821.s001",
+      "title": [
+        "An Autonomous Self-Optimizing Flow Reactor for the Synthesis of Natural Product Carpanone"
+      ],
+      "URL": "https://doi.org/10.1021/acs.joc.8b01821.s001",
+      "type": "component"
+    },
+    {
+      "DOI": "10.17918/etd-28",
+      "title": [
+        "A prototypical self-optimizing package for parallel implementation of fast signal transforms"
+      ],
+      "URL": "https://doi.org/10.17918/etd-28",
+      "type": "dissertation"
+    },
+    {
+      "DOI": "10.1145/2494621.2494631",
+      "title": [
+        "Self-protecting and self-optimizing database systems"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2013,
+            8,
+            9
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1145/2494621.2494631",
+      "type": "proceedings-article"
+    }
+  ]
+}

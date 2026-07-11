@@ -1,0 +1,64 @@
+{
+  "loop": 17,
+  "topic": "learning organization",
+  "facet": "feedback loop",
+  "query": "\"learning organization\" feedback loop",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22learning+organization%22+feedback+loop&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:49.561075+00:00",
+  "completed_at": "2026-07-11T14:08:50.104016+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.1057/omj.2008.26",
+      "title": [
+        "An assurance of learning success model: toward closing the feedback loop"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2008,
+            12
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1057/omj.2008.26",
+      "type": "journal-article"
+    },
+    {
+      "DOI": "10.1108/978-1-80071-505-920211002",
+      "title": [
+        "The Feedback Loop: Learning from Videogame Experiences"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            4,
+            22
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1108/978-1-80071-505-920211002",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.4324/9781003077138-10",
+      "title": [
+        "Key Success Factors (Step #3) (Phase B: Feedback Loop)"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            5,
+            20
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.4324/9781003077138-10",
+      "type": "book-chapter"
+    }
+  ]
+}

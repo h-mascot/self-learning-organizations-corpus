@@ -1,0 +1,65 @@
+{
+  "loop": 147,
+  "topic": "agent monitoring repair",
+  "facet": "feedback loop",
+  "query": "\"agent monitoring repair\" feedback loop",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22agent+monitoring+repair%22+feedback+loop&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:59.325636+00:00",
+  "completed_at": "2026-07-11T14:08:59.921768+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.64628/aa.uxeh96rec",
+      "title": [
+        "Monitoring Build Times: Maintaining our Fast feedback Loop"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2017,
+            6,
+            19
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.64628/aa.uxeh96rec",
+      "type": "posted-content"
+    },
+    {
+      "DOI": "10.21203/rs.3.rs-7235054/v1",
+      "title": [
+        "The feedback loop: A systematic review of how evaluation practices inform conversational agent design"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            29
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.21203/rs.3.rs-7235054/v1",
+      "type": "posted-content"
+    },
+    {
+      "DOI": "10.1109/ieir67391.2025.11491152",
+      "title": [
+        "EduLoop-Agent: an End-To-End Personalized Learning Agent with Diagnosis-Recommendation -Feedback Loop for Intelligent Education"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            7
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1109/ieir67391.2025.11491152",
+      "type": "proceedings-article"
+    }
+  ]
+}

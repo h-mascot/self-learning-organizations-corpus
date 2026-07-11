@@ -1,0 +1,54 @@
+{
+  "loop": 101,
+  "topic": "recursive improvement",
+  "facet": "implementation",
+  "query": "\"recursive improvement\" implementation",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22recursive+improvement%22+implementation&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:55.785880+00:00",
+  "completed_at": "2026-07-11T14:08:56.361661+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.1109/tencon61640.2024.10902933",
+      "title": [
+        "VLSI Implementation of Recursive CNNs with Multi-Scale Integration for Image Classification Improvement"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            12,
+            1
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1109/tencon61640.2024.10902933",
+      "type": "proceedings-article"
+    },
+    {
+      "DOI": "10.2139/ssrn.6091646",
+      "title": [
+        "Authority Transfer in Recursive and Networked AI Systems Closed-Loop Self-Improvement (CLSI), Recursive Leverage (RLF), and Synchronized Recursive Leverage (SRL)"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.2139/ssrn.6091646",
+      "type": "posted-content"
+    },
+    {
+      "DOI": "10.14264/340033",
+      "title": [
+        "Implementation of Recursive Algorithms for Serial Linkages"
+      ],
+      "URL": "https://doi.org/10.14264/340033",
+      "type": "dissertation"
+    }
+  ]
+}

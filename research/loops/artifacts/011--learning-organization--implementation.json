@@ -1,0 +1,63 @@
+{
+  "loop": 11,
+  "topic": "learning organization",
+  "facet": "implementation",
+  "query": "\"learning organization\" implementation",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22learning+organization%22+implementation&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:49.093213+00:00",
+  "completed_at": "2026-07-11T14:08:49.775457+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.1093/oxfordhb/9780198832355.013.4",
+      "title": [
+        "Garvin’s Learning Organization: A Process Perspective on Learning for Implementation, Improvement, and Innovation"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2019,
+            12,
+            12
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1093/oxfordhb/9780198832355.013.4",
+      "type": "reference-entry"
+    },
+    {
+      "DOI": "10.13007/314",
+      "title": [
+        "Ideas, Implementation and the Learning Organization"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2014,
+            1
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.13007/314",
+      "type": "report"
+    },
+    {
+      "DOI": "10.1080/15416518.2012.666947",
+      "title": [
+        "Adaptive Learning in Concept and Implementation"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2012,
+            4
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1080/15416518.2012.666947",
+      "type": "journal-article"
+    }
+  ]
+}

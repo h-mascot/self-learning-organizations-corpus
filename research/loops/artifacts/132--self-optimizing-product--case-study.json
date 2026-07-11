@@ -1,0 +1,55 @@
+{
+  "loop": 132,
+  "topic": "self optimizing product",
+  "facet": "case study",
+  "query": "\"self optimizing product\" case study",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22self+optimizing+product%22+case+study&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:58.020941+00:00",
+  "completed_at": "2026-07-11T14:08:58.698591+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.1021/acs.joc.8b01821.s001",
+      "title": [
+        "An Autonomous Self-Optimizing Flow Reactor for the Synthesis of Natural Product Carpanone"
+      ],
+      "URL": "https://doi.org/10.1021/acs.joc.8b01821.s001",
+      "type": "component"
+    },
+    {
+      "DOI": "10.1016/s1474-6670(17)38667-6",
+      "title": [
+        "Self-Optimizing Control: A Distillation Case Study"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2000,
+            6
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1016/s1474-6670(17)38667-6",
+      "type": "journal-article"
+    },
+    {
+      "DOI": "10.1109/icdxa69105.2025.11329899",
+      "title": [
+        "Optimizing Digital Media for Local Product Marketing: Case Study of MSME"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            30
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1109/icdxa69105.2025.11329899",
+      "type": "proceedings-article"
+    }
+  ]
+}

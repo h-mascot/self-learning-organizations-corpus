@@ -1,0 +1,63 @@
+{
+  "loop": 145,
+  "topic": "agent monitoring repair",
+  "facet": "failure",
+  "query": "\"agent monitoring repair\" failure",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22agent+monitoring+repair%22+failure&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:59.025353+00:00",
+  "completed_at": "2026-07-11T14:08:59.676548+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.37896/jxu14.5/212",
+      "title": [
+        "Analogy between Agent Less Monitoring and Agent Based Monitoring"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2020,
+            5,
+            9
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.37896/jxu14.5/212",
+      "type": "journal-article"
+    },
+    {
+      "DOI": "10.1016/j.cie.2026.111825",
+      "title": [
+        "Scenario decomposition approach for mobile multi-agent monitoring under failure"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            3
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1016/j.cie.2026.111825",
+      "type": "journal-article"
+    },
+    {
+      "DOI": "10.1016/0165-7992(83)90061-1",
+      "title": [
+        "Failure of the intercalating agent 4′-(9-acridylamino)-methanesulphon-m-anisidide to induce DNA-repair replication in cultured human cells"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1983,
+            11
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1016/0165-7992(83)90061-1",
+      "type": "journal-article"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "loop": 19,
+  "topic": "learning organization",
+  "facet": "production deployment",
+  "query": "\"learning organization\" production deployment",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22learning+organization%22+production+deployment&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:49.775634+00:00",
+  "completed_at": "2026-07-11T14:08:50.433805+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.33612/diss.1226372588",
+      "title": [
+        "Towards Real-World Deployment of Reinforcement Learning"
+      ],
+      "URL": "https://doi.org/10.33612/diss.1226372588",
+      "type": "dissertation"
+    },
+    {
+      "DOI": "10.7717/peerj-cs.3899/table-2",
+      "title": [
+        "Table 2: Fabric deployment: single organization, four nodes."
+      ],
+      "URL": "https://doi.org/10.7717/peerj-cs.3899/table-2",
+      "type": "component"
+    },
+    {
+      "DOI": "10.3997/2214-4609.202113332",
+      "title": [
+        "Deployment of Machine Learning Solutions to Production Seismic Processing"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2021
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.3997/2214-4609.202113332",
+      "type": "proceedings-article"
+    }
+  ]
+}

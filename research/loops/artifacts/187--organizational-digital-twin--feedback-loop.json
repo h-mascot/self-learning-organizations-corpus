@@ -1,0 +1,52 @@
+{
+  "loop": 187,
+  "topic": "organizational digital twin",
+  "facet": "feedback loop",
+  "query": "\"organizational digital twin\" feedback loop",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22organizational+digital+twin%22+feedback+loop&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:09:10.572385+00:00",
+  "completed_at": "2026-07-11T14:09:11.929709+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.1115/imece2025-166700",
+      "title": [
+        "Digital Twin Inputs and Feedback Loop for Automotive Body in White Dispensing Quality Inspector Training"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            16
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1115/imece2025-166700",
+      "type": "proceedings-article"
+    },
+    {
+      "DOI": "10.1049/dgt2.70043",
+      "title": [
+        "Digital Twin‐Driven Closed Loop for Photovoltaic Power Plant Cleaning Decision‐Making: Considering Spatial Heterogeneity and Self‐Learning Feedback"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            1
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1049/dgt2.70043",
+      "type": "journal-article"
+    },
+    {
+      "DOI": "10.3030/101192649",
+      "URL": "https://doi.org/10.3030/101192649",
+      "type": "grant"
+    }
+  ]
+}

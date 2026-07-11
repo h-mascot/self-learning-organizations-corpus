@@ -1,0 +1,63 @@
+{
+  "loop": 60,
+  "topic": "adaptive enterprise",
+  "facet": "evaluation",
+  "query": "\"adaptive enterprise\" evaluation",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22adaptive+enterprise%22+evaluation&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:52.869581+00:00",
+  "completed_at": "2026-07-11T14:08:53.458571+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.1142/9789814632133_0003",
+      "title": [
+        "The Adaptive Enterprise Service System Metamodel"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2015,
+            6,
+            10
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1142/9789814632133_0003",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.1142/9789814632133_0004",
+      "title": [
+        "The Adaptive Enterprise Service System Lifecycle Management"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2015,
+            6,
+            10
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1142/9789814632133_0004",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.5220/0010475707590767",
+      "title": [
+        "Complexity and Adaptive Enterprise Architecture"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2021
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.5220/0010475707590767",
+      "type": "proceedings-article"
+    }
+  ]
+}

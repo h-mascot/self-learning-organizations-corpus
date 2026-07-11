@@ -1,0 +1,61 @@
+{
+  "loop": 45,
+  "topic": "organizational cybernetics",
+  "facet": "failure",
+  "query": "\"organizational cybernetics\" failure",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22organizational+cybernetics%22+failure&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:51.639328+00:00",
+  "completed_at": "2026-07-11T14:08:52.234714+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.4324/9780203361566-27",
+      "title": [
+        "Organizational Cybernetics"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2003,
+            9,
+            2
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.4324/9780203361566-27",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.4135/9781452231457.n11",
+      "title": [
+        "Permanent Failure and the Failure of Organizational\n                    Performance"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1999
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.4135/9781452231457.n11",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.1007/978-1-4613-0213-1_1",
+      "title": [
+        "Organizational Cybernetics"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2003
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1007/978-1-4613-0213-1_1",
+      "type": "book-chapter"
+    }
+  ]
+}

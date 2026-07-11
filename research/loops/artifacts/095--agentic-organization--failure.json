@@ -1,0 +1,60 @@
+{
+  "loop": 95,
+  "topic": "agentic organization",
+  "facet": "failure",
+  "query": "\"agentic organization\" failure",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22agentic+organization%22+failure&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:55.246919+00:00",
+  "completed_at": "2026-07-11T14:08:55.822765+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.1007/978-3-032-23024-9_16",
+      "title": [
+        "Organization and Human Resources for Agentic AI in Procurement"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1007/978-3-032-23024-9_16",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.2139/ssrn.6083460",
+      "title": [
+        "How business models need to be changed to encompass AI agentic organization contours"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.2139/ssrn.6083460",
+      "type": "posted-content"
+    },
+    {
+      "DOI": "10.1287/orsc.2022.1637",
+      "title": [
+        "The Downside of Displaying Agentic Values: Evidence from Shareholder Activism"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            7
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1287/orsc.2022.1637",
+      "type": "journal-article"
+    }
+  ]
+}

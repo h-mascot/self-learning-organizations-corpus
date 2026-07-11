@@ -1,0 +1,62 @@
+{
+  "loop": 51,
+  "topic": "adaptive enterprise",
+  "facet": "implementation",
+  "query": "\"adaptive enterprise\" implementation",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22adaptive+enterprise%22+implementation&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:52.230750+00:00",
+  "completed_at": "2026-07-11T14:08:52.823320+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.32702/2306-6806.2020.10.89",
+      "title": [
+        "ADAPTIVE MARKETING STRATEGY OF THE ENTERPRISE: METHODS OF FORMATION AND IMPLEMENTATION"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2020,
+            10,
+            30
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.32702/2306-6806.2020.10.89",
+      "type": "journal-article"
+    },
+    {
+      "DOI": "10.5220/0002452101510156",
+      "title": [
+        "DESIGN AND IMPLEMENTATION OF ADAPTIVE WEB APPLICATION"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2006
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.5220/0002452101510156",
+      "type": "proceedings-article"
+    },
+    {
+      "DOI": "10.1109/wicom.2008.2837",
+      "title": [
+        "Adaptive Enterprise Management and Implementation Approaches"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2008,
+            10
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1109/wicom.2008.2837",
+      "type": "proceedings-article"
+    }
+  ]
+}

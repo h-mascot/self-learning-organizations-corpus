@@ -1,0 +1,47 @@
+{
+  "loop": 137,
+  "topic": "self optimizing product",
+  "facet": "feedback loop",
+  "query": "\"self optimizing product\" feedback loop",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22self+optimizing+product%22+feedback+loop&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:58.382453+00:00",
+  "completed_at": "2026-07-11T14:08:59.025212+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.1021/acssynbio.7b00260.s001",
+      "title": [
+        "Design and Selection of a Synthetic Feedback Loop for Optimizing Biofuel Tolerance"
+      ],
+      "URL": "https://doi.org/10.1021/acssynbio.7b00260.s001",
+      "type": "component"
+    },
+    {
+      "DOI": "10.70675/779d5bbaz5470z4faczb771z288a715634b1",
+      "title": [
+        "Optimizing cortical feedback strategies for a closed-loop brain machine interface"
+      ],
+      "URL": "https://doi.org/10.70675/779d5bbaz5470z4faczb771z288a715634b1",
+      "type": "dissertation"
+    },
+    {
+      "DOI": "10.5772/31626",
+      "title": [
+        "Alcoholism: The Self-Reinforcing Feedback Loop"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2012,
+            5,
+            2
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.5772/31626",
+      "type": "book-chapter"
+    }
+  ]
+}

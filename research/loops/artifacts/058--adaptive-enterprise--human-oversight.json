@@ -1,0 +1,63 @@
+{
+  "loop": 58,
+  "topic": "adaptive enterprise",
+  "facet": "human oversight",
+  "query": "\"adaptive enterprise\" human oversight",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22adaptive+enterprise%22+human+oversight&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:52.744101+00:00",
+  "completed_at": "2026-07-11T14:08:53.282581+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.2139/ssrn.5945994",
+      "title": [
+        "Topological Oversight: A Cognitive-Structural Framework for Adaptive Human-AI Interaction Governance"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.2139/ssrn.5945994",
+      "type": "posted-content"
+    },
+    {
+      "DOI": "10.21203/rs.3.rs-8952805/v1",
+      "title": [
+        "Balancing autonomy and oversight in reliable agentic artificial intelligence through adaptive human interaction architectures"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            10
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.21203/rs.3.rs-8952805/v1",
+      "type": "posted-content"
+    },
+    {
+      "DOI": "10.21275/sr251113081129",
+      "title": [
+        "Integrating Human Oversight with AI-Based Planning Systems: A Framework for Ethical Business Intelligence and Adaptive Experimentation in Nationally Critical Sectors"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            17
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.21275/sr251113081129",
+      "type": "journal-article"
+    }
+  ]
+}

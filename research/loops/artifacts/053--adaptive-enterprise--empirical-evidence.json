@@ -1,0 +1,62 @@
+{
+  "loop": 53,
+  "topic": "adaptive enterprise",
+  "facet": "empirical evidence",
+  "query": "\"adaptive enterprise\" empirical evidence",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22adaptive+enterprise%22+empirical+evidence&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:52.234807+00:00",
+  "completed_at": "2026-07-11T14:08:52.871036+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.17762/converter.29",
+      "title": [
+        "Manufacturing Enterprise Executive Career Expectation and Enterprise Risk: Theoretical Path and Empirical Evidence"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            7,
+            10
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.17762/converter.29",
+      "type": "journal-article"
+    },
+    {
+      "DOI": "10.1080/00343408812331345180",
+      "title": [
+        "Have Enterprise Zones Encouraged Enterprise? Some Empirical Evidence from Tyneside"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1988,
+            8
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1080/00343408812331345180",
+      "type": "journal-article"
+    },
+    {
+      "DOI": "10.2139/ssrn.5384252",
+      "title": [
+        "\"The Role of Factoring in Enterprise Development: Empirical Evidence from Peru, 2015–2023\""
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.2139/ssrn.5384252",
+      "type": "posted-content"
+    }
+  ]
+}

@@ -1,22 +1,16 @@
-# Notes: Engineering/QA Corpus Lane
+# Notes: Corpus Goal 1
 
-## Repository inventory
-
-- Six ID-only YouTube Markdown transcripts with flat front matter and timestamped bodies.
-- Five sources are relevant; `fVut0ceg2IY` is an unrelated 20-second OpenTable ad explicitly identified by GOAL.md and research notes.
-- `metadata/videos.csv` is the only legacy inventory. No validator, tests, schema, package dependencies, or CI existed.
-- Research prose links to public YouTube URLs, not local transcript filenames, so path migration does not require prose link rewrites.
-
-## Contract decisions
-
+## Engineering/QA lane
+- Six legacy ID-only YouTube transcripts were migrated into canonical source records.
+- Five are relevant; `fVut0ceg2IY` is an unrelated OpenTable ad and remains preserved as rejected evidence.
 - Canonical path: `sources/<platform>/<accepted|rejected>/<date>--<title>--<publisher>--<stable-id>.md`.
-- Flat YAML front matter is intentionally parseable with the Python standard library while the JSON Schema remains the declarative contract.
 - Accepted transcripts must be non-empty, timestamped, and reach at least 80% of declared duration.
-- Rejected sources remain in discovery and rejection counts but never validated-relevant or complete-transcript counts.
+- Initial verification: 10/10 tests passed; 6 records valid; 5 validated relevant; 1 rejected.
 
-## Verification evidence
-
-- Initial and post-migration unit runs: 10/10 tests passed.
-- Audit: 6/6 source records valid.
-- Generated counts: 6 discovered, 5 validated relevant, 5 complete timestamped transcripts, 1 rejected.
-- Manifest contains whole-file pre-migration SHA-256 and preserved-body SHA-256 for every migrated source.
+## Research lane
+- Exa and authenticated GitHub CLI were usable.
+- X retrieval lacked authentication in this worker environment.
+- Perplexity had no configured CLI/MCP/key; direct API probe returned HTTP 401 and blocker proof is preserved.
+- OpenAI/GPT web research completed through authenticated Codex web search.
+- Crossref returned 200 evidence-bearing query artifacts across 20 topics and 10 facets.
+- Manager audit: these 200 artifacts form a predetermined query matrix, not the requested recursive chain from prior findings. They remain useful discovery evidence but do not satisfy the final recursive-loop gate until corrected by a follow-up worker.

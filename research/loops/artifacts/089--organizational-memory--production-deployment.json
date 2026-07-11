@@ -1,0 +1,62 @@
+{
+  "loop": 89,
+  "topic": "organizational memory",
+  "facet": "production deployment",
+  "query": "\"organizational memory\" production deployment",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22organizational+memory%22+production+deployment&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:54.797293+00:00",
+  "completed_at": "2026-07-11T14:08:55.403957+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.1016/j.ijpe.2009.05.020",
+      "title": [
+        "Mapping knowledge management and organizational learning in support of organizational memory"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2009,
+            11
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1016/j.ijpe.2009.05.020",
+      "type": "journal-article"
+    },
+    {
+      "DOI": "10.2139/ssrn.6436099",
+      "title": [
+        "Building Fault-Tolerant Memory for OpenClaw AI Agents: A Three-Layer Architecture for the SQLITE_CANTOPEN Regression in 2026.3.x - A Production Deployment Case Study"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.2139/ssrn.6436099",
+      "type": "posted-content"
+    },
+    {
+      "DOI": "10.1093/oso/9780198747451.003.0007",
+      "title": [
+        "Organizing the Organizational Memory"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2018,
+            3,
+            22
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1093/oso/9780198747451.003.0007",
+      "type": "book"
+    }
+  ]
+}

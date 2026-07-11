@@ -1,0 +1,56 @@
+{
+  "loop": 171,
+  "topic": "decision intelligence",
+  "facet": "implementation",
+  "query": "\"decision intelligence\" implementation",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22decision+intelligence%22+implementation&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:09:01.356608+00:00",
+  "completed_at": "2026-07-11T14:09:02.027547+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.1201/b23322-8",
+      "title": [
+        "Recommendations for DI Implementation and Ethics"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            2,
+            28
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1201/b23322-8",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.1002/9780470634431.ch10",
+      "title": [
+        "Implementation and Evaluation"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2011,
+            1,
+            7
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1002/9780470634431.ch10",
+      "type": "other"
+    },
+    {
+      "DOI": "10.20868/upm.thesis.70347",
+      "title": [
+        "Artificial intelligence for data-driven decision support systems in clinical cancer research: implementation guidelines"
+      ],
+      "URL": "https://doi.org/10.20868/upm.thesis.70347",
+      "type": "dissertation"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "loop": 189,
+  "topic": "organizational digital twin",
+  "facet": "production deployment",
+  "query": "\"organizational digital twin\" production deployment",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22organizational+digital+twin%22+production+deployment&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:09:11.049154+00:00",
+  "completed_at": "2026-07-11T14:09:11.574551+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.1016/b978-0-12-821631-6.00010-4",
+      "title": [
+        "Digital twin development and deployment for a wind turbine"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2020
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1016/b978-0-12-821631-6.00010-4",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.1016/b978-0-12-821631-6.00008-6",
+      "title": [
+        "Digital Twin development and cloud deployment for a Hybrid Electric Vehicle"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2020
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1016/b978-0-12-821631-6.00008-6",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.1016/b978-0-12-821631-6.00009-8",
+      "title": [
+        "Digital Twin Development and cloud deployment for a DC Motor Control embedded system"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2020
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1016/b978-0-12-821631-6.00009-8",
+      "type": "book-chapter"
+    }
+  ]
+}

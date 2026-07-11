@@ -1,0 +1,64 @@
+{
+  "loop": 18,
+  "topic": "learning organization",
+  "facet": "human oversight",
+  "query": "\"learning organization\" human oversight",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22learning+organization%22+human+oversight&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:49.681280+00:00",
+  "completed_at": "2026-07-11T14:08:50.217736+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.1108/09696471011059804",
+      "title": [
+        "Creating a learning organization in law enforcement"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2010,
+            7,
+            20
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1108/09696471011059804",
+      "type": "journal-article"
+    },
+    {
+      "DOI": "10.17730/humo.39.1.j61232uu788n2410",
+      "title": [
+        "Judgment, Oversight, and Skill: A Cultural Analysis of P-3 Pilot Error"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1980,
+            3
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.17730/humo.39.1.j61232uu788n2410",
+      "type": "journal-article"
+    },
+    {
+      "DOI": "10.1177/01708406251357858",
+      "title": [
+        "Dissensus Whistleblowing: The challenge to enact human rights and democratic oversight in organizations"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            8,
+            13
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1177/01708406251357858",
+      "type": "journal-article"
+    }
+  ]
+}

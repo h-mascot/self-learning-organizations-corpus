@@ -1,0 +1,65 @@
+{
+  "loop": 177,
+  "topic": "decision intelligence",
+  "facet": "feedback loop",
+  "query": "\"decision intelligence\" feedback loop",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22decision+intelligence%22+feedback+loop&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:09:02.027697+00:00",
+  "completed_at": "2026-07-11T14:09:10.364342+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.7554/elife.34460.026",
+      "title": [
+        "Decision letter: A tension-adhesion feedback loop in plant epidermis"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2018,
+            1,
+            24
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.7554/elife.34460.026",
+      "type": "peer-review"
+    },
+    {
+      "DOI": "10.7554/elife.34460.sa1",
+      "title": [
+        "Decision letter: A tension-adhesion feedback loop in plant epidermis"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2018,
+            1,
+            24
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.7554/elife.34460.sa1",
+      "type": "peer-review"
+    },
+    {
+      "DOI": "10.7554/elife.18816.008",
+      "title": [
+        "Decision letter: An excitatory cortical feedback loop gates retinal wave transmission in rodent thalamus"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2016,
+            8,
+            1
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.7554/elife.18816.008",
+      "type": "peer-review"
+    }
+  ]
+}

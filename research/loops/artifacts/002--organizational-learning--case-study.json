@@ -1,0 +1,54 @@
+{
+  "loop": 2,
+  "topic": "organizational learning",
+  "facet": "case study",
+  "query": "\"organizational learning\" case study",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22organizational+learning%22+case+study&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:48.307604+00:00",
+  "completed_at": "2026-07-11T14:08:49.144692+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.4135/9781446218297.n7",
+      "title": [
+        "Learning across Organizational Boundaries: A Case Study of Canadian Museums"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1999
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.4135/9781446218297.n7",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.32469/10355/105896",
+      "title": [
+        "Central office practices and organizational learning : a case study"
+      ],
+      "URL": "https://doi.org/10.32469/10355/105896",
+      "type": "dissertation"
+    },
+    {
+      "DOI": "10.1201/9781003077459-8",
+      "title": [
+        "Organizational Consequences of Participatory Evaluation: School District Case Study\n                           1"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            11,
+            17
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1201/9781003077459-8",
+      "type": "book-chapter"
+    }
+  ]
+}

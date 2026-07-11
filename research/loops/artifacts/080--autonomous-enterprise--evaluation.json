@@ -1,0 +1,65 @@
+{
+  "loop": 80,
+  "topic": "autonomous enterprise",
+  "facet": "evaluation",
+  "query": "\"autonomous enterprise\" evaluation",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22autonomous+enterprise%22+evaluation&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:54.237589+00:00",
+  "completed_at": "2026-07-11T14:08:54.789634+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.70593/978-93-7185-592-1_1",
+      "title": [
+        "Foundations of the Autonomous Data Enterprise"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            10
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.70593/978-93-7185-592-1_1",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.70593/978-93-7185-975-2_9",
+      "title": [
+        "Scaling Autonomous Execution Across Enterprise Services"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            18
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.70593/978-93-7185-975-2_9",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.36948/ijfmr.2026.v08i03.77786",
+      "title": [
+        "AI Agents and Autonomous Systems: Architecture, Applications, and Enterprise Evaluation"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            11
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.36948/ijfmr.2026.v08i03.77786",
+      "type": "journal-article"
+    }
+  ]
+}

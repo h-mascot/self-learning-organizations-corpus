@@ -1,0 +1,59 @@
+{
+  "loop": 124,
+  "topic": "automated experimentation",
+  "facet": "governance",
+  "query": "\"automated experimentation\" governance",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22automated+experimentation%22+governance&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:57.486547+00:00",
+  "completed_at": "2026-07-11T14:08:58.020820+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.1186/1759-4499-3-1",
+      "title": [
+        "Automated experimentation in ecological networks"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2011
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1186/1759-4499-3-1",
+      "type": "journal-article"
+    },
+    {
+      "DOI": "10.1186/1759-4499-1-2",
+      "title": [
+        "The philosophy of scientific experimentation: a review"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2009
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1186/1759-4499-1-2",
+      "type": "journal-article"
+    },
+    {
+      "DOI": "10.1186/1759-4499-1-1",
+      "title": [
+        "Welcome to Automated Experimentation: a new open access journal"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2009
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1186/1759-4499-1-1",
+      "type": "journal-article"
+    }
+  ]
+}

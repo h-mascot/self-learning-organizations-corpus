@@ -1,0 +1,56 @@
+{
+  "loop": 49,
+  "topic": "organizational cybernetics",
+  "facet": "production deployment",
+  "query": "\"organizational cybernetics\" production deployment",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22organizational+cybernetics%22+production+deployment&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:52.126013+00:00",
+  "completed_at": "2026-07-11T14:08:52.662732+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.1109/icsmc.2001.973052",
+      "title": [
+        "Organizational learning model of cooperative distributed sensing for automation production line"
+      ],
+      "URL": "https://doi.org/10.1109/icsmc.2001.973052",
+      "type": "proceedings-article"
+    },
+    {
+      "DOI": "10.4324/9780203361566-27",
+      "title": [
+        "Organizational Cybernetics"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2003,
+            9,
+            2
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.4324/9780203361566-27",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.1201/9781003339915-10",
+      "title": [
+        "Deployment of Communications Networks"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            9,
+            1
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1201/9781003339915-10",
+      "type": "book-chapter"
+    }
+  ]
+}

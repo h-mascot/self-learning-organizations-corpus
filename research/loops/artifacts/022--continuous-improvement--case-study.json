@@ -1,0 +1,63 @@
+{
+  "loop": 22,
+  "topic": "continuous improvement",
+  "facet": "case study",
+  "query": "\"continuous improvement\" case study",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22continuous+improvement%22+case+study&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:49.804615+00:00",
+  "completed_at": "2026-07-11T14:08:50.513698+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.1201/b15983-15",
+      "title": [
+        "A Lean Six Sigma Case Study"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2013,
+            10,
+            23
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1201/b15983-15",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.4324/9781439891247-7",
+      "title": [
+        "Case Study Sources"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2011,
+            4,
+            21
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.4324/9781439891247-7",
+      "type": "book-chapter"
+    },
+    {
+      "DOI": "10.5040/9798881842758.0015",
+      "title": [
+        "International School Accreditation"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.5040/9798881842758.0015",
+      "type": "other"
+    }
+  ]
+}

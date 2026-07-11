@@ -1,0 +1,62 @@
+{
+  "loop": 93,
+  "topic": "agentic organization",
+  "facet": "empirical evidence",
+  "query": "\"agentic organization\" empirical evidence",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22agentic+organization%22+empirical+evidence&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:55.091614+00:00",
+  "completed_at": "2026-07-11T14:08:55.785784+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.1177/0170840620944552",
+      "title": [
+        "Agentic Misfit: An Empirical Demonstration of Non-Matching Human Agency amid Complexity"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2020,
+            8,
+            13
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1177/0170840620944552",
+      "type": "journal-article"
+    },
+    {
+      "DOI": "10.1287/orsc.2022.1637",
+      "title": [
+        "The Downside of Displaying Agentic Values: Evidence from Shareholder Activism"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            7
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1287/orsc.2022.1637",
+      "type": "journal-article"
+    },
+    {
+      "DOI": "10.54394/00034628",
+      "title": [
+        "The impact of GenAI on jobs, productivity and work organization"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.54394/00034628",
+      "type": "book"
+    }
+  ]
+}

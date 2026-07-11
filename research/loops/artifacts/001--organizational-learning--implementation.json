@@ -1,0 +1,53 @@
+{
+  "loop": 1,
+  "topic": "organizational learning",
+  "facet": "implementation",
+  "query": "\"organizational learning\" implementation",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22organizational+learning%22+implementation&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:48.307225+00:00",
+  "completed_at": "2026-07-11T14:08:49.093102+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.1016/0090-2616(89)90039-9",
+      "title": [
+        "Strategy implementation: An experience in learning"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1989,
+            9
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1016/0090-2616(89)90039-9",
+      "type": "journal-article"
+    },
+    {
+      "DOI": "10.11606/t.12.2023.tde-15062023-182018",
+      "title": [
+        "HR management implementation in scaled startup companies through an organizational learning lens"
+      ],
+      "URL": "https://doi.org/10.11606/t.12.2023.tde-15062023-182018",
+      "type": "dissertation"
+    },
+    {
+      "DOI": "10.48009/2_iis_2007_166-170",
+      "title": [
+        "STRATEGIC IMPLEMENTATION OF ORGANIZATIONAL LEARNING: AN EMPIRICAL STUDY"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2007
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.48009/2_iis_2007_166-170",
+      "type": "journal-article"
+    }
+  ]
+}

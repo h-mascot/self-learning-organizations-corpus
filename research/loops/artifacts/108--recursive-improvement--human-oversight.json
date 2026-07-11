@@ -1,0 +1,59 @@
+{
+  "loop": 108,
+  "topic": "recursive improvement",
+  "facet": "human oversight",
+  "query": "\"recursive improvement\" human oversight",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22recursive+improvement%22+human+oversight&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:56.361771+00:00",
+  "completed_at": "2026-07-11T14:08:56.941413+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.2139/ssrn.5841962",
+      "title": [
+        "Human Superintelligence: How you can develop it using recursive self-improvement"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.2139/ssrn.5841962",
+      "type": "journal-article"
+    },
+    {
+      "DOI": "10.2139/ssrn.6669578",
+      "title": [
+        "Fighting Inside The Grid: Autonomous Cyber Agents, Recursive Oversight Failure, And The Tron Paradox For Cyber Defenders"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.2139/ssrn.6669578",
+      "type": "posted-content"
+    },
+    {
+      "DOI": "10.2139/ssrn.6091646",
+      "title": [
+        "Authority Transfer in Recursive and Networked AI Systems Closed-Loop Self-Improvement (CLSI), Recursive Leverage (RLF), and Synchronized Recursive Leverage (SRL)"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.2139/ssrn.6091646",
+      "type": "posted-content"
+    }
+  ]
+}

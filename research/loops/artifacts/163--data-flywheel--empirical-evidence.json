@@ -1,0 +1,56 @@
+{
+  "loop": 163,
+  "topic": "data flywheel",
+  "facet": "empirical evidence",
+  "query": "\"data flywheel\" empirical evidence",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22data+flywheel%22+empirical+evidence&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:09:00.519692+00:00",
+  "completed_at": "2026-07-11T14:09:01.356445+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.1093/acrefore/9780190228637.013.519",
+      "title": [
+        "Empirical Evidence for Empirical International Relations Theorizing: Tests of Epistemological Assumptions With Data"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2017,
+            9,
+            26
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1093/acrefore/9780190228637.013.519",
+      "type": "reference-entry"
+    },
+    {
+      "DOI": "10.70675/c625c527z0547z4027z99fdz5ea56bf34613",
+      "title": [
+        "Innovation and Entrepreneurship : Empirical evidence using micro data"
+      ],
+      "URL": "https://doi.org/10.70675/c625c527z0547z4027z99fdz5ea56bf34613",
+      "type": "dissertation"
+    },
+    {
+      "DOI": "10.4337/9781035367580.00012",
+      "title": [
+        "Empirical evidence in equality law-making"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            19
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.4337/9781035367580.00012",
+      "type": "book-chapter"
+    }
+  ]
+}

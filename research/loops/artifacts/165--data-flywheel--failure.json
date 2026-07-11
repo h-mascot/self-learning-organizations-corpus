@@ -1,0 +1,64 @@
+{
+  "loop": 165,
+  "topic": "data flywheel",
+  "facet": "failure",
+  "query": "\"data flywheel\" failure",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22data+flywheel%22+failure&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:09:00.557203+00:00",
+  "completed_at": "2026-07-11T14:09:10.856182+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "HTTPError: HTTP Error 429: Too Many Requests",
+  "works": [
+    {
+      "DOI": "10.36040/flywheel.v13i1.4743",
+      "title": [
+        "Integrasi Failure Tracking Matrix (FTM) dan Failure Modes and Effects Analysis (FMEA) untuk Perbaikan Sistem Perawatan Mesin Pulverizer"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            5,
+            13
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.36040/flywheel.v13i1.4743",
+      "type": "journal-article"
+    },
+    {
+      "DOI": "10.21236/ada416039",
+      "title": [
+        "LMTV Flywheel Housing and Driveline Failure Investigation. Part 1 of 3"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1998,
+            8,
+            17
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.21236/ada416039",
+      "type": "report"
+    },
+    {
+      "DOI": "10.1016/j.engfailanal.2004.06.004",
+      "title": [
+        "Failure analysis of diesel engine flywheel ring-gears"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2005,
+            2
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1016/j.engfailanal.2004.06.004",
+      "type": "journal-article"
+    }
+  ]
+}

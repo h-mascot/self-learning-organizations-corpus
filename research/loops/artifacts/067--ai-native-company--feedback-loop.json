@@ -1,0 +1,61 @@
+{
+  "loop": 67,
+  "topic": "AI native company",
+  "facet": "feedback loop",
+  "query": "\"AI native company\" feedback loop",
+  "url": "https://api.crossref.org/works?query.bibliographic=%22AI+native+company%22+feedback+loop&rows=3&select=DOI%2Ctitle%2Cpublished%2CURL%2Ctype",
+  "started_at": "2026-07-11T14:08:53.366118+00:00",
+  "completed_at": "2026-07-11T14:08:53.878848+00:00",
+  "http_status": 200,
+  "outcome": "productive",
+  "error": "",
+  "works": [
+    {
+      "DOI": "10.2139/ssrn.3554286",
+      "title": [
+        "AI and Business Model Innovation: Leveraging the AI Feedback Loop"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.2139/ssrn.3554286",
+      "type": "journal-article"
+    },
+    {
+      "DOI": "10.2139/ssrn.6617798",
+      "title": [
+        "When Conformity Becomes Structural: A Coupled Feedback Loop Model of Agentic AI and Principal Overconfidence"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.2139/ssrn.6617798",
+      "type": "posted-content"
+    },
+    {
+      "DOI": "10.1201/9788770041478-7",
+      "title": [
+        "Closed Loop Automation"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            15
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1201/9788770041478-7",
+      "type": "book-chapter"
+    }
+  ]
+}
