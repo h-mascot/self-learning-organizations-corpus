@@ -1,0 +1,45 @@
+{
+  "asr_models": [
+    "whisper-large-v3-turbo"
+  ],
+  "availability": "public",
+  "caption_error": "YouTube captions unavailable; recovered from cached signed audio URL.",
+  "channel": "Deloitte US",
+  "duration_seconds": 130,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "f24f2e99d3ff5ca47a3129ac4accfb27158b9b4ed27cb9148317c6e230f7eef4",
+    "source-info.json": "fbe54cf8e405bf7f15aa278890de6b80ea7822eb20efb34a3823f1f848cf4957"
+  },
+  "raw_path": "raw/youtube/2022-07-07--adaptive-enterprise-pillar-1-built-on-purpose-and-meaning--deloitte-us--ofWUzlgKF3o",
+  "relevance_categories": [
+    "adaptive-enterprise"
+  ],
+  "relevance_evidence": [
+    "adaptable organization",
+    "adaptable organizations"
+  ],
+  "relevance_spans": [
+    {
+      "category": "adaptive-enterprise",
+      "phrase": "adaptable organization",
+      "text": "Adaptable organizations are built on purpose and meaning,",
+      "timestamp": "0:03"
+    },
+    {
+      "category": "adaptive-enterprise",
+      "phrase": "adaptable organizations",
+      "text": "Adaptable organizations are built on purpose and meaning,",
+      "timestamp": "0:03"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 27,
+  "source_url": "https://www.youtube.com/watch?v=ofWUzlgKF3o",
+  "title": "Adaptive Enterprise Pillar 1: Built on purpose and meaning",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "sources/youtube/accepted/2022-07-07--adaptive-enterprise-pillar-1-built-on-purpose-and-meaning--deloitte-us--ofWUzlgKF3o.md",
+  "transcript_sha256": "9eb159b76deebb83cfaea9a418bd4831b1e27d5edd965d80fae815ec5bedc6fb",
+  "upload_date": "20220707",
+  "video_id": "ofWUzlgKF3o"
+}

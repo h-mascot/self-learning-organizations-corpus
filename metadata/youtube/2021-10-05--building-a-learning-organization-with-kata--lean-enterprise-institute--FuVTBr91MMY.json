@@ -1,0 +1,45 @@
+{
+  "asr_models": [
+    "whisper-large-v3-turbo"
+  ],
+  "availability": "public",
+  "caption_error": "YouTube captions unavailable; recovered from cached signed audio URL.",
+  "channel": "Lean Enterprise Institute",
+  "duration_seconds": 211,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "14f5d96421a5609b26a88f97b1a8430ab01d4d82e24a5f798a528e5c5d931d80",
+    "source-info.json": "9beb2887ac81cac97618323c8f04a51a665419bc95a8e2f96ea3a4e7fb768724"
+  },
+  "raw_path": "raw/youtube/2021-10-05--building-a-learning-organization-with-kata--lean-enterprise-institute--FuVTBr91MMY",
+  "relevance_categories": [
+    "continuous-improvement"
+  ],
+  "relevance_evidence": [
+    "experiment their way forward",
+    "pdsa"
+  ],
+  "relevance_spans": [
+    {
+      "category": "continuous-improvement",
+      "phrase": "experiment their way forward",
+      "text": "how to experiment their way forward. They're learning how to improve patient care, every",
+      "timestamp": "0:06"
+    },
+    {
+      "category": "continuous-improvement",
+      "phrase": "pdsa",
+      "text": "And then we PDSA through that process.",
+      "timestamp": "2:18"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 37,
+  "source_url": "https://www.youtube.com/watch?v=FuVTBr91MMY",
+  "title": "Building a Learning Organization With Kata",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "sources/youtube/accepted/2021-10-05--building-a-learning-organization-with-kata--lean-enterprise-institute--FuVTBr91MMY.md",
+  "transcript_sha256": "4f58c52d72fce7274cf9ade336f43a76f469a5c99807d37e8a22bf5b2ff6e8e4",
+  "upload_date": "20211005",
+  "video_id": "FuVTBr91MMY"
+}

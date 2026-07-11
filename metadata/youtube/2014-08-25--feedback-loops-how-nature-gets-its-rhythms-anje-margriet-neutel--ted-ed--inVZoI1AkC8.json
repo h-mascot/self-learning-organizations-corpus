@@ -1,0 +1,38 @@
+{
+  "asr_models": [
+    "whisper-large-v3"
+  ],
+  "availability": "public",
+  "caption_error": "YouTube captions unavailable; recovered from cached signed audio URL.",
+  "channel": "TED-Ed",
+  "duration_seconds": 310,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "1e9d0dc399c017c693e6ee188f0ce5dbf5b040091c75eaf7ff5d6d2f063ceb0c",
+    "source-info.json": "b1dc7f1a7f313a1add701670bf34ee0979c698adb68f2a267a597adfa043fa69"
+  },
+  "raw_path": "raw/youtube/2014-08-25--feedback-loops-how-nature-gets-its-rhythms-anje-margriet-neutel--ted-ed--inVZoI1AkC8",
+  "relevance_categories": [
+    "feedback-systems"
+  ],
+  "relevance_evidence": [
+    "feedback loop"
+  ],
+  "relevance_spans": [
+    {
+      "category": "feedback-systems",
+      "phrase": "feedback loop",
+      "text": "The key element, whether in sound, the environment, or social science, is a phenomenon called mutual causal interaction, where X affects Y, Y affects X, and so on, creating an ongoing process called a feedback loop.",
+      "timestamp": "0:22"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 49,
+  "source_url": "https://www.youtube.com/watch?v=inVZoI1AkC8",
+  "title": "Feedback loops: How nature gets its rhythms - Anje-Margriet Neutel",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "sources/youtube/accepted/2014-08-25--feedback-loops-how-nature-gets-its-rhythms-anje-margriet-neutel--ted-ed--inVZoI1AkC8.md",
+  "transcript_sha256": "9fc190efe2a7ac10a3617e705b777d6b7c1dbd4e1e58b965c121faf825026f97",
+  "upload_date": "20140825",
+  "video_id": "inVZoI1AkC8"
+}

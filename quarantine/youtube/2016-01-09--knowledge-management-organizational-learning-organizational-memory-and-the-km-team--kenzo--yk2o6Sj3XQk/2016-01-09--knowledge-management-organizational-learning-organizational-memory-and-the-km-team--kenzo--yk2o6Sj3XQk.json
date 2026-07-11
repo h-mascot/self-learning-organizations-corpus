@@ -1,0 +1,24 @@
+{
+  "availability": "public",
+  "caption_error": "",
+  "channel": "Kenzo",
+  "duration_seconds": 194,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "1e875f4a5e0c08044a6396649233c4d7e93e53907b81e2f3d8d5efce6ef9343f",
+    "source-info.json": "d10a467fb18359be96649e86995c01a89ac75f04c7cf22faf35ed1a754f682bd"
+  },
+  "raw_path": "raw/youtube/2016-01-09--knowledge-management-organizational-learning-organizational-memory-and-the-km-team--kenzo--yk2o6Sj3XQk",
+  "relevance_categories": [],
+  "relevance_evidence": [],
+  "relevance_spans": [],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 7,
+  "source_url": "https://www.youtube.com/watch?v=yk2o6Sj3XQk",
+  "title": "Knowledge Management - Organizational Learning, Organizational Memory, and The KM Team",
+  "transcript_method": "groq-whisper-large-v3-turbo",
+  "transcript_path": "transcripts/youtube/2016-01-09--knowledge-management-organizational-learning-organizational-memory-and-the-km-team--kenzo--yk2o6Sj3XQk.md",
+  "transcript_sha256": "2ba8e80f8e00d325fadf0878d91683326b2a3cc7f81f63648370024d56ee6504",
+  "upload_date": "20160109",
+  "video_id": "yk2o6Sj3XQk"
+}

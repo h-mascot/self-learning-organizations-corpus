@@ -1,0 +1,38 @@
+{
+  "asr_models": [
+    "whisper-large-v3-turbo"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: Unable to download video subtitles for 'en-orig': HTTP Error 429: Too Many Requests",
+  "channel": "CNBC Television",
+  "duration_seconds": 224,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "75583e687dde883181209f2109b25e77e4f89f1e0fa7008d1c29f3fb2c51c0db",
+    "source-info.json": "36a8639220fb4b7866f6c6f7bde0eb2aa5268b7990c72ff180f11e8bc7062cb1"
+  },
+  "raw_path": "raw/youtube/2022-05-17--brex-ceo-breaks-down-how-the-fintech-company-disrupts-corporate-finances--cnbc-television--UyS2n_Xd9F8",
+  "relevance_categories": [
+    "named-lanes"
+  ],
+  "relevance_evidence": [
+    "brex"
+  ],
+  "relevance_spans": [
+    {
+      "category": "named-lanes",
+      "phrase": "brex",
+      "text": "And number two this year is Brex. It's a financial services company helping other companies with spend management and bill pay software.",
+      "timestamp": "0:14"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 44,
+  "source_url": "https://www.youtube.com/watch?v=UyS2n_Xd9F8",
+  "title": "Brex CEO breaks down how the fintech company disrupts corporate finances",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "sources/youtube/accepted/2022-05-17--brex-ceo-breaks-down-how-the-fintech-company-disrupts-corporate-finances--cnbc-television--UyS2n_Xd9F8.md",
+  "transcript_sha256": "eaad15880cfe07094f772eb8089330f20a9268a8b261c33184f626968b183b28",
+  "upload_date": "20220517",
+  "video_id": "UyS2n_Xd9F8"
+}

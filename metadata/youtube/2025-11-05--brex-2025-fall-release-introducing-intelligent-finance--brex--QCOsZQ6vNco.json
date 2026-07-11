@@ -1,0 +1,43 @@
+{
+  "availability": "public",
+  "caption_error": "Command '['yt-dlp', '--write-subs', '--write-auto-subs', '--sub-langs', 'en-orig,en', '--sub-format', 'vtt', '--skip-download', '-o', '/tmp/youtube-ingest-rl6zp2ex/caption.%(ext)s', 'https://www.youtube.com/watch?v=QCOsZQ6vNco']' returned non-zero exit status 1.",
+  "channel": "Brex",
+  "duration_seconds": 332,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "35465b4d78191ab48dd739fc1d7a7c1adfbc3c41003c1c0bd0e27a27bcd52fa3",
+    "source-info.json": "de1970ae4b8e2b9bd7b2731454a28447408d570aa790882d0c325a59a8d907f5"
+  },
+  "raw_path": "raw/youtube/2025-11-05--brex-2025-fall-release-introducing-intelligent-finance--brex--QCOsZQ6vNco",
+  "relevance_categories": [
+    "agent-operations",
+    "named-lanes"
+  ],
+  "relevance_evidence": [
+    "agents",
+    "brex"
+  ],
+  "relevance_spans": [
+    {
+      "category": "agent-operations",
+      "phrase": "agents",
+      "text": "We're here today to talk about agents on Brex.",
+      "timestamp": "0:12"
+    },
+    {
+      "category": "named-lanes",
+      "phrase": "brex",
+      "text": "Hi, I'm James. I lead engineering here at Brex.",
+      "timestamp": "0:00"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 100,
+  "source_url": "https://www.youtube.com/watch?v=QCOsZQ6vNco",
+  "title": "Brex 2025 Fall Release: Introducing Intelligent Finance",
+  "transcript_method": "groq-whisper-large-v3-turbo",
+  "transcript_path": "sources/youtube/accepted/2025-11-05--brex-2025-fall-release-introducing-intelligent-finance--brex--QCOsZQ6vNco.md",
+  "transcript_sha256": "f3dacd6d2096b9289f0afef704cd3d91dae619a4a6594e60fe6d9f3ac8e9d7fc",
+  "upload_date": "20251105",
+  "video_id": "QCOsZQ6vNco"
+}

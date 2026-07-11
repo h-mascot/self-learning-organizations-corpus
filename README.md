@@ -4,14 +4,14 @@ Open research corpus about self-learning, self-improving, AI-native organization
 
 ## Corpus status
 
-- Discovered sources (including rejected controls): **6**
-- Validated relevant sources: **5**
-- Complete timestamped transcripts: **5**
+- Discovered sources (including rejected controls): **65**
+- Validated relevant sources: **64**
+- Complete timestamped transcripts: **64**
 - Rejected sources excluded from validated totals: **1**
 
 | Platform | Discovered sources |
 | --- | ---: |
-| youtube | 6 |
+| youtube | 65 |
 | arxiv | 0 |
 | x | 0 |
 | reddit | 0 |
@@ -26,14 +26,18 @@ Open research corpus about self-learning, self-improving, AI-native organization
 
 - `sources/<platform>/accepted/` contains validated, relevant source records.
 - `sources/<platform>/rejected/` preserves false positives and other excluded evidence.
+- `raw/youtube/` preserves immutable caption/ASR evidence and source metadata.
+- `metadata/youtube/` records per-video hashes, relevance spans, and retrieval details.
 - `schema/source.schema.json` defines canonical metadata.
 - `metadata/sources.csv` is the generated inventory.
 - `metadata/rejected-sources.csv` is the generated rejection log.
 - `metadata/migration-manifest.csv` maps legacy paths to canonical paths and hashes.
 - `metadata/statistics.json` is the generated machine-readable status.
 - `research/` contains taxonomy, reports, synthesis, and progress checkpoints.
+- `research/recursive-loops/` contains the validated 200-loop dependent research DAG.
 
 Canonical filenames are `<date>--<normalized-title>--<publisher>--<stable-id>.md`. Run `make check` before committing. Run `make generate` after changing corpus records; generated files must remain reproducible.
+Run `python3 scripts/validate_youtube.py` for the exact YouTube evidence count and `python3 scripts/validate_genuine_recursive_research.py` for the recursive DAG gate.
 
 ## Counting policy
 

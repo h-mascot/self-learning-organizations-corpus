@@ -1,0 +1,38 @@
+{
+  "asr_models": [
+    "whisper-large-v3"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: Unable to download video subtitles for 'en-orig': HTTP Error 429: Too Many Requests",
+  "channel": "james swanson",
+  "duration_seconds": 311,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "0c5f860a08da66c6d0f906c29cf5a1553f1c8eeb9784bebb661a4c2330f2f631",
+    "source-info.json": "cdc3bf2b329f90875ef95067363670dd853e73d19ef72b05af4354a649d7ffc5"
+  },
+  "raw_path": "raw/youtube/2014-10-30--systems-thinking--james-swanson--GPW0j2Bo_eY",
+  "relevance_categories": [
+    "feedback-systems"
+  ],
+  "relevance_evidence": [
+    "systems thinking"
+  ],
+  "relevance_spans": [
+    {
+      "category": "feedback-systems",
+      "phrase": "systems thinking",
+      "text": "Systems Thinking. A way to maximize program effectiveness. Systems Thinking. Maybe you've",
+      "timestamp": "0:00"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 61,
+  "source_url": "https://www.youtube.com/watch?v=GPW0j2Bo_eY",
+  "title": "Systems Thinking!",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "sources/youtube/accepted/2014-10-30--systems-thinking--james-swanson--GPW0j2Bo_eY.md",
+  "transcript_sha256": "17c9564c817f750aba8aab9284e5030f6641781e23210c4024e1a9326d4970ba",
+  "upload_date": "20141030",
+  "video_id": "GPW0j2Bo_eY"
+}

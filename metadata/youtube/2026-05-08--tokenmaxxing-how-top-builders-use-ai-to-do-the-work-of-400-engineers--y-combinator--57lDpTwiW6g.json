@@ -1,0 +1,43 @@
+{
+  "availability": "public-at-ingestion",
+  "caption_error": null,
+  "channel": "Y Combinator",
+  "duration_seconds": 2489,
+  "license": null,
+  "raw_files": {
+    "legacy-transcript.md": "fe200c5d020acfd3050851b7f947dda8bc23e40fb1cf6992e70eca1ec8252a72",
+    "source-info.json": "bd67f6f3e568e4702199d22c252311e3e410446a65cde99f097625bcb6efebe5"
+  },
+  "raw_path": "raw/youtube/2026-05-08--tokenmaxxing-how-top-builders-use-ai-to-do-the-work-of-400-engineers--y-combinator--57lDpTwiW6g",
+  "relevance_categories": [
+    "agent-operations",
+    "named-lanes"
+  ],
+  "relevance_evidence": [
+    "agents",
+    "y combinator"
+  ],
+  "relevance_spans": [
+    {
+      "category": "agent-operations",
+      "phrase": "agents",
+      "text": "you know, 15 agents at a time to do so.",
+      "timestamp": "31:08"
+    },
+    {
+      "category": "named-lanes",
+      "phrase": "y combinator",
+      "text": "while also being the CEO of Y Combinator",
+      "timestamp": "38:11"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 1182,
+  "source_url": "https://youtu.be/57lDpTwiW6g",
+  "title": "Tokenmaxxing: How Top Builders Use AI To Do The Work Of 400 Engineers",
+  "transcript_method": "legacy-youtube-captions",
+  "transcript_path": "sources/youtube/accepted/2026-05-08--tokenmaxxing-how-top-builders-use-ai-to-do-the-work-of-400-engineers--y-combinator--57lDpTwiW6g.md",
+  "transcript_sha256": "59a36c2ad4627adceaf5bf2fa1a7eac55108f54934135abd1f37c817aee5f4b5",
+  "upload_date": "20260508",
+  "video_id": "57lDpTwiW6g"
+}

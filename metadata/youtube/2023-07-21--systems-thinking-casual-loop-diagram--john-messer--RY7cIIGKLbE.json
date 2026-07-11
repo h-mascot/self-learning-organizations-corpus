@@ -1,0 +1,38 @@
+{
+  "asr_models": [
+    "whisper-large-v3-turbo"
+  ],
+  "availability": "public",
+  "caption_error": "YouTube captions unavailable; recovered from cached signed audio URL.",
+  "channel": "John Messer",
+  "duration_seconds": 395,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "e6ab4e057818a78d94937222ba9c98783dcd1fbb114562e590266c6d3d8cfe9d",
+    "source-info.json": "e5c06e73f2553e83f6152c03f4564f4d23e07f70ad0d3769dfa986103b026f3d"
+  },
+  "raw_path": "raw/youtube/2023-07-21--systems-thinking-casual-loop-diagram--john-messer--RY7cIIGKLbE",
+  "relevance_categories": [
+    "feedback-systems"
+  ],
+  "relevance_evidence": [
+    "systems thinking"
+  ],
+  "relevance_spans": [
+    {
+      "category": "feedback-systems",
+      "phrase": "systems thinking",
+      "text": "And today I'm going to share with you Part 4 of our Systems Thinking Series.",
+      "timestamp": "0:12"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 108,
+  "source_url": "https://www.youtube.com/watch?v=RY7cIIGKLbE",
+  "title": "Systems Thinking   Casual Loop Diagram",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "sources/youtube/accepted/2023-07-21--systems-thinking-casual-loop-diagram--john-messer--RY7cIIGKLbE.md",
+  "transcript_sha256": "baf7f7b62ffdfdc2587ccfcdfbb3d73cafa42d7019dbc917e5cc2effb17e0bab",
+  "upload_date": "20230721",
+  "video_id": "RY7cIIGKLbE"
+}

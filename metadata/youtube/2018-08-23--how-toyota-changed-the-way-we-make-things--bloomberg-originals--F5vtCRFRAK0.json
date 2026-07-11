@@ -1,0 +1,38 @@
+{
+  "asr_models": [
+    "whisper-large-v3"
+  ],
+  "availability": "public",
+  "caption_error": "YouTube captions unavailable; recovered from cached signed audio URL.",
+  "channel": "Bloomberg Originals",
+  "duration_seconds": 292,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "3f8d3bad898cce28b267fd381fcdfe2be18acdcf2a4cb373979b9a782636c95b",
+    "source-info.json": "f52958ff2ba56a878d1b417d9a361339714d606cbf176d35cb8b2c6b714eff59"
+  },
+  "raw_path": "raw/youtube/2018-08-23--how-toyota-changed-the-way-we-make-things--bloomberg-originals--F5vtCRFRAK0",
+  "relevance_categories": [
+    "continuous-improvement"
+  ],
+  "relevance_evidence": [
+    "kaizen"
+  ],
+  "relevance_spans": [
+    {
+      "category": "continuous-improvement",
+      "phrase": "kaizen",
+      "text": "called Kaizen,",
+      "timestamp": "3:05"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 55,
+  "source_url": "https://www.youtube.com/watch?v=F5vtCRFRAK0",
+  "title": "How Toyota Changed The Way We Make Things",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "sources/youtube/accepted/2018-08-23--how-toyota-changed-the-way-we-make-things--bloomberg-originals--F5vtCRFRAK0.md",
+  "transcript_sha256": "2f1323869be90d194f683af9cc8115ad939410adb97911b6368f34dcea6ccf4d",
+  "upload_date": "20180823",
+  "video_id": "F5vtCRFRAK0"
+}

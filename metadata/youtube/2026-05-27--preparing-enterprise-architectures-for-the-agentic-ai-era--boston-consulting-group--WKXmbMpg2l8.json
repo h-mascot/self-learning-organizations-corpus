@@ -1,0 +1,45 @@
+{
+  "asr_models": [
+    "whisper-large-v3"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: Unable to download video subtitles for 'en-orig': HTTP Error 429: Too Many Requests",
+  "channel": "Boston Consulting Group",
+  "duration_seconds": 269,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "528ae2e65a0646f854ee0c3b23fb0e6f923a7366fd95f4a98d6fa3e809825cc8",
+    "source-info.json": "c2dbe2f3cc8ed61e69f73c8d199f67f18df2c28ea7cd91be8e5eaeee1e163f32"
+  },
+  "raw_path": "raw/youtube/2026-05-27--preparing-enterprise-architectures-for-the-agentic-ai-era--boston-consulting-group--WKXmbMpg2l8",
+  "relevance_categories": [
+    "agent-operations"
+  ],
+  "relevance_evidence": [
+    "agents",
+    "ai agent"
+  ],
+  "relevance_spans": [
+    {
+      "category": "agent-operations",
+      "phrase": "ai agent",
+      "text": "So what we see with a lot of the customers with whom we partner is this desire for their AI agents to work where work actually happens.",
+      "timestamp": "0:34"
+    },
+    {
+      "category": "agent-operations",
+      "phrase": "agents",
+      "text": "So what we see with a lot of the customers with whom we partner is this desire for their AI agents to work where work actually happens.",
+      "timestamp": "0:34"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 50,
+  "source_url": "https://www.youtube.com/watch?v=WKXmbMpg2l8",
+  "title": "Preparing Enterprise Architectures for the Agentic AI Era",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "sources/youtube/accepted/2026-05-27--preparing-enterprise-architectures-for-the-agentic-ai-era--boston-consulting-group--WKXmbMpg2l8.md",
+  "transcript_sha256": "bf4490e71c206398ba19388261b39947d902770dfa6556b556d2e002cbd952bc",
+  "upload_date": "20260527",
+  "video_id": "WKXmbMpg2l8"
+}

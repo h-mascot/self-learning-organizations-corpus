@@ -1,0 +1,35 @@
+{
+  "availability": "public",
+  "caption_error": "Command '['yt-dlp', '--write-subs', '--write-auto-subs', '--sub-langs', 'en-orig,en', '--sub-format', 'vtt', '--skip-download', '-o', '/tmp/youtube-ingest-8kun778t/caption.%(ext)s', 'https://www.youtube.com/watch?v=yc-V8FTDx_Q']' returned non-zero exit status 1.",
+  "channel": "Scale AI",
+  "duration_seconds": 180,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "f887ea8a50d0a054ff296a5285bdad26563a7958f69cae2578163d25fcbd0cb2",
+    "source-info.json": "6c88480ff23d64d84fe4256bcefb29eee69e3467abc848d7dbbf39b15ab43e4f"
+  },
+  "raw_path": "raw/youtube/2021-09-29--brex-and-scale-document-ai--scale-ai--yc-V8FTDx_Q",
+  "relevance_categories": [
+    "named-lanes"
+  ],
+  "relevance_evidence": [
+    "brex"
+  ],
+  "relevance_spans": [
+    {
+      "category": "named-lanes",
+      "phrase": "brex",
+      "text": "At Brex, we're building all-in-one finance for the next generation of businesses.",
+      "timestamp": "0:00"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 44,
+  "source_url": "https://www.youtube.com/watch?v=yc-V8FTDx_Q",
+  "title": "Brex and Scale Document AI",
+  "transcript_method": "groq-whisper-large-v3-turbo",
+  "transcript_path": "sources/youtube/accepted/2021-09-29--brex-and-scale-document-ai--scale-ai--yc-V8FTDx_Q.md",
+  "transcript_sha256": "d57c242530374d55b4957f1dae61a7bbb7ab7336010bffdbc41aeb97a2da317a",
+  "upload_date": "20210929",
+  "video_id": "yc-V8FTDx_Q"
+}

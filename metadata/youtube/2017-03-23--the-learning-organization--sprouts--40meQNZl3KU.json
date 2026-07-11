@@ -1,0 +1,53 @@
+{
+  "asr_models": [
+    "whisper-large-v3"
+  ],
+  "availability": null,
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: Unable to download video subtitles for 'en-orig': HTTP Error 429: Too Many Requests",
+  "channel": "Sprouts",
+  "duration_seconds": 242,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "f76c59140d217206e4202946dee2d1667cfb4a742b86d9177a5eed09fef604a2",
+    "source-info.json": "b7fcbed20716271af8114a9fb6fe0b27e0eb6ee268ac0f58b1d8b91a5d909940"
+  },
+  "raw_path": "raw/youtube/2017-03-23--the-learning-organization--sprouts--40meQNZl3KU",
+  "relevance_categories": [
+    "organizational-learning",
+    "feedback-systems"
+  ],
+  "relevance_evidence": [
+    "feedback loop",
+    "learning organization",
+    "systems thinking"
+  ],
+  "relevance_spans": [
+    {
+      "category": "organizational-learning",
+      "phrase": "learning organization",
+      "text": "A learning organization encourages personal mastery and cultivates open feedback to see problems and opportunities on all levels.",
+      "timestamp": "0:00"
+    },
+    {
+      "category": "feedback-systems",
+      "phrase": "feedback loop",
+      "text": "They design and implement feedback loops.",
+      "timestamp": "0:50"
+    },
+    {
+      "category": "feedback-systems",
+      "phrase": "systems thinking",
+      "text": "A learning organization prospers when all members share a common vision That way employees can understand the importance of their role connect the dots and develop systems thinking When goals are clear",
+      "timestamp": "2:55"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 47,
+  "source_url": "https://www.youtube.com/watch?v=40meQNZl3KU",
+  "title": "The Learning Organization",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "sources/youtube/accepted/2017-03-23--the-learning-organization--sprouts--40meQNZl3KU.md",
+  "transcript_sha256": "fee45f900b23d850c2532b89be26859adcf5f3022d52aab60ffccc5df8c49c23",
+  "upload_date": "20170323",
+  "video_id": "40meQNZl3KU"
+}

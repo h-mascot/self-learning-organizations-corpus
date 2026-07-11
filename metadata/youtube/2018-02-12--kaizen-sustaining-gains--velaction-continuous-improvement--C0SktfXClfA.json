@@ -1,0 +1,38 @@
+{
+  "asr_models": [
+    "whisper-large-v3-turbo"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: Unable to download video subtitles for 'en-orig': HTTP Error 429: Too Many Requests",
+  "channel": "Velaction Continuous Improvement",
+  "duration_seconds": 185,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "d62fca33a68316aab10d36e4d6e5559c3a4c3f81410c259ba04b42fec84be282",
+    "source-info.json": "442e55d0aefcd543d6aaa26768a86b13f50e0d869cad215a6676cea05a18486c"
+  },
+  "raw_path": "raw/youtube/2018-02-12--kaizen-sustaining-gains--velaction-continuous-improvement--C0SktfXClfA",
+  "relevance_categories": [
+    "continuous-improvement"
+  ],
+  "relevance_evidence": [
+    "kaizen"
+  ],
+  "relevance_spans": [
+    {
+      "category": "continuous-improvement",
+      "phrase": "kaizen",
+      "text": "We see a Kaizen event make changes that result in great gains. These are shown in green.",
+      "timestamp": "1:08"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 27,
+  "source_url": "https://www.youtube.com/watch?v=C0SktfXClfA",
+  "title": "Kaizen-Sustaining Gains",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "sources/youtube/accepted/2018-02-12--kaizen-sustaining-gains--velaction-continuous-improvement--C0SktfXClfA.md",
+  "transcript_sha256": "1e85950b1fd4dcc6da3bc4dff744d196ea5c80f2f238e61ad4a3d8165c5c8812",
+  "upload_date": "20180212",
+  "video_id": "C0SktfXClfA"
+}

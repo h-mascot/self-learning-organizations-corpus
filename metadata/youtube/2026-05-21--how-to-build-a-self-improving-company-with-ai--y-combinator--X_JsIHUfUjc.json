@@ -1,0 +1,51 @@
+{
+  "availability": "public-at-ingestion",
+  "caption_error": null,
+  "channel": "Y Combinator",
+  "duration_seconds": 808,
+  "license": null,
+  "raw_files": {
+    "legacy-transcript.md": "f6df46302d69b5fba98459dad6907f4c24a2cc0e619b0b7a81fd2f78bb5816ba",
+    "source-info.json": "1c3c154f4daa867b8dae9904fcb221de80f8cf5f26e77f95aed8e1c8e5805aef"
+  },
+  "raw_path": "raw/youtube/2026-05-21--how-to-build-a-self-improving-company-with-ai--y-combinator--X_JsIHUfUjc",
+  "relevance_categories": [
+    "ai-native-company",
+    "organizational-memory",
+    "agent-operations"
+  ],
+  "relevance_evidence": [
+    "ai agent",
+    "ai-native",
+    "company brain"
+  ],
+  "relevance_spans": [
+    {
+      "category": "ai-native-company",
+      "phrase": "ai-native",
+      "text": "with AI-native software. AI isn't the",
+      "timestamp": "2:21"
+    },
+    {
+      "category": "organizational-memory",
+      "phrase": "company brain",
+      "text": "about a company brain. And I know a",
+      "timestamp": "12:06"
+    },
+    {
+      "category": "agent-operations",
+      "phrase": "ai agent",
+      "text": "to an AI agent, and suddenly you can ask",
+      "timestamp": "10:31"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 416,
+  "source_url": "https://youtu.be/X_JsIHUfUjc",
+  "title": "How to Build a Self-Improving Company with AI",
+  "transcript_method": "legacy-youtube-captions",
+  "transcript_path": "sources/youtube/accepted/2026-05-21--how-to-build-a-self-improving-company-with-ai--y-combinator--X_JsIHUfUjc.md",
+  "transcript_sha256": "8c2f4083283e481a72020166143511b1c5cd446a91589e9fce7e346d455cdd6b",
+  "upload_date": "20260521",
+  "video_id": "X_JsIHUfUjc"
+}

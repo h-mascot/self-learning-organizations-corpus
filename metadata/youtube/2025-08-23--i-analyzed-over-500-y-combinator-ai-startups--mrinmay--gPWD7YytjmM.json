@@ -1,0 +1,45 @@
+{
+  "asr_models": [
+    "whisper-large-v3"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: Unable to download video subtitles for 'en-orig': HTTP Error 429: Too Many Requests",
+  "channel": "Mrinmay ",
+  "duration_seconds": 415,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "0b156d427aa07e78ce86cf6b2f7ab129fa65d7dceeb7a4e5333110d5b99a9dcf",
+    "source-info.json": "5d7a479218d7d11ba6c41a654f3065c7ab7bcf97eafe5b43ce86909ed603ab3c"
+  },
+  "raw_path": "raw/youtube/2025-08-23--i-analyzed-over-500-y-combinator-ai-startups--mrinmay--gPWD7YytjmM",
+  "relevance_categories": [
+    "agent-operations"
+  ],
+  "relevance_evidence": [
+    "agents",
+    "ai agent"
+  ],
+  "relevance_spans": [
+    {
+      "category": "agent-operations",
+      "phrase": "ai agent",
+      "text": "as services out of this 537 startups 151 are building AI agents and out of this 151 44 alone",
+      "timestamp": "2:32"
+    },
+    {
+      "category": "agent-operations",
+      "phrase": "agents",
+      "text": "a platform to create and run your own video rating agents I might need this",
+      "timestamp": "2:11"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 79,
+  "source_url": "https://www.youtube.com/watch?v=gPWD7YytjmM",
+  "title": "I Analyzed Over 500 Y Combinator AI Startups",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "sources/youtube/accepted/2025-08-23--i-analyzed-over-500-y-combinator-ai-startups--mrinmay--gPWD7YytjmM.md",
+  "transcript_sha256": "ed013fd8fbedf7dc44b7c9696d5012fa95234531297acfb6a4636fecf348bbfa",
+  "upload_date": "20250823",
+  "video_id": "gPWD7YytjmM"
+}

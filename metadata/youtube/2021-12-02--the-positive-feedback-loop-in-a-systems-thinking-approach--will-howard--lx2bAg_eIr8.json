@@ -1,0 +1,45 @@
+{
+  "asr_models": [
+    "whisper-large-v3-turbo"
+  ],
+  "availability": "public",
+  "caption_error": "YouTube captions unavailable; recovered from cached signed audio URL.",
+  "channel": "will howard",
+  "duration_seconds": 326,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "cc3974c7ca06d999bd1c78e2811f0c663150ffe8cf1ac95f5dd9c9e7061190fc",
+    "source-info.json": "24035141b61556884b851864c0db1ef1125454dd157de42157f98e0ba84fab79"
+  },
+  "raw_path": "raw/youtube/2021-12-02--the-positive-feedback-loop-in-a-systems-thinking-approach--will-howard--lx2bAg_eIr8",
+  "relevance_categories": [
+    "feedback-systems"
+  ],
+  "relevance_evidence": [
+    "feedback loop",
+    "systems thinking"
+  ],
+  "relevance_spans": [
+    {
+      "category": "feedback-systems",
+      "phrase": "feedback loop",
+      "text": "We will be looking at positive feedback loops within our chosen sustainability issue.",
+      "timestamp": "0:08"
+    },
+    {
+      "category": "feedback-systems",
+      "phrase": "systems thinking",
+      "text": "Hey guys, today we are going to use systems thinking to look at a physical system of an extensively discussed sustainability issue as a real working example.",
+      "timestamp": "0:00"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 46,
+  "source_url": "https://www.youtube.com/watch?v=lx2bAg_eIr8",
+  "title": "The positive feedback loop in a systems thinking approach",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "sources/youtube/accepted/2021-12-02--the-positive-feedback-loop-in-a-systems-thinking-approach--will-howard--lx2bAg_eIr8.md",
+  "transcript_sha256": "e41e87e8333573f9a8cf7c45b7c4f840f7490a62a57642fd907cedcfe61ea3d5",
+  "upload_date": "20211202",
+  "video_id": "lx2bAg_eIr8"
+}

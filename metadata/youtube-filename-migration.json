@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "video_id": "57lDpTwiW6g",
+      "old": "transcripts/youtube/57lDpTwiW6g.md",
+      "new": "transcripts/youtube/2026-05-08--tokenmaxxing-how-top-builders-use-ai-to-do-the-work-of-400-engineers--y-combinator--57lDpTwiW6g.md",
+      "status": "migrated"
+    },
+    {
+      "video_id": "B246K_G7mHU",
+      "old": "transcripts/youtube/B246K_G7mHU.md",
+      "new": "transcripts/youtube/2026-05-27--inside-yc-s-ai-playbook--y-combinator--B246K_G7mHU.md",
+      "status": "migrated"
+    },
+    {
+      "video_id": "EN7frwQIbKc",
+      "old": "transcripts/youtube/EN7frwQIbKc.md",
+      "new": "transcripts/youtube/2026-04-24--how-to-build-a-company-with-ai-from-the-ground-up--y-combinator--EN7frwQIbKc.md",
+      "status": "migrated"
+    },
+    {
+      "video_id": "X_JsIHUfUjc",
+      "old": "transcripts/youtube/X_JsIHUfUjc.md",
+      "new": "transcripts/youtube/2026-05-21--how-to-build-a-self-improving-company-with-ai--y-combinator--X_JsIHUfUjc.md",
+      "status": "migrated"
+    },
+    {
+      "video_id": "fVut0ceg2IY",
+      "old": "transcripts/youtube/fVut0ceg2IY.md",
+      "new": "quarantine/youtube/2026-06-22--book-an-opentable-icon-today--opentable-uk-and-ireland--fVut0ceg2IY.md",
+      "status": "quarantined-unrelated",
+      "reason": "Restaurant advertisement; no organizational learning or adaptive-organization content."
+    },
+    {
+      "video_id": "mPAHvz8kW24",
+      "old": "transcripts/youtube/mPAHvz8kW24.md",
+      "new": "transcripts/youtube/2026-06-10--the-most-ai-pilled-ceo-we-know--y-combinator--mPAHvz8kW24.md",
+      "status": "migrated"
+    }
+  ]
+}

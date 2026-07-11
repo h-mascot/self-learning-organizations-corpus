@@ -1,0 +1,60 @@
+{
+  "asr_models": [
+    "whisper-large-v3"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: Unable to download video subtitles for 'en-orig': HTTP Error 429: Too Many Requests",
+  "channel": "Management Courses - Mike Clayton",
+  "duration_seconds": 392,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "3bbada04625100edd1b5507235440134d841eeb2f8e497a238abe0ecf1967d26",
+    "source-info.json": "24724c84404a51aaa6d519b8e0349c2b02980741152edddb1d43a55face14e5b"
+  },
+  "raw_path": "raw/youtube/2021-04-08--what-is-peter-senge-s-learning-organization--management-courses-mike-clayton--k1k2h1l2VO0",
+  "relevance_categories": [
+    "organizational-learning",
+    "feedback-systems"
+  ],
+  "relevance_evidence": [
+    "feedback loop",
+    "learning organisation",
+    "learning organization",
+    "systems thinking"
+  ],
+  "relevance_spans": [
+    {
+      "category": "organizational-learning",
+      "phrase": "learning organization",
+      "text": "and its key insight was that of the learning organization.",
+      "timestamp": "0:33"
+    },
+    {
+      "category": "organizational-learning",
+      "phrase": "learning organisation",
+      "text": "His research resulted in the bestselling book, The Fifth Discipline, the art and practice of the learning organisation.",
+      "timestamp": "0:18"
+    },
+    {
+      "category": "feedback-systems",
+      "phrase": "feedback loop",
+      "text": "Rather, processes interact with one another to create a series of complex feedback loops.",
+      "timestamp": "5:11"
+    },
+    {
+      "category": "feedback-systems",
+      "phrase": "systems thinking",
+      "text": "And Senjay's fifth discipline is systems thinking. Systems thinking is about seeing the organisation",
+      "timestamp": "4:33"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 48,
+  "source_url": "https://www.youtube.com/watch?v=k1k2h1l2VO0",
+  "title": "What is Peter Senge's Learning Organization?",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "sources/youtube/accepted/2021-04-08--what-is-peter-senge-s-learning-organization--management-courses-mike-clayton--k1k2h1l2VO0.md",
+  "transcript_sha256": "054acf9f06971aef2ffb8de08c3d43f1208f473a700a3477c019a13d06a8cb91",
+  "upload_date": "20210408",
+  "video_id": "k1k2h1l2VO0"
+}

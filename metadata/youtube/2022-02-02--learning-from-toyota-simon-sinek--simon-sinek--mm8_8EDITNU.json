@@ -1,0 +1,38 @@
+{
+  "asr_models": [
+    "whisper-large-v3-turbo"
+  ],
+  "availability": "public",
+  "caption_error": "YouTube captions unavailable; recovered from cached signed audio URL.",
+  "channel": "Simon Sinek",
+  "duration_seconds": 183,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "2919a5f951cc882fefd623c91cb10f09d7260a81dc29556caa7d8d55551c840c",
+    "source-info.json": "287bee9374a923fafe298f40aa070a7ca886fad65745018eb93cdac97242ed60"
+  },
+  "raw_path": "raw/youtube/2022-02-02--learning-from-toyota-simon-sinek--simon-sinek--mm8_8EDITNU",
+  "relevance_categories": [
+    "continuous-improvement"
+  ],
+  "relevance_evidence": [
+    "kaizen"
+  ],
+  "relevance_spans": [
+    {
+      "category": "continuous-improvement",
+      "phrase": "kaizen",
+      "text": "and one of them is the Kaizen,",
+      "timestamp": "1:53"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 53,
+  "source_url": "https://www.youtube.com/watch?v=mm8_8EDITNU",
+  "title": "Learning from Toyota | Simon Sinek",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "sources/youtube/accepted/2022-02-02--learning-from-toyota-simon-sinek--simon-sinek--mm8_8EDITNU.md",
+  "transcript_sha256": "16124bbb2ba5082f6b39fe8b97fa3978f58ab5c258ea7bf9a3005b664e1c69ff",
+  "upload_date": "20220202",
+  "video_id": "mm8_8EDITNU"
+}

@@ -1,0 +1,27 @@
+{
+  "asr_models": [
+    "whisper-large-v3"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: Unable to download video subtitles for 'en-orig': HTTP Error 429: Too Many Requests",
+  "channel": "GCG Enterprise Solutions",
+  "duration_seconds": 124,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "b9a630df0f02363b95710f768a37a000a928a72b0b6b98cb3cb37718189630b2",
+    "source-info.json": "f96cf62437055a876376c51769e7e3f1948b69cdc791d0034e33fcca23a8ff61"
+  },
+  "raw_path": "raw/youtube/2021-11-15--what-exactly-is-adaptive-case-management--gcg-enterprise-solutions--LRe3ffFb6AI",
+  "relevance_categories": [],
+  "relevance_evidence": [],
+  "relevance_spans": [],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 26,
+  "source_url": "https://www.youtube.com/watch?v=LRe3ffFb6AI",
+  "title": "What exactly is adaptive case management",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "transcripts/youtube/2021-11-15--what-exactly-is-adaptive-case-management--gcg-enterprise-solutions--LRe3ffFb6AI.md",
+  "transcript_sha256": "32d3125b254eb183775f3c6d37467068e79e862a93d975e6fb52313650411a12",
+  "upload_date": "20211115",
+  "video_id": "LRe3ffFb6AI"
+}

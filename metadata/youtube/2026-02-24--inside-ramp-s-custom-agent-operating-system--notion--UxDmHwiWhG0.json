@@ -1,0 +1,46 @@
+{
+  "asr_models": [
+    "whisper-large-v3"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nWARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests",
+  "channel": "Notion",
+  "duration_seconds": 120,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "6af9931374ffb8b4538b0c660a1d2defce789415b1d3795aca76675c351f2b7a",
+    "source-info.json": "caa5e9e0bcb0fbedc17f706fabf890b50fe32c14776b279042d84d1b6c8f498a"
+  },
+  "raw_path": "raw/youtube/2026-02-24--inside-ramp-s-custom-agent-operating-system--notion--UxDmHwiWhG0",
+  "relevance_categories": [
+    "agent-operations",
+    "named-lanes"
+  ],
+  "relevance_evidence": [
+    "agents",
+    "ramp"
+  ],
+  "relevance_spans": [
+    {
+      "category": "agent-operations",
+      "phrase": "agents",
+      "text": "Notion Custom Agents allow us to give the team that lens into how they can think about not just doing work with AI,",
+      "timestamp": "0:13"
+    },
+    {
+      "category": "named-lanes",
+      "phrase": "ramp",
+      "text": "What we're really focused on this year is turning everybody at Ramp into a builder.",
+      "timestamp": "0:09"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 22,
+  "source_url": "https://www.youtube.com/watch?v=UxDmHwiWhG0",
+  "title": "Inside Ramp\u2019s Custom Agent Operating System",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "sources/youtube/accepted/2026-02-24--inside-ramp-s-custom-agent-operating-system--notion--UxDmHwiWhG0.md",
+  "transcript_sha256": "5623aa28de24178c81c4bdf9357a48065b9b60ccc028060b1aa13d9dca489e52",
+  "upload_date": "20260224",
+  "video_id": "UxDmHwiWhG0"
+}

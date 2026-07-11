@@ -1,0 +1,38 @@
+{
+  "asr_models": [
+    "whisper-large-v3"
+  ],
+  "availability": "public",
+  "caption_error": "YouTube captions unavailable; recovered from cached signed audio URL.",
+  "channel": "Toyota Forklifts",
+  "duration_seconds": 379,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "d40a008071ae725589c4dac578bc2d841308af92248224b15227b3f6150d816f",
+    "source-info.json": "275200b52466b80f3e02f0c4ba81c23180a529d5ccbbbf7fb66933de48a9fd30"
+  },
+  "raw_path": "raw/youtube/2018-06-25--toyota-material-handling-why-5s--toyota-forklifts--CcbogALFNX0",
+  "relevance_categories": [
+    "continuous-improvement"
+  ],
+  "relevance_evidence": [
+    "continuous improvement"
+  ],
+  "relevance_spans": [
+    {
+      "category": "continuous-improvement",
+      "phrase": "continuous improvement",
+      "text": "The foundation of Lean Management and your continuous improvement journey begins with five disciplines.",
+      "timestamp": "0:00"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 67,
+  "source_url": "https://www.youtube.com/watch?v=CcbogALFNX0",
+  "title": "Toyota Material Handling | Why 5S?",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "sources/youtube/accepted/2018-06-25--toyota-material-handling-why-5s--toyota-forklifts--CcbogALFNX0.md",
+  "transcript_sha256": "2896c112343b69636c02355e495bf990fa272d587a44f85d3e4109b0875906f9",
+  "upload_date": "20180625",
+  "video_id": "CcbogALFNX0"
+}

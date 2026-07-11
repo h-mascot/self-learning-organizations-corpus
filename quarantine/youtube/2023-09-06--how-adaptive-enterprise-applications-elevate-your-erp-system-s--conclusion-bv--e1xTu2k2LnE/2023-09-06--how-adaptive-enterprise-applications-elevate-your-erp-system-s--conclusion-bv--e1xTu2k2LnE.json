@@ -1,0 +1,27 @@
+{
+  "asr_models": [
+    "whisper-large-v3"
+  ],
+  "availability": "public",
+  "caption_error": "YouTube captions unavailable; recovered from cached signed audio URL.",
+  "channel": "Conclusion BV",
+  "duration_seconds": 120,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "7949b29878fc3ff29e26ab7e45632e2fa7fbdf5850e3d8b2026dcf8068a0c8ee",
+    "source-info.json": "ca22928aa10c4571348d8852a9c07536c6aab36a9a724506bf607d8ad06342ec"
+  },
+  "raw_path": "raw/youtube/2023-09-06--how-adaptive-enterprise-applications-elevate-your-erp-system-s--conclusion-bv--e1xTu2k2LnE",
+  "relevance_categories": [],
+  "relevance_evidence": [],
+  "relevance_spans": [],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 18,
+  "source_url": "https://www.youtube.com/watch?v=e1xTu2k2LnE",
+  "title": "How Adaptive Enterprise Applications Elevate Your ERP System's",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "transcripts/youtube/2023-09-06--how-adaptive-enterprise-applications-elevate-your-erp-system-s--conclusion-bv--e1xTu2k2LnE.md",
+  "transcript_sha256": "ac89bd881ae05a5ea2e71e04fb3a60e19dc70d377fcf0ec72d736362b9182ea6",
+  "upload_date": "20230906",
+  "video_id": "e1xTu2k2LnE"
+}

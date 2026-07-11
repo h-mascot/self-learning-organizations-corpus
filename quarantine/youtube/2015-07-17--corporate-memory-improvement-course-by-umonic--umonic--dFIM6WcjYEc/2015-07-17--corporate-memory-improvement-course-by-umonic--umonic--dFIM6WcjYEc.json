@@ -1,0 +1,38 @@
+{
+  "asr_models": [
+    "whisper-large-v3"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: Unable to download video subtitles for 'en-orig': HTTP Error 429: Too Many Requests",
+  "channel": "Umonic",
+  "duration_seconds": 330,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "a53e27a60dac99cb6e9388032f741816e32e80a9e89338ec7f6c5bdaea1424ed",
+    "source-info.json": "8b41947432479ff0960a3c0c2ad86e6596a6f17137b6bbce2364160625bd201b"
+  },
+  "raw_path": "raw/youtube/2015-07-17--corporate-memory-improvement-course-by-umonic--umonic--dFIM6WcjYEc",
+  "relevance_categories": [
+    "organizational-memory"
+  ],
+  "relevance_evidence": [
+    "corporate memory"
+  ],
+  "relevance_spans": [
+    {
+      "category": "organizational-memory",
+      "phrase": "corporate memory",
+      "text": "discuss the course objectives for a corporate memory improvement course and reasons how this",
+      "timestamp": "0:17"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 59,
+  "source_url": "https://www.youtube.com/watch?v=dFIM6WcjYEc",
+  "title": "Corporate Memory Improvement Course by Umonic",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "transcripts/youtube/2015-07-17--corporate-memory-improvement-course-by-umonic--umonic--dFIM6WcjYEc.md",
+  "transcript_sha256": "9bd497ee357529ae7c020cbcf64109fd56b2f211cdadf77da244eb7cc1860952",
+  "upload_date": "20150717",
+  "video_id": "dFIM6WcjYEc"
+}

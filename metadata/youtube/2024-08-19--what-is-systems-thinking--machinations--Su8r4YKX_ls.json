@@ -1,0 +1,38 @@
+{
+  "asr_models": [
+    "whisper-large-v3-turbo"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: Unable to download video subtitles for 'en-orig': HTTP Error 429: Too Many Requests",
+  "channel": "Machinations",
+  "duration_seconds": 343,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "5add71f53f95282dadc304ab7a804578d525d49812ee902b97be2d09bec1dafe",
+    "source-info.json": "d3b371f4c7c7cda4e84c85d43d2843162dde52bb36ccff42d363592902bcff81"
+  },
+  "raw_path": "raw/youtube/2024-08-19--what-is-systems-thinking--machinations--Su8r4YKX_ls",
+  "relevance_categories": [
+    "feedback-systems"
+  ],
+  "relevance_evidence": [
+    "systems thinking"
+  ],
+  "relevance_spans": [
+    {
+      "category": "feedback-systems",
+      "phrase": "systems thinking",
+      "text": "Systems thinking is very important to everything we do in the world.",
+      "timestamp": "0:00"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 63,
+  "source_url": "https://www.youtube.com/watch?v=Su8r4YKX_ls",
+  "title": "What is Systems Thinking?",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "sources/youtube/accepted/2024-08-19--what-is-systems-thinking--machinations--Su8r4YKX_ls.md",
+  "transcript_sha256": "63322a0c625dda7d8deb28697822f83649d33ce2b5453da1db51528a5c031477",
+  "upload_date": "20240819",
+  "video_id": "Su8r4YKX_ls"
+}

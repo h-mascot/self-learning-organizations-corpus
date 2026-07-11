@@ -22,6 +22,17 @@
     "rights_holder": {"type": "string", "minLength": 1},
     "content_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
     "transcript_source": {"type": "string"},
-    "rejection_reason": {"type": "string"}
+    "rejection_reason": {"type": "string"},
+    "availability": {"type": "string", "minLength": 1},
+    "license": {"type": ["string", "null"]},
+    "caption_error": {"type": ["string", "null"]},
+    "segment_count": {"type": "integer", "minimum": 5},
+    "relevance_categories": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+    "relevance_evidence": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+    "relevance_spans": {"type": "array", "minItems": 1, "items": {"type": "object"}},
+    "rights_note": {"type": "string", "minLength": 1},
+    "raw_files": {"type": "object", "minProperties": 1, "additionalProperties": {"type": "string", "pattern": "^[a-f0-9]{64}$"}},
+    "raw_path": {"type": "string", "minLength": 1},
+    "asr_models": {"type": "array", "items": {"type": "string", "minLength": 1}}
   }
 }

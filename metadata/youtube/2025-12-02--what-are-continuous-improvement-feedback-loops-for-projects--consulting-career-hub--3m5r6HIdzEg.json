@@ -1,0 +1,61 @@
+{
+  "asr_models": [
+    "whisper-large-v3"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: Unable to download video subtitles for 'en-orig': HTTP Error 429: Too Many Requests",
+  "channel": "Consulting Career Hub",
+  "duration_seconds": 209,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "a1593d7825a5c32b0279ccd7d12a1f927b38fe44eb6266ecccf65e8349e5887a",
+    "source-info.json": "649e8e40d9a745bd4d442b53ed6ba8b5afaba5b92afd27f99d2c55175c0705ef"
+  },
+  "raw_path": "raw/youtube/2025-12-02--what-are-continuous-improvement-feedback-loops-for-projects--consulting-career-hub--3m5r6HIdzEg",
+  "relevance_categories": [
+    "continuous-improvement",
+    "feedback-systems",
+    "organizational-memory"
+  ],
+  "relevance_evidence": [
+    "continuous improvement",
+    "feedback loop",
+    "institutional knowledge",
+    "kaizen"
+  ],
+  "relevance_spans": [
+    {
+      "category": "continuous-improvement",
+      "phrase": "continuous improvement",
+      "text": "Continuous improvement feedback loops for projects are structured processes designed to gather insights during and after project execution, analyze them, and then apply those learnings to enhance future project performance.",
+      "timestamp": "0:21"
+    },
+    {
+      "category": "continuous-improvement",
+      "phrase": "kaizen",
+      "text": "often aligned with principles found in methodologies like Kaizen, a Japanese term",
+      "timestamp": "2:26"
+    },
+    {
+      "category": "feedback-systems",
+      "phrase": "feedback loop",
+      "text": "Continuous improvement feedback loops for projects are structured processes designed to gather insights during and after project execution, analyze them, and then apply those learnings to enhance future project performance.",
+      "timestamp": "0:21"
+    },
+    {
+      "category": "organizational-memory",
+      "phrase": "institutional knowledge",
+      "text": "By collecting feedback at various points, both during the project through methods like daily stand-ups and weekly reports, and after completion with post-mortems and client surveys, organizations can systematically prevent the same mistakes from recurring, build invaluable institutional knowledge, a",
+      "timestamp": "1:16"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 25,
+  "source_url": "https://www.youtube.com/watch?v=3m5r6HIdzEg",
+  "title": "What Are Continuous Improvement Feedback Loops For Projects?",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "sources/youtube/accepted/2025-12-02--what-are-continuous-improvement-feedback-loops-for-projects--consulting-career-hub--3m5r6HIdzEg.md",
+  "transcript_sha256": "317207ad41a9589c62f293ed0c5c77dcce2da0a34cc04c04e0a3af67280335b4",
+  "upload_date": "20251202",
+  "video_id": "3m5r6HIdzEg"
+}

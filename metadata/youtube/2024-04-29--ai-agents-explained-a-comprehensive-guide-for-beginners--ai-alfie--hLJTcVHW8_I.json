@@ -1,0 +1,45 @@
+{
+  "asr_models": [
+    "whisper-large-v3"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: Unable to download video subtitles for 'en-orig': HTTP Error 429: Too Many Requests",
+  "channel": "AI Alfie ",
+  "duration_seconds": 412,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "e5864b5cc45cb3ce9d717e5fad049ba74a5f0cb0d36698e9404319cb23fe5a4c",
+    "source-info.json": "26092cdde3e0a49f650538e7fe0f12322ff0bb20e722179b1d1e22655ab8bc5a"
+  },
+  "raw_path": "raw/youtube/2024-04-29--ai-agents-explained-a-comprehensive-guide-for-beginners--ai-alfie--hLJTcVHW8_I",
+  "relevance_categories": [
+    "agent-operations"
+  ],
+  "relevance_evidence": [
+    "agents",
+    "ai agent"
+  ],
+  "relevance_spans": [
+    {
+      "category": "agent-operations",
+      "phrase": "ai agent",
+      "text": "In today's video, we dive into the fascinating world of AI agents.",
+      "timestamp": "0:04"
+    },
+    {
+      "category": "agent-operations",
+      "phrase": "agents",
+      "text": "In today's video, we dive into the fascinating world of AI agents.",
+      "timestamp": "0:04"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 82,
+  "source_url": "https://www.youtube.com/watch?v=hLJTcVHW8_I",
+  "title": "AI Agents Explained: A Comprehensive Guide for Beginners",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "sources/youtube/accepted/2024-04-29--ai-agents-explained-a-comprehensive-guide-for-beginners--ai-alfie--hLJTcVHW8_I.md",
+  "transcript_sha256": "8b84fd6609eb00c862d9e18f208760f7d4f9a7da6e7ba76de13f31356224d5d7",
+  "upload_date": "20240429",
+  "video_id": "hLJTcVHW8_I"
+}

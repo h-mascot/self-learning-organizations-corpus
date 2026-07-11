@@ -9,12 +9,22 @@ published_date: 2026-05-27
 content_type: transcript
 status: accepted
 relevance_status: relevant
-provenance: "YouTube captions retained from the original repository seed"
+provenance: "YouTube transcript retained from the goal/youtube worker via legacy-youtube-captions"
 rights_status: third-party
 rights_holder: "Y Combinator"
 content_sha256: 9d439e50cb6fe35ded44e207bae53e236ca6d3cb7786b322839d5d4a0807a7e3
 duration_seconds: 2790
-transcript_source: youtube captions
+transcript_source: legacy-youtube-captions
+availability: public-at-ingestion
+license: null
+caption_error: null
+segment_count: 1318
+relevance_categories: ["ai-native-company","agent-operations","named-lanes"]
+relevance_evidence: ["agents","ai native","ai-native","ramp","y combinator"]
+relevance_spans: [{"category":"ai-native-company","phrase":"ai native","text":"how to build that AI native","timestamp":"25:14"},{"category":"ai-native-company","phrase":"ai-native","text":"how to build AI-native companies that","timestamp":"1:19"},{"category":"agent-operations","phrase":"agents","text":"for kind of YC specific agents","timestamp":"2:50"},{"category":"named-lanes","phrase":"ramp","text":"it could just like trample on anything?","timestamp":"6:50"},{"category":"named-lanes","phrase":"y combinator","text":"again. Y Combinator Startup School is","timestamp":"18:05"}]
+rights_note: "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed."
+raw_files: {"legacy-transcript.md":"6b168ddae88ee6297fbe8a1132ca960b2a779a844e16bfb700fb3087bcf38162","source-info.json":"7fa05795db9e202664b5c9ec38a03e70e1a64e7dc7f32e5cc7a08dd02ac433a7"}
+raw_path: raw/youtube/2026-05-27--inside-yc-s-ai-playbook--y-combinator--B246K_G7mHU
 ---
 
 # Inside YC's AI Playbook

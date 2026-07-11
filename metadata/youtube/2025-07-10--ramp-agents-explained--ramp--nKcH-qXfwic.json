@@ -1,0 +1,53 @@
+{
+  "asr_models": [
+    "whisper-large-v3"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: Unable to download video subtitles for 'en-orig': HTTP Error 429: Too Many Requests",
+  "channel": "Ramp",
+  "duration_seconds": 99,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "c07bd70b949ded59de280de4af31e5179e5aca33481cfc306e4a0916bb1eb1d4",
+    "source-info.json": "f14c4c8b45fec32551246ad7efdc7dc7d6dac9da89d407aba65fdb8ee21333ad"
+  },
+  "raw_path": "raw/youtube/2025-07-10--ramp-agents-explained--ramp--nKcH-qXfwic",
+  "relevance_categories": [
+    "agent-operations",
+    "named-lanes"
+  ],
+  "relevance_evidence": [
+    "agents",
+    "ai agent",
+    "ramp"
+  ],
+  "relevance_spans": [
+    {
+      "category": "agent-operations",
+      "phrase": "ai agent",
+      "text": "cue the buzzwords we're talking about agents agents ai agents ai ai agents",
+      "timestamp": "0:00"
+    },
+    {
+      "category": "agent-operations",
+      "phrase": "agents",
+      "text": "cue the buzzwords we're talking about agents agents ai agents ai ai agents",
+      "timestamp": "0:00"
+    },
+    {
+      "category": "named-lanes",
+      "phrase": "ramp",
+      "text": "Another part that's very magical is RAMP will suggest edits to your policy based on what it's seeing.",
+      "timestamp": "0:38"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 18,
+  "source_url": "https://www.youtube.com/watch?v=nKcH-qXfwic",
+  "title": "Ramp Agents, Explained.",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "sources/youtube/accepted/2025-07-10--ramp-agents-explained--ramp--nKcH-qXfwic.md",
+  "transcript_sha256": "9f2fc375429c78234bb108a9062c25db588796e6f107d0e28933d88949dabb11",
+  "upload_date": "20250710",
+  "video_id": "nKcH-qXfwic"
+}

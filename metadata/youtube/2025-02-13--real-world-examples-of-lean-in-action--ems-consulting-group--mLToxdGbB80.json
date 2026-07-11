@@ -1,0 +1,45 @@
+{
+  "asr_models": [
+    "whisper-large-v3"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: Unable to download video subtitles for 'en-orig': HTTP Error 429: Too Many Requests",
+  "channel": "EMS Consulting Group",
+  "duration_seconds": 218,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "04fe1df8a2b91a7c151bb243cfc8790f0fdeefb7c3bab6cb70cf6fb5198b4d9d",
+    "source-info.json": "efd51b7274cda001497ae243fa90b711f3496264a29dddb66e74a3cd98496fc6"
+  },
+  "raw_path": "raw/youtube/2025-02-13--real-world-examples-of-lean-in-action--ems-consulting-group--mLToxdGbB80",
+  "relevance_categories": [
+    "continuous-improvement"
+  ],
+  "relevance_evidence": [
+    "continuous improvement",
+    "kaizen"
+  ],
+  "relevance_spans": [
+    {
+      "category": "continuous-improvement",
+      "phrase": "continuous improvement",
+      "text": "Lane is all about continuous improvement plus respect for people.",
+      "timestamp": "0:37"
+    },
+    {
+      "category": "continuous-improvement",
+      "phrase": "kaizen",
+      "text": "Key tools include value stream mapping, standard work, 5S, Kanban, and Kaizen.",
+      "timestamp": "0:53"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 39,
+  "source_url": "https://www.youtube.com/watch?v=mLToxdGbB80",
+  "title": "Real-World Examples of Lean in Action",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "sources/youtube/accepted/2025-02-13--real-world-examples-of-lean-in-action--ems-consulting-group--mLToxdGbB80.md",
+  "transcript_sha256": "404232dd3ee02926afcd1fcc9c4a292e489133ac98a9abb7701e24cbbf9fb75b",
+  "upload_date": "20250213",
+  "video_id": "mLToxdGbB80"
+}

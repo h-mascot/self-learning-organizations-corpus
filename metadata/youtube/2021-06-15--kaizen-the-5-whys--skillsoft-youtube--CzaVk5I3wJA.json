@@ -1,0 +1,53 @@
+{
+  "asr_models": [
+    "whisper-large-v3-turbo"
+  ],
+  "availability": "public",
+  "caption_error": "",
+  "channel": "Skillsoft YouTube",
+  "duration_seconds": 213,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "b7572c19abc37434c173889336c7c70c344748db9ec650f777802c723482f9d0",
+    "source-info.json": "545196942ba1103fedc0ae6fa4b4441c59e963a74f23d4eac59ad0959d0a14b5"
+  },
+  "raw_path": "raw/youtube/2021-06-15--kaizen-and-the-5-whys--skillsoft-youtube--CzaVk5I3wJA",
+  "relevance_categories": [
+    "continuous-improvement",
+    "feedback-systems"
+  ],
+  "relevance_evidence": [
+    "continuous improvement",
+    "feedback loop",
+    "kaizen"
+  ],
+  "relevance_spans": [
+    {
+      "category": "continuous-improvement",
+      "phrase": "continuous improvement",
+      "text": "But to me, those Kaizen and five wise are very similar in that it's a great feedback loop to to make continuous improvement.",
+      "timestamp": "3:20"
+    },
+    {
+      "category": "continuous-improvement",
+      "phrase": "kaizen",
+      "text": "Hello, how's everybody doing today? My name is Noah Gift. Kaizen is related to something called",
+      "timestamp": "0:00"
+    },
+    {
+      "category": "feedback-systems",
+      "phrase": "feedback loop",
+      "text": "But to me, those Kaizen and five wise are very similar in that it's a great feedback loop to to make continuous improvement.",
+      "timestamp": "3:20"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 41,
+  "source_url": "https://www.youtube.com/watch?v=CzaVk5I3wJA",
+  "title": "Kaizen & The 5 Whys",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "sources/youtube/accepted/2021-06-15--kaizen-the-5-whys--skillsoft-youtube--CzaVk5I3wJA.md",
+  "transcript_sha256": "a4c6e7e8ae952bcd58a5d57bafe4307c27adb4bfc8c36c27af4ae2ca8df8b881",
+  "upload_date": "20210615",
+  "video_id": "CzaVk5I3wJA"
+}

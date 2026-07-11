@@ -1,0 +1,38 @@
+{
+  "asr_models": [
+    "whisper-large-v3"
+  ],
+  "availability": "public",
+  "caption_error": "YouTube captions unavailable; recovered from cached signed audio URL.",
+  "channel": "LangChain",
+  "duration_seconds": 407,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "ff230be829581449c1adb3a19ef07f327fa5b8f78df2efc3d9302e1e4afffa25",
+    "source-info.json": "24beadf102b5f9166b1234ab00febaeb2d1a6334e91e185d7c25bec520396c26"
+  },
+  "raw_path": "raw/youtube/2025-02-18--build-self-improving-agents-langmem-procedural-memory-tutorial--langchain--WW-v5mO2P7w",
+  "relevance_categories": [
+    "agent-operations"
+  ],
+  "relevance_evidence": [
+    "agents"
+  ],
+  "relevance_spans": [
+    {
+      "category": "agent-operations",
+      "phrase": "agents",
+      "text": "for helping your agents learn and adapt as they work. In this video, we will show you how to add",
+      "timestamp": "0:04"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 97,
+  "source_url": "https://www.youtube.com/watch?v=WW-v5mO2P7w",
+  "title": "Build Self-Improving Agents: LangMem Procedural Memory Tutorial",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "sources/youtube/accepted/2025-02-18--build-self-improving-agents-langmem-procedural-memory-tutorial--langchain--WW-v5mO2P7w.md",
+  "transcript_sha256": "912d5fde2396730e2c093e38b49489b0f9d75e38d791b3c4d03a1f7e9a56f619",
+  "upload_date": "20250218",
+  "video_id": "WW-v5mO2P7w"
+}

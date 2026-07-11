@@ -9,12 +9,22 @@ published_date: 2026-04-24
 content_type: transcript
 status: accepted
 relevance_status: relevant
-provenance: "YouTube captions retained from the original repository seed"
+provenance: "YouTube transcript retained from the goal/youtube worker via legacy-youtube-captions"
 rights_status: third-party
 rights_holder: "Y Combinator"
 content_sha256: 60f46320599df96af85b1e2aa2e1109e9ed57444eb01208db3929a872ef5e600
 duration_seconds: 627
-transcript_source: youtube captions
+transcript_source: legacy-youtube-captions
+availability: public-at-ingestion
+license: null
+caption_error: null
+segment_count: 260
+relevance_categories: ["feedback-systems","ai-native-company","agent-operations"]
+relevance_evidence: ["agents","ai agent","ai native","ai-native","feedback loop"]
+relevance_spans: [{"category":"feedback-systems","phrase":"feedback loop","text":"feedback loops. In the old world,","timestamp":"1:55"},{"category":"ai-native-company","phrase":"ai native","text":"think about building an AI native","timestamp":"0:31"},{"category":"ai-native-company","phrase":"ai-native","text":"AI-native company, this is not limited","timestamp":"7:32"},{"category":"agent-operations","phrase":"ai agent","text":"And then AI agents generate the","timestamp":"5:00"},{"category":"agent-operations","phrase":"agents","text":"With self-improving agents, your company","timestamp":"2:22"}]
+rights_note: "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed."
+raw_files: {"legacy-transcript.md":"e6030ea2faf4e0003a335bc1e170010a17c3432745b40ad98d8b8e720e3baaf7","source-info.json":"571dcb7e06a2f97a32ba9be3e723b1381ae2402bafc5e022722ab98835d0bb03"}
+raw_path: raw/youtube/2026-04-24--how-to-build-a-company-with-ai-from-the-ground-up--y-combinator--EN7frwQIbKc
 ---
 
 # How To Build A Company With AI From The Ground Up

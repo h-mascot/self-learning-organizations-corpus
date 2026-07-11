@@ -1,0 +1,53 @@
+{
+  "asr_models": [
+    "whisper-large-v3"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: Unable to download video subtitles for 'en-orig': HTTP Error 429: Too Many Requests",
+  "channel": "Cranfield School of Management",
+  "duration_seconds": 242,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "b5ce8743cf9fe6ce70bbf8660c1d347b2bc254554b5bf2656d0db0df930c0ec5",
+    "source-info.json": "28f2dbefc27defaf4242e5a501d1408d57168c53389759f992d4e692c288a6c2"
+  },
+  "raw_path": "raw/youtube/2010-01-20--neil-turner-on-organisational-learning--cranfield-school-of-management--V0eP5yza5gI",
+  "relevance_categories": [
+    "organizational-learning",
+    "organizational-memory"
+  ],
+  "relevance_evidence": [
+    "organisation as a whole can learn",
+    "organisation's memory",
+    "organisational learning"
+  ],
+  "relevance_spans": [
+    {
+      "category": "organizational-learning",
+      "phrase": "organisational learning",
+      "text": "The organisational learning literature shows us that firms can learn to be better at what they do and that this learning can be captured in many places Firstly the projects and programmes we investigating are examples of knowledge work",
+      "timestamp": "0:50"
+    },
+    {
+      "category": "organizational-learning",
+      "phrase": "organisation as a whole can learn",
+      "text": "This way, the organisation as a whole can learn.",
+      "timestamp": "2:48"
+    },
+    {
+      "category": "organizational-memory",
+      "phrase": "organisation's memory",
+      "text": "Finally, much of an organisation's memory can be captured in routines and procedures updated over time.",
+      "timestamp": "2:34"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 42,
+  "source_url": "https://www.youtube.com/watch?v=V0eP5yza5gI",
+  "title": "Neil Turner on Organisational Learning",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "sources/youtube/accepted/2010-01-20--neil-turner-on-organisational-learning--cranfield-school-of-management--V0eP5yza5gI.md",
+  "transcript_sha256": "5d82614b99da85bf65b3edcecbf48475bc5911fcb844c7ef364ff1f99d1537b4",
+  "upload_date": "20100120",
+  "video_id": "V0eP5yza5gI"
+}

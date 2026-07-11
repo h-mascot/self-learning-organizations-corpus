@@ -1,0 +1,38 @@
+{
+  "asr_models": [
+    "whisper-large-v3"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: Unable to download video subtitles for 'en-orig': HTTP Error 429: Too Many Requests",
+  "channel": "Ramp",
+  "duration_seconds": 91,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "4c4a2ef2329aebda94e84f5bf8abf3e201dd18dc98b9f6bb3cc64ab448730f50",
+    "source-info.json": "0f983a6c7e3ca4b82fdb73e591d1b7aac1e2d431fe1cb1aa50743f50a3e5f510"
+  },
+  "raw_path": "raw/youtube/2026-02-12--meet-ramp-s-accounting-agent--ramp--vmbBnL6zVmw",
+  "relevance_categories": [
+    "named-lanes"
+  ],
+  "relevance_evidence": [
+    "ramp"
+  ],
+  "relevance_spans": [
+    {
+      "category": "named-lanes",
+      "phrase": "ramp",
+      "text": "Meet RAMP's accounting agent. Built to capture, code, review, check, sync, accrue, and reconcile spend.",
+      "timestamp": "0:00"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 22,
+  "source_url": "https://www.youtube.com/watch?v=vmbBnL6zVmw",
+  "title": "Meet Ramp's Accounting Agent",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "sources/youtube/accepted/2026-02-12--meet-ramp-s-accounting-agent--ramp--vmbBnL6zVmw.md",
+  "transcript_sha256": "6e029976e75e9efe63eda58712fd03d3caec9e68f88c6dd85e0dfa4139d2f663",
+  "upload_date": "20260212",
+  "video_id": "vmbBnL6zVmw"
+}

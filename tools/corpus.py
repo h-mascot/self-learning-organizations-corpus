@@ -17,7 +17,12 @@ from urllib.parse import parse_qs, urlparse
 ROOT = Path(__file__).resolve().parents[1]
 PLATFORMS = ("youtube", "arxiv", "x", "reddit", "substack", "blogs", "podcasts", "conferences", "books", "case-studies")
 REQUIRED = ("schema_version", "platform", "stable_id", "title", "publisher", "canonical_url", "published_date", "content_type", "status", "relevance_status", "provenance", "rights_status", "rights_holder", "content_sha256")
-OPTIONAL = ("duration_seconds", "transcript_source", "rejection_reason")
+OPTIONAL = (
+    "duration_seconds", "transcript_source", "rejection_reason",
+    "availability", "license", "caption_error", "segment_count",
+    "relevance_categories", "relevance_evidence", "relevance_spans",
+    "rights_note", "raw_files", "raw_path", "asr_models",
+)
 CONTENT_TYPES = {"transcript", "paper", "post", "article", "episode", "talk", "book", "case-study"}
 TIMESTAMP = re.compile(r"(?m)^(?P<m>\d+):(?P<s>[0-5]\d)(?::(?P<ss>[0-5]\d))?\s+\S")
 SLUG_BAD = re.compile(r"[^a-z0-9]+")
@@ -231,14 +236,18 @@ Open research corpus about self-learning, self-improving, AI-native organization
 
 - `sources/<platform>/accepted/` contains validated, relevant source records.
 - `sources/<platform>/rejected/` preserves false positives and other excluded evidence.
+- `raw/youtube/` preserves immutable caption/ASR evidence and source metadata.
+- `metadata/youtube/` records per-video hashes, relevance spans, and retrieval details.
 - `schema/source.schema.json` defines canonical metadata.
 - `metadata/sources.csv` is the generated inventory.
 - `metadata/rejected-sources.csv` is the generated rejection log.
 - `metadata/migration-manifest.csv` maps legacy paths to canonical paths and hashes.
 - `metadata/statistics.json` is the generated machine-readable status.
 - `research/` contains taxonomy, reports, synthesis, and progress checkpoints.
+- `research/recursive-loops/` contains the validated 200-loop dependent research DAG.
 
 Canonical filenames are `<date>--<normalized-title>--<publisher>--<stable-id>.md`. Run `make check` before committing. Run `make generate` after changing corpus records; generated files must remain reproducible.
+Run `python3 scripts/validate_youtube.py` for the exact YouTube evidence count and `python3 scripts/validate_genuine_recursive_research.py` for the recursive DAG gate.
 
 ## Counting policy
 

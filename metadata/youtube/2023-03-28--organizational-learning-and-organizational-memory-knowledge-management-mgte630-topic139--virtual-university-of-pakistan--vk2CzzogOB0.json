@@ -1,0 +1,45 @@
+{
+  "asr_models": [
+    "whisper-large-v3"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests",
+  "channel": "Virtual University of Pakistan",
+  "duration_seconds": 380,
+  "license": "Creative Commons Attribution license (reuse allowed)",
+  "raw_files": {
+    "asr-000.json": "33f11e689482701259a92284392f9e495fb044b2ea71c765e11502b1e0b72ead",
+    "source-info.json": "15fe0ff7795630308cdac5068a4df67197a46796ee35e5eb475daa68311c6e08"
+  },
+  "raw_path": "raw/youtube/2023-03-28--organizational-learning-and-organizational-memory-knowledge-management-mgte630-topic139--virtual-university-of-pakistan--vk2CzzogOB0",
+  "relevance_categories": [
+    "organizational-memory"
+  ],
+  "relevance_evidence": [
+    "knowledge management",
+    "organizational memory"
+  ],
+  "relevance_spans": [
+    {
+      "category": "organizational-memory",
+      "phrase": "organizational memory",
+      "text": "an organizational memory \u06a9\u06c1\u062a\u06d2 \u06c1\u06cc\u06ba",
+      "timestamp": "2:50"
+    },
+    {
+      "category": "organizational-memory",
+      "phrase": "knowledge management",
+      "text": "knowledge management process \u0627\u0648\u0631 knowledge management activity \u06a9\u0627",
+      "timestamp": "5:00"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 129,
+  "source_url": "https://www.youtube.com/watch?v=vk2CzzogOB0",
+  "title": "Organizational Learning and Organizational Memory | Knowledge Management | MGTE630_Topic139",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "sources/youtube/accepted/2023-03-28--organizational-learning-and-organizational-memory-knowledge-management-mgte630-topic139--virtual-university-of-pakistan--vk2CzzogOB0.md",
+  "transcript_sha256": "4d73c37dbff554860dd790cdd8b2e9d4949764e6420a85515d513f5cbfe4a277",
+  "upload_date": "20230328",
+  "video_id": "vk2CzzogOB0"
+}

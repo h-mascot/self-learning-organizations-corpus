@@ -9,12 +9,22 @@ published_date: 2026-05-08
 content_type: transcript
 status: accepted
 relevance_status: relevant
-provenance: "YouTube captions retained from the original repository seed"
+provenance: "YouTube transcript retained from the goal/youtube worker via legacy-youtube-captions"
 rights_status: third-party
 rights_holder: "Y Combinator"
 content_sha256: 7efbae1fdc7da2aff00a34b50c023b0845c1d10e5619046c43f066f555f7c32d
 duration_seconds: 2489
-transcript_source: youtube captions
+transcript_source: legacy-youtube-captions
+availability: public-at-ingestion
+license: null
+caption_error: null
+segment_count: 1182
+relevance_categories: ["agent-operations","named-lanes"]
+relevance_evidence: ["agents","y combinator"]
+relevance_spans: [{"category":"agent-operations","phrase":"agents","text":"you know, 15 agents at a time to do so.","timestamp":"31:08"},{"category":"named-lanes","phrase":"y combinator","text":"while also being the CEO of Y Combinator","timestamp":"38:11"}]
+rights_note: "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed."
+raw_files: {"legacy-transcript.md":"fe200c5d020acfd3050851b7f947dda8bc23e40fb1cf6992e70eca1ec8252a72","source-info.json":"bd67f6f3e568e4702199d22c252311e3e410446a65cde99f097625bcb6efebe5"}
+raw_path: raw/youtube/2026-05-08--tokenmaxxing-how-top-builders-use-ai-to-do-the-work-of-400-engineers--y-combinator--57lDpTwiW6g
 ---
 
 # Tokenmaxxing: How Top Builders Use AI To Do The Work Of 400 Engineers

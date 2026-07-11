@@ -9,12 +9,22 @@ published_date: 2026-06-10
 content_type: transcript
 status: accepted
 relevance_status: relevant
-provenance: "YouTube captions retained from the original repository seed"
+provenance: "YouTube transcript retained from the goal/youtube worker via legacy-youtube-captions"
 rights_status: third-party
 rights_holder: "Y Combinator"
 content_sha256: 748bf07194cce57e02136aca19c83f98db4f2f93839f100754ff83013935b2c8
 duration_seconds: 3247
-transcript_source: youtube captions
+transcript_source: legacy-youtube-captions
+availability: public-at-ingestion
+license: null
+caption_error: null
+segment_count: 1637
+relevance_categories: ["ai-native-company","agent-operations","named-lanes"]
+relevance_evidence: ["agents","ai agent","ai native","brex"]
+relevance_spans: [{"category":"ai-native-company","phrase":"ai native","text":"company that's not AI native, you're","timestamp":"41:50"},{"category":"agent-operations","phrase":"ai agent","text":"an AI agent. So for example, we have the","timestamp":"46:44"},{"category":"agent-operations","phrase":"agents","text":"you do to agents.","timestamp":"2:40"},{"category":"named-lanes","phrase":"brex","text":"Franchesci, co-founder and CEO of Brex.","timestamp":"0:36"}]
+rights_note: "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed."
+raw_files: {"legacy-transcript.md":"f19d9beec469184db8a8ba1a358fad0fa300021bcf276596d4abfeb97ceceac5","source-info.json":"c16f5c53c5a09c8edb0c4473c7a5d8a6e337f218182b50018d255bfa2d9bce2f"}
+raw_path: raw/youtube/2026-06-10--the-most-ai-pilled-ceo-we-know--y-combinator--mPAHvz8kW24
 ---
 
 # The Most AI-Pilled CEO We Know

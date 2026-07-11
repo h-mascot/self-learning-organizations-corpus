@@ -1,0 +1,53 @@
+{
+  "asr_models": [
+    "whisper-large-v3-turbo"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: Unable to download video subtitles for 'en-orig': HTTP Error 429: Too Many Requests",
+  "channel": "EMS Consulting Group",
+  "duration_seconds": 116,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "c97e7bbe32c992cfa96bcbf6be02a8b742783c82e2d814b2a1dd472a59bf442f",
+    "source-info.json": "ee69aab8f5363bdbc37b808081d6dac0468ab5d762b5c0596dec61d9f294c5bb"
+  },
+  "raw_path": "raw/youtube/2025-09-16--lean-leadership-3-key-elements-of-toyota-s-learning-organization--ems-consulting-group--KJnfqo9U8wY",
+  "relevance_categories": [
+    "organizational-learning",
+    "continuous-improvement"
+  ],
+  "relevance_evidence": [
+    "continuous improvement",
+    "learning organization",
+    "organizational learning"
+  ],
+  "relevance_spans": [
+    {
+      "category": "organizational-learning",
+      "phrase": "organizational learning",
+      "text": "The second element is the concept of Hansei. This is all about responsibility, self-reflection, and organizational learning.",
+      "timestamp": "0:45"
+    },
+    {
+      "category": "organizational-learning",
+      "phrase": "learning organization",
+      "text": "According to Jeffrey Leiker's book The Toyota Way, it all comes down to being a true learning organization.",
+      "timestamp": "0:14"
+    },
+    {
+      "category": "continuous-improvement",
+      "phrase": "continuous improvement",
+      "text": "Toyota is renowned for its excellence in manufacturing and continuous improvement.",
+      "timestamp": "0:00"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 14,
+  "source_url": "https://www.youtube.com/watch?v=KJnfqo9U8wY",
+  "title": "Lean Leadership: 3 Key Elements of Toyota's Learning Organization",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "sources/youtube/accepted/2025-09-16--lean-leadership-3-key-elements-of-toyota-s-learning-organization--ems-consulting-group--KJnfqo9U8wY.md",
+  "transcript_sha256": "b6031c2fe92fb1d7bc54f3452ec8ef780d855e0818394300e52491ae654157d4",
+  "upload_date": "20250916",
+  "video_id": "KJnfqo9U8wY"
+}
