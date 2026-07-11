@@ -13,11 +13,13 @@
   },
   "raw_path": "raw/youtube/2026-05-19--agentic-mesh-in-the-enterprise-what-it-is-and-where-we-actually-are--sullivan-and-stanley--Ns8rBRUrxnY",
   "relevance_categories": [
-    "agent-operations"
+    "agent-operations",
+    "experimentation-flywheel"
   ],
   "relevance_evidence": [
     "agents",
-    "ai agent"
+    "ai agent",
+    "experimenting"
   ],
   "relevance_spans": [
     {
@@ -31,6 +33,12 @@
       "phrase": "agents",
       "text": "impressive demo an agentic mesh is what happens when multiple ai agents each with a role are",
       "timestamp": "0:45"
+    },
+    {
+      "category": "experimentation-flywheel",
+      "phrase": "experimenting",
+      "text": "In practice, that means picking high-value workflows, not experimenting, integrating agents into real systems early, defining exactly where agents can act versus advise, designing escalation paths before autonomy, treating agents as roles, not features.",
+      "timestamp": "5:00"
     }
   ],
   "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",

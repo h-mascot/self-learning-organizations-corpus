@@ -1,0 +1,62 @@
+{
+  "asr_models": [
+    "whisper-large-v3"
+  ],
+  "availability": "public",
+  "caption_error": "YouTube captions unavailable; recovered from cached signed audio URL.",
+  "channel": "EarthTab Business School ",
+  "duration_seconds": 148,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "073f4269c4c50702ede45159de8cad4f92704c070b96b239f92d4516e0a1dba8",
+    "source-info.json": "9ea1d62231ea065362e8971548e07a3b82d3d67e5131e3178cf04fbd8003c335"
+  },
+  "raw_path": "raw/youtube/2025-11-12--leading-organizational-change-module-10-scaling-and-optimizing-change-initiatives--earthtab-business-school--R99o7y8v-bA",
+  "relevance_categories": [
+    "organizational-learning",
+    "continuous-improvement",
+    "feedback-systems",
+    "organizational-memory"
+  ],
+  "relevance_evidence": [
+    "continuous improvement",
+    "feedback loop",
+    "knowledge management",
+    "organizational learning"
+  ],
+  "relevance_spans": [
+    {
+      "category": "organizational-learning",
+      "phrase": "organizational learning",
+      "text": "Promoting organizational learning, memory retention, and innovation.",
+      "timestamp": "1:33"
+    },
+    {
+      "category": "continuous-improvement",
+      "phrase": "continuous improvement",
+      "text": "Continuous improvement cycles and process reengineering",
+      "timestamp": "0:45"
+    },
+    {
+      "category": "feedback-systems",
+      "phrase": "feedback loop",
+      "text": "Measuring, evaluating, and iteratively improving scaled initiatives, benchmarking performance across multiple units, integrating feedback loops from employees, managers, and customers, conducting comparative analyses to identify opportunities for optimization, ensuring alignment with strategic objec",
+      "timestamp": "1:37"
+    },
+    {
+      "category": "organizational-memory",
+      "phrase": "knowledge management",
+      "text": "Knowledge management systems and communities of practice.",
+      "timestamp": "1:30"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 27,
+  "source_url": "https://www.youtube.com/watch?v=R99o7y8v-bA",
+  "title": "LEADING ORGANIZATIONAL CHANGE  Module 10  Scaling and Optimizing Change Initiatives",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "sources/youtube/accepted/2025-11-12--leading-organizational-change-module-10-scaling-and-optimizing-change-initiatives--earthtab-business-school--R99o7y8v-bA.md",
+  "transcript_sha256": "365887b6e5720e518cb434c0e2e80355d2bb193341aa75e1daf57be72580f5c9",
+  "upload_date": "20251112",
+  "video_id": "R99o7y8v-bA"
+}

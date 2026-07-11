@@ -15,11 +15,13 @@
   "raw_path": "raw/youtube/2025-10-10--the-agentic-commerce-revolution-is-here-but-it-s-not-what-you-think-brex-ceo-pedro-franceschi--rex-salisbury--9h5tzTz8-H0",
   "relevance_categories": [
     "agent-operations",
+    "experimentation-flywheel",
     "named-lanes"
   ],
   "relevance_evidence": [
     "agents",
-    "brex"
+    "brex",
+    "experimenting"
   ],
   "relevance_spans": [
     {
@@ -27,6 +29,12 @@
       "phrase": "agents",
       "text": "you want to buy a new piece of clothes You have to decide okay which brand I want where is the store located what price what alternatives I have what the delivery time And agents turn out to",
       "timestamp": "2:23"
+    },
+    {
+      "category": "experimentation-flywheel",
+      "phrase": "experimenting",
+      "text": "but we're definitely experimenting.",
+      "timestamp": "29:37"
     },
     {
       "category": "named-lanes",

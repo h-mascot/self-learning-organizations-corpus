@@ -4,14 +4,14 @@ Open research corpus about self-learning, self-improving, AI-native organization
 
 ## Corpus status
 
-- Discovered sources (including rejected controls): **65**
-- Validated relevant sources: **64**
-- Complete timestamped transcripts: **64**
+- Discovered sources (including rejected controls): **77**
+- Validated relevant sources: **76**
+- Complete timestamped transcripts: **76**
 - Rejected sources excluded from validated totals: **1**
 
 | Platform | Discovered sources |
 | --- | ---: |
-| youtube | 65 |
+| youtube | 77 |
 | arxiv | 0 |
 | x | 0 |
 | reddit | 0 |

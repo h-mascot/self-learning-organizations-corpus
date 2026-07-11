@@ -13,10 +13,12 @@
   },
   "raw_path": "raw/youtube/2021-10-05--building-a-learning-organization-with-kata--lean-enterprise-institute--FuVTBr91MMY",
   "relevance_categories": [
-    "continuous-improvement"
+    "continuous-improvement",
+    "experimentation-flywheel"
   ],
   "relevance_evidence": [
     "experiment their way forward",
+    "experimenting",
     "pdsa"
   ],
   "relevance_spans": [
@@ -31,6 +33,12 @@
       "phrase": "pdsa",
       "text": "And then we PDSA through that process.",
       "timestamp": "2:18"
+    },
+    {
+      "category": "experimentation-flywheel",
+      "phrase": "experimenting",
+      "text": "element of patient care, by experimenting their way forward. You can see our friend Beth up there",
+      "timestamp": "0:12"
     }
   ],
   "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",

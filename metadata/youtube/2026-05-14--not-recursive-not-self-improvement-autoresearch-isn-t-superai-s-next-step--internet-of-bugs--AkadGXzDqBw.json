@@ -1,0 +1,38 @@
+{
+  "asr_models": [
+    "whisper-large-v3"
+  ],
+  "availability": "public",
+  "caption_error": "YouTube captions unavailable; recovered from cached signed audio URL.",
+  "channel": "Internet of Bugs",
+  "duration_seconds": 392,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "b2a13b8a44a0563af0b1cf8279d01b850831a7f595601e057a539a2e38c029b0",
+    "source-info.json": "f6943323dd0d8390f9680db5e71514388578e010acdbb54b33082c831bbed36c"
+  },
+  "raw_path": "raw/youtube/2026-05-14--not-recursive-not-self-improvement-autoresearch-isn-t-superai-s-next-step--internet-of-bugs--AkadGXzDqBw",
+  "relevance_categories": [
+    "agent-operations"
+  ],
+  "relevance_evidence": [
+    "agents"
+  ],
+  "relevance_spans": [
+    {
+      "category": "agent-operations",
+      "phrase": "agents",
+      "text": "A lot of people say that coding agents like Cloud Code can write code better than humans.",
+      "timestamp": "3:55"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 102,
+  "source_url": "https://www.youtube.com/watch?v=AkadGXzDqBw",
+  "title": "NOT-Recursive NOT-Self Improvement: autoresearch isn't SuperAI's next step",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "sources/youtube/accepted/2026-05-14--not-recursive-not-self-improvement-autoresearch-isn-t-superai-s-next-step--internet-of-bugs--AkadGXzDqBw.md",
+  "transcript_sha256": "e3a4612cc2e22e7d58278f77e2d749b95675ac68044f6862f8801fa2488558f2",
+  "upload_date": "20260514",
+  "video_id": "AkadGXzDqBw"
+}

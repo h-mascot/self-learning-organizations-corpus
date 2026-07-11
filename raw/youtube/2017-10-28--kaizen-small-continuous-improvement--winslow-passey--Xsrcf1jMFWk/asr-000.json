@@ -1,15 +1,15 @@
 {
   "task": "transcribe",
   "language": "English",
-  "duration": 209.03399897600002,
-  "text": " Hi, this is Winslow with Vibrant Health Evolution. I'd like to share with you a concept today called Kaizen. Kaizen is a Japanese word that means small, continuous improvement. At one point in time, Toyota adopted this philosophy. They already had a really good car and they went and they said, how can we make this better? They went to every single department and they said, can you improve this even 1%? Can you make it a little bit better? And so the end product that came out was even more brilliant and more magnificent than anything they had imagined. And this is what I do in the Higher Health Course. I teach people healthy habits and a wellness lifestyle that helps improve our quality of life every day. And once you get to this improved state where you're feeling better, then you're like, wow, how can I make it better now? How can I take it to the next level? until you're accessing greater and greater amounts of well-being and joy and abundance that you didn't even know were available to you. And that's the journey that I am on, and it's been so amazing. And so as I do this work, more and more I'm starting to feel and truly believe that there's nothing that we can't do. We are totally unlimited, and the only thing that limits us is our mind. And so can we come to this place of stepping into like, yes, this is my playground. What are my desires? What do I really want? Because it's so fun. I'm having such a blast here. And so in the Higher Health course, I teach you how to improve your mind, your body, your nutrition, your morning routine, your fitness. How to have a body How to take care of this body We don really learn that How to be in sync with nature rhythms Because when we in sync things work better Our bodies function better. We feel better. We sleep better. We have more energy. Yesterday, I had a tattoo. Bodhi's Halloween party at school. We had these little tattoos. And I put one on my belly. And he said, Mom, why did you put it on your belly? Do you love your belly? And I thought about it. And I was like, wow. if he had asked me that anytime in the past like 43 years of my life I probably would have told him no but I said yes I do I love my belly I said I love every part of my being from head to toe and that's a shift for me right that's a shift from like I have bushy eyebrows or I'm too hairy or I have these love handles or whatever to judging myself to this place of just like loving every part of my being. And so then I said to him, do you love your belly? And he said, yeah, I love my belly. I said, he said, I love my, every part of my being from head to toe. And I was like, yes, if I can give him that one gift of loving and appreciating his body and his being from head to toe, then my job is brilliantly done, right? And I don't yell at him anymore. We have such a deep love connection because I've found a peace and a centeredness in me that has carried over into all of my relationships. And I totally want to share that with you. So check out the Higher Health course, VibrantHealthEvolution.com. You can email me, WinslowPassie, at gmail.com. Thank you. This is Winslow Passie with Vibrant Health Evolution. Namaste. Thank you.",
+  "duration": 209.026,
+  "text": " Hi, this is Winslow with Vibrant Health Evolution. I'd like to share with you a concept today called Kaizen. Kaizen is a Japanese word that means small, continuous improvement. At one point in time, Toyota adopted this philosophy. They already had a really good car. They went in and they said, how can we make this better? They went to every single department and they said, can you improve this even 1%? Can you make it a little bit better? And so the end product that came out was even more brilliant and more magnificent than anything they had imagined. And this is what I do in the Higher Health Course. I teach people healthy habits and a wellness lifestyle that helps improve our quality of life every day. And once you get to this improved state where you're feeling better, then you're like, wow, how can I make it better now? How can I take it to the next level? Until you're accessing greater and greater amounts of well-being and joy and abundance that you didn't even know were available to you. And that's the journey that I am on. And it's been so amazing. And so as I do this work, more and more I'm starting to feel and truly believe that there's nothing that we can't do. We are totally unlimited. And the only thing that limits us is our mind. And so can we come to this place of stepping into like, yes, this is my playground. What are my desires? What do I really want? Because it's so fun. I'm having such a blast here. And so in the Higher Health course, I teach you how to improve your mind, your body, your nutrition, your morning routine, your fitness. How to have a body How to take care of this body We don really learn that how to be in sync with nature rhythms Because when we in sync things work better Our bodies function better. We feel better. We sleep better. We have more energy. Yesterday, I had a tattoo. Brody's Halloween party at school, we had these little tattoos. And I put one on my belly. And he said, Mom, why did you put it on your belly? Do you love your belly? And I thought about it, and I was like, wow. if he had asked me that anytime in the past like 43 years of my life I probably would have told him no but I said yes I do I love my belly I said I love every part of my being from head to toe and that's a shift for me right that's a shift from like I have bushy eyebrows or I'm too hairy or I have these love handles or whatever to judging myself to this place of just like loving every part of my being and so then I said to him do you love your belly and he said yeah I love my belly I said he said I love my every part of my being from head to toe and I was like yes if I can give him that one gift of loving and appreciating his body and his being from head to toe then my job is brilliantly done right I don't yell at him anymore we have such a deep love connection because I found a peace and a centeredness in me that has carried over into all of my relationships. And I totally want to share that with you. So check out the Higher Health course, VibrantHealthEvolution.com. You can email me, WinslowPassey, at gmail.com. Thank you. This is Winslow Passey with Vibrant Health Evolution. Namaste.",
   "segments": [
     {
       "id": 0,
       "seek": 0,
       "start": 0,
-      "end": 4,
-      "text": " Hi, this is Winslow with Vibrant Health Evolution.",
+      "end": 8,
+      "text": " Hi, this is Winslow with Vibrant Health Evolution. I'd like to share with you a concept today called Kaizen.",
       "tokens": [
         50365,
         2421,
@@ -26,21 +26,6 @@
         5912,
         40800,
         13,
-        50565
-      ],
-      "temperature": 0,
-      "avg_logprob": -0.13204168,
-      "compression_ratio": 1.6286764,
-      "no_speech_prob": 0
-    },
-    {
-      "id": 1,
-      "seek": 0,
-      "start": 4,
-      "end": 8,
-      "text": " I'd like to share with you a concept today called Kaizen.",
-      "tokens": [
-        50565,
         286,
         1116,
         411,
@@ -58,16 +43,16 @@
         50765
       ],
       "temperature": 0,
-      "avg_logprob": -0.13204168,
-      "compression_ratio": 1.6286764,
-      "no_speech_prob": 0
+      "avg_logprob": -0.16826668,
+      "compression_ratio": 1.5797665,
+      "no_speech_prob": 0.0038223267
     },
     {
-      "id": 2,
+      "id": 1,
       "seek": 0,
       "start": 8,
-      "end": 12,
-      "text": " Kaizen is a Japanese word that means small, continuous",
+      "end": 13,
+      "text": " Kaizen is a Japanese word that means small, continuous improvement.",
       "tokens": [
         50765,
         10988,
@@ -81,23 +66,23 @@
         1359,
         11,
         10957,
-        50965
-      ],
-      "temperature": 0,
-      "avg_logprob": -0.13204168,
-      "compression_ratio": 1.6286764,
-      "no_speech_prob": 0
-    },
-    {
-      "id": 3,
-      "seek": 0,
-      "start": 12,
-      "end": 16,
-      "text": " improvement. At one point in time, Toyota adopted this",
-      "tokens": [
-        50965,
         10444,
         13,
+        51015
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.16826668,
+      "compression_ratio": 1.5797665,
+      "no_speech_prob": 0.0038223267
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 13,
+      "end": 18,
+      "text": " At one point in time, Toyota adopted this philosophy. They already had a really good car.",
+      "tokens": [
+        51015,
         1711,
         472,
         935,
@@ -107,21 +92,6 @@
         22926,
         12175,
         341,
-        51165
-      ],
-      "temperature": 0,
-      "avg_logprob": -0.13204168,
-      "compression_ratio": 1.6286764,
-      "no_speech_prob": 0
-    },
-    {
-      "id": 4,
-      "seek": 0,
-      "start": 16,
-      "end": 20,
-      "text": " philosophy. They already had a really good car and they went and they said,",
-      "tokens": [
-        51165,
         10675,
         13,
         814,
@@ -131,28 +101,29 @@
         534,
         665,
         1032,
-        293,
-        436,
+        13,
+        51265
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.16826668,
+      "compression_ratio": 1.5797665,
+      "no_speech_prob": 0.0038223267
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 18,
+      "end": 21,
+      "text": " They went in and they said, how can we make this better?",
+      "tokens": [
+        51265,
+        814,
         1437,
+        294,
         293,
         436,
         848,
         11,
-        51365
-      ],
-      "temperature": 0,
-      "avg_logprob": -0.13204168,
-      "compression_ratio": 1.6286764,
-      "no_speech_prob": 0
-    },
-    {
-      "id": 5,
-      "seek": 0,
-      "start": 20,
-      "end": 24,
-      "text": " how can we make this better? They went to every single department and they said,",
-      "tokens": [
-        51365,
         577,
         393,
         321,
@@ -160,6 +131,21 @@
         341,
         1101,
         30,
+        51415
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.16826668,
+      "compression_ratio": 1.5797665,
+      "no_speech_prob": 0.0038223267
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 21,
+      "end": 26,
+      "text": " They went to every single department and they said, can you improve this even 1%?",
+      "tokens": [
+        51415,
         814,
         1437,
         281,
@@ -170,21 +156,6 @@
         436,
         848,
         11,
-        51565
-      ],
-      "temperature": 0,
-      "avg_logprob": -0.13204168,
-      "compression_ratio": 1.6286764,
-      "no_speech_prob": 0
-    },
-    {
-      "id": 6,
-      "seek": 0,
-      "start": 24,
-      "end": 28,
-      "text": " can you improve this even 1%? Can you make it a little bit better?",
-      "tokens": [
-        51565,
         393,
         291,
         3470,
@@ -193,6 +164,21 @@
         502,
         4,
         30,
+        51665
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.16826668,
+      "compression_ratio": 1.5797665,
+      "no_speech_prob": 0.0038223267
+    },
+    {
+      "id": 5,
+      "seek": 2600,
+      "start": 26,
+      "end": 28,
+      "text": " Can you make it a little bit better?",
+      "tokens": [
+        50365,
         1664,
         291,
         652,
@@ -202,21 +188,21 @@
         857,
         1101,
         30,
-        51765
+        50465
       ],
       "temperature": 0,
-      "avg_logprob": -0.13204168,
-      "compression_ratio": 1.6286764,
-      "no_speech_prob": 0
+      "avg_logprob": -0.18305326,
+      "compression_ratio": 1.6798561,
+      "no_speech_prob": 0.00365448
     },
     {
-      "id": 7,
-      "seek": 2800,
+      "id": 6,
+      "seek": 2600,
       "start": 28,
-      "end": 33.7,
-      "text": " And so the end product that came out was even more brilliant and more magnificent than anything they had imagined.",
+      "end": 32.8,
+      "text": " And so the end product that came out was even more brilliant and more magnificent than anything",
       "tokens": [
-        50365,
+        50465,
         400,
         370,
         264,
@@ -234,25 +220,40 @@
         23690,
         813,
         1340,
+        50705
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.18305326,
+      "compression_ratio": 1.6798561,
+      "no_speech_prob": 0.00365448
+    },
+    {
+      "id": 7,
+      "seek": 2600,
+      "start": 32.8,
+      "end": 34.78,
+      "text": " they had imagined.",
+      "tokens": [
+        50705,
         436,
         632,
         16590,
         13,
-        50650
+        50804
       ],
       "temperature": 0,
-      "avg_logprob": -0.1125198,
-      "compression_ratio": 1.6538461,
-      "no_speech_prob": 0
+      "avg_logprob": -0.18305326,
+      "compression_ratio": 1.6798561,
+      "no_speech_prob": 0.00365448
     },
     {
       "id": 8,
-      "seek": 2800,
-      "start": 34.38,
-      "end": 37.1,
+      "seek": 2600,
+      "start": 34.78,
+      "end": 37.28,
       "text": " And this is what I do in the Higher Health Course.",
       "tokens": [
-        50684,
+        50804,
         400,
         341,
         307,
@@ -265,21 +266,21 @@
         5912,
         27327,
         13,
-        50820
+        50929
       ],
       "temperature": 0,
-      "avg_logprob": -0.1125198,
-      "compression_ratio": 1.6538461,
-      "no_speech_prob": 0
+      "avg_logprob": -0.18305326,
+      "compression_ratio": 1.6798561,
+      "no_speech_prob": 0.00365448
     },
     {
       "id": 9,
-      "seek": 2800,
-      "start": 37.32,
-      "end": 45.88,
-      "text": " I teach people healthy habits and a wellness lifestyle that helps improve our quality of life every day.",
+      "seek": 2600,
+      "start": 37.28,
+      "end": 44.38,
+      "text": " I teach people healthy habits and a wellness lifestyle that helps improve our quality of",
       "tokens": [
-        50831,
+        50929,
         286,
         2924,
         561,
@@ -295,25 +296,40 @@
         527,
         3125,
         295,
+        51284
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.18305326,
+      "compression_ratio": 1.6798561,
+      "no_speech_prob": 0.00365448
+    },
+    {
+      "id": 10,
+      "seek": 2600,
+      "start": 44.38,
+      "end": 46.8,
+      "text": " life every day.",
+      "tokens": [
+        51284,
         993,
         633,
         786,
         13,
-        51259
+        51405
       ],
       "temperature": 0,
-      "avg_logprob": -0.1125198,
-      "compression_ratio": 1.6538461,
-      "no_speech_prob": 0
+      "avg_logprob": -0.18305326,
+      "compression_ratio": 1.6798561,
+      "no_speech_prob": 0.00365448
     },
     {
-      "id": 10,
-      "seek": 2800,
-      "start": 46.46,
-      "end": 51.56,
-      "text": " And once you get to this improved state where you're feeling better, then you're like, wow, how can I make it better now?",
+      "id": 11,
+      "seek": 2600,
+      "start": 46.8,
+      "end": 50.5,
+      "text": " And once you get to this improved state where you're feeling better, then you're like, wow,",
       "tokens": [
-        51288,
+        51405,
         400,
         1564,
         291,
@@ -335,6 +351,21 @@
         11,
         6076,
         11,
+        51590
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.18305326,
+      "compression_ratio": 1.6798561,
+      "no_speech_prob": 0.00365448
+    },
+    {
+      "id": 12,
+      "seek": 2600,
+      "start": 50.5,
+      "end": 51.66,
+      "text": " how can I make it better now?",
+      "tokens": [
+        51590,
         577,
         393,
         286,
@@ -343,21 +374,21 @@
         1101,
         586,
         30,
-        51543
+        51648
       ],
       "temperature": 0,
-      "avg_logprob": -0.1125198,
-      "compression_ratio": 1.6538461,
-      "no_speech_prob": 0
+      "avg_logprob": -0.18305326,
+      "compression_ratio": 1.6798561,
+      "no_speech_prob": 0.00365448
     },
     {
-      "id": 11,
-      "seek": 2800,
-      "start": 51.6,
-      "end": 53.2,
+      "id": 13,
+      "seek": 2600,
+      "start": 51.66,
+      "end": 53.86,
       "text": " How can I take it to the next level?",
       "tokens": [
-        51545,
+        51648,
         1012,
         393,
         286,
@@ -368,22 +399,22 @@
         958,
         1496,
         30,
-        51625
+        51758
       ],
       "temperature": 0,
-      "avg_logprob": -0.1125198,
-      "compression_ratio": 1.6538461,
-      "no_speech_prob": 0
+      "avg_logprob": -0.18305326,
+      "compression_ratio": 1.6798561,
+      "no_speech_prob": 0.00365448
     },
     {
-      "id": 12,
-      "seek": 5320,
-      "start": 53.2,
-      "end": 57.379997,
-      "text": " until you're accessing greater and greater amounts of well-being and joy and abundance",
+      "id": 14,
+      "seek": 5386,
+      "start": 53.86,
+      "end": 57.4,
+      "text": " Until you're accessing greater and greater amounts of well-being and joy and abundance",
       "tokens": [
         50365,
-        1826,
+        9088,
         291,
         434,
         26440,
@@ -399,21 +430,21 @@
         6258,
         293,
         23391,
-        50574
+        50542
       ],
       "temperature": 0,
-      "avg_logprob": -0.1383557,
-      "compression_ratio": 1.6883117,
-      "no_speech_prob": 0
+      "avg_logprob": -0.14981596,
+      "compression_ratio": 1.6810344,
+      "no_speech_prob": 0.0020503998
     },
     {
-      "id": 13,
-      "seek": 5320,
-      "start": 57.379997,
-      "end": 59.459995,
+      "id": 15,
+      "seek": 5386,
+      "start": 57.4,
+      "end": 59.98,
       "text": " that you didn't even know were available to you.",
       "tokens": [
-        50574,
+        50542,
         300,
         291,
         994,
@@ -425,21 +456,21 @@
         281,
         291,
         13,
-        50678
+        50671
       ],
       "temperature": 0,
-      "avg_logprob": -0.1383557,
-      "compression_ratio": 1.6883117,
-      "no_speech_prob": 0
+      "avg_logprob": -0.14981596,
+      "compression_ratio": 1.6810344,
+      "no_speech_prob": 0.0020503998
     },
     {
-      "id": 14,
-      "seek": 5320,
-      "start": 59.859997,
-      "end": 63.039997,
-      "text": " And that's the journey that I am on, and it's been so amazing.",
+      "id": 16,
+      "seek": 5386,
+      "start": 59.98,
+      "end": 61.74,
+      "text": " And that's the journey that I am on.",
       "tokens": [
-        50698,
+        50671,
         400,
         300,
         311,
@@ -449,29 +480,44 @@
         286,
         669,
         322,
-        11,
-        293,
+        13,
+        50759
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.14981596,
+      "compression_ratio": 1.6810344,
+      "no_speech_prob": 0.0020503998
+    },
+    {
+      "id": 17,
+      "seek": 5386,
+      "start": 61.74,
+      "end": 64.06,
+      "text": " And it's been so amazing.",
+      "tokens": [
+        50759,
+        400,
         309,
         311,
         668,
         370,
         2243,
         13,
-        50857
+        50875
       ],
       "temperature": 0,
-      "avg_logprob": -0.1383557,
-      "compression_ratio": 1.6883117,
-      "no_speech_prob": 0
+      "avg_logprob": -0.14981596,
+      "compression_ratio": 1.6810344,
+      "no_speech_prob": 0.0020503998
     },
     {
-      "id": 15,
-      "seek": 5320,
-      "start": 64.02,
-      "end": 72.1,
-      "text": " And so as I do this work, more and more I'm starting to feel and truly believe",
+      "id": 18,
+      "seek": 5386,
+      "start": 64.06,
+      "end": 72.840004,
+      "text": " And so as I do this work, more and more I'm starting to feel and truly believe that there's",
       "tokens": [
-        50906,
+        50875,
         400,
         370,
         382,
@@ -491,24 +537,24 @@
         293,
         4908,
         1697,
-        51310
-      ],
-      "temperature": 0,
-      "avg_logprob": -0.1383557,
-      "compression_ratio": 1.6883117,
-      "no_speech_prob": 0
-    },
-    {
-      "id": 16,
-      "seek": 5320,
-      "start": 72.1,
-      "end": 73.979996,
-      "text": " that there's nothing that we can't do.",
-      "tokens": [
-        51310,
         300,
         456,
         311,
+        51314
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.14981596,
+      "compression_ratio": 1.6810344,
+      "no_speech_prob": 0.0020503998
+    },
+    {
+      "id": 19,
+      "seek": 5386,
+      "start": 72.840004,
+      "end": 74.52,
+      "text": " nothing that we can't do.",
+      "tokens": [
+        51314,
         1825,
         300,
         321,
@@ -516,27 +562,42 @@
         380,
         360,
         13,
-        51404
+        51398
       ],
       "temperature": 0,
-      "avg_logprob": -0.1383557,
-      "compression_ratio": 1.6883117,
-      "no_speech_prob": 0
+      "avg_logprob": -0.14981596,
+      "compression_ratio": 1.6810344,
+      "no_speech_prob": 0.0020503998
     },
     {
-      "id": 17,
-      "seek": 5320,
-      "start": 74.399994,
-      "end": 77.96,
-      "text": " We are totally unlimited, and the only thing that limits us is our mind.",
+      "id": 20,
+      "seek": 5386,
+      "start": 74.52,
+      "end": 76.22,
+      "text": " We are totally unlimited.",
       "tokens": [
-        51425,
+        51398,
         492,
         366,
         3879,
         21950,
-        11,
-        293,
+        13,
+        51483
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.14981596,
+      "compression_ratio": 1.6810344,
+      "no_speech_prob": 0.0020503998
+    },
+    {
+      "id": 21,
+      "seek": 5386,
+      "start": 76.22,
+      "end": 78.92,
+      "text": " And the only thing that limits us is our mind.",
+      "tokens": [
+        51483,
+        400,
         264,
         787,
         551,
@@ -547,21 +608,21 @@
         527,
         1575,
         13,
-        51603
+        51618
       ],
       "temperature": 0,
-      "avg_logprob": -0.1383557,
-      "compression_ratio": 1.6883117,
-      "no_speech_prob": 0
+      "avg_logprob": -0.14981596,
+      "compression_ratio": 1.6810344,
+      "no_speech_prob": 0.0020503998
     },
     {
-      "id": 18,
-      "seek": 7796,
-      "start": 78.88,
+      "id": 22,
+      "seek": 7892,
+      "start": 78.92,
       "end": 83.72,
       "text": " And so can we come to this place of stepping into like, yes, this is my playground.",
       "tokens": [
-        50411,
+        50365,
         400,
         370,
         393,
@@ -582,83 +643,83 @@
         452,
         24646,
         13,
-        50653
+        50605
       ],
       "temperature": 0,
-      "avg_logprob": -0.19142032,
+      "avg_logprob": -0.17254314,
       "compression_ratio": 1.6515151,
-      "no_speech_prob": 0
+      "no_speech_prob": 0.0009264946
     },
     {
-      "id": 19,
-      "seek": 7796,
+      "id": 23,
+      "seek": 7892,
       "start": 84.14,
       "end": 85.5,
       "text": " What are my desires?",
       "tokens": [
-        50674,
+        50626,
         708,
         366,
         452,
         18005,
         30,
-        50742
+        50694
       ],
       "temperature": 0,
-      "avg_logprob": -0.19142032,
+      "avg_logprob": -0.17254314,
       "compression_ratio": 1.6515151,
-      "no_speech_prob": 0
+      "no_speech_prob": 0.0009264946
     },
     {
-      "id": 20,
-      "seek": 7796,
+      "id": 24,
+      "seek": 7892,
       "start": 85.659996,
       "end": 86.659996,
       "text": " What do I really want?",
       "tokens": [
-        50750,
+        50702,
         708,
         360,
         286,
         534,
         528,
         30,
-        50800
+        50752
       ],
       "temperature": 0,
-      "avg_logprob": -0.19142032,
+      "avg_logprob": -0.17254314,
       "compression_ratio": 1.6515151,
-      "no_speech_prob": 0
+      "no_speech_prob": 0.0009264946
     },
     {
-      "id": 21,
-      "seek": 7796,
+      "id": 25,
+      "seek": 7892,
       "start": 86.68,
       "end": 87.86,
       "text": " Because it's so fun.",
       "tokens": [
-        50801,
+        50753,
         1436,
         309,
         311,
         370,
         1019,
         13,
-        50860
+        50812
       ],
       "temperature": 0,
-      "avg_logprob": -0.19142032,
+      "avg_logprob": -0.17254314,
       "compression_ratio": 1.6515151,
-      "no_speech_prob": 0
+      "no_speech_prob": 0.0009264946
     },
     {
-      "id": 22,
-      "seek": 7796,
+      "id": 26,
+      "seek": 7892,
       "start": 88.32,
       "end": 90.06,
       "text": " I'm having such a blast here.",
       "tokens": [
-        50883,
+        50835,
         286,
         478,
         1419,
@@ -667,21 +728,21 @@
         12035,
         510,
         13,
-        50970
+        50922
       ],
       "temperature": 0,
-      "avg_logprob": -0.19142032,
+      "avg_logprob": -0.17254314,
       "compression_ratio": 1.6515151,
-      "no_speech_prob": 0
+      "no_speech_prob": 0.0009264946
     },
     {
-      "id": 23,
-      "seek": 7796,
-      "start": 90.52,
+      "id": 27,
+      "seek": 7892,
+      "start": 90.54,
       "end": 99.38,
       "text": " And so in the Higher Health course, I teach you how to improve your mind, your body, your nutrition, your morning routine, your fitness.",
       "tokens": [
-        50993,
+        50946,
         400,
         370,
         294,
@@ -712,29 +773,29 @@
         428,
         15303,
         13,
-        51436
+        51388
       ],
       "temperature": 0,
-      "avg_logprob": -0.19142032,
+      "avg_logprob": -0.17254314,
       "compression_ratio": 1.6515151,
-      "no_speech_prob": 0
+      "no_speech_prob": 0.0009264946
     },
     {
-      "id": 24,
+      "id": 28,
       "seek": 99,
       "start": 100.54,
       "end": 109.766,
-      "text": " How to have a body How to take care of this body We don really learn that How to be in sync with nature rhythms Because when we in sync things work better",
+      "text": " How to have a body How to take care of this body We don really learn that how to be in sync with nature rhythms Because when we in sync things work better",
       "tokens": [
-        51494,
+        51446,
         1012,
         281,
         362,
         257,
         1772,
         13,
-        51552,
-        51552,
+        51504,
+        51511,
         1012,
         281,
         747,
@@ -743,8 +804,8 @@
         341,
         1772,
         13,
-        51630,
-        51671,
+        51581,
+        51623,
         492,
         500,
         380,
@@ -752,9 +813,9 @@
         1466,
         300,
         13,
-        50629,
-        50630,
-        1012,
+        51680,
+        11,
+        577,
         281,
         312,
         294,
@@ -780,18 +841,18 @@
         50868
       ],
       "temperature": 0,
-      "avg_logprob": -0.22374405,
-      "compression_ratio": 1.7157894,
-      "no_speech_prob": 0
+      "avg_logprob": -0.20156153,
+      "compression_ratio": 1.7122808,
+      "no_speech_prob": 0.0030274168
     },
     {
-      "id": 25,
+      "id": 29,
       "seek": 99,
-      "start": 109.866,
+      "start": 109.886,
       "end": 111.206,
       "text": " Our bodies function better.",
       "tokens": [
-        50873,
+        50874,
         2621,
         7510,
         2445,
@@ -800,18 +861,18 @@
         50940
       ],
       "temperature": 0,
-      "avg_logprob": -0.22374405,
-      "compression_ratio": 1.7157894,
-      "no_speech_prob": 0
+      "avg_logprob": -0.20156153,
+      "compression_ratio": 1.7122808,
+      "no_speech_prob": 0.0030274168
     },
     {
-      "id": 26,
+      "id": 30,
       "seek": 99,
-      "start": 111.286,
+      "start": 111.306,
       "end": 111.886,
       "text": " We feel better.",
       "tokens": [
-        50944,
+        50945,
         492,
         841,
         1101,
@@ -819,15 +880,15 @@
         50974
       ],
       "temperature": 0,
-      "avg_logprob": -0.22374405,
-      "compression_ratio": 1.7157894,
-      "no_speech_prob": 0
+      "avg_logprob": -0.20156153,
+      "compression_ratio": 1.7122808,
+      "no_speech_prob": 0.0030274168
     },
     {
-      "id": 27,
+      "id": 31,
       "seek": 99,
       "start": 111.986,
-      "end": 112.666,
+      "end": 112.686005,
       "text": " We sleep better.",
       "tokens": [
         50979,
@@ -835,41 +896,41 @@
         2817,
         1101,
         13,
-        51013
+        51014
       ],
       "temperature": 0,
-      "avg_logprob": -0.22374405,
-      "compression_ratio": 1.7157894,
-      "no_speech_prob": 0
+      "avg_logprob": -0.20156153,
+      "compression_ratio": 1.7122808,
+      "no_speech_prob": 0.0030274168
     },
     {
-      "id": 28,
+      "id": 32,
       "seek": 99,
-      "start": 112.746,
-      "end": 113.546005,
+      "start": 112.766,
+      "end": 113.566,
       "text": " We have more energy.",
       "tokens": [
-        51017,
+        51018,
         492,
         362,
         544,
         2281,
         13,
-        51057
+        51058
       ],
       "temperature": 0,
-      "avg_logprob": -0.22374405,
-      "compression_ratio": 1.7157894,
-      "no_speech_prob": 0
+      "avg_logprob": -0.20156153,
+      "compression_ratio": 1.7122808,
+      "no_speech_prob": 0.0030274168
     },
     {
-      "id": 29,
+      "id": 33,
       "seek": 99,
-      "start": 115.306,
-      "end": 117.686005,
+      "start": 115.326004,
+      "end": 117.666,
       "text": " Yesterday, I had a tattoo.",
       "tokens": [
-        51145,
+        51146,
         19765,
         11,
         286,
@@ -877,45 +938,30 @@
         257,
         15080,
         13,
-        51264
+        51263
       ],
       "temperature": 0,
-      "avg_logprob": -0.22374405,
-      "compression_ratio": 1.7157894,
-      "no_speech_prob": 0
+      "avg_logprob": -0.20156153,
+      "compression_ratio": 1.7122808,
+      "no_speech_prob": 0.0030274168
     },
     {
-      "id": 30,
+      "id": 34,
       "seek": 99,
       "start": 117.826004,
-      "end": 119.466,
-      "text": " Bodhi's Halloween party at school.",
+      "end": 121.266,
+      "text": " Brody's Halloween party at school, we had these little tattoos.",
       "tokens": [
         51271,
-        19482,
-        4954,
+        5425,
+        3173,
         311,
         13860,
         3595,
         412,
         1395,
-        13,
-        51353
-      ],
-      "temperature": 0,
-      "avg_logprob": -0.22374405,
-      "compression_ratio": 1.7157894,
-      "no_speech_prob": 0
-    },
-    {
-      "id": 31,
-      "seek": 99,
-      "start": 119.566,
-      "end": 121.266,
-      "text": " We had these little tattoos.",
-      "tokens": [
-        51358,
-        492,
+        11,
+        321,
         632,
         613,
         707,
@@ -924,12 +970,12 @@
         51443
       ],
       "temperature": 0,
-      "avg_logprob": -0.22374405,
-      "compression_ratio": 1.7157894,
-      "no_speech_prob": 0
+      "avg_logprob": -0.20156153,
+      "compression_ratio": 1.7122808,
+      "no_speech_prob": 0.0030274168
     },
     {
-      "id": 32,
+      "id": 35,
       "seek": 99,
       "start": 121.266,
       "end": 122.446,
@@ -947,18 +993,18 @@
         51502
       ],
       "temperature": 0,
-      "avg_logprob": -0.22374405,
-      "compression_ratio": 1.7157894,
-      "no_speech_prob": 0
+      "avg_logprob": -0.20156153,
+      "compression_ratio": 1.7122808,
+      "no_speech_prob": 0.0030274168
     },
     {
-      "id": 33,
+      "id": 36,
       "seek": 99,
-      "start": 123.026,
+      "start": 123.306,
       "end": 125.086,
       "text": " And he said, Mom, why did you put it on your belly?",
       "tokens": [
-        51531,
+        51545,
         400,
         415,
         848,
@@ -977,12 +1023,12 @@
         51634
       ],
       "temperature": 0,
-      "avg_logprob": -0.22374405,
-      "compression_ratio": 1.7157894,
-      "no_speech_prob": 0
+      "avg_logprob": -0.20156153,
+      "compression_ratio": 1.7122808,
+      "no_speech_prob": 0.0030274168
     },
     {
-      "id": 34,
+      "id": 37,
       "seek": 99,
       "start": 125.286,
       "end": 126.206,
@@ -998,16 +1044,16 @@
         51690
       ],
       "temperature": 0,
-      "avg_logprob": -0.22374405,
-      "compression_ratio": 1.7157894,
-      "no_speech_prob": 0
+      "avg_logprob": -0.20156153,
+      "compression_ratio": 1.7122808,
+      "no_speech_prob": 0.0030274168
     },
     {
-      "id": 35,
+      "id": 38,
       "seek": 99,
-      "start": 126.645996,
-      "end": 127.846,
-      "text": " And I thought about it.",
+      "start": 126.646,
+      "end": 128.506,
+      "text": " And I thought about it, and I was like, wow.",
       "tokens": [
         51712,
         400,
@@ -1015,23 +1061,8 @@
         1194,
         466,
         309,
-        13,
-        51772
-      ],
-      "temperature": 0,
-      "avg_logprob": -0.22374405,
-      "compression_ratio": 1.7157894,
-      "no_speech_prob": 0
-    },
-    {
-      "id": 36,
-      "seek": 99,
-      "start": 127.886,
-      "end": 128.506,
-      "text": " And I was like, wow.",
-      "tokens": [
-        51774,
-        400,
+        11,
+        293,
         286,
         390,
         411,
@@ -1041,12 +1072,12 @@
         51805
       ],
       "temperature": 0,
-      "avg_logprob": -0.22374405,
-      "compression_ratio": 1.7157894,
-      "no_speech_prob": 0
+      "avg_logprob": -0.20156153,
+      "compression_ratio": 1.7122808,
+      "no_speech_prob": 0.0030274168
     },
     {
-      "id": 37,
+      "id": 39,
       "seek": 2979,
       "start": 128.506,
       "end": 133.946,
@@ -1078,12 +1109,12 @@
         50637
       ],
       "temperature": 0,
-      "avg_logprob": -0.07018255,
-      "compression_ratio": 1.7017543,
-      "no_speech_prob": 0
+      "avg_logprob": -0.04976866,
+      "compression_ratio": 1.6933334,
+      "no_speech_prob": 0.0025906835
     },
     {
-      "id": 38,
+      "id": 40,
       "seek": 2979,
       "start": 133.946,
       "end": 142.086,
@@ -1117,12 +1148,12 @@
         51044
       ],
       "temperature": 0,
-      "avg_logprob": -0.07018255,
-      "compression_ratio": 1.7017543,
-      "no_speech_prob": 0
+      "avg_logprob": -0.04976866,
+      "compression_ratio": 1.6933334,
+      "no_speech_prob": 0.0025906835
     },
     {
-      "id": 39,
+      "id": 41,
       "seek": 2979,
       "start": 142.086,
       "end": 148.046,
@@ -1156,16 +1187,16 @@
         51342
       ],
       "temperature": 0,
-      "avg_logprob": -0.07018255,
-      "compression_ratio": 1.7017543,
-      "no_speech_prob": 0
+      "avg_logprob": -0.04976866,
+      "compression_ratio": 1.6933334,
+      "no_speech_prob": 0.0025906835
     },
     {
-      "id": 40,
+      "id": 42,
       "seek": 2979,
       "start": 148.046,
-      "end": 152.06601,
-      "text": " or I have these love handles or whatever to judging myself to this place of just like loving every",
+      "end": 151.78601,
+      "text": " or I have these love handles or whatever to judging myself to this place of just like loving",
       "tokens": [
         51342,
         420,
@@ -1186,77 +1217,68 @@
         445,
         411,
         9344,
-        633,
-        51543
+        51529
       ],
       "temperature": 0,
-      "avg_logprob": -0.07018255,
-      "compression_ratio": 1.7017543,
-      "no_speech_prob": 0
+      "avg_logprob": -0.04976866,
+      "compression_ratio": 1.6933334,
+      "no_speech_prob": 0.0025906835
     },
     {
-      "id": 41,
-      "seek": 5335,
-      "start": 152.06601,
-      "end": 159.806,
-      "text": " part of my being. And so then I said to him, do you love your belly? And he said, yeah,",
+      "id": 43,
+      "seek": 5307,
+      "start": 151.78601,
+      "end": 160.84601,
+      "text": " every part of my being and so then I said to him do you love your belly and he said yeah I love my",
       "tokens": [
         50365,
+        633,
         644,
         295,
         452,
         885,
-        13,
-        400,
+        293,
         370,
         550,
         286,
         848,
         281,
         796,
-        11,
         360,
         291,
         959,
         428,
         11696,
-        30,
-        400,
+        293,
         415,
         848,
-        11,
         1338,
-        11,
-        50752
+        286,
+        959,
+        452,
+        50818
       ],
       "temperature": 0,
-      "avg_logprob": -0.07143315,
-      "compression_ratio": 1.7512438,
-      "no_speech_prob": 0
+      "avg_logprob": -0.046258375,
+      "compression_ratio": 1.8701923,
+      "no_speech_prob": 0.0017540425
     },
     {
-      "id": 42,
-      "seek": 5335,
-      "start": 160.06601,
-      "end": 165.906,
-      "text": " I love my belly. I said, he said, I love my, every part of my being from head to toe. And",
+      "id": 44,
+      "seek": 5307,
+      "start": 160.84601,
+      "end": 167.326,
+      "text": " belly I said he said I love my every part of my being from head to toe and I was like yes if I",
       "tokens": [
-        50765,
-        286,
-        959,
-        452,
+        50818,
         11696,
-        13,
         286,
         848,
-        11,
         415,
         848,
-        11,
         286,
         959,
         452,
-        11,
         633,
         644,
         295,
@@ -1266,31 +1288,28 @@
         1378,
         281,
         13976,
-        13,
-        400,
-        51057
-      ],
-      "temperature": 0,
-      "avg_logprob": -0.07143315,
-      "compression_ratio": 1.7512438,
-      "no_speech_prob": 0
-    },
-    {
-      "id": 43,
-      "seek": 5335,
-      "start": 165.906,
-      "end": 173.226,
-      "text": " I was like, yes, if I can give him that one gift of loving and appreciating his body and",
-      "tokens": [
-        51057,
+        293,
         286,
         390,
         411,
-        11,
         2086,
-        11,
         498,
         286,
+        51142
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.046258375,
+      "compression_ratio": 1.8701923,
+      "no_speech_prob": 0.0017540425
+    },
+    {
+      "id": 45,
+      "seek": 5307,
+      "start": 167.326,
+      "end": 175.246,
+      "text": " can give him that one gift of loving and appreciating his body and his being from head to toe then",
+      "tokens": [
+        51142,
         393,
         976,
         796,
@@ -1305,72 +1324,66 @@
         702,
         1772,
         293,
-        51423
-      ],
-      "temperature": 0,
-      "avg_logprob": -0.07143315,
-      "compression_ratio": 1.7512438,
-      "no_speech_prob": 0
-    },
-    {
-      "id": 44,
-      "seek": 5335,
-      "start": 173.226,
-      "end": 179.026,
-      "text": " his being from head to toe, then my job is brilliantly done, right? And I don't yell",
-      "tokens": [
-        51423,
         702,
         885,
         490,
         1378,
         281,
         13976,
-        11,
         550,
+        51538
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.046258375,
+      "compression_ratio": 1.8701923,
+      "no_speech_prob": 0.0017540425
+    },
+    {
+      "id": 46,
+      "seek": 5307,
+      "start": 175.246,
+      "end": 181.626,
+      "text": " my job is brilliantly done right I don't yell at him anymore we have such a deep love connection",
+      "tokens": [
+        51538,
         452,
         1691,
         307,
         8695,
         42580,
         1096,
-        11,
         558,
-        30,
-        400,
         286,
         500,
         380,
         20525,
-        51713
-      ],
-      "temperature": 0,
-      "avg_logprob": -0.07143315,
-      "compression_ratio": 1.7512438,
-      "no_speech_prob": 0
-    },
-    {
-      "id": 45,
-      "seek": 8031,
-      "start": 179.026,
-      "end": 184.186,
-      "text": " at him anymore. We have such a deep love connection because I've found a peace and a centeredness",
-      "tokens": [
-        50365,
         412,
         796,
         3602,
-        13,
-        492,
+        321,
         362,
         1270,
         257,
         2452,
         959,
         4984,
+        51857
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.046258375,
+      "compression_ratio": 1.8701923,
+      "no_speech_prob": 0.0017540425
+    },
+    {
+      "id": 47,
+      "seek": 8291,
+      "start": 181.626,
+      "end": 184.686,
+      "text": " because I found a peace and a centeredness in me",
+      "tokens": [
+        50365,
         570,
         286,
-        600,
         1352,
         257,
         4336,
@@ -1378,23 +1391,23 @@
         257,
         18988,
         1287,
-        50623
-      ],
-      "temperature": 0,
-      "avg_logprob": -0.10372911,
-      "compression_ratio": 1.5795919,
-      "no_speech_prob": 0
-    },
-    {
-      "id": 46,
-      "seek": 8031,
-      "start": 184.186,
-      "end": 189.386,
-      "text": " in me that has carried over into all of my relationships. And I totally want to share",
-      "tokens": [
-        50623,
         294,
         385,
+        50518
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.18515362,
+      "compression_ratio": 1.5395349,
+      "no_speech_prob": 7.842045e-05
+    },
+    {
+      "id": 48,
+      "seek": 8291,
+      "start": 184.686,
+      "end": 188.28601,
+      "text": " that has carried over into all of my relationships.",
+      "tokens": [
+        50518,
         300,
         575,
         9094,
@@ -1405,31 +1418,46 @@
         452,
         6159,
         13,
+        50698
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.18515362,
+      "compression_ratio": 1.5395349,
+      "no_speech_prob": 7.842045e-05
+    },
+    {
+      "id": 49,
+      "seek": 8291,
+      "start": 188.526,
+      "end": 189.906,
+      "text": " And I totally want to share that with you.",
+      "tokens": [
+        50710,
         400,
         286,
         3879,
         528,
         281,
         2073,
-        50883
-      ],
-      "temperature": 0,
-      "avg_logprob": -0.10372911,
-      "compression_ratio": 1.5795919,
-      "no_speech_prob": 0
-    },
-    {
-      "id": 47,
-      "seek": 8031,
-      "start": 189.386,
-      "end": 196.626,
-      "text": " that with you. So check out the Higher Health course, VibrantHealthEvolution.com. You can",
-      "tokens": [
-        50883,
         300,
         365,
         291,
         13,
+        50779
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.18515362,
+      "compression_ratio": 1.5395349,
+      "no_speech_prob": 7.842045e-05
+    },
+    {
+      "id": 50,
+      "seek": 8291,
+      "start": 189.986,
+      "end": 192.686,
+      "text": " So check out the Higher Health course,",
+      "tokens": [
+        50783,
         407,
         1520,
         484,
@@ -1438,6 +1466,21 @@
         5912,
         1164,
         11,
+        50918
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.18515362,
+      "compression_ratio": 1.5395349,
+      "no_speech_prob": 7.842045e-05
+    },
+    {
+      "id": 51,
+      "seek": 8291,
+      "start": 193.666,
+      "end": 195.50601,
+      "text": " VibrantHealthEvolution.com.",
+      "tokens": [
+        50967,
         691,
         6414,
         394,
@@ -1449,23 +1492,23 @@
         13,
         1112,
         13,
-        509,
-        393,
-        51245
+        51059
       ],
       "temperature": 0,
-      "avg_logprob": -0.10372911,
-      "compression_ratio": 1.5795919,
-      "no_speech_prob": 0
+      "avg_logprob": -0.18515362,
+      "compression_ratio": 1.5395349,
+      "no_speech_prob": 7.842045e-05
     },
     {
-      "id": 48,
-      "seek": 8031,
-      "start": 196.626,
-      "end": 203.06601,
-      "text": " email me, WinslowPassie, at gmail.com. Thank you. This is Winslow Passie with Vibrant",
+      "id": 52,
+      "seek": 8291,
+      "start": 196.28601,
+      "end": 199.34601,
+      "text": " You can email me, WinslowPassey, at gmail.com.",
       "tokens": [
-        51245,
+        51098,
+        509,
+        393,
         3796,
         385,
         11,
@@ -1473,8 +1516,8 @@
         1292,
         14107,
         47,
-        640,
-        414,
+        296,
+        7399,
         11,
         412,
         290,
@@ -1482,69 +1525,80 @@
         13,
         1112,
         13,
+        51251
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.18515362,
+      "compression_ratio": 1.5395349,
+      "no_speech_prob": 7.842045e-05
+    },
+    {
+      "id": 53,
+      "seek": 8291,
+      "start": 200.28601,
+      "end": 201.206,
+      "text": " Thank you.",
+      "tokens": [
+        51298,
         1044,
         291,
         13,
+        51344
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.18515362,
+      "compression_ratio": 1.5395349,
+      "no_speech_prob": 7.842045e-05
+    },
+    {
+      "id": 54,
+      "seek": 8291,
+      "start": 201.486,
+      "end": 203.686,
+      "text": " This is Winslow Passey with Vibrant Health Evolution.",
+      "tokens": [
+        51358,
         639,
         307,
         343,
         1292,
         14107,
-        430,
-        640,
-        414,
+        14199,
+        7399,
         365,
         691,
         6414,
         394,
-        51567
-      ],
-      "temperature": 0,
-      "avg_logprob": -0.10372911,
-      "compression_ratio": 1.5795919,
-      "no_speech_prob": 0
-    },
-    {
-      "id": 49,
-      "seek": 8031,
-      "start": 203.06601,
-      "end": 204.646,
-      "text": " Health Evolution. Namaste.",
-      "tokens": [
-        51567,
         5912,
         40800,
         13,
+        51468
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.18515362,
+      "compression_ratio": 1.5395349,
+      "no_speech_prob": 7.842045e-05
+    },
+    {
+      "id": 55,
+      "seek": 8291,
+      "start": 203.686,
+      "end": 204.686,
+      "text": " Namaste.",
+      "tokens": [
+        51468,
         10684,
         9079,
         13,
-        51646
+        51518
       ],
       "temperature": 0,
-      "avg_logprob": -0.10372911,
-      "compression_ratio": 1.5795919,
-      "no_speech_prob": 0
-    },
-    {
-      "id": 50,
-      "seek": 11031,
-      "start": 209.026,
-      "end": 239.00601,
-      "text": " Thank you.",
-      "tokens": [
-        50365,
-        1044,
-        291,
-        13,
-        51864
-      ],
-      "temperature": 0,
-      "avg_logprob": -0.27083376,
-      "compression_ratio": 0.57894737,
-      "no_speech_prob": 0
+      "avg_logprob": -0.18515362,
+      "compression_ratio": 1.5395349,
+      "no_speech_prob": 7.842045e-05
     }
   ],
   "x_groq": {
-    "id": "req_01kx8stccve0ks05n6kvm9ytps"
+    "id": "req_01kx8yecc9e86tqa9jhzdnwnyq"
   }
 }

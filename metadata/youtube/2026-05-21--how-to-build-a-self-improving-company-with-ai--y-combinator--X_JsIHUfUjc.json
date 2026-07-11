@@ -12,12 +12,16 @@
   "relevance_categories": [
     "ai-native-company",
     "organizational-memory",
-    "agent-operations"
+    "agent-operations",
+    "recursive-improvement",
+    "experimentation-flywheel"
   ],
   "relevance_evidence": [
     "ai agent",
     "ai-native",
-    "company brain"
+    "company brain",
+    "experimenting",
+    "self-improving"
   ],
   "relevance_spans": [
     {
@@ -37,6 +41,18 @@
       "phrase": "ai agent",
       "text": "to an AI agent, and suddenly you can ask",
       "timestamp": "10:31"
+    },
+    {
+      "category": "recursive-improvement",
+      "phrase": "self-improving",
+      "text": "set of recursive self-improving AI",
+      "timestamp": "2:32"
+    },
+    {
+      "category": "experimentation-flywheel",
+      "phrase": "experimenting",
+      "text": "should be experimenting to the max to",
+      "timestamp": "7:03"
     }
   ],
   "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",

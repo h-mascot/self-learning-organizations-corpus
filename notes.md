@@ -22,7 +22,8 @@
 - 25 reproducible queries yielded 478 unique candidates.
 - Caption retrieval hit HTTP 429, so the pipeline used Groq Whisper ASR fallback; both available models enforce 7,200 audio-seconds/hour.
 - Chrome cookies and the recommended EJS component did not recover YouTube access; the final probe still returned HTTP 429 and “Sign in to confirm you’re not a bot.”
-- 64 relevant timestamped transcripts passed the worker validator, including `I9c8STV7Hnw`.
+- 76 relevant timestamped transcripts pass strengthened transcript-grounded validation, including `I9c8STV7Hnw`; the 100-source gate remains 24 short.
 - `yk2o6Sj3XQk` (repeated “Thank you”) and `dFIM6WcjYEc` (individual memory-training advertisement) were quarantined.
 - 47 attempted/unresolved sources remain materialized in `research/progress/youtube-failures.jsonl`.
 - Raw caption/ASR evidence, quarantine records, and failure ledgers are retained.
+- Ranged cached-audio downloads removed the transport stall and enabled additional short-form completions; transcript-grounded review quarantined title-only false positives.

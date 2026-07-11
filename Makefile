@@ -1,7 +1,10 @@
-.PHONY: audit generate test check
+.PHONY: audit validate generate test check
 
 audit:
 	python3 tools/corpus.py audit
+
+validate: audit
+	python3 scripts/validate_youtube.py
 
 generate:
 	python3 tools/corpus.py generate

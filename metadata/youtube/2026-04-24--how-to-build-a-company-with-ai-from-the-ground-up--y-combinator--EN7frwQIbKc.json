@@ -12,14 +12,16 @@
   "relevance_categories": [
     "feedback-systems",
     "ai-native-company",
-    "agent-operations"
+    "agent-operations",
+    "recursive-improvement"
   ],
   "relevance_evidence": [
     "agents",
     "ai agent",
     "ai native",
     "ai-native",
-    "feedback loop"
+    "feedback loop",
+    "self-improving"
   ],
   "relevance_spans": [
     {
@@ -49,6 +51,12 @@
     {
       "category": "agent-operations",
       "phrase": "agents",
+      "text": "With self-improving agents, your company",
+      "timestamp": "2:22"
+    },
+    {
+      "category": "recursive-improvement",
+      "phrase": "self-improving",
       "text": "With self-improving agents, your company",
       "timestamp": "2:22"
     }

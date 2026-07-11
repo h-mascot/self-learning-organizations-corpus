@@ -1,0 +1,53 @@
+{
+  "asr_models": [
+    "whisper-large-v3-turbo"
+  ],
+  "availability": "public",
+  "caption_error": "YouTube captions unavailable; recovered from cached signed audio URL.",
+  "channel": "Lex Clips",
+  "duration_seconds": 216,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "7adffd0f5c678929c35f7e03c24bd5a500ec2a0bb38aff633e9db24c8b8bcbcc",
+    "source-info.json": "0b23c1ce14e1116fb30e7f0e6395f1843d41a03df714e1d07ac5241a923b039a"
+  },
+  "raw_path": "raw/youtube/2026-02-13--self-improving-ai-agent-that-modifies-its-own-code-peter-steinberger-and-lex-fridman--lex-clips--Ski1MBTgHZ8",
+  "relevance_categories": [
+    "agent-operations",
+    "recursive-improvement"
+  ],
+  "relevance_evidence": [
+    "agentic loop",
+    "modify itself",
+    "self-modifying"
+  ],
+  "relevance_spans": [
+    {
+      "category": "agent-operations",
+      "phrase": "agentic loop",
+      "text": "that's able to, via the agentic loop, modify itself.",
+      "timestamp": "1:21"
+    },
+    {
+      "category": "recursive-improvement",
+      "phrase": "self-modifying",
+      "text": "You know, we have people talk about self-modifying software, I just built it.",
+      "timestamp": "1:04"
+    },
+    {
+      "category": "recursive-improvement",
+      "phrase": "modify itself",
+      "text": "that's able to, via the agentic loop, modify itself.",
+      "timestamp": "1:21"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 52,
+  "source_url": "https://www.youtube.com/watch?v=Ski1MBTgHZ8",
+  "title": "Self-improving AI agent that modifies its own code | Peter Steinberger and Lex Fridman",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "sources/youtube/accepted/2026-02-13--self-improving-ai-agent-that-modifies-its-own-code-peter-steinberger-and-lex-fridman--lex-clips--Ski1MBTgHZ8.md",
+  "transcript_sha256": "ec48772b038f57561cc4e7808837ade26a8b62a721c703e80253d7aad95cddba",
+  "upload_date": "20260213",
+  "video_id": "Ski1MBTgHZ8"
+}

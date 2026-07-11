@@ -1,0 +1,58 @@
+{
+  "asr_models": [
+    "whisper-large-v3",
+    "whisper-large-v3-turbo"
+  ],
+  "availability": "public",
+  "caption_error": "YouTube captions unavailable; recovered from cached signed audio URL.",
+  "channel": "Sourcery with Molly O'Shea",
+  "duration_seconds": 2284,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "ee7478974ec8d7866e020fc38b145870a944a20cc83f6ae0e9475e042445708b",
+    "asr-001.json": "5916a8214634b9fad9012ae91a45076c279bc28c2e3c19dae046d5668c677a47",
+    "asr-002.json": "56cd5d3b9d09a413f7b757a4526718d0bda6ca65bddbb8b7dbf5a9a3657d1063",
+    "asr-003.json": "330a609063faa3bd8efab706929fe676d3b27acb06f6be36f18ab9b79e2dec54",
+    "source-info.json": "4266c6e680266d38ba80fd0fafe730592d8d1c48f7ba4db2021453a40d4e41be"
+  },
+  "raw_path": "raw/youtube/2026-06-16--inside-harvey-ai-ceo-winston-weinberg-on-how-a-4-year-old-company-is-taking-on-the-foundation-labs--sourcery-with-molly-o-shea--ekXJCDNEmOM",
+  "relevance_categories": [
+    "ai-native-company",
+    "agent-operations",
+    "named-lanes"
+  ],
+  "relevance_evidence": [
+    "agents",
+    "ai native",
+    "brex"
+  ],
+  "relevance_spans": [
+    {
+      "category": "ai-native-company",
+      "phrase": "ai native",
+      "text": "And it was AI native from the start.",
+      "timestamp": "27:03"
+    },
+    {
+      "category": "agent-operations",
+      "phrase": "agents",
+      "text": "And then this year, most recently, the main switch we did is just went over to cloud agents to switch our entire infrastructure to that.",
+      "timestamp": "0:25"
+    },
+    {
+      "category": "named-lanes",
+      "phrase": "brex",
+      "text": "Sorcery is brought to you by Brex, the financial stack trusted by more than 30,000 companies,",
+      "timestamp": "11:28"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 569,
+  "source_url": "https://www.youtube.com/watch?v=ekXJCDNEmOM",
+  "title": "Inside Harvey AI: CEO Winston Weinberg on How a 4-Year-Old Company Is Taking on the Foundation Labs",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "sources/youtube/accepted/2026-06-16--inside-harvey-ai-ceo-winston-weinberg-on-how-a-4-year-old-company-is-taking-on-the-foundation-labs--sourcery-with-molly-o-shea--ekXJCDNEmOM.md",
+  "transcript_sha256": "38ddadd41e345d91880597d157875d92584d785e87a213e5cd995becc934aa5c",
+  "upload_date": "20260616",
+  "video_id": "ekXJCDNEmOM"
+}

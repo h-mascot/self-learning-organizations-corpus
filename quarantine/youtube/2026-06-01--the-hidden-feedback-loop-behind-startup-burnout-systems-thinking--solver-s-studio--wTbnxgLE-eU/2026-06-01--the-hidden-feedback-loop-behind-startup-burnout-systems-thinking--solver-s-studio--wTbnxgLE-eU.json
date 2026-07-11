@@ -1,0 +1,27 @@
+{
+  "asr_models": [
+    "whisper-large-v3"
+  ],
+  "availability": "public",
+  "caption_error": "YouTube captions unavailable; recovered from cached signed audio URL.",
+  "channel": "Solver's Studio",
+  "duration_seconds": 264,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "8632dc7b14ae301046a873677d97752d8ce058cb9304a69b8c389e99c38e253b",
+    "source-info.json": "248baee39acac11858fe5d043bcf4d4a18d1f1913cea37acd6e545f577d410c2"
+  },
+  "raw_path": "raw/youtube/2026-06-01--the-hidden-feedback-loop-behind-startup-burnout-systems-thinking--solver-s-studio--wTbnxgLE-eU",
+  "relevance_categories": [],
+  "relevance_evidence": [],
+  "relevance_spans": [],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 49,
+  "source_url": "https://www.youtube.com/watch?v=wTbnxgLE-eU",
+  "title": "The Hidden Feedback Loop Behind Startup Burnout | Systems Thinking",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "transcripts/youtube/2026-06-01--the-hidden-feedback-loop-behind-startup-burnout-systems-thinking--solver-s-studio--wTbnxgLE-eU.md",
+  "transcript_sha256": "e9cef4f953853179778490c030cff545230a876f1f31e935e46c3562fc5d4d82",
+  "upload_date": "20260601",
+  "video_id": "wTbnxgLE-eU"
+}
