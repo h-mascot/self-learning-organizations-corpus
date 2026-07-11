@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "loop": 51,
+  "parent_loop": 12,
+  "parent_source": "https://journalhosting.ucalgary.ca/index.php/cjeap/article/view/42670",
+  "selected_item": "https://openalex.org/W1775479434",
+  "selected_title": "Administrative reforms in Peru, 2003-2006 : decentralization in name only?",
+  "discovered_as": "related_works link exposed by loop 12",
+  "question": "What mechanism does Gonzalo Alcalde identify in “Administrative reforms in Peru, 2003-2006 : decentralization in name only?” that deepens the evidence from “\"Decentralized-Centralism\" Governance in Education: Evidence from Norway and British Columbia, Canada”?",
+  "retrieval_url": "https://api.openalex.org/works/W1775479434?mailto=corpus@example.invalid",
+  "canonical_url": "http://hdl.handle.net/2152/29544",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:20:55.740691+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "This dissertation examines Peruvian ministries’ implementation of administrative decentralization, 2003-2006, and identifies factors shaping their decentralization policymaking. In administrative decentralization, implementation involves translating broad guidelines into sectoral transfer policies. Sectoral policymakers who execute decentralization mandates are, therefore, responsible for relinquishing authority and resources to subnational governments. Despite this challenging situation, little is known said about factors—political or otherwise—shaping the implementation of administrative decentralization. The initiation of state decentralization programs throughout Latin America has been examined and largely attributed to national political factors, rather than technical considerations. However, transferring power is not an assured outcome of national politicians’ decisions to decentra"
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Decentralization, Politics through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 123 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [
+    "https://openalex.org/W2498774475",
+    "https://openalex.org/W18568337",
+    "https://openalex.org/W2984483713",
+    "https://openalex.org/W2947410245",
+    "https://openalex.org/W2528888362",
+    "https://openalex.org/W2025273580",
+    "https://openalex.org/W2530333842",
+    "https://openalex.org/W2942722350"
+  ],
+  "corpus_changes": [
+    "sources/arxiv/2008--administrative-reforms-in-peru-2003-2006-decentralization-in-name-only--gonzalo-alcalde--w1775479434.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W1775479434"
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": 2,
+  "loop": 47,
+  "parent_loop": 11,
+  "parent_source": "http://en.cnki.com.cn/Article_en/CJFDTOTAL-GLXZ200915026.htm",
+  "selected_item": "https://openalex.org/W3195303261",
+  "selected_title": "ABSORPTIVE CAPACITY, INNOVATION, AND EXTERNAL SOURCES OF KNOWLEDGE: THE BRAZILIAN POWER SECTOR",
+  "discovered_as": "related_works link exposed by loop 11",
+  "question": "Which measurable boundary in “ABSORPTIVE CAPACITY, INNOVATION, AND EXTERNAL SOURCES OF KNOWLEDGE: THE BRAZILIAN POWER SECTOR” changes how Absorptive capacity should be evaluated after “Research on the Elements of Firm's IS Absorptive Capacity”?",
+  "retrieval_url": "https://api.openalex.org/works/W3195303261?mailto=corpus@example.invalid",
+  "canonical_url": "https://doi.org/10.1590/1678-6971/eramr210083",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:20:46.246885+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "ABSTRACT Purpose: This paper discusses the relationship between absorptive capacity, external sources of knowledge, and innovation in the context of the power sector. In doing so, we follow the theoretical debate over absorptive capacity dimensions. We focus on the statistical testing of Zahra and George’s (2002) absorptive capacity construct to identify whether their dimensions find support in reality. We consider that the external environment encompasses both scientific and industrial sources of knowledge, which influence absorptive capacity. Originality/value: Zahra and George’s (2002) model initiated the debate of the absorptive capacity dimensions, and it is disseminated in literature. However, it is poorly tested. There is still a research gap related to the empirical validation stage of the absorptive capacity construct itself. Our research tries to decrease this gap, testing Zahr"
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Absorptive capacity, Construct (python library) through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 206 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [
+    "https://openalex.org/W4311630599"
+  ],
+  "corpus_changes": [
+    "sources/arxiv/2021--absorptive-capacity-innovation-and-external-sources-of-knowledge-the-brazilian-power-sector--ngela-fran-a-versiani--w3195303261.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W3195303261"
+}

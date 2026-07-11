@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "loop": 54,
+  "parent_loop": 13,
+  "parent_source": "http://hdl.handle.net/1887/15289",
+  "selected_item": "https://openalex.org/W2106146234",
+  "selected_title": "Promoting party politics in emerging democracies",
+  "discovered_as": "related_works link exposed by loop 13",
+  "question": "What operational artifact in “Promoting party politics in emerging democracies” could make the Politics feedback loop auditable?",
+  "retrieval_url": "https://api.openalex.org/works/W2106146234?mailto=corpus@example.invalid",
+  "canonical_url": "https://doi.org/10.1080/13510347.2010.520548",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:21:07.305405+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "This opening section briefly introduces international political party support, that is, assistance to political parties by international organizations, mostly from the US and Europe, to strengthen individual political parties, to promote peaceful interaction between parties and to help to create a more stable and democratic environment for political parties in new, struggling or flawed democracies. Before going on to introduce the contributions to this collection, this introduction discusses three major issues related to international support to political parties: the current ‘party crisis’ in young as well as in old democracies; the intrusive (political) nature of international party assistance; and the difficulties involved in assessing its effectiveness. Political parties seem much more difficult to work with than (other) political and civil society organizations. Subsequently, we wil"
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Politics, Political science through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 233 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [
+    "https://openalex.org/W4206831214",
+    "https://openalex.org/W2047240100",
+    "https://openalex.org/W3121414111",
+    "https://openalex.org/W1543536610",
+    "https://openalex.org/W2947151329",
+    "https://openalex.org/W2359258988",
+    "https://openalex.org/W2597479365",
+    "https://openalex.org/W2386493579"
+  ],
+  "corpus_changes": [
+    "sources/arxiv/2010--promoting-party-politics-in-emerging-democracies--peter-burnell--w2106146234.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W2106146234"
+}

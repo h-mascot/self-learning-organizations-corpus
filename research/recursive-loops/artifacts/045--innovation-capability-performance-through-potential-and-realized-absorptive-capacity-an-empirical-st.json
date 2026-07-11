@@ -1,0 +1,31 @@
+{
+  "schema_version": 2,
+  "loop": 45,
+  "parent_loop": 11,
+  "parent_source": "http://en.cnki.com.cn/Article_en/CJFDTOTAL-GLXZ200915026.htm",
+  "selected_item": "https://openalex.org/W3151962107",
+  "selected_title": "Innovation Capability Performance through Potential and Realized Absorptive Capacity: an Empirical Study in the West Java Mini Market",
+  "discovered_as": "related_works link exposed by loop 11",
+  "question": "How does the evidence in “Innovation Capability Performance through Potential and Realized Absorptive Capacity: an Empirical Study in the West Java Mini Market” constrain claims about transfer from individual to organizational learning?",
+  "retrieval_url": "https://api.openalex.org/works/W3151962107?mailto=corpus@example.invalid",
+  "canonical_url": "https://doi.org/10.33633/jpeb.v6i1.4043",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:20:45.489098+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "This study explores how potential and realized absorptive capacity affects innovation capability. This study aims to empirically examine the path relationship between potential absorptive capacity, realized absorptive capacity, and innovation capability in mini market in West Java, thus enhance our understanding of the mechanism between absorptive capacity and innovation capability. The authors have conducted a survey among employees with a valid response from 597 respondents. Multiple regression was used to assess the research model. The results provide evidence to show that potential and realized absorptive capacity are positively related to innovation capability, but in different proportions, and potential absorptive capacity affects positively to realize absorptive capacity. This study will contribute in an acceptable way to highlight the effects and role of both the potential absorp"
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Absorptive capacity, Business through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 159 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [],
+  "corpus_changes": [
+    "sources/arxiv/2021--innovation-capability-performance-through-potential-and-realized-absorptive-capacity-an-empirical-st--sri-raharso--w3151962107.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W3151962107"
+}

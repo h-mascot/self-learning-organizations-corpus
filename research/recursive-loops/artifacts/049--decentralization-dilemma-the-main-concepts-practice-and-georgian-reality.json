@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "loop": 49,
+  "parent_loop": 12,
+  "parent_source": "https://journalhosting.ucalgary.ca/index.php/cjeap/article/view/42670",
+  "selected_item": "https://openalex.org/W3014307258",
+  "selected_title": "Decentralization Dilemma (The Main Concepts, Practice and Georgian Reality)",
+  "discovered_as": "related_works link exposed by loop 12",
+  "question": "What operational artifact in “Decentralization Dilemma (The Main Concepts, Practice and Georgian Reality)” could make the Decentralization feedback loop auditable?",
+  "retrieval_url": "https://api.openalex.org/works/W3014307258?mailto=corpus@example.invalid",
+  "canonical_url": "https://jlaw.tsu.ge/index.php/JLaw/article/view/2583",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:20:46.750618+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "The concept of decentralization is still disputable until now, while the decentralization process has become the global trend. However the outcomes of the decentralization are far from straightforward and besides the successful ones, there are also a lot of failure cases. The presented paper is analyzing the main concept of decentralization, its positive and negative impacts and discusses the challenges and the results of the decentralization reforms.In Georgia, the decentralization reform appeared in all new government’s agenda, however, the decentralization level still low. Today the need of the further decentralization reform is a subject of the debates within the political and civil actors, but considering the negative past experience, nobody really believes in the reform’s future success. The paper is analyzing what may be the main root causes of this scepticism, what can be learned"
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Decentralization, Dilemma through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 152 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [
+    "https://openalex.org/W3033328465",
+    "https://openalex.org/W2808239368",
+    "https://openalex.org/W3163796346",
+    "https://openalex.org/W3024389230",
+    "https://openalex.org/W2572572869",
+    "https://openalex.org/W2939309378",
+    "https://openalex.org/W2982298704",
+    "https://openalex.org/W2184091436"
+  ],
+  "corpus_changes": [
+    "sources/arxiv/2018--decentralization-dilemma-the-main-concepts-practice-and-georgian-reality--irakli-kakhidze--w3014307258.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W3014307258"
+}

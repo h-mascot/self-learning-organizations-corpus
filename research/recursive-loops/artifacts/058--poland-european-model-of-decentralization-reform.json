@@ -1,0 +1,31 @@
+{
+  "schema_version": 2,
+  "loop": 58,
+  "parent_loop": 14,
+  "parent_source": "http://en.cnki.com.cn/Article_en/CJFDTOTAL-CHXI201206002.htm",
+  "selected_item": "https://openalex.org/W2294891370",
+  "selected_title": "POLAND – EUROPEAN MODEL OF DECENTRALIZATION REFORM",
+  "discovered_as": "related_works link exposed by loop 14",
+  "question": "Where does “POLAND – EUROPEAN MODEL OF DECENTRALIZATION REFORM” support or contradict the causal account advanced by “Analysis on Two Thoughts on the Central and Local Decentralization Before and After the 8th CPC National Congress”?",
+  "retrieval_url": "https://api.openalex.org/works/W2294891370?mailto=corpus@example.invalid",
+  "canonical_url": "https://doi.org/10.18662/eljpa/2015.0203.02",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:21:08.578730+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "Poland, a country become free, like Romania, has joined the process of democratic transition, the first reform via decentralization has been developed since 1990 and could serve as a model in the implementation of the decentralization reform, establishing a true institutional and financial decentralization. What we propose in this article is to analyze the way administrative-territorial decentralization of Poland, a country that was governed through centralized communist systems similar to Romania, has performed in implementing decentralization and local autonomy in the governance process of the local public administration. The European experience indicates that in order to succeed in reforms in the field of decentralization and local autonomy, it is necessary to divide territory into independent administrative-territorial units, able to govern themselves and manage their own public affa"
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Decentralization, Political science through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 127 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [],
+  "corpus_changes": [
+    "sources/arxiv/2015--poland-european-model-of-decentralization-reform--irina-bilouseac--w2294891370.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W2294891370"
+}

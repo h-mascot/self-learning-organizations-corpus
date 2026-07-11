@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "loop": 50,
+  "parent_loop": 12,
+  "parent_source": "https://journalhosting.ucalgary.ca/index.php/cjeap/article/view/42670",
+  "selected_item": "https://openalex.org/W1627699407",
+  "selected_title": "Decentralization, democratic governance, and civil society in comparative perspective: Africa, Asia, and Latin America",
+  "discovered_as": "related_works link exposed by loop 12",
+  "question": "How does the evidence in “Decentralization, democratic governance, and civil society in comparative perspective: Africa, Asia, and Latin America” constrain claims about transfer from individual to organizational learning?",
+  "retrieval_url": "https://api.openalex.org/works/W1627699407?mailto=corpus@example.invalid",
+  "canonical_url": "https://doi.org/10.5860/choice.42-3658",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:20:46.971075+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "Decentralization, Democratic Governance, and Civil Society in Comparative Perspective studies the relation of decentralization to democratization at both intermediate and local levels and analyzes how decentralization is transforming the relationship between the state and civil society. This book presents case studies from six countries in three continents in which decentralization of some parts of government has been attempted: Mexico, Chile, South Africa, Kenya, the Philippines, and Indonesia. The work surveys a range of issues in decentralization: which actors in each country have been most responsible for initiating and sustaining decentralization; how much decentralization to regional and local authorities has transformed the state; and whether stronger local governments produce greater accountability to citizens. The final chapter by Tulchin and Selee draws conclusions on these iss"
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Decentralization, Latin Americans through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 147 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [
+    "https://openalex.org/W2317024965",
+    "https://openalex.org/W2280114887",
+    "https://openalex.org/W2504213871",
+    "https://openalex.org/W2779931216",
+    "https://openalex.org/W2007951618",
+    "https://openalex.org/W2271111031",
+    "https://openalex.org/W1571173029",
+    "https://openalex.org/W594292287"
+  ],
+  "corpus_changes": [
+    "sources/arxiv/2005--decentralization-democratic-governance-and-civil-society-in-comparative-perspective-africa-asia-and---unknown--w1627699407.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W1627699407"
+}

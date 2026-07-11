@@ -1,0 +1,39 @@
+{
+  "schema_version": 2,
+  "loop": 46,
+  "parent_loop": 11,
+  "parent_source": "http://en.cnki.com.cn/Article_en/CJFDTOTAL-GLXZ200915026.htm",
+  "selected_item": "https://openalex.org/W2360228312",
+  "selected_title": "On the main factors of knowledge absorptive capacity of enterprise",
+  "discovered_as": "related_works link exposed by loop 11",
+  "question": "What mechanism does Liu Chang-yong identify in “On the main factors of knowledge absorptive capacity of enterprise” that deepens the evidence from “Research on the Elements of Firm's IS Absorptive Capacity”?",
+  "retrieval_url": "https://api.openalex.org/works/W2360228312?mailto=corpus@example.invalid",
+  "canonical_url": "https://en.cnki.com.cn/Article_en/CJFDTOTAL-KXYJ200303017.htm",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:20:45.695453+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "This paper analyses the main factors of knowledge absorptive capacity of enterprise We find that, absorptive capacity is closely related to prior knowledge, RD, learning force, learning method, organization learning system We analysis the different strategy and it effect in undeveloped region The advice to improve absorptive capacity is discussed finally"
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Absorptive capacity, Knowledge management through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 51 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [
+    "https://openalex.org/W2391996585",
+    "https://openalex.org/W2788157583",
+    "https://openalex.org/W2348829882",
+    "https://openalex.org/W2375844141",
+    "https://openalex.org/W2374226729",
+    "https://openalex.org/W1905285866",
+    "https://openalex.org/W2380840150"
+  ],
+  "corpus_changes": [
+    "sources/arxiv/2003--on-the-main-factors-of-knowledge-absorptive-capacity-of-enterprise--liu-chang-yong--w2360228312.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W2360228312"
+}
