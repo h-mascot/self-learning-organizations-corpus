@@ -1,0 +1,33 @@
+{
+  "schema_version": 2,
+  "loop": 141,
+  "parent_loop": 39,
+  "parent_source": "http://en.cnki.com.cn/Article_en/CJFDTOTAL-JCJJ200902002.htm",
+  "selected_item": "https://openalex.org/W2901434377",
+  "selected_title": "Building absorptive capacity through firm openness in the context of a less-open country",
+  "discovered_as": "related_works link exposed by loop 39",
+  "question": "What mechanism does Omid Aliasghar identify in “Building absorptive capacity through firm openness in the context of a less-open country” that deepens the evidence from “The Effect of Absorptive Capacity on Firm's Competitive Advantage in China”?",
+  "retrieval_url": "https://api.openalex.org/works/W2901434377?mailto=corpus@example.invalid",
+  "canonical_url": "https://doi.org/10.1016/j.indmarman.2018.11.007",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:22:13.341214+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "Building absorptive capacity through firm openness in the context of a less-open country"
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Absorptive capacity, Business through the evidence summarized in the preserved span.",
+    "Only bibliographic primary metadata was available; no full-text inference is made."
+  ],
+  "contradictions": [],
+  "generated_children": [
+    "https://openalex.org/W2316083084"
+  ],
+  "corpus_changes": [
+    "sources/arxiv/2018--building-absorptive-capacity-through-firm-openness-in-the-context-of-a-less-open-country--omid-aliasghar--w2901434377.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W2901434377"
+}

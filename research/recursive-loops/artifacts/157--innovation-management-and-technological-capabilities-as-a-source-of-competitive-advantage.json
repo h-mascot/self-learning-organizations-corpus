@@ -1,0 +1,39 @@
+{
+  "schema_version": 2,
+  "loop": 157,
+  "parent_loop": 44,
+  "parent_source": "https://doi.org/10.5465/ambpp.2017.10687abstract",
+  "selected_item": "https://openalex.org/W2252777709",
+  "selected_title": "Innovation Management and Technological Capabilities as a Source of Competitive Advantage",
+  "discovered_as": "related_works link exposed by loop 44",
+  "question": "Which measurable boundary in “Innovation Management and Technological Capabilities as a Source of Competitive Advantage” changes how Competitive advantage should be evaluated after “Illuminating the Relationship Between Absorptive Capacity and Firm Performance: A Meta-Analysis”?",
+  "retrieval_url": "https://api.openalex.org/works/W2252777709?mailto=corpus@example.invalid",
+  "canonical_url": "https://openalex.org/W2252777709",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:22:18.132156+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "The purpose of our paper is to propose a model of technological capabilities and to investigate in more detail the potential differential impact of technological capabilities model on sustainable competitive advantage in the global industry. We want to contribute to the recent pool of knowledge the theory about firms' dynamic capabilities, and to introduce innovation capability as one of the most important dynamic capabilities that represent the dominant source of competitive advantage, focusing on a case of one of the largest home appliance world producers. We present how combinations of capabilities and resources can be developed, deployed and protected to achieve and sustain competitive advantage. Scholars argue that we need fine-grained case studies of firms which have been able to sustain a competitive advantage over time in dynamic environments. That is why we decided to examine an"
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Competitive advantage, Dynamic capabilities through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 167 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [
+    "https://openalex.org/W68344718",
+    "https://openalex.org/W1968715584",
+    "https://openalex.org/W2567649836",
+    "https://openalex.org/W799610730",
+    "https://openalex.org/W2990268957",
+    "https://openalex.org/W1493822896",
+    "https://openalex.org/W2044341647"
+  ],
+  "corpus_changes": [
+    "sources/arxiv/2013--innovation-management-and-technological-capabilities-as-a-source-of-competitive-advantage--matej-lahovnik--w2252777709.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W2252777709"
+}
