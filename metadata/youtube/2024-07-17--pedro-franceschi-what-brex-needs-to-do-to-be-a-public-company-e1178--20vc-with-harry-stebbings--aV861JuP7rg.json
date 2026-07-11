@@ -1,0 +1,51 @@
+{
+  "asr_models": [
+    "whisper-large-v3",
+    "whisper-large-v3-turbo"
+  ],
+  "availability": "public",
+  "caption_error": "YouTube captions unavailable; recovered from cached signed audio URL.",
+  "channel": "20VC with Harry Stebbings",
+  "duration_seconds": 3204,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "a38e42a91f7ac8fb4dd5c1a5faea756a8020c1fd8ffc803bb82311c0fc8a2585",
+    "asr-001.json": "46aec77747398a0fdbec45a5237e52ea607654f26fd6b505f479a6d6adde248e",
+    "asr-002.json": "f63162520fbbbf1fc3ecc0cffc992b3c51fc2e9495c912dc4d9a5ca88225c305",
+    "asr-003.json": "babea307f3c29203d95c3ad4d8b2267501503ba79009134c2c5a7ae344554725",
+    "asr-004.json": "d899013dc94ece4e72b1f1d70c4f4f1f338712e852b981506adbbd2adb779894",
+    "asr-005.json": "54fa2a826fd8bdfdb9182f1846195c2a2507cc7d68d17317bb33bfd3d9d2e061",
+    "source-info.json": "75f6f2793e50db1b1ffd2f69ce4cfb740b1fcad9b0b649ef15a55fd1937602b7"
+  },
+  "raw_path": "raw/youtube/2024-07-17--pedro-franceschi-what-brex-needs-to-do-to-be-a-public-company-e1178--20vc-with-harry-stebbings--aV861JuP7rg",
+  "relevance_categories": [
+    "named-lanes"
+  ],
+  "relevance_evidence": [
+    "brex",
+    "ramp"
+  ],
+  "relevance_spans": [
+    {
+      "category": "named-lanes",
+      "phrase": "brex",
+      "text": "And I think that's the point, which is, you know, Brex went through a lot the past three years.",
+      "timestamp": "3:14"
+    },
+    {
+      "category": "named-lanes",
+      "phrase": "ramp",
+      "text": "I think one of the reasons the show has been successful more recently is because I kind of got more direct in my question asking When you look at ramps product marketing it always been tailored towards the finance teams and towards saving",
+      "timestamp": "24:54"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 722,
+  "source_url": "https://www.youtube.com/watch?v=aV861JuP7rg",
+  "title": "Pedro Franceschi: What Brex Needs to do to be a Public Company  | E1178",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "transcripts/youtube/2024-07-17--pedro-franceschi-what-brex-needs-to-do-to-be-a-public-company-e1178--20vc-with-harry-stebbings--aV861JuP7rg.md",
+  "transcript_sha256": "98ac74705cfca7a2e0c066c4494ff293729b85604d830ec3f16e0381f46cfb02",
+  "upload_date": "20240717",
+  "video_id": "aV861JuP7rg"
+}

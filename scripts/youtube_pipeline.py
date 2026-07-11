@@ -110,6 +110,31 @@ def groq_key() -> str | None:
     return None
 
 
+def download_cached_audio(selected: dict, audio: Path, work: Path) -> None:
+    """Download a signed media object in bounded ranges and verify its size."""
+    size = selected.get("filesize") or selected.get("filesize_approx")
+    if not size:
+        match = re.search(r"(?:[?&])clen=(\d+)", selected["url"])
+        size = int(match.group(1)) if match else None
+    if not size:
+        raise RuntimeError("Cached audio format has no verifiable content length")
+    chunk_size = 1024 * 1024
+    part = work / "audio.part"
+    with audio.open("wb") as target:
+        for start in range(0, int(size), chunk_size):
+            end = min(start + chunk_size, int(size)) - 1
+            run(["curl", "-fL", "--silent", "--show-error", "--retry", "3",
+                 "--retry-all-errors", "--max-time", "45", "--range", f"{start}-{end}",
+                 "-o", str(part), selected["url"]])
+            payload = part.read_bytes()
+            if len(payload) != end - start + 1:
+                raise RuntimeError(f"Cached audio range {start}-{end} returned {len(payload)} bytes")
+            target.write(payload)
+    part.unlink(missing_ok=True)
+    if audio.stat().st_size != int(size):
+        raise RuntimeError(f"Cached audio size mismatch: {audio.stat().st_size} != {size}")
+
+
 def transcribe_asr(url: str, work: Path, raw_dir: Path, cached_info: dict | None = None) -> tuple[list[dict], list[str]]:
     key = groq_key()
     if not key:
@@ -123,7 +148,7 @@ def transcribe_asr(url: str, work: Path, raw_dir: Path, cached_info: dict | None
             formats = [f for f in cached_info.get("formats", []) if f.get("vcodec") == "none" and f.get("acodec") not in (None, "none") and f.get("url")]
             if not formats: raise RuntimeError("Cached source metadata has no signed audio format URL")
             selected = min(formats, key=lambda f: f.get("abr") or 99999)
-            run(["curl", "-fsSL", "--retry", "8", "--retry-all-errors", "--continue-at", "-", "-o", str(audio), selected["url"]])
+            download_cached_audio(selected, audio, work)
     else:
         audio = work / "audio.mp3"
         run(["yt-dlp", "-f", "bestaudio", "-x", "--audio-format", "mp3", "--audio-quality", "9", "-o", str(audio), url])
@@ -218,7 +243,7 @@ def rebuild_csv() -> None:
         row["relevance_categories"] = "|".join(data.get("relevance_categories", []))
         rows.append(row)
     with CSV_PATH.open("w", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=fields)
+        writer = csv.DictWriter(f, fieldnames=fields, lineterminator="\n")
         writer.writeheader(); writer.writerows(rows)
 
 

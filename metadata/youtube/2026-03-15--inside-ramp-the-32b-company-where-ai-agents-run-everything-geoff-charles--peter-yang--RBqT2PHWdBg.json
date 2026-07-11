@@ -1,0 +1,74 @@
+{
+  "asr_models": [
+    "whisper-large-v3",
+    "whisper-large-v3-turbo"
+  ],
+  "availability": "public",
+  "caption_error": "YouTube captions unavailable; recovered from cached signed audio URL.",
+  "channel": "Peter Yang",
+  "duration_seconds": 2642,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "29cc1f26129495521c11047eac09cf859ebd7192700694647c070369fe77a6e6",
+    "asr-001.json": "263d34b9e838511f506cbd7d490b3923c44d5f88a426ad3a1c2cd4c9ec3a7c21",
+    "asr-002.json": "b7e92079fcc914a9b8b71b7e1a54d669a91f382120998c5b76ede688fb14136e",
+    "asr-003.json": "cfd5e11ec80fd790c8bccf7e74e33de720fbc398785fd0ea85925f06a7e24966",
+    "asr-004.json": "2995eb9f7364b475fe9294148738b1a12e3112c7c4b241bfbf1774194bb5a5c9",
+    "source-info.json": "a76a4daf333be41857520b4c9f8c3bfbaf6f29fa03e46f03825bb5c5319bee3e"
+  },
+  "raw_path": "raw/youtube/2026-03-15--inside-ramp-the-32b-company-where-ai-agents-run-everything-geoff-charles--peter-yang--RBqT2PHWdBg",
+  "relevance_categories": [
+    "feedback-systems",
+    "ai-native-company",
+    "agent-operations",
+    "named-lanes"
+  ],
+  "relevance_evidence": [
+    "agents",
+    "ai agent",
+    "ai-native",
+    "feedback loop",
+    "ramp"
+  ],
+  "relevance_spans": [
+    {
+      "category": "feedback-systems",
+      "phrase": "feedback loop",
+      "text": "Like how much are you like embedded in like the feedback loops and like the data every single day And then you kind of just develop that as a second nature kind of thing But after you have that how do you actually",
+      "timestamp": "12:23"
+    },
+    {
+      "category": "ai-native-company",
+      "phrase": "ai-native",
+      "text": "And Ramp is one of the fastest-growing companies ever and probably the most AI-native company that I know outside of the big labs.",
+      "timestamp": "0:43"
+    },
+    {
+      "category": "agent-operations",
+      "phrase": "ai agent",
+      "text": "But like, yeah, the AI agent",
+      "timestamp": "3:21"
+    },
+    {
+      "category": "agent-operations",
+      "phrase": "agents",
+      "text": "for the agents rather than engineers themselves.",
+      "timestamp": "2:21"
+    },
+    {
+      "category": "named-lanes",
+      "phrase": "ramp",
+      "text": "My guest today is Jeff, CPO of Ramp.",
+      "timestamp": "0:41"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 773,
+  "source_url": "https://www.youtube.com/watch?v=RBqT2PHWdBg",
+  "title": "Inside Ramp, the $32B Company Where AI Agents Run Everything | Geoff Charles",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "transcripts/youtube/2026-03-15--inside-ramp-the-32b-company-where-ai-agents-run-everything-geoff-charles--peter-yang--RBqT2PHWdBg.md",
+  "transcript_sha256": "13d8593deb976ca52aa65179d7ca0327c30080a5009d2c1293caaa15947224ca",
+  "upload_date": "20260315",
+  "video_id": "RBqT2PHWdBg"
+}

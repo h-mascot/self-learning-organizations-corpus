@@ -1,0 +1,58 @@
+{
+  "asr_models": [
+    "whisper-large-v3",
+    "whisper-large-v3-turbo"
+  ],
+  "availability": "public",
+  "caption_error": "YouTube captions unavailable; recovered from cached signed audio URL.",
+  "channel": "The Dave Gerhardt Show",
+  "duration_seconds": 2935,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "9bdc45bbc360825871bd59aef7ad91a9e9cd3d25663209accbb9d08a7185118a",
+    "asr-001.json": "32c7c2466763229a0dca2c1500b38b7a400a12e23a200391b36bc517cdbb7c0e",
+    "asr-002.json": "f22feb619d94d6e4e88e2a30b0aee17d5c529613efd5d1116276ec482434699c",
+    "asr-003.json": "dde1b059f5c2b3a9424b5c629842c27228ff54ee471a69fbaed2b8e5378cb9cf",
+    "asr-004.json": "c8a7fbecdf98fba2605e9c3ff1101ec0bb0f9a641dc8e83afca2fb01582be4b4",
+    "source-info.json": "8122b4ee860db1fd20836e656007a4a7f3e26ef2ea4bb1709e90653b33312830"
+  },
+  "raw_path": "raw/youtube/2026-06-04--how-ramp-is-restructuring-marketing-around-ai-agents--the-dave-gerhardt-show--r6UpmlKHN8k",
+  "relevance_categories": [
+    "agent-operations",
+    "named-lanes"
+  ],
+  "relevance_evidence": [
+    "agents",
+    "ai agent",
+    "ramp"
+  ],
+  "relevance_spans": [
+    {
+      "category": "agent-operations",
+      "phrase": "ai agent",
+      "text": "We talk about how Ramp is restructuring their marketing team and whole marketing motion around AI agents",
+      "timestamp": "0:39"
+    },
+    {
+      "category": "agent-operations",
+      "phrase": "agents",
+      "text": "We talk about how Ramp is restructuring their marketing team and whole marketing motion around AI agents",
+      "timestamp": "0:39"
+    },
+    {
+      "category": "named-lanes",
+      "phrase": "ramp",
+      "text": "My guest on this episode is Ramp's VP of Growth and Demand, George Banassi.",
+      "timestamp": "0:00"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 808,
+  "source_url": "https://www.youtube.com/watch?v=r6UpmlKHN8k",
+  "title": "How Ramp is Restructuring Marketing Around AI Agents",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "transcripts/youtube/2026-06-04--how-ramp-is-restructuring-marketing-around-ai-agents--the-dave-gerhardt-show--r6UpmlKHN8k.md",
+  "transcript_sha256": "09d3054f2d1e9faa345db0e5cf7b22ca8acf9cb0032c35cd45faccc01c74d76a",
+  "upload_date": "20260604",
+  "video_id": "r6UpmlKHN8k"
+}

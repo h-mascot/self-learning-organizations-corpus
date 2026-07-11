@@ -29,4 +29,4 @@ Build and prove a reproducible corpus of 100 validated, relevant, timestamped Yo
 - Cached signed-media recovery later suffered repeated TLS connection resets; explicit ranged downloads recovered the usable cached short-form sources.
 
 ## Status
-**Currently in Phase 3** — 70 transcripts pass the strengthened canonical-name, provenance, rights, relevance, dedupe, timestamp-order, duration-coverage, seed, quarantine-ledger, and CSV-parity gates; seven cached long-form candidates are being exhausted before final blocker assessment.
+**Blocked in Phase 3** — 76 transcripts pass every strengthened gate with zero errors; all usable cached media is exhausted and fresh YouTube retrieval still returns HTTP 429 plus the bot challenge, leaving an exact gap of 24.

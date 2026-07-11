@@ -1,0 +1,45 @@
+{
+  "asr_models": [
+    "whisper-large-v3"
+  ],
+  "availability": "public",
+  "caption_error": "YouTube captions unavailable; recovered from cached signed audio URL.",
+  "channel": "Winslow Passey",
+  "duration_seconds": 209,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "d87bc9cd98def2205490f19ee8bb592ec3cd089a976ca80a66089e9eb73e228b",
+    "source-info.json": "169c32bf44560c31b3cae46fb805a09c6db22bfb4c92baac803540fd20f715e0"
+  },
+  "raw_path": "raw/youtube/2017-10-28--kaizen-small-continuous-improvement--winslow-passey--Xsrcf1jMFWk",
+  "relevance_categories": [
+    "continuous-improvement"
+  ],
+  "relevance_evidence": [
+    "continuous improvement",
+    "kaizen"
+  ],
+  "relevance_spans": [
+    {
+      "category": "continuous-improvement",
+      "phrase": "continuous improvement",
+      "text": "Kaizen is a Japanese word that means small, continuous improvement.",
+      "timestamp": "0:08"
+    },
+    {
+      "category": "continuous-improvement",
+      "phrase": "kaizen",
+      "text": "Hi, this is Winslow with Vibrant Health Evolution. I'd like to share with you a concept today called Kaizen.",
+      "timestamp": "0:00"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 56,
+  "source_url": "https://www.youtube.com/watch?v=Xsrcf1jMFWk",
+  "title": "Kaizen - small continuous improvement",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "transcripts/youtube/2017-10-28--kaizen-small-continuous-improvement--winslow-passey--Xsrcf1jMFWk.md",
+  "transcript_sha256": "6301e06aa0f996fdb856de77a97dd0c80dfe3eed2e1ab3a58b107850ca4fa450",
+  "upload_date": "20171028",
+  "video_id": "Xsrcf1jMFWk"
+}
