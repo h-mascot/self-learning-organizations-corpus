@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "loop": 189,
+  "parent_loop": 56,
+  "parent_source": "https://doi.org/10.25077/ajis.5.2.166-177.2016",
+  "selected_item": "https://openalex.org/W2963620294",
+  "selected_title": "The State of Decentralized Services",
+  "discovered_as": "related_works link exposed by loop 56",
+  "question": "What operational artifact in “The State of Decentralized Services” could make the Decentralization feedback loop auditable?",
+  "retrieval_url": "https://api.openalex.org/works/W2963620294?mailto=corpus@example.invalid",
+  "canonical_url": "https://www.knigozal.com/store/ru/book/the-state-of-decentralized-services/isbn/978-3-8454-7885-2",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:23:01.843544+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "A complete centralization of provision of public services had increasingly led to different problems in services delivery. As a result many countries have implemented a decentralization policy to provide effective public service delivery and local self-rule. Most developing countries engaged decentralization policy as part of development strategy. To assess actual implementation, a study were conducted at district level in Ethiopia. The findings showed that decentralization at district level remains challenging by lots of problems and a top down hierarchical relationship between sector offices and service units. This book explains in detail the state of decentralized service delivery, in regards to the required institutions and their performance, the power/authority of local governments, the financial and human resources as well as the level of community participation. It also describes "
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Decentralization, Service delivery framework through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 137 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [
+    "https://openalex.org/W3149184287",
+    "https://openalex.org/W2961885286",
+    "https://openalex.org/W2569181126",
+    "https://openalex.org/W1981359515",
+    "https://openalex.org/W1536565679",
+    "https://openalex.org/W1432851",
+    "https://openalex.org/W3196826480",
+    "https://openalex.org/W2096923008"
+  ],
+  "corpus_changes": [
+    "sources/arxiv/2011--the-state-of-decentralized-services--tsegaye-tilahun-getahun--w2963620294.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W2963620294"
+}

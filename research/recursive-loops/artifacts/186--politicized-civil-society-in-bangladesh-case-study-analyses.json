@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "loop": 186,
+  "parent_loop": 54,
+  "parent_source": "https://doi.org/10.1080/13510347.2010.520548",
+  "selected_item": "https://openalex.org/W2597479365",
+  "selected_title": "Politicized Civil Society in Bangladesh: Case Study Analyses",
+  "discovered_as": "related_works link exposed by loop 54",
+  "question": "What mechanism does Farhat Tasnim identify in “Politicized Civil Society in Bangladesh: Case Study Analyses” that deepens the evidence from “Promoting party politics in emerging democracies”?",
+  "retrieval_url": "https://api.openalex.org/works/W2597479365?mailto=corpus@example.invalid",
+  "canonical_url": "https://doi.org/10.5130/ccs.v9i1.5247",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:22:59.058460+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "Although civil society in Bangladesh is recognized for its vibrant performance in social development, it is often criticized for its inability to ensure good governance and democracy. The aim of this paper is to point out the reasons for this failure of civil society. Through performing case studies upon five civil society organizations representing different sector and level of the civil society, the paper concludes that civil society organizations in Bangladesh are often politicized and co-opted by different political parties. In a typical scenario, civil society can provide a counterbalance or even monitor the state both at the national and local level. However, in Bangladesh, often the civil society organizations have compromised their autonomy and politicized themselves to certain political parties or political block. In such a vulnerable position, civil society can hardly play its "
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Civil society, Politics through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 144 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [
+    "https://openalex.org/W2502257272",
+    "https://openalex.org/W4380147519",
+    "https://openalex.org/W2022120829",
+    "https://openalex.org/W2117693970",
+    "https://openalex.org/W2037544649",
+    "https://openalex.org/W2036805562",
+    "https://openalex.org/W4380839351",
+    "https://openalex.org/W2363055907"
+  ],
+  "corpus_changes": [
+    "sources/arxiv/2017--politicized-civil-society-in-bangladesh-case-study-analyses--farhat-tasnim--w2597479365.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W2597479365"
+}

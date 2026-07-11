@@ -1,0 +1,39 @@
+{
+  "schema_version": 2,
+  "loop": 187,
+  "parent_loop": 55,
+  "parent_source": "https://doi.org/10.1142/9789814327954",
+  "selected_item": "https://openalex.org/W2809695615",
+  "selected_title": "De-democratization in Hungary: diffusely defective democracy",
+  "discovered_as": "related_works link exposed by loop 55",
+  "question": "Which measurable boundary in “De-democratization in Hungary: diffusely defective democracy” changes how Democratization should be evaluated after “POLITICAL PARTIES, PARTY SYSTEMS AND DEMOCRATIZATION IN EAST ASIA”?",
+  "retrieval_url": "https://api.openalex.org/works/W2809695615?mailto=corpus@example.invalid",
+  "canonical_url": "https://doi.org/10.1080/13510347.2018.1485015",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:23:00.174840+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "Scholarly attention has started to shift from democratization and democratic consolidation to trends of democratic deconsolidation, backsliding, regression, and erosion. This article examines Hungary as a deviant and exemplary case for understanding de-democratization. The starting point is the literature on defective democracy, which provides a unified framework of analysis for the causes and the outcomes of democratization. However, as the case of Hungary shows, de-democratization is not simply the mirror of democratization. In Hungary, both the outcome and the process of de-democratization defy expectations. The democratic defects do not conform to any of the standard types, instead resembling a “diffusely defective democracy”. Moreover, existing explanations fail to account for their emergence. The case of Hungary indicates that our knowledge of democratization may be a poor guide to"
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Democratization, Democracy through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 129 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [
+    "https://openalex.org/W2496965878",
+    "https://openalex.org/W1998028232",
+    "https://openalex.org/W570938652",
+    "https://openalex.org/W2280799694",
+    "https://openalex.org/W2106565024",
+    "https://openalex.org/W2009168106",
+    "https://openalex.org/W72501109"
+  ],
+  "corpus_changes": [
+    "sources/arxiv/2018--de-democratization-in-hungary-diffusely-defective-democracy--matthijs-bogaards--w2809695615.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W2809695615"
+}

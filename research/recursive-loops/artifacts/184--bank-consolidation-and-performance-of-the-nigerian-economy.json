@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "loop": 184,
+  "parent_loop": 54,
+  "parent_source": "https://doi.org/10.1080/13510347.2010.520548",
+  "selected_item": "https://openalex.org/W2947151329",
+  "selected_title": "Bank Consolidation and Performance of the Nigerian Economy",
+  "discovered_as": "related_works link exposed by loop 54",
+  "question": "What operational artifact in “Bank Consolidation and Performance of the Nigerian Economy” could make the Consolidation (business) feedback loop auditable?",
+  "retrieval_url": "https://api.openalex.org/works/W2947151329?mailto=corpus@example.invalid",
+  "canonical_url": "https://doi.org/10.7176/jesd/10-10-03",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:22:58.549767+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "This study empirically examined the relationship between banks’ consolidation and performance of the Nigerian economy from 1970 – 2017 using the Ordinary Least Square (OLS) technique. The findings revealed that Banks’ consolidation in Nigeria had a significant impact on the performance of the economy. Banks’ consolidation significantly facilitates and promotes banks’ credit to the economy and economic growth in Nigeria. The economy had performed better in the post-consolidation era than the pre-consolidation era. It is recommended that consolidation policy should be carried out periodically. Keywords : Banks Consolidation, banks’ credit, Nigerian Economy DOI : 10.7176/JESD/10-10-03 Publication date :May 31 st 2019"
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Consolidation (business), Ordinary least squares through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 101 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [
+    "https://openalex.org/W2040155870",
+    "https://openalex.org/W3122460442",
+    "https://openalex.org/W583891495",
+    "https://openalex.org/W2528144266",
+    "https://openalex.org/W3123778142",
+    "https://openalex.org/W1536929872",
+    "https://openalex.org/W2955187533",
+    "https://openalex.org/W3123224824"
+  ],
+  "corpus_changes": [
+    "sources/arxiv/2019--bank-consolidation-and-performance-of-the-nigerian-economy--david-ifegha--w2947151329.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W2947151329"
+}
