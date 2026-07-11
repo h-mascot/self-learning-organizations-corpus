@@ -1,0 +1,61 @@
+{
+  "asr_models": [
+    "whisper-large-v3-turbo"
+  ],
+  "availability": "public",
+  "caption_error": "YouTube captions unavailable; recovered from cached signed audio URL.",
+  "channel": "AI Quality Nerd",
+  "duration_seconds": 410,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "08b7a19538d55a736e7fb736d7d76ead18a1782c2e2cb750c86063c1e4d86cef",
+    "source-info.json": "a60079f1c4ac86f0a76f70c502e05d85f6ac2e0439eb68aa41ac85690d865c46"
+  },
+  "raw_path": "raw/youtube/2025-10-25--how-to-evaluate-ai-agents-comprehensive-strategies-for-reliable-high-quality-agentic-systems--ai-quality-nerd--gsMRpZdMEIQ",
+  "relevance_categories": [
+    "continuous-improvement",
+    "feedback-systems",
+    "agent-operations"
+  ],
+  "relevance_evidence": [
+    "agents",
+    "ai agent",
+    "continuous improvement",
+    "feedback loop"
+  ],
+  "relevance_spans": [
+    {
+      "category": "continuous-improvement",
+      "phrase": "continuous improvement",
+      "text": "And finally, it creates this crucial feedback loop for continuous improvement.",
+      "timestamp": "2:01"
+    },
+    {
+      "category": "feedback-systems",
+      "phrase": "feedback loop",
+      "text": "And finally, it creates this crucial feedback loop for continuous improvement.",
+      "timestamp": "2:01"
+    },
+    {
+      "category": "agent-operations",
+      "phrase": "ai agent",
+      "text": "If you're building with AI today, you're pretty much building AI agents.",
+      "timestamp": "0:00"
+    },
+    {
+      "category": "agent-operations",
+      "phrase": "agents",
+      "text": "If you're building with AI today, you're pretty much building AI agents.",
+      "timestamp": "0:00"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 104,
+  "source_url": "https://www.youtube.com/watch?v=gsMRpZdMEIQ",
+  "title": "How to Evaluate AI Agents: Comprehensive Strategies for Reliable, High‑Quality Agentic Systems",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "transcripts/youtube/2025-10-25--how-to-evaluate-ai-agents-comprehensive-strategies-for-reliable-high-quality-agentic-systems--ai-quality-nerd--gsMRpZdMEIQ.md",
+  "transcript_sha256": "45c4c41c67803013a97ada7620018d122130dca29f8b1dadebd1ada8810129bf",
+  "upload_date": "20251025",
+  "video_id": "gsMRpZdMEIQ"
+}

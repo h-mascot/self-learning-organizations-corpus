@@ -12,13 +12,15 @@
   "relevance_categories": [
     "ai-native-company",
     "agent-operations",
+    "experimentation-flywheel",
     "named-lanes"
   ],
   "relevance_evidence": [
     "agents",
     "ai agent",
     "ai native",
-    "brex"
+    "brex",
+    "experimenting"
   ],
   "relevance_spans": [
     {
@@ -38,6 +40,12 @@
       "phrase": "agents",
       "text": "you do to agents.",
       "timestamp": "2:40"
+    },
+    {
+      "category": "experimentation-flywheel",
+      "phrase": "experimenting",
+      "text": "we got comfortable experimenting much",
+      "timestamp": "9:13"
     },
     {
       "category": "named-lanes",

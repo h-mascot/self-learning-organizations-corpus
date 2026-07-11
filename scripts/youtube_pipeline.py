@@ -34,8 +34,9 @@ TERMS = {
     "ai-native-company": ["ai native", "ai-native", "company with ai", "agentic organization"],
     "organizational-memory": ["organizational memory", "organisational memory", "organisation's memory", "corporate memory", "company brain", "second brain", "institutional knowledge", "knowledge management", "company knowledge", "siloed emails"],
     "adaptive-enterprise": ["adaptive enterprise", "adaptive organization", "adaptable organization", "adaptable organizations", "self organizing"],
-    "agent-operations": ["ai agent", "agents", "agent monitoring", "agent evaluation", "eval driven"],
-    "experimentation-flywheel": ["experimentation", "data flywheel", "self optimizing", "decision intelligence"],
+    "agent-operations": ["ai agent", "agents", "agent monitoring", "agent evaluation", "eval driven", "agentic loop", "automated lifecycle", "regression testing"],
+    "recursive-improvement": ["self-improving", "self improving", "self-modifying", "modify itself", "rewrite itself", "debug itself", "fixing them", "improving other ai models"],
+    "experimentation-flywheel": ["experimentation", "experimenting", "data flywheel", "self optimizing", "decision intelligence", "evaluates all of them", "iterating over and over"],
     "named-lanes": ["pedro franceschi", "brex", "ramp", "y combinator"],
 }
 

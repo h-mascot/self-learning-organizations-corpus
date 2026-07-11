@@ -1,0 +1,53 @@
+{
+  "asr_models": [
+    "whisper-large-v3"
+  ],
+  "availability": "public",
+  "caption_error": "YouTube captions unavailable; recovered from cached signed audio URL.",
+  "channel": "Developers Digest",
+  "duration_seconds": 307,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "3a1bdea8c5d16c4109546aea6d5566345232517912ad6954e105bf3b1b2c52d7",
+    "source-info.json": "a9e2a5bf87c260c9dec501f6ba7bb0e2debe63275e2d7f0486cfbc3d2166e748"
+  },
+  "raw_path": "raw/youtube/2026-04-04--self-improving-agents-in-5-minutes--developers-digest--RoaPvj9Ovug",
+  "relevance_categories": [
+    "agent-operations",
+    "recursive-improvement"
+  ],
+  "relevance_evidence": [
+    "agents",
+    "ai agent",
+    "self-improving"
+  ],
+  "relevance_spans": [
+    {
+      "category": "agent-operations",
+      "phrase": "ai agent",
+      "text": "And if you're not familiar with auto research, the idea with this was basically give an AI agent a small but real LLM training setup and let it experiment overnight.",
+      "timestamp": "0:33"
+    },
+    {
+      "category": "agent-operations",
+      "phrase": "agents",
+      "text": "In this video, I'm going to be taking a look at self-improving agents, specifically how a new project extends ideas from Andre Karpathy's auto research into something that is arguably even much bigger.",
+      "timestamp": "0:00"
+    },
+    {
+      "category": "recursive-improvement",
+      "phrase": "self-improving",
+      "text": "In this video, I'm going to be taking a look at self-improving agents, specifically how a new project extends ideas from Andre Karpathy's auto research into something that is arguably even much bigger.",
+      "timestamp": "0:00"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 64,
+  "source_url": "https://www.youtube.com/watch?v=RoaPvj9Ovug",
+  "title": "Self Improving Agents in 5 Minutes",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "transcripts/youtube/2026-04-04--self-improving-agents-in-5-minutes--developers-digest--RoaPvj9Ovug.md",
+  "transcript_sha256": "33d2cebb855442fbb2042f8af9fd09e30fc541982824a71178143f2442b32457",
+  "upload_date": "20260404",
+  "video_id": "RoaPvj9Ovug"
+}

@@ -12,6 +12,7 @@
   "relevance_categories": [
     "ai-native-company",
     "agent-operations",
+    "recursive-improvement",
     "named-lanes"
   ],
   "relevance_evidence": [
@@ -19,6 +20,7 @@
     "ai native",
     "ai-native",
     "ramp",
+    "self-improving",
     "y combinator"
   ],
   "relevance_spans": [
@@ -39,6 +41,12 @@
       "phrase": "agents",
       "text": "for kind of YC specific agents",
       "timestamp": "2:50"
+    },
+    {
+      "category": "recursive-improvement",
+      "phrase": "self-improving",
+      "text": "autonomous self-improving loops, right?",
+      "timestamp": "19:16"
     },
     {
       "category": "named-lanes",
