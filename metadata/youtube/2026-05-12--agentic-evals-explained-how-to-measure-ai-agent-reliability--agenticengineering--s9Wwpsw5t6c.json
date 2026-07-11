@@ -1,0 +1,53 @@
+{
+  "asr_models": [
+    "whisper-large-v3"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: [youtube] s9Wwpsw5t6c: Unable to download webpage: HTTP Error 429: Too Many Requests (caused by <HTTPError 429: Too Many Requests>)\nWARNING: [youtube] Unable to fetch GVS PO Token for web_safari client: Missing required Visitor Data. You may need to pass Visitor Data with --extractor-args \"youtube:visitor_data=XXX\"\nERROR: [youtube] s9Wwpsw5t6c: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies",
+  "channel": "AgenticEngineering",
+  "duration_seconds": 403,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "e8011799530c3dee6df5ad6e3b3a6f34bac59c38f233fc4be33317e030207945",
+    "source-info.json": "d8ee6193690c3eacedeb275c6f577ec2c1454b157ce37e07c8292f4021b8c53b"
+  },
+  "raw_path": "raw/youtube/2026-05-12--agentic-evals-explained-how-to-measure-ai-agent-reliability--agenticengineering--s9Wwpsw5t6c",
+  "relevance_categories": [
+    "agent-operations",
+    "recursive-improvement"
+  ],
+  "relevance_evidence": [
+    "agents",
+    "ai agent",
+    "self-improving"
+  ],
+  "relevance_spans": [
+    {
+      "category": "agent-operations",
+      "phrase": "ai agent",
+      "text": "Here is why evals are becoming the backbone of AI agents.",
+      "timestamp": "0:26"
+    },
+    {
+      "category": "agent-operations",
+      "phrase": "agents",
+      "text": "Modern agents don't just answer questions.",
+      "timestamp": "0:11"
+    },
+    {
+      "category": "recursive-improvement",
+      "phrase": "self-improving",
+      "text": "multi-agent benchmarks, and even self-improving eval loops,",
+      "timestamp": "6:11"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 72,
+  "source_url": "https://www.youtube.com/watch?v=s9Wwpsw5t6c",
+  "title": "Agentic Evals Explained: How to Measure AI Agent Reliability",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "sources/youtube/accepted/2026-05-12--agentic-evals-explained-how-to-measure-ai-agent-reliability--agenticengineering--s9Wwpsw5t6c.md",
+  "transcript_sha256": "0ac3ebf84c2986c41314ac0feaa6ab0d2256990409d6448c48e58500cf34a888",
+  "upload_date": "20260512",
+  "video_id": "s9Wwpsw5t6c"
+}

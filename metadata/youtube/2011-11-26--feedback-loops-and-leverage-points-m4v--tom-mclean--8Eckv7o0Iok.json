@@ -1,0 +1,38 @@
+{
+  "asr_models": [
+    "whisper-large-v3"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: [youtube] 8Eckv7o0Iok: Unable to download webpage: HTTP Error 429: Too Many Requests (caused by <HTTPError 429: Too Many Requests>)\nWARNING: [youtube] Unable to fetch GVS PO Token for web_safari client: Missing required Visitor Data. You may need to pass Visitor Data with --extractor-args \"youtube:visitor_data=XXX\"\nERROR: [youtube] 8Eckv7o0Iok: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies",
+  "channel": "Tom Mclean",
+  "duration_seconds": 83,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "0e6cf3d0362733e2f6ab0e3532509aabf168ff91782c3167aae15d5b4785c6cd",
+    "source-info.json": "896bef30b5a049d3b87109d1d434e79adc6dbbdc073e268f3d79b77fc37b1727"
+  },
+  "raw_path": "raw/youtube/2011-11-26--feedback-loops-and-leverage-points-m4v--tom-mclean--8Eckv7o0Iok",
+  "relevance_categories": [
+    "feedback-systems"
+  ],
+  "relevance_evidence": [
+    "feedback loop"
+  ],
+  "relevance_spans": [
+    {
+      "category": "feedback-systems",
+      "phrase": "feedback loop",
+      "text": "Now, what we have to do now is find a feedback loop.",
+      "timestamp": "0:07"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 18,
+  "source_url": "https://www.youtube.com/watch?v=8Eckv7o0Iok",
+  "title": "Feedback Loops and Leverage Points.m4v",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "sources/youtube/accepted/2011-11-26--feedback-loops-and-leverage-points-m4v--tom-mclean--8Eckv7o0Iok.md",
+  "transcript_sha256": "3da2d760a1b13bd95bab86c247c1f5d47bd370b1a7c9220f4f095b55223bcf3b",
+  "upload_date": "20111126",
+  "video_id": "8Eckv7o0Iok"
+}

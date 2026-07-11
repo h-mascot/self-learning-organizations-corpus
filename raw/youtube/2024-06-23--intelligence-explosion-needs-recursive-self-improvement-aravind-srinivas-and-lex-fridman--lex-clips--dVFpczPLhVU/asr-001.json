@@ -1,0 +1,381 @@
+{
+  "task": "transcribe",
+  "language": "English",
+  "duration": 56.902561792,
+  "text": " for that one job? Yes. But how many people can afford $100 million for one job? Very few. Some high net worth individuals and some really well capitalized companies. And nations, if it turns to that. Correct. Where nations take control. Nations, yeah. So that is where we need to be clear. The regulation is not on the mark. That's where I think the whole conversation around, oh, the weights are dangerous. that's all like really flawed. And it's more about like application who has access to all this. Thank you.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0,
+      "end": 0.84,
+      "text": " for that one job?",
+      "tokens": [
+        50365,
+        337,
+        300,
+        472,
+        1691,
+        30,
+        50407
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.3103736,
+      "compression_ratio": 1.5572519,
+      "no_speech_prob": 0
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.97999996,
+      "end": 1.1999999,
+      "text": " Yes.",
+      "tokens": [
+        50414,
+        1079,
+        13,
+        50425
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.3103736,
+      "compression_ratio": 1.5572519,
+      "no_speech_prob": 0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 1.5999999,
+      "end": 4.2599998,
+      "text": " But how many people can afford $100 million for one job?",
+      "tokens": [
+        50445,
+        583,
+        577,
+        867,
+        561,
+        393,
+        6157,
+        1848,
+        6879,
+        2459,
+        337,
+        472,
+        1691,
+        30,
+        50578
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.3103736,
+      "compression_ratio": 1.5572519,
+      "no_speech_prob": 0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 4.46,
+      "end": 5,
+      "text": " Very few.",
+      "tokens": [
+        50588,
+        4372,
+        1326,
+        13,
+        50615
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.3103736,
+      "compression_ratio": 1.5572519,
+      "no_speech_prob": 0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 6.04,
+      "end": 9.62,
+      "text": " Some high net worth individuals and some really well capitalized companies.",
+      "tokens": [
+        50667,
+        2188,
+        1090,
+        2533,
+        3163,
+        5346,
+        293,
+        512,
+        534,
+        731,
+        4238,
+        1602,
+        3431,
+        13,
+        50846
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.3103736,
+      "compression_ratio": 1.5572519,
+      "no_speech_prob": 0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 10.58,
+      "end": 12.799999,
+      "text": " And nations, if it turns to that.",
+      "tokens": [
+        50894,
+        400,
+        11035,
+        11,
+        498,
+        309,
+        4523,
+        281,
+        300,
+        13,
+        51005
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.3103736,
+      "compression_ratio": 1.5572519,
+      "no_speech_prob": 0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 12.82,
+      "end": 13.04,
+      "text": " Correct.",
+      "tokens": [
+        51006,
+        12753,
+        13,
+        51017
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.3103736,
+      "compression_ratio": 1.5572519,
+      "no_speech_prob": 0
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 13.32,
+      "end": 14.4,
+      "text": " Where nations take control.",
+      "tokens": [
+        51031,
+        2305,
+        11035,
+        747,
+        1969,
+        13,
+        51085
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.3103736,
+      "compression_ratio": 1.5572519,
+      "no_speech_prob": 0
+    },
+    {
+      "id": 8,
+      "seek": 0,
+      "start": 14.599999,
+      "end": 14.759999,
+      "text": " Nations, yeah.",
+      "tokens": [
+        51095,
+        16459,
+        11,
+        1338,
+        13,
+        51103
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.3103736,
+      "compression_ratio": 1.5572519,
+      "no_speech_prob": 0
+    },
+    {
+      "id": 9,
+      "seek": 0,
+      "start": 15.32,
+      "end": 17.74,
+      "text": " So that is where we need to be clear.",
+      "tokens": [
+        51131,
+        407,
+        300,
+        307,
+        689,
+        321,
+        643,
+        281,
+        312,
+        1850,
+        13,
+        51252
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.3103736,
+      "compression_ratio": 1.5572519,
+      "no_speech_prob": 0
+    },
+    {
+      "id": 10,
+      "seek": 0,
+      "start": 17.98,
+      "end": 19.64,
+      "text": " The regulation is not on the mark.",
+      "tokens": [
+        51264,
+        440,
+        15062,
+        307,
+        406,
+        322,
+        264,
+        1491,
+        13,
+        51347
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.3103736,
+      "compression_ratio": 1.5572519,
+      "no_speech_prob": 0
+    },
+    {
+      "id": 11,
+      "seek": 0,
+      "start": 19.82,
+      "end": 22.119999,
+      "text": " That's where I think the whole conversation around,",
+      "tokens": [
+        51356,
+        663,
+        311,
+        689,
+        286,
+        519,
+        264,
+        1379,
+        3761,
+        926,
+        11,
+        51471
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.3103736,
+      "compression_ratio": 1.5572519,
+      "no_speech_prob": 0
+    },
+    {
+      "id": 12,
+      "seek": 0,
+      "start": 22.42,
+      "end": 24.8,
+      "text": " oh, the weights are dangerous.",
+      "tokens": [
+        51486,
+        1954,
+        11,
+        264,
+        17443,
+        366,
+        5795,
+        13,
+        51605
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.3103736,
+      "compression_ratio": 1.5572519,
+      "no_speech_prob": 0
+    },
+    {
+      "id": 13,
+      "seek": 2480,
+      "start": 24.8,
+      "end": 30.259998,
+      "text": " that's all like really flawed.",
+      "tokens": [
+        50365,
+        300,
+        311,
+        439,
+        411,
+        534,
+        38823,
+        13,
+        50638
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.34043708,
+      "compression_ratio": 1.1294118,
+      "no_speech_prob": 0
+    },
+    {
+      "id": 14,
+      "seek": 2480,
+      "start": 31.039999,
+      "end": 35.12,
+      "text": " And it's more about like application",
+      "tokens": [
+        50677,
+        400,
+        309,
+        311,
+        544,
+        466,
+        411,
+        3861,
+        50881
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.34043708,
+      "compression_ratio": 1.1294118,
+      "no_speech_prob": 0
+    },
+    {
+      "id": 15,
+      "seek": 2480,
+      "start": 35.12,
+      "end": 36.78,
+      "text": " who has access to all this.",
+      "tokens": [
+        50881,
+        567,
+        575,
+        2105,
+        281,
+        439,
+        341,
+        13,
+        50964
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.34043708,
+      "compression_ratio": 1.1294118,
+      "no_speech_prob": 0
+    },
+    {
+      "id": 16,
+      "seek": 5480,
+      "start": 54.8,
+      "end": 84.78,
+      "text": " Thank you.",
+      "tokens": [
+        50365,
+        1044,
+        291,
+        13,
+        51864
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.22247033,
+      "compression_ratio": 0.57894737,
+      "no_speech_prob": 0
+    }
+  ],
+  "x_groq": {
+    "id": "req_01kx91wzjge2cvfhhtpn62agw2"
+  }
+}

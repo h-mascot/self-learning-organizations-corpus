@@ -1,0 +1,541 @@
+{
+  "id": "OhsjgTCRhT0",
+  "title": "How Traditional Product Development Makes Kaizen a \"Rework Loop\"",
+  "formats": [
+    {
+      "format_id": "sb2",
+      "format_note": "storyboard",
+      "ext": "mhtml",
+      "protocol": "mhtml",
+      "acodec": "none",
+      "vcodec": "none",
+      "url": "https://i.ytimg.com/sb/OhsjgTCRhT0/storyboard3_L0/default.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCJeKuOUF&sigh=rs$AOn4CLAVsqrJULCdGBZQWTxHM3YOdSg-yA",
+      "width": 48,
+      "height": 27,
+      "fps": 0.2358490566037736,
+      "rows": 10,
+      "columns": 10,
+      "fragments": [
+        {
+          "url": "https://i.ytimg.com/sb/OhsjgTCRhT0/storyboard3_L0/default.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCJeKuOUF&sigh=rs$AOn4CLAVsqrJULCdGBZQWTxHM3YOdSg-yA",
+          "duration": 424.0
+        }
+      ],
+      "audio_ext": "none",
+      "video_ext": "none",
+      "vbr": 0,
+      "abr": 0,
+      "tbr": null,
+      "resolution": "48x27",
+      "aspect_ratio": 1.78,
+      "filesize_approx": null,
+      "http_headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-us,en;q=0.5",
+        "Sec-Fetch-Mode": "navigate"
+      },
+      "format": "sb2 - 48x27 (storyboard)"
+    },
+    {
+      "format_id": "sb1",
+      "format_note": "storyboard",
+      "ext": "mhtml",
+      "protocol": "mhtml",
+      "acodec": "none",
+      "vcodec": "none",
+      "url": "https://i.ytimg.com/sb/OhsjgTCRhT0/storyboard3_L1/M$M.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCJeKuOUF&sigh=rs$AOn4CLAQd_lJwv00allTnDf40FmlHSVxoA",
+      "width": 80,
+      "height": 45,
+      "fps": 0.2028301886792453,
+      "rows": 10,
+      "columns": 10,
+      "fragments": [
+        {
+          "url": "https://i.ytimg.com/sb/OhsjgTCRhT0/storyboard3_L1/M0.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCJeKuOUF&sigh=rs$AOn4CLAQd_lJwv00allTnDf40FmlHSVxoA",
+          "duration": 424.0
+        }
+      ],
+      "audio_ext": "none",
+      "video_ext": "none",
+      "vbr": 0,
+      "abr": 0,
+      "tbr": null,
+      "resolution": "80x45",
+      "aspect_ratio": 1.78,
+      "filesize_approx": null,
+      "http_headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-us,en;q=0.5",
+        "Sec-Fetch-Mode": "navigate"
+      },
+      "format": "sb1 - 80x45 (storyboard)"
+    },
+    {
+      "format_id": "sb0",
+      "format_note": "storyboard",
+      "ext": "mhtml",
+      "protocol": "mhtml",
+      "acodec": "none",
+      "vcodec": "none",
+      "url": "https://i.ytimg.com/sb/OhsjgTCRhT0/storyboard3_L2/M$M.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCJeKuOUF&sigh=rs$AOn4CLBU1wefBK9swNXhTUzeCRu73azZ4Q",
+      "width": 160,
+      "height": 90,
+      "fps": 0.2028301886792453,
+      "rows": 5,
+      "columns": 5,
+      "fragments": [
+        {
+          "url": "https://i.ytimg.com/sb/OhsjgTCRhT0/storyboard3_L2/M0.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCJeKuOUF&sigh=rs$AOn4CLBU1wefBK9swNXhTUzeCRu73azZ4Q",
+          "duration": 123.25581395348837
+        },
+        {
+          "url": "https://i.ytimg.com/sb/OhsjgTCRhT0/storyboard3_L2/M1.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCJeKuOUF&sigh=rs$AOn4CLBU1wefBK9swNXhTUzeCRu73azZ4Q",
+          "duration": 123.25581395348837
+        },
+        {
+          "url": "https://i.ytimg.com/sb/OhsjgTCRhT0/storyboard3_L2/M2.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCJeKuOUF&sigh=rs$AOn4CLBU1wefBK9swNXhTUzeCRu73azZ4Q",
+          "duration": 123.25581395348837
+        },
+        {
+          "url": "https://i.ytimg.com/sb/OhsjgTCRhT0/storyboard3_L2/M3.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCJeKuOUF&sigh=rs$AOn4CLBU1wefBK9swNXhTUzeCRu73azZ4Q",
+          "duration": 54.23255813953489
+        }
+      ],
+      "audio_ext": "none",
+      "video_ext": "none",
+      "vbr": 0,
+      "abr": 0,
+      "tbr": null,
+      "resolution": "160x90",
+      "aspect_ratio": 1.78,
+      "filesize_approx": null,
+      "http_headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-us,en;q=0.5",
+        "Sec-Fetch-Mode": "navigate"
+      },
+      "format": "sb0 - 160x90 (storyboard)"
+    },
+    {
+      "asr": 44100,
+      "filesize": null,
+      "format_id": "18",
+      "format_note": "360p",
+      "source_preference": -1,
+      "fps": 30,
+      "audio_channels": 2,
+      "height": 360,
+      "quality": 6.0,
+      "has_drm": false,
+      "tbr": 411.744,
+      "filesize_approx": 21799528,
+      "width": 640,
+      "language": null,
+      "language_preference": -1,
+      "preference": null,
+      "ext": "mp4",
+      "vcodec": "avc1.42001E",
+      "acodec": "mp4a.40.2",
+      "dynamic_range": "SDR",
+      "url": "https://rr5---sn-aigl6nzl.googlevideo.com/videoplayback?expire=1783810405&ei=BXVSaquuLtrH8uMPhKjEyA0&ip=34.13.54.48&id=o-AG-npNZL-XGySUBTP_SgRNhWdGQA7B1GDFIo6-bvj6Yk&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&cps=272&met=1783788805%2C&mh=8i&mm=31%2C26&mn=sn-aigl6nzl%2Csn-25ge7nsd&ms=au%2Conr&mv=m&mvi=5&pl=18&rms=au%2Cau&bui=AZFlqhNA7UzsOAvt_4NBY0d2CkoCRMJiyBmyPBGsuzy4iTqlAhW8Qoum4BRfo2FVSA_epuTAbQ8mrKkv&spc=SQ-umgv-hkJyQfQvS1oPbWs2o-FV5KceGuYDrYvisasYkE28kLyeDHmaRmWtPu12hOC3wkw4&vprv=1&svpuc=1&mime=video%2Fmp4&ns=yXS1M_SvRLRsqmu5I8KAQHQW&rqh=1&cnr=14&ratebypass=yes&dur=423.555&lmt=1690636577088885&mt=1783788329&fvip=5&fexp=51565115%2C51992868%2C52017147&c=MWEB&sefc=1&txp=2219224&n=zXUhA5HvVVOZGA&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Ccnr%2Cratebypass%2Cdur%2Clmt&sig=AHEqNM4wRQIgBFDmN4tfp9r-6wtGLOjzxud3Dsepfub5xDHhaHFsOgwCIQD13UW50GQeETrYB-AC1M6eWdhCWfAjrMQEB0x14MH5Ng%3D%3D&lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms&lsig=APaTxxMwRQIhAL2uc6UsiAsV5_EsQ6l_s4Y1_lh__r0CbPBj-KeSZ_rWAiBgungYYLxhv1OkqhkpbEltfs_LgiV5vzxvxvcOWW0tAA%3D%3D",
+      "available_at": 1783788805,
+      "downloader_options": {
+        "http_chunk_size": 10485760
+      },
+      "protocol": "https",
+      "video_ext": "mp4",
+      "audio_ext": "none",
+      "vbr": null,
+      "abr": null,
+      "resolution": "640x360",
+      "aspect_ratio": 1.78,
+      "http_headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-us,en;q=0.5",
+        "Sec-Fetch-Mode": "navigate"
+      },
+      "format": "18 - 640x360 (360p)"
+    }
+  ],
+  "thumbnails": [
+    {
+      "url": "https://i.ytimg.com/vi/OhsjgTCRhT0/3.jpg",
+      "preference": -37,
+      "id": "0"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/OhsjgTCRhT0/3.webp",
+      "preference": -36,
+      "id": "1"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/OhsjgTCRhT0/2.jpg",
+      "preference": -35,
+      "id": "2"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/OhsjgTCRhT0/2.webp",
+      "preference": -34,
+      "id": "3"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/OhsjgTCRhT0/1.jpg",
+      "preference": -33,
+      "id": "4"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/OhsjgTCRhT0/1.webp",
+      "preference": -32,
+      "id": "5"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/OhsjgTCRhT0/mq3.jpg",
+      "preference": -31,
+      "id": "6"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/OhsjgTCRhT0/mq3.webp",
+      "preference": -30,
+      "id": "7"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/OhsjgTCRhT0/mq2.jpg",
+      "preference": -29,
+      "id": "8"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/OhsjgTCRhT0/mq2.webp",
+      "preference": -28,
+      "id": "9"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/OhsjgTCRhT0/mq1.jpg",
+      "preference": -27,
+      "id": "10"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/OhsjgTCRhT0/mq1.webp",
+      "preference": -26,
+      "id": "11"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/OhsjgTCRhT0/hq3.jpg",
+      "preference": -25,
+      "id": "12"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/OhsjgTCRhT0/hq3.webp",
+      "preference": -24,
+      "id": "13"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/OhsjgTCRhT0/hq2.jpg",
+      "preference": -23,
+      "id": "14"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/OhsjgTCRhT0/hq2.webp",
+      "preference": -22,
+      "id": "15"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/OhsjgTCRhT0/hq1.jpg",
+      "preference": -21,
+      "id": "16"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/OhsjgTCRhT0/hq1.webp",
+      "preference": -20,
+      "id": "17"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/OhsjgTCRhT0/sd3.jpg",
+      "preference": -19,
+      "id": "18"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/OhsjgTCRhT0/sd3.webp",
+      "preference": -18,
+      "id": "19"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/OhsjgTCRhT0/sd2.jpg",
+      "preference": -17,
+      "id": "20"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/OhsjgTCRhT0/sd2.webp",
+      "preference": -16,
+      "id": "21"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/OhsjgTCRhT0/sd1.jpg",
+      "preference": -15,
+      "id": "22"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/OhsjgTCRhT0/sd1.webp",
+      "preference": -14,
+      "id": "23"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/OhsjgTCRhT0/default.jpg",
+      "height": 90,
+      "width": 120,
+      "preference": -13,
+      "id": "24",
+      "resolution": "120x90"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/OhsjgTCRhT0/default.webp",
+      "preference": -12,
+      "id": "25"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/OhsjgTCRhT0/mqdefault.jpg",
+      "height": 180,
+      "width": 320,
+      "preference": -11,
+      "id": "26",
+      "resolution": "320x180"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/OhsjgTCRhT0/mqdefault.webp",
+      "preference": -10,
+      "id": "27"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/OhsjgTCRhT0/0.jpg",
+      "preference": -9,
+      "id": "28"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/OhsjgTCRhT0/0.webp",
+      "preference": -8,
+      "id": "29"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/OhsjgTCRhT0/hqdefault.jpg",
+      "height": 360,
+      "width": 480,
+      "preference": -7,
+      "id": "30",
+      "resolution": "480x360"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/OhsjgTCRhT0/hqdefault.webp",
+      "preference": -6,
+      "id": "31"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/OhsjgTCRhT0/sddefault.jpg",
+      "height": 480,
+      "width": 640,
+      "preference": -5,
+      "id": "32",
+      "resolution": "640x480"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/OhsjgTCRhT0/sddefault.webp",
+      "preference": -4,
+      "id": "33"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/OhsjgTCRhT0/hq720.jpg",
+      "preference": -3,
+      "id": "34"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/OhsjgTCRhT0/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLB4E4L9Nd3A7RGetWKnGmTxzkmvww",
+      "height": 386,
+      "width": 686,
+      "preference": -3,
+      "id": "35",
+      "resolution": "686x386"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/OhsjgTCRhT0/hq720.webp",
+      "preference": -2,
+      "id": "36"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/OhsjgTCRhT0/maxresdefault.jpg",
+      "height": 720,
+      "width": 1280,
+      "preference": -1,
+      "id": "37",
+      "resolution": "1280x720"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/OhsjgTCRhT0/maxresdefault.webp",
+      "preference": 0,
+      "id": "38"
+    }
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/OhsjgTCRhT0/maxresdefault.jpg",
+  "description": "The traditional way of developing new products or services in isolation from the processes that must deliver them almost guarantees problem launches. In contrast, lean product and process development shows us how to create products customers love and profitable delivery processes in a far more integrated and simultaneous way.\n\nThe result is a steady stream of better products and services for customers and better futures for companies, employees, and stakeholders. Eric Ethington, an experienced lean product and process coach, explains. \n\nQ: You've written that troubleshooting and chaos are all too common with product launches after the start of production. The organization scrambles to fix problems while fulfilling orders and maintaining quality. How can managers avoid troubled launches?\n\nEric: One of the best ways is just to think upfront about what is success supposed to look like and put some measures around that and then track towards them as you're actually developing the new process and the new product. \n\nA lot of times organizations look at some result metrics after the product is launched and realize there’s too much labor in it or the quality is not where it's supposed to be. You want to discover that before you're trying to fill orders to the customer. \n\nQ: It sounds like companies should put more thought into profitable process design during product development. Why don't they do that now? \n\nEric: I'd say there are three reasons. One is just a lack of awareness of thinking about lean principles in the process during development. There's a lot of emphasis on lean in the process after the product is launched, which is traditional kaizen. But a lot of us jokingly talk about kaizen as actually being a rework loop in and of itself. How could we have avoided process problems in the first place? \n\nThere's also a category of folks who have attempted to take lean concepts that worked in manufacturing and copy and paste them exactly upstream into engineering. Lean looks a little bit different in engineering because it’s knowledge work. \n\nIn the third category are organizations that have tried it and realized to do it right, is a lot of hard work. You have to get into the details of the work people are doing and really understand it at a detailed level. The real benefit comes from understanding the detail of the work and actually improving that. \n\nQ: A lot of the kaizen events in production then may not be necessary if waste had been identified and eliminated upstream in development?\n\nEric: There's always that opportunity to improve, but, boy, there you see a lot of new stuff go into production where it's like déjà vu all over again; we launched a year ago and had similar issues, and we're doing it again.\n\nQ: Are there core elements of lean process design that people should be aware of? \n\nEric: In general terms, you work backward from a launch phase that happens right before you start production. If you step back before that, there is some sort of installation phase. Before that, there's a detailed design phase. Before that, there is a phase that involves looking at multiple options and converging those down to the one you're going to pursue, but in the process area. \n\nIf you back up one more step, have a good context of what it is you're really trying to achieve. What are the product and process supposed to be? What will make them successful? Where do they fit in the marketplace? \n\nQ: How does someone get started with lean product and process development? \n\nEric: This is one of those things that's best learned on the job. Run an experiment and learn from that. There's nothing wrong with finding a good workshop -- we're going to do one at our summit in June. \n\nThat gets you some education on some of the concepts. Where you're really going to learn is trying it. You'll learn best trying it with a coach who knows what they're doing. The best place to start is there. \n\nTo Do:\n• Join Eric Ethington and other experienced product and process development leaders who are developing profitable processes along with products customers love. Register for the 3rd Designing the Future Summit 2020, June 18-19:  https://www.lean.org/designfuture2020 .\n• Sign up for the Lean Product and Process Development eletter and access to thought-leading content at the LPPD web site. Click the link, then scroll down to the orange banner. Subscriber information is never shared, sold, or swapped: https://www.lean.org/leanpd/ .",
+  "channel_id": "UCUKkADSYR3qOnrsniilVy_w",
+  "channel_url": "https://www.youtube.com/channel/UCUKkADSYR3qOnrsniilVy_w",
+  "duration": 424,
+  "view_count": 718,
+  "average_rating": null,
+  "age_limit": 0,
+  "webpage_url": "https://www.youtube.com/watch?v=OhsjgTCRhT0",
+  "categories": [
+    "Education"
+  ],
+  "tags": [
+    "product development",
+    "product design",
+    "process development",
+    "process design",
+    "product and process design",
+    "product development conference",
+    "innovation training",
+    "lean product development",
+    "lean design",
+    "kaizen",
+    "pre-kaizen",
+    "business training",
+    "#productdevelopment",
+    "#leanproductdevelopment"
+  ],
+  "playable_in_embed": true,
+  "live_status": "not_live",
+  "media_type": "video",
+  "release_timestamp": null,
+  "_format_sort_fields": [
+    "quality",
+    "res",
+    "fps",
+    "hdr:12",
+    "source",
+    "vcodec",
+    "channels",
+    "acodec",
+    "lang",
+    "proto"
+  ],
+  "automatic_captions": {},
+  "subtitles": {},
+  "comment_count": null,
+  "chapters": null,
+  "heatmap": null,
+  "like_count": 7,
+  "channel": "Lean Enterprise Institute",
+  "channel_follower_count": 14800,
+  "creators": null,
+  "uploader": "Lean Enterprise Institute",
+  "uploader_id": "@LeanEnterpriseInst",
+  "uploader_url": "https://www.youtube.com/@LeanEnterpriseInst",
+  "upload_date": "20190415",
+  "timestamp": 1555360525,
+  "availability": "public",
+  "original_url": "https://www.youtube.com/watch?v=OhsjgTCRhT0",
+  "webpage_url_basename": "watch",
+  "webpage_url_domain": "youtube.com",
+  "extractor": "youtube",
+  "extractor_key": "Youtube",
+  "playlist": null,
+  "playlist_index": null,
+  "display_id": "OhsjgTCRhT0",
+  "fulltitle": "How Traditional Product Development Makes Kaizen a \"Rework Loop\"",
+  "duration_string": "7:04",
+  "release_year": null,
+  "is_live": false,
+  "was_live": false,
+  "requested_subtitles": null,
+  "_has_drm": null,
+  "epoch": 1783788807,
+  "requested_downloads": [
+    {
+      "asr": 44100,
+      "format_id": "18",
+      "format_note": "360p",
+      "source_preference": -1,
+      "fps": 30,
+      "audio_channels": 2,
+      "height": 360,
+      "quality": 6.0,
+      "has_drm": false,
+      "tbr": 411.744,
+      "filesize_approx": 21799528,
+      "width": 640,
+      "language_preference": -1,
+      "ext": "mp4",
+      "vcodec": "avc1.42001E",
+      "acodec": "mp4a.40.2",
+      "dynamic_range": "SDR",
+      "url": "https://rr5---sn-aigl6nzl.googlevideo.com/videoplayback?expire=1783810405&ei=BXVSaquuLtrH8uMPhKjEyA0&ip=34.13.54.48&id=o-AG-npNZL-XGySUBTP_SgRNhWdGQA7B1GDFIo6-bvj6Yk&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&cps=272&met=1783788805%2C&mh=8i&mm=31%2C26&mn=sn-aigl6nzl%2Csn-25ge7nsd&ms=au%2Conr&mv=m&mvi=5&pl=18&rms=au%2Cau&bui=AZFlqhNA7UzsOAvt_4NBY0d2CkoCRMJiyBmyPBGsuzy4iTqlAhW8Qoum4BRfo2FVSA_epuTAbQ8mrKkv&spc=SQ-umgv-hkJyQfQvS1oPbWs2o-FV5KceGuYDrYvisasYkE28kLyeDHmaRmWtPu12hOC3wkw4&vprv=1&svpuc=1&mime=video%2Fmp4&ns=yXS1M_SvRLRsqmu5I8KAQHQW&rqh=1&cnr=14&ratebypass=yes&dur=423.555&lmt=1690636577088885&mt=1783788329&fvip=5&fexp=51565115%2C51992868%2C52017147&c=MWEB&sefc=1&txp=2219224&n=zXUhA5HvVVOZGA&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Ccnr%2Cratebypass%2Cdur%2Clmt&sig=AHEqNM4wRQIgBFDmN4tfp9r-6wtGLOjzxud3Dsepfub5xDHhaHFsOgwCIQD13UW50GQeETrYB-AC1M6eWdhCWfAjrMQEB0x14MH5Ng%3D%3D&lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms&lsig=APaTxxMwRQIhAL2uc6UsiAsV5_EsQ6l_s4Y1_lh__r0CbPBj-KeSZ_rWAiBgungYYLxhv1OkqhkpbEltfs_LgiV5vzxvxvcOWW0tAA%3D%3D",
+      "available_at": 1783788805,
+      "downloader_options": {
+        "http_chunk_size": 10485760
+      },
+      "protocol": "https",
+      "video_ext": "mp4",
+      "audio_ext": "none",
+      "resolution": "640x360",
+      "aspect_ratio": 1.78,
+      "http_headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-us,en;q=0.5",
+        "Sec-Fetch-Mode": "navigate"
+      },
+      "format": "18 - 640x360 (360p)",
+      "_filename": "How Traditional Product Development Makes Kaizen a ＂Rework Loop＂ [OhsjgTCRhT0].mp4",
+      "filename": "How Traditional Product Development Makes Kaizen a ＂Rework Loop＂ [OhsjgTCRhT0].mp4",
+      "__write_download_archive": false
+    }
+  ],
+  "asr": 44100,
+  "filesize": null,
+  "format_id": "18",
+  "format_note": "360p",
+  "source_preference": -1,
+  "fps": 30,
+  "audio_channels": 2,
+  "height": 360,
+  "quality": 6.0,
+  "has_drm": false,
+  "tbr": 411.744,
+  "filesize_approx": 21799528,
+  "width": 640,
+  "language": null,
+  "language_preference": -1,
+  "preference": null,
+  "ext": "mp4",
+  "vcodec": "avc1.42001E",
+  "acodec": "mp4a.40.2",
+  "dynamic_range": "SDR",
+  "url": "https://rr5---sn-aigl6nzl.googlevideo.com/videoplayback?expire=1783810405&ei=BXVSaquuLtrH8uMPhKjEyA0&ip=34.13.54.48&id=o-AG-npNZL-XGySUBTP_SgRNhWdGQA7B1GDFIo6-bvj6Yk&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&cps=272&met=1783788805%2C&mh=8i&mm=31%2C26&mn=sn-aigl6nzl%2Csn-25ge7nsd&ms=au%2Conr&mv=m&mvi=5&pl=18&rms=au%2Cau&bui=AZFlqhNA7UzsOAvt_4NBY0d2CkoCRMJiyBmyPBGsuzy4iTqlAhW8Qoum4BRfo2FVSA_epuTAbQ8mrKkv&spc=SQ-umgv-hkJyQfQvS1oPbWs2o-FV5KceGuYDrYvisasYkE28kLyeDHmaRmWtPu12hOC3wkw4&vprv=1&svpuc=1&mime=video%2Fmp4&ns=yXS1M_SvRLRsqmu5I8KAQHQW&rqh=1&cnr=14&ratebypass=yes&dur=423.555&lmt=1690636577088885&mt=1783788329&fvip=5&fexp=51565115%2C51992868%2C52017147&c=MWEB&sefc=1&txp=2219224&n=zXUhA5HvVVOZGA&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Ccnr%2Cratebypass%2Cdur%2Clmt&sig=AHEqNM4wRQIgBFDmN4tfp9r-6wtGLOjzxud3Dsepfub5xDHhaHFsOgwCIQD13UW50GQeETrYB-AC1M6eWdhCWfAjrMQEB0x14MH5Ng%3D%3D&lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms&lsig=APaTxxMwRQIhAL2uc6UsiAsV5_EsQ6l_s4Y1_lh__r0CbPBj-KeSZ_rWAiBgungYYLxhv1OkqhkpbEltfs_LgiV5vzxvxvcOWW0tAA%3D%3D",
+  "available_at": 1783788805,
+  "downloader_options": {
+    "http_chunk_size": 10485760
+  },
+  "protocol": "https",
+  "video_ext": "mp4",
+  "audio_ext": "none",
+  "vbr": null,
+  "abr": null,
+  "resolution": "640x360",
+  "aspect_ratio": 1.78,
+  "http_headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-us,en;q=0.5",
+    "Sec-Fetch-Mode": "navigate"
+  },
+  "format": "18 - 640x360 (360p)",
+  "_type": "video",
+  "_version": {
+    "version": "2026.07.04",
+    "current_git_head": null,
+    "release_git_head": "997fa140840a08df3938b40da470c78049fef1f6",
+    "repository": "yt-dlp/yt-dlp"
+  }
+}

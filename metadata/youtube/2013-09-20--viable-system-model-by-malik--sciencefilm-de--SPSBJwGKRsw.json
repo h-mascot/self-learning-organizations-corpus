@@ -1,0 +1,38 @@
+{
+  "asr_models": [
+    "whisper-large-v3-turbo"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: [youtube] SPSBJwGKRsw: Unable to download webpage: HTTP Error 429: Too Many Requests (caused by <HTTPError 429: Too Many Requests>)\nWARNING: [youtube] Unable to fetch GVS PO Token for web_safari client: Missing required Visitor Data. You may need to pass Visitor Data with --extractor-args \"youtube:visitor_data=XXX\"\nERROR: [youtube] SPSBJwGKRsw: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies",
+  "channel": "sciencefilm.de",
+  "duration_seconds": 421,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "863f93b98f2a3123428c1aa099f3ebb7a2442a2075cf8adfeafe6a7214ffcc9c",
+    "source-info.json": "8edea8b38be2d06d3834652927786ccd31f017ef53db5afbb81531d75688fa9c"
+  },
+  "raw_path": "raw/youtube/2013-09-20--viable-system-model-by-malik--sciencefilm-de--SPSBJwGKRsw",
+  "relevance_categories": [
+    "feedback-systems"
+  ],
+  "relevance_evidence": [
+    "viable system"
+  ],
+  "relevance_spans": [
+    {
+      "category": "feedback-systems",
+      "phrase": "viable system",
+      "text": "Das Viable System Model von Malik ist ja seit langem etabliert und existent.",
+      "timestamp": "0:00"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 57,
+  "source_url": "https://www.youtube.com/watch?v=SPSBJwGKRsw",
+  "title": "Viable System Model by Malik",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "sources/youtube/accepted/2013-09-20--viable-system-model-by-malik--sciencefilm-de--SPSBJwGKRsw.md",
+  "transcript_sha256": "8fc8abc7ab3a3af4ce71c19b916f89c278620576f41a018d600faaa5c8601d59",
+  "upload_date": "20130920",
+  "video_id": "SPSBJwGKRsw"
+}

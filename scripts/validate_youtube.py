@@ -55,10 +55,15 @@ if "I9c8STV7Hnw" not in ids: errors.append("mandatory seed missing: I9c8STV7Hnw"
 ledger_path = ROOT / "quarantine" / "youtube" / "ledger.jsonl"
 ledger = [json.loads(line) for line in ledger_path.read_text().splitlines() if line.strip()] if ledger_path.exists() else []
 if not any(row.get("video_id") == "fVut0ceg2IY" for row in ledger): errors.append("mandatory exclusion missing from quarantine ledger: fVut0ceg2IY")
-csv_path = ROOT / "metadata" / "legacy" / "videos.csv"
+csv_path = ROOT / "metadata" / "sources.csv"
 csv_rows = list(csv.DictReader(csv_path.open())) if csv_path.exists() else []
-csv_ids = [row.get("video_id") for row in csv_rows]
-if len(csv_ids) != len(ids) or set(csv_ids) != ids: errors.append("metadata/legacy/videos.csv does not exactly match metadata files")
+csv_ids = [
+    row.get("stable_id") for row in csv_rows
+    if row.get("platform") == "youtube"
+    and row.get("status") == "accepted"
+    and row.get("relevance_status") == "relevant"
+]
+if len(csv_ids) != len(ids) or set(csv_ids) != ids: errors.append("metadata/sources.csv YouTube inventory does not exactly match metadata files")
 print(f"validated_relevant_transcripts={len(meta_files) - len({e.split(': ')[-1].split('/')[0].split(' ')[0] for e in errors if ': ' in e})}")
 print(f"metadata_files={len(meta_files)}")
 print(f"unique_video_ids={len(ids)}")

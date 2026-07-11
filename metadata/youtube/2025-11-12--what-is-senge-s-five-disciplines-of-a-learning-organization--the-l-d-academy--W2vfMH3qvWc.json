@@ -1,0 +1,46 @@
+{
+  "asr_models": [
+    "whisper-large-v3"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: [youtube] W2vfMH3qvWc: Unable to download webpage: HTTP Error 429: Too Many Requests (caused by <HTTPError 429: Too Many Requests>)\nWARNING: [youtube] Unable to fetch GVS PO Token for web_safari client: Missing required Visitor Data. You may need to pass Visitor Data with --extractor-args \"youtube:visitor_data=XXX\"\nERROR: [youtube] W2vfMH3qvWc: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies",
+  "channel": "The L&D Academy",
+  "duration_seconds": 468,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "83fabf3fc5f08564abd014828a7e9572ae08201acf156e43833017b399debb84",
+    "source-info.json": "6eaa880ba617063e3b406e7eaa30acb52d00078d04149771abe2429e2d7984d6"
+  },
+  "raw_path": "raw/youtube/2025-11-12--what-is-senge-s-five-disciplines-of-a-learning-organization--the-l-d-academy--W2vfMH3qvWc",
+  "relevance_categories": [
+    "organizational-learning",
+    "feedback-systems"
+  ],
+  "relevance_evidence": [
+    "learning organization",
+    "systems thinking"
+  ],
+  "relevance_spans": [
+    {
+      "category": "organizational-learning",
+      "phrase": "learning organization",
+      "text": "A learning organization takes advantage of the collective genius.",
+      "timestamp": "3:14"
+    },
+    {
+      "category": "feedback-systems",
+      "phrase": "systems thinking",
+      "text": "learning, and systems thinking. These work together to create an environment where learning is",
+      "timestamp": "1:14"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 88,
+  "source_url": "https://www.youtube.com/watch?v=W2vfMH3qvWc",
+  "title": "What is Senge\u2019s Five Disciplines of a Learning Organization",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "sources/youtube/accepted/2025-11-12--what-is-senge-s-five-disciplines-of-a-learning-organization--the-l-d-academy--W2vfMH3qvWc.md",
+  "transcript_sha256": "9ae546b9452b71d75459dd9e500b2b58e3e514c22951ec6e8aef6061c360507e",
+  "upload_date": "20251112",
+  "video_id": "W2vfMH3qvWc"
+}

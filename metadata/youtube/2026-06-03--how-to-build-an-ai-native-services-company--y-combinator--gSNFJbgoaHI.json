@@ -1,0 +1,39 @@
+{
+  "asr_models": [
+    "whisper-large-v3-turbo"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: [youtube] gSNFJbgoaHI: Unable to download webpage: HTTP Error 429: Too Many Requests (caused by <HTTPError 429: Too Many Requests>)\nWARNING: [youtube] Unable to fetch GVS PO Token for web_safari client: Missing required Visitor Data. You may need to pass Visitor Data with --extractor-args \"youtube:visitor_data=XXX\"\nERROR: [youtube] gSNFJbgoaHI: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies",
+  "channel": "Y Combinator",
+  "duration_seconds": 682,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "fb83e6a4d4f3dad71ceaa505b48dd02af5cd591505da94b4553d5231a74de8e5",
+    "asr-001.json": "0e019ab4e606b07ae3980e0168db76b5f4f8c81a0d6ab19a13af131b7b49fc71",
+    "source-info.json": "b5096900a7fc215f4836cbb889c21c6bb4ba9d9ca29a8d9efbcd7c6e7145ca19"
+  },
+  "raw_path": "raw/youtube/2026-06-03--how-to-build-an-ai-native-services-company--y-combinator--gSNFJbgoaHI",
+  "relevance_categories": [
+    "ai-native-company"
+  ],
+  "relevance_evidence": [
+    "ai native"
+  ],
+  "relevance_spans": [
+    {
+      "category": "ai-native-company",
+      "phrase": "ai native",
+      "text": "These are what we call AI native service companies.",
+      "timestamp": "0:21"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 166,
+  "source_url": "https://www.youtube.com/watch?v=gSNFJbgoaHI",
+  "title": "How to Build an AI-Native Services Company",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "sources/youtube/accepted/2026-06-03--how-to-build-an-ai-native-services-company--y-combinator--gSNFJbgoaHI.md",
+  "transcript_sha256": "249f7a4649887765a8050202e15d6e1b1404ccd1476b7e857c7c1ecb02a83151",
+  "upload_date": "20260603",
+  "video_id": "gSNFJbgoaHI"
+}

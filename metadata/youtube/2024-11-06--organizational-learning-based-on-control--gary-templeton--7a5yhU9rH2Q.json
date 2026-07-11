@@ -1,0 +1,53 @@
+{
+  "asr_models": [
+    "whisper-large-v3-turbo"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: [youtube] 7a5yhU9rH2Q: Unable to download webpage: HTTP Error 429: Too Many Requests (caused by <HTTPError 429: Too Many Requests>)\nWARNING: [youtube] Unable to fetch GVS PO Token for web_safari client: Missing required Visitor Data. You may need to pass Visitor Data with --extractor-args \"youtube:visitor_data=XXX\"\nERROR: [youtube] 7a5yhU9rH2Q: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies",
+  "channel": "Gary Templeton",
+  "duration_seconds": 462,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "d393b1d1d02ef2dbc99f182f4bb1c34df21478b4081fe68efc566197840e0d86",
+    "source-info.json": "bcae16a5c52d7c0316b447aadd07aedf3aad75eefd08dea19a3828c012c40638"
+  },
+  "raw_path": "raw/youtube/2024-11-06--organizational-learning-based-on-control--gary-templeton--7a5yhU9rH2Q",
+  "relevance_categories": [
+    "organizational-learning",
+    "organizational-memory"
+  ],
+  "relevance_evidence": [
+    "knowledge management",
+    "organizational learning",
+    "organizational memory"
+  ],
+  "relevance_spans": [
+    {
+      "category": "organizational-learning",
+      "phrase": "organizational learning",
+      "text": "Hello, my name is Gary Templeton. In this video, I'll be exploring a significant study that unites the concepts of organizational learning and control.",
+      "timestamp": "0:00"
+    },
+    {
+      "category": "organizational-memory",
+      "phrase": "organizational memory",
+      "text": "information interpretation, and organizational memory.",
+      "timestamp": "3:00"
+    },
+    {
+      "category": "organizational-memory",
+      "phrase": "knowledge management",
+      "text": "We argue that organizations need a deeper understanding of how knowledge functions within control systems to improve knowledge management.",
+      "timestamp": "0:43"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 68,
+  "source_url": "https://www.youtube.com/watch?v=7a5yhU9rH2Q",
+  "title": "Organizational Learning Based on Control",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "sources/youtube/accepted/2024-11-06--organizational-learning-based-on-control--gary-templeton--7a5yhU9rH2Q.md",
+  "transcript_sha256": "a89ed31012ea6c45fd0c83cc94fbba0a2505807a5c2b07d5a17dbe524568bb66",
+  "upload_date": "20241106",
+  "video_id": "7a5yhU9rH2Q"
+}

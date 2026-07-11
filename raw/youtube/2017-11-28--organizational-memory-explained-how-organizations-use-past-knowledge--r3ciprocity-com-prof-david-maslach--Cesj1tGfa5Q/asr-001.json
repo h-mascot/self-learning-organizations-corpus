@@ -1,0 +1,42 @@
+{
+  "task": "transcribe",
+  "language": "English",
+  "duration": 4.9130624,
+  "text": " So thank you so much. Take care and have a wonderful day. Bye.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0,
+      "end": 3.78,
+      "text": " So thank you so much. Take care and have a wonderful day. Bye.",
+      "tokens": [
+        50365,
+        407,
+        1309,
+        291,
+        370,
+        709,
+        13,
+        3664,
+        1127,
+        293,
+        362,
+        257,
+        3715,
+        786,
+        13,
+        4621,
+        13,
+        50554
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.14718431,
+      "compression_ratio": 0.9264706,
+      "no_speech_prob": 0
+    }
+  ],
+  "x_groq": {
+    "id": "req_01kx91vxv8e28vrdnvrbjjffyf"
+  }
+}

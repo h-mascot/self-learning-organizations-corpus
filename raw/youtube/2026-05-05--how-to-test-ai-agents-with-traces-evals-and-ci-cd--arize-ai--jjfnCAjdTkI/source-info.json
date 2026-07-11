@@ -1,0 +1,722 @@
+{
+  "id": "jjfnCAjdTkI",
+  "title": "How to test AI agents with traces, evals, and CI/CD",
+  "formats": [
+    {
+      "format_id": "sb3",
+      "format_note": "storyboard",
+      "ext": "mhtml",
+      "protocol": "mhtml",
+      "acodec": "none",
+      "vcodec": "none",
+      "url": "https://i.ytimg.com/sb/jjfnCAjdTkI/storyboard3_L0/default.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCPP0z88G&sigh=rs$AOn4CLAG61zPy8Q7AV558KtigCtHv31jHQ",
+      "width": 48,
+      "height": 27,
+      "fps": 0.12987012987012986,
+      "rows": 10,
+      "columns": 10,
+      "fragments": [
+        {
+          "url": "https://i.ytimg.com/sb/jjfnCAjdTkI/storyboard3_L0/default.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCPP0z88G&sigh=rs$AOn4CLAG61zPy8Q7AV558KtigCtHv31jHQ",
+          "duration": 770.0
+        }
+      ],
+      "audio_ext": "none",
+      "video_ext": "none",
+      "vbr": 0,
+      "abr": 0,
+      "tbr": null,
+      "resolution": "48x27",
+      "aspect_ratio": 1.78,
+      "filesize_approx": null,
+      "http_headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-us,en;q=0.5",
+        "Sec-Fetch-Mode": "navigate"
+      },
+      "format": "sb3 - 48x27 (storyboard)"
+    },
+    {
+      "format_id": "sb2",
+      "format_note": "storyboard",
+      "ext": "mhtml",
+      "protocol": "mhtml",
+      "acodec": "none",
+      "vcodec": "none",
+      "url": "https://i.ytimg.com/sb/jjfnCAjdTkI/storyboard3_L1/M$M.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCPP0z88G&sigh=rs$AOn4CLDHVvWUDvT8_d3Tir8sS0d9iZjMQQ",
+      "width": 80,
+      "height": 45,
+      "fps": 0.2012987012987013,
+      "rows": 10,
+      "columns": 10,
+      "fragments": [
+        {
+          "url": "https://i.ytimg.com/sb/jjfnCAjdTkI/storyboard3_L1/M0.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCPP0z88G&sigh=rs$AOn4CLDHVvWUDvT8_d3Tir8sS0d9iZjMQQ",
+          "duration": 496.7741935483871
+        },
+        {
+          "url": "https://i.ytimg.com/sb/jjfnCAjdTkI/storyboard3_L1/M1.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCPP0z88G&sigh=rs$AOn4CLDHVvWUDvT8_d3Tir8sS0d9iZjMQQ",
+          "duration": 273.2258064516129
+        }
+      ],
+      "audio_ext": "none",
+      "video_ext": "none",
+      "vbr": 0,
+      "abr": 0,
+      "tbr": null,
+      "resolution": "80x45",
+      "aspect_ratio": 1.78,
+      "filesize_approx": null,
+      "http_headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-us,en;q=0.5",
+        "Sec-Fetch-Mode": "navigate"
+      },
+      "format": "sb2 - 80x45 (storyboard)"
+    },
+    {
+      "format_id": "sb1",
+      "format_note": "storyboard",
+      "ext": "mhtml",
+      "protocol": "mhtml",
+      "acodec": "none",
+      "vcodec": "none",
+      "url": "https://i.ytimg.com/sb/jjfnCAjdTkI/storyboard3_L2/M$M.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCPP0z88G&sigh=rs$AOn4CLC77tJm7uOZRlIVqLLUhEWklcF_Ag",
+      "width": 160,
+      "height": 90,
+      "fps": 0.2012987012987013,
+      "rows": 5,
+      "columns": 5,
+      "fragments": [
+        {
+          "url": "https://i.ytimg.com/sb/jjfnCAjdTkI/storyboard3_L2/M0.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCPP0z88G&sigh=rs$AOn4CLC77tJm7uOZRlIVqLLUhEWklcF_Ag",
+          "duration": 124.19354838709677
+        },
+        {
+          "url": "https://i.ytimg.com/sb/jjfnCAjdTkI/storyboard3_L2/M1.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCPP0z88G&sigh=rs$AOn4CLC77tJm7uOZRlIVqLLUhEWklcF_Ag",
+          "duration": 124.19354838709677
+        },
+        {
+          "url": "https://i.ytimg.com/sb/jjfnCAjdTkI/storyboard3_L2/M2.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCPP0z88G&sigh=rs$AOn4CLC77tJm7uOZRlIVqLLUhEWklcF_Ag",
+          "duration": 124.19354838709677
+        },
+        {
+          "url": "https://i.ytimg.com/sb/jjfnCAjdTkI/storyboard3_L2/M3.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCPP0z88G&sigh=rs$AOn4CLC77tJm7uOZRlIVqLLUhEWklcF_Ag",
+          "duration": 124.19354838709677
+        },
+        {
+          "url": "https://i.ytimg.com/sb/jjfnCAjdTkI/storyboard3_L2/M4.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCPP0z88G&sigh=rs$AOn4CLC77tJm7uOZRlIVqLLUhEWklcF_Ag",
+          "duration": 124.19354838709677
+        },
+        {
+          "url": "https://i.ytimg.com/sb/jjfnCAjdTkI/storyboard3_L2/M5.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCPP0z88G&sigh=rs$AOn4CLC77tJm7uOZRlIVqLLUhEWklcF_Ag",
+          "duration": 124.19354838709677
+        },
+        {
+          "url": "https://i.ytimg.com/sb/jjfnCAjdTkI/storyboard3_L2/M6.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCPP0z88G&sigh=rs$AOn4CLC77tJm7uOZRlIVqLLUhEWklcF_Ag",
+          "duration": 24.838709677419388
+        }
+      ],
+      "audio_ext": "none",
+      "video_ext": "none",
+      "vbr": 0,
+      "abr": 0,
+      "tbr": null,
+      "resolution": "160x90",
+      "aspect_ratio": 1.78,
+      "filesize_approx": null,
+      "http_headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-us,en;q=0.5",
+        "Sec-Fetch-Mode": "navigate"
+      },
+      "format": "sb1 - 160x90 (storyboard)"
+    },
+    {
+      "format_id": "sb0",
+      "format_note": "storyboard",
+      "ext": "mhtml",
+      "protocol": "mhtml",
+      "acodec": "none",
+      "vcodec": "none",
+      "url": "https://i.ytimg.com/sb/jjfnCAjdTkI/storyboard3_L3/M$M.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCPP0z88G&sigh=rs$AOn4CLDqFywpoVYUFZeFXhpn0eTuKZJgHQ",
+      "width": 320,
+      "height": 180,
+      "fps": 0.2012987012987013,
+      "rows": 3,
+      "columns": 3,
+      "fragments": [
+        {
+          "url": "https://i.ytimg.com/sb/jjfnCAjdTkI/storyboard3_L3/M0.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCPP0z88G&sigh=rs$AOn4CLDqFywpoVYUFZeFXhpn0eTuKZJgHQ",
+          "duration": 44.70967741935484
+        },
+        {
+          "url": "https://i.ytimg.com/sb/jjfnCAjdTkI/storyboard3_L3/M1.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCPP0z88G&sigh=rs$AOn4CLDqFywpoVYUFZeFXhpn0eTuKZJgHQ",
+          "duration": 44.70967741935484
+        },
+        {
+          "url": "https://i.ytimg.com/sb/jjfnCAjdTkI/storyboard3_L3/M2.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCPP0z88G&sigh=rs$AOn4CLDqFywpoVYUFZeFXhpn0eTuKZJgHQ",
+          "duration": 44.70967741935484
+        },
+        {
+          "url": "https://i.ytimg.com/sb/jjfnCAjdTkI/storyboard3_L3/M3.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCPP0z88G&sigh=rs$AOn4CLDqFywpoVYUFZeFXhpn0eTuKZJgHQ",
+          "duration": 44.70967741935484
+        },
+        {
+          "url": "https://i.ytimg.com/sb/jjfnCAjdTkI/storyboard3_L3/M4.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCPP0z88G&sigh=rs$AOn4CLDqFywpoVYUFZeFXhpn0eTuKZJgHQ",
+          "duration": 44.70967741935484
+        },
+        {
+          "url": "https://i.ytimg.com/sb/jjfnCAjdTkI/storyboard3_L3/M5.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCPP0z88G&sigh=rs$AOn4CLDqFywpoVYUFZeFXhpn0eTuKZJgHQ",
+          "duration": 44.70967741935484
+        },
+        {
+          "url": "https://i.ytimg.com/sb/jjfnCAjdTkI/storyboard3_L3/M6.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCPP0z88G&sigh=rs$AOn4CLDqFywpoVYUFZeFXhpn0eTuKZJgHQ",
+          "duration": 44.70967741935484
+        },
+        {
+          "url": "https://i.ytimg.com/sb/jjfnCAjdTkI/storyboard3_L3/M7.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCPP0z88G&sigh=rs$AOn4CLDqFywpoVYUFZeFXhpn0eTuKZJgHQ",
+          "duration": 44.70967741935484
+        },
+        {
+          "url": "https://i.ytimg.com/sb/jjfnCAjdTkI/storyboard3_L3/M8.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCPP0z88G&sigh=rs$AOn4CLDqFywpoVYUFZeFXhpn0eTuKZJgHQ",
+          "duration": 44.70967741935484
+        },
+        {
+          "url": "https://i.ytimg.com/sb/jjfnCAjdTkI/storyboard3_L3/M9.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCPP0z88G&sigh=rs$AOn4CLDqFywpoVYUFZeFXhpn0eTuKZJgHQ",
+          "duration": 44.70967741935484
+        },
+        {
+          "url": "https://i.ytimg.com/sb/jjfnCAjdTkI/storyboard3_L3/M10.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCPP0z88G&sigh=rs$AOn4CLDqFywpoVYUFZeFXhpn0eTuKZJgHQ",
+          "duration": 44.70967741935484
+        },
+        {
+          "url": "https://i.ytimg.com/sb/jjfnCAjdTkI/storyboard3_L3/M11.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCPP0z88G&sigh=rs$AOn4CLDqFywpoVYUFZeFXhpn0eTuKZJgHQ",
+          "duration": 44.70967741935484
+        },
+        {
+          "url": "https://i.ytimg.com/sb/jjfnCAjdTkI/storyboard3_L3/M12.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCPP0z88G&sigh=rs$AOn4CLDqFywpoVYUFZeFXhpn0eTuKZJgHQ",
+          "duration": 44.70967741935484
+        },
+        {
+          "url": "https://i.ytimg.com/sb/jjfnCAjdTkI/storyboard3_L3/M13.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCPP0z88G&sigh=rs$AOn4CLDqFywpoVYUFZeFXhpn0eTuKZJgHQ",
+          "duration": 44.70967741935484
+        },
+        {
+          "url": "https://i.ytimg.com/sb/jjfnCAjdTkI/storyboard3_L3/M14.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCPP0z88G&sigh=rs$AOn4CLDqFywpoVYUFZeFXhpn0eTuKZJgHQ",
+          "duration": 44.70967741935484
+        },
+        {
+          "url": "https://i.ytimg.com/sb/jjfnCAjdTkI/storyboard3_L3/M15.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCPP0z88G&sigh=rs$AOn4CLDqFywpoVYUFZeFXhpn0eTuKZJgHQ",
+          "duration": 44.70967741935484
+        },
+        {
+          "url": "https://i.ytimg.com/sb/jjfnCAjdTkI/storyboard3_L3/M16.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCPP0z88G&sigh=rs$AOn4CLDqFywpoVYUFZeFXhpn0eTuKZJgHQ",
+          "duration": 44.70967741935484
+        },
+        {
+          "url": "https://i.ytimg.com/sb/jjfnCAjdTkI/storyboard3_L3/M17.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCPP0z88G&sigh=rs$AOn4CLDqFywpoVYUFZeFXhpn0eTuKZJgHQ",
+          "duration": 9.935483870967687
+        }
+      ],
+      "audio_ext": "none",
+      "video_ext": "none",
+      "vbr": 0,
+      "abr": 0,
+      "tbr": null,
+      "resolution": "320x180",
+      "aspect_ratio": 1.78,
+      "filesize_approx": null,
+      "http_headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-us,en;q=0.5",
+        "Sec-Fetch-Mode": "navigate"
+      },
+      "format": "sb0 - 320x180 (storyboard)"
+    },
+    {
+      "asr": 22050,
+      "filesize": 15331140,
+      "format_id": "18",
+      "format_note": "360p",
+      "source_preference": -1,
+      "fps": 24,
+      "audio_channels": 2,
+      "height": 360,
+      "quality": 6.0,
+      "has_drm": false,
+      "tbr": 159.347,
+      "filesize_approx": 15331073,
+      "width": 640,
+      "language": null,
+      "language_preference": -1,
+      "preference": null,
+      "ext": "mp4",
+      "vcodec": "avc1.42001E",
+      "acodec": "mp4a.40.2",
+      "dynamic_range": "SDR",
+      "url": "https://rr1---sn-aigzrn7e.googlevideo.com/videoplayback?expire=1783810838&ei=tnZSaqO4EbD6xN8P_MWFeQ&ip=34.13.54.48&id=o-ALcnqCWw6MjYrBkmHZCl8b_hcZPvd6EQo12gGAD1Y6Db&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&cps=161&met=1783789238%2C&mh=UF&mm=31%2C26&mn=sn-aigzrn7e%2Csn-25ge7nzz&ms=au%2Conr&mv=u&mvi=1&pl=18&rms=au%2Cau&bui=AZFlqhPeea0Gl0FqRtW5dXcBelxiR0mrLymjSVUvSdGa8TtVF5SUz9QHrFv4YMmlJAOzPttrO2tgAXXK&spc=SQ-umtJsBYUz7bqVAYTOtySzTe4XQ-Q2HaA70U4JCWJs1nc9WPv365_JXi8LdpWFcy7qjkXabaCN7EBnzjEGvNCDRdU&vprv=1&svpuc=1&mime=video%2Fmp4&ns=Qkrwi-bdyiKW27k8J-Eic6YW&rqh=1&gir=yes&clen=15331140&ratebypass=yes&dur=769.695&lmt=1777596948252730&mt=1783788674&fvip=1&fexp=51565115%2C52017147&c=MWEB&sefc=1&txp=6209224&n=a-tXqwu9rAsEsg&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AHEqNM4wRgIhAPNMEIw6CI9vdwYpHeUBGFpZq4aRPW3aBYkThMc2bLfeAiEAixgHnHhpXshfTMZQ18fHr_2GUQa49dhRGUjGreB4fOA%3D&lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms&lsig=APaTxxMwRAIgJmfUf2fS-DB88vGG2v69nDc4ACm0cU2yRh78TfEmY8oCIE8TINpkHSzW457jl0OrwSzblgYw7GLZ01CnzAyN7s6k",
+      "available_at": 1783789244,
+      "downloader_options": {
+        "http_chunk_size": 10485760
+      },
+      "protocol": "https",
+      "video_ext": "mp4",
+      "audio_ext": "none",
+      "vbr": null,
+      "abr": null,
+      "resolution": "640x360",
+      "aspect_ratio": 1.78,
+      "http_headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-us,en;q=0.5",
+        "Sec-Fetch-Mode": "navigate"
+      },
+      "format": "18 - 640x360 (360p)"
+    }
+  ],
+  "thumbnails": [
+    {
+      "url": "https://i.ytimg.com/vi/jjfnCAjdTkI/3.jpg",
+      "preference": -37,
+      "id": "0"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/jjfnCAjdTkI/3.webp",
+      "preference": -36,
+      "id": "1"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/jjfnCAjdTkI/2.jpg",
+      "preference": -35,
+      "id": "2"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/jjfnCAjdTkI/2.webp",
+      "preference": -34,
+      "id": "3"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/jjfnCAjdTkI/1.jpg",
+      "preference": -33,
+      "id": "4"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/jjfnCAjdTkI/1.webp",
+      "preference": -32,
+      "id": "5"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/jjfnCAjdTkI/mq3.jpg",
+      "preference": -31,
+      "id": "6"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/jjfnCAjdTkI/mq3.webp",
+      "preference": -30,
+      "id": "7"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/jjfnCAjdTkI/mq2.jpg",
+      "preference": -29,
+      "id": "8"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/jjfnCAjdTkI/mq2.webp",
+      "preference": -28,
+      "id": "9"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/jjfnCAjdTkI/mq1.jpg",
+      "preference": -27,
+      "id": "10"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/jjfnCAjdTkI/mq1.webp",
+      "preference": -26,
+      "id": "11"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/jjfnCAjdTkI/hq3.jpg",
+      "preference": -25,
+      "id": "12"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/jjfnCAjdTkI/hq3.webp",
+      "preference": -24,
+      "id": "13"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/jjfnCAjdTkI/hq2.jpg",
+      "preference": -23,
+      "id": "14"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/jjfnCAjdTkI/hq2.webp",
+      "preference": -22,
+      "id": "15"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/jjfnCAjdTkI/hq1.jpg",
+      "preference": -21,
+      "id": "16"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/jjfnCAjdTkI/hq1.webp",
+      "preference": -20,
+      "id": "17"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/jjfnCAjdTkI/sd3.jpg",
+      "preference": -19,
+      "id": "18"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/jjfnCAjdTkI/sd3.webp",
+      "preference": -18,
+      "id": "19"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/jjfnCAjdTkI/sd2.jpg",
+      "preference": -17,
+      "id": "20"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/jjfnCAjdTkI/sd2.webp",
+      "preference": -16,
+      "id": "21"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/jjfnCAjdTkI/sd1.jpg",
+      "preference": -15,
+      "id": "22"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/jjfnCAjdTkI/sd1.webp",
+      "preference": -14,
+      "id": "23"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/jjfnCAjdTkI/default.jpg",
+      "height": 90,
+      "width": 120,
+      "preference": -13,
+      "id": "24",
+      "resolution": "120x90"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/jjfnCAjdTkI/default.webp",
+      "preference": -12,
+      "id": "25"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/jjfnCAjdTkI/mqdefault.jpg",
+      "height": 180,
+      "width": 320,
+      "preference": -11,
+      "id": "26",
+      "resolution": "320x180"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/jjfnCAjdTkI/mqdefault.webp",
+      "preference": -10,
+      "id": "27"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/jjfnCAjdTkI/0.jpg",
+      "preference": -9,
+      "id": "28"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/jjfnCAjdTkI/0.webp",
+      "preference": -8,
+      "id": "29"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/jjfnCAjdTkI/hqdefault.jpg",
+      "height": 360,
+      "width": 480,
+      "preference": -7,
+      "id": "30",
+      "resolution": "480x360"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/jjfnCAjdTkI/hqdefault.webp",
+      "preference": -6,
+      "id": "31"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/jjfnCAjdTkI/sddefault.jpg",
+      "height": 480,
+      "width": 640,
+      "preference": -5,
+      "id": "32",
+      "resolution": "640x480"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/jjfnCAjdTkI/sddefault.webp",
+      "preference": -4,
+      "id": "33"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/jjfnCAjdTkI/hq720.jpg",
+      "preference": -3,
+      "id": "34"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/jjfnCAjdTkI/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLD-eLn2bea0kHA_l8aHDA79y4_c-A",
+      "height": 386,
+      "width": 686,
+      "preference": -3,
+      "id": "35",
+      "resolution": "686x386"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/jjfnCAjdTkI/hq720.webp",
+      "preference": -2,
+      "id": "36"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/jjfnCAjdTkI/maxresdefault.jpg",
+      "height": 720,
+      "width": 1280,
+      "preference": -1,
+      "id": "37",
+      "resolution": "1280x720"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/jjfnCAjdTkI/maxresdefault.webp",
+      "preference": 0,
+      "id": "38"
+    }
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/jjfnCAjdTkI/maxresdefault.jpg",
+  "description": "This is part three of our deep dive series on how we built Alyx, our AI engineering agent, and centers on testing and evals. AI agents don’t fail like traditional software. A small prompt edit, tool description change, or model upgrade can quietly break multi-step behavior.\n\n• Related blog post [part three]: Why testing agents is non-negotiable\nhttps://arize.com/blog/why-testing-ai-agents-is-non-negotiable\n• Part one: How to build planning into your agent \nhttps://arize.com/blog/how-to-build-planning-into-your-agent\n• Part two: How to manage LLM context windows in agents \nhttps://arize.com/blog/how-to-manage-llm-context-windows-for-ai-agents/\n\nIn this Alyx deep dive, Sally Ann and Jack walk through how the Arize team tests production AI agents using real traces, golden datasets, experiments, and LLM-as-judge evals. You’ll see how a failing Alyx trace becomes a test case, how expectations are written in natural language, and how experiments help track regressions over time.\n\nWe walk through the eval framework we built after outgrowing a Google Doc, and why we now consider it non-negotiable before shipping anything to production.\n\nThis video covers:\n\n• Why unit-test-style assertions break down for agents\n• How to turn production traces into reusable test cases\n• How LLM-as-judge evals validate behavior without brittle exact matching\n• A test-driven development workflow for fixing agent regressions\n• Why experiments are useful for tracking eval results over time\n• How this workflow can plug into CI/CD before prompt, tool, or model changes ship\n\nLearn more about Arize AX: https://arize.com/\n\n#AIagents #AIEvals #LLMEvals #AgentTesting #LLMObservability #ArizeAI #ArizeAX #ProductionTraces #TestDrivenDevelopment #TDDforAI #LLMasJudge #PromptEngineering #AIEngineering #AgentDebugging #CICDforAI #GoldenDatasets #EvalDatasets #AIObservability #MachineLearning #GenerativeAI\n\n— CHAPTERS — \n\n00:00 Why testing AI agents is hard\n00:35 Early days: manual testing and why it breaks\n01:15 Why small prompt/tool changes cause regressions\n02:00 Debugging a failing Alyx trace\n02:50 Turning a trace into a test case\n03:40 Writing flexible eval expectations (LLM-as-judge)\n04:45 Running the agent test harness\n05:40 Logging results as an experiment in Arize\n06:20 Why production traces improve team collaboration\n07:10 Running the eval and analyzing failure\n08:20 Finding the root cause in the system prompt\n09:10 Fixing the bug and rerunning tests\n10:10 Still failing: iterating with TDD\n11:10 Building a regression test suite over time\n12:00 CI/CD integration and final takeaways",
+  "channel_id": "UCrVHzD-psX5IMCGoEWHXmGw",
+  "channel_url": "https://www.youtube.com/channel/UCrVHzD-psX5IMCGoEWHXmGw",
+  "duration": 770,
+  "view_count": 488,
+  "average_rating": null,
+  "age_limit": 0,
+  "webpage_url": "https://www.youtube.com/watch?v=jjfnCAjdTkI",
+  "categories": [
+    "Science & Technology"
+  ],
+  "tags": [],
+  "playable_in_embed": true,
+  "live_status": "not_live",
+  "media_type": "video",
+  "release_timestamp": null,
+  "_format_sort_fields": [
+    "quality",
+    "res",
+    "fps",
+    "hdr:12",
+    "source",
+    "vcodec",
+    "channels",
+    "acodec",
+    "lang",
+    "proto"
+  ],
+  "automatic_captions": {},
+  "subtitles": {},
+  "comment_count": null,
+  "chapters": [
+    {
+      "start_time": 0,
+      "title": "Why testing AI agents is hard",
+      "end_time": 35
+    },
+    {
+      "start_time": 35,
+      "title": "Early days: manual testing and why it breaks",
+      "end_time": 75
+    },
+    {
+      "start_time": 75,
+      "title": "Why small prompt/tool changes cause regressions",
+      "end_time": 120
+    },
+    {
+      "start_time": 120,
+      "title": "Debugging a failing Alyx trace",
+      "end_time": 170
+    },
+    {
+      "start_time": 170,
+      "title": "Turning a trace into a test case",
+      "end_time": 220
+    },
+    {
+      "start_time": 220,
+      "title": "Writing flexible eval expectations (LLM-as-judge)",
+      "end_time": 285
+    },
+    {
+      "start_time": 285,
+      "title": "Running the agent test harness",
+      "end_time": 340
+    },
+    {
+      "start_time": 340,
+      "title": "Logging results as an experiment in Arize",
+      "end_time": 380
+    },
+    {
+      "start_time": 380,
+      "title": "Why production traces improve team collaboration",
+      "end_time": 430
+    },
+    {
+      "start_time": 430,
+      "title": "Running the eval and analyzing failure",
+      "end_time": 500
+    },
+    {
+      "start_time": 500,
+      "title": "Finding the root cause in the system prompt",
+      "end_time": 550
+    },
+    {
+      "start_time": 550,
+      "title": "Fixing the bug and rerunning tests",
+      "end_time": 610
+    },
+    {
+      "start_time": 610,
+      "title": "Still failing: iterating with TDD",
+      "end_time": 670
+    },
+    {
+      "start_time": 670,
+      "title": "Building a regression test suite over time",
+      "end_time": 720
+    },
+    {
+      "start_time": 720,
+      "title": "CI/CD integration and final takeaways",
+      "end_time": 770
+    }
+  ],
+  "heatmap": null,
+  "like_count": null,
+  "channel": "Arize AI",
+  "channel_follower_count": 8730,
+  "creators": null,
+  "uploader": "Arize AI",
+  "uploader_id": "@arizeai",
+  "uploader_url": "https://www.youtube.com/@arizeai",
+  "upload_date": "20260505",
+  "timestamp": 1777996310,
+  "availability": "public",
+  "original_url": "https://www.youtube.com/watch?v=jjfnCAjdTkI",
+  "webpage_url_basename": "watch",
+  "webpage_url_domain": "youtube.com",
+  "extractor": "youtube",
+  "extractor_key": "Youtube",
+  "playlist": null,
+  "playlist_index": null,
+  "display_id": "jjfnCAjdTkI",
+  "fulltitle": "How to test AI agents with traces, evals, and CI/CD",
+  "duration_string": "12:50",
+  "release_year": null,
+  "is_live": false,
+  "was_live": false,
+  "requested_subtitles": null,
+  "_has_drm": null,
+  "epoch": 1783789240,
+  "requested_downloads": [
+    {
+      "asr": 22050,
+      "filesize": 15331140,
+      "format_id": "18",
+      "format_note": "360p",
+      "source_preference": -1,
+      "fps": 24,
+      "audio_channels": 2,
+      "height": 360,
+      "quality": 6.0,
+      "has_drm": false,
+      "tbr": 159.347,
+      "filesize_approx": 15331073,
+      "width": 640,
+      "language_preference": -1,
+      "ext": "mp4",
+      "vcodec": "avc1.42001E",
+      "acodec": "mp4a.40.2",
+      "dynamic_range": "SDR",
+      "url": "https://rr1---sn-aigzrn7e.googlevideo.com/videoplayback?expire=1783810838&ei=tnZSaqO4EbD6xN8P_MWFeQ&ip=34.13.54.48&id=o-ALcnqCWw6MjYrBkmHZCl8b_hcZPvd6EQo12gGAD1Y6Db&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&cps=161&met=1783789238%2C&mh=UF&mm=31%2C26&mn=sn-aigzrn7e%2Csn-25ge7nzz&ms=au%2Conr&mv=u&mvi=1&pl=18&rms=au%2Cau&bui=AZFlqhPeea0Gl0FqRtW5dXcBelxiR0mrLymjSVUvSdGa8TtVF5SUz9QHrFv4YMmlJAOzPttrO2tgAXXK&spc=SQ-umtJsBYUz7bqVAYTOtySzTe4XQ-Q2HaA70U4JCWJs1nc9WPv365_JXi8LdpWFcy7qjkXabaCN7EBnzjEGvNCDRdU&vprv=1&svpuc=1&mime=video%2Fmp4&ns=Qkrwi-bdyiKW27k8J-Eic6YW&rqh=1&gir=yes&clen=15331140&ratebypass=yes&dur=769.695&lmt=1777596948252730&mt=1783788674&fvip=1&fexp=51565115%2C52017147&c=MWEB&sefc=1&txp=6209224&n=a-tXqwu9rAsEsg&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AHEqNM4wRgIhAPNMEIw6CI9vdwYpHeUBGFpZq4aRPW3aBYkThMc2bLfeAiEAixgHnHhpXshfTMZQ18fHr_2GUQa49dhRGUjGreB4fOA%3D&lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms&lsig=APaTxxMwRAIgJmfUf2fS-DB88vGG2v69nDc4ACm0cU2yRh78TfEmY8oCIE8TINpkHSzW457jl0OrwSzblgYw7GLZ01CnzAyN7s6k",
+      "available_at": 1783789244,
+      "downloader_options": {
+        "http_chunk_size": 10485760
+      },
+      "protocol": "https",
+      "video_ext": "mp4",
+      "audio_ext": "none",
+      "resolution": "640x360",
+      "aspect_ratio": 1.78,
+      "http_headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-us,en;q=0.5",
+        "Sec-Fetch-Mode": "navigate"
+      },
+      "format": "18 - 640x360 (360p)",
+      "_filename": "How to test AI agents with traces, evals, and CI⧸CD [jjfnCAjdTkI].mp4",
+      "filename": "How to test AI agents with traces, evals, and CI⧸CD [jjfnCAjdTkI].mp4",
+      "__write_download_archive": false
+    }
+  ],
+  "asr": 22050,
+  "filesize": 15331140,
+  "format_id": "18",
+  "format_note": "360p",
+  "source_preference": -1,
+  "fps": 24,
+  "audio_channels": 2,
+  "height": 360,
+  "quality": 6.0,
+  "has_drm": false,
+  "tbr": 159.347,
+  "filesize_approx": 15331073,
+  "width": 640,
+  "language": null,
+  "language_preference": -1,
+  "preference": null,
+  "ext": "mp4",
+  "vcodec": "avc1.42001E",
+  "acodec": "mp4a.40.2",
+  "dynamic_range": "SDR",
+  "url": "https://rr1---sn-aigzrn7e.googlevideo.com/videoplayback?expire=1783810838&ei=tnZSaqO4EbD6xN8P_MWFeQ&ip=34.13.54.48&id=o-ALcnqCWw6MjYrBkmHZCl8b_hcZPvd6EQo12gGAD1Y6Db&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&cps=161&met=1783789238%2C&mh=UF&mm=31%2C26&mn=sn-aigzrn7e%2Csn-25ge7nzz&ms=au%2Conr&mv=u&mvi=1&pl=18&rms=au%2Cau&bui=AZFlqhPeea0Gl0FqRtW5dXcBelxiR0mrLymjSVUvSdGa8TtVF5SUz9QHrFv4YMmlJAOzPttrO2tgAXXK&spc=SQ-umtJsBYUz7bqVAYTOtySzTe4XQ-Q2HaA70U4JCWJs1nc9WPv365_JXi8LdpWFcy7qjkXabaCN7EBnzjEGvNCDRdU&vprv=1&svpuc=1&mime=video%2Fmp4&ns=Qkrwi-bdyiKW27k8J-Eic6YW&rqh=1&gir=yes&clen=15331140&ratebypass=yes&dur=769.695&lmt=1777596948252730&mt=1783788674&fvip=1&fexp=51565115%2C52017147&c=MWEB&sefc=1&txp=6209224&n=a-tXqwu9rAsEsg&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AHEqNM4wRgIhAPNMEIw6CI9vdwYpHeUBGFpZq4aRPW3aBYkThMc2bLfeAiEAixgHnHhpXshfTMZQ18fHr_2GUQa49dhRGUjGreB4fOA%3D&lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms&lsig=APaTxxMwRAIgJmfUf2fS-DB88vGG2v69nDc4ACm0cU2yRh78TfEmY8oCIE8TINpkHSzW457jl0OrwSzblgYw7GLZ01CnzAyN7s6k",
+  "available_at": 1783789244,
+  "downloader_options": {
+    "http_chunk_size": 10485760
+  },
+  "protocol": "https",
+  "video_ext": "mp4",
+  "audio_ext": "none",
+  "vbr": null,
+  "abr": null,
+  "resolution": "640x360",
+  "aspect_ratio": 1.78,
+  "http_headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-us,en;q=0.5",
+    "Sec-Fetch-Mode": "navigate"
+  },
+  "format": "18 - 640x360 (360p)",
+  "_type": "video",
+  "_version": {
+    "version": "2026.07.04",
+    "current_git_head": null,
+    "release_git_head": "997fa140840a08df3938b40da470c78049fef1f6",
+    "repository": "yt-dlp/yt-dlp"
+  }
+}

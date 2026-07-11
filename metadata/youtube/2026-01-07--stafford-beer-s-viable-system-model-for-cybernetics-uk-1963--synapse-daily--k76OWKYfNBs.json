@@ -1,0 +1,45 @@
+{
+  "asr_models": [
+    "whisper-large-v3"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: [youtube] k76OWKYfNBs: Unable to download webpage: HTTP Error 429: Too Many Requests (caused by <HTTPError 429: Too Many Requests>)\nWARNING: [youtube] Unable to fetch GVS PO Token for web_safari client: Missing required Visitor Data. You may need to pass Visitor Data with --extractor-args \"youtube:visitor_data=XXX\"\nERROR: [youtube] k76OWKYfNBs: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies",
+  "channel": "Synapse Daily",
+  "duration_seconds": 540,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "39c1bb3a676eb7346328912f82bedf55980a0be0267b230bf46c1b18884f884c",
+    "source-info.json": "9d1209bb28d123847cafd16fec6a8719b049c931b88b2a15594d4231a1a45ba7"
+  },
+  "raw_path": "raw/youtube/2026-01-07--stafford-beer-s-viable-system-model-for-cybernetics-uk-1963--synapse-daily--k76OWKYfNBs",
+  "relevance_categories": [
+    "feedback-systems"
+  ],
+  "relevance_evidence": [
+    "cybernetic",
+    "viable system"
+  ],
+  "relevance_spans": [
+    {
+      "category": "feedback-systems",
+      "phrase": "cybernetic",
+      "text": "To understand Beer model we must first meet his mentor W Ross Ashby Ashby was a pioneer in cybernetics the science of systems and control He gave us the law of requisite variety a principle as foundational to social science as gravity is to physics",
+      "timestamp": "2:08"
+    },
+    {
+      "category": "feedback-systems",
+      "phrase": "viable system",
+      "text": "the viable system model, conceived by a man named Stafford Beer. Beer wasn't your typical scientist.",
+      "timestamp": "0:30"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 130,
+  "source_url": "https://www.youtube.com/watch?v=k76OWKYfNBs",
+  "title": "Stafford Beer\u2019s Viable System Model for Cybernetics (UK) 1963",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "sources/youtube/accepted/2026-01-07--stafford-beer-s-viable-system-model-for-cybernetics-uk-1963--synapse-daily--k76OWKYfNBs.md",
+  "transcript_sha256": "5697c55d5b6a7be7b4e18a50a688cc3fd5daee125590f7e3c976ce9da302c4b5",
+  "upload_date": "20260107",
+  "video_id": "k76OWKYfNBs"
+}

@@ -1,0 +1,38 @@
+{
+  "asr_models": [
+    "whisper-large-v3-turbo"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: [youtube] Gd711QPEyqc: Unable to download webpage: HTTP Error 429: Too Many Requests (caused by <HTTPError 429: Too Many Requests>)\nWARNING: [youtube] Unable to fetch GVS PO Token for web_safari client: Missing required Visitor Data. You may need to pass Visitor Data with --extractor-args \"youtube:visitor_data=XXX\"\nERROR: [youtube] Gd711QPEyqc: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies",
+  "channel": "Micro Learning",
+  "duration_seconds": 519,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "24710b14d3e4e18c4fcbfd68745ed369665e5790845048f25b2813ef382bc181",
+    "source-info.json": "ea0c8ad01298f74c081ae77fd0460ca743d92445b59d7367dee6b5c40af5b810"
+  },
+  "raw_path": "raw/youtube/2026-06-25--gepa-explained-self-improving-ai-through-automated-prompt-optimization--micro-learning--Gd711QPEyqc",
+  "relevance_categories": [
+    "feedback-systems"
+  ],
+  "relevance_evidence": [
+    "feedback loop"
+  ],
+  "relevance_spans": [
+    {
+      "category": "feedback-systems",
+      "phrase": "feedback loop",
+      "text": "4. The structured feedback loop.",
+      "timestamp": "1:03"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 119,
+  "source_url": "https://www.youtube.com/watch?v=Gd711QPEyqc",
+  "title": "GEPA Explained: Self-Improving AI Through Automated Prompt Optimization",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "sources/youtube/accepted/2026-06-25--gepa-explained-self-improving-ai-through-automated-prompt-optimization--micro-learning--Gd711QPEyqc.md",
+  "transcript_sha256": "cb70cb3ea37044d2e7ccf827e9f04bd0b805568aa042af3da6a7c70a7a975444",
+  "upload_date": "20260625",
+  "video_id": "Gd711QPEyqc"
+}

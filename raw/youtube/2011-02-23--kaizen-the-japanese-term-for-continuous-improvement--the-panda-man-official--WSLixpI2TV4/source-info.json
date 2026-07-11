@@ -1,0 +1,428 @@
+{
+  "id": "WSLixpI2TV4",
+  "title": "KAIZEN-The Japanese term for continuous improvement",
+  "formats": [
+    {
+      "asr": 44100,
+      "filesize": null,
+      "format_id": "18",
+      "format_note": "360p",
+      "source_preference": -1,
+      "fps": 30,
+      "audio_channels": 2,
+      "height": 360,
+      "quality": 6.0,
+      "has_drm": false,
+      "tbr": 347.384,
+      "filesize_approx": 3579357,
+      "width": 640,
+      "language": null,
+      "language_preference": -1,
+      "preference": null,
+      "ext": "mp4",
+      "vcodec": "avc1.42001E",
+      "acodec": "mp4a.40.2",
+      "dynamic_range": "SDR",
+      "url": "https://rr3---sn-aigl6ns6.googlevideo.com/videoplayback?expire=1783810224&ei=UHRSapn1FsnTmLAPzKP9oAo&ip=34.13.54.48&id=o-AKXRHcIIPA5x5lynPTzzT3jTiYnEqvi40TrlzkNunf9S&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&cps=239&met=1783788624%2C&mh=nb&mm=31%2C29&mn=sn-aigl6ns6%2Csn-aigzrn7d&ms=au%2Crdu&mv=m&mvi=3&pl=18&rms=au%2Cau&bui=AZFlqhPE5z2zI6mStQhv2hb-wpGrYLr5nEp_VEW9GLK9kMwryRF02rTbFEt7bSjeai40frEKk_lemmmd&spc=SQ-umnzAH9mPICCzdt36kW8UF8yCluNTHdXRsC5y5JIZuFosJZsACDv_r9i9s1PYc9O8ILzD&vprv=1&svpuc=1&mime=video%2Fmp4&ns=PkLbOV61G3CnUR__hbIy-lcW&rqh=1&cnr=14&ratebypass=yes&dur=82.430&lmt=1690348720364848&mt=1783788087&fvip=5&fexp=51565115%2C52017147&c=MWEB&sefc=1&txp=1219224&n=GwGMooWekabPfg&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Ccnr%2Cratebypass%2Cdur%2Clmt&sig=AHEqNM4wRgIhAOHGf3MdAqE5z813k_6ab-SoBwzU_j_D9CTdQInsxytKAiEAnKLSV5jOsbJhUfrDJR2KHpQud1lxALS_O3YzjEE2Bvk%3D&lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms&lsig=APaTxxMwRQIgVAf_QsbsO-smuVMkFUvG0JSWxr7PwcaEwFZx8UFBT8ECIQDL-m8hfL-qzpRKhUSnP0Fz1KKYcoQpatI-JoatOsa-yQ%3D%3D",
+      "available_at": 1783788624,
+      "downloader_options": {
+        "http_chunk_size": 10485760
+      },
+      "protocol": "https",
+      "video_ext": "mp4",
+      "audio_ext": "none",
+      "vbr": null,
+      "abr": null,
+      "resolution": "640x360",
+      "aspect_ratio": 1.78,
+      "http_headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-us,en;q=0.5",
+        "Sec-Fetch-Mode": "navigate"
+      },
+      "format": "18 - 640x360 (360p)"
+    }
+  ],
+  "thumbnails": [
+    {
+      "url": "https://i.ytimg.com/vi/WSLixpI2TV4/3.jpg",
+      "preference": -37,
+      "id": "0"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/WSLixpI2TV4/3.webp",
+      "preference": -36,
+      "id": "1"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/WSLixpI2TV4/2.jpg",
+      "preference": -35,
+      "id": "2"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/WSLixpI2TV4/2.webp",
+      "preference": -34,
+      "id": "3"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/WSLixpI2TV4/1.jpg",
+      "preference": -33,
+      "id": "4"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/WSLixpI2TV4/1.webp",
+      "preference": -32,
+      "id": "5"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/WSLixpI2TV4/mq3.jpg",
+      "preference": -31,
+      "id": "6"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/WSLixpI2TV4/mq3.webp",
+      "preference": -30,
+      "id": "7"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/WSLixpI2TV4/mq2.jpg",
+      "preference": -29,
+      "id": "8"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/WSLixpI2TV4/mq2.webp",
+      "preference": -28,
+      "id": "9"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/WSLixpI2TV4/mq1.jpg",
+      "preference": -27,
+      "id": "10"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/WSLixpI2TV4/mq1.webp",
+      "preference": -26,
+      "id": "11"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/WSLixpI2TV4/hq3.jpg",
+      "preference": -25,
+      "id": "12"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/WSLixpI2TV4/hq3.webp",
+      "preference": -24,
+      "id": "13"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/WSLixpI2TV4/hq2.jpg",
+      "preference": -23,
+      "id": "14"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/WSLixpI2TV4/hq2.webp",
+      "preference": -22,
+      "id": "15"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/WSLixpI2TV4/hq1.jpg",
+      "preference": -21,
+      "id": "16"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/WSLixpI2TV4/hq1.webp",
+      "preference": -20,
+      "id": "17"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/WSLixpI2TV4/sd3.jpg",
+      "preference": -19,
+      "id": "18"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/WSLixpI2TV4/sd3.webp",
+      "preference": -18,
+      "id": "19"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/WSLixpI2TV4/sd2.jpg",
+      "preference": -17,
+      "id": "20"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/WSLixpI2TV4/sd2.webp",
+      "preference": -16,
+      "id": "21"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/WSLixpI2TV4/sd1.jpg",
+      "preference": -15,
+      "id": "22"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/WSLixpI2TV4/sd1.webp",
+      "preference": -14,
+      "id": "23"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/WSLixpI2TV4/default.jpg",
+      "height": 90,
+      "width": 120,
+      "preference": -13,
+      "id": "24",
+      "resolution": "120x90"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/WSLixpI2TV4/default.webp",
+      "preference": -12,
+      "id": "25"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/WSLixpI2TV4/mqdefault.jpg",
+      "height": 180,
+      "width": 320,
+      "preference": -11,
+      "id": "26",
+      "resolution": "320x180"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/WSLixpI2TV4/mqdefault.webp",
+      "preference": -10,
+      "id": "27"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/WSLixpI2TV4/0.jpg",
+      "preference": -9,
+      "id": "28"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/WSLixpI2TV4/0.webp",
+      "preference": -8,
+      "id": "29"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/WSLixpI2TV4/hqdefault.jpg",
+      "height": 360,
+      "width": 480,
+      "preference": -7,
+      "id": "30",
+      "resolution": "480x360"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/WSLixpI2TV4/hqdefault.webp",
+      "preference": -6,
+      "id": "31"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/WSLixpI2TV4/sddefault.jpg",
+      "height": 480,
+      "width": 640,
+      "preference": -5,
+      "id": "32",
+      "resolution": "640x480"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/WSLixpI2TV4/sddefault.webp",
+      "preference": -4,
+      "id": "33"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/WSLixpI2TV4/hq720.jpg",
+      "preference": -3,
+      "id": "34"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/WSLixpI2TV4/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDiA4_BoD_XmV_HFL_hr25GEUKNgQ",
+      "height": 386,
+      "width": 686,
+      "preference": -3,
+      "id": "35",
+      "resolution": "686x386"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/WSLixpI2TV4/hq720.webp",
+      "preference": -2,
+      "id": "36"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/WSLixpI2TV4/maxresdefault.jpg",
+      "height": 720,
+      "width": 1280,
+      "preference": -1,
+      "id": "37",
+      "resolution": "1280x720"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/WSLixpI2TV4/maxresdefault.webp",
+      "preference": 0,
+      "id": "38"
+    }
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/WSLixpI2TV4/maxresdefault.jpg",
+  "description": "How to get better in life, compounding interest.",
+  "channel_id": "UC48xzZXeZjkaRYN17-UMmfw",
+  "channel_url": "https://www.youtube.com/channel/UC48xzZXeZjkaRYN17-UMmfw",
+  "duration": 82,
+  "view_count": 104,
+  "average_rating": null,
+  "age_limit": 0,
+  "webpage_url": "https://www.youtube.com/watch?v=WSLixpI2TV4",
+  "categories": [
+    "People & Blogs"
+  ],
+  "tags": [
+    "Kyle Newell",
+    "Newell Strength",
+    "Hillsborough",
+    "NJ",
+    "mind",
+    "Kaizen",
+    "strength and conditioning"
+  ],
+  "playable_in_embed": true,
+  "live_status": "not_live",
+  "media_type": "video",
+  "release_timestamp": null,
+  "_format_sort_fields": [
+    "quality",
+    "res",
+    "fps",
+    "hdr:12",
+    "source",
+    "vcodec",
+    "channels",
+    "acodec",
+    "lang",
+    "proto"
+  ],
+  "automatic_captions": {},
+  "subtitles": {},
+  "comment_count": null,
+  "chapters": [
+    {
+      "start_time": 0,
+      "end_time": 19,
+      "title": "<Untitled Chapter 1>"
+    },
+    {
+      "start_time": 19,
+      "title": "Is Kaizen a Japanese word?",
+      "end_time": 82
+    }
+  ],
+  "heatmap": null,
+  "like_count": null,
+  "channel": "The Panda Man Official",
+  "channel_follower_count": 15400,
+  "creators": null,
+  "uploader": "The Panda Man Official",
+  "uploader_id": "@thepandamanofficial",
+  "uploader_url": "https://www.youtube.com/@thepandamanofficial",
+  "upload_date": "20110223",
+  "timestamp": 1298421948,
+  "availability": "public",
+  "original_url": "https://www.youtube.com/watch?v=WSLixpI2TV4",
+  "webpage_url_basename": "watch",
+  "webpage_url_domain": "youtube.com",
+  "extractor": "youtube",
+  "extractor_key": "Youtube",
+  "playlist": null,
+  "playlist_index": null,
+  "display_id": "WSLixpI2TV4",
+  "fulltitle": "KAIZEN-The Japanese term for continuous improvement",
+  "duration_string": "1:22",
+  "release_year": null,
+  "is_live": false,
+  "was_live": false,
+  "requested_subtitles": null,
+  "_has_drm": null,
+  "epoch": 1783788625,
+  "requested_downloads": [
+    {
+      "asr": 44100,
+      "format_id": "18",
+      "format_note": "360p",
+      "source_preference": -1,
+      "fps": 30,
+      "audio_channels": 2,
+      "height": 360,
+      "quality": 6.0,
+      "has_drm": false,
+      "tbr": 347.384,
+      "filesize_approx": 3579357,
+      "width": 640,
+      "language_preference": -1,
+      "ext": "mp4",
+      "vcodec": "avc1.42001E",
+      "acodec": "mp4a.40.2",
+      "dynamic_range": "SDR",
+      "url": "https://rr3---sn-aigl6ns6.googlevideo.com/videoplayback?expire=1783810224&ei=UHRSapn1FsnTmLAPzKP9oAo&ip=34.13.54.48&id=o-AKXRHcIIPA5x5lynPTzzT3jTiYnEqvi40TrlzkNunf9S&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&cps=239&met=1783788624%2C&mh=nb&mm=31%2C29&mn=sn-aigl6ns6%2Csn-aigzrn7d&ms=au%2Crdu&mv=m&mvi=3&pl=18&rms=au%2Cau&bui=AZFlqhPE5z2zI6mStQhv2hb-wpGrYLr5nEp_VEW9GLK9kMwryRF02rTbFEt7bSjeai40frEKk_lemmmd&spc=SQ-umnzAH9mPICCzdt36kW8UF8yCluNTHdXRsC5y5JIZuFosJZsACDv_r9i9s1PYc9O8ILzD&vprv=1&svpuc=1&mime=video%2Fmp4&ns=PkLbOV61G3CnUR__hbIy-lcW&rqh=1&cnr=14&ratebypass=yes&dur=82.430&lmt=1690348720364848&mt=1783788087&fvip=5&fexp=51565115%2C52017147&c=MWEB&sefc=1&txp=1219224&n=GwGMooWekabPfg&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Ccnr%2Cratebypass%2Cdur%2Clmt&sig=AHEqNM4wRgIhAOHGf3MdAqE5z813k_6ab-SoBwzU_j_D9CTdQInsxytKAiEAnKLSV5jOsbJhUfrDJR2KHpQud1lxALS_O3YzjEE2Bvk%3D&lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms&lsig=APaTxxMwRQIgVAf_QsbsO-smuVMkFUvG0JSWxr7PwcaEwFZx8UFBT8ECIQDL-m8hfL-qzpRKhUSnP0Fz1KKYcoQpatI-JoatOsa-yQ%3D%3D",
+      "available_at": 1783788624,
+      "downloader_options": {
+        "http_chunk_size": 10485760
+      },
+      "protocol": "https",
+      "video_ext": "mp4",
+      "audio_ext": "none",
+      "resolution": "640x360",
+      "aspect_ratio": 1.78,
+      "http_headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-us,en;q=0.5",
+        "Sec-Fetch-Mode": "navigate"
+      },
+      "format": "18 - 640x360 (360p)",
+      "_filename": "KAIZEN-The Japanese term for continuous improvement [WSLixpI2TV4].mp4",
+      "filename": "KAIZEN-The Japanese term for continuous improvement [WSLixpI2TV4].mp4",
+      "__write_download_archive": false
+    }
+  ],
+  "asr": 44100,
+  "filesize": null,
+  "format_id": "18",
+  "format_note": "360p",
+  "source_preference": -1,
+  "fps": 30,
+  "audio_channels": 2,
+  "height": 360,
+  "quality": 6.0,
+  "has_drm": false,
+  "tbr": 347.384,
+  "filesize_approx": 3579357,
+  "width": 640,
+  "language": null,
+  "language_preference": -1,
+  "preference": null,
+  "ext": "mp4",
+  "vcodec": "avc1.42001E",
+  "acodec": "mp4a.40.2",
+  "dynamic_range": "SDR",
+  "url": "https://rr3---sn-aigl6ns6.googlevideo.com/videoplayback?expire=1783810224&ei=UHRSapn1FsnTmLAPzKP9oAo&ip=34.13.54.48&id=o-AKXRHcIIPA5x5lynPTzzT3jTiYnEqvi40TrlzkNunf9S&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&cps=239&met=1783788624%2C&mh=nb&mm=31%2C29&mn=sn-aigl6ns6%2Csn-aigzrn7d&ms=au%2Crdu&mv=m&mvi=3&pl=18&rms=au%2Cau&bui=AZFlqhPE5z2zI6mStQhv2hb-wpGrYLr5nEp_VEW9GLK9kMwryRF02rTbFEt7bSjeai40frEKk_lemmmd&spc=SQ-umnzAH9mPICCzdt36kW8UF8yCluNTHdXRsC5y5JIZuFosJZsACDv_r9i9s1PYc9O8ILzD&vprv=1&svpuc=1&mime=video%2Fmp4&ns=PkLbOV61G3CnUR__hbIy-lcW&rqh=1&cnr=14&ratebypass=yes&dur=82.430&lmt=1690348720364848&mt=1783788087&fvip=5&fexp=51565115%2C52017147&c=MWEB&sefc=1&txp=1219224&n=GwGMooWekabPfg&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Ccnr%2Cratebypass%2Cdur%2Clmt&sig=AHEqNM4wRgIhAOHGf3MdAqE5z813k_6ab-SoBwzU_j_D9CTdQInsxytKAiEAnKLSV5jOsbJhUfrDJR2KHpQud1lxALS_O3YzjEE2Bvk%3D&lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms&lsig=APaTxxMwRQIgVAf_QsbsO-smuVMkFUvG0JSWxr7PwcaEwFZx8UFBT8ECIQDL-m8hfL-qzpRKhUSnP0Fz1KKYcoQpatI-JoatOsa-yQ%3D%3D",
+  "available_at": 1783788624,
+  "downloader_options": {
+    "http_chunk_size": 10485760
+  },
+  "protocol": "https",
+  "video_ext": "mp4",
+  "audio_ext": "none",
+  "vbr": null,
+  "abr": null,
+  "resolution": "640x360",
+  "aspect_ratio": 1.78,
+  "http_headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-us,en;q=0.5",
+    "Sec-Fetch-Mode": "navigate"
+  },
+  "format": "18 - 640x360 (360p)",
+  "_type": "video",
+  "_version": {
+    "version": "2026.07.04",
+    "current_git_head": null,
+    "release_git_head": "997fa140840a08df3938b40da470c78049fef1f6",
+    "repository": "yt-dlp/yt-dlp"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "asr_models": [
+    "whisper-large-v3-turbo"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: [youtube] dVFpczPLhVU: Unable to download webpage: HTTP Error 429: Too Many Requests (caused by <HTTPError 429: Too Many Requests>)\nWARNING: [youtube] Unable to fetch GVS PO Token for web_safari client: Missing required Visitor Data. You may need to pass Visitor Data with --extractor-args \"youtube:visitor_data=XXX\"\nERROR: [youtube] dVFpczPLhVU: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies",
+  "channel": "Lex Clips",
+  "duration_seconds": 657,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "ba39edf96799734a72d0a0617721bc26f119cfb4bd389ae249a86ddab41be811",
+    "asr-001.json": "440be8a3dfd3236993a630fc8fccc5d7661601a6af6a64e47942be1a22a633e1",
+    "source-info.json": "b214aa05214f3698cce10b948122ff575ee8cd1ea398c970f15ade3fb5fab32d"
+  },
+  "raw_path": "raw/youtube/2024-06-23--intelligence-explosion-needs-recursive-self-improvement-aravind-srinivas-and-lex-fridman--lex-clips--dVFpczPLhVU",
+  "relevance_categories": [
+    "agent-operations"
+  ],
+  "relevance_evidence": [
+    "agents"
+  ],
+  "relevance_spans": [
+    {
+      "category": "agent-operations",
+      "phrase": "agents",
+      "text": "collect a bunch of tasks like that and create a rl suit for that or like give agents like tasks",
+      "timestamp": "1:34"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 156,
+  "source_url": "https://www.youtube.com/watch?v=dVFpczPLhVU",
+  "title": "Intelligence explosion needs recursive self-improvement | Aravind Srinivas and Lex Fridman",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "sources/youtube/accepted/2024-06-23--intelligence-explosion-needs-recursive-self-improvement-aravind-srinivas-and-lex-fridman--lex-clips--dVFpczPLhVU.md",
+  "transcript_sha256": "a48aec496f9ab57a5bc9127d75bb8f68136ad3b94e3c03efd5053311f9228a21",
+  "upload_date": "20240623",
+  "video_id": "dVFpczPLhVU"
+}

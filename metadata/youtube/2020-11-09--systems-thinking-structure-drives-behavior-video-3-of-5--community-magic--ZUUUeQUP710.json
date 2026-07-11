@@ -1,0 +1,38 @@
+{
+  "asr_models": [
+    "whisper-large-v3-turbo"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: [youtube] ZUUUeQUP710: Unable to download webpage: HTTP Error 429: Too Many Requests (caused by <HTTPError 429: Too Many Requests>)\nWARNING: [youtube] Unable to fetch GVS PO Token for web_safari client: Missing required Visitor Data. You may need to pass Visitor Data with --extractor-args \"youtube:visitor_data=XXX\"\nERROR: [youtube] ZUUUeQUP710: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies",
+  "channel": "Community Magic",
+  "duration_seconds": 76,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "abe868a2dbc3d9dfba51c0689f14d3f27e6512cdd87f8f62cc3d0de1fe7fd726",
+    "source-info.json": "faa88c4ef8cf5161a3471d3d4718b3e7e3837df416d05e9430e5930c3c667df2"
+  },
+  "raw_path": "raw/youtube/2020-11-09--systems-thinking-structure-drives-behavior-video-3-of-5--community-magic--ZUUUeQUP710",
+  "relevance_categories": [
+    "feedback-systems"
+  ],
+  "relevance_evidence": [
+    "systems thinking"
+  ],
+  "relevance_spans": [
+    {
+      "category": "feedback-systems",
+      "phrase": "systems thinking",
+      "text": "Using systems thinking, we are able to see not just what is happening, but also why it's happening.",
+      "timestamp": "1:08"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 15,
+  "source_url": "https://www.youtube.com/watch?v=ZUUUeQUP710",
+  "title": "Systems Thinking: Structure Drives Behavior (Video 3 of 5)",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "sources/youtube/accepted/2020-11-09--systems-thinking-structure-drives-behavior-video-3-of-5--community-magic--ZUUUeQUP710.md",
+  "transcript_sha256": "20a3e8e4723b45ef68f29a3d9be224a84c61d60cfc7e092024e1900c4f121224",
+  "upload_date": "20201109",
+  "video_id": "ZUUUeQUP710"
+}

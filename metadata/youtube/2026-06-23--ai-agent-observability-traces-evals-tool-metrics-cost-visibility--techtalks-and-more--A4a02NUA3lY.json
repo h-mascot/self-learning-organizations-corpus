@@ -1,0 +1,38 @@
+{
+  "asr_models": [
+    "whisper-large-v3"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: [youtube] A4a02NUA3lY: Unable to download webpage: HTTP Error 429: Too Many Requests (caused by <HTTPError 429: Too Many Requests>)\nWARNING: [youtube] Unable to fetch GVS PO Token for web_safari client: Missing required Visitor Data. You may need to pass Visitor Data with --extractor-args \"youtube:visitor_data=XXX\"\nERROR: [youtube] A4a02NUA3lY: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies",
+  "channel": "TechTalks and More",
+  "duration_seconds": 454,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "e5cbc47c3d0687b2dd21f1e43704524390b38691f2046f0490b3c182b8890e59",
+    "source-info.json": "d4b1f6cec5e2fd4a4f5f326c6f17a3d11d9fe6f8311ef0887c04779f57b42ccb"
+  },
+  "raw_path": "raw/youtube/2026-06-23--ai-agent-observability-traces-evals-tool-metrics-cost-visibility--techtalks-and-more--A4a02NUA3lY",
+  "relevance_categories": [
+    "agent-operations"
+  ],
+  "relevance_evidence": [
+    "ai agent"
+  ],
+  "relevance_spans": [
+    {
+      "category": "agent-operations",
+      "phrase": "ai agent",
+      "text": "But when you deploy an autonomous AI agent, predictability vanishes.",
+      "timestamp": "0:06"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 77,
+  "source_url": "https://www.youtube.com/watch?v=A4a02NUA3lY",
+  "title": "AI Agent Observability: Traces, Evals, Tool Metrics, & Cost Visibility",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "sources/youtube/accepted/2026-06-23--ai-agent-observability-traces-evals-tool-metrics-cost-visibility--techtalks-and-more--A4a02NUA3lY.md",
+  "transcript_sha256": "6e3ea1b99ddcdc9929ce03d7e5278064579b3ca2d9a1df30f05ef1f889a482c3",
+  "upload_date": "20260623",
+  "video_id": "A4a02NUA3lY"
+}

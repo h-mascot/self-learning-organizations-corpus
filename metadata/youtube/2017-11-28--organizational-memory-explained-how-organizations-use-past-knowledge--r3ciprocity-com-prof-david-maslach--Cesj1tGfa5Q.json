@@ -1,0 +1,47 @@
+{
+  "asr_models": [
+    "whisper-large-v3-turbo"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: [youtube] Cesj1tGfa5Q: Unable to download webpage: HTTP Error 429: Too Many Requests (caused by <HTTPError 429: Too Many Requests>)\nWARNING: [youtube] Unable to fetch GVS PO Token for web_safari client: Missing required Visitor Data. You may need to pass Visitor Data with --extractor-args \"youtube:visitor_data=XXX\"\nERROR: [youtube] Cesj1tGfa5Q: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies",
+  "channel": "R3ciprocity.com-Prof David Maslach",
+  "duration_seconds": 605,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "8bb6516ff7c2ea2f98927b2eadd0a0e71278a5df6d2eed8f78fe76d590e0a465",
+    "asr-001.json": "b56ea1f94d9d2bbb2e1c1a060bbbae7ff540a3efb4ba0dafc02feb88cc9e26f2",
+    "source-info.json": "1956d0b099611146f3a3806e959eecb8f04a8d3cc513c7474b35d7f48b02293a"
+  },
+  "raw_path": "raw/youtube/2017-11-28--organizational-memory-explained-how-organizations-use-past-knowledge--r3ciprocity-com-prof-david-maslach--Cesj1tGfa5Q",
+  "relevance_categories": [
+    "organizational-learning",
+    "organizational-memory"
+  ],
+  "relevance_evidence": [
+    "organizational learning",
+    "organizational memory"
+  ],
+  "relevance_spans": [
+    {
+      "category": "organizational-learning",
+      "phrase": "organizational learning",
+      "text": "I study organizational learning and one sort of component of that is organizational memory.",
+      "timestamp": "0:42"
+    },
+    {
+      "category": "organizational-memory",
+      "phrase": "organizational memory",
+      "text": "So in this particular video, I really wanted to talk about what is organizational memory and what actually what do you do with organizational memory?",
+      "timestamp": "0:28"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 89,
+  "source_url": "https://www.youtube.com/watch?v=Cesj1tGfa5Q",
+  "title": "Organizational Memory Explained: How Organizations Use Past Knowledge",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "sources/youtube/accepted/2017-11-28--organizational-memory-explained-how-organizations-use-past-knowledge--r3ciprocity-com-prof-david-maslach--Cesj1tGfa5Q.md",
+  "transcript_sha256": "30ee827eb41637246d3b57bcf796afb61e500b962e318a3d19dcf39399c939fe",
+  "upload_date": "20171128",
+  "video_id": "Cesj1tGfa5Q"
+}

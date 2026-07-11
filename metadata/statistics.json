@@ -1,14 +1,14 @@
 {
   "by_platform": {
-    "youtube": 77
+    "youtube": 101
   },
   "by_status": {
-    "accepted": 76,
+    "accepted": 100,
     "rejected": 1
   },
-  "complete_timestamped_transcripts": 76,
-  "discovered_sources": 77,
+  "complete_timestamped_transcripts": 100,
+  "discovered_sources": 101,
   "rejected_sources": 1,
   "schema_version": 1,
-  "validated_relevant_sources": 76
+  "validated_relevant_sources": 100
 }

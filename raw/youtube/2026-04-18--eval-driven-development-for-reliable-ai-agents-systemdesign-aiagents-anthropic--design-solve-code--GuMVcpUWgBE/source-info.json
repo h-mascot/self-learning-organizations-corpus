@@ -1,0 +1,614 @@
+{
+  "id": "GuMVcpUWgBE",
+  "title": "Eval Driven Development For Reliable AI Agents #systemdesign #aiagents #anthropic",
+  "formats": [
+    {
+      "format_id": "sb3",
+      "format_note": "storyboard",
+      "ext": "mhtml",
+      "protocol": "mhtml",
+      "acodec": "none",
+      "vcodec": "none",
+      "url": "https://i.ytimg.com/sb/GuMVcpUWgBE/storyboard3_L0/default.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCLT-jc8G&sigh=rs$AOn4CLC3jth_-uX0UZIZ2YpPqdG0QX86gA",
+      "width": 48,
+      "height": 27,
+      "fps": 0.22779043280182232,
+      "rows": 10,
+      "columns": 10,
+      "fragments": [
+        {
+          "url": "https://i.ytimg.com/sb/GuMVcpUWgBE/storyboard3_L0/default.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCLT-jc8G&sigh=rs$AOn4CLC3jth_-uX0UZIZ2YpPqdG0QX86gA",
+          "duration": 439.0
+        }
+      ],
+      "audio_ext": "none",
+      "video_ext": "none",
+      "vbr": 0,
+      "abr": 0,
+      "tbr": null,
+      "resolution": "48x27",
+      "aspect_ratio": 1.78,
+      "filesize_approx": null,
+      "http_headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-us,en;q=0.5",
+        "Sec-Fetch-Mode": "navigate"
+      },
+      "format": "sb3 - 48x27 (storyboard)"
+    },
+    {
+      "format_id": "sb2",
+      "format_note": "storyboard",
+      "ext": "mhtml",
+      "protocol": "mhtml",
+      "acodec": "none",
+      "vcodec": "none",
+      "url": "https://i.ytimg.com/sb/GuMVcpUWgBE/storyboard3_L1/M$M.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCLT-jc8G&sigh=rs$AOn4CLBK0J5x5SaB7oH5BH5LiNMhOObBwg",
+      "width": 80,
+      "height": 45,
+      "fps": 0.20273348519362186,
+      "rows": 10,
+      "columns": 10,
+      "fragments": [
+        {
+          "url": "https://i.ytimg.com/sb/GuMVcpUWgBE/storyboard3_L1/M0.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCLT-jc8G&sigh=rs$AOn4CLBK0J5x5SaB7oH5BH5LiNMhOObBwg",
+          "duration": 439.0
+        }
+      ],
+      "audio_ext": "none",
+      "video_ext": "none",
+      "vbr": 0,
+      "abr": 0,
+      "tbr": null,
+      "resolution": "80x45",
+      "aspect_ratio": 1.78,
+      "filesize_approx": null,
+      "http_headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-us,en;q=0.5",
+        "Sec-Fetch-Mode": "navigate"
+      },
+      "format": "sb2 - 80x45 (storyboard)"
+    },
+    {
+      "format_id": "sb1",
+      "format_note": "storyboard",
+      "ext": "mhtml",
+      "protocol": "mhtml",
+      "acodec": "none",
+      "vcodec": "none",
+      "url": "https://i.ytimg.com/sb/GuMVcpUWgBE/storyboard3_L2/M$M.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCLT-jc8G&sigh=rs$AOn4CLCHtT6c2v7UDoA7pdrh9pC3Bss7gQ",
+      "width": 160,
+      "height": 90,
+      "fps": 0.20273348519362186,
+      "rows": 5,
+      "columns": 5,
+      "fragments": [
+        {
+          "url": "https://i.ytimg.com/sb/GuMVcpUWgBE/storyboard3_L2/M0.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCLT-jc8G&sigh=rs$AOn4CLCHtT6c2v7UDoA7pdrh9pC3Bss7gQ",
+          "duration": 123.31460674157303
+        },
+        {
+          "url": "https://i.ytimg.com/sb/GuMVcpUWgBE/storyboard3_L2/M1.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCLT-jc8G&sigh=rs$AOn4CLCHtT6c2v7UDoA7pdrh9pC3Bss7gQ",
+          "duration": 123.31460674157303
+        },
+        {
+          "url": "https://i.ytimg.com/sb/GuMVcpUWgBE/storyboard3_L2/M2.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCLT-jc8G&sigh=rs$AOn4CLCHtT6c2v7UDoA7pdrh9pC3Bss7gQ",
+          "duration": 123.31460674157303
+        },
+        {
+          "url": "https://i.ytimg.com/sb/GuMVcpUWgBE/storyboard3_L2/M3.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCLT-jc8G&sigh=rs$AOn4CLCHtT6c2v7UDoA7pdrh9pC3Bss7gQ",
+          "duration": 69.0561797752809
+        }
+      ],
+      "audio_ext": "none",
+      "video_ext": "none",
+      "vbr": 0,
+      "abr": 0,
+      "tbr": null,
+      "resolution": "160x90",
+      "aspect_ratio": 1.78,
+      "filesize_approx": null,
+      "http_headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-us,en;q=0.5",
+        "Sec-Fetch-Mode": "navigate"
+      },
+      "format": "sb1 - 160x90 (storyboard)"
+    },
+    {
+      "format_id": "sb0",
+      "format_note": "storyboard",
+      "ext": "mhtml",
+      "protocol": "mhtml",
+      "acodec": "none",
+      "vcodec": "none",
+      "url": "https://i.ytimg.com/sb/GuMVcpUWgBE/storyboard3_L3/M$M.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCLT-jc8G&sigh=rs$AOn4CLCbDwcokRNCua33hGXtj42iGnw1sQ",
+      "width": 320,
+      "height": 180,
+      "fps": 0.20273348519362186,
+      "rows": 3,
+      "columns": 3,
+      "fragments": [
+        {
+          "url": "https://i.ytimg.com/sb/GuMVcpUWgBE/storyboard3_L3/M0.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCLT-jc8G&sigh=rs$AOn4CLCbDwcokRNCua33hGXtj42iGnw1sQ",
+          "duration": 44.39325842696629
+        },
+        {
+          "url": "https://i.ytimg.com/sb/GuMVcpUWgBE/storyboard3_L3/M1.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCLT-jc8G&sigh=rs$AOn4CLCbDwcokRNCua33hGXtj42iGnw1sQ",
+          "duration": 44.39325842696629
+        },
+        {
+          "url": "https://i.ytimg.com/sb/GuMVcpUWgBE/storyboard3_L3/M2.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCLT-jc8G&sigh=rs$AOn4CLCbDwcokRNCua33hGXtj42iGnw1sQ",
+          "duration": 44.39325842696629
+        },
+        {
+          "url": "https://i.ytimg.com/sb/GuMVcpUWgBE/storyboard3_L3/M3.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCLT-jc8G&sigh=rs$AOn4CLCbDwcokRNCua33hGXtj42iGnw1sQ",
+          "duration": 44.39325842696629
+        },
+        {
+          "url": "https://i.ytimg.com/sb/GuMVcpUWgBE/storyboard3_L3/M4.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCLT-jc8G&sigh=rs$AOn4CLCbDwcokRNCua33hGXtj42iGnw1sQ",
+          "duration": 44.39325842696629
+        },
+        {
+          "url": "https://i.ytimg.com/sb/GuMVcpUWgBE/storyboard3_L3/M5.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCLT-jc8G&sigh=rs$AOn4CLCbDwcokRNCua33hGXtj42iGnw1sQ",
+          "duration": 44.39325842696629
+        },
+        {
+          "url": "https://i.ytimg.com/sb/GuMVcpUWgBE/storyboard3_L3/M6.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCLT-jc8G&sigh=rs$AOn4CLCbDwcokRNCua33hGXtj42iGnw1sQ",
+          "duration": 44.39325842696629
+        },
+        {
+          "url": "https://i.ytimg.com/sb/GuMVcpUWgBE/storyboard3_L3/M7.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCLT-jc8G&sigh=rs$AOn4CLCbDwcokRNCua33hGXtj42iGnw1sQ",
+          "duration": 44.39325842696629
+        },
+        {
+          "url": "https://i.ytimg.com/sb/GuMVcpUWgBE/storyboard3_L3/M8.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCLT-jc8G&sigh=rs$AOn4CLCbDwcokRNCua33hGXtj42iGnw1sQ",
+          "duration": 44.39325842696629
+        },
+        {
+          "url": "https://i.ytimg.com/sb/GuMVcpUWgBE/storyboard3_L3/M9.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCLT-jc8G&sigh=rs$AOn4CLCbDwcokRNCua33hGXtj42iGnw1sQ",
+          "duration": 39.4606741573034
+        }
+      ],
+      "audio_ext": "none",
+      "video_ext": "none",
+      "vbr": 0,
+      "abr": 0,
+      "tbr": null,
+      "resolution": "320x180",
+      "aspect_ratio": 1.78,
+      "filesize_approx": null,
+      "http_headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-us,en;q=0.5",
+        "Sec-Fetch-Mode": "navigate"
+      },
+      "format": "sb0 - 320x180 (storyboard)"
+    },
+    {
+      "asr": 22050,
+      "filesize": 9365902,
+      "format_id": "18",
+      "format_note": "360p",
+      "source_preference": -1,
+      "fps": 30,
+      "audio_channels": 2,
+      "height": 360,
+      "quality": 6.0,
+      "has_drm": false,
+      "tbr": 170.48,
+      "filesize_approx": 9365894,
+      "width": 640,
+      "language": null,
+      "language_preference": -1,
+      "preference": null,
+      "ext": "mp4",
+      "vcodec": "avc1.42001E",
+      "acodec": "mp4a.40.2",
+      "dynamic_range": "SDR",
+      "url": "https://rr1---sn-ajaig5-50.googlevideo.com/videoplayback?expire=1783810460&ei=PHVSasagH7yO8uMPzZXEiQo&ip=34.13.54.48&id=o-AKK9imJ3quAlVW3J9mNGSTnhSzA77dOzNrSGEzVC9edA&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&cps=313&met=1783788860%2C&mh=pF&mm=31%2C29&mn=sn-ajaig5-50%2Csn-aigzrn76&ms=au%2Crdu&mv=m&mvi=1&pl=18&rms=au%2Cau&bui=AZFlqhO9jk814D9-hmcosSRLu6AYCXevrbBwm4-hGo3cP0d-Sh3XNnQUaKRP1M2-L9p8vfO4opAJAdqI&spc=SQ-umvNzwg2ce0_SdfJ3Z5YlmtrPYZKZ311jVSAs9XHSYFYU94ylZYKJLsI-n2_cX4-OKmIr&vprv=1&svpuc=1&mime=video%2Fmp4&ns=v4-8oQPfr5ohAlG1pdJrYVYW&rqh=1&gir=yes&clen=9365902&ratebypass=yes&dur=439.507&lmt=1776516900255345&mt=1783788329&fvip=1&fexp=51565116%2C51992868%2C52017147&c=MWEB&sefc=1&txp=6209224&n=0K2Fvgq8KKpFDA&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AHEqNM4wRgIhAKrL0i1HzraCTXB7zCLC4ULwVevaIx8qM9nCXPZrOdwNAiEAm2hjGDY93f0UFfKG5pRKR-A03i088_MCv52dUj7r_B8%3D&lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms&lsig=APaTxxMwRQIgFcg8fhaUO5CP0dUmshuHOpCaHJPexa9f3aUXsFMG9v4CIQDlnlgX14J8nBgHUIQ-ia5LZbhn6k7dDwnYkNiulKNrZQ%3D%3D",
+      "available_at": 1783788860,
+      "downloader_options": {
+        "http_chunk_size": 10485760
+      },
+      "protocol": "https",
+      "video_ext": "mp4",
+      "audio_ext": "none",
+      "vbr": null,
+      "abr": null,
+      "resolution": "640x360",
+      "aspect_ratio": 1.78,
+      "http_headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-us,en;q=0.5",
+        "Sec-Fetch-Mode": "navigate"
+      },
+      "format": "18 - 640x360 (360p)"
+    }
+  ],
+  "thumbnails": [
+    {
+      "url": "https://i.ytimg.com/vi/GuMVcpUWgBE/3.jpg",
+      "preference": -37,
+      "id": "0"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/GuMVcpUWgBE/3.webp",
+      "preference": -36,
+      "id": "1"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/GuMVcpUWgBE/2.jpg",
+      "preference": -35,
+      "id": "2"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/GuMVcpUWgBE/2.webp",
+      "preference": -34,
+      "id": "3"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/GuMVcpUWgBE/1.jpg",
+      "preference": -33,
+      "id": "4"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/GuMVcpUWgBE/1.webp",
+      "preference": -32,
+      "id": "5"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/GuMVcpUWgBE/mq3.jpg",
+      "preference": -31,
+      "id": "6"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/GuMVcpUWgBE/mq3.webp",
+      "preference": -30,
+      "id": "7"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/GuMVcpUWgBE/mq2.jpg",
+      "preference": -29,
+      "id": "8"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/GuMVcpUWgBE/mq2.webp",
+      "preference": -28,
+      "id": "9"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/GuMVcpUWgBE/mq1.jpg",
+      "preference": -27,
+      "id": "10"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/GuMVcpUWgBE/mq1.webp",
+      "preference": -26,
+      "id": "11"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/GuMVcpUWgBE/hq3.jpg",
+      "preference": -25,
+      "id": "12"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/GuMVcpUWgBE/hq3.webp",
+      "preference": -24,
+      "id": "13"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/GuMVcpUWgBE/hq2.jpg",
+      "preference": -23,
+      "id": "14"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/GuMVcpUWgBE/hq2.webp",
+      "preference": -22,
+      "id": "15"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/GuMVcpUWgBE/hq1.jpg",
+      "preference": -21,
+      "id": "16"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/GuMVcpUWgBE/hq1.webp",
+      "preference": -20,
+      "id": "17"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/GuMVcpUWgBE/sd3.jpg",
+      "preference": -19,
+      "id": "18"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/GuMVcpUWgBE/sd3.webp",
+      "preference": -18,
+      "id": "19"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/GuMVcpUWgBE/sd2.jpg",
+      "preference": -17,
+      "id": "20"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/GuMVcpUWgBE/sd2.webp",
+      "preference": -16,
+      "id": "21"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/GuMVcpUWgBE/sd1.jpg",
+      "preference": -15,
+      "id": "22"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/GuMVcpUWgBE/sd1.webp",
+      "preference": -14,
+      "id": "23"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/GuMVcpUWgBE/default.jpg",
+      "height": 90,
+      "width": 120,
+      "preference": -13,
+      "id": "24",
+      "resolution": "120x90"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/GuMVcpUWgBE/default.webp",
+      "preference": -12,
+      "id": "25"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/GuMVcpUWgBE/mqdefault.jpg",
+      "height": 180,
+      "width": 320,
+      "preference": -11,
+      "id": "26",
+      "resolution": "320x180"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/GuMVcpUWgBE/mqdefault.webp",
+      "preference": -10,
+      "id": "27"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/GuMVcpUWgBE/0.jpg",
+      "preference": -9,
+      "id": "28"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/GuMVcpUWgBE/0.webp",
+      "preference": -8,
+      "id": "29"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/GuMVcpUWgBE/hqdefault.jpg",
+      "height": 360,
+      "width": 480,
+      "preference": -7,
+      "id": "30",
+      "resolution": "480x360"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/GuMVcpUWgBE/hqdefault.webp",
+      "preference": -6,
+      "id": "31"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/GuMVcpUWgBE/sddefault.jpg",
+      "height": 480,
+      "width": 640,
+      "preference": -5,
+      "id": "32",
+      "resolution": "640x480"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/GuMVcpUWgBE/sddefault.webp",
+      "preference": -4,
+      "id": "33"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/GuMVcpUWgBE/hq720.jpg",
+      "preference": -3,
+      "id": "34"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/GuMVcpUWgBE/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCUxbqNJOi7cP03R-EcyBzLn_Dk-g",
+      "height": 386,
+      "width": 686,
+      "preference": -3,
+      "id": "35",
+      "resolution": "686x386"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/GuMVcpUWgBE/hq720.webp",
+      "preference": -2,
+      "id": "36"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/GuMVcpUWgBE/maxresdefault.jpg",
+      "height": 720,
+      "width": 1280,
+      "preference": -1,
+      "id": "37",
+      "resolution": "1280x720"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/GuMVcpUWgBE/maxresdefault.webp",
+      "preference": 0,
+      "id": "38"
+    }
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/GuMVcpUWgBE/maxresdefault.jpg",
+  "description": "#computer #gemini #anthropic #aiagents #systemdesign #coding #python #backendengineering #evaluation \n\nDemystifying Evals for AI Agents. Learn how to stop reacting to bugs and start building reliable, production-ready AI agents. We break down the anatomy of an eval from first principles, comparing code-based, model-based (LLM-as-a-judge), and human graders. See real-world testing strategies for Coding, Conversational, Research, and Computer Use agents using tools like Promptfoo, LangSmith, and Braintrust.\n\nWhat exactly is an AI eval?\n\nWhy are evals critical for production-ready agents?\n\nWhat is the difference between reactive and proactive agent development?\n\nWhat are the four core parts of an eval's anatomy?\n\nHow do deterministic, code-based graders work?\n\nWhat is \"LLM-as-a-judge\" (model-based grading)?\n\nWhy are human graders still considered the gold standard?\n\nHow do you properly evaluate a coding agent?\n\nWhat is SWE-bench used for?\n\nWhich metrics matter most for conversational agents?\n\nWhat is a groundedness check for research agents?\n\nHow do you prevent hallucination in agent outputs?\n\nHow do you test computer-use or web-browsing agents?\n\nWhat is the WebArena benchmark?\n\nWhen should you use Promptfoo?\n\nWhat are Braintrust and LangSmith used for?\n\nHow does Langfuse help with agent observability?\n\nWhy should you start with only 20-50 failure cases?\n\nWhy is it better to grade final outcomes rather than the agent's exact path?\n\nWhy is reading agent transcripts the most important step?\n\nTags\n#AIAgents #LLM #Evals #AIEngineering  #llm  #openai",
+  "channel_id": "UCzbBkArMomBZF3l0q7cyULA",
+  "channel_url": "https://www.youtube.com/channel/UCzbBkArMomBZF3l0q7cyULA",
+  "duration": 439,
+  "view_count": 95,
+  "average_rating": null,
+  "age_limit": 0,
+  "webpage_url": "https://www.youtube.com/watch?v=GuMVcpUWgBE",
+  "categories": [
+    "People & Blogs"
+  ],
+  "tags": [
+    "faang",
+    "systemdesign",
+    "aitools",
+    "softwareengineering",
+    "algorithms",
+    "datastructure",
+    "tech",
+    "techexplained",
+    "leetcode",
+    "interviewtips",
+    "systemdesigninterviews",
+    "llm",
+    "engineering",
+    "software",
+    "computerscience"
+  ],
+  "playable_in_embed": true,
+  "live_status": "not_live",
+  "media_type": "video",
+  "release_timestamp": null,
+  "_format_sort_fields": [
+    "quality",
+    "res",
+    "fps",
+    "hdr:12",
+    "source",
+    "vcodec",
+    "channels",
+    "acodec",
+    "lang",
+    "proto"
+  ],
+  "automatic_captions": {},
+  "subtitles": {},
+  "comment_count": null,
+  "chapters": null,
+  "heatmap": null,
+  "like_count": 2,
+  "channel": "Design Solve & Code",
+  "channel_follower_count": 270,
+  "creators": null,
+  "uploader": "Design Solve & Code",
+  "uploader_id": "@pragmaticdesign",
+  "uploader_url": "https://www.youtube.com/@pragmaticdesign",
+  "upload_date": "20260418",
+  "timestamp": 1776517150,
+  "availability": "public",
+  "original_url": "https://www.youtube.com/watch?v=GuMVcpUWgBE",
+  "webpage_url_basename": "watch",
+  "webpage_url_domain": "youtube.com",
+  "extractor": "youtube",
+  "extractor_key": "Youtube",
+  "playlist": null,
+  "playlist_index": null,
+  "display_id": "GuMVcpUWgBE",
+  "fulltitle": "Eval Driven Development For Reliable AI Agents #systemdesign #aiagents #anthropic",
+  "duration_string": "7:19",
+  "release_year": null,
+  "is_live": false,
+  "was_live": false,
+  "requested_subtitles": null,
+  "_has_drm": null,
+  "epoch": 1783788862,
+  "requested_downloads": [
+    {
+      "asr": 22050,
+      "filesize": 9365902,
+      "format_id": "18",
+      "format_note": "360p",
+      "source_preference": -1,
+      "fps": 30,
+      "audio_channels": 2,
+      "height": 360,
+      "quality": 6.0,
+      "has_drm": false,
+      "tbr": 170.48,
+      "filesize_approx": 9365894,
+      "width": 640,
+      "language_preference": -1,
+      "ext": "mp4",
+      "vcodec": "avc1.42001E",
+      "acodec": "mp4a.40.2",
+      "dynamic_range": "SDR",
+      "url": "https://rr1---sn-ajaig5-50.googlevideo.com/videoplayback?expire=1783810460&ei=PHVSasagH7yO8uMPzZXEiQo&ip=34.13.54.48&id=o-AKK9imJ3quAlVW3J9mNGSTnhSzA77dOzNrSGEzVC9edA&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&cps=313&met=1783788860%2C&mh=pF&mm=31%2C29&mn=sn-ajaig5-50%2Csn-aigzrn76&ms=au%2Crdu&mv=m&mvi=1&pl=18&rms=au%2Cau&bui=AZFlqhO9jk814D9-hmcosSRLu6AYCXevrbBwm4-hGo3cP0d-Sh3XNnQUaKRP1M2-L9p8vfO4opAJAdqI&spc=SQ-umvNzwg2ce0_SdfJ3Z5YlmtrPYZKZ311jVSAs9XHSYFYU94ylZYKJLsI-n2_cX4-OKmIr&vprv=1&svpuc=1&mime=video%2Fmp4&ns=v4-8oQPfr5ohAlG1pdJrYVYW&rqh=1&gir=yes&clen=9365902&ratebypass=yes&dur=439.507&lmt=1776516900255345&mt=1783788329&fvip=1&fexp=51565116%2C51992868%2C52017147&c=MWEB&sefc=1&txp=6209224&n=0K2Fvgq8KKpFDA&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AHEqNM4wRgIhAKrL0i1HzraCTXB7zCLC4ULwVevaIx8qM9nCXPZrOdwNAiEAm2hjGDY93f0UFfKG5pRKR-A03i088_MCv52dUj7r_B8%3D&lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms&lsig=APaTxxMwRQIgFcg8fhaUO5CP0dUmshuHOpCaHJPexa9f3aUXsFMG9v4CIQDlnlgX14J8nBgHUIQ-ia5LZbhn6k7dDwnYkNiulKNrZQ%3D%3D",
+      "available_at": 1783788860,
+      "downloader_options": {
+        "http_chunk_size": 10485760
+      },
+      "protocol": "https",
+      "video_ext": "mp4",
+      "audio_ext": "none",
+      "resolution": "640x360",
+      "aspect_ratio": 1.78,
+      "http_headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-us,en;q=0.5",
+        "Sec-Fetch-Mode": "navigate"
+      },
+      "format": "18 - 640x360 (360p)",
+      "_filename": "Eval Driven Development For Reliable AI Agents #systemdesign #aiagents #anthropic [GuMVcpUWgBE].mp4",
+      "filename": "Eval Driven Development For Reliable AI Agents #systemdesign #aiagents #anthropic [GuMVcpUWgBE].mp4",
+      "__write_download_archive": false
+    }
+  ],
+  "asr": 22050,
+  "filesize": 9365902,
+  "format_id": "18",
+  "format_note": "360p",
+  "source_preference": -1,
+  "fps": 30,
+  "audio_channels": 2,
+  "height": 360,
+  "quality": 6.0,
+  "has_drm": false,
+  "tbr": 170.48,
+  "filesize_approx": 9365894,
+  "width": 640,
+  "language": null,
+  "language_preference": -1,
+  "preference": null,
+  "ext": "mp4",
+  "vcodec": "avc1.42001E",
+  "acodec": "mp4a.40.2",
+  "dynamic_range": "SDR",
+  "url": "https://rr1---sn-ajaig5-50.googlevideo.com/videoplayback?expire=1783810460&ei=PHVSasagH7yO8uMPzZXEiQo&ip=34.13.54.48&id=o-AKK9imJ3quAlVW3J9mNGSTnhSzA77dOzNrSGEzVC9edA&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&cps=313&met=1783788860%2C&mh=pF&mm=31%2C29&mn=sn-ajaig5-50%2Csn-aigzrn76&ms=au%2Crdu&mv=m&mvi=1&pl=18&rms=au%2Cau&bui=AZFlqhO9jk814D9-hmcosSRLu6AYCXevrbBwm4-hGo3cP0d-Sh3XNnQUaKRP1M2-L9p8vfO4opAJAdqI&spc=SQ-umvNzwg2ce0_SdfJ3Z5YlmtrPYZKZ311jVSAs9XHSYFYU94ylZYKJLsI-n2_cX4-OKmIr&vprv=1&svpuc=1&mime=video%2Fmp4&ns=v4-8oQPfr5ohAlG1pdJrYVYW&rqh=1&gir=yes&clen=9365902&ratebypass=yes&dur=439.507&lmt=1776516900255345&mt=1783788329&fvip=1&fexp=51565116%2C51992868%2C52017147&c=MWEB&sefc=1&txp=6209224&n=0K2Fvgq8KKpFDA&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AHEqNM4wRgIhAKrL0i1HzraCTXB7zCLC4ULwVevaIx8qM9nCXPZrOdwNAiEAm2hjGDY93f0UFfKG5pRKR-A03i088_MCv52dUj7r_B8%3D&lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms&lsig=APaTxxMwRQIgFcg8fhaUO5CP0dUmshuHOpCaHJPexa9f3aUXsFMG9v4CIQDlnlgX14J8nBgHUIQ-ia5LZbhn6k7dDwnYkNiulKNrZQ%3D%3D",
+  "available_at": 1783788860,
+  "downloader_options": {
+    "http_chunk_size": 10485760
+  },
+  "protocol": "https",
+  "video_ext": "mp4",
+  "audio_ext": "none",
+  "vbr": null,
+  "abr": null,
+  "resolution": "640x360",
+  "aspect_ratio": 1.78,
+  "http_headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-us,en;q=0.5",
+    "Sec-Fetch-Mode": "navigate"
+  },
+  "format": "18 - 640x360 (360p)",
+  "_type": "video",
+  "_version": {
+    "version": "2026.07.04",
+    "current_git_head": null,
+    "release_git_head": "997fa140840a08df3938b40da470c78049fef1f6",
+    "repository": "yt-dlp/yt-dlp"
+  }
+}

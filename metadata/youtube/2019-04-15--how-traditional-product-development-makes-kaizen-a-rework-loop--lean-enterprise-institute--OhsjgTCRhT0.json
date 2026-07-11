@@ -1,0 +1,38 @@
+{
+  "asr_models": [
+    "whisper-large-v3"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: [youtube] OhsjgTCRhT0: Unable to download webpage: HTTP Error 429: Too Many Requests (caused by <HTTPError 429: Too Many Requests>)\nWARNING: [youtube] Unable to fetch GVS PO Token for web_safari client: Missing required Visitor Data. You may need to pass Visitor Data with --extractor-args \"youtube:visitor_data=XXX\"\nERROR: [youtube] OhsjgTCRhT0: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies",
+  "channel": "Lean Enterprise Institute",
+  "duration_seconds": 424,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "8dd1b7b952ef1e756d022475468931689180e8d8a94c4b118604765d0a2bad4b",
+    "source-info.json": "ea1194b1a1837980719102ecf8ed87c9991725a5e6a93a71a99d19376f670649"
+  },
+  "raw_path": "raw/youtube/2019-04-15--how-traditional-product-development-makes-kaizen-a-rework-loop--lean-enterprise-institute--OhsjgTCRhT0",
+  "relevance_categories": [
+    "continuous-improvement"
+  ],
+  "relevance_evidence": [
+    "kaizen"
+  ],
+  "relevance_spans": [
+    {
+      "category": "continuous-improvement",
+      "phrase": "kaizen",
+      "text": "The traditional Kaizen, which a lot of us, me and my cohorts,",
+      "timestamp": "2:02"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 95,
+  "source_url": "https://www.youtube.com/watch?v=OhsjgTCRhT0",
+  "title": "How Traditional Product Development Makes Kaizen a \"Rework Loop\"",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "sources/youtube/accepted/2019-04-15--how-traditional-product-development-makes-kaizen-a-rework-loop--lean-enterprise-institute--OhsjgTCRhT0.md",
+  "transcript_sha256": "56d9732d44f1566cb0826497aac471fe81a8b37194d000300b9e48c2e763dfd3",
+  "upload_date": "20190415",
+  "video_id": "OhsjgTCRhT0"
+}
