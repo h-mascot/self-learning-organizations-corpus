@@ -1,0 +1,45 @@
+{
+  "asr_models": [
+    "whisper-large-v3-turbo"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: [youtube] GuMVcpUWgBE: Unable to download webpage: HTTP Error 429: Too Many Requests (caused by <HTTPError 429: Too Many Requests>)\nWARNING: [youtube] Unable to fetch GVS PO Token for web_safari client: Missing required Visitor Data. You may need to pass Visitor Data with --extractor-args \"youtube:visitor_data=XXX\"\nERROR: [youtube] GuMVcpUWgBE: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies",
+  "channel": "Design Solve & Code",
+  "duration_seconds": 439,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "46a0bb715f2e882430683b1b56967e8ca02233369018b2023ca54ff6927a7d31",
+    "source-info.json": "099a99123845283abd9272dde5161d14e8a02ab1815d33bc5b40a822a8d0c225"
+  },
+  "raw_path": "raw/youtube/2026-04-18--eval-driven-development-for-reliable-ai-agents-systemdesign-aiagents-anthropic--design-solve-and-code--GuMVcpUWgBE",
+  "relevance_categories": [
+    "agent-operations"
+  ],
+  "relevance_evidence": [
+    "agents",
+    "regression testing"
+  ],
+  "relevance_spans": [
+    {
+      "category": "agent-operations",
+      "phrase": "agents",
+      "text": "Because agents are non-deterministic, they take unpredictable paths.",
+      "timestamp": "0:20"
+    },
+    {
+      "category": "agent-operations",
+      "phrase": "regression testing",
+      "text": "Eventually an agent will master all the baseline tasks in a suite hitting a 100 pass rate This is known as eval saturation At this point the suite is only useful for regression testing and engineers must introduce harder scenarios to",
+      "timestamp": "1:42"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 85,
+  "source_url": "https://www.youtube.com/watch?v=GuMVcpUWgBE",
+  "title": "Eval Driven Development For Reliable AI Agents #systemdesign #aiagents #anthropic",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "transcripts/youtube/2026-04-18--eval-driven-development-for-reliable-ai-agents-systemdesign-aiagents-anthropic--design-solve-and-code--GuMVcpUWgBE.md",
+  "transcript_sha256": "60b7f10dbee7c9da701d1b62041d5aa1f7efb27e760c0825c9859baf39567b4b",
+  "upload_date": "20260418",
+  "video_id": "GuMVcpUWgBE"
+}

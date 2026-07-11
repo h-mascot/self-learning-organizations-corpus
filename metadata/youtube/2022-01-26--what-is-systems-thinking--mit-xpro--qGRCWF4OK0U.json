@@ -1,0 +1,38 @@
+{
+  "asr_models": [
+    "whisper-large-v3-turbo"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: [youtube] qGRCWF4OK0U: Unable to download webpage: HTTP Error 429: Too Many Requests (caused by <HTTPError 429: Too Many Requests>)\nWARNING: [youtube] Unable to fetch GVS PO Token for web_safari client: Missing required Visitor Data. You may need to pass Visitor Data with --extractor-args \"youtube:visitor_data=XXX\"\nERROR: [youtube] qGRCWF4OK0U: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies",
+  "channel": "MIT xPRO",
+  "duration_seconds": 162,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "04ee11e51e02a7aa72d31b912f9db434c793d4eca89ff8e15706c8e81a3904e6",
+    "source-info.json": "344cca6e53003ca4b3129dd5afd96e62d63d5f5e544db7c8b1a6674d82adab83"
+  },
+  "raw_path": "raw/youtube/2022-01-26--what-is-systems-thinking--mit-xpro--qGRCWF4OK0U",
+  "relevance_categories": [
+    "feedback-systems"
+  ],
+  "relevance_evidence": [
+    "systems thinking"
+  ],
+  "relevance_spans": [
+    {
+      "category": "feedback-systems",
+      "phrase": "systems thinking",
+      "text": "Let's do a little myth-busting about systems thinking.",
+      "timestamp": "0:00"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 32,
+  "source_url": "https://www.youtube.com/watch?v=qGRCWF4OK0U",
+  "title": "What is Systems Thinking?",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "transcripts/youtube/2022-01-26--what-is-systems-thinking--mit-xpro--qGRCWF4OK0U.md",
+  "transcript_sha256": "8efb5f9a84fef39f98d927cf9fd335cd6eb09c6c1d728e6b45bc4cc2ee781bc6",
+  "upload_date": "20220126",
+  "video_id": "qGRCWF4OK0U"
+}

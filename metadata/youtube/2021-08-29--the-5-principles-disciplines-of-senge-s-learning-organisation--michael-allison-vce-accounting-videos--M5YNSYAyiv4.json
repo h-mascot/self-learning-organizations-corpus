@@ -1,0 +1,46 @@
+{
+  "asr_models": [
+    "whisper-large-v3"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: [youtube] M5YNSYAyiv4: Unable to download webpage: HTTP Error 429: Too Many Requests (caused by <HTTPError 429: Too Many Requests>)\nWARNING: [youtube] Unable to fetch GVS PO Token for web_safari client: Missing required Visitor Data. You may need to pass Visitor Data with --extractor-args \"youtube:visitor_data=XXX\"\nERROR: [youtube] M5YNSYAyiv4: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies",
+  "channel": "Michael Allison (VCE Accounting Videos)",
+  "duration_seconds": 590,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "11d809f84ab650f1159027db8df6ce61a08b873f67a751d6a222407e62df6b37",
+    "source-info.json": "24059808fc8f94358e7edc099467bc22616dabeb69b6afe65a28b49691096634"
+  },
+  "raw_path": "raw/youtube/2021-08-29--the-5-principles-disciplines-of-senge-s-learning-organisation--michael-allison-vce-accounting-videos--M5YNSYAyiv4",
+  "relevance_categories": [
+    "organizational-learning",
+    "feedback-systems"
+  ],
+  "relevance_evidence": [
+    "learning organization",
+    "systems thinking"
+  ],
+  "relevance_spans": [
+    {
+      "category": "organizational-learning",
+      "phrase": "learning organization",
+      "text": "Senge's Learning Organization Theory is based on his book.",
+      "timestamp": "0:00"
+    },
+    {
+      "category": "feedback-systems",
+      "phrase": "systems thinking",
+      "text": "Five, systems thinking.",
+      "timestamp": "0:42"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 199,
+  "source_url": "https://www.youtube.com/watch?v=M5YNSYAyiv4",
+  "title": "The 5 Principles (Disciplines) of Senge’s Learning Organisation",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "transcripts/youtube/2021-08-29--the-5-principles-disciplines-of-senge-s-learning-organisation--michael-allison-vce-accounting-videos--M5YNSYAyiv4.md",
+  "transcript_sha256": "b83abb54e9aa5e8d3ab3e9a73719c3f3dd098a617374ba0f639d47c0066075bb",
+  "upload_date": "20210829",
+  "video_id": "M5YNSYAyiv4"
+}

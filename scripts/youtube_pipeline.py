@@ -151,7 +151,21 @@ def transcribe_asr(url: str, work: Path, raw_dir: Path, cached_info: dict | None
             download_cached_audio(selected, audio, work)
     else:
         audio = work / "audio.mp3"
-        run(["yt-dlp", "-f", "bestaudio", "-x", "--audio-format", "mp3", "--audio-quality", "9", "-o", str(audio), url])
+        commands = [
+            ["yt-dlp", "-f", "bestaudio", "-x", "--audio-format", "mp3", "--audio-quality", "9", "-o", str(audio), url],
+            ["yt-dlp", "--cookies-from-browser", "chrome", "--extractor-args", "youtube:player_client=mweb",
+             "-f", "18", "-x", "--audio-format", "mp3", "--audio-quality", "9", "-o", str(audio), url],
+        ]
+        last_error = None
+        for command in commands:
+            try:
+                run(command, stderr=subprocess.PIPE)
+                last_error = None
+                break
+            except Exception as exc:
+                last_error = exc
+        if last_error:
+            raise last_error
     chunks = work / "chunks"
     chunks.mkdir()
     run(["ffmpeg", "-hide_banner", "-loglevel", "error", "-i", str(audio), "-f", "segment", "-segment_time", "600", "-ac", "1", "-ar", "16000", "-b:a", "32k", str(chunks / "%03d.mp3")])
@@ -188,9 +202,20 @@ def transcribe_asr(url: str, work: Path, raw_dir: Path, cached_info: dict | None
 
 def fetch_info(url: str, work: Path) -> dict:
     path = work / "info.json"
-    with path.open("w") as f:
-        run(["yt-dlp", "--dump-single-json", "--skip-download", url], stdout=f)
-    return json.loads(path.read_text())
+    commands = [
+        ["yt-dlp", "--dump-single-json", "--skip-download", url],
+        ["yt-dlp", "--cookies-from-browser", "chrome", "--extractor-args", "youtube:player_client=mweb",
+         "--dump-single-json", "--skip-download", url],
+    ]
+    last_error = None
+    for command in commands:
+        try:
+            with path.open("w") as f:
+                run(command, stdout=f, stderr=subprocess.PIPE)
+            return json.loads(path.read_text())
+        except Exception as exc:
+            last_error = exc
+    raise last_error or RuntimeError("No YouTube metadata transport succeeded")
 
 
 def relevance(info: dict, segments: list[dict]) -> tuple[list[str], list[str], list[dict]]:

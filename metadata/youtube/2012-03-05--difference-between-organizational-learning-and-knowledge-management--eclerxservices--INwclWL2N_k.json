@@ -1,0 +1,46 @@
+{
+  "asr_models": [
+    "whisper-large-v3-turbo"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: [youtube] INwclWL2N_k: Unable to download webpage: HTTP Error 429: Too Many Requests (caused by <HTTPError 429: Too Many Requests>)\nWARNING: [youtube] Unable to fetch GVS PO Token for web_safari client: Missing required Visitor Data. You may need to pass Visitor Data with --extractor-args \"youtube:visitor_data=XXX\"\nERROR: [youtube] INwclWL2N_k: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies",
+  "channel": "eClerxServices",
+  "duration_seconds": 179,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "9ec8338bda70c0ef3ebc4bd75a20f33cbd1d6e03263be5f27a92acbaa417dca9",
+    "source-info.json": "247b7b5293ce491849ae8c11fb77a74ec7e69979c00684ff9b223ee4f91f44fa"
+  },
+  "raw_path": "raw/youtube/2012-03-05--difference-between-organizational-learning-and-knowledge-management--eclerxservices--INwclWL2N_k",
+  "relevance_categories": [
+    "organizational-learning",
+    "organizational-memory"
+  ],
+  "relevance_evidence": [
+    "knowledge management",
+    "organizational learning"
+  ],
+  "relevance_spans": [
+    {
+      "category": "organizational-learning",
+      "phrase": "organizational learning",
+      "text": "Is organizational learning the same thing as knowledge management?",
+      "timestamp": "0:29"
+    },
+    {
+      "category": "organizational-memory",
+      "phrase": "knowledge management",
+      "text": "Is organizational learning the same thing as knowledge management?",
+      "timestamp": "0:29"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 54,
+  "source_url": "https://www.youtube.com/watch?v=INwclWL2N_k",
+  "title": "Difference Between Organizational Learning and Knowledge Management",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "transcripts/youtube/2012-03-05--difference-between-organizational-learning-and-knowledge-management--eclerxservices--INwclWL2N_k.md",
+  "transcript_sha256": "2342ee8a2035b16f62d44b2510d4549a4ebb025905836cb3435d1d934bf05b25",
+  "upload_date": "20120305",
+  "video_id": "INwclWL2N_k"
+}

@@ -1,0 +1,62 @@
+{
+  "asr_models": [
+    "whisper-large-v3"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: [youtube] 3V7KcHaqaWA: Unable to download webpage: HTTP Error 429: Too Many Requests (caused by <HTTPError 429: Too Many Requests>)\nWARNING: [youtube] Unable to fetch GVS PO Token for web_safari client: Missing required Visitor Data. You may need to pass Visitor Data with --extractor-args \"youtube:visitor_data=XXX\"\nERROR: [youtube] 3V7KcHaqaWA: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies",
+  "channel": "Imagine AI Live",
+  "duration_seconds": 751,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "862aa0513f68be8c0df038ba9f66e7f480d2a8d3c3dbf4e3d062654bcb3997a4",
+    "asr-001.json": "51334468ba3f1c06811efc8e49a5893617e774978fb2f57ca874e4048be04713",
+    "source-info.json": "0a8adb6c7e0f92f61b39a6aee3009f51e991db496fc5d9df99f2d3cf30d50fbd"
+  },
+  "raw_path": "raw/youtube/2024-10-15--harnessing-ai-to-boost-human-capabilities-by-leveraging-organizational-memory-w-daniel-cohen-dumani--imagine-ai-live--3V7KcHaqaWA",
+  "relevance_categories": [
+    "organizational-memory",
+    "agent-operations",
+    "experimentation-flywheel"
+  ],
+  "relevance_evidence": [
+    "ai agent",
+    "experimenting",
+    "institutional knowledge",
+    "knowledge management"
+  ],
+  "relevance_spans": [
+    {
+      "category": "organizational-memory",
+      "phrase": "institutional knowledge",
+      "text": "And if someone leaves, you may lose a lot of their institutional knowledge.",
+      "timestamp": "1:07"
+    },
+    {
+      "category": "organizational-memory",
+      "phrase": "knowledge management",
+      "text": "Xperia. We are in the process of building an AI power knowledge management platform",
+      "timestamp": "0:28"
+    },
+    {
+      "category": "agent-operations",
+      "phrase": "ai agent",
+      "text": "And if you just believe what's being said by an AI agent, then you may be getting the wrong information, right?",
+      "timestamp": "8:30"
+    },
+    {
+      "category": "experimentation-flywheel",
+      "phrase": "experimenting",
+      "text": "and help me be better at experimenting.",
+      "timestamp": "11:36"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 172,
+  "source_url": "https://www.youtube.com/watch?v=3V7KcHaqaWA",
+  "title": "Harnessing AI to Boost Human Capabilities by Leveraging Organizational Memory w/ Daniel Cohen-Dumani",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "transcripts/youtube/2024-10-15--harnessing-ai-to-boost-human-capabilities-by-leveraging-organizational-memory-w-daniel-cohen-dumani--imagine-ai-live--3V7KcHaqaWA.md",
+  "transcript_sha256": "7ece6c19f47df750d8a70e1411d98f062d2821429cb736d21bd4c990648fd04c",
+  "upload_date": "20241015",
+  "video_id": "3V7KcHaqaWA"
+}

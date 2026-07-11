@@ -1,0 +1,38 @@
+{
+  "asr_models": [
+    "whisper-large-v3-turbo"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: [youtube] jJ1gS8Eh1jc: Unable to download webpage: HTTP Error 429: Too Many Requests (caused by <HTTPError 429: Too Many Requests>)\nWARNING: [youtube] Unable to fetch GVS PO Token for web_safari client: Missing required Visitor Data. You may need to pass Visitor Data with --extractor-args \"youtube:visitor_data=XXX\"\nERROR: [youtube] jJ1gS8Eh1jc: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies",
+  "channel": "Signal Over Noise: Decoding Agentic AI",
+  "duration_seconds": 260,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "31e9abdb32426a2c5c93de901b041caf89922ad225f70a0b2d64bc69e5454f48",
+    "source-info.json": "04195e7182815bd84dc0b3be904f296323c49cf9df6b4553e5017345cf34a7c9"
+  },
+  "raw_path": "raw/youtube/2026-06-07--eval-driven-development-calibrating-the-agentic-compass--signal-over-noise-decoding-agentic-ai--jJ1gS8Eh1jc",
+  "relevance_categories": [
+    "agent-operations"
+  ],
+  "relevance_evidence": [
+    "ai agent"
+  ],
+  "relevance_spans": [
+    {
+      "category": "agent-operations",
+      "phrase": "ai agent",
+      "text": "flow logic map. An AI agent feeds its output to an AI judge for scoring. But unlike a thermometer,",
+      "timestamp": "1:23"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 38,
+  "source_url": "https://www.youtube.com/watch?v=jJ1gS8Eh1jc",
+  "title": "Eval Driven Development: Calibrating the Agentic Compass",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "transcripts/youtube/2026-06-07--eval-driven-development-calibrating-the-agentic-compass--signal-over-noise-decoding-agentic-ai--jJ1gS8Eh1jc.md",
+  "transcript_sha256": "b1eb55beb400fdc1e39d2e4b608c33f5b33d7ee9bab8cb9d6fb2bee15afefdf5",
+  "upload_date": "20260607",
+  "video_id": "jJ1gS8Eh1jc"
+}

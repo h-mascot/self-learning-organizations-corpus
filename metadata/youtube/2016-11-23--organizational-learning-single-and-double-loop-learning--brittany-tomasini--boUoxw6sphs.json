@@ -1,0 +1,38 @@
+{
+  "asr_models": [
+    "whisper-large-v3"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: [youtube] boUoxw6sphs: Unable to download webpage: HTTP Error 429: Too Many Requests (caused by <HTTPError 429: Too Many Requests>)\nWARNING: [youtube] Unable to fetch GVS PO Token for web_safari client: Missing required Visitor Data. You may need to pass Visitor Data with --extractor-args \"youtube:visitor_data=XXX\"\nERROR: [youtube] boUoxw6sphs: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies",
+  "channel": "Brittany Tomasini",
+  "duration_seconds": 245,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "7a1920b0d567d96da358780eeb9d8757e3e47da01064ee34a19c42794980699a",
+    "source-info.json": "96be1f1419c4d730eb300d115ce68eb2ca8d262a6e1ac5ce85c9f513cca63295"
+  },
+  "raw_path": "raw/youtube/2016-11-23--organizational-learning-single-and-double-loop-learning--brittany-tomasini--boUoxw6sphs",
+  "relevance_categories": [
+    "organizational-learning"
+  ],
+  "relevance_evidence": [
+    "organizational learning"
+  ],
+  "relevance_spans": [
+    {
+      "category": "organizational-learning",
+      "phrase": "organizational learning",
+      "text": "What is organizational learning?",
+      "timestamp": "0:00"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 24,
+  "source_url": "https://www.youtube.com/watch?v=boUoxw6sphs",
+  "title": "Organizational Learning - Single and Double-Loop Learning",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "transcripts/youtube/2016-11-23--organizational-learning-single-and-double-loop-learning--brittany-tomasini--boUoxw6sphs.md",
+  "transcript_sha256": "09026fcfaff20da3e02ca9d8fa32bb04bda4ccd42886c9ddb27d8c8843d8c90a",
+  "upload_date": "20161123",
+  "video_id": "boUoxw6sphs"
+}

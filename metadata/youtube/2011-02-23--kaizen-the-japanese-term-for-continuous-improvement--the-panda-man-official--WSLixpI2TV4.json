@@ -1,0 +1,38 @@
+{
+  "asr_models": [
+    "whisper-large-v3"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: [youtube] WSLixpI2TV4: Unable to download webpage: HTTP Error 429: Too Many Requests (caused by <HTTPError 429: Too Many Requests>)\nWARNING: [youtube] Unable to fetch GVS PO Token for web_safari client: Missing required Visitor Data. You may need to pass Visitor Data with --extractor-args \"youtube:visitor_data=XXX\"\nERROR: [youtube] WSLixpI2TV4: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies",
+  "channel": "The Panda Man Official",
+  "duration_seconds": 82,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "1bdaa824021f9cd45cd644489e6d5c90138396e5c5ec2b69f8872128e491dfe9",
+    "source-info.json": "c28170de8ee55b4501af0d1a50c5873335880ac09e134138993ec7c84b9f7947"
+  },
+  "raw_path": "raw/youtube/2011-02-23--kaizen-the-japanese-term-for-continuous-improvement--the-panda-man-official--WSLixpI2TV4",
+  "relevance_categories": [
+    "continuous-improvement"
+  ],
+  "relevance_evidence": [
+    "kaizen"
+  ],
+  "relevance_spans": [
+    {
+      "category": "continuous-improvement",
+      "phrase": "kaizen",
+      "text": "But he was talking about the principle of Kaizen.",
+      "timestamp": "0:16"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 17,
+  "source_url": "https://www.youtube.com/watch?v=WSLixpI2TV4",
+  "title": "KAIZEN-The Japanese term for continuous improvement",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "transcripts/youtube/2011-02-23--kaizen-the-japanese-term-for-continuous-improvement--the-panda-man-official--WSLixpI2TV4.md",
+  "transcript_sha256": "b822f3af8c5c9675495de5e742f44b24e93f3275c37ae43f23a5d413ee9dcd9e",
+  "upload_date": "20110223",
+  "video_id": "WSLixpI2TV4"
+}

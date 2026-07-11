@@ -1,0 +1,46 @@
+{
+  "asr_models": [
+    "whisper-large-v3"
+  ],
+  "availability": "public",
+  "caption_error": "Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nWARNING: [youtube] jjfnCAjdTkI: Unable to download webpage: HTTP Error 429: Too Many Requests (caused by <HTTPError 429: Too Many Requests>)\nWARNING: [youtube] Unable to fetch GVS PO Token for web_safari client: Missing required Visitor Data. You may need to pass Visitor Data with --extractor-args \"youtube:visitor_data=XXX\"\nERROR: [youtube] jjfnCAjdTkI: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies",
+  "channel": "Arize AI",
+  "duration_seconds": 770,
+  "license": null,
+  "raw_files": {
+    "asr-000.json": "7214bcbdb744230c4baa5e9aac2a6ac3730e19fd1c945d02fb11f9b4c56fe70b",
+    "asr-001.json": "c3b248ac08190af4f55a0cba77d53b35776aa50104711293817b4955241d3088",
+    "source-info.json": "493ce421e3fd3166de5085ae23864e636c82662fac9780297946f05caaf4a3fb"
+  },
+  "raw_path": "raw/youtube/2026-05-05--how-to-test-ai-agents-with-traces-evals-and-ci-cd--arize-ai--jjfnCAjdTkI",
+  "relevance_categories": [
+    "agent-operations"
+  ],
+  "relevance_evidence": [
+    "agents",
+    "ai agent"
+  ],
+  "relevance_spans": [
+    {
+      "category": "agent-operations",
+      "phrase": "ai agent",
+      "text": "But with the new AI agent world, it's a little bit less straightforward.",
+      "timestamp": "0:24"
+    },
+    {
+      "category": "agent-operations",
+      "phrase": "agents",
+      "text": "And so we definitely knew, I think, overall at Arise that we needed a better way for folks to test agents.",
+      "timestamp": "0:44"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 160,
+  "source_url": "https://www.youtube.com/watch?v=jjfnCAjdTkI",
+  "title": "How to test AI agents with traces, evals, and CI/CD",
+  "transcript_method": "groq-whisper-asr",
+  "transcript_path": "transcripts/youtube/2026-05-05--how-to-test-ai-agents-with-traces-evals-and-ci-cd--arize-ai--jjfnCAjdTkI.md",
+  "transcript_sha256": "bddacb5b046b286504ca64eacf85a50f923fd3a372fb78898dec63236e62d3be",
+  "upload_date": "20260505",
+  "video_id": "jjfnCAjdTkI"
+}
