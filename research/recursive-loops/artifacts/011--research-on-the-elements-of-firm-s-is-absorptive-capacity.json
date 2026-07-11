@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "loop": 11,
+  "parent_loop": 2,
+  "parent_source": "https://doi.org/10.2307/2393553",
+  "selected_item": "https://openalex.org/W273073713",
+  "selected_title": "Research on the Elements of Firm's IS Absorptive Capacity",
+  "discovered_as": "related_works link exposed by loop 2",
+  "question": "What mechanism does Yong Cao identify in “Research on the Elements of Firm's IS Absorptive Capacity” that deepens the evidence from “Absorptive Capacity: A New Perspective on Learning and Innovation”?",
+  "retrieval_url": "https://api.openalex.org/works/W273073713?mailto=corpus@example.invalid",
+  "canonical_url": "http://en.cnki.com.cn/Article_en/CJFDTOTAL-GLXZ200915026.htm",
+  "http_status": 200,
+  "retrieval_error": "",
+  "retrieved_at": "2026-07-11T14:20:16.911720+00:00",
+  "evidence_spans": [
+    {
+      "kind": "abstract-or-title",
+      "text": "In this paper,we explore the capacity during the process of a firm's information system adoption and implementation from knowledge management perspective,based on a firm's level construct. According to the dimensions of absorptive capacity proposed by Zahra and George,we point out that the concept of IS absorptive capacity,analyze and summarize the elements of potential absorptive capacity and realized absorptive capacity. We use data from two manufacturing organizations,analyze two firm's realities of IS absorptive capacity. The study indicates differing antecedents may have differing effects on potential absorptive capacity and realized absorptive capacity."
+    }
+  ],
+  "learned_claims": [
+    "The inspected source addresses Absorptive capacity, Business through the evidence summarized in the preserved span.",
+    "The abstract supplies a direct evidence span of 90 words; interpretation remains bounded to that span."
+  ],
+  "contradictions": [],
+  "generated_children": [
+    "https://openalex.org/W2355425519",
+    "https://openalex.org/W2963510126",
+    "https://openalex.org/W1841615065",
+    "https://openalex.org/W2765356250",
+    "https://openalex.org/W3151962107",
+    "https://openalex.org/W2360228312",
+    "https://openalex.org/W3195303261",
+    "https://openalex.org/W1556856773"
+  ],
+  "corpus_changes": [
+    "sources/arxiv/2009--research-on-the-elements-of-firm-s-is-absorptive-capacity--yong-cao--w273073713.md"
+  ],
+  "selected_openalex_id": "https://openalex.org/W273073713"
+}
