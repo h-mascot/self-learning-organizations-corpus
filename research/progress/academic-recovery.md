@@ -66,7 +66,7 @@ Early, middle, and late sorted records were inspected, as was at least one recor
 ## Commits
 
 - `43ee3c7` — deterministic academic recovery pipeline and unit tests
-- Migrated corpus/evidence/checkpoint commit: pending at the time this checkpoint was written; see lane branch head.
+- `d0946df` — migrated corpus, legal full-text evidence, all academic ledgers, strengthened validator, and checkpoint
 
 ## Blockers outside this lane
 
