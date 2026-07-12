@@ -12,6 +12,6 @@ generate:
 test:
 	python3 -m unittest discover -s tests -v
 
-check: test audit
+check: test audit validate
 	python3 tools/corpus.py generate
 	git diff --exit-code -- README.md metadata/sources.csv metadata/rejected-sources.csv metadata/statistics.json

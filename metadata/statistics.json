@@ -1,14 +1,145 @@
 {
+  "academic_by_source_type": {
+    "book-chapter": 10,
+    "conference-paper": 28,
+    "journal-article": 148,
+    "repository-preprint": 13,
+    "thesis": 1
+  },
+  "accepted_sources": 286,
+  "blocked_sources": 1,
+  "by_artifact_level": {
+    "abstract": 164,
+    "excerpt": 4,
+    "full_text": 13,
+    "metadata_only": 23,
+    "retrieval_evidence": 1,
+    "transcript": 101
+  },
+  "by_content_type": {
+    "article": 3,
+    "case-study": 2,
+    "paper": 200,
+    "transcript": 101
+  },
+  "by_lifecycle": {
+    "accepted": 286,
+    "blocked": 1,
+    "rejected": 15,
+    "retrieved": 4
+  },
   "by_platform": {
+    "academic": 200,
+    "blogs": 3,
+    "case-studies": 2,
     "youtube": 101
   },
-  "by_status": {
-    "accepted": 100,
-    "rejected": 1
+  "channels": {
+    "academic": {
+      "accepted": 186,
+      "blocked": 0,
+      "by_artifact_level": {
+        "abstract": 164,
+        "full_text": 13,
+        "metadata_only": 23
+      },
+      "discovered": 200,
+      "rejected": 14,
+      "retrieved": 200
+    },
+    "blogs": {
+      "accepted": 0,
+      "blocked": 1,
+      "by_artifact_level": {
+        "excerpt": 2,
+        "retrieval_evidence": 1
+      },
+      "discovered": 3,
+      "rejected": 0,
+      "retrieved": 2
+    },
+    "books": {
+      "accepted": 0,
+      "blocked": 0,
+      "by_artifact_level": {},
+      "discovered": 0,
+      "rejected": 0,
+      "retrieved": 0
+    },
+    "case-studies": {
+      "accepted": 0,
+      "blocked": 0,
+      "by_artifact_level": {
+        "excerpt": 2
+      },
+      "discovered": 2,
+      "rejected": 0,
+      "retrieved": 2
+    },
+    "conferences": {
+      "accepted": 0,
+      "blocked": 0,
+      "by_artifact_level": {},
+      "discovered": 0,
+      "rejected": 0,
+      "retrieved": 0
+    },
+    "github": {
+      "accepted": 0,
+      "blocked": 0,
+      "by_artifact_level": {},
+      "discovered": 0,
+      "rejected": 0,
+      "retrieved": 0
+    },
+    "podcasts": {
+      "accepted": 0,
+      "blocked": 0,
+      "by_artifact_level": {},
+      "discovered": 0,
+      "rejected": 0,
+      "retrieved": 0
+    },
+    "reddit": {
+      "accepted": 0,
+      "blocked": 0,
+      "by_artifact_level": {},
+      "discovered": 0,
+      "rejected": 0,
+      "retrieved": 0
+    },
+    "substack": {
+      "accepted": 0,
+      "blocked": 0,
+      "by_artifact_level": {},
+      "discovered": 0,
+      "rejected": 0,
+      "retrieved": 0
+    },
+    "x": {
+      "accepted": 0,
+      "blocked": 0,
+      "by_artifact_level": {},
+      "discovered": 0,
+      "rejected": 0,
+      "retrieved": 0
+    },
+    "youtube": {
+      "accepted": 100,
+      "blocked": 0,
+      "by_artifact_level": {
+        "transcript": 101
+      },
+      "discovered": 101,
+      "rejected": 1,
+      "retrieved": 101
+    }
   },
   "complete_timestamped_transcripts": 100,
-  "discovered_sources": 101,
-  "rejected_sources": 1,
-  "schema_version": 1,
-  "validated_relevant_sources": 100
+  "discovered_sources": 306,
+  "rejected_sources": 15,
+  "retrieved_sources": 305,
+  "schema_version": 2,
+  "total_records": 306,
+  "validated_relevant_sources": 286
 }

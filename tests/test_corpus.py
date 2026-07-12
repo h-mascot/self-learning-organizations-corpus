@@ -51,6 +51,37 @@ class CorpusTests(unittest.TestCase):
         self.assertIn("duplicate stable_id", errors)
         self.assertIn("duplicate canonical_url", errors)
 
+    def test_duplicate_content_hashes_are_rejected_globally(self):
+        self.write()
+        self.write({"stable_id": "other1", "title": "Other", "canonical_url": "https://www.youtube.com/watch?v=other1"})
+        self.assertIn("duplicate content_sha256", self.errors())
+
+    def test_gitkeep_is_not_a_record(self):
+        path = self.root / "sources/x/.gitkeep"
+        path.parent.mkdir(parents=True)
+        path.touch()
+        self.assertEqual(([], []), audit(self.root))
+
+    def test_future_canonical_record_lifecycle_and_artifact_are_validated(self):
+        body = "# Post\n\nPreserved public excerpt.\n"
+        meta = {
+            "schema_version": 2, "platform": "reddit", "stable_id": "t3_example",
+            "title": "Learning systems", "publisher": "Example User",
+            "canonical_url": "https://reddit.com/r/example/comments/example/post",
+            "published_date": "unknown", "content_type": "post", "lifecycle": "accepted",
+            "relevance_status": "relevant", "artifact_level": "excerpt",
+            "retrieved_at": "2026-07-12T12:00:00+00:00", "provenance": "Reddit public page",
+            "rights_status": "short-evidence-spans-only", "rights_holder": "Example User",
+            "content_sha256": body_hash(body),
+        }
+        path = self.root / "sources/reddit/accepted/example.md"
+        path.parent.mkdir(parents=True)
+        path.write_text(format_document(meta, body), encoding="utf-8")
+        self.assertEqual([], audit(self.root)[1])
+        meta["artifact_level"] = "invented-fuller-text"
+        path.write_text(format_document(meta, body), encoding="utf-8")
+        self.assertIn("invalid artifact_level", self.errors())
+
     def test_empty_transcript_is_rejected(self):
         self.write(body="")
         self.assertIn("transcript is empty", self.errors())
@@ -101,7 +132,7 @@ class CorpusTests(unittest.TestCase):
 
     def test_irrelevant_source_is_logged_but_not_counted(self):
         self.write()
-        self.write({"stable_id": "reject1", "title": "Restaurant Ad", "canonical_url": "https://www.youtube.com/watch?v=reject1", "status": "rejected", "relevance_status": "irrelevant", "rejection_reason": "off topic"})
+        self.write({"stable_id": "reject1", "title": "Restaurant Ad", "canonical_url": "https://www.youtube.com/watch?v=reject1", "status": "rejected", "relevance_status": "irrelevant", "rejection_reason": "off topic"}, body="# Restaurant ad\n\n0:00 unrelated\n0:50 finish\n")
         stats = generate(self.root)
         self.assertEqual(2, stats["discovered_sources"])
         self.assertEqual(1, stats["validated_relevant_sources"])

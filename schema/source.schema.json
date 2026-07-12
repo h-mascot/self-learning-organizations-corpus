@@ -1,38 +1,46 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/example/self-learning-organizations/schema/source.schema.json",
-  "title": "Canonical corpus source",
-  "type": "object",
-  "additionalProperties": false,
-  "required": ["schema_version", "platform", "stable_id", "title", "publisher", "canonical_url", "published_date", "content_type", "status", "relevance_status", "provenance", "rights_status", "rights_holder", "content_sha256"],
-  "properties": {
-    "schema_version": {"const": 1},
-    "platform": {"enum": ["youtube", "arxiv", "x", "reddit", "substack", "blogs", "podcasts", "conferences", "books", "case-studies"]},
-    "stable_id": {"type": "string", "minLength": 1},
-    "title": {"type": "string", "minLength": 1},
-    "publisher": {"type": "string", "minLength": 1},
-    "canonical_url": {"type": "string", "format": "uri", "pattern": "^https?://"},
-    "published_date": {"type": "string", "format": "date"},
-    "duration_seconds": {"type": "integer", "minimum": 1},
-    "content_type": {"enum": ["transcript", "paper", "post", "article", "episode", "talk", "book", "case-study"]},
-    "status": {"enum": ["accepted", "rejected"]},
-    "relevance_status": {"enum": ["relevant", "irrelevant"]},
-    "provenance": {"type": "string", "minLength": 1},
-    "rights_status": {"enum": ["third-party", "licensed", "public-domain", "permission-granted"]},
-    "rights_holder": {"type": "string", "minLength": 1},
-    "content_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
-    "transcript_source": {"type": "string"},
-    "rejection_reason": {"type": "string"},
-    "availability": {"type": "string", "minLength": 1},
-    "license": {"type": ["string", "null"]},
-    "caption_error": {"type": ["string", "null"]},
-    "segment_count": {"type": "integer", "minimum": 5},
-    "relevance_categories": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
-    "relevance_evidence": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
-    "relevance_spans": {"type": "array", "minItems": 1, "items": {"type": "object"}},
-    "rights_note": {"type": "string", "minLength": 1},
-    "raw_files": {"type": "object", "minProperties": 1, "additionalProperties": {"type": "string", "pattern": "^[a-f0-9]{64}$"}},
-    "raw_path": {"type": "string", "minLength": 1},
-    "asr_models": {"type": "array", "items": {"type": "string", "minLength": 1}}
-  }
+  "title": "Canonical corpus source record",
+  "$defs": {
+    "url": {"type": "string", "format": "uri", "pattern": "^https?://"},
+    "hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "platform": {"enum": ["youtube", "academic", "x", "reddit", "substack", "blogs", "podcasts", "conferences", "books", "case-studies", "github"]},
+    "lifecycle": {"enum": ["discovered", "retrieved", "accepted", "rejected", "blocked"]},
+    "artifact": {"enum": ["full_text", "transcript", "abstract", "excerpt", "metadata_only", "retrieval_evidence"]},
+    "rights": {"enum": ["third-party", "licensed", "open-license", "public-domain", "permission-granted", "third-party-metadata-and-abstract", "third-party-full-text", "metadata-only", "short-evidence-spans-only", "metadata-and-short-evidence-spans-only", "retrieval-evidence-only"]},
+    "canonical": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": ["schema_version", "platform", "stable_id", "title", "publisher", "canonical_url", "published_date", "content_type", "lifecycle", "relevance_status", "artifact_level", "retrieved_at", "provenance", "rights_status", "rights_holder", "content_sha256"],
+      "properties": {
+        "schema_version": {"const": 2}, "platform": {"$ref": "#/$defs/platform"},
+        "stable_id": {"type": "string", "minLength": 1}, "title": {"type": "string", "minLength": 1},
+        "publisher": {"type": "string", "minLength": 1}, "canonical_url": {"$ref": "#/$defs/url"},
+        "published_date": {"oneOf": [{"type": "string", "format": "date"}, {"const": "unknown"}]},
+        "content_type": {"enum": ["transcript", "paper", "post", "article", "episode", "talk", "book", "case-study", "repository", "discussion"]},
+        "lifecycle": {"$ref": "#/$defs/lifecycle"}, "relevance_status": {"enum": ["relevant", "irrelevant", "unknown"]},
+        "artifact_level": {"$ref": "#/$defs/artifact"}, "retrieved_at": {"type": "string", "format": "date-time"},
+        "provenance": {"type": "string", "minLength": 1}, "rights_status": {"$ref": "#/$defs/rights"},
+        "rights_holder": {"type": "string", "minLength": 1}, "content_sha256": {"$ref": "#/$defs/hash"},
+        "rejection_reason": {"type": "string", "minLength": 1}, "retrieval_error": {"type": "string"}
+      },
+      "allOf": [
+        {"if": {"properties": {"lifecycle": {"const": "accepted"}}}, "then": {"properties": {"relevance_status": {"const": "relevant"}}}},
+        {"if": {"properties": {"lifecycle": {"const": "rejected"}}}, "then": {"required": ["rejection_reason"]}},
+        {"if": {"properties": {"lifecycle": {"const": "blocked"}}}, "then": {"required": ["retrieval_error"]}}
+      ]
+    },
+    "youtubeV1": {
+      "type": "object", "additionalProperties": true,
+      "required": ["schema_version", "platform", "stable_id", "title", "publisher", "canonical_url", "published_date", "content_type", "status", "relevance_status", "provenance", "rights_status", "rights_holder", "content_sha256"],
+      "properties": {"schema_version": {"const": 1}, "platform": {"const": "youtube"}, "content_type": {"const": "transcript"}, "status": {"enum": ["accepted", "rejected"]}, "canonical_url": {"$ref": "#/$defs/url"}, "content_sha256": {"$ref": "#/$defs/hash"}}
+    },
+    "academicV1": {
+      "type": "object", "additionalProperties": true,
+      "required": ["academic_schema_version", "stable_id", "openalex_id", "title", "authors", "publisher", "published_date", "canonical_url", "source_type", "lifecycle", "relevance_status", "relevance_reason", "artifact_level", "rights_status", "rights_holder", "retrieved_at", "provenance", "content_sha256"],
+      "properties": {"academic_schema_version": {"const": 1}, "source_type": {"enum": ["arxiv", "journal-article", "conference-paper", "book-chapter", "repository-preprint", "thesis"]}, "lifecycle": {"enum": ["accepted", "rejected"]}, "artifact_level": {"enum": ["full_text", "abstract", "metadata_only"]}, "canonical_url": {"$ref": "#/$defs/url"}, "content_sha256": {"$ref": "#/$defs/hash"}}
+    }
+  },
+  "oneOf": [{"$ref": "#/$defs/canonical"}, {"$ref": "#/$defs/youtubeV1"}, {"$ref": "#/$defs/academicV1"}]
 }
