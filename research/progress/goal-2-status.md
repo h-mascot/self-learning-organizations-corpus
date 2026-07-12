@@ -28,13 +28,12 @@ Phase: academic, global canonical accounting, and validated social lanes merged;
 - Academic: COMPLETE and merged; no process running.
 - Social: COMPLETE and merged; no process running.
 - Global canonical integration: COMPLETE and merged; no process running.
-- Web/media: LIVE, PID 960449 (child 960539, code-mode host 960918), branch `goal/web-media-acquisition`, still based at `75e3dbe` with 17 uncommitted path groups. Files were still being written at 08:34:59Z. Current raw candidate counts are blogs 9, podcasts 33, books 174, conferences 34, case studies 45, and GitHub 185; accepted/rejected splits remain unproven until its validator runs and it commits. Its checkpoint remains stale, but live artifact activity proves forward motion, so no duplicate was launched.
+- Web/media: LIVE, PID 960449 (child 960539, code-mode host 960918), branch `goal/web-media-acquisition`, still based at `75e3dbe` with uncommitted acquisition artifacts. A manager-side execution of its current validator reports accepted candidates: blogs 5/75, podcasts 32/30, books 30/25, conferences 21/30, case studies 10/50, and GitHub 35/30. Files continue to change and CPU time continues to advance, so the worker is healthy and no duplicate was launched.
 
 ## Blockers and unmet gates
 
-- Blogs/company, podcasts, books, conferences, case studies, and GitHub quotas remain unproven until the web/media worker commits and independent lane validation/sampling passes.
-- Blogs and case studies are currently below quota even by raw candidate file count and will require quota-specific follow-up if the active worker does not fill them.
-- Local `make check` passes all 25 tests and validates 406 records. GitHub Actions for `f6eec8c` failed before tests because the workflow did not install PyYAML; the workflow dependency fix is staged in this manager checkpoint and must pass remotely before this gate is restored.
+- Blogs/company, conferences, and case studies are currently below quota by 70, 9, and 40 accepted candidates respectively. All six web/media lanes remain unproven until the active worker commits and independent validation/sampling passes.
+- Local `make check` passes all 25 tests and validates 406 records. Manager commit `2b6110b` added the missing pinned PyYAML CI dependency; remote main readback matched exactly and GitHub Actions run `29186103865` passed.
 - Goal remains ACTIVE; achievement is forbidden while six channel quotas and final remote completion proof are absent.
 
 ## Next action
