@@ -45,6 +45,8 @@ class AcademicRecoveryTests(unittest.TestCase):
         self.assertTrue(relevance(self.work(), "Firms build knowledge and improve innovation.")[0])
         irrelevant = self.work(title="On the Dangers of Stochastic Parrots")
         self.assertFalse(relevance(irrelevant, "Language models have environmental costs.")[0])
+        construct = self.work(title="Theoretical Review of Absorptive Capacity")
+        self.assertTrue(relevance(construct, "")[0])
 
 
 if __name__ == "__main__":

@@ -1,0 +1,1067 @@
+City Research Online
+City St George’s, University of London
+
+Citation: Aversa, P. & Ihrig, M. (2012). Investigating Absorptive Capacity
+Strategies via Simulation. Paper presented at the 26th European Conference on
+Modelling and Simulation ECMS 2012, May 29th – June 1st , 2012, Koblenz,
+Germany.
+This is the accepted version of the paper.
+This version of the publication may differ from the final published version. To cite
+this item please consult the publisher's version.
+
+Permanent repository link: https://openaccess.city.ac.uk/id/eprint/16269/
+
+Copyright and Reuse: Copyright and Moral Rights remain with the author(s) and/or
+copyright holders. Copies of full items can be used for personal research or study,
+educational, or not-for-profit purposes without prior permission or charge, unless otherwise
+indicated, provided that the authors, title and full bibliographic details are credited, a
+hyperlink and/or URL is given for the original metadata page and the content is not changed
+in any way. For full details of reuse please refer to City Research Online policy.
+City Research Online:
+
+http://openaccess.city.ac.uk/
+
+publications@citystgeorges.ac.uk
+
+INVESTIGATING ABSORPTIVE CAPACITY
+STRATEGIES VIA SIMULATION
+Paolo Aversa
+Martin Ihrig
+The Sol C. Snider Entrepreneurial Research Center
+The Wharton School of the University of Pennsylvania
+Vance Hall 4th Floor, 3733 Spruce Street, Philadelphia, PA 19104, USA
+
+KEYWORDS
+Agent-based simulation, absorptive capacity, strategic
+management, organizational learning, knowledge, ISpace, SimISpace2, performance.
+ABSTRACT
+Absorptive capacity, defined as the organizational
+capability to identify, absorb and exploit knowledge, is
+one of the most discussed topics in the management
+literature. Yet, its complex nature makes it almost
+impossible to empirically test it. This paper develops
+SimAC, an agent-based simulation tool that enables
+studying and comparing different absorptive capacity
+strategies, their related financial payoffs, and their
+knowledge creation potential through time.
+INTRODUCTION
+Absorptive capacity (Cohen and Levinthal, 1990) –
+hereafter AC—is one of the most discussed and
+advanced concepts in management theory, and still one
+of the less empirically tested (Lane, Koka and Pathak,
+2006). Absorptive capacity is traditionally defined as
+the organizational capability to identify relevant
+external knowledge, assimilate it and exploit it for
+commercial ends (Cohen & Levinthal, 1990: 128).
+Although scholars have advanced complex and detailed
+theoretical models about organizational skills in
+knowledge identification, absorption, and exploitation
+(Lane et al., 2006; Todorova and Durisin, 2007; Zahra
+and George, 2002), empirical studies that test the entire
+AC process are rare, partial, and sometimes misleading.
+The reason is that knowledge acquisition involves
+several intervening variables that could be frustratingly
+difficult to retrieve and observe (Lim, 2009).
+Furthermore, the abstract nature of knowledge does not
+allow a direct observation of the phenomenon, forcing
+scholars to identify proxies to measure AC development.
+Knowledge is an intangible asset, which has distinctive
+characteristics when compared to physical assets. For
+this reason, in order to deeply understand the processes
+underpinning AC, research needs to be grounded in a
+solid theory of knowledge evolution.
+In this paper, we aim to improve the understanding of
+diverse AC strategies by developing SimAC, a
+simulation model, which helps scholars to study the
+effect of diverse approaches to organizational learning
+on firm performance. Our work is based on SimISpace2,
+Proceedings 26th European Conference on Modelling and
+Simulation ©ECMS Klaus G. Troitzsch, Michael Möhring,
+Ulf Lotzmann (Editors)
+ISBN: 978-0-9564944-4-3 / ISBN: 978-0-9564944-5-0 (CD)
+
+an agent-based graphical simulation environment
+designed to model strategic knowledge management
+processes, in particular knowledge flows and
+knowledge-based agent interactions. The simulation is
+based on Max Boisot’s Information Space (or I-Space),
+a conceptual framework, which helps analyze
+knowledge flows in populations of agents (Boisot, 1995,
+1998). Within the I-Space framework, the Social
+Learning Cycle provides a process interpretation of the
+dynamic evolution of knowledge, its structuring, and
+sharing. The process interpretation of organizational
+learning and its sub-phases makes the I-Space a suitable
+framework to advance the understanding of AC
+strategies (Aversa, 2011).
+ABSORPTIVE CAPACITY STRATEGIES
+According to the traditional definition of AC by Cohen
+and Levinthal (1990) and the more recent
+reconceptualization by Zahra and George (2002), AC
+can be summarized into a four-step process. In the first
+phase, the organization identifies bundles of external
+useful knowledge to acquire. The knowledge identified
+is usually very concrete, and embodied in artifacts that
+belong to other agents, or more in general to the
+external environment. Once identified and acquired,
+knowledge must be structured in order to be replicable
+and exploitable. Firms transform the practical and tacit
+knowledge embodied in the artifacts (e.g. products,
+technologies, machineries) into abstract and codified
+knowledge (e.g. formulas, scientific and technical
+principles etc.): the more structured knowledge is, the
+easier it becomes to share and exploit (Boisot, 1998;
+Nonaka, 1994). In the third phase, structured knowledge
+is diffused among the members of the organization and
+embedded in concrete practices aimed at develop
+artifacts, organizational rules, procedures and
+behavioral patterns (impact phase). The organization
+economically exploits the new knowledge, creating and
+commercializing new products, services, and knowledge
+assets. Therefore, according to the social learning cycle
+concept (Boisot, 1998), knowledge completes a full
+“cycle”, since firms obtain it in an unstructured form,
+they structure it and then exploit it by embedding it in
+products, processes and artifacts. AC leads to superior
+performance and competitive advantage. To protect
+their competitive advantage, organizations can patent
+the knowledge they possess. However, while firms that
+have superior skills only in knowledge acquisition and
+transformation (called potential AC) obtain only part of
+
+the benefits, firms skilled in knowledge development
+and exploitation (called realized AC) are able to
+maximize their economic performance and develop, in a
+complete form, the entire AC potential (Jansen, Van den
+Bosch and Volberda, 2005; Zahra and George, 2002).
+Literature shows that companies need different types of
+knowledge to develop innovation and increase
+performance. In this paper we follow the Lim (2009:
+1252)
+three-type
+knowledge
+classification,
+complementing it with a fourth group we consider
+important: (1) Disciplinary knowledge, such as general
+scientific knowledge; (2) Domain Specific Knowledge,
+such as solutions specific to technical projects; (3)
+Encoded knowledge, such as knowledge embedded in
+tools and processes, and (4) Market knowledge, such as
+knowledge about commercial opportunities and market
+characteristics. Firms can concentrate on acquiring
+particular types of knowledge assets, for example
+focusing their investments on one kind, or on a mix of
+two or more. For this study, we decided to test the
+impact of five different types of AC strategies on
+financial performance. We simulated the competitive
+behavior of five different agent groups, each pursuing
+one specific AC strategy:
+− Agent group 1 - Research Firm: These kinds of
+agents focus their AC strategy on scanning
+knowledge;
+− Agent group 2 - Managerial Firm: These kinds of
+agents focus their AC strategy on abstracting
+knowledge;
+− Agent group 3 - Manufacturing Firm: These kinds
+of agents focus their AC strategy on impacting
+knowledge;
+− Agent group 4 - Marketing Firm: These kinds of
+agents focus their AC strategy on exploiting
+knowledge.
+− Agent group 5 – Balanced Firm: These kinds of
+agents focus their AC strategy on pursuing a
+balanced mix of all the possible actions.
+In addition, every agent group can protect the
+knowledge possessed via patenting.
+According to our theoretical premises, our
+parameterization will distinguish between the different
+strategies in the simulation environment, and thus
+enables us to dynamically analyze micro and macro
+effects of AC strategies on firm performance. In
+particular, we are interested in comparing the payoffs of
+the five AC strategies. We expect to determine
+distinctive knowledge evolution and financial
+performance profiles for each firm (agent) type.
+USING SIMISPACE2 TO MODEL AC
+STRATEGIES
+SimISpace2 is an agent-based graphical simulation
+environment designed to simulate strategic knowledge
+management processes, in particular knowledge flows
+and knowledge-based agent interactions. The simulation
+engine’s conceptual foundation is provided by Boisot’s
+I-Space (1995, 1998). Recent studies have used the
+
+SimISpace2 simulation suite to investigate knowledge
+evolution in complex systems (Ihrig, MacMillan,
+Knyphausen-Aufsess and Boisot, 2010).
+Basic Parameterization of SimISpace2
+Ihrig and Abrahams (2007) offer a rich and detailed
+description of the structure and technicalities of the
+SimISpace2 simulation environment. Due to the wide
+set of modeling opportunities that this suite offers, we
+will limit our description to the set of features that will
+be used for our purposes. However, for readers that are
+not familiar with this simulation framework, we will
+briefly introduce some of the main SimISpace2
+principles, paying attention to the way knowledge is
+represented and processed by the agents. The following
+description is adapted from Ihrig (2010):
+Two major forms of entities can be modeled with
+SimISpace2: agents and knowledge items/assets. When
+setting up the simulation, the user defines agent groups
+and knowledge groups with distinct properties.
+Individually definable distributions can be assigned to
+each property of each group (uniform, normal,
+triangular, exponential, or constant distribution). The
+simulation then assigns to the individual group members
+(agents and knowledge items) characteristics in
+accordance with the group they belong. Knowledge in
+the simulation environment is represented through
+knowledge items. Based on the knowledge group they
+belong to, those knowledge items have certain
+characteristics. All knowledge items together make up
+the knowledge ocean: a global pool of knowledge.
+Agents can access the knowledge ocean, pick up
+knowledge items, and deposit them in knowledge stores
+through the scanning action. A knowledge store is an
+agent’s personal storage place for a knowledge item.
+Each knowledge store is local to an agent, i.e. possessed
+by a single agent. As containers, knowledge stores hold
+knowledge items as their contents. Stores and their
+items together constitute knowledge assets. Examples of
+knowledge stores include books, files, tools, diskettes,
+and sections of a person’s brain. There is only one
+knowledge item per knowledge store, i.e. each
+knowledge item that an agent possesses has its own
+knowledge store. If an agent gets a new knowledge item
+(whether directly from the knowledge ocean or from
+other agents’ knowledge stores), a new knowledge store
+for that item is generated to hold it.
+The concept of a knowledge item has been separated
+from the concept of a knowledge store to render
+knowledge traceable. If knowledge items are drawn
+from a common pool and stored in the knowledge stores
+of different agents, it becomes possible to see when two
+(or more) agents possess the same knowledge, a useful
+property for tracking the diffusion of knowledge. The
+separation between a global pool of knowledge items
+and local knowledge stores is particularly important
+when agents structure knowledge (which only applies to
+knowledge stores, not to knowledge items). Multiple
+agents hold knowledge items, and one agent’s
+investment in structuring knowledge does not influence
+
+the codification and abstraction level of the same
+knowledge item held by another agent. Agents possess
+knowledge stores that can have different degrees of
+structure. If the agent structures its knowledge, the
+properties of the knowledge item itself – i.e., its
+contents – are not changed, but it gets moved to a new
+knowledge store with higher degrees of structure – i.e.,
+its form changes.
+SimISpace2 also features a special kind of knowledge.
+A DTI (knowledge Discovered Through Investment) is a
+composite knowledge item that is discovered by
+integrating the knowledge items that make it up into a
+coherent pattern. DTIs cannot be discovered through
+scanning from the global pool of knowledge items. The
+user determines knowledge items to act as the
+constituent components of a DTI. The only way for an
+agent to discover a DTI is to successfully scan and
+appropriate its constituent components and then
+structure them beyond user-specified threshold values
+in order to achieve the required level of integration and
+abstraction. Once these values are reached, the agent
+automatically obtains the DTI (the discover occurrence
+is triggered in the simulation). Investing in its
+constituent components – i.e. scanning and abstracting
+them – is the primary means of discovering a DTI. By
+specifying the values of different DTIs, the user can
+indirectly determine the values of the networks of
+knowledge items that produce DTIs. Such networks
+represent more complex forms of knowledge. Once an
+agent has discovered a DTI item, it is treated like a
+regular knowledge item, i.e. other agents are then able
+to scan it from the agent that possesses it.
+Specific SimISpace2 Parameterization to Model AC
+Strategies
+Similar to Ihrig (2010) we decided to keep our model as
+parsimonious as possible, thus using only six out of the
+twenty actions available in the SimISpace2 suite: 1.
+Scan, 2. Abstract, 3. Impact, 4. Learn, 5. Exploit, and 6.
+Patent. Each agent’s goal is to scan knowledge items
+(either from the ocean or from others), abstracting the
+new knowledge (which correspond to structuring it).
+Once knowledge has reached a certain level of structure,
+it is diffused in practices and routines among and across
+the organization (impact), and absorbed within the
+organization (learn). Through the commercialization of
+products and services developed based on the newly
+acquired knowledge assets, the agent exploits the
+knowledge potential, and thus increases its financial
+performance. Simply put, superior capabilities in
+managing this process of knowledge development and
+exploitation correspond to higher AC. Higher levels of
+AC lead to superior financial funds. The higher the
+financial funds obtained following a specific AC
+strategy, the more successful we will consider that
+specific AC strategy.
+Within the SimISpace2 environment we use specific
+actions to model the agent groups’ focus on a particular
+set of learning strategies AG1: Research firm (scanning
+from the ocean and from others); AG2: Managerial firm
+
+(abstracting); AG3: Manufacturing firm (impacting and
+learning); AG4: Marketing firm (exploiting); AG5:
+Balanced firm (an distributed mix of all the actions). In
+addition, all the AGs have an equal propensity to protect
+their knowledge through patenting. An agent can patent
+knowledge for a certain duration and with a specific
+strength. The agent can patent only the knowledge it
+possesses, and only if it holds the knowledge in a
+knowledge store that has an abstraction level above a
+user set-level. In other words, patenting is valid only if
+performed after abstraction. Also, when the knowledge
+is possessed by a user-set number of other agents, it
+becomes public domain and it cannot be patented. In our
+simulation, the patent protection lasts for the entire
+2,000 rounds, and has a strength of 0.5, which means
+that the patented knowledge has a likelihood of 50% to
+be effectively protected. Our patent abstraction
+threshold has a value of 0, which means that any kind of
+knowledge can be patented. Finally, when all the 50
+agents possess a specific knowledge item, nobody can
+patent it as we consider it “public domain.”
+In order to compete in the market, each firm needs to
+have at least a minimum propensity in pursuing each
+type of these actions, which are mandatory for any kind
+of innovation development. Yet, as mentioned above,
+focusing on specific sets of actions corresponds to
+different AC strategies.
+We have also created four groups of knowledge items,
+corresponding to the classification we previously
+explained. For each group we assigned a base value of
+20 and an abstraction and codification increment of 0.1.
+Also, for each knowledge group we assigned a starting
+value of codification and abstraction. The more
+structured knowledge is, the higher will be the
+codification and abstraction level we assigned.
+− Knowledge group 1: Disciplinary knowledge
+Codification: 1.0
+Abstraction: 1.0
+− Knowledge group 2: Domain specific knowledge
+Codification: 0.8
+Abstraction: 0.8
+− Knowledge group 3: Encoded knowledge
+Codification: 0.5
+Abstraction: 0.5
+− Knowledge group 4: Market knowledge
+Codification: 0.3
+Abstraction: 0.3
+To develop innovations, firms need to acquire all four
+types of knowledge items. To simulate this knowledge
+acquisition, development, and exploitation scenario, we
+have given a fixed budget of 9 “chips” to each agent per
+round. The nine chips correspond to the different
+activities that each agent can theoretically pursue in
+each round, in order to develop innovation. The chips
+are distributed based on the actions that define their
+learning strategy. One of these chips is dedicated to
+patenting their knowledge. For example, overall
+research firms will spend 5 chips out of 9 in scanning,
+because their strategy is focused on that kind of activity.
+The remaining 3 chips are equally distributed for the
+
+other actions, and 1 chip will be used for patenting.
+Table 1 shows the resource distribution for each agent
+group.
+Table 1: Parameterization of the 5 strategies
+AG 1. AG 2. AG 3.
+
+AG 4.
+
+AG5.
+
+Balanced
+Firm
+
+Manufacturing
+Firm
+
+Marketing
+Firm
+
+1.0
+1.0
+2.5
+2.5
+1.0
+1.0
+9.0
+
+1.0
+1.0
+0.5
+0.5
+5.0
+1.0
+9.0
+
+Research
+Firm
+
+Managerial
+Firm
+
+2.0
+5.0
+1.0
+2.0
+1.0
+5.0
+3.Impact
+1.0
+0.5
+0.5
+Learn
+1.0
+0.5
+0.5
+4.Exploit
+2.0
+1.0
+1.0
+5.Patent
+1.0
+1.0
+1.0
+Total
+9.0
+9.0
+9.0
+*From the ocean and from others.
+2.Abstract
+
+Table 2: Knowledge items and DTIs in SimAC
+
+Domain-Specific
+Knowledge
+Encoded
+Knowledge
+
+Scientific DTI
+(First order
+DTI)
+
+Property Value - Financial Funds
+AVERAGE of sim runs
+SUM of agent group
+1400000
+Manufacturing firm
+Managerial firm
+Balanced firm
+Marketing firm
+
+1200000
+
+1000000
+
+For each round, the agents perform their actions in
+knowledge acquisition, transformation, and exploitation.
+The agents gain a DTI, the knowledge we model
+innovation with, when they obtain a specific set of
+knowledge items. Agents increase their financial funds
+by capitalizing on the knowledge they possess,
+especially DTIs. The financial funds accumulated by an
+agent are the measure of its performance and success.
+Agents with financial funds of zero die.
+Following the definition of potential and realized AC
+(Zahra and George, 2002), we developed two different
+kinds of DTIs: scientific DTI and technical DTI. The
+scientific DTI represents the potential AC (i.e. abstract
+knowledge, that has no practical application yet), and
+agents obtain it when they get a scientific knowledge
+item plus a managerial knowledge item. The technical
+DTI, which leads to higher financial return than the
+scientific one, represents the realized AC (i.e. concrete
+and applied knowledge), and agents obtain it when they
+get a scientific DTI plus a manufacturing knowledge
+item and a market knowledge item. Table 2 describes
+the knowledge items needed for agents to collect DTIs.
+
+Disciplinary
+Knowledge
+
+Simulating Financial Performance with SimAC
+The first graph we present (Figure 1) shows the
+different financial performance profiles measured in
+funds accumulation, derived from the five different
+strategies. Based on distinct AC strategies of the five
+firm types, we can clearly distinguish five different
+groups.
+
+Technical DTI
+(Second order
+DTI)
+
+Market
+Knowledge
+
+SIMULATION AND RESULTS WITH SIMAC
+We have conducted SimISpace2 virtual experiments
+with the SimAC model, aimed at exploring the impact of
+different AC strategies on firm performance. We ran the
+simulation 20 times, and each run lasted 2000 periods.
+We created 10 participants for each of the five agent
+groups (50 agents in total) and 10 knowledge items per
+
+Financial Funds
+
+Action
+1.Scan*
+
+type (40 knowledge times in total). All graphs show the
+average across all runs.
+
+800000
+
+600000
+
+400000
+
+Research firm
+
+200000
+
+0
+0
+
+500
+
+1000
+
+1500
+
+2000
+
+2500
+
+Period
+
+Figure 1: Financial Funds (Longitudinal Report)
+Insight 1: The financial performance of the five AC
+strategies – research, managerial, manufacturing,
+marketing, and balanced – will have distinct profiles, as
+a result of the differences in their knowledge
+appropriation and knowledge development behaviors.
+The SimAC results are consistent with management
+theory. Research firms are strongly dedicated to
+knowledge identification and scanning, and therefore
+are not able to exploit the commercial value of their
+knowledge. Marketing firms, on the contrary, are
+mainly dedicated to knowledge exploitation (exploit
+activity set to five), but do not widely develop the first
+phases of AC processes. As a result in the long run they
+perform as the second worst, despite being the best
+performing AG for the first 1750 periods. At the end,
+the manufacturing firms, which focus on impacting and
+learning, are the best performers of all the groups.
+All of this highlights distinct simulation and modeling
+capabilities of SimAC, which can be summarized as
+follows.
+Simulation & Modeling Capability 1: SimAC enables
+simulating the different AC strategies and their
+respective financial payoffs for different agent groups.
+Simulating Potential AC with SimAC
+The first insight shed light on the impact of strategies on
+financial performance. However, money is not the only
+way to measure the outcomes of organizational learning.
+Innovation is also an important aspect that we have to
+take into consideration in this context. Innovation
+performance in SimAC is measured via the
+accumulation of DTIs. The first type of DTI is the
+
+scientific DTI, which stands for the potential AC (Zahra
+and George, 2002). This kind of DTI corresponds to
+possessing and combining disciplinary and domain
+specific knowledge. The agent groups have access to a
+maximum of 100 DTIs in the simulation environment.
+Figure 2 represents the appropriation of scientific DTI
+across the agent population (maximum 100 DTIs – 10
+DTIs, 10 agents in a group). In Figure 2, we can
+distinguish how different AC strategies require different
+timing to obtain the 100 scientific DTIs.
+
+financial performance for the agents that obtain them.
+Figure 3 depicts the distribution of scientific DTIs
+across the agent population. We can distinguish how
+different AC strategies lead to different timings to
+obtain the 100 scientific DTIs.
+Knowledge Items Known
+AVERAGE of sim runs
+SUM of agent group
+120
+
+Balanced firm
+Managerial firm
+Manufacturing firm
+Marketing firm
+Research firm
+
+100
+
+Knowledge
+
+80
+
+Knowledge Items Known
+AVERAGE of sim runs
+SUM of agent group
+120
+
+Research firm
+
+Managerial firm
+Manufacturing firm
+Marketing firm
+
+60
+
+Balanced firm
+40
+
+Research firm
+
+100
+
+20
+
+Balanced firm
+
+Knowledge
+
+80
+0
+
+200
+
+400
+
+600
+
+800
+
+1000
+
+1200
+
+1400
+
+1600
+
+1800
+
+2000
+
+Period
+
+Managerial firm
+
+Marketing firm
+
+Manufacturing firm
+Marketing firm
+
+Manufacturing firm
+
+40
+
+0
+
+Balanced firm
+
+Managerial firm
+
+60
+
+Figure 3: Technical DTIs (Longitudinal Report)
+
+Research firm
+20
+
+0
+0
+
+200
+
+400
+
+600
+
+800
+
+1000
+
+1200
+
+1400
+
+1600
+
+1800
+
+2000
+
+Period
+
+Figure 2: Scientific DTIs (Longitudinal Report)
+Insight 2: The five AC strategies – research,
+managerial, manufacturing, marketing, and balanced –
+lead to distinct results in potential AC, due to the
+agents’ knowledge appropriation and knowledge
+development behaviors.
+Again, SimAC demonstrates results that are consistent
+with management theory. Research firms, whose main
+intent is focused on scanning new knowledge, are the
+first ones to obtain the totality of 100 scientific DTIs,
+followed by balanced firms. Managerial, marketing and
+manufacturing firms, whose main attempt is not
+collecting new knowledge, but maximizing the
+processing and exploitation of the available knowledge,
+are the slowest in reaching the 100 scientific DTIs.
+Specifically they are more than 4 times slower than the
+best performers since they obtain the 100 DTIs at
+around period 400, while research firms—the best in
+class—get them at around period 70. This evidence
+leads us to define the second SimAC capability.
+Simulation & Modeling Capability 2: SimAC enables
+simulating the different AC strategies and their
+respective innovation payoffs of potential AC, for
+different agent groups.
+Simulating Realized AC with SimAC
+The second type of DTI is the technical DTI, which in
+our scenario corresponds to the realized AC (Zahra and
+George, 2002). This kind of DTI is obtained when an
+agent gets a scientific DTI plus an encoded and
+marketing knowledge item. The agent groups can access
+a maximum of 100 DTIs in the simulation environment.
+The technical DTIs represent knowledge that is more
+structured and easy to exploit, thus leading to superior
+
+Insight 3: The five AC strategies – research,
+managerial, manufacturing, marketing, and balanced –
+lead to distinct results in realized AC, due to the agents’
+knowledge appropriation and knowledge development
+behaviors.
+The SimAC report shows how research firms are still
+the first to obtain the 10 technical DTIs, leveraging their
+time advantage in reaching the scientific DTIs, which
+are a mandatory requirement to get to the second order
+DTIs. In fact, in the real world firms need to develop
+general structured knowledge before developing it in
+innovative products and services, thus being able to
+exploit them. Manufacturing firms, due to their focus on
+the impact/learn activities, manage to be first together
+with the research firm, despite being the slowest at
+obtaining the scientific DTIs. Managerial firms and
+balanced firms follow the same curve, but the
+managerial firm is slightly faster than the balanced one.
+The slowest is the marketing firm, which at the end of
+the 2000 run is not able to obtain all the 100 technical
+DTIs. This said, we can advance another possibility
+offered by SimAC.
+Simulation & Modeling Capability 3: SimAC enables
+simulating the different AC strategies and their
+respective innovation payoffs of realized AC, for
+different agent groups.
+Simulating Knowledge Storage with SimAC
+Another way to measure knowledge outcomes, is
+considering in how many “locations” knowledge is
+stored. Firms embed innovations into documents,
+objects, artifacts, and locations. For example, the same
+technical innovation can be contained in a patent, in two
+types of products, and in the personal knowledge of the
+five engineers. Thus, we can affirm that the same
+knowledge is contained into eight knowledge stores.
+Knowledge stores allow us to trace the diffusion of
+knowledge among diverse agents, which can hold the
+
+same knowledge item in different stores at the same
+time. Accordingly, literature has underlined how
+knowledge is an asset that can be shared without
+implying ownership (Boisot, 1998). For example, while
+a physical object is either in one place or in another,
+several people can share the exact same knowledge
+without affecting its structure or nature.
+Knowledge Stores Possessed
+AVERAGE of sim runs
+SUM of agent group
+1200
+Manufacturing firm
+1000
+
+Managerial firm
+Research firm
+
+Knowledge
+
+800
+
+Balanced firm
+
+Marketing firm
+
+600
+
+400
+
+200
+
+0
+0
+
+200
+
+400
+
+600
+
+800
+
+1000
+
+1200
+
+1400
+
+1600
+
+1800
+
+2000
+
+Period
+Research firm
+
+Managerial firm
+
+Balanced firm
+
+Marketing firm
+
+Manufacturing firm
+
+Figure 4: Scientific DTI Knowledge Stores
+Knowledge Stores Possessed
+AVERAGE of sim runs
+SUM of agent group
+1200
+
+Research firm
+
+1000
+
+Knowledge
+
+800
+
+Balanced firm
+
+Managerial firm
+
+600
+
+Manufacturing firm
+
+400
+200
+
+Marketing firm
+
+0
+0
+
+200
+
+400
+
+600
+
+-200
+
+800
+
+1000
+
+1200
+
+1400
+
+1600
+
+1800
+
+2000
+
+Period
+Manufacturing firm
+
+Research firm
+
+Managerial firm
+
+Balanced firm
+
+Marketing firm
+
+Figure 5: Technical DTI Knowledge Stores
+Insight 4: The five knowledge AC strategies – research,
+managerial, manufacturing, marketing, and balanced –
+lead to different knowledge store trajectories, as a result
+of the differences in the agents’ knowledge
+appropriation and knowledge development behaviors.
+SimAC consistently reflects the nature of knowledge by
+allowing knowledge stores to be more numerous than
+knowledge items. Figure 4 shows the development of
+knowledge stores for scientific DTIs among the five
+agent groups, while figure 5 shows the development of
+knowledge stores for technical DTIs. The vertical axis
+shows that the number of knowledge stores is higher
+than the DTIs obtained. For example, the manufacturing
+firms present around 1100 knowledge stores for
+scientific and technical DTIs. Yet, while manufacturing
+firms are the fastest at obtaining knowledge stores for
+scientific DTIs, they are the second slowest to obtain the
+knowledge store for technical DTIs. This confirms that
+the skills in knowledge allocation are independent from
+knowledge creation, and develop clearly different
+outcomes depending on the strategy adopted. This leads
+us to the last reflection on the SimAC tool capability.
+
+Simulation & Modeling Capability 4: SimAC enables
+simulating the different AC strategies and their
+respective innovation payoffs related to knowledge
+storage, for different agent groups.
+CONCLUSION
+SimAC is a powerful tool to conduct virtual experiments
+for exploring the effects of different AC strategies on
+financial and innovation performance. Being based on
+the I-Space framework (Boisot, 1995, 1998), the tool
+offers a consistent integration of AC theory with finegrained insights about knowledge evolution in
+populations of agents. Processes of knowledge
+identification,
+acquisition,
+transformation
+and
+exploitation can be observed in detail. In this paper we
+displayed only a limited set of the several reports that
+the suite SimISpace2 offers. However, the results we
+presented in this article already offer opportunities to
+develop new research questions that can be addressed
+using the SimAC application. For example, in our
+simulation we have explored a possible scenario where
+an arbitrary set of 50 firms compete. In our new
+experiments, we are taking care of simulating
+environments with significantly higher number of
+competitors. Also, to compare the outcome of basic AC
+approaches, this first SimAC simulation models the
+competition between four strategies focused on one
+single objective (i.e. AG2, AG3, AG4, AG5) and one
+strategy that engages in a balanced tradeoff between all
+the other possible strategies (i.e. AG1). We are aware
+that in real life firm strategies might be more complex
+than in our experiments, but our parameterization of
+SimISpace2 shows that it is possible to simulate
+competitive situations with more diverse and realistic
+characteristics, and it is in our future plans providing
+analysis of these kinds of environments.
+ACKNOWLEDGEMENTS
+This research was supported by the Snider
+Entrepreneurial Research Center at the Wharton School
+of the University of Pennsylvania, the I-Space Institute,
+and Technogel US Inc. The authors would like to thank
+Ian MacMillan and Max Boisot for their help in
+formulating the theoretical foundations of the SimAC
+simulation model.
+REFERENCES
+Aversa P. 2011. Understanding the Absorptive Capacity
+through the Social Learning Cycle, 31 Strategic
+Management Society Conference: Miami, USA.
+Boisot M. 1995. Information space: A framework for
+learning in organizations, institutions and culture.
+Thomson Learning Emea.
+Boisot M. 1998. Knowledge assets: Securing
+competitive advantage in the information economy.
+Oxford University Press, USA.
+Cohen WM, Levinthal DA. 1990. Absorptive Capacity:
+
+A New Perspective on Learning and Innovation.
+Administrative Science Quarterly 35(1): 128-152.
+Ihrig M. 2010. Investigating entrepreneurial strategies
+via simulation, 24th European Conference on Modelling
+and Simulation (ECMS): Kuala Lumpur, Malaysia.
+Ihrig M, Abrahams AS. 2007. Breaking new ground in
+simulating
+knowledge
+management
+processes:
+SimISpace2, 21st European Conference on Modelling
+and Simulation (ECMS): Prague, Czech Republic.
+Ihrig M, MacMillan I, Knyphausen-Aufsess Dz, Boisot
+M. 2010. Knowledge-based Opportunity Recognition
+Strategies: A Simulation Approach, 30° Strategic
+Management Society Annual Meeting: Rome.
+Jansen JJP, Van den Bosch FAJ, Volberda HW. 2005.
+Managing potential and realized absorptive capacity:
+How do organizational antecedents matter? Academy of
+Management Journal 48(6): 999-1015.
+Lane P, Koka B, Pathak S. 2006. The reification of
+absorptive capacity: a critical review and rejuvenation
+of the construct. The Academy of Management Review
+31(4): 833-863.
+Lim K. 2009. The many faces of absorptive capacity:
+spillovers of copper interconnect technology for
+semiconductor chips. Industrial and Corporate Change
+18(6): 1249-1284.
+Nonaka I. 1994. A Dynamic Theory of Organizational
+Knowledge Creation. Organization Science 5(1): 14-37.
+Todorova G, Durisin B. 2007. Absorptive capacity:
+valuing a reconceptualization. Academy of Management
+Review 32(3): 774-786.
+Zahra SA, George G. 2002. Absorptive Capacity: A
+Review, Reconceptualization, and Extension. Academy
+of Management Review 27(2): 185-203.
+AUTHOR BIOGRAPHIES
+PAOLO AVERSA is Post-Doctoral Research Fellow at
+the Management Department of the Wharton School,
+University of Pennsylvania, and Marie Curie Fellow at
+the Cass Business School, London. He holds a Ph.D. in
+management at the University of Bologna, an MBA at
+the CUOA Foundation (Vicenza), and an MA in
+Communication at University of Padova. In 2011 he
+was awarded with the 1st Prize for the Best Ph.D. Paper
+of the European Academy of Management.
+Since 2009 he has worked at the Sol C. Snider
+Entrepreneurial Center, Wharton School. His current
+research interests are related to firm networks, strategic
+peripheries and absorptive capacity. He has been
+teaching and tutoring at the University of Pennsylvania,
+University of Bologna, and University of Padova.
+His e-mail address is paversa@wharton.upenn.edu.
+MARTIN IHRIG is President of I-Space Institute, LLC
+(USA) and Adjunct Assistant Professor at the Wharton
+School of the University of Pennsylvania (USA). He
+holds a Master of Business Studies from UCD Michael
+Smurfit School of Business (Ireland) and a Doctor of
+Business Administration from Technische Universität
+
+Berlin (Germany).
+The research initiative he manages at Wharton’s Snider
+Entrepreneurial Research Center focuses on the
+strategic and entrepreneurial management of
+knowledge. In his simulation research, he is studying
+entrepreneurial opportunity recognition strategies with
+the help of agent-based models.
+His e-mail address is ihrig@wharton.upenn.edu.
+
+

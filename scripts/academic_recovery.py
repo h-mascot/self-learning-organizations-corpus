@@ -573,6 +573,7 @@ def validate() -> Counter[str]:
     accepted_keys: dict[str, Path] = {}
     legacy_paths: set[str] = set()
     counts: Counter[str] = Counter()
+    full_text_ids: set[str] = set()
     required = {
         "academic_schema_version", "stable_id", "openalex_id", "doi", "arxiv_id", "title", "authors", "publisher",
         "published_date", "canonical_url", "source_type", "lifecycle", "relevance_status", "relevance_reason",
@@ -609,9 +610,22 @@ def validate() -> Counter[str]:
         if parsed.scheme not in {"http", "https"} or not parsed.netloc: errors.append(f"{label}: invalid canonical_url")
         if artifact == "full_text" and "## Legally retrieved full text\n\n" not in body:
             errors.append(f"{label}: full_text claim lacks preserved full text")
+        if artifact == "full_text":
+            full_text_ids.add(oid)
+            if meta.get("rights_license") not in REUSABLE_LICENSES:
+                errors.append(f"{label}: full_text lacks an explicitly reusable license")
+            raw_text = RAW_DIR / f"{oid.casefold()}.txt"
+            if not raw_text.exists():
+                errors.append(f"{label}: full_text lacks verified extracted raw text")
+            else:
+                preserved = body.split("## Legally retrieved full text\n\n", 1)[1].split("\n\n## Artifact honesty", 1)[0].strip()
+                if preserved != raw_text.read_text(encoding="utf-8", errors="replace").strip():
+                    errors.append(f"{label}: preserved full text differs from verified extraction")
         if artifact != "full_text" and "## Legally retrieved full text\n\n" in body:
             errors.append(f"{label}: preserved full text is not declared")
         if meta.get("content_sha256") != sha256_text(body): errors.append(f"{label}: content hash mismatch")
+        try: datetime.fromisoformat(str(meta.get("retrieved_at", "")))
+        except ValueError: errors.append(f"{label}: invalid retrieval timestamp")
         if lifecycle == "accepted":
             if meta.get("relevance_status") != "relevant": errors.append(f"{label}: accepted record is not relevant")
             if meta.get("duplicate_of"): errors.append(f"{label}: accepted record declares duplicate_of")
@@ -629,7 +643,43 @@ def validate() -> Counter[str]:
             ledger = list(csv.DictReader(handle))
         if len(ledger) != 200 or len({row["legacy_path"] for row in ledger}) != 200:
             errors.append("audit ledger must contain exactly one row for every legacy record")
+        if {row["openalex_id"] for row in ledger} != set(seen_openalex):
+            errors.append("audit ledger OpenAlex IDs differ from record files")
     else: errors.append("missing audit ledger")
+    try:
+        queries = [json.loads(line) for line in QUERY_LEDGER.read_text(encoding="utf-8").splitlines() if line]
+        queried_ids = [oid for query in queries for oid in query.get("openalex_ids", [])]
+        if len(queries) != 4 or any(query.get("outcome") != "success" for query in queries):
+            errors.append("query ledger must preserve four successful bounded OpenAlex batches")
+        if len(queried_ids) != 200 or set(queried_ids) != set(seen_openalex):
+            errors.append("query ledger does not account for all 200 OpenAlex IDs exactly once")
+    except (OSError, json.JSONDecodeError) as exc:
+        errors.append(f"invalid query ledger: {exc}")
+    for ledger_path, expected in ((RETRIEVAL_LEDGER, 200), (REJECTION_LEDGER, counts["status:rejected"]), (BLOCKER_LEDGER, 200 - len(full_text_ids))):
+        try:
+            with ledger_path.open(encoding="utf-8", newline="") as handle:
+                ledger_rows = list(csv.DictReader(handle))
+            if len(ledger_rows) != expected:
+                errors.append(f"{ledger_path.name} has {len(ledger_rows)} rows; expected {expected}")
+            if len({row["openalex_id"] for row in ledger_rows}) != len(ledger_rows):
+                errors.append(f"{ledger_path.name} contains duplicate OpenAlex IDs")
+        except OSError as exc:
+            errors.append(f"cannot read {ledger_path.name}: {exc}")
+    try:
+        with FULL_TEXT_ATTEMPT_LEDGER.open(encoding="utf-8", newline="") as handle:
+            attempts = list(csv.DictReader(handle))
+        if len(attempts) != 18 or len({row["openalex_id"] for row in attempts}) != 18:
+            errors.append("full-text attempt ledger must contain 18 unique explicitly licensed candidates")
+        attempt_ids = {row["openalex_id"] for row in attempts if row["outcome"].startswith("retrieved")}
+        if attempt_ids != full_text_ids:
+            errors.append("full-text attempt outcomes differ from full_text record claims")
+        for row in attempts:
+            if row["outcome"].startswith("retrieved"):
+                raw_text = RAW_DIR / f"{row['openalex_id'].casefold()}.txt"
+                if not raw_text.exists() or row["text_sha256"] != sha256_bytes(raw_text.read_bytes()):
+                    errors.append(f"full-text attempt hash mismatch for {row['openalex_id']}")
+    except OSError as exc:
+        errors.append(f"cannot read full-text attempt ledger: {exc}")
     remaining_legacy = sorted(LEGACY_DIR.glob("*.md"))
     if remaining_legacy:
         errors.append(f"legacy arxiv directory still contains {len(remaining_legacy)} misclassified records")

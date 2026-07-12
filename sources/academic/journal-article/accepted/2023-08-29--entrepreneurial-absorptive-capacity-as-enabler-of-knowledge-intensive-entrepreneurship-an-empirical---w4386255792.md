@@ -1,0 +1,1096 @@
+---
+academic_schema_version: 1
+stable_id: "openalex:W4386255792"
+openalex_id: "W4386255792"
+doi: "10.1007/s13132-023-01465-9"
+arxiv_id: ""
+title: "Entrepreneurial Absorptive Capacity As Enabler of Knowledge Intensive Entrepreneurship: An Empirical Investigation"
+authors: ["Ioanna Kastelli", "Georgios Siokas", "Άγγελος Τσακανίκας"]
+publisher: "Journal of the Knowledge Economy"
+published_date: "2023-08-29"
+canonical_url: "https://doi.org/10.1007/s13132-023-01465-9"
+source_type: "journal-article"
+lifecycle: "accepted"
+relevance_status: "relevant"
+relevance_reason: "Title directly studies absorptive capacity, an established organizational learning and knowledge-conversion construct."
+relevance_terms: ["business", "firms", "venture", "ventures", "absorptive", "capability", "creation", "knowledge"]
+artifact_level: "full_text"
+rights_status: "open-license"
+rights_license: "cc-by"
+rights_holder: "Journal of the Knowledge Economy"
+retrieved_at: "2026-07-12T08:10:07+00:00"
+provenance: "OpenAlex W4386255792 API metadata plus preserved legacy evidence"
+open_full_text_url: "https://link.springer.com/content/pdf/10.1007/s13132-023-01465-9.pdf"
+duplicate_of: null
+rejection_reason: null
+legacy_path: "sources/arxiv/2023--entrepreneurial-absorptive-capacity-as-enabler-of-knowledge-intensive-entrepreneurship-an-empirical---ioanna-kastelli--w4386255792.md"
+legacy_sha256: "e33c0005884a2562e9e0cdb1212d3f31152356ff7116f6d13c03d50f92c04ad3"
+content_sha256: "55dc0f1a180bdf6954b99f6a158de8a5d9884745467bc5cd2c7e8987e0e07bfd"
+---
+# Entrepreneurial Absorptive Capacity As Enabler of Knowledge Intensive Entrepreneurship: An Empirical Investigation
+
+## Relevance decision
+
+Title directly studies absorptive capacity, an established organizational learning and knowledge-conversion construct.
+
+## Preserved evidence
+
+Abstract This paper builds on Qian and Acs ( Small Business Economics, 40 , 185–197, 2013) concept of entrepreneurial absorptive capacity and empirically investigates its role in the context of new knowledge intensive entrepreneurship. When it comes to the business formation phase and especially to the creation of knowledge intensive entrepreneurial ventures, knowledge inheritance of new firms seems to be more related to individual attributes. The knowledge intensity of these ventures is very much dependent on the founders’ capability to understand new knowledge, combine their knowledge with external knowledge sources, and exploit it in the context of opportunities they can recognise; that is, their absorptive capacity. This study provides new insights into the concept of absorptive capacity by studying it at the individual level enhancing the way of measuring it. Based on quantitative data from a large-scale survey, we conducted a partial least squares structural equation modelling (PLS-SEM) application, which verified the role of entrepreneurial absorptive capacity in triggering knowledge intensive entrepreneurship. Furthermore, the results imply a weaker but positive indirect effect of absorptive capacity to new venture performance. There is also a statistically significant negative influence of competition intensity and a positive influence of equity funding on the formation of knowledge intensive entrepreneurship. At the policy level this analysis reveals the importance of micro-determinants in fostering knowledge intensive entrepreneurial activities.
+
+## Legally retrieved full text
+
+Title: Entrepreneurial Absorptive Capacity As Enabler of Knowledge Intensive Entrepreneurship: An Empirical Investigation
+
+URL Source: https://doi.org/10.1007/s13132-023-01465-9
+
+Markdown Content:
+## Abstract
+
+This paper builds on Qian and Acs (_Small Business Economics, 40_, 185–197,[2013](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR85 "Qian, H., & Acs, Z. J. (2013). An absorptive capacity theory of knowledge spillover entrepreneurship. Small Business Economics, 40, 185–197. 
+                  https://doi.org/10.1007/s11187-011-9368-x
+                  
+                ")) concept of entrepreneurial absorptive capacity and empirically investigates its role in the context of new knowledge intensive entrepreneurship. When it comes to the business formation phase and especially to the creation of knowledge intensive entrepreneurial ventures, knowledge inheritance of new firms seems to be more related to individual attributes. The knowledge intensity of these ventures is very much dependent on the founders’ capability to understand new knowledge, combine their knowledge with external knowledge sources, and exploit it in the context of opportunities they can recognise; that is, their absorptive capacity. This study provides new insights into the concept of absorptive capacity by studying it at the individual level enhancing the way of measuring it. Based on quantitative data from a large-scale survey, we conducted a partial least squares structural equation modelling (PLS-SEM) application, which verified the role of entrepreneurial absorptive capacity in triggering knowledge intensive entrepreneurship. Furthermore, the results imply a weaker but positive indirect effect of absorptive capacity to new venture performance. There is also a statistically significant negative influence of competition intensity and a positive influence of equity funding on the formation of knowledge intensive entrepreneurship. At the policy level this analysis reveals the importance of micro-determinants in fostering knowledge intensive entrepreneurial activities.
+
+### Similar content being viewed by others
+
+![Image 1](https://media.springernature.com/w215h120/springer-static/image/art%3Aplaceholder%2Fimages/placeholder-figure-springernature.png)
+
+![Image 2](https://media.springernature.com/w215h120/springer-static/image/art%3Aplaceholder%2Fimages/placeholder-figure-springernature.png)
+
+![Image 3](https://media.springernature.com/w215h120/springer-static/image/art%3A10.1186%2Fs11782-017-0015-5/MediaObjects/11782_2017_15_Fig1_HTML.gif)
+
+## Introduction
+
+Recent literature provides insights into the type of entrepreneurship having a positive impact on economic growth and social development, giving various definitions, namely high potential entrepreneurship, dynamic entrepreneurship, knowledge intensive entrepreneurship (Audretsch et al., [2016](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR7 "Audretsch, D. B., Kuratko, D. F., & Link, A. N. (2016). Dynamic entrepreneurship and technology-based innovation. Journal of Evolutionary Economics, 26(3), 603–620. 
+                  https://doi.org/10.1007/s00191-016-0458-4
+                  
+                "); Audretsch & Keilbach, [2007](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR6 "Audretsch, D. B., & Keilbach, M. (2007). The theory of knowledge spillover entrepreneurship. Journal of Management Studies, 44(7), 1242–1254. 
+                  https://doi.org/10.1111/j.1467-6486.2007.00722.x
+                  
+                "); Autio, [2003](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR9 "Autio, E. (2003). High-potential entrepreneurship in the light of GEM data. In The Entrepreneurial Advantage of Nations: First Annual Global Entrepreneurship Symposium United Nations Headquarters. Citeseer."); Hirsch-Kreinsen & Schwinge, [2014](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR56 "Hirsch-Kreinsen, H., & Schwinge, I. (2014). Knowledge-intensive entrepreneurship in low-tech industries. Edward Elgar Publishing."); Malerba & McKelvey, [2016](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR75 "Malerba, F., & McKelvey, M. (2016). Knowledge intensive entrepreneurship: Conceptual framework. In F. Malerba, Y. Caloghirou, M. McKelvey, & S. Radoševic (Eds.), Dynamics of knowledge-intensive entrepreneurship: business strategy and public policy (1st ed.). London: Routledge. 
+                  https://www.routledge.com/Dynamics-of-Knowledge-Intensive-Entrepreneurship-Business-Strategy-and/Malerba-Caloghirou-McKelvey-Radosevic/p/book/9780367868987
+                  
+                "), [2019](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR77 "Malerba, F., & McKelvey, M. (2019). Knowledge-intensive innovative entrepreneurship. Foundations and Trends® in Entrepreneurship, 14(6), 555–681. 
+                  https://doi.org/10.1561/0300000075
+                  
+                "), [2020](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR78 "Malerba, F., & McKelvey, M. (2020). Knowledge-intensive innovative entrepreneurship integrating Schumpeter, evolutionary economics, and innovation systems. Small Business Economics, 54(2), 503–522. 
+                  https://doi.org/10.1007/s11187-018-0060-2
+                  
+                ")). Definitions vary but the basic attributes relate to a Schumpeterian view of entrepreneurship and economic growth, emphasising the decisive role of (i) entrepreneurial business formation (either resulting as spin-offs from other organisations or new start-ups) in shaping technological development and progress, (ii) processes of knowledge generation and diffusion standing behind innovation, as main drivers of firm’s competitive advantage, and (iii) the interactive processes in perceiving, assessing opportunities, and transforming new ideas into practice.
+
+In this paper, we adopt the definition of Malerba and McKelvey ([2020](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR78 "Malerba, F., & McKelvey, M. (2020). Knowledge-intensive innovative entrepreneurship integrating Schumpeter, evolutionary economics, and innovation systems. Small Business Economics, 54(2), 503–522. 
+                  https://doi.org/10.1007/s11187-018-0060-2
+                  
+                "), p. 508) for knowledge intensive entrepreneurship (KIE) occurring from “…a process of learning and problem-solving engaged by the entrepreneur (founder or founding team) and aiming to benefit from opportunity identification, creation and exploitation”. Following this view, knowledge intensive firms are new ventures, innovative, having significant knowledge intensity in their activity, being embedded in innovation systems, and exploiting innovative opportunities in diverse evolving sectors and contexts (ibid.). In this context, interactions play a significant role both at the level of knowledge creation and the level of knowledge transformation into innovative products, processes, or services. Different types of actors are directly or indirectly involved either before the establishment of the KIE venture and/or during its development. From the ideation phase and opportunity recognition through the entrepreneurial life cycle to the successful commercialisation, there are learning mechanisms that result in transformation at different ontological levels: the individual, the group, the firm, or the sector (Malerba & McKelvey, [2020](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR78 "Malerba, F., & McKelvey, M. (2020). Knowledge-intensive innovative entrepreneurship integrating Schumpeter, evolutionary economics, and innovation systems. Small Business Economics, 54(2), 503–522. 
+                  https://doi.org/10.1007/s11187-018-0060-2
+                  
+                "); Nonaka & Takeuchi, [1995](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR82 "Nonaka, I., & Takeuchi, H. (1995). The knowledge-creating company: How Japanese companies create the dynamics of innovation. Oxford university press.")). Keeping that as a starting point, we argue that when it comes to the formation phase of KIE ventures, firm’s resource attributes are not yet developed or not related to the organisation, and new firms do not have well-established routines. In this context, we argue that absorptive capability at an individual level, the founders’ absorptive capability, becomes a precondition for access to and exploitation of external sources of knowledge and can be considered a critical element enabling the formation of KIE ventures. We explore (a) the effect of entrepreneurial absorptive capacity on the knowledge intensity of newly established firms and (b) its impact on the business performance of those firms (sales, exports). In addition, we link firm’s knowledge intensity with some early phase firm characteristics and the characteristics of the business environment in which those firms operate. We use data from AEGIS—a unique large-scale survey of 3861 newly established (in the 2000s) entrepreneurial ventures in nine European countries, namely the Czech Republic, Denmark, France, Germany, Greece, Italy, Portugal, Sweden, and the UK. This is the first collection of in-depth empirical data to identify typologies of newly established knowledge intensive firms. The survey sample includes firms from different sectors. We constructed a set of variables for catching the effect of (i) entrepreneurial absorptive capacity as a founders’ attribute, measuring it by their prior knowledge, and developed experiential skills; (ii) early-stage firm characteristics; and (iii) the competition intensity on the type of business created and the performance of these new firms. The new set of variables is analysed using an advanced statistical method, the structural equation modelling–partial least square (SEM-PLS). This method is suitable for the research questions and the nature of our data.
+
+Our empirical results confirm that there is a positive relation between founders’ absorptive capacity and the knowledge intensity of new entrepreneurial ventures and their performance. There is also a significant negative influence of the competition intensity and a positive influence of specific early phase firm characteristics on the formation of knowledge intensive entrepreneurship (KIE).
+
+The paper aims to give new insights into the concept of absorptive capacity in the context of the formation phase of KIE venture creation. Its contribution is threefold: (a) it studies absorptive capacity conceptualised in the context of the KIE ventures, extending its definition at the individual level and taking into consideration the founders’ contribution; (b) it opens the black box of entrepreneurial absorptive capacity, studying and measuring its antecedents; and (c) it gives insights into how knowledge intensity of new ventures and entrepreneurial absorptive capacity affect business performance.
+
+The remainder of the paper is organised as follows. The second section presents the literature review and the research hypotheses. It elaborates on (i) the concept of entrepreneurial absorptive capacity in the formation phase of knowledge intensive firms; (ii) the role of some early phase firm characteristics and of the business environment to the formation of knowledge intensive entrepreneurial ventures; (iii) the link of entrepreneurial absorptive capacity and KIE formation to expected business performance. The third section presents the research design and methodology. The fifth section discusses the empirical results pointing to specific types of action that could boost activities of high added value. The last section concludes and discusses some limitations and future research questions.
+
+## Literature Review and Research Hypotheses
+
+### Entrepreneurial Absorptive Capacity and the Formation of Knowledge Intensive Entrepreneurial Ventures
+
+KIE new ventures occur within innovation systems, responding to opportunities which differ according to market conditions and sectoral systems’ characteristics. Fundamental to the creation and growth of KIE is the successful exploitation of knowledge generated either by the founders or by third parties, and its transformation to innovation. Founders or founding teams develop their knowledge and the resources they commit to the new venture, to exploit opportunities, build upon existing knowledge, and develop their venture leveraging their market and technological knowledge through learning and interacting with various actors of the innovation system (Caiazza et al., [2020](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR16 "Caiazza, R., Belitski, M., & Audretsch, D. B. (2020). From latent to emergent entrepreneurship: The knowledge spillover construction circle. The Journal of Technology Transfer, 45(3), 694–704. 
+                  https://doi.org/10.1007/s10961-019-09719-y
+                  
+                "); Malerba & McKelvey, [2016](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR75 "Malerba, F., & McKelvey, M. (2016). Knowledge intensive entrepreneurship: Conceptual framework. In F. Malerba, Y. Caloghirou, M. McKelvey, & S. Radoševic (Eds.), Dynamics of knowledge-intensive entrepreneurship: business strategy and public policy (1st ed.). London: Routledge. 
+                  https://www.routledge.com/Dynamics-of-Knowledge-Intensive-Entrepreneurship-Business-Strategy-and/Malerba-Caloghirou-McKelvey-Radosevic/p/book/9780367868987
+                  
+                "), [2019](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR77 "Malerba, F., & McKelvey, M. (2019). Knowledge-intensive innovative entrepreneurship. Foundations and Trends® in Entrepreneurship, 14(6), 555–681. 
+                  https://doi.org/10.1561/0300000075
+                  
+                "), [2020](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR78 "Malerba, F., & McKelvey, M. (2020). Knowledge-intensive innovative entrepreneurship integrating Schumpeter, evolutionary economics, and innovation systems. Small Business Economics, 54(2), 503–522. 
+                  https://doi.org/10.1007/s11187-018-0060-2
+                  
+                "); Caiazza,[2015](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR15 "Caiazza, R. (2015). Explaining innovation in mature industries: Evidences from Italian SMEs. Technology Analysis & Strategic Management, 27(8), 975–985.")).
+
+In such an interactive context, a critical element in fostering entrepreneurial activity is the capability to recognise the value of knowledge, assimilate it, and transform it to respond to a commercial end.
+
+Since Cohen’s and Levinthal’s seminal work ([1990](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR26 "Cohen, W. M., & Levinthal, D. A. (1990). Absorptive capacity: A new perspective on learning and innovation. Administrative Science Quarterly, 35(1), 128. 
+                  https://doi.org/10.2307/2393553
+                  
+                ")), this capability has been defined as the _absorptive capacity_, conceptualised in the context of established firms. A number of colleagues have elaborated on its definition and many theoretical considerations as well as empirical studies have converged to the conclusion that absorptive capacity is a complex construct consisting of a set of discrete organisational routines and processes. They also present empirical evidence for the role of prior knowledge and intensity of efforts or commitment in problem solving and of interaction with external sources of knowledge in improving the effectiveness of learning and innovative processes (Ávila,[2021](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR10 "Ávila, M. M. (2022). (2021) Competitive advantage and knowledge absorptive capacity: The mediating role of innovative capability. Journal of the Knowledge Economy, 13, 185–210. 
+                  https://doi.org/10.1007/s13132-020-00708-3
+                  
+                "); Caloghirou et al., [2004](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR17 "Caloghirou, Y., Kastelli, I., & Tsakanikas, A. (2004). Internal capabilities and external knowledge sources: Complements or substitutes for innovative performance? Technovation, 24(1), 29–39. 
+                  https://doi.org/10.1016/S0166-4972(02)00051-2
+                  
+                "); Cockburn & Henderson, [1998](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR25 "Cockburn, I. M., & Henderson, R. M. (1998). Absorptive capacity, coauthoring behavior, and the organization of research in drug discovery. Journal of Industrial Economics, 46(2), 157–182. 
+                  https://doi.org/10.1111/1467-6451.00067
+                  
+                "); Eisenhardt & Martin, [2000](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR34 "Eisenhardt, K. M., & Martin, J. A. (2000). Dynamic capabilities: What are they? Strategic Management Journal, 21(10–11), 1105–1121. 
+                  https://doi.org/10.1002/1097-0266(200010/11)21:10/11%3c1105::AID-SMJ133%3e3.0.CO;2-E
+                  
+                "); Jiménez-Barrionuevo et al., [2011](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR59 "Jiménez-Barrionuevo, M. M., García-Morales, V. J., & Molina, L. M. (2011). Validation of an instrument to measure absorptive capacity. Technovation, 31(5–6), 190–202. 
+                  https://doi.org/10.1016/j.technovation.2010.12.002
+                  
+                "); Kastelli et al., [2004](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR61 "Kastelli, I., Caloghirou, Y., & Ioannides, S. (2004). Cooperative R&D as a means for knowledge creation. Experience from european publicly funded partnerships [1]. International Journal of Technology Management, 27(8), 712–730. 
+                  https://doi.org/10.1504/IJTM.2004.004990
+                  
+                "); Lane et al., [2001](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR64 "Lane, P. J., Salk, J. E., & Lyles, M. A. (2001). Absorptive capacity, learning, and performance in international joint ventures. Strategic Management Journal, 22(12), 1139–1161. 
+                  https://doi.org/10.1002/smj.206
+                  
+                "); Lane & Lubatkin, [1998](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR63 "Lane, P. J., & Lubatkin, M. (1998). Relative absorptive capacity and interorganizational learning. Strategic Management Journal, 19(5), 461–477. 
+                  https://doi.org/10.1002/(sici)1097-0266(199805)19:5%3c461::aid-smj953%3e3.0.co;2-l
+                  
+                "); Laursen & Salter, [2006](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR66 "Laursen, K., & Salter, A. (2006). Open for innovation: The role of openness in explaining innovation performance among U.K. manufacturing firms. Strategic Management Journal, 27(2), 131–150. 
+                  https://doi.org/10.1002/smj.507
+                  
+                "); Makri et al., [2006](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR74 "Makri, M., Lane, P. J., & Gomez-Mejia, L. R. (2006). Ceo incentives, innovation, and performance in technology-intensive firms: A reconciliation of outcome and behavior-based incentive schemes. Strategic Management Journal, 27(11), 1057–1080. 
+                  https://doi.org/10.1002/smj.560
+                  
+                "); Mowery et al., [1996](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR80 "Mowery, D. C., Oxley, J. E., & Silverman, B. S. (1996). Issue special issue: Knowledge and the firm. Strategic Management Journal, 17(Winter). 
+                  http://www.jstor.org/about/terms.html
+                  
+                . Accessed 23 October 2020");Zahra & George, [2002](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR99 "Zahra, S. A., & George, G. (2002). Absorptive capacity: A review, reconceptualization, and extension. The Academy of Management Review, 27(2), 185. 
+                  https://doi.org/10.2307/4134351
+                  
+                ")). The capability of a firm to absorb knowledge and information from external sources is one of the pillars in the process of transformation of knowledge and information into new knowledge and its conversion into new value.
+
+Nevertheless, when it comes to the process of formation of knowledge intensive entrepreneurial ventures, it is important to understand how knowledge contributes to knowledge-based entrepreneurial activity. Knowledge does not necessarily lead to knowledge intensive entrepreneurial activity. Qian and Acs ([2013](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR85 "Qian, H., & Acs, Z. J. (2013). An absorptive capacity theory of knowledge spillover entrepreneurship. Small Business Economics, 40, 185–197. 
+                  https://doi.org/10.1007/s11187-011-9368-x
+                  
+                ")) introduced the notion of entrepreneurial absorptive capacity, conceptualised at the individual level. They defined it as the “ability of an entrepreneur to understand new knowledge, recognise its value, and subsequently commercialise it by creating a firm” (ibid., p. 191). They also linked entrepreneurial absorptive capacity to the ability to start a new business to exploit knowledge. In their study they measured indirectly entrepreneurial absorptive capacity using the direct effect of human capital on entrepreneurship. Their paper suggested future directions for research on the direct effect of entrepreneurial absorptive capacity on entrepreneurship and on measuring it at the individual level.
+
+Indeed, when looking at new entrepreneurial ventures, this concept relates to the founders’ absorptive capacity. Why is entrepreneurial absorptive capacity important for the emergence of KIE ventures and their performance? Firstly, new knowledge creates opportunities for all types of industries; it can potentially transform industries, which are traditionally characterised as low tech. At the early formation phase, the recognition of such opportunities is mostly related to what the founders know and to their ability to respond. Furthermore, the pace of technological change is in many cases exponential, and founders need to interact with external sources of knowledge to efficiently develop new products, processes, or other forms of innovation.
+
+To empirically investigate the role of absorptive capacity in the creation of knowledge intensive entrepreneurial ventures, this paper builds on the concept of entrepreneurial absorptive capacity and studies the effect of the founders’ absorptive capacity on knowledge intensive entrepreneurship by looking at its constituent elements. We assume that in the early phase of startup formation, absorptive capacity is very much dependent on the founders’ prior knowledge, experiential skills, and interactive involvement. There is relevant research studying the role of founders either in the context of established firms or during their first years of operation. Enkel et al. ([2017](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR35 "Enkel, E., Heil, S., Hengstler, M., & Wirth, H. (2017). Exploratory and exploitative innovation: To what extent do the dimensions of individual level absorptive capacity contribute? Technovation, 60–61(August 2015), 29–38. 
+                  https://doi.org/10.1016/j.technovation.2016.08.002
+                  
+                ")) have examined the role of individuals in the absorption of external knowledge for innovating, linking the different dimensions of absorptive capacity to different types of innovation (exploratory or exploitative) in the context of an established firm. In the context of new venture creation, the literature relates founders’ knowledge and capabilities, their experience from their previous professional career path, and their knowledge of the market where they are launching their business to the success of entrepreneurial venturing and the ability to detect innovative opportunities (Reagans et al., [2005](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR87 "Reagans, R., Argote, L., & Brooks, D. (2005, June). Individual experience and experience working together: Predicting learning rates from knowing who knows what and knowing how to work together. Management Science. 
+                  https://doi.org/10.1287/mnsc.1050.0366
+                  
+                "); Shane, [2000](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR91 "Shane, S. (2000). Prior knowledge and the discovery of entrepreneurial opportunities. Organization Science, 11(4), 448–469. 
+                  https://doi.org/10.1287/orsc.11.4.448.14602
+                  
+                ")). Larrañeta et al. ([2017](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR65 "Larrañeta, B., González, J. L. G., & Aguilar, R. (2017). Early efforts to develop absorptive capacity and their performance implications: Differences among corporate and independent ventures. The Journal of Technology Transfer, 42(3), 485–509.")) have studied the efforts to develop the distinct dimensions of absorptive capacity, namely potential and realised, as an organisational construct that new ventures need to build during the first years of their operation. Their results distinguish implications for the development of absorptive capacity and its consequences on performance according to the origins of the new venture, whether being independent ventures or company spin offs. However, it is important to study absorptive capacity in the new venture’s formation phase.
+
+To further illustrate our point on entrepreneurial absorptive capacity, it is important to notice that opportunities (either resulting from market needs or technological advances) meet the prior knowledge and experience of entrepreneurs to end up with a successful entrepreneurial venture. At the formation phase, management is mainly enacted by the founding team before being replaced by organisational routines (Kogut & Zander, [2009](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR62 "Kogut, B., & Zander, U. (2009). Knowledge of the firm. Combinative capabilities, and the replication of technology. In Knowledge in Organisations (pp. 17–36). Taylor and Francis. 
+                  https://doi.org/10.1287/orsc.3.3.383
+                  
+                ")).
+
+The founders’ human capital has been usually proxied in similar empirical studies with educational background and past occupational activities. Formal education and pre-existing knowledge determine to some extend the seizing of new opportunities leveraged by its combination with external knowledge (Alvarez & Busenitz, [2001](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR4 "Alvarez, S. A., & Busenitz, L. W. (2001). The entrepreneurship of resource-based theory. Journal of Management, 27(6), 755–775. 
+                  https://doi.org/10.1177/014920630102700609
+                  
+                "); Colombo & Grilli, [2005](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR27 "Colombo, M. G., & Grilli, L. (2005). Founders’ human capital and the growth of new technology-based firms: A competence-based view. Research Policy, 34(6), 795–816. 
+                  https://doi.org/10.1016/j.respol.2005.03.010
+                  
+                "); Helfat & Lieberman, [2002](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR51 "Helfat, C. E., & Lieberman, M. B. (2002). The birth of capabilities: Market entry and the importance of pre-history. Industrial and Corporate Change, 11(4), 725–760. 
+                  https://doi.org/10.1093/icc/11.4.725
+                  
+                ")). The former is related to the generic human capital of the founders, whereas previous professional experience is more specific and relates either to industry specific or to functions’ specific knowledge (Colombo & Grilli, [2005](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR27 "Colombo, M. G., & Grilli, L. (2005). Founders’ human capital and the growth of new technology-based firms: A competence-based view. Research Policy, 34(6), 795–816. 
+                  https://doi.org/10.1016/j.respol.2005.03.010
+                  
+                ")).
+
+Highly educated and technically qualified people are more receptive to assimilating and transforming external knowledge (Lund Vinding, [2006](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR72 "Lund Vinding, A. (2006). Absorptive capacity and innovative performance: A human capital approach. Economics of Innovation and New Technology, 15(4–5), 507–517. 
+                  https://doi.org/10.1080/10438590500513057
+                  
+                ")).
+
+Absorptive capacity has also to be related to limits to cognition, as it is domain limited and shaped by experience (Loasby, [2005](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR68 "Loasby, B. J. (2005). Making Connections. Econ Journal Watch, 2(1), 56–65. 
+                  https://ideas.repec.org/a/ejw/journl/v2y2005i1p56-65.html
+                  
+                . Accessed 23 October 2020"), [2006](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR67 "Loasby, B. (2006). The social science of economics. SCEME Working Papers: Advances in Economic Methodology. 
+                  https://ideas.repec.org/p/sti/wpaper/020-2007.html
+                  
+                . Accessed 23 October 2020")). If external sources of knowledge supplement our own limited cognitive abilities, new knowledge to be created depends on the connection between what is accessed and what is already possessed by the founders.
+
+Additionally, previous experience from similar activities may enhance the interpretive skill of entrepreneurs vis-à-vis business opportunities and thus result to higher value-added ventures. In the case of KIE, the founders build on their previous experience and knowledge of the market where KIE operates and of specific functions implemented during their professional career. Furthermore, design capability appears to empower creative and innovative processes through interaction and learning from users, identification of problems, development of new concepts, and implementation of new or enhanced services and products (Carlgren et al., [2016a](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR18 "Carlgren, L., Elmquist, M., & Rauth, I. (2016a). The challenges of using design thinking in industry - Experiences from five large firms. Creativity and Innovation Management, 25(3), 344–362. 
+                  https://doi.org/10.1111/caim.12176
+                  
+                "), [b](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR19 "Carlgren, L., Rauth, I., & Elmquist, M. (2016b). Framing design thinking: The concept in idea and enactment. Creativity and Innovation Management, 25(1), 38–57. 
+                  https://doi.org/10.1111/caim.12153
+                  
+                "); Roth et al., [2020](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR89 "Roth, K., Globocnik, D., Rau, C., & Neyer, A. (2020). Living up to the expectations: The effect of design thinking on project success. Creativity and Innovation Management, 29(4), 667–684.")).
+
+As KIE is characterised by higher knowledge complexity, accessibility on various channels of information, feedback from external actors, and provision of critical resources may prove very supportive and nurturing to the new entrepreneurial idea or venture (Birley, [1985](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR12 "Birley, S. (1985). The role of networks in the entrepreneurial process. Journal of Business Venturing, 1(1), 107–117. 
+                  https://doi.org/10.1016/0883-9026(85)90010-2
+                  
+                "); Greene & Brown, [1997](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR45 "Greene, P. G., & Brown, T. E. (1997). Resource needs and the dynamic capitalism typology. Journal of Business Venturing, 12(3), 161–173."); Uzzi, [1999](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR96 "Uzzi, B. (1999). Embeddedness in the making of financial capital: How social relations and networks benefit firms seeking financing. American Sociological Review, 64(4), 481–505. 
+                  https://doi.org/10.2307/2657252
+                  
+                ")). These experiential specific skills can prove beneficial for bringing new products successfully to the market. Accumulated experience and social capital of founders might be of greater importance in the formation phase because KIE might involve higher risk and thus might find difficulties in funding that could be overcome more or less due to trust built over the years and using community-based or other professional relationships over the years of their professional career.
+
+The above can be considered the most significant elements of what is usually conceptually captured under the term of absorptive capacity. It is important to analyse the specific effects of the antecedents of absorptive capacity and not the latter as an abstract concept. Hence, regarding founders’ absorptive capacity, we can assume the following hypotheses to be tested:
+
+> H1: Entrepreneurial absorptive capacity enables knowledge intensive entrepreneurship.
+
+### At the Roots of the Firm Foundation
+
+During the process of KIE venture formation, apart from the founders’ attributes, there are some other dimensions that interplay and shape the opportunities for KIE development and its performance (Malerba & McKelvey, [2020](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR78 "Malerba, F., & McKelvey, M. (2020). Knowledge-intensive innovative entrepreneurship integrating Schumpeter, evolutionary economics, and innovation systems. Small Business Economics, 54(2), 503–522. 
+                  https://doi.org/10.1007/s11187-018-0060-2
+                  
+                ")). These early phase characteristics relate to the origins of KIE ventures, the funding mechanisms, and the linkages developed with other actors of the innovation system.
+
+Usually organisational and managerial processes are not yet fully operational (although probably designed), and any evolutionary path might be linked to the new venture’s antecedent in case of existence of a parent organisation. A start up might be a spin off or a spin out. For both cases, the new venture represents a change in the configuration of existing resources and in the process through which knowledge and capabilities are acquired and accumulated. Accordingly, in both cases evolutionary paths might affect the way this new entrepreneurial activity will cope with uncertainty, with the business environment and with radical changes.
+
+As it has been pointed out by a number of scholars’ (Boccardelli & Magnusson, [2006](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR13 "Boccardelli, P., & Magnusson, M. G. (2006). Dynamic capabilities in early-phase entrepreneurship. Knowledge and Process Management, 13(3), 162–174. 
+                  https://doi.org/10.1002/kpm.255
+                  
+                "); Hill & Levenhagen, [1995](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR55 "Hill, R. C., & Levenhagen, M. (1995). Metaphors and mental models: Sensemaking and sensegiving in innovative and entrepreneurial activities. Journal of Management, 21(6), 1057–1074. 
+                  https://doi.org/10.1177/014920639502100603
+                  
+                "); Nicholls-Nixon et al., [2000](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR81 "Nicholls-Nixon, C. L., Cooper, A. C., & Woo, C. Y. (2000). Strategic experimentation: Understanding change and performance in new ventures. Journal of Business Venturing, 15(5), 493–521. 
+                  https://doi.org/10.1016/S0883-9026(98)00018-4
+                  
+                ")) strategic experimentation, improvisation, and flexibility instead of rigidity could prove beneficial for entities entering a new environment and being more efficient in exploratory learning. This view of the firm formation process could be more apparent to spin offs or ventures that are not linked to a parent organisation because of two main reasons: (a) they are less or not at all dominated of the “designed-precedes-execution” view of management in established companies—especially big ones—and (b) in the case of an academic spin off the founding team is more open to research and experimentation.
+
+In the literature there are conflicting views on the attractiveness of high-tech innovative firms to different forms of financing. The general assumption in entrepreneurial finance is that higher risk unambiguously means equity funding.
+
+In the same vein we can suggest that KIE firms, as embedding more advanced and sophisticated knowledge and knowledge utilisation, are more high risk (Audretsch & Lehmann, [2004](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR8 "Audretsch, D. B., & Lehmann, E. E. (2004). Financing high-tech growth: The role of banks and venture capitalists. Schmalenbach Business Review, 56(4), 340–357. 
+                  https://doi.org/10.1007/bf03396700
+                  
+                ")) although some other authors (Cowling et al., [2005](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR28 "Cowling, R. M., Procheş, Ş., & Vlok, J. H. J. (2005, March 1). On the origin of southern African subtropical thicket vegetation. South African Journal of Botany. NISC Pty Ltd. 
+                  https://doi.org/10.1016/S0254-6299(15)30144-7
+                  
+                ")) argue that they are more likely to survive than the generality of new firms in a rapidly changing environment. Investors could also expect higher levels of return investing in ventures using higher quality technologies, which is considered a signal of future profits. Furthermore, business advice or management support provided in the context of equity funding can be considered a complementary asset to founders’ skills that increases the new firm’s capability to survive and grow. Although the relationship between funding mechanisms and KIE is quite complex, KIE firms might be more attractive to venture capitalists or business angels.
+
+Another characteristic of the formation phase is the type of their main client. Whether it is a consumer or another business or public organisation, this may determine the nature of entrepreneurship and the level of knowledge intensity. The knowledge base of a company is directly related to the set of problems it faces and solutions it provides to its clients (López-Ortega et al., [2016](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR70 "López-Ortega, M., Torres-Castro, S., & Rosas-Carrasco, O. (2016, December 9). Psychometric properties of the satisfaction with life scale (SWLS): Secondary analysis of the Mexican health and aging study. Health and Quality of Life Outcomes. BioMed Central Ltd. 
+                  https://doi.org/10.1186/s12955-016-0573-9
+                  
+                ")). Thus, public organisations as clients (B2G) trigger innovation by placing an order for a product or a service that does not exist (Edquist & Zabala-Iturriagagoitia, [2012](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR32 "Edquist, C., & Zabala-Iturriagagoitia, J. M. (2012). Public procurement for innovation as mission-oriented innovation policy. Research Policy, 41(10), 1757–1769. 
+                  https://doi.org/10.1016/j.respol.2012.04.022
+                  
+                ")). In the same vein, newly established firms focusing to companies target group (B2B) may address more sophisticated needs, requirements, and problems to tackle with. Hence, we formulate the following hypothesis:
+
+> H2: Early phase characteristics affect the knowledge intensity of the new venture. More specifically new ventures (a) coming from a university parent organisation or not related to a parent organisation, (b) being funded by venture capital, and/or (c) responding to the demand of public or private organisations are expected to present higher knowledge intensity.
+
+### The Business Environment
+
+Firms are increasingly confronted with transformation pressure due to technological change, deregulation, and the entrance of new competitors at the global level. Organisations with capabilities to adapt to change and innovate are more likely to survive and grow (Geroski, [1995](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR43 "Geroski, P. A. (1995). What do we know about entry? International Journal of Industrial Organization, 13(4), 421–440. 
+                  https://doi.org/10.1016/0167-7187(95)00498-X
+                  
+                "); Lundvall & Nielsen, [1999](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR73 "Lundvall, B.-Å., & Nielsen, P. (1999). Competition and transformation in the learning economy: illustrated by the Danish case. Revue d’Economie Industrielle, Nr. 88, 67–90. 
+                  https://vbn.aau.dk/en/publications/competition-and-transformation-in-the-learning-economy-illustrate
+                  
+                . Accessed 23 October 2020")). The more is the transformation pressure that the firms are confronted with and the greater is the number of competitors, the more the firms innovate in order to survive (Lundvall & Nielsen, [1999](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR73 "Lundvall, B.-Å., & Nielsen, P. (1999). Competition and transformation in the learning economy: illustrated by the Danish case. Revue d’Economie Industrielle, Nr. 88, 67–90. 
+                  https://vbn.aau.dk/en/publications/competition-and-transformation-in-the-learning-economy-illustrate
+                  
+                . Accessed 23 October 2020")).
+
+Hence, when it comes to new ventures, the relationship with competition and uncertainty is not straightforward. Several authors argue that the development of start-ups occurs in highly competitive environments. More specifically, it is argued that competition is an important factor in the decision of entrepreneurial venturing. Whether expressed on the basis of price or more sophisticated quality characteristics, it is expected that the higher the competition intensity, the more the new ventures need to reveal unique and high potential characteristics in order to react to a more restricted range of opportunities and enter a field with important rivalry, and they also exploit knowledge generated by incumbent firms (Ensley et al., [2002](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR36 "Ensley, M. D., Pearson, A. W., & Amason, A. C. (2002). Understanding the dynamics of new venture top management teams: Cohesion, conflict, and new venture performance. Journal of Business Venturing, 17(4), 365–386. 
+                  https://doi.org/10.1016/S0883-9026(00)00065-3
+                  
+                "); Acs et al.,[2009](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR1 "Acs, Z. J., Braunerhjelm, P., Audretsch, D. B., et al. (2009). The knowledge spillover theory of entrepreneurship. Small Business Economics, 32, 15–30. 
+                  https://doi.org/10.1007/s11187-008-9157-3
+                  
+                ")).
+
+However, in more turbulent and changing environments, firms are more difficult to enter, especially where barriers are high due to already important investments in knowledge. Furthermore, it has been buttressed that higher appropriation possibilities (and less competition) create better opportunities for high returns for a specific period before competition catches up (Lumpkin & Dess,[2001](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR71 "Lumpkin, G. T., & Dess, G. G. (2001). Linking two dimensions of entrepreneurial orientation to firm performance: The moderating role of environment and industry life cycle. Journal of Business Venturing, 16, 429–451. 
+                  https://doi.org/10.1016/S0883-9026(00)00048-3
+                  
+                "); Casson,[2003](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR20 "Casson, M. (2003). Entrepreneurship, business culture and the theory of the firm. In Z. J. Acs, & D. B. Audretsch (Eds.), Handbook of entrepreneurship research (pp. 223–246). 2003 Kluwer Academic Publishers. Printed in Great Britain.")).
+
+Plummer and Acs ([2014](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR83 "Plummer, L. A., & Acs, Z. (2014). Localized competition in the knowledge spillover theory of entrepreneurship. Journal of Business Venturing, 29(1), 121–136. 
+                  https://EconPapers.repec.org/RePEc:eee:jbvent:v:29:y:2014:i:1:p:121-136
+                  
+                ")) combined two elements in their research: (i) one that relates to the supply side suggesting that rivalry results to knowledge investment that increases the amount of knowledge and the likelihood for knowledge-driven entrepreneurship; (ii) second that a greater number of rivals reduce the propensity to launch a new knowledge intensive venture because entrepreneurial profits are more uncertain. They have shown that whereas higher competition in local contexts generates more knowledge and increases opportunities of exploitation by entrepreneurs, it also has adverse effects as it reduces the share of these opportunities per entrepreneur. They extended their analysis, looking at regional factors that counteract this negative effect of localised competition, giving new insights into the role of competition on knowledge-driven entrepreneurship.
+
+By definition, KIE firms interact more with innovation systems than do other firms, thus accessing a rich pool of knowledge, they are innovative and bring change, and they face high uncertainty as introducing novelty and change (Malerba & McKelvey, [2019](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR77 "Malerba, F., & McKelvey, M. (2019). Knowledge-intensive innovative entrepreneurship. Foundations and Trends® in Entrepreneurship, 14(6), 555–681. 
+                  https://doi.org/10.1561/0300000075
+                  
+                "), [2020](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR78 "Malerba, F., & McKelvey, M. (2020). Knowledge-intensive innovative entrepreneurship integrating Schumpeter, evolutionary economics, and innovation systems. Small Business Economics, 54(2), 503–522. 
+                  https://doi.org/10.1007/s11187-018-0060-2
+                  
+                ")). We thus assume that entrepreneurs will forgo launching a knowledge intensive venture when expectations for profits are eroded by intense competition.
+
+> H3: Knowledge intensity of newly established entrepreneurial ventures tends to be higher where competition intensity is lower.
+
+### Performance of Knowledge Intensive Firms
+
+It is however important to link absorptive capacity to the performance of these knowledge intensive entrepreneurial ventures and look at their dynamics. It has been widely pointed out that firms facing increasing competitive pressure in globalised markets need to ensure their long-term competitive position in the global market by putting emphasis on innovative activities, creation of high added-value, exploitation of complementarities with technological advancements, as well as on the recognition and quick response to new market needs and market opportunities. At the firm’s formation phase, the founders’ perception of how to combine their endowments with market opportunities affects the success of the firm, at least in the short run (Grebel et al., [2003](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR44 "Grebel, T., Pyka, A., & Hanusch, H. (2003). An evolutionary approach to the theory of entrepreneurship. Industry & Innovation, 10(4), 493–514. 
+                  https://doi.org/10.1080/1366271032000163702
+                  
+                ")).
+
+Protogerou et al. ([2017](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR84 "Protogerou, A., Caloghirou, Y., & Vonortas, N. S. (2017). Determinants of young firms’ innovative performance: Empirical evidence from Europe. Research Policy, 46(7), 1312–1326. 
+                  https://doi.org/10.1016/j.respol.2017.05.011
+                  
+                ")) provided evidence that aspects of both internal factors, especially those encapsulated in the human capital, and external factors such as technology collaborations and networking with universities are important in explaining young firms’ innovative activity.
+
+Other research provides evidence of how different dimensions of absorptive capacity influence innovation (Crist et al., [2017](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR29 "Crist, E., Mora, C., & Engelman, R. (2017). The interaction of human population, food production, and biodiversity protection. Science, 356(6335), 260–264. 
+                  https://doi.org/10.1126/science.aal2011
+                  
+                "); Fosfuri & Tribó, [2008](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR40 "Fosfuri, A., & Tribó, J. A. (2008). Exploring the antecedents of potential absorptive capacity and its impact on innovation performance. Omega, 36(2), 173–187. 
+                  https://doi.org/10.1016/j.omega.2006.06.012
+                  
+                "); Lane & Lubatkin, [1998](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR63 "Lane, P. J., & Lubatkin, M. (1998). Relative absorptive capacity and interorganizational learning. Strategic Management Journal, 19(5), 461–477. 
+                  https://doi.org/10.1002/(sici)1097-0266(199805)19:5%3c461::aid-smj953%3e3.0.co;2-l
+                  
+                "); Lane et al., [2001](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR64 "Lane, P. J., Salk, J. E., & Lyles, M. A. (2001). Absorptive capacity, learning, and performance in international joint ventures. Strategic Management Journal, 22(12), 1139–1161. 
+                  https://doi.org/10.1002/smj.206
+                  
+                "); Makri et al., [2006](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR74 "Makri, M., Lane, P. J., & Gomez-Mejia, L. R. (2006). Ceo incentives, innovation, and performance in technology-intensive firms: A reconciliation of outcome and behavior-based incentive schemes. Strategic Management Journal, 27(11), 1057–1080. 
+                  https://doi.org/10.1002/smj.560
+                  
+                ")). Furthermore, accumulated knowledge in the context of newly established ventures is vital for their survival and performance (Adams et al., [2016](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR2 "Adams, P., Fontana, R., & Malerba, F. (2016). User-industry spinouts: Downstream industry knowledge as a source of new firm entry and survival. Organization Science, 27(1), 18–35. 
+                  https://doi.org/10.1287/orsc.2015.1029
+                  
+                "); Agarwal & Shah, [2014](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR3 "Agarwal, R., & Shah, S. K. (2014). Knowledge sources of entrepreneurship: Firm formation by academic, user and employee innovators. Research Policy, 43(7), 1109–1133. 
+                  https://doi.org/10.1016/j.respol.2014.04.012
+                  
+                "); Malerba & McKelvey, [2016](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR75 "Malerba, F., & McKelvey, M. (2016). Knowledge intensive entrepreneurship: Conceptual framework. In F. Malerba, Y. Caloghirou, M. McKelvey, & S. Radoševic (Eds.), Dynamics of knowledge-intensive entrepreneurship: business strategy and public policy (1st ed.). London: Routledge. 
+                  https://www.routledge.com/Dynamics-of-Knowledge-Intensive-Entrepreneurship-Business-Strategy-and/Malerba-Caloghirou-McKelvey-Radosevic/p/book/9780367868987
+                  
+                ")). Larrañeta et al. ([2017](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR65 "Larrañeta, B., González, J. L. G., & Aguilar, R. (2017). Early efforts to develop absorptive capacity and their performance implications: Differences among corporate and independent ventures. The Journal of Technology Transfer, 42(3), 485–509.")) have focused on the performance implications of the distinct dimensions of absorptive capacity, pointing to the need of investigating its direct effects on performance and not to intermediate outcomes such as innovation.
+
+Following this line of research, we investigate whether KIE is linked to better business performance and competitiveness as we expect that high added-value ventures possess a premium in comparison with firms that are less knowledge intensive. In addition, we investigate how absorptive capacity of founders affects performance of these ventures.
+
+Linking absorptive capacity and KIE to business performance and internationalisation, measured with objective measures such as sales and exports, contributes in our view to avoid tautology, as KIE by definition encapsulates innovation and thus is by definition linked to some type of innovativeness.
+
+> H4:Higher knowledge intensity reflects to better business performance of new ventures.
+
+Moreover, founders with a strong educational background and experience in the main sector of activity know better the market, thus, can make decisions with better effects in the sales performance of the company and its internationalisation, a fact that is strengthened during their career path.
+
+> H5: Entrepreneurial absorptive capacity leads to higher business performance and competitive position of the new venture.
+
+The arguments developed so far alongside their corresponding research hypotheses are presented in a schematic representation of our conceptual framework (Fig.[1](https://link.springer.com/article/10.1007/s13132-023-01465-9#Fig1)).
+
+**Fig. 1**
+
+The conceptual model
+
+## Research Design and Methodology
+
+### Data Collection and Characteristics
+
+Our research deploys data available from a sample of 3861 entrepreneurial venture firms, building on the results of a large field survey undertaken in the context of the AEGIS project.[Footnote 1](https://doi.org/10.1007/s13132-023-01465-9#Fn1) The aim of the project was to study the interactions between knowledge, innovation, economic growth, and social well-being in Europe focusing on knowledge intensive entrepreneurship (KIE), considered a mechanism of change mediating between the creation of knowledge and its transformation into economic activity. The survey population is based on the firms included in the AMADEUS database.[Footnote 2](https://doi.org/10.1007/s13132-023-01465-9#Fn2) A number of screening questions allowed to capture newly established firms. The survey has been conducted in late fall 2010 and early spring 2011 and was a pioneer exploratory attempt in collecting in-depth empirical data to identify typologies of new knowledge intensive firms, established during the period 2001–2007. The information collected referred to firms from a variety of economic sectors with activities in the industry and in services, from 9 European countries, namely the Czech Republic, Denmark, France, Germany, Greece, Italy, Portugal, Sweden, and the UK.[Footnote 3](https://doi.org/10.1007/s13132-023-01465-9#Fn3) Firms were contacted by telephone to complete a questionnaire online. Information used in this paper relates exclusively to the formation phase of entrepreneurial ventures. The empirical work builds on information concerning the founding team, the characteristics during the early formation phase of the venture, the competitive environment, and their performance for a 3-year period after foundation.[Footnote 4](https://doi.org/10.1007/s13132-023-01465-9#Fn4)
+
+This survey remains until nowadays a unique firm survey supporting the empirical investigation of newly established knowledge intensive ventures, looking at various aspects of this phenomenon.
+
+### Measures of the Model
+
+Following the collected data, an adaptation process of the dataset started. Firstly, a set of variables were operationalised for testing the effect of the research model. All the variables relevant to the hypotheses were grouped and tested using exploratory (EFA) and confirmatory factor analysis (CFA), creating a set of multiple variable items fitted for the conceptual constructs. Consequently, only a selective set of variables showed satisfying results for being included in the empirical model. Therefore, the final set of variables and constructs[Footnote 5](https://doi.org/10.1007/s13132-023-01465-9#Fn5) with their description, conceptual structure, and appropriate descriptive statistics is shown in Appendix Table [3](https://link.springer.com/article/10.1007/s13132-023-01465-9#Tab3).
+
+#### Dependent Variables (Endogenous Variables)
+
+There are three dependent variables, based on our conceptual model, namely knowledge intensive entrepreneurship, export intensity, and evolution of sales.
+
+*   _Knowledge intensive entrepreneurship_ (labelled as KIE): We defined as knowledge intensive entrepreneurial ventures the cases satisfying both criteria: (1) having more than 10% of employees[Footnote 6](https://doi.org/10.1007/s13132-023-01465-9#Fn6) with a university degree, and (2) introducing a product or process innovation. The constructed dependent variable is considered a scale variable, taking the value of 1 if the firm does not meet any of these criteria, the value of 2 if the firm does not innovate but meets the first criterion on employees with a university degree, the value of 3 if the firm presents at least one product or process innovation and meets the first criterion, and the value of 4 if the firm presents both product and process innovation and meets the first criterion as well.
+
+*   _Export intensity_ (labelled as exports): For business performance, the variable used information on exports over time as collected from the survey. The variable refers to the average percentage (%) of the firm’s sales directed in the international market during a 3-year period, 2007 to 2009. The score ranges from 0 to 100% with the 0% being the lowest (non-existence export intensity) and 100% being the highest score (high export intensity). Exports can also be considered a proxy for competitiveness.
+
+*   _Evolution of sales_ (labelled as sales): For business performance, the variable used information on evolution of sales over time as collected from the survey. The variable refers to the average percentage (%) of increase/decrease in the firm’s sales during a 3-year period, 2007 to 2009. The score ranges from−100 to 100% with the−100% being the lowest and 100% being the highest score.
+
+#### Independent Variables (Exogenous Variables)
+
+The independent variables were subdivided in three groups, namely (1) entrepreneurial absorptive capacity, (2) the early phase firm characteristics during the formation process, and (3) business environment which refers to competition intensity.
+
+Entrepreneurial absorptive capacity is depicted by two latent variables, “_prior educational attainment of founder(s)_” and “experiential skills”, which are a result of CFA and model specifications. In more detail, the latent variable regarding the experiential skills of the founders is depicted by the variables (i) type of expertise attained through education, (ii) market knowledge, (iii) the work experience in the current activity field, (iv) the design knowledge, and (v) the network ties formed and built by the founders during their previous career. The latent variable regarding prior education is a single-structure construct defined by the prior educational attainment of founder(s), which is presented as follows:
+
+_Prior educational attainment of founder(s)_ (labelled as educational attainment): The variable is a single-item latent variable and refers to the educational background of the founders of the founding team. For each founder, the educational attainment is measured by taking the values: 1, elementary education; 2, secondary education; 3, bachelor’s degree; 4, postgraduate degree; 5, Ph.D. degree. The initial variable of the founding team’s education is based on the average score across the founding members. Thus, the value of 5 corresponds to a team with PhD degree(s) and 1 for a founding team with only elementary education.
+
+Below are the five indicators forming the latent variable regarding the experiential skills:
+
+*   _Expertise attained through education_ (labelled as expertise): The variable constructed is ordinal and reflects whether the founder(s) have a technical expertise, economic expertise, or both. The results are based on the factor analysis of the main areas of expertise relevant to the operations of the firm. Thus, it is measured by taking the value of 3 for a founding team that has both technical and economic expertise, the value of 2 for a founding team that has either technical or economical experts, and 1 for a founding team that has none.
+
+*   _Knowledge of the market_ (labelled as market knowledge): The variable refers to the importance of the founders’ knowledge regarding the operating market.
+
+*   _Work experience in the current activity field_ (labelled as work experience): The variable refers to the importance of the founders’ work experience.
+
+*   _Design knowledge_ (labelled as design knowledge): The variable refers to the importance of the design knowledge possessed by the founders.
+
+*   _Networks built during previous career_ (labelled as network)[Footnote 7](https://doi.org/10.1007/s13132-023-01465-9#Fn7): The variable refers to the networking capability of the founders.
+
+The variables formulating the latent variable describing the early formation phase firm’s characteristics are labelled as early phase firm characteristics.
+
+*   Main client (labelled as B2B, B2G, and B2C): The variable refers to the most important type of customer for the firm. The main customer of the firm can be another business firm, the public sector or the final consumer. For the measurement model and because of the nature of the variable, it is broken down in 3 different variables, B2B (business to business), B2G (business to government), and B2C (business to consumer). Each variable is a dummy variable taking the value 1 if the client is not the main one and 2 otherwise. In the model, the variables used are B2B and B2G.
+
+*   _Parent organisation_ (labelled as PO_Uni, PO_Com, and PO_Non): The variable refers to the parent organisation from which the firm originates. The parent organisation can be another company, a university, or none. For the purpose of the measurement model and because of the nature of the variable, it is broken down in 3 different variables, PO_Uni (university as parent organisation), PO_Com (company as parent organisation), and PO_None (no parent organisation). Each variable is a dummy variable taking the values of 2 if the parent is the corresponded one and 1 otherwise. The variables used in the model are PO_Uni and PO_None.
+
+*   _Equity funding_ (labelled as equity): The variable is binary and refers to the source of funding during the formation process. It is measured by taking the value of 2 if the source of funding is a venture capital or business angel and 1 if there was no equity funding.
+
+Additionally, two variables formulate the latent variable describing competition intensity:
+
+*   _Density of competition_ (labelled as density): As an ordinal variable, it refers to the intensity of competition. It shows the number of businesses offering the same products and/or services to the same potential customers. Greater number of firms corresponds to higher competition. It is measured by taking the value of 3 for high competition, the value of 2 for low competition, and 1 for no competition.
+
+*   _Predictability of competitors behaviours_ (labelled as predictability): The variable is based on a Likert-scale and refers to the assessment of the business environment in which the firm operates. Higher predictability corresponds to less uncertainty and vice versa. In the principal industry in which the firm operates the activities of the major competitors range from highly unpredictable meaning high uncertainty (value of 5) to highly predictable meaning low uncertainty (value of 1).
+
+#### Control Variables
+
+In our effort to mitigate for the confounding effect from other independent variables and reducing characteristics which collide with the variables of the sample (Atinc et al., [2012](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR5 "Atinc, G., Simmering, M. J., & Kroll, M. J. (2012). Control variable use and reporting in macro and micro management research. Organizational Research Methods, 15(1), 57–74. 
+                  https://doi.org/10.1177/1094428110397773
+                  
+                "); Cheung & Lau, [2008](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR21 "Cheung, G. W., & Lau, R. S. (2008). Testing mediation and suppression effects of latent variables. Organizational Research Methods, 11(2), 296–325. 
+                  https://doi.org/10.1177/1094428107300343
+                  
+                ")), we included two control variables trying to capture economic and institutional aspects of the business environment, namely GDP per capita and ease of doing business.[Footnote 8](https://doi.org/10.1007/s13132-023-01465-9#Fn8)
+
+*   _GDP per capita_ (labelled as GDPpc): The variable is numeric and refers to the gross domestic product (GDP) per capita for each country. The year of reference is 2011 and it is counted in the international standard of US dollars ($). The data was extracted by the database of World Development Indicators of the World Data Bank (The World Bank Group, [2020](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR94 "The World Bank Group. (2020). GDP per capita (current US$) | Data. World Bank. 
+                  https://data.worldbank.org/indicator/NY.GDP.PCAP.CD
+                  
+                . Accessed 23 October 2020")).
+
+*   _Ease of doing business_ (labelled as frontier): This variable is scale and refers to the ranking made by the World Bank in the Annual Report of Doing Business. More specifically, the variable is based on the distance to the frontier; thus, the ranking scale is from 100: lowest performance (greatest distance) to 0: highest performance (being the frontier and the leading country) in this category (The World Bank Group, [2019](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR93 "The World Bank Group. (2019). Doing business 2019. World Bank, 304. 
+                  http://www.doingbusiness.org/en/reports/global-reports/doing-business-2019
+                  
+                ")).
+
+The relation of early-phase entrepreneurship and income levels is rather ambiguous. On the one hand in wealthier economies, individuals are more likely to have access to the necessary resources for starting and developing a new venture, although motivation to create a start-up might be higher in lower-income economies as they might not have alternative income sources. On the other hand, in lower income countries there might be less intensive competition in high-added value new products and services and growing demand for such products (Bosma et al., [2020](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR14 "Bosma, N., Hill, S., Ionescu-Somers, A., Kelley, D., Levie, J., & Tarnawa, A. (2020). GEM - Global entrepreneurshio monitor 2019/2020 Global Report."), p. 38). Of course, our survey includes high income countries but at different levels. This means that in higher-income economies, KIE ventures tend to be a smaller part of the overall early-stage entrepreneurship activity than in lower-income economies. Early-stage entrepreneurial activity is also influenced by the ease of starting and developing businesses in each economy as different institutional and regulatory frameworks (legal, fiscal and tax regulations, property rights, organisational arrangements for small firms support or promotion of inter-organisational linkages, etc.) are enabling or constraining the choice of a person to become an entrepreneur and/or the probabilities to scale up. Weak public institutions raise the effective cost of doing business, and in particular, the cost of engaging in higher risk activities such as innovative and cutting-edge ventures.
+
+Appendix Table [3](https://link.springer.com/article/10.1007/s13132-023-01465-9#Tab3)presents some descriptive statistics of the variables used, broken down to two groups; the first corresponds to firms with no KIE characteristics and the second with KIE characteristics.
+
+### Estimation Method: The PLS-SEM Approach
+
+Due to the nature and characteristics of the hypothesised model, the paper adopts an advanced quantitative analytical statistical method, partial least square structural equation modelling (PLS-SEM), to analyse the dataset sample and test the hypotheses (Fornell & Cha, [1994](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR39 "Fornell, C., & Cha, J. (1994). Partial least squares. advanced methods of marketing research. Scientific Research Publishing, 407, 52–78. 
+                  https://www.scirp.org/(S(lz5mqp453edsnp55rrgjct55))/reference/ReferencesPapers.aspx?ReferenceID=1960153
+                  
+                . Accessed 23 October 2020"); Hair et al., [2011](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR47 "Hair, J. F., Ringle, C. M., & Sarstedt, M. (2011). PLS-SEM: Indeed a silver bullet. Journal of Marketing Theory and Practice, 19(2), 139–152. 
+                  https://doi.org/10.2753/MTP1069-6679190202
+                  
+                "); Lohmöller, [1989](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR69 "Lohmöller, J.-B. (1989). Basic principles of model building. In Latent Variable Path Modeling with Partial Least Squares (pp. 13–26). Physica-Verlag HD. 
+                  https://doi.org/10.1007/978-3-642-52512-4_1
+                  
+                ")). This technique is preferred for estimating causal relationships between variables,[Footnote 9](https://doi.org/10.1007/s13132-023-01465-9#Fn9) in comparison to the covariance-based approach (CB-SEM), a stricter technique. PLS-SEM is variance based and has advantages which allow our model to focus on maximising the variance of its dependent variables explained by the independent ones (Henseler et al., [2009](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR54 "Henseler, J., Ringle, C. M., & Sinkovics, R. R. (2009). The use of partial least squares path modeling in international marketing. Advances in International Marketing, 20(2009), 277–319. 
+                  https://doi.org/10.1108/S1474-7979(2009)0000020014
+                  
+                "), [2012](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR52 "Henseler, J., Ringle, C. M., & Sarstedt, M. (2012). Using partial least squares path modeling in advertising research: Basic concepts and recent issues. Handbook of Research on International Advertising, (November 2014), 252–276. 
+                  https://doi.org/10.4337/9781781001042.00023
+                  
+                ")) and to estimate the maximum likelihood or multivariate normality (Chin & Newsted, [1999](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR23 "Chin, W. W., & Newsted, P. R. (1999). Structural equation modeling analysis with small samples using partial least squares. Statistical Strategies for Small Sample Research, 1(1), 307–341."); Hair et al., [2011](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR47 "Hair, J. F., Ringle, C. M., & Sarstedt, M. (2011). PLS-SEM: Indeed a silver bullet. Journal of Marketing Theory and Practice, 19(2), 139–152. 
+                  https://doi.org/10.2753/MTP1069-6679190202
+                  
+                "), [2012](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR48 "Hair, J. F., Ringle, C. M., & Sarstedt, M. (2012). Partial least squares: The better approach to structural equation modeling? Long Range Planning, 45(5–6), 312–319. 
+                  https://doi.org/10.1016/j.lrp.2012.09.011
+                  
+                ")).
+
+Before running the PLS-SEM[Footnote 10](https://doi.org/10.1007/s13132-023-01465-9#Fn10) model, a series of tests were conducted, showing that the sample is adequate (Barclay et al., [1995](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR11 "Barclay, D., Thompson, R., & dan Higgins, C. (1995). The partial least squares (PLS) approach to causal modeling: Personal computer adoption and use an illustration. Technology Studies, 2(2), 285–309."); Hair Jr. et al.,[2016](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR49 "Hair Jr., J. F. ., Hult, G. T. M. ., Ringle, C. M. ., & Sarstedt, M. (2016). A primer on partial least squares structural equation modeling. SAGE Publications, Inc.")) with no multicollinearity constrains (Farrar & Glauber, [1967](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR38 "Farrar, D. E., & Glauber, R. R. (1967). Multicollinearity in regression analysis: The problem revisited. The Review of Economics and Statistics, 49(1), 92. 
+                  https://doi.org/10.2307/1937887
+                  
+                "); Grewal et al., [2004](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR46 "Grewal, D., Levy, M., & Lehmann, D. R. (2004, January 1). Retail branding and customer loyalty: An overview. Journal of Retailing. JAI. 
+                  https://doi.org/10.1016/j.jretai.2004.10.001
+                  
+                "); Mansfield & Helms, [1982](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR79 "Mansfield, E. R., & Helms, B. P. (1982). Detecting multicollinearity. The American Statistician, 36(3a), 158–160. 
+                  https://doi.org/10.1080/00031305.1982.10482818
+                  
+                ")). Additionally, all latent variables satisfy two conditions: (1) the conceptual meaning is similar and (2) the statistical tests approve the combination, which can be either reflective or formative.[Footnote 11](https://doi.org/10.1007/s13132-023-01465-9#Fn11)
+
+The analysis and evaluation of the model are based on the measurement model, which examines the relationship of the indicators and the constructs, and on the structural model, which evaluates the paths between the latent variables (Hair et al., [2011](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR47 "Hair, J. F., Ringle, C. M., & Sarstedt, M. (2011). PLS-SEM: Indeed a silver bullet. Journal of Marketing Theory and Practice, 19(2), 139–152. 
+                  https://doi.org/10.2753/MTP1069-6679190202
+                  
+                "); Rasoolimanesh et al., [2014](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR86 "Rasoolimanesh, S. M., Jaafar, M., & Badarulzaman, N. (2014). Examining the contributing factors for the successful implementation of city development strategy in Qazvin City, Iran. Cities, 41(PA), 10–19. 
+                  https://doi.org/10.1016/j.cities.2014.05.002
+                  
+                ")).
+
+## Results
+
+### Measurement Model
+
+Initially, we examined the reliability and validity of our first-order latent variables. As suggested by Hair Jr. et al. ([2016](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR49 "Hair Jr., J. F. ., Hult, G. T. M. ., Ringle, C. M. ., & Sarstedt, M. (2016). A primer on partial least squares structural equation modeling. SAGE Publications, Inc.")), to evaluate the reliability of the reflective constructs, we used the composite reliability and Cronbach’s alpha coefficients. The reliability of the statistically significant indicators is ensured through the outer loadings and weights of both reflective and formative latent variables (Barclay et al., [1995](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR11 "Barclay, D., Thompson, R., & dan Higgins, C. (1995). The partial least squares (PLS) approach to causal modeling: Personal computer adoption and use an illustration. Technology Studies, 2(2), 285–309."); Chin, [1998](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR22 "Chin, W. W. (1998). Commentary issues and opinion on structural equation modeling clear reporting. Modern Methods for Business Research Methodology for Business and Management, 22(1), vii–xvi."); Duarte & Raposo, [2010](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR31 "Duarte, P. A. O., & Raposo, M. L. B. (2010). A PLS model to study brand preference: An application to the mobile phone market. In Handbook of Partial Least Squares. 
+                  https://doi.org/10.1007/978-3-540-32827-8_21
+                  
+                "); Hair et al., [2011](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR47 "Hair, J. F., Ringle, C. M., & Sarstedt, M. (2011). PLS-SEM: Indeed a silver bullet. Journal of Marketing Theory and Practice, 19(2), 139–152. 
+                  https://doi.org/10.2753/MTP1069-6679190202
+                  
+                ")), which most of them surpass the value of 0.5 (see Appendix Table [4](https://link.springer.com/article/10.1007/s13132-023-01465-9#Tab4)). Furthermore, the composite reliability value (0.784) and the corresponding value of average variance extracted (AVE) (0.646) of the reflective variable “competition intensity” indicate a relatively high reliability and a linear homogeneity between the reflective construct and its independent variables. Additionally, using the technic heterotrait-monotrait ratio (HTMT), we evaluated the discriminant validity of the constructs (Garson, [2012](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR41 "Garson, G. D. (2012). Testing statistical assumptions: Blue book series. Asheboro: Statistical Associate Publishing, 12, 15, 16–20, 24, 31, 41–43, 44, 46–48, 50. 
+                  https://www.researchgate.net/profile/Jurandy_Penitente-Filho/post/What_is_the_best_statistical_method_to_correlate_immunohistochemestry_and_rt-pcr/attachment/59d61d9879197b807797853c/AS:271755204071424@1441802897825/download/assumptions.pdf
+                  
+                "); Hair et al., [2011](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR47 "Hair, J. F., Ringle, C. M., & Sarstedt, M. (2011). PLS-SEM: Indeed a silver bullet. Journal of Marketing Theory and Practice, 19(2), 139–152. 
+                  https://doi.org/10.2753/MTP1069-6679190202
+                  
+                ")), and according to the limitations suggested by Henseler et al. ([2015](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR53 "Henseler, J., Ringle, C. M., & Sarstedt, M. (2015). A new criterion for assessing discriminant validity in variance-based structural equation modeling. Journal of the Academy of Marketing Science, 43(1), 115–135. 
+                  https://doi.org/10.1007/s11747-014-0403-8
+                  
+                ")), we see a clear distinction between the variables (see Appendix Table [5](https://link.springer.com/article/10.1007/s13132-023-01465-9#Tab5)).
+
+### Structural Model
+
+Table [1](https://link.springer.com/article/10.1007/s13132-023-01465-9#Tab1) shows the criteria assessing the predictive quality of the structural model’s capability to predict. For KIE, the adjusted _R_ 2 and the Stone–Geisser’s _Q_ 2 are considered satisfactory (Chin, [1998](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR22 "Chin, W. W. (1998). Commentary issues and opinion on structural equation modeling clear reporting. Modern Methods for Business Research Methodology for Business and Management, 22(1), vii–xvi."); Höck & Ringle, [2010](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR57 "Höck, M., & Ringle, C. M. (2010). Local strategic networks in the software industry: An empirical analysis of the value continuum. International Journal of Knowledge Management Studies, 4(2), 132–151. 
+                  https://doi.org/10.1504/IJKMS.2010.030789
+                  
+                ")) ensuring that the predictive validity of the model is adequate for the endogenous latent construct (knowledge intensive entrepreneurship) (Chin, [1998](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR22 "Chin, W. W. (1998). Commentary issues and opinion on structural equation modeling clear reporting. Modern Methods for Business Research Methodology for Business and Management, 22(1), vii–xvi."); Geisser,[1974](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR42 "Geisser, S. (1974). A predictive approach to the random effect model. Biometrika, 61(1), 101–107. 
+                  https://doi.org/10.1093/biomet/61.1.101
+                  
+                "); Ruiz et al., [2008](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR90 "Ruiz, D. M., Gremler, D. D., Washburn, J. H., & Carrión, G. C. (2008). Service value revisited: Specifying a higher-order, formative measure. Journal of Business Research, 61(12), 1278–1291. 
+                  https://doi.org/10.1016/j.jbusres.2008.01.015
+                  
+                "); Stone, [1974](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR92 "Stone, M. (1974). Cross-validation and multinomial prediction. Biometrika, 61(3), 509–515. 
+                  https://doi.org/10.1093/biomet/61.3.509
+                  
+                "); Jugend et al., [2018](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR60 "Jugend, D., Jabbour, C. J. C., Alves Scaliza, J. A., Rocha, R. S., Junior, J. A. G., Latan, H., & Salgado, M. H. (2018). Relationships among open innovation, innovative performance, government support and firm size: Comparing Brazilian firms embracing different levels of radicalism in innovation. Technovation, 74–75(January), 54–65. 
+                  https://doi.org/10.1016/j.technovation.2018.02.004
+                  
+                ")). Furthermore, by using the bootstrapping technique, we tested the significance of the PLS estimates via the inner variance inflation factor (VIF) (Chin, [1998](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR22 "Chin, W. W. (1998). Commentary issues and opinion on structural equation modeling clear reporting. Modern Methods for Business Research Methodology for Business and Management, 22(1), vii–xvi."); Hair et al., [2012](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR48 "Hair, J. F., Ringle, C. M., & Sarstedt, M. (2012). Partial least squares: The better approach to structural equation modeling? Long Range Planning, 45(5–6), 312–319. 
+                  https://doi.org/10.1016/j.lrp.2012.09.011
+                  
+                "); Ringle et al., [2015](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR88 "Ringle, C. M. ., Wende, S., & Becker, J.-M. (2015). SmartPLS 3. Bönningstedt: SmartPLS. 
+                  http://www.smartpls.com
+                  
+                "))[Footnote 12](https://doi.org/10.1007/s13132-023-01465-9#Fn12) indicating no serious multicollinearity problems (Table [1](https://link.springer.com/article/10.1007/s13132-023-01465-9#Tab1)) (Diamantopoulos & Siguaw, [2006](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR30 "Diamantopoulos, A., & Siguaw, J. A. (2006). Formative versus reflective indicators in organizational measure development: A comparison and empirical illustration. British Journal of Management, 17(4), 263–282. 
+                  https://doi.org/10.1111/j.1467-8551.2006.00500.x
+                  
+                "); Garson, [2012](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR41 "Garson, G. D. (2012). Testing statistical assumptions: Blue book series. Asheboro: Statistical Associate Publishing, 12, 15, 16–20, 24, 31, 41–43, 44, 46–48, 50. 
+                  https://www.researchgate.net/profile/Jurandy_Penitente-Filho/post/What_is_the_best_statistical_method_to_correlate_immunohistochemestry_and_rt-pcr/attachment/59d61d9879197b807797853c/AS:271755204071424@1441802897825/download/assumptions.pdf
+                  
+                ")).
+
+**Table 1 Results of the latent variables of the structural model (_N_ = 3136)**
+
+[Full size table](https://link.springer.com/article/10.1007/s13132-023-01465-9/tables/1)
+
+Ultimately, the outer model shows the standardised path coefficients (direct effect) and the desirable level of significance (0.05) of the _p_-values of the formulated relations (Chin, [1998](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR22 "Chin, W. W. (1998). Commentary issues and opinion on structural equation modeling clear reporting. Modern Methods for Business Research Methodology for Business and Management, 22(1), vii–xvi."); Efron, [1988](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR33 "Efron, B. (1988). Logistic regression, survival analysis, and the Kaplan-Meier curve. Journal of the American Statistical Association, 83(402), 414–425. 
+                  https://doi.org/10.1080/01621459.1988.10478612
+                  
+                "); Hayes, [2009](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR50 "Hayes, A. F. (2009). Beyond Baron and Kenny: Statistical mediation analysis in the new millennium. Communication Monographs, 76(4), 408–420. 
+                  https://doi.org/10.1080/03637750903310360
+                  
+                ")). Αll the occurred direct and indirect effects in the model and the significance of each variable are shown in Table [6](https://link.springer.com/article/10.1007/s13132-023-01465-9#Tab6) in the Appendix.
+
+### Findings
+
+Following the above statistical analysis of the research model we can evaluate our results. In summary, our empirical results along with the corresponding research hypotheses are presented in Table [2](https://link.springer.com/article/10.1007/s13132-023-01465-9#Tab2). According to these results all our hypotheses are supported.
+
+**Table 2 Direct and indirect effects among constructs and testing of hypotheses**
+
+[Full size table](https://link.springer.com/article/10.1007/s13132-023-01465-9/tables/2)
+
+Hypothesis H1 refers to the role of entrepreneurial absorptive capacity in terms of its antecedents and constituent elements. We evaluated the impact of the prior educational attainment of the founding team indicated by the empirical results (_β_ 1 = 0.525, _t_ = 39.272, _p_ = 0.000) and found a significant and positive relationship between the variable and KIE. The same goes for the variable experiential skills (_β_ 1 = 0,062, _t_ = 3.927, _p_ = 0.047). In more detail, as it is presented in Appendix Table [6](https://link.springer.com/article/10.1007/s13132-023-01465-9#Tab6), results related to the knowledge of the market (_β_ 1a = 0.027, _t_ = 3.964, _p_ = 0.000), the work experience in the current activity field (_β_ 1b = 0.025, _t_ = 4.052, _p_ = 0.000), the design knowledge (_β_ 1c = 0.016, _t_ = 3.530, _p_ = 0.000), the network built during previous career (_β_ 1d = 0.027, _t_ = 4.012, _p_ = 0.000), and expertise of the founding team attained through education (_β_ 1e = 0.010, _t_ = 2.762, _p_ = 0.000) prove a significant positive relationship with KIE. From the above results, H1 is strongly supported.
+
+Furthermore, H2 referring to the role of early-phase firm characteristics depicted by equity funding, the type of parent organisation, and the type of client is supported as the impact of the latent variable “early phase firm characteristics” on KIE is significantly positive (_β_ 2 = 0.078, _t_ = 1.890, _p_ = 0.059). Hypothesis H3 expects knowledge intensity of entrepreneurial ventures to be higher where competition intensity is lower. The empirical results indicate a significant and negative relationship between KIE formation and competition intensity (_β_ 3 = −0.039, _t_ = 2.639, _p_ = 0.008). Therefore, H3 is supported. Regarding H4, it is expected that knowledge intensive entrepreneurial ventures are likely to demonstrate better business performance, which is evaluated through the evolution of sales and export intensity. The impact of KIE estimated on the evolution of sales (_β_ 4a = 0.084, _t_ = 4.697, _p_ = 0.000) and on export intensity (_β_ 4b = 0.075, _t_ = 4.441, _p_ = 0.000) indicates a positive and significant relationship, thus, confirming H4.
+
+Finally, regarding the indirect effect of entrepreneurial absorptive capacity on the two indicators of business performance, our results show that superior educational attainment (_β_ 5a1 = 0.044 and _β_ 5a2 = 0.039, _p_ a1,2 = 0.000) and experiential skills (_β_ 5b1 = 0.005 and _β_ 5b2 = 0.005, _p_ 5b1 = 0.005 and _p_ 5b2 = 0.004, have a positive and significant indirect effect on evolution of sales and export intensity, confirming H5.
+
+Following our analysis, we can highlight the most important results:
+
+*   The most important hypothesis which refers to entrepreneurial absorptive capacity is supported. More precisely, there is a statistically significant positive relationship of the educational level of the founders with the formation of knowledge intensive entrepreneurship. In addition, there are some distinctive specific skills of the founders that influence positively the knowledge intensity of newly established firms such as the previous work experience, the market knowledge, and design capability, networking capability of the founding partners, as well as technical and managerial expertise. Particularly, there are synergistic gains from the combination of technical and managerial skills. These results are consistent with findings of other empirical research (Colombo & Grilli, [2005](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR27 "Colombo, M. G., & Grilli, L. (2005). Founders’ human capital and the growth of new technology-based firms: A competence-based view. Research Policy, 34(6), 795–816. 
+                  https://doi.org/10.1016/j.respol.2005.03.010
+                  
+                "); Protogerou et al., [2017](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR84 "Protogerou, A., Caloghirou, Y., & Vonortas, N. S. (2017). Determinants of young firms’ innovative performance: Empirical evidence from Europe. Research Policy, 46(7), 1312–1326. 
+                  https://doi.org/10.1016/j.respol.2017.05.011
+                  
+                ")).
+
+*   Regarding early phase characteristics of the formation of the company, the relevant hypothesis is supported. Equity funding is more related to higher value-added entrepreneurship. New ventures having no parent organisation or resulting as spinoffs of a university are likely to be more knowledge intensive. The same is supported for new ventures targeting private or public firms (B2B or B2G) being more knowledge intensive.
+
+*   Competition intensity has a significant negative impact on the knowledge intensity of new ventures, as expected. The intensity of competition approximated by the predictability of the competitors’ actions and the number of competitors does not seem to favour the development of KIE.
+
+*   Regarding firm performance, our results show a positive effect of KIE ventures and a clear indirect positive effect of entrepreneurial absorptive capacity on business performance measured by evolution of sales and export intensity. This result points to the importance of human capital as enabling factor of market success, as measured at least with some hard indicators such as sales and exports.
+
+*   The country’s income level as measured by GDP per capita is negatively related to KIE. This result follows the general trend as found in the Global Entrepreneurship Monitor survey, where out of the 33 economies which belong to the high-income group, 26 have a lower total early-stage entrepreneurial activity rate compared to other income levels (less than 15%) (Bosma et al., [2020](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR14 "Bosma, N., Hill, S., Ionescu-Somers, A., Kelley, D., Levie, J., & Tarnawa, A. (2020). GEM - Global entrepreneurshio monitor 2019/2020 Global Report.")). As our sample is including high income countries, our finding suggests that such trend could be anticipated within specific groups of countries as well and could be explained by the fact that in higher income levels people are more in their comfortable zone and do not take high risks related to technological change and innovation. As far as the ease of doing business is concerned, results are not surprising: countries which are closer to the frontier are more likely to have higher levels of knowledge intensive entrepreneurial ventures.
+
+## Conclusions
+
+This paper builds on the concept of entrepreneurial absorptive capacity (Qian & Acs,[2013](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR85 "Qian, H., & Acs, Z. J. (2013). An absorptive capacity theory of knowledge spillover entrepreneurship. Small Business Economics, 40, 185–197. 
+                  https://doi.org/10.1007/s11187-011-9368-x
+                  
+                ")) and empirically investigates the effect of the founders’ absorptive capacity on the knowledge intensity of new entrepreneurial ventures. The empirical results provide new insights into the concept of absorptive capacity by measuring it at the individual level and looking at the effect of its constituent elements.
+
+Based on the results presented in the previous section, we could claim that founders’ characteristics related to absorptive capacity are important in the formation process of knowledge intensive entrepreneurship. During this early phase, organisational procedures, routines, and attributes are not fully developed yet and thus entrepreneurial absorptive capacity as depicted by the level of education and experiential skills can build an interface with external knowledge sources to monitor, assimilate, and transform this into new economic value. Our results indicate that founders’ educational level and specific experiential skills positively relate to the formation of knowledge intensive entrepreneurship and to higher performance entrepreneurship. These findings imply that a strong pool of highly educated people with complementary skills could enhance the market potential of high added value ventures and reshape the basis of new firms’ competitive advantage. Investment in education, training, and lifelong learning could boost exploitation of research outcomes from students and academics and result in reshaping the landscape of entrepreneurial ventures and changing its characteristics. They also imply that the combination of technical and managerial skills might prove beneficial in raising the quality of entrepreneurial venturing and the successful exploitation of business opportunities. This is particularly relevant for engineers that need to combine their technical skills with understanding business environment and the internal environment of the firm.
+
+Our results are particularly important as they reveal the positive effect of absorptive capacity’s antecedents to business and competitive performance of newly established firms, measured with objective measures such as sales and exports. Overall, entrepreneurial absorptive capacity might reduce the cost and risk of innovation development through exploitation of external knowledge sources, increasing the possibility for viable KIE ventures. This finding corroborates with results of other studies (Lane et al., [2001](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR64 "Lane, P. J., Salk, J. E., & Lyles, M. A. (2001). Absorptive capacity, learning, and performance in international joint ventures. Strategic Management Journal, 22(12), 1139–1161. 
+                  https://doi.org/10.1002/smj.206
+                  
+                "); Tsai, [2001](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR95 "Tsai, W. (2001). Knowledge transfer in intraorganizational networks: Effects of network position and absorptive capacity on business unit innovation and performance. Academy of Management Journal, 44(5), 996–1004."); Wales et al., [2013](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR97 "Wales, W. J., Parida, V., & Patel, P. C. (2013). Too much of a good thing? Absorptive capacity, firm performance, and the moderating role of entrepreneurial orientation. Strategic Management Journal, 34(5), 622–633.")). It also complements the results of Larrañeta et al. ([2017](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR65 "Larrañeta, B., González, J. L. G., & Aguilar, R. (2017). Early efforts to develop absorptive capacity and their performance implications: Differences among corporate and independent ventures. The Journal of Technology Transfer, 42(3), 485–509.")) as it reflects in more details the role played by venture founder’s education and prior experience. It also strengthens expectations about the contribution of micro-structural characteristics to developing a competitive business ecosystem. Entrepreneurs should constantly develop their knowledge but at the same time search and interact with external sources of knowledge to widen the opportunities for viable KIE ventures. The indirect effect of absorptive capacity on business performance infers that for developing successful KIE, technology and industrial policy should shape the appropriate environment for absorbing and further developing external knowledge at the individual level, which extends similar considerations that have been shown at the country level (Chung et al.,[2022](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR24 "Chung, D., Jung, H., & Lee, Y. (2022). Investigating the relationship of high-tech entrepreneurship and innovation efficacy: The moderating role of absorptive capacity. Technovation, 111, 102393. ISSN 0166-4972. 
+                  https://doi.org/10.1016/j.technovation.2021.102393
+                  
+                ")).
+
+Furthermore, about 25% of our sample does not present knowledge intensity according to the criteria set in the empirical research. Firms included in this group are related to specific founders’ characteristics and demonstrate lower business performance. From a policy perspective this finding could interestingly point to specific criteria when evaluating new projects and entrepreneurial teams.
+
+The same goes for early phase firm characteristics that according to our findings significantly and positively influence knowledge intensity of new ventures. This result should be considered when evaluating entrepreneurial ideas and projects to be funded.
+
+The positive relationship of equity funding with KIE points to the important role that new funding mechanisms can play in seizing opportunities. The fact that new entrepreneurs might have limited access to financial resources could be counterbalanced by the development of new funding mechanisms resulting from specific technology policy objectives. Furthermore, the fact that ventures targeting B2B and B2G clients are of higher knowledge intensity suggests that demand pull explanations in the creation of high added value ventures are valid. Sophisticated demand can be at the origins of transforming the entrepreneurial landscape, and to this respect, policy initiatives should (a) support collaborative interfirm relationships where users lead the development of innovative solutions in cooperation with the potential developer(s) and (b) use public procurement as a tool for raising demand of innovative solutions, fostering the development of specific activities and capabilities helping to move down quickly the learning curve and reap dynamic economies of scale. Our results also verify that independent new ventures or spinoffs can become game changers in industries where incumbent firms have already established evolutionary paths. Incumbent companies are less able or not willing to commercialise the fruits of their research launching new ventures because of established routines and commitment to existent technological paths.
+
+Finally, competition intensity appears to be negatively related to KIE. This could be explained by the fact that our sample refers to new ventures at their very early phase. During the formation process KIE firms, as embedding more advanced and sophisticated knowledge with more uncertain outcomes, might need a more protected environment to flourish and succeed. Intense competition restricts appropriation opportunities and signals to potential entrepreneurs that they do not have a long-term horizon to invest in the specific market, making them less willing to invest in activities with long delay between investment and payback. This finding is not in contradiction with findings of other research (Plummer & Acs,[2014](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR83 "Plummer, L. A., & Acs, Z. (2014). Localized competition in the knowledge spillover theory of entrepreneurship. Journal of Business Venturing, 29(1), 121–136. 
+                  https://EconPapers.repec.org/RePEc:eee:jbvent:v:29:y:2014:i:1:p:121-136
+                  
+                ")). Another comment of policy relevance is that as competition intensity has a negative effect on KIE, someone might not expect any particular trade-off between competition policy and technical progress. Our results indicate that there is justification in promoting more synergistic mechanisms that would allow the increase of knowledge stock on the one hand but shape less rivalry on the other. These results could be differentiated when taking into consideration the amount of investment initially needed, as they might depend on the level of capital intensity of the new ventures. Further research could distinguish between ventures requiring higher and those requiring lower initial capital investment and link it to competition intensity.
+
+However, when industrial transformation is in play with emergence of new sectors and high uncertainty in the decision-making process, policy initiatives should take into consideration leveraging human capital qualifications, supporting the development of well-connected actors to financial and knowledge sources, using criteria for boosting entrepreneurial ventures that meet sophisticated demand and develop what Fagerberg et al. ([2007](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR37 "Fagerberg, J., Srholec, M., & Knell, M. (2007). The competitiveness of nations: Why some countries prosper while others fall behind. World Development, 35(10), 1595–1620. 
+                  https://doi.org/10.1016/j.worlddev.2007.01.004
+                  
+                ")) define as demand competitiveness.
+
+### Limitations and Future Research Questions
+
+Our study’s limitations refer mostly to the fact that we have only a snapshot of the reality omitting the dynamic effects of the different factors studied.
+
+Furthermore, the issue of competition in relation with innovation activity has been studied through different lens but is indeed a complex issue. Our measure for competition intensity lying on the number and behaviour of rival firms catches some of the aspects. Further research should take into consideration (i) the type of activity of incumbent firms in the sector where new ventures are launched, and whether it is complementary or similar to the incumbents, (ii) a distinction of fields of activity in terms of required initial capital investment.
+
+An interesting path for future research could also refer to the attributes of the founders and how they relate to the distinct dimensions of absorptive capacity, namely potential and realised. Furthermore, as absorptive capacity is domain limited and related to limits to cognition, it is important to look at how and under which conditions the new venture enters a development phase depending less on the founders’ attributes and more on the organisational capabilities built over time.
+
+## Notes
+
+1.   EU-funded research project “Advancing Knowledge intensive Entrepreneurship and Innovation for Economic Growth and Social Well-Being in Europe” (AEGIS), 7th Framework Programme for RTD, European Commission (contract number: 225134).
+
+2.   Amadeus is a pan-European database containing information on public and private companies that publish financial statements.
+
+3.   The person contacted was a member of the founding team, giving information about the other founders, if any, as well. The questionnaire included six sections collecting general information about the firm, the founders, the formation process, the market environment, enablers, and constraints in the operation of the firm, the strategy of the firm, and its innovation and business performance.
+
+4.   For more detailed information on the AEGIS survey and its outcome, we refer the reader to Malerba et al. ([2016](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR76 "Malerba, F., Caloghirou, Y., McKelvey, M., & Radosevic, S.  (2016) Dynamics of knowledge-intensive entrepreneurship: business strategy and public policy. Routledge, London.")).
+
+5.   The constructs used to test the hypotheses of the paper are formatted by multiple items of first-order dimensions.
+
+6.   The cut-off point of 10% was chosen as it is remarkably close to the median (6.7%) of the sample, and there were no firms in the range from 6.7 to 10%.
+
+7.   Market knowledge, work experience, design knowledge, and network are measured at a Likert scale taking the value of 5 for high importance and 1 otherwise.
+
+8.   The size of the company was excluded as a control variable, since 90% of the sample has less than 20 full-time employees.
+
+9.   The model includes binary variables, thus requiring a less strict model (Hair et al., [2011](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR47 "Hair, J. F., Ringle, C. M., & Sarstedt, M. (2011). PLS-SEM: Indeed a silver bullet. Journal of Marketing Theory and Practice, 19(2), 139–152. 
+                  https://doi.org/10.2753/MTP1069-6679190202
+                  
+                ")).
+
+10.   For the needs of this study, the software used is SmartPLS 3.0 (Hair et al., [2012](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR48 "Hair, J. F., Ringle, C. M., & Sarstedt, M. (2012). Partial least squares: The better approach to structural equation modeling? Long Range Planning, 45(5–6), 312–319. 
+                  https://doi.org/10.1016/j.lrp.2012.09.011
+                  
+                ")).
+
+11.   When the changes in the construct are projected in the variables, reflective constructs are formulated, and when the changes in the indicators cause changes in the construct, formative constructs are formulated. The direction of changes is presented in arrows (Diamantopoulos & Siguaw,[2006](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR30 "Diamantopoulos, A., & Siguaw, J. A. (2006). Formative versus reflective indicators in organizational measure development: A comparison and empirical illustration. British Journal of Management, 17(4), 263–282. 
+                  https://doi.org/10.1111/j.1467-8551.2006.00500.x
+                  
+                "); Hair et al., [2011](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR47 "Hair, J. F., Ringle, C. M., & Sarstedt, M. (2011). PLS-SEM: Indeed a silver bullet. Journal of Marketing Theory and Practice, 19(2), 139–152. 
+                  https://doi.org/10.2753/MTP1069-6679190202
+                  
+                "); Jarvis et al., [2003](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR58 "Jarvis, C. B., MacKenzie, S. B., & Podsakoff, P. M. (2003). A critical review of construct indicators and measurement model misspecification in marketing and consumer research. Journal of Consumer Research, 30(2), 199–218. 
+                  https://doi.org/10.1086/376806
+                  
+                ")).
+
+12.   We use 5000 bootstrap samples for the final model as recommended by Hair et al. ([2011](https://link.springer.com/article/10.1007/s13132-023-01465-9#ref-CR47 "Hair, J. F., Ringle, C. M., & Sarstedt, M. (2011). PLS-SEM: Indeed a silver bullet. Journal of Marketing Theory and Practice, 19(2), 139–152. 
+                  https://doi.org/10.2753/MTP1069-6679190202
+                  
+                ")).
+
+## References
+
+*   Acs, Z. J., Braunerhjelm, P., Audretsch, D. B., et al. (2009). The knowledge spillover theory of entrepreneurship. _Small Business Economics,_ _32_, 15–30. [https://doi.org/10.1007/s11187-008-9157-3](https://doi.org/10.1007/s11187-008-9157-3)
+
+[Article](https://link.springer.com/doi/10.1007/s11187-008-9157-3)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=The%20knowledge%20spillover%20theory%20of%20entrepreneurship&journal=Small%20Business%20Economics&doi=10.1007%2Fs11187-008-9157-3&volume=32&pages=15-30&publication_year=2009&author=Acs%2CZJ&author=Braunerhjelm%2CP&author=Audretsch%2CDB)
+
+*   Adams, P., Fontana, R., & Malerba, F. (2016). User-industry spinouts: Downstream industry knowledge as a source of new firm entry and survival. _Organization Science,_ _27_(1), 18–35. [https://doi.org/10.1287/orsc.2015.1029](https://doi.org/10.1287/orsc.2015.1029)
+
+[Article](https://doi.org/10.1287%2Forsc.2015.1029)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=User-industry%20spinouts%3A%20Downstream%20industry%20knowledge%20as%20a%20source%20of%20new%20firm%20entry%20and%20survival&journal=Organization%20Science&doi=10.1287%2Forsc.2015.1029&volume=27&issue=1&pages=18-35&publication_year=2016&author=Adams%2CP&author=Fontana%2CR&author=Malerba%2CF)
+
+*   Agarwal, R., & Shah, S. K. (2014). Knowledge sources of entrepreneurship: Firm formation by academic, user and employee innovators. _Research Policy,_ _43_(7), 1109–1133. [https://doi.org/10.1016/j.respol.2014.04.012](https://doi.org/10.1016/j.respol.2014.04.012)
+
+[Article](https://doi.org/10.1016%2Fj.respol.2014.04.012)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=Knowledge%20sources%20of%20entrepreneurship%3A%20Firm%20formation%20by%20academic%2C%20user%20and%20employee%20innovators&journal=Research%20Policy&doi=10.1016%2Fj.respol.2014.04.012&volume=43&issue=7&pages=1109-1133&publication_year=2014&author=Agarwal%2CR&author=Shah%2CSK)
+
+*   Alvarez, S. A., & Busenitz, L. W. (2001). The entrepreneurship of resource-based theory. _Journal of Management,_ _27_(6), 755–775. [https://doi.org/10.1177/014920630102700609](https://doi.org/10.1177/014920630102700609)
+
+[Article](https://doi.org/10.1177%2F014920630102700609)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=The%20entrepreneurship%20of%20resource-based%20theory&journal=Journal%20of%20Management&doi=10.1177%2F014920630102700609&volume=27&issue=6&pages=755-775&publication_year=2001&author=Alvarez%2CSA&author=Busenitz%2CLW)
+
+*   Atinc, G., Simmering, M. J., & Kroll, M. J. (2012). Control variable use and reporting in macro and micro management research. _Organizational Research Methods,_ _15_(1), 57–74. [https://doi.org/10.1177/1094428110397773](https://doi.org/10.1177/1094428110397773)
+
+[Article](https://doi.org/10.1177%2F1094428110397773)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=Control%20variable%20use%20and%20reporting%20in%20macro%20and%20micro%20management%20research&journal=Organizational%20Research%20Methods&doi=10.1177%2F1094428110397773&volume=15&issue=1&pages=57-74&publication_year=2012&author=Atinc%2CG&author=Simmering%2CMJ&author=Kroll%2CMJ)
+
+*   Audretsch, D. B., & Keilbach, M. (2007). The theory of knowledge spillover entrepreneurship. _Journal of Management Studies,_ _44_(7), 1242–1254. [https://doi.org/10.1111/j.1467-6486.2007.00722.x](https://doi.org/10.1111/j.1467-6486.2007.00722.x)
+
+[Article](https://doi.org/10.1111%2Fj.1467-6486.2007.00722.x)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=The%20theory%20of%20knowledge%20spillover%20entrepreneurship&journal=Journal%20of%20Management%20Studies&doi=10.1111%2Fj.1467-6486.2007.00722.x&volume=44&issue=7&pages=1242-1254&publication_year=2007&author=Audretsch%2CDB&author=Keilbach%2CM)
+
+*   Audretsch, D. B., Kuratko, D. F., & Link, A. N. (2016). Dynamic entrepreneurship and technology-based innovation. _Journal of Evolutionary Economics,_ _26_(3), 603–620. [https://doi.org/10.1007/s00191-016-0458-4](https://doi.org/10.1007/s00191-016-0458-4)
+
+[Article](https://link.springer.com/doi/10.1007/s00191-016-0458-4)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=Dynamic%20entrepreneurship%20and%20technology-based%20innovation&journal=Journal%20of%20Evolutionary%20Economics&doi=10.1007%2Fs00191-016-0458-4&volume=26&issue=3&pages=603-620&publication_year=2016&author=Audretsch%2CDB&author=Kuratko%2CDF&author=Link%2CAN)
+
+*   Audretsch, D. B., & Lehmann, E. E. (2004). Financing high-tech growth: The role of banks and venture capitalists. _Schmalenbach Business Review,_ _56_(4), 340–357. [https://doi.org/10.1007/bf03396700](https://doi.org/10.1007/bf03396700)
+
+[Article](https://link.springer.com/doi/10.1007/bf03396700)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=Financing%20high-tech%20growth%3A%20The%20role%20of%20banks%20and%20venture%20capitalists&journal=Schmalenbach%20Business%20Review&doi=10.1007%2Fbf03396700&volume=56&issue=4&pages=340-357&publication_year=2004&author=Audretsch%2CDB&author=Lehmann%2CEE)
+
+*   Autio, E. (2003). High-potential entrepreneurship in the light of GEM data. In _The Entrepreneurial Advantage of Nations: First Annual Global Entrepreneurship Symposium United Nations Headquarters_. Citeseer.
+
+*   Ávila, M. M. (2022). (2021) Competitive advantage and knowledge absorptive capacity: The mediating role of innovative capability. _Journal of the Knowledge Economy,_ _13_, 185–210. [https://doi.org/10.1007/s13132-020-00708-3](https://doi.org/10.1007/s13132-020-00708-3)
+
+[Article](https://link.springer.com/doi/10.1007/s13132-020-00708-3)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=%282021%29%20Competitive%20advantage%20and%20knowledge%20absorptive%20capacity%3A%20The%20mediating%20role%20of%20innovative%20capability&journal=Journal%20of%20the%20Knowledge%20Economy&doi=10.1007%2Fs13132-020-00708-3&volume=13&pages=185-210&publication_year=2022&author=%C3%81vila%2CMM)
+
+*   Barclay, D., Thompson, R., & dan Higgins, C. (1995). The partial least squares (PLS) approach to causal modeling: Personal computer adoption and use an illustration. _Technology Studies,_ _2_(2), 285–309.
+
+[Google Scholar](http://scholar.google.com/scholar_lookup?&title=The%20partial%20least%20squares%20%28PLS%29%20approach%20to%20causal%20modeling%3A%20Personal%20computer%20adoption%20and%20use%20an%20illustration&journal=Technology%20Studies&volume=2&issue=2&pages=285-309&publication_year=1995&author=Barclay%2CD&author=Thompson%2CR&author=dan%20Higgins%2C%20C.%2C)
+
+*   Birley, S. (1985). The role of networks in the entrepreneurial process. _Journal of Business Venturing,_ _1_(1), 107–117. [https://doi.org/10.1016/0883-9026(85)90010-2](https://doi.org/10.1016/0883-9026(85)90010-2)
+
+[Article](https://doi.org/10.1016%2F0883-9026%2885%2990010-2)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=The%20role%20of%20networks%20in%20the%20entrepreneurial%20process&journal=Journal%20of%20Business%20Venturing&doi=10.1016%2F0883-9026%2885%2990010-2&volume=1&issue=1&pages=107-117&publication_year=1985&author=Birley%2CS)
+
+*   Boccardelli, P., & Magnusson, M. G. (2006). Dynamic capabilities in early-phase entrepreneurship. _Knowledge and Process Management,_ _13_(3), 162–174. [https://doi.org/10.1002/kpm.255](https://doi.org/10.1002/kpm.255)
+
+[Article](https://doi.org/10.1002%2Fkpm.255)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=Dynamic%20capabilities%20in%20early-phase%20entrepreneurship&journal=Knowledge%20and%20Process%20Management&doi=10.1002%2Fkpm.255&volume=13&issue=3&pages=162-174&publication_year=2006&author=Boccardelli%2CP&author=Magnusson%2CMG)
+
+*   Bosma, N., Hill, S., Ionescu-Somers, A., Kelley, D., Levie, J., & Tarnawa, A. (2020). _GEM - Global entrepreneurshio monitor 2019/2020 Global Report_.
+
+*   Caiazza, R. (2015). Explaining innovation in mature industries: Evidences from Italian SMEs. _Technology Analysis & Strategic Management,_ _27_(8), 975–985.
+
+[Article](https://doi.org/10.1080%2F09537325.2015.1038511)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=Explaining%20innovation%20in%20mature%20industries%3A%20Evidences%20from%20Italian%20SMEs&journal=Technology%20Analysis%20%26%20Strategic%20Management&doi=10.1080%2F09537325.2015.1038511&volume=27&issue=8&pages=975-985&publication_year=2015&author=Caiazza%2CR)
+
+*   Caiazza, R., Belitski, M., & Audretsch, D. B. (2020). From latent to emergent entrepreneurship: The knowledge spillover construction circle. _The Journal of Technology Transfer,_ _45_(3), 694–704. [https://doi.org/10.1007/s10961-019-09719-y](https://doi.org/10.1007/s10961-019-09719-y)
+
+[Article](https://link.springer.com/doi/10.1007/s10961-019-09719-y)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=From%20latent%20to%20emergent%20entrepreneurship%3A%20The%20knowledge%20spillover%20construction%20circle&journal=The%20Journal%20of%20Technology%20Transfer&doi=10.1007%2Fs10961-019-09719-y&volume=45&issue=3&pages=694-704&publication_year=2020&author=Caiazza%2CR&author=Belitski%2CM&author=Audretsch%2CDB)
+
+*   Caloghirou, Y., Kastelli, I., & Tsakanikas, A. (2004). Internal capabilities and external knowledge sources: Complements or substitutes for innovative performance? _Technovation,_ _24_(1), 29–39. [https://doi.org/10.1016/S0166-4972(02)00051-2](https://doi.org/10.1016/S0166-4972(02)00051-2)
+
+[Article](https://doi.org/10.1016%2FS0166-4972%2802%2900051-2)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=Internal%20capabilities%20and%20external%20knowledge%20sources%3A%20Complements%20or%20substitutes%20for%20innovative%20performance%3F&journal=Technovation&doi=10.1016%2FS0166-4972%2802%2900051-2&volume=24&issue=1&pages=29-39&publication_year=2004&author=Caloghirou%2CY&author=Kastelli%2CI&author=Tsakanikas%2CA)
+
+*   Carlgren, L., Elmquist, M., & Rauth, I. (2016a). The challenges of using design thinking in industry - Experiences from five large firms. _Creativity and Innovation Management,_ _25_(3), 344–362. [https://doi.org/10.1111/caim.12176](https://doi.org/10.1111/caim.12176)
+
+[Article](https://doi.org/10.1111%2Fcaim.12176)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=The%20challenges%20of%20using%20design%20thinking%20in%20industry%20-%20Experiences%20from%20five%20large%20firms&journal=Creativity%20and%20Innovation%20Management&doi=10.1111%2Fcaim.12176&volume=25&issue=3&pages=344-362&publication_year=2016&author=Carlgren%2CL&author=Elmquist%2CM&author=Rauth%2CI)
+
+*   Carlgren, L., Rauth, I., & Elmquist, M. (2016b). Framing design thinking: The concept in idea and enactment. _Creativity and Innovation Management,_ _25_(1), 38–57. [https://doi.org/10.1111/caim.12153](https://doi.org/10.1111/caim.12153)
+
+[Article](https://doi.org/10.1111%2Fcaim.12153)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=Framing%20design%20thinking%3A%20The%20concept%20in%20idea%20and%20enactment&journal=Creativity%20and%20Innovation%20Management&doi=10.1111%2Fcaim.12153&volume=25&issue=1&pages=38-57&publication_year=2016&author=Carlgren%2CL&author=Rauth%2CI&author=Elmquist%2CM)
+
+*   Casson, M. (2003). Entrepreneurship, business culture and the theory of the firm. In Z. J. Acs, & D. B. Audretsch (Eds.), _Handbook of entrepreneurship research_ (pp. 223–246). 2003 Kluwer Academic Publishers. Printed in Great Britain.
+
+*   Cheung, G. W., & Lau, R. S. (2008). Testing mediation and suppression effects of latent variables. _Organizational Research Methods,_ _11_(2), 296–325. [https://doi.org/10.1177/1094428107300343](https://doi.org/10.1177/1094428107300343)
+
+[Article](https://doi.org/10.1177%2F1094428107300343)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=Testing%20mediation%20and%20suppression%20effects%20of%20latent%20variables&journal=Organizational%20Research%20Methods&doi=10.1177%2F1094428107300343&volume=11&issue=2&pages=296-325&publication_year=2008&author=Cheung%2CGW&author=Lau%2CRS)
+
+*   Chin, W. W. (1998). Commentary issues and opinion on structural equation modeling clear reporting. _Modern Methods for Business Research Methodology for Business and Management,_ _22_(1), vii–xvi.
+
+[Google Scholar](http://scholar.google.com/scholar_lookup?&title=Commentary%20issues%20and%20opinion%20on%20structural%20equation%20modeling%20clear%20reporting&journal=Modern%20Methods%20for%20Business%20Research%20Methodology%20for%20Business%20and%20Management&volume=22&issue=1&pages=vii-xvi&publication_year=1998&author=Chin%2CWW)
+
+*   Chin, W. W., & Newsted, P. R. (1999). Structural equation modeling analysis with small samples using partial least squares. _Statistical Strategies for Small Sample Research,_ _1_(1), 307–341.
+
+[Google Scholar](http://scholar.google.com/scholar_lookup?&title=Structural%20equation%20modeling%20analysis%20with%20small%20samples%20using%20partial%20least%20squares&journal=Statistical%20Strategies%20for%20Small%20Sample%20Research&volume=1&issue=1&pages=307-341&publication_year=1999&author=Chin%2CWW&author=Newsted%2CPR)
+
+*   Chung, D., Jung, H., & Lee, Y. (2022). Investigating the relationship of high-tech entrepreneurship and innovation efficacy: The moderating role of absorptive capacity. _Technovation, 111_, 102393. ISSN 0166-4972. [https://doi.org/10.1016/j.technovation.2021.102393](https://doi.org/10.1016/j.technovation.2021.102393)
+
+*   Cockburn, I. M., & Henderson, R. M. (1998). Absorptive capacity, coauthoring behavior, and the organization of research in drug discovery. _Journal of Industrial Economics,_ _46_(2), 157–182. [https://doi.org/10.1111/1467-6451.00067](https://doi.org/10.1111/1467-6451.00067)
+
+[Article](https://doi.org/10.1111%2F1467-6451.00067)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=Absorptive%20capacity%2C%20coauthoring%20behavior%2C%20and%20the%20organization%20of%20research%20in%20drug%20discovery&journal=Journal%20of%20Industrial%20Economics&doi=10.1111%2F1467-6451.00067&volume=46&issue=2&pages=157-182&publication_year=1998&author=Cockburn%2CIM&author=Henderson%2CRM)
+
+*   Cohen, W. M., & Levinthal, D. A. (1990). Absorptive capacity: A new perspective on learning and innovation. _Administrative Science Quarterly,_ _35_(1), 128. [https://doi.org/10.2307/2393553](https://doi.org/10.2307/2393553)
+
+[Article](https://doi.org/10.2307%2F2393553)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=Absorptive%20capacity%3A%20A%20new%20perspective%20on%20learning%20and%20innovation&journal=Administrative%20Science%20Quarterly&doi=10.2307%2F2393553&volume=35&issue=1&publication_year=1990&author=Cohen%2CWM&author=Levinthal%2CDA)
+
+*   Colombo, M. G., & Grilli, L. (2005). Founders’ human capital and the growth of new technology-based firms: A competence-based view. _Research Policy,_ _34_(6), 795–816. [https://doi.org/10.1016/j.respol.2005.03.010](https://doi.org/10.1016/j.respol.2005.03.010)
+
+[Article](https://doi.org/10.1016%2Fj.respol.2005.03.010)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=Founders%E2%80%99%20human%20capital%20and%20the%20growth%20of%20new%20technology-based%20firms%3A%20A%20competence-based%20view&journal=Research%20Policy&doi=10.1016%2Fj.respol.2005.03.010&volume=34&issue=6&pages=795-816&publication_year=2005&author=Colombo%2CMG&author=Grilli%2CL)
+
+*   Cowling, R. M., Procheş, Ş., & Vlok, J. H. J. (2005, March 1). On the origin of southern African subtropical thicket vegetation. _South African Journal of Botany_. NISC Pty Ltd. [https://doi.org/10.1016/S0254-6299(15)30144-7](https://doi.org/10.1016/S0254-6299(15)30144-7)
+
+*   Crist, E., Mora, C., & Engelman, R. (2017). The interaction of human population, food production, and biodiversity protection. _Science,_ _356_(6335), 260–264. [https://doi.org/10.1126/science.aal2011](https://doi.org/10.1126/science.aal2011)
+
+[Article](https://doi.org/10.1126%2Fscience.aal2011)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=The%20interaction%20of%20human%20population%2C%20food%20production%2C%20and%20biodiversity%20protection&journal=Science&doi=10.1126%2Fscience.aal2011&volume=356&issue=6335&pages=260-264&publication_year=2017&author=Crist%2CE&author=Mora%2CC&author=Engelman%2CR)
+
+*   Diamantopoulos, A., & Siguaw, J. A. (2006). Formative versus reflective indicators in organizational measure development: A comparison and empirical illustration. _British Journal of Management,_ _17_(4), 263–282. [https://doi.org/10.1111/j.1467-8551.2006.00500.x](https://doi.org/10.1111/j.1467-8551.2006.00500.x)
+
+[Article](https://doi.org/10.1111%2Fj.1467-8551.2006.00500.x)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=Formative%20versus%20reflective%20indicators%20in%20organizational%20measure%20development%3A%20A%20comparison%20and%20empirical%20illustration&journal=British%20Journal%20of%20Management&doi=10.1111%2Fj.1467-8551.2006.00500.x&volume=17&issue=4&pages=263-282&publication_year=2006&author=Diamantopoulos%2CA&author=Siguaw%2CJA)
+
+*   Duarte, P. A. O., & Raposo, M. L. B. (2010). A PLS model to study brand preference: An application to the mobile phone market. _In Handbook of Partial Least Squares_. [https://doi.org/10.1007/978-3-540-32827-8_21](https://doi.org/10.1007/978-3-540-32827-8_21)
+
+[Article](https://link.springer.com/doi/10.1007/978-3-540-32827-8_21)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=A%20PLS%20model%20to%20study%20brand%20preference%3A%20An%20application%20to%20the%20mobile%20phone%20market&journal=In%20Handbook%20of%20Partial%20Least%20Squares&doi=10.1007%2F978-3-540-32827-8_21&publication_year=2010&author=Duarte%2CPAO&author=Raposo%2CMLB)
+
+*   Edquist, C., & Zabala-Iturriagagoitia, J. M. (2012). Public procurement for innovation as mission-oriented innovation policy. _Research Policy,_ _41_(10), 1757–1769. [https://doi.org/10.1016/j.respol.2012.04.022](https://doi.org/10.1016/j.respol.2012.04.022)
+
+[Article](https://doi.org/10.1016%2Fj.respol.2012.04.022)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=Public%20procurement%20for%20innovation%20as%20mission-oriented%20innovation%20policy&journal=Research%20Policy&doi=10.1016%2Fj.respol.2012.04.022&volume=41&issue=10&pages=1757-1769&publication_year=2012&author=Edquist%2CC&author=Zabala-Iturriagagoitia%2CJM)
+
+*   Efron, B. (1988). Logistic regression, survival analysis, and the Kaplan-Meier curve. _Journal of the American Statistical Association,_ _83_(402), 414–425. [https://doi.org/10.1080/01621459.1988.10478612](https://doi.org/10.1080/01621459.1988.10478612)
+
+[Article](https://doi.org/10.1080%2F01621459.1988.10478612)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=Logistic%20regression%2C%20survival%20analysis%2C%20and%20the%20Kaplan-Meier%20curve&journal=Journal%20of%20the%20American%20Statistical%20Association&doi=10.1080%2F01621459.1988.10478612&volume=83&issue=402&pages=414-425&publication_year=1988&author=Efron%2CB)
+
+*   Eisenhardt, K. M., & Martin, J. A. (2000). Dynamic capabilities: What are they? _Strategic Management Journal,_ _21_(10–11), 1105–1121. [https://doi.org/10.1002/1097-0266(200010/11)21:10/11%3c1105::AID-SMJ133%3e3.0.CO;2-E](https://doi.org/10.1002/1097-0266(200010/11)21:10/11%3c1105::AID-SMJ133%3e3.0.CO;2-E)
+
+[Article](https://doi.org/10.1002%2F1097-0266%28200010%2F11%2921%3A10%2F11%3C1105%3A%3AAID-SMJ133%3E3.0.CO%3B2-E)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=Dynamic%20capabilities%3A%20What%20are%20they%3F&journal=Strategic%20Management%20Journal&doi=10.1002%2F1097-0266%28200010%2F11%2921%3A10%2F11%3C1105%3A%3AAID-SMJ133%3E3.0.CO%3B2-E&volume=21&issue=10%E2%80%9311&pages=1105-1121&publication_year=2000&author=Eisenhardt%2CKM&author=Martin%2CJA)
+
+*   Enkel, E., Heil, S., Hengstler, M., & Wirth, H. (2017). Exploratory and exploitative innovation: To what extent do the dimensions of individual level absorptive capacity contribute? _Technovation_, _60_–_61_(August 2015), 29–38. [https://doi.org/10.1016/j.technovation.2016.08.002](https://doi.org/10.1016/j.technovation.2016.08.002)
+
+*   Ensley, M. D., Pearson, A. W., & Amason, A. C. (2002). Understanding the dynamics of new venture top management teams: Cohesion, conflict, and new venture performance. _Journal of Business Venturing,_ _17_(4), 365–386. [https://doi.org/10.1016/S0883-9026(00)00065-3](https://doi.org/10.1016/S0883-9026(00)00065-3)
+
+[Article](https://doi.org/10.1016%2FS0883-9026%2800%2900065-3)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=Understanding%20the%20dynamics%20of%20new%20venture%20top%20management%20teams%3A%20Cohesion%2C%20conflict%2C%20and%20new%20venture%20performance&journal=Journal%20of%20Business%20Venturing&doi=10.1016%2FS0883-9026%2800%2900065-3&volume=17&issue=4&pages=365-386&publication_year=2002&author=Ensley%2CMD&author=Pearson%2CAW&author=Amason%2CAC)
+
+*   Fagerberg, J., Srholec, M., & Knell, M. (2007). The competitiveness of nations: Why some countries prosper while others fall behind. _World Development,_ _35_(10), 1595–1620. [https://doi.org/10.1016/j.worlddev.2007.01.004](https://doi.org/10.1016/j.worlddev.2007.01.004)
+
+[Article](https://doi.org/10.1016%2Fj.worlddev.2007.01.004)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=The%20competitiveness%20of%20nations%3A%20Why%20some%20countries%20prosper%20while%20others%20fall%20behind&journal=World%20Development&doi=10.1016%2Fj.worlddev.2007.01.004&volume=35&issue=10&pages=1595-1620&publication_year=2007&author=Fagerberg%2CJ&author=Srholec%2CM&author=Knell%2CM)
+
+*   Farrar, D. E., & Glauber, R. R. (1967). Multicollinearity in regression analysis: The problem revisited. _The Review of Economics and Statistics,_ _49_(1), 92. [https://doi.org/10.2307/1937887](https://doi.org/10.2307/1937887)
+
+[Article](https://doi.org/10.2307%2F1937887)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=Multicollinearity%20in%20regression%20analysis%3A%20The%20problem%20revisited&journal=The%20Review%20of%20Economics%20and%20Statistics&doi=10.2307%2F1937887&volume=49&issue=1&publication_year=1967&author=Farrar%2CDE&author=Glauber%2CRR)
+
+*   Fornell, C., & Cha, J. (1994). Partial least squares. advanced methods of marketing research. _Scientific Research Publishing_, _407_, 52–78. [https://www.scirp.org/(S(lz5mqp453edsnp55rrgjct55))/reference/ReferencesPapers.aspx?ReferenceID=1960153](https://www.scirp.org/(S(lz5mqp453edsnp55rrgjct55))/reference/ReferencesPapers.aspx?ReferenceID=1960153). Accessed 23 October 2020
+
+*   Fosfuri, A., & Tribó, J. A. (2008). Exploring the antecedents of potential absorptive capacity and its impact on innovation performance. _Omega,_ _36_(2), 173–187. [https://doi.org/10.1016/j.omega.2006.06.012](https://doi.org/10.1016/j.omega.2006.06.012)
+
+[Article](https://doi.org/10.1016%2Fj.omega.2006.06.012)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=Exploring%20the%20antecedents%20of%20potential%20absorptive%20capacity%20and%20its%20impact%20on%20innovation%20performance&journal=Omega&doi=10.1016%2Fj.omega.2006.06.012&volume=36&issue=2&pages=173-187&publication_year=2008&author=Fosfuri%2CA&author=Trib%C3%B3%2CJA)
+
+*   Garson, G. D. (2012). Testing statistical assumptions: Blue book series. _Asheboro: Statistical Associate Publishing_, 12, 15, 16–20, 24, 31, 41–43, 44, 46–48, 50. [https://www.researchgate.net/profile/Jurandy_Penitente-Filho/post/What_is_the_best_statistical_method_to_correlate_immunohistochemestry_and_rt-pcr/attachment/59d61d9879197b807797853c/AS:271755204071424@1441802897825/download/assumptions.pdf](https://www.researchgate.net/profile/Jurandy_Penitente-Filho/post/What_is_the_best_statistical_method_to_correlate_immunohistochemestry_and_rt-pcr/attachment/59d61d9879197b807797853c/AS:271755204071424@1441802897825/download/assumptions.pdf)
+
+*   Geisser, S. (1974). A predictive approach to the random effect model. _Biometrika,_ _61_(1), 101–107. [https://doi.org/10.1093/biomet/61.1.101](https://doi.org/10.1093/biomet/61.1.101)
+
+[Article](https://doi.org/10.1093%2Fbiomet%2F61.1.101)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=A%20predictive%20approach%20to%20the%20random%20effect%20model&journal=Biometrika&doi=10.1093%2Fbiomet%2F61.1.101&volume=61&issue=1&pages=101-107&publication_year=1974&author=Geisser%2CS)
+
+*   Geroski, P. A. (1995). What do we know about entry? _International Journal of Industrial Organization,_ _13_(4), 421–440. [https://doi.org/10.1016/0167-7187(95)00498-X](https://doi.org/10.1016/0167-7187(95)00498-X)
+
+[Article](https://doi.org/10.1016%2F0167-7187%2895%2900498-X)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=What%20do%20we%20know%20about%20entry%3F&journal=International%20Journal%20of%20Industrial%20Organization&doi=10.1016%2F0167-7187%2895%2900498-X&volume=13&issue=4&pages=421-440&publication_year=1995&author=Geroski%2CPA)
+
+*   Grebel, T., Pyka, A., & Hanusch, H. (2003). An evolutionary approach to the theory of entrepreneurship. _Industry & Innovation,_ _10_(4), 493–514. [https://doi.org/10.1080/1366271032000163702](https://doi.org/10.1080/1366271032000163702)
+
+[Article](https://doi.org/10.1080%2F1366271032000163702)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=An%20evolutionary%20approach%20to%20the%20theory%20of%20entrepreneurship&journal=Industry%20%26%20Innovation&doi=10.1080%2F1366271032000163702&volume=10&issue=4&pages=493-514&publication_year=2003&author=Grebel%2CT&author=Pyka%2CA&author=Hanusch%2CH)
+
+*   Greene, P. G., & Brown, T. E. (1997). Resource needs and the dynamic capitalism typology. _Journal of Business Venturing,_ _12_(3), 161–173.
+
+[Article](https://doi.org/10.1016%2FS0883-9026%2896%2900060-2)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=Resource%20needs%20and%20the%20dynamic%20capitalism%20typology&journal=Journal%20of%20Business%20Venturing&doi=10.1016%2FS0883-9026%2896%2900060-2&volume=12&issue=3&pages=161-173&publication_year=1997&author=Greene%2CPG&author=Brown%2CTE)
+
+*   Grewal, D., Levy, M., & Lehmann, D. R. (2004, January 1). Retail branding and customer loyalty: An overview. _Journal of Retailing_. JAI. [https://doi.org/10.1016/j.jretai.2004.10.001](https://doi.org/10.1016/j.jretai.2004.10.001)
+
+*   Hair, J. F., Ringle, C. M., & Sarstedt, M. (2011). PLS-SEM: Indeed a silver bullet. _Journal of Marketing Theory and Practice,_ _19_(2), 139–152. [https://doi.org/10.2753/MTP1069-6679190202](https://doi.org/10.2753/MTP1069-6679190202)
+
+[Article](https://doi.org/10.2753%2FMTP1069-6679190202)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=PLS-SEM%3A%20Indeed%20a%20silver%20bullet&journal=Journal%20of%20Marketing%20Theory%20and%20Practice&doi=10.2753%2FMTP1069-6679190202&volume=19&issue=2&pages=139-152&publication_year=2011&author=Hair%2CJF&author=Ringle%2CCM&author=Sarstedt%2CM)
+
+*   Hair, J. F., Ringle, C. M., & Sarstedt, M. (2012). Partial least squares: The better approach to structural equation modeling? _Long Range Planning,_ _45_(5–6), 312–319. [https://doi.org/10.1016/j.lrp.2012.09.011](https://doi.org/10.1016/j.lrp.2012.09.011)
+
+[Article](https://doi.org/10.1016%2Fj.lrp.2012.09.011)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=Partial%20least%20squares%3A%20The%20better%20approach%20to%20structural%20equation%20modeling%3F&journal=Long%20Range%20Planning&doi=10.1016%2Fj.lrp.2012.09.011&volume=45&issue=5%E2%80%936&pages=312-319&publication_year=2012&author=Hair%2CJF&author=Ringle%2CCM&author=Sarstedt%2CM)
+
+*   Hair Jr., J. F. ., Hult, G. T. M. ., Ringle, C. M. ., & Sarstedt, M. (2016). _A primer on partial least squares structural equation modeling_. _SAGE Publications, Inc._
+
+*   Hayes, A. F. (2009). Beyond Baron and Kenny: Statistical mediation analysis in the new millennium. _Communication Monographs,_ _76_(4), 408–420. [https://doi.org/10.1080/03637750903310360](https://doi.org/10.1080/03637750903310360)
+
+[Article](https://doi.org/10.1080%2F03637750903310360)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=Beyond%20Baron%20and%20Kenny%3A%20Statistical%20mediation%20analysis%20in%20the%20new%20millennium&journal=Communication%20Monographs&doi=10.1080%2F03637750903310360&volume=76&issue=4&pages=408-420&publication_year=2009&author=Hayes%2CAF)
+
+*   Helfat, C. E., & Lieberman, M. B. (2002). The birth of capabilities: Market entry and the importance of pre-history. _Industrial and Corporate Change,_ _11_(4), 725–760. [https://doi.org/10.1093/icc/11.4.725](https://doi.org/10.1093/icc/11.4.725)
+
+[Article](https://doi.org/10.1093%2Ficc%2F11.4.725)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=The%20birth%20of%20capabilities%3A%20Market%20entry%20and%20the%20importance%20of%20pre-history&journal=Industrial%20and%20Corporate%20Change&doi=10.1093%2Ficc%2F11.4.725&volume=11&issue=4&pages=725-760&publication_year=2002&author=Helfat%2CCE&author=Lieberman%2CMB)
+
+*   Henseler, J., Ringle, C. M., & Sarstedt, M. (2012). Using partial least squares path modeling in advertising research: Basic concepts and recent issues. _Handbook of Research on International Advertising_, (November 2014), 252–276. [https://doi.org/10.4337/9781781001042.00023](https://doi.org/10.4337/9781781001042.00023)
+
+*   Henseler, J., Ringle, C. M., & Sarstedt, M. (2015). A new criterion for assessing discriminant validity in variance-based structural equation modeling. _Journal of the Academy of Marketing Science,_ _43_(1), 115–135. [https://doi.org/10.1007/s11747-014-0403-8](https://doi.org/10.1007/s11747-014-0403-8)
+
+[Article](https://link.springer.com/doi/10.1007/s11747-014-0403-8)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=A%20new%20criterion%20for%20assessing%20discriminant%20validity%20in%20variance-based%20structural%20equation%20modeling&journal=Journal%20of%20the%20Academy%20of%20Marketing%20Science&doi=10.1007%2Fs11747-014-0403-8&volume=43&issue=1&pages=115-135&publication_year=2015&author=Henseler%2CJ&author=Ringle%2CCM&author=Sarstedt%2CM)
+
+*   Henseler, J., Ringle, C. M., & Sinkovics, R. R. (2009). The use of partial least squares path modeling in international marketing. _Advances in International Marketing,_ _20_(2009), 277–319. [https://doi.org/10.1108/S1474-7979(2009)0000020014](https://doi.org/10.1108/S1474-7979(2009)0000020014)
+
+[Article](https://doi.org/10.1108%2FS1474-7979%282009%290000020014)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=The%20use%20of%20partial%20least%20squares%20path%20modeling%20in%20international%20marketing&journal=Advances%20in%20International%20Marketing&doi=10.1108%2FS1474-7979%282009%290000020014&volume=20&issue=2009&pages=277-319&publication_year=2009&author=Henseler%2CJ&author=Ringle%2CCM&author=Sinkovics%2CRR)
+
+*   Hill, R. C., & Levenhagen, M. (1995). Metaphors and mental models: Sensemaking and sensegiving in innovative and entrepreneurial activities. _Journal of Management,_ _21_(6), 1057–1074. [https://doi.org/10.1177/014920639502100603](https://doi.org/10.1177/014920639502100603)
+
+[Article](https://doi.org/10.1177%2F014920639502100603)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=Metaphors%20and%20mental%20models%3A%20Sensemaking%20and%20sensegiving%20in%20innovative%20and%20entrepreneurial%20activities&journal=Journal%20of%20Management&doi=10.1177%2F014920639502100603&volume=21&issue=6&pages=1057-1074&publication_year=1995&author=Hill%2CRC&author=Levenhagen%2CM)
+
+*   Hirsch-Kreinsen, H., & Schwinge, I. (2014). _Knowledge-intensive entrepreneurship in low-tech industries_. Edward Elgar Publishing.
+
+*   Höck, M., & Ringle, C. M. (2010). Local strategic networks in the software industry: An empirical analysis of the value continuum. _International Journal of Knowledge Management Studies,_ _4_(2), 132–151. [https://doi.org/10.1504/IJKMS.2010.030789](https://doi.org/10.1504/IJKMS.2010.030789)
+
+[Article](https://doi.org/10.1504%2FIJKMS.2010.030789)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=Local%20strategic%20networks%20in%20the%20software%20industry%3A%20An%20empirical%20analysis%20of%20the%20value%20continuum&journal=International%20Journal%20of%20Knowledge%20Management%20Studies&doi=10.1504%2FIJKMS.2010.030789&volume=4&issue=2&pages=132-151&publication_year=2010&author=H%C3%B6ck%2CM&author=Ringle%2CCM)
+
+*   Jarvis, C. B., MacKenzie, S. B., & Podsakoff, P. M. (2003). A critical review of construct indicators and measurement model misspecification in marketing and consumer research. _Journal of Consumer Research,_ _30_(2), 199–218. [https://doi.org/10.1086/376806](https://doi.org/10.1086/376806)
+
+[Article](https://doi.org/10.1086%2F376806)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=A%20critical%20review%20of%20construct%20indicators%20and%20measurement%20model%20misspecification%20in%20marketing%20and%20consumer%20research&journal=Journal%20of%20Consumer%20Research&doi=10.1086%2F376806&volume=30&issue=2&pages=199-218&publication_year=2003&author=Jarvis%2CCB&author=MacKenzie%2CSB&author=Podsakoff%2CPM)
+
+*   Jiménez-Barrionuevo, M. M., García-Morales, V. J., & Molina, L. M. (2011). Validation of an instrument to measure absorptive capacity. _Technovation,_ _31_(5–6), 190–202. [https://doi.org/10.1016/j.technovation.2010.12.002](https://doi.org/10.1016/j.technovation.2010.12.002)
+
+[Article](https://doi.org/10.1016%2Fj.technovation.2010.12.002)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=Validation%20of%20an%20instrument%20to%20measure%20absorptive%20capacity&journal=Technovation&doi=10.1016%2Fj.technovation.2010.12.002&volume=31&issue=5%E2%80%936&pages=190-202&publication_year=2011&author=Jim%C3%A9nez-Barrionuevo%2CMM&author=Garc%C3%ADa-Morales%2CVJ&author=Molina%2CLM)
+
+*   Jugend, D., Jabbour, C. J. C., Alves Scaliza, J. A., Rocha, R. S., Junior, J. A. G., Latan, H., & Salgado, M. H. (2018). Relationships among open innovation, innovative performance, government support and firm size: Comparing Brazilian firms embracing different levels of radicalism in innovation. _Technovation,_ _74–75_(January), 54–65. [https://doi.org/10.1016/j.technovation.2018.02.004](https://doi.org/10.1016/j.technovation.2018.02.004)
+
+[Article](https://doi.org/10.1016%2Fj.technovation.2018.02.004)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=Relationships%20among%20open%20innovation%2C%20innovative%20performance%2C%20government%20support%20and%20firm%20size%3A%20Comparing%20Brazilian%20firms%20embracing%20different%20levels%20of%20radicalism%20in%20innovation&journal=Technovation&doi=10.1016%2Fj.technovation.2018.02.004&volume=74%E2%80%9375&issue=January&pages=54-65&publication_year=2018&author=Jugend%2CD&author=Jabbour%2CCJC&author=Alves%20Scaliza%2CJA&author=Rocha%2CRS&author=Junior%2CJAG&author=Latan%2CH&author=Salgado%2CMH)
+
+*   Kastelli, I., Caloghirou, Y., & Ioannides, S. (2004). Cooperative R&D as a means for knowledge creation. Experience from european publicly funded partnerships [1]. _International Journal of Technology Management_, _27_(8), 712–730. [https://doi.org/10.1504/IJTM.2004.004990](https://doi.org/10.1504/IJTM.2004.004990)
+
+*   Kogut, B., & Zander, U. (2009). Knowledge of the firm. Combinative capabilities, and the replication of technology. In _Knowledge in Organisations_ (pp. 17–36). Taylor and Francis. [https://doi.org/10.1287/orsc.3.3.383](https://doi.org/10.1287/orsc.3.3.383)
+
+*   Lane, P. J., & Lubatkin, M. (1998). Relative absorptive capacity and interorganizational learning. _Strategic Management Journal,_ _19_(5), 461–477. [https://doi.org/10.1002/(sici)1097-0266(199805)19:5%3c461::aid-smj953%3e3.0.co;2-l](https://doi.org/10.1002/(sici)1097-0266(199805)19:5%3c461::aid-smj953%3e3.0.co;2-l)
+
+[Article](https://doi.org/10.1002%2F%28sici%291097-0266%28199805%2919%3A5%3C461%3A%3Aaid-smj953%3E3.0.co%3B2-l)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=Relative%20absorptive%20capacity%20and%20interorganizational%20learning&journal=Strategic%20Management%20Journal&doi=10.1002%2F%28sici%291097-0266%28199805%2919%3A5%3C461%3A%3Aaid-smj953%3E3.0.co%3B2-l&volume=19&issue=5&pages=461-477&publication_year=1998&author=Lane%2CPJ&author=Lubatkin%2CM)
+
+*   Lane, P. J., Salk, J. E., & Lyles, M. A. (2001). Absorptive capacity, learning, and performance in international joint ventures. _Strategic Management Journal,_ _22_(12), 1139–1161. [https://doi.org/10.1002/smj.206](https://doi.org/10.1002/smj.206)
+
+[Article](https://doi.org/10.1002%2Fsmj.206)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=Absorptive%20capacity%2C%20learning%2C%20and%20performance%20in%20international%20joint%20ventures&journal=Strategic%20Management%20Journal&doi=10.1002%2Fsmj.206&volume=22&issue=12&pages=1139-1161&publication_year=2001&author=Lane%2CPJ&author=Salk%2CJE&author=Lyles%2CMA)
+
+*   Larrañeta, B., González, J. L. G., & Aguilar, R. (2017). Early efforts to develop absorptive capacity and their performance implications: Differences among corporate and independent ventures. _The Journal of Technology Transfer,_ _42_(3), 485–509.
+
+[Article](https://link.springer.com/doi/10.1007/s10961-016-9488-1)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=Early%20efforts%20to%20develop%20absorptive%20capacity%20and%20their%20performance%20implications%3A%20Differences%20among%20corporate%20and%20independent%20ventures&journal=The%20Journal%20of%20Technology%20Transfer&doi=10.1007%2Fs10961-016-9488-1&volume=42&issue=3&pages=485-509&publication_year=2017&author=Larra%C3%B1eta%2CB&author=Gonz%C3%A1lez%2CJLG&author=Aguilar%2CR)
+
+*   Laursen, K., & Salter, A. (2006). Open for innovation: The role of openness in explaining innovation performance among U.K. manufacturing firms. _Strategic Management Journal_, _27_(2), 131–150. [https://doi.org/10.1002/smj.507](https://doi.org/10.1002/smj.507)
+
+*   Loasby, B. (2006). The social science of economics. _SCEME Working Papers: Advances in Economic Methodology_. [https://ideas.repec.org/p/sti/wpaper/020-2007.html](https://ideas.repec.org/p/sti/wpaper/020-2007.html). Accessed 23 October 2020
+
+*   Loasby, B. J. (2005). Making Connections. _Econ Journal Watch_, _2_(1), 56–65. [https://ideas.repec.org/a/ejw/journl/v2y2005i1p56-65.html](https://ideas.repec.org/a/ejw/journl/v2y2005i1p56-65.html). Accessed 23 October 2020
+
+*   Lohmöller, J.-B. (1989). Basic principles of model building. In _Latent Variable Path Modeling with Partial Least Squares_ (pp. 13–26). Physica-Verlag HD. [https://doi.org/10.1007/978-3-642-52512-4_1](https://doi.org/10.1007/978-3-642-52512-4_1)
+
+*   López-Ortega, M., Torres-Castro, S., & Rosas-Carrasco, O. (2016, December 9). Psychometric properties of the satisfaction with life scale (SWLS): Secondary analysis of the Mexican health and aging study. _Health and Quality of Life Outcomes_. BioMed Central Ltd. [https://doi.org/10.1186/s12955-016-0573-9](https://doi.org/10.1186/s12955-016-0573-9)
+
+*   Lumpkin, G. T., & Dess, G. G. (2001). Linking two dimensions of entrepreneurial orientation to firm performance: The moderating role of environment and industry life cycle. _Journal of Business Venturing,_ _16_, 429–451. [https://doi.org/10.1016/S0883-9026(00)00048-3](https://doi.org/10.1016/S0883-9026(00)00048-3)
+
+[Article](https://doi.org/10.1016%2FS0883-9026%2800%2900048-3)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=Linking%20two%20dimensions%20of%20entrepreneurial%20orientation%20to%20firm%20performance%3A%20The%20moderating%20role%20of%20environment%20and%20industry%20life%20cycle&journal=Journal%20of%20Business%20Venturing&doi=10.1016%2FS0883-9026%2800%2900048-3&volume=16&pages=429-451&publication_year=2001&author=Lumpkin%2CGT&author=Dess%2CGG)
+
+*   Lund Vinding, A. (2006). Absorptive capacity and innovative performance: A human capital approach. _Economics of Innovation and New Technology,_ _15_(4–5), 507–517. [https://doi.org/10.1080/10438590500513057](https://doi.org/10.1080/10438590500513057)
+
+[Article](https://doi.org/10.1080%2F10438590500513057)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=Absorptive%20capacity%20and%20innovative%20performance%3A%20A%20human%20capital%20approach&journal=Economics%20of%20Innovation%20and%20New%20Technology&doi=10.1080%2F10438590500513057&volume=15&issue=4%E2%80%935&pages=507-517&publication_year=2006&author=Lund%20Vinding%2CA)
+
+*   Lundvall, B.-Å., & Nielsen, P. (1999). Competition and transformation in the learning economy: illustrated by the Danish case. _Revue d’Economie Industrielle_, _Nr. 88_, 67–90. [https://vbn.aau.dk/en/publications/competition-and-transformation-in-the-learning-economy-illustrate](https://vbn.aau.dk/en/publications/competition-and-transformation-in-the-learning-economy-illustrate). Accessed 23 October 2020
+
+*   Makri, M., Lane, P. J., & Gomez-Mejia, L. R. (2006). Ceo incentives, innovation, and performance in technology-intensive firms: A reconciliation of outcome and behavior-based incentive schemes. _Strategic Management Journal,_ _27_(11), 1057–1080. [https://doi.org/10.1002/smj.560](https://doi.org/10.1002/smj.560)
+
+[Article](https://doi.org/10.1002%2Fsmj.560)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=Ceo%20incentives%2C%20innovation%2C%20and%20performance%20in%20technology-intensive%20firms%3A%20A%20reconciliation%20of%20outcome%20and%20behavior-based%20incentive%20schemes&journal=Strategic%20Management%20Journal&doi=10.1002%2Fsmj.560&volume=27&issue=11&pages=1057-1080&publication_year=2006&author=Makri%2CM&author=Lane%2CPJ&author=Gomez-Mejia%2CLR)
+
+*   Malerba, F., & McKelvey, M. (2016). Knowledge intensive entrepreneurship: Conceptual framework. In F. Malerba, Y. Caloghirou, M. McKelvey, & S. Radoševic (Eds.), _Dynamics of knowledge-intensive entrepreneurship: business strategy and public policy_(1st ed.). London: Routledge. [https://www.routledge.com/Dynamics-of-Knowledge-Intensive-Entrepreneurship-Business-Strategy-and/Malerba-Caloghirou-McKelvey-Radosevic/p/book/9780367868987](https://www.routledge.com/Dynamics-of-Knowledge-Intensive-Entrepreneurship-Business-Strategy-and/Malerba-Caloghirou-McKelvey-Radosevic/p/book/9780367868987)
+
+*   Malerba, F., Caloghirou, Y., McKelvey, M., & Radosevic, S. (2016) Dynamics of knowledge-intensive entrepreneurship: business strategy and public policy. Routledge, London.
+
+*   Malerba, F., & McKelvey, M. (2019). Knowledge-intensive innovative entrepreneurship. _Foundations and Trends_®_in Entrepreneurship_, _14_(6), 555–681. [https://doi.org/10.1561/0300000075](https://doi.org/10.1561/0300000075)
+
+*   Malerba, F., & McKelvey, M. (2020). Knowledge-intensive innovative entrepreneurship integrating Schumpeter, evolutionary economics, and innovation systems. _Small Business Economics,_ _54_(2), 503–522. [https://doi.org/10.1007/s11187-018-0060-2](https://doi.org/10.1007/s11187-018-0060-2)
+
+[Article](https://link.springer.com/doi/10.1007/s11187-018-0060-2)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=Knowledge-intensive%20innovative%20entrepreneurship%20integrating%20Schumpeter%2C%20evolutionary%20economics%2C%20and%20innovation%20systems&journal=Small%20Business%20Economics&doi=10.1007%2Fs11187-018-0060-2&volume=54&issue=2&pages=503-522&publication_year=2020&author=Malerba%2CF&author=McKelvey%2CM)
+
+*   Mansfield, E. R., & Helms, B. P. (1982). Detecting multicollinearity. _The American Statistician,_ _36_(3a), 158–160. [https://doi.org/10.1080/00031305.1982.10482818](https://doi.org/10.1080/00031305.1982.10482818)
+
+[Article](https://doi.org/10.1080%2F00031305.1982.10482818)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=Detecting%20multicollinearity&journal=The%20American%20Statistician&doi=10.1080%2F00031305.1982.10482818&volume=36&issue=3a&pages=158-160&publication_year=1982&author=Mansfield%2CER&author=Helms%2CBP)
+
+*   Mowery, D. C., Oxley, J. E., & Silverman, B. S. (1996). Issue special issue: Knowledge and the firm. _Strategic Management Journal, 17_(Winter). [http://www.jstor.org/about/terms.html](http://www.jstor.org/about/terms.html). Accessed 23 October 2020
+
+*   Nicholls-Nixon, C. L., Cooper, A. C., & Woo, C. Y. (2000). Strategic experimentation: Understanding change and performance in new ventures. _Journal of Business Venturing,_ _15_(5), 493–521. [https://doi.org/10.1016/S0883-9026(98)00018-4](https://doi.org/10.1016/S0883-9026(98)00018-4)
+
+[Article](https://doi.org/10.1016%2FS0883-9026%2898%2900018-4)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=Strategic%20experimentation%3A%20Understanding%20change%20and%20performance%20in%20new%20ventures&journal=Journal%20of%20Business%20Venturing&doi=10.1016%2FS0883-9026%2898%2900018-4&volume=15&issue=5&pages=493-521&publication_year=2000&author=Nicholls-Nixon%2CCL&author=Cooper%2CAC&author=Woo%2CCY)
+
+*   Nonaka, I., & Takeuchi, H. (1995). _The knowledge-creating company: How Japanese companies create the dynamics of innovation_. Oxford university press.
+
+*   Plummer, L. A., & Acs, Z. (2014). Localized competition in the knowledge spillover theory of entrepreneurship. _Journal of Business Venturing, 29_(1), 121–136. [https://EconPapers.repec.org/RePEc:eee:jbvent:v:29:y:2014:i:1:p:121-136](https://econpapers.repec.org/RePEc:eee:jbvent:v:29:y:2014:i:1:p:121-136)
+
+*   Protogerou, A., Caloghirou, Y., & Vonortas, N. S. (2017). Determinants of young firms’ innovative performance: Empirical evidence from Europe. _Research Policy,_ _46_(7), 1312–1326. [https://doi.org/10.1016/j.respol.2017.05.011](https://doi.org/10.1016/j.respol.2017.05.011)
+
+[Article](https://doi.org/10.1016%2Fj.respol.2017.05.011)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=Determinants%20of%20young%20firms%E2%80%99%20innovative%20performance%3A%20Empirical%20evidence%20from%20Europe&journal=Research%20Policy&doi=10.1016%2Fj.respol.2017.05.011&volume=46&issue=7&pages=1312-1326&publication_year=2017&author=Protogerou%2CA&author=Caloghirou%2CY&author=Vonortas%2CNS)
+
+*   Qian, H., & Acs, Z. J. (2013). An absorptive capacity theory of knowledge spillover entrepreneurship. _Small Business Economics,_ _40_, 185–197. [https://doi.org/10.1007/s11187-011-9368-x](https://doi.org/10.1007/s11187-011-9368-x)
+
+[Article](https://link.springer.com/doi/10.1007/s11187-011-9368-x)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=An%20absorptive%20capacity%20theory%20of%20knowledge%20spillover%20entrepreneurship&journal=Small%20Business%20Economics&doi=10.1007%2Fs11187-011-9368-x&volume=40&pages=185-197&publication_year=2013&author=Qian%2CH&author=Acs%2CZJ)
+
+*   Rasoolimanesh, S. M., Jaafar, M., & Badarulzaman, N. (2014). Examining the contributing factors for the successful implementation of city development strategy in Qazvin City, Iran. _Cities_, _41_(PA), 10–19. [https://doi.org/10.1016/j.cities.2014.05.002](https://doi.org/10.1016/j.cities.2014.05.002)
+
+*   Reagans, R., Argote, L., & Brooks, D. (2005, June). Individual experience and experience working together: Predicting learning rates from knowing who knows what and knowing how to work together. _Management Science_. [https://doi.org/10.1287/mnsc.1050.0366](https://doi.org/10.1287/mnsc.1050.0366)
+
+*   Ringle, C. M. ., Wende, S., & Becker, J.-M. (2015). SmartPLS 3. Bönningstedt: SmartPLS. [http://www.smartpls.com](http://www.smartpls.com/)
+
+*   Roth, K., Globocnik, D., Rau, C., & Neyer, A. (2020). Living up to the expectations: The effect of design thinking on project success. _Creativity and Innovation Management,_ _29_(4), 667–684.
+
+[Article](https://doi.org/10.1111%2Fcaim.12408)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=Living%20up%20to%20the%20expectations%3A%20The%20effect%20of%20design%20thinking%20on%20project%20success&journal=Creativity%20and%20Innovation%20Management&doi=10.1111%2Fcaim.12408&volume=29&issue=4&pages=667-684&publication_year=2020&author=Roth%2CK&author=Globocnik%2CD&author=Rau%2CC&author=Neyer%2CA)
+
+*   Ruiz, D. M., Gremler, D. D., Washburn, J. H., & Carrión, G. C. (2008). Service value revisited: Specifying a higher-order, formative measure. _Journal of Business Research,_ _61_(12), 1278–1291. [https://doi.org/10.1016/j.jbusres.2008.01.015](https://doi.org/10.1016/j.jbusres.2008.01.015)
+
+[Article](https://doi.org/10.1016%2Fj.jbusres.2008.01.015)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=Service%20value%20revisited%3A%20Specifying%20a%20higher-order%2C%20formative%20measure&journal=Journal%20of%20Business%20Research&doi=10.1016%2Fj.jbusres.2008.01.015&volume=61&issue=12&pages=1278-1291&publication_year=2008&author=Ruiz%2CDM&author=Gremler%2CDD&author=Washburn%2CJH&author=Carri%C3%B3n%2CGC)
+
+*   Shane, S. (2000). Prior knowledge and the discovery of entrepreneurial opportunities. _Organization Science,_ _11_(4), 448–469. [https://doi.org/10.1287/orsc.11.4.448.14602](https://doi.org/10.1287/orsc.11.4.448.14602)
+
+[Article](https://doi.org/10.1287%2Forsc.11.4.448.14602)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=Prior%20knowledge%20and%20the%20discovery%20of%20entrepreneurial%20opportunities&journal=Organization%20Science&doi=10.1287%2Forsc.11.4.448.14602&volume=11&issue=4&pages=448-469&publication_year=2000&author=Shane%2CS)
+
+*   Stone, M. (1974). Cross-validation and multinomial prediction. _Biometrika,_ _61_(3), 509–515. [https://doi.org/10.1093/biomet/61.3.509](https://doi.org/10.1093/biomet/61.3.509)
+
+[Article](https://doi.org/10.1093%2Fbiomet%2F61.3.509)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=Cross-validation%20and%20multinomial%20prediction&journal=Biometrika&doi=10.1093%2Fbiomet%2F61.3.509&volume=61&issue=3&pages=509-515&publication_year=1974&author=Stone%2CM)
+
+*   The World Bank Group. (2019). Doing business 2019. _World Bank_, 304. [http://www.doingbusiness.org/en/reports/global-reports/doing-business-2019](http://www.doingbusiness.org/en/reports/global-reports/doing-business-2019)
+
+*   The World Bank Group. (2020). GDP per capita (current US$) | Data. _World Bank_. [https://data.worldbank.org/indicator/NY.GDP.PCAP.CD](https://data.worldbank.org/indicator/NY.GDP.PCAP.CD). Accessed 23 October 2020
+
+*   Tsai, W. (2001). Knowledge transfer in intraorganizational networks: Effects of network position and absorptive capacity on business unit innovation and performance. _Academy of Management Journal,_ _44_(5), 996–1004.
+
+[Article](https://doi.org/10.2307%2F3069443)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=Knowledge%20transfer%20in%20intraorganizational%20networks%3A%20Effects%20of%20network%20position%20and%20absorptive%20capacity%20on%20business%20unit%20innovation%20and%20performance&journal=Academy%20of%20Management%20Journal&doi=10.2307%2F3069443&volume=44&issue=5&pages=996-1004&publication_year=2001&author=Tsai%2CW)
+
+*   Uzzi, B. (1999). Embeddedness in the making of financial capital: How social relations and networks benefit firms seeking financing. _American Sociological Review,_ _64_(4), 481–505. [https://doi.org/10.2307/2657252](https://doi.org/10.2307/2657252)
+
+[Article](https://doi.org/10.2307%2F2657252)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=Embeddedness%20in%20the%20making%20of%20financial%20capital%3A%20How%20social%20relations%20and%20networks%20benefit%20firms%20seeking%20financing&journal=American%20Sociological%20Review&doi=10.2307%2F2657252&volume=64&issue=4&pages=481-505&publication_year=1999&author=Uzzi%2CB)
+
+*   Wales, W. J., Parida, V., & Patel, P. C. (2013). Too much of a good thing? Absorptive capacity, firm performance, and the moderating role of entrepreneurial orientation. _Strategic Management Journal,_ _34_(5), 622–633.
+
+[Article](https://doi.org/10.1002%2Fsmj.2026)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=Too%20much%20of%20a%20good%20thing%3F%20Absorptive%20capacity%2C%20firm%20performance%2C%20and%20the%20moderating%20role%20of%20entrepreneurial%20orientation&journal=Strategic%20Management%20Journal&doi=10.1002%2Fsmj.2026&volume=34&issue=5&pages=622-633&publication_year=2013&author=Wales%2CWJ&author=Parida%2CV&author=Patel%2CPC)
+
+*   Wong, K. K.-K. (2013). Partial least squares structural equation modeling (PLS-SEM) techniques using SmartPLS. _Marketing Bulletin_, _24_(1), 1–32.[http://marketing-bulletin.massey.ac.nz/v24/mb_v24_t1_wong.pdf5Cn](http://marketing-bulletin.massey.ac.nz/v24/mb_v24_t1_wong.pdf5Cn), [http://www.researchgate.net/profile/Ken_Wong10/publication/268449353_Partial_Least_Squares_Structural_Equation_Modeling_(PLS-SEM)_Techniques_Using_SmartPLS/links/54773b1b0cf293e2da25e3f3.pdf](http://www.researchgate.net/profile/Ken_Wong10/publication/268449353_Partial_Least_Squares_Structural_Equation_Modeling_(PLS-SEM)_Techniques_Using_SmartPLS/links/54773b1b0cf293e2da25e3f3.pdf)
+
+*   Zahra, S. A., & George, G. (2002). Absorptive capacity: A review, reconceptualization, and extension. _The Academy of Management Review,_ _27_(2), 185. [https://doi.org/10.2307/4134351](https://doi.org/10.2307/4134351)
+
+[Article](https://doi.org/10.2307%2F4134351)[Google Scholar](http://scholar.google.com/scholar_lookup?&title=Absorptive%20capacity%3A%20A%20review%2C%20reconceptualization%2C%20and%20extension&journal=The%20Academy%20of%20Management%20Review&doi=10.2307%2F4134351&volume=27&issue=2&publication_year=2002&author=Zahra%2CSA&author=George%2CG)
+
+[Download references](https://citation-needed.springer.com/v2/references/10.1007/s13132-023-01465-9?format=refman&flavour=references)
+
+## Acknowledgements
+
+The authors wish to acknowledge financial support from the 7th Framework Programme for RTD of the European Commission. They are also grateful for comments on a previous version from Dr. Aimilia Protogerou, Dr. Panagiotis Panagiotopoulos, and participants of the 30th Annual EAEPE Conference.
+
+## Funding
+
+Open access funding provided by HEAL-Link Greece. FP7 Socio-Economic Sciences and Humanities, 225134.
+
+## Author information
+
+### Authors and Affiliations
+
+1.   Laboratory of Industrial and Energy Economics, School of Chemical Engineering, National Technical University of Athens, Zografou Campus, 9 Iroon Polytechniou str., 15780, Zografou, Greece
+
+Ioanna Kastelli,Georgios Siokas&Aggelos Tsakanikas
+
+Authors
+
+1.   Ioanna Kastelli
+2.   Georgios Siokas
+3.   Aggelos Tsakanikas
+
+### Contributions
+
+The supervision was performed by Ioanna Kastelli. All authors contributed during the conceptualisation phase. Ioanna Kastelli and Aggelos Tsakanikas contributed to the design and implementation of the field research. The methodology, the formal analysis, and the investigation were performed by Georgios Siokas. The first draft of the manuscript was written by Ioanna Kastelli and Georgios Siokas. The final editing process was performed by Ioanna Kastelli and Aggelos Tsakanikas. All authors read and approved the final manuscript.
+
+### Corresponding author
+
+Correspondence to [Ioanna Kastelli](mailto:iokast@chemeng.ntua.gr).
+
+## Ethics declarations
+
+### Conflict of Interest
+
+The authors declare no competing interests.
+
+## Additional information
+
+### Publisher's Note
+
+Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+
+## Appendix
+
+### Appendix
+
+**Table 3 Descriptive statistics of the construct items in the dataset a**
+
+[Full size table](https://link.springer.com/article/10.1007/s13132-023-01465-9/tables/3)
+
+**Table 4 Summary of results relating to the main characteristics of the model’s latent measurements (_N_ = 3353)**
+
+[Full size table](https://link.springer.com/article/10.1007/s13132-023-01465-9/tables/4)
+
+**Table 5 Discriminant validity of constructs using the technic HTMT (_N_ = 3353)**
+
+[Full size table](https://link.springer.com/article/10.1007/s13132-023-01465-9/tables/5)
+
+**Table 6 Indirect and direct effect of the relationship of the variables (the _p_-values are shown in the parentheses) (_N_ = 3353)**
+
+[Full size table](https://link.springer.com/article/10.1007/s13132-023-01465-9/tables/6)
+
+## Rights and permissions
+
+**Open Access** This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit [http://creativecommons.org/licenses/by/4.0/](http://creativecommons.org/licenses/by/4.0/).
+
+[Reprints and permissions](https://s100.copyright.com/AppDispatchServlet?title=Entrepreneurial%20Absorptive%20Capacity%20As%20Enabler%20of%20Knowledge%20Intensive%20Entrepreneurship%3A%20An%20Empirical%20Investigation&author=Ioanna%20Kastelli%20et%20al&contentID=10.1007%2Fs13132-023-01465-9&copyright=The%20Author%28s%29&publication=1868-7873&publicationDate=2023-08-29&publisherName=SpringerNature&orderBeanReset=true&oa=CC%20BY)
+
+## About this article
+
+[![Image 4: Check for updates. Verify currency and authenticity via CrossMark](blob:http://localhost/df43c82f6cb6dcd2a87db38f317bf9f2)](https://crossmark.crossref.org/dialog/?doi=10.1007/s13132-023-01465-9)
+
+### Cite this article
+
+Kastelli, I., Siokas, G. & Tsakanikas, A. Entrepreneurial Absorptive Capacity As Enabler of Knowledge Intensive Entrepreneurship: An Empirical Investigation. _J Knowl Econ_**15**, 9667–9698 (2024). https://doi.org/10.1007/s13132-023-01465-9
+
+[Download citation](https://citation-needed.springer.com/v2/references/10.1007/s13132-023-01465-9?format=refman&flavour=citation)
+
+*   Received: 30 November 2021
+
+*   Accepted: 05 August 2023
+
+*   Published: 29 August 2023
+
+*   Version of record: 29 August 2023
+
+*   Issue date: June 2024
+
+*   DOI: https://doi.org/10.1007/s13132-023-01465-9
+
+### Keywords
+
+## Artifact honesty
+
+Artifact level: `full_text`. The complete extracted text is preserved above under the declared reusable license.
