@@ -1,8 +1,17 @@
 # Goal 2 manager status
 
-Updated: 2026-07-12T16:26:13Z
+Updated: 2026-07-12T17:13:02Z
 Status: ACTIVE
 Phase: scale-and-saturation; fixed quotas remain verified floors, not completion
+
+## Third-wave integrated checkpoint
+
+- Independently validated and merged `goal/blocker-review-3` (`71d8a83`), `goal/native-saturation-3` (`7662413`), and `goal/benchmark-expansion-3` (`72b006b`) through local main `aceefeb`.
+- All 7 prior blocked primary-source candidates were dispositioned: 4 accepted organization sources and 3 rejected; canonical accounting is now 638 accepted, 414 rejected, 0 blocked across 1,052 audited records. Strict organization indexing increased from 9 organizations / 10 links to 13 organizations / 14 links.
+- Native X/Reddit/Substack/YouTube audit preserved 12 rounds, 18 access-path attempts, and 25 candidate dispositions. Only 5 rounds qualify as low-yield (Substack 3, YouTube 2); X and Reddit remain access-blocked. No channel is yet proven saturated.
+- Public benchmark expanded from 9 to 10 collections. Complete row audits found 10 strict organizations in the IHI collection and 2 in Lean Enterprise Institute, but `largest_claim.permitted` remains false because no exhaustive competitor universe or full like-for-like audit exists.
+- Combined-tree `make check` passes: 54 tests, all strict validators, deterministic dashboard/index regeneration, and clean generated-file diff. Main is pending checkpoint commit/push/exact-SHA CI receipt.
+- Completion remains unproven: 0/11 channels have the required three qualifying low-yield rounds under the canonical saturation gate, and the superlative is explicitly withheld.
 
 ## Active follow-up dispatch
 
