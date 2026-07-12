@@ -1,8 +1,8 @@
 # Goal 2 manager status
 
-Updated: 2026-07-12T12:00:00Z
+Updated: 2026-07-12T09:57:04Z
 Status: ACTIVE
-Phase: local web/media canonical integration verified; commit, remote CI, and read-back proof remain
+Phase: all corpus quotas and local validation gates pass on main; remote exact-SHA CI/read-back proof remains
 
 ## Locally verified integrated counts
 
@@ -17,15 +17,15 @@ Phase: local web/media canonical integration verified; commit, remote CI, and re
 
 - Academic merged as `19b2022`; global accounting as `1a49edf`; social as `c6af7af` with the reviewed correction `5fdb679`.
 - Voxyz is preserved at X post `2060030680369627237` (`https://x.com/Voxyz_ai/status/2060030680369627237`).
-- Local integration base is `feae7a5`; the web/media canonical changes are staged but not yet committed at this checkpoint.
+- Main integration commit is `81c1effce291e4894c62c432cc2148c6afc54bce`.
 - `make check` passes locally: 41 tests, 1052 audited sources, 100 complete YouTube transcripts, both lane validators clean, and deterministic generated-file diff clean.
-- Remote push, exact-SHA CI, and fetched read-back verification remain intentionally pending.
+- Remote push, exact-SHA CI, and fetched read-back verification remain pending.
 
 ## Worker state
 
 - Academic (`goal/academic-recovery`, latest `44068b8`): MERGED; no lane worker.
 - Social (`goal/social-acquisition`, latest `5fdb679`): MERGED; no lane worker.
-- Web/media (`goal/web-media-acquisition`, latest committed `0b29bf8`): HEALTHY second corrective audit, parent PID `1027464`, Codex PID `1027500`, host PID `1027693`. At 09:25Z its ledgers were still advancing and the worktree held a large uncommitted audit/replacement batch. No duplicate was launched.
+- Web/media acquisition merged through `73a198e`; canonical integration committed as `fbd70d6` and merged to main as `81c1eff`. No lane or integration worker remains live.
 
 ## Web/media review status and blockers
 
@@ -35,4 +35,4 @@ Phase: local web/media canonical integration verified; commit, remote CI, and re
 
 ## Next action
 
-Commit the locally verified canonical integration and leave the worktree clean. In a separately authorized workflow, push the exact commit, verify CI, fetch/read it back, and complete the final remote completion audit.
+Commit this manager status checkpoint, push main, fetch/read back the exact SHA, verify the matching GitHub Actions run, then perform the criterion-by-criterion completion audit and mark ACHIEVED only if every proof remains clean.
