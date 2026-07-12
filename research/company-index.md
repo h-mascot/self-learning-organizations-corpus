@@ -1,5 +1,11 @@
 # Company Implementation Index
 
+This index records organization evidence, not a tooling directory. Generic eval,
+memory, observability, agent, and postmortem repositories in `sources/github` may
+describe useful mechanisms, but they do not establish that the repository owner or
+any adopting company operates as a self-learning organization. Such tooling is not
+used to add an organization row without separate implementation evidence.
+
 | Company | Implemented mechanism | Evidence | Status | Outcome classification |
 |---|---|---|---|---|
 | Y Combinator | Query-monitoring agent diagnoses failures, proposes tools/indexes, writes and routes code changes | YC first-person video/transcript (`X_JsIHUfUjc`) | Reported in operation | Company claim; code and metrics not public |
