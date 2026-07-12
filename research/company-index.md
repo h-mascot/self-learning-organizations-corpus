@@ -1,20 +1,77 @@
-# Company Implementation Index
+# Canonical Organization Evidence Index
 
-| Company | Implemented mechanism | Evidence | Status | Outcome classification |
-|---|---|---|---|---|
-| Y Combinator | Query-monitoring agent diagnoses failures, proposes tools/indexes, writes and routes code changes | YC first-person video/transcript (`X_JsIHUfUjc`) | Reported in operation | Company claim; code and metrics not public |
-| Brex | AI expense review, policy enforcement, assistants; Pedro Franceschi advocates CEO-led AI operating model | [Brex AI](https://www.brex.com/product/ai), YC/Pedro corpus lane | Product implementation | Vendor claims; no independent outcome audit located |
-| Ramp | AI categorization, policy/compliance workflows and agent-like finance automation | [Ramp Intelligence](https://ramp.com/intelligence), [engineering blog](https://engineering.ramp.com/) | Product implementation | Vendor/customer claims; retain exact source attribution |
-| Klarna | Generative assistant in customer-service workflow | [Klarna press release](https://www.klarna.com/international/press/klarna-ai-assistant-handles-two-thirds-of-customer-service-chats-in-its-first-month/) | Reported production | Company-reported volumes/equivalence, not independent verification |
-| GitHub | Copilot uses repository context and feedback-driven product improvement | [GitHub blog](https://github.blog/ai-and-ml/github-copilot/how-github-copilot-is-getting-better-at-understanding-your-code/) | Production product | Technical mechanism primary; efficacy claims need external study |
-| Duolingo | Copilot integrated into engineering workflows | [ZenML case synthesis](https://www.zenml.io/llmops-database/github-copilot-integration-for-enhanced-developer-productivity) | Secondary report | Not primary; requires Duolingo/GitHub confirmation |
-| Spotify | Squads, autonomy/alignment, retrospectives and failure recovery | Spotify engineering culture videos | Historical implementation | Primary practitioner account; later caveats must be retained |
-| Toyota | Kaizen, standard work, reflection and people-development loops | *Toyota Way* and Toyota/Lean sources | Long-running implementation | Broadly documented; outcomes cannot be assigned to one mechanism alone |
-| Morning Star | Peer-negotiated commitments and self-management | [Self-Management Institute](https://www.self-managementinstitute.org/about-morning-star) | Reported implementation | Affiliated primary source; independent case validation desirable |
-| Every | AI-native media/product workflows | Dan Shipper / Every talks and posts | First-person implementation | Company claim with inspectable published outputs, limited internal metrics |
-| WorkOS | AI-native operating practices | Michael Grinich interview discovered in inventory | First-person implementation | Interview claim; transcript validation pending |
-| SAP | Autonomous-enterprise product/podcast program | [SAP announcement](https://news.sap.com/2026/06/introducing-autonomous-enterprise-podcast-series/) | Vision/product marketing | Not evidence of SAP itself operating autonomously |
+Generated from `research/organization-evidence.json`. Only accepted evidence about a named organization's implemented operating practice is indexed; generic tooling and theory are excluded.
 
-## Pedro/Brex and Ramp assessment
+- Organizations: **9**
+- Organization-evidence source links: **10**
+- Sources with a measurable outcome: **7**
+- Independently sampled generic/theory exclusions: **10**
 
-The strongest evidence located is primary and therefore useful for establishing what each organization says it built. It does **not** establish independently verified business impact. YC’s query-monitor/repair loop is the closest match to recursive organizational improvement, but public evidence does not expose code, evaluation sets, failure rates, or deployment logs. Brex and Ramp expose concrete AI-enabled finance workflows; their public pages more strongly support “AI product implementation” than “self-learning organization.”
+## Mechanism dashboard
+
+| Mechanism | Source links |
+| --- | ---: |
+| feedback/evals | 4 |
+| organizational memory | 3 |
+| experimentation | 4 |
+| decision systems | 2 |
+| failure/postmortem learning | 1 |
+| specialized agents | 3 |
+| workflow adaptation | 6 |
+| knowledge curation | 2 |
+| governance | 2 |
+| measurable outcome | 7 |
+
+## Organizations
+
+### Accenture
+
+- [Research: Quantifying GitHub Copilot’s impact in the enterprise with Accenture - The GitHub Blog](https://github.blog/news-insights/research/research-quantifying-github-copilots-impact-in-the-enterprise-with-accenture/) — feedback/evals, measurable outcome. Accenture and GitHub measured Copilot adoption and impact using organization-level usage data and public APIs. Evidence: Named enterprise study with an explicit measurement method; outcome claims remain publisher-reported.
+
+### Automattic
+
+- [ExPlat: Automattic’s Experimentation&nbsp;Platform](https://data.blog/2021/03/16/explat-automattics-experimentation-platform/) — experimentation, knowledge curation, governance. Automattic operates an experiment education and review hub, internal feedback forum, wiki, checklist, and peer review process. Evidence: First-party engineering account names the internal operating practices.
+
+### Bayer China
+
+- [Covering 1,000 People in 6 Months, Saving 7,000 hours per year, Bayer China Reshapes Training System with Generative AI](https://aws.amazon.com/solutions/case-studies/bayer-china/) — feedback/evals, workflow adaptation, measurable outcome. Bayer China deployed a learn-practice-evaluation training loop and reported adoption, hours saved, and coaching-efficiency results. Evidence: Named customer deployment with quantitative, vendor-published outcomes.
+
+### Canva
+
+- [How we build experiments in-house - Canva Engineering Blog](https://www.canva.dev/blog/engineering/how-we-build-experiments-in-house/) — organizational memory, experimentation, workflow adaptation. Canva built an internal experimentation platform and is adapting setup, analysis, and result-learnability workflows. Evidence: First-party engineering account describes a deployed internal platform and its evolution.
+
+### Google
+
+- [Google SRE - Blameless Postmortem for System Resilience](https://sre.google/sre-book/postmortem-culture/) — organizational memory, failure/postmortem learning, knowledge curation, governance, measurable outcome. Google coordinates postmortems across the company, standardizes templates, automates evidence capture, and mines postmortems for trends. Evidence: First-party SRE book describes a named working group and company-wide mechanism; outage reduction is a company claim.
+
+### LG CNS
+
+- [LG CNS builds a self-improving modernization harness with Claude Code](https://www.anthropic.com/customers/lg-cns) — feedback/evals, organizational memory, specialized agents, workflow adaptation, measurable outcome. LG CNS uses persistent file-based memory, multi-agent file handoffs, and deterministic quality measurement in a self-improving modernization harness. Evidence: Named customer implementation; mechanism detail is retained, while results are vendor-published.
+
+### Siemens
+
+- [How Siemens handles 90% of calls autonomously with Amazon Connect Customer AI Agents | AWS Contact Center](https://aws.amazon.com/blogs/contact-center/how-siemens-handles-90-of-calls-autonomously-with-amazon-connect-customer-ai-agents/) — specialized agents, workflow adaptation, measurable outcome. Siemens moved from legacy IVR to production AI-agent routing, validated it in one workflow, and extended it to additional workflows. Evidence: Named customer implementation with vendor-published autonomous-handling results.
+
+### Spotify
+
+- [Better Experiments with LLM Evals — A funnel, not a fork | Spotify Engineering](https://engineering.atspotify.com/2026/5/better-experiments-with-llm-evals-a-funnel-not-a-fork) — feedback/evals, experimentation, workflow adaptation. Spotify continuously recalibrates offline evals against online outcomes to improve their value as verification tools. Evidence: First-party engineering account describes an operational calibration loop.
+- [Beyond Winning: Spotify’s Experiments with Learning Framework | Spotify Engineering](https://engineering.atspotify.com/2025/9/spotifys-experiments-with-learning-framework) — experimentation, decision systems, measurable outcome. Spotify uses an Experiments-with-Learning metric to guide investment, testing capacity, and experimentation practice. Evidence: First-party engineering account supplies the decision mechanism and reported learning and win rates.
+
+### bunq
+
+- [How bunq handles 97% of support with Amazon Bedrock | Artificial Intelligence](https://aws.amazon.com/blogs/machine-learning/how-bunq-handles-97-of-support-with-amazon-bedrock/) — decision systems, specialized agents, workflow adaptation, measurable outcome. bunq runs an orchestrator that routes support work among primary and specialized agents and scales their execution services. Evidence: Named production customer architecture; the support outcome is vendor-published.
+
+## Exclusion audit sample
+
+These records remain accepted as topical corpus sources but do not count as organization evidence.
+
+- `github-explodinggradients-ragas` — vibrantlabsai/ragas: Generic evaluation toolkit; the record does not evidence a named organization's internal learning practice.
+- `github-openai-evals` — openai/evals: Generic evaluation framework; repository availability alone is not organization operating evidence.
+- `github-promptfoo-promptfoo` — promptfoo/promptfoo: Generic evaluation toolkit; usage by a named organization is not established in this record.
+- `github-dastergon-postmortem-templates` — dastergon/postmortem-templates: Generic postmortem templates; no named organization's adoption or operating loop is evidenced.
+- `github-joelparkerhenderson-issue-postmortem-template` — joelparkerhenderson/issue-postmortem-template: Generic template repository; it is theory/tooling rather than organization case evidence.
+- `github-peter-evans-lightweight-architecture-decision-records` — peter-evans/lightweight-architecture-decision-records: Generic ADR tooling; no named organizational decision practice is established.
+- `1mnr6d2` — How valuable are RAG modules + synthetic datasets for boosting an agent’s cognitive depth?: Anonymous exploratory question about RAG and synthetic data; no named organization or deployed practice.
+- `1nh9iet` — Idea for AI Agent Collaboration: Real-Time Shared Memory – Thoughts?: Proposed multi-agent memory idea; no named organization or implemented operating mechanism.
+- `1qpwwpr` — I made a complete reference guide for building AI agents (200+ scripts from API basics to deployment) — any feedback?: General educational agent-code collection; not evidence of organization learning.
+- `1r54kau` — anyone else struggling with agent loops getting stuck on simple logic?: Anonymous implementation question; no named organization and no substantiated organizational mechanism.
