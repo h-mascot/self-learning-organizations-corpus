@@ -30,6 +30,8 @@ REQUIRED = {
     "rights_status", "rights_note", "content_sha256", "relevance_evidence",
     "evidence", "query_ids",
 }
+QUERY_REQUIRED = {"attempted_at", "backend", "error", "family", "lane", "outcome", "query", "query_id", "result_count"}
+RETRIEVAL_REQUIRED = {"artifact_observed", "attempted_at", "http_status", "lane", "method", "note", "outcome", "stable_id", "url"}
 SHA256 = re.compile(r"^[0-9a-f]{64}$")
 TIMESTAMP = re.compile(r"\b\d{1,2}:\d{2}(?::\d{2})?\b")
 BOILERPLATE = re.compile(r"skip to (?:content|main)|privacy policy|cookie settings|sign in|log in|upcoming events|all rights reserved", re.I)
@@ -107,9 +109,9 @@ def evidence_hash(evidence: list[dict[str, str]]) -> str:
     return hashlib.sha256(payload.encode()).hexdigest()
 
 
-def load_ledger(path: Path, errors: list[str]) -> list[dict]:
+def load_ledger(path: Path, errors: list[str], root: Path = ROOT) -> list[dict]:
     if not path.exists():
-        errors.append(f"missing ledger: {path.relative_to(ROOT)}")
+        errors.append(f"missing ledger: {path.relative_to(root)}")
         return []
     rows = []
     for number, line in enumerate(path.read_text().splitlines(), 1):
@@ -118,11 +120,11 @@ def load_ledger(path: Path, errors: list[str]) -> list[dict]:
         try:
             rows.append(json.loads(line))
         except json.JSONDecodeError as exc:
-            errors.append(f"{path.relative_to(ROOT)}:{number}: invalid JSON: {exc}")
+            errors.append(f"{path.relative_to(root)}:{number}: invalid JSON: {exc}")
     return rows
 
 
-def validate() -> tuple[list[str], Counter, Counter]:
+def validate(root: Path = ROOT, *, enforce_quotas: bool = True, enforce_ledgers: bool = True) -> tuple[list[str], Counter, Counter]:
     errors: list[str] = []
     counts: Counter = Counter()
     artifact_counts: Counter = Counter()
@@ -130,29 +132,59 @@ def validate() -> tuple[list[str], Counter, Counter]:
     seen_urls: dict[str, Path] = {}
     seen_titles: dict[tuple[str, str], Path] = {}
 
-    query_rows = load_ledger(ROOT / "research/web-media-acquisition/query-ledger.jsonl", errors)
-    retrieval_rows = load_ledger(ROOT / "research/web-media-acquisition/retrieval-ledger.jsonl", errors)
-    query_ids = {row.get("query_id") for row in query_rows}
+    query_rows = load_ledger(root / "research/web-media-acquisition/query-ledger.jsonl", errors, root) if enforce_ledgers else []
+    retrieval_rows = load_ledger(root / "research/web-media-acquisition/retrieval-ledger.jsonl", errors, root) if enforce_ledgers else []
+    if enforce_ledgers:
+        for number, row in enumerate(query_rows, 1):
+            if not isinstance(row, dict) or QUERY_REQUIRED - row.keys():
+                errors.append(f"query ledger row {number} has an invalid schema")
+                continue
+            if not isinstance(row["lane"], str) or row["lane"] not in LANES or not all(isinstance(row[key], str) and row[key].strip() for key in ("attempted_at", "backend", "family", "query", "query_id")) or row["outcome"] not in {"success", "blocked"} or not isinstance(row["result_count"], int) or row["result_count"] < 0 or (row["error"] is not None and not isinstance(row["error"], str)):
+                errors.append(f"query ledger row {number} has invalid values")
+        for number, row in enumerate(retrieval_rows, 1):
+            if not isinstance(row, dict) or RETRIEVAL_REQUIRED - row.keys():
+                errors.append(f"retrieval ledger row {number} has an invalid schema")
+                continue
+            if not isinstance(row["lane"], str) or row["lane"] not in LANES or not all(isinstance(row[key], str) and row[key].strip() for key in ("attempted_at", "method", "note", "stable_id", "url")) or row["outcome"] not in {"retrieved", "rejected", "blocked"} or row["artifact_observed"] not in ARTIFACT_LEVELS or (row["http_status"] is not None and not isinstance(row["http_status"], int)) or not row["url"].startswith(("https://", "http://")):
+                errors.append(f"retrieval ledger row {number} has invalid values")
+    query_ids = {row.get("query_id") for row in query_rows if isinstance(row, dict)}
     if len(query_ids) != len(query_rows):
         errors.append("query ledger contains duplicate query_ids")
-    retrieval_ids = {row.get("stable_id") for row in retrieval_rows}
+    retrieval_ids = {row.get("stable_id") for row in retrieval_rows if isinstance(row, dict)}
+    if enforce_ledgers:
+        retrieval_fingerprints = {json.dumps(row, sort_keys=True, separators=(",", ":")) for row in retrieval_rows}
+        if len(retrieval_fingerprints) != len(retrieval_rows):
+            errors.append("retrieval ledger contains exact duplicate rows")
     for lane in LANES:
-        if not any(row.get("lane") == lane for row in query_rows):
-            errors.append(f"{lane}: no query-ledger entries")
+        if enforce_ledgers and len({row.get("family") for row in query_rows if isinstance(row, dict) and row.get("lane") == lane}) < 2:
+            errors.append(f"{lane}: fewer than two query families in query ledger")
 
-        lane_root = ROOT / "sources" / lane
+        lane_root = root / "sources" / lane
         for path in sorted(lane_root.glob("*/*.json")):
             try:
                 record = json.loads(path.read_text())
             except (OSError, json.JSONDecodeError) as exc:
-                errors.append(f"{path.relative_to(ROOT)}: unreadable JSON: {exc}")
+                errors.append(f"{path.relative_to(root)}: unreadable JSON: {exc}")
+                continue
+            if not isinstance(record, dict):
+                errors.append(f"{path.relative_to(root)}: web/media record must be a JSON object")
                 continue
 
             missing = sorted(REQUIRED - record.keys())
             if missing:
-                errors.append(f"{path.relative_to(ROOT)}: missing {', '.join(missing)}")
+                errors.append(f"{path.relative_to(root)}: missing {', '.join(missing)}")
                 continue
-            rel = path.relative_to(ROOT)
+            rel = path.relative_to(root)
+            scalar_fields = ("platform", "stable_id", "title", "creator", "publisher", "canonical_url", "date_precision", "source_type", "status", "artifact_level", "retrieved_at", "retrieval_method", "provenance", "rights_status", "rights_note", "content_sha256")
+            evidence_valid = isinstance(record["evidence"], list) and all(
+                isinstance(item, dict) and all(isinstance(item.get(key), str) for key in ("kind", "locator", "text"))
+                for item in record["evidence"]
+            )
+            lists_valid = isinstance(record["query_ids"], list) and all(isinstance(item, str) for item in record["query_ids"]) and isinstance(record["relevance_evidence"], list) and all(isinstance(item, str) for item in record["relevance_evidence"])
+            optional_valid = (record.get("event_proof") is None or isinstance(record["event_proof"], dict)) and (record.get("identifiers") is None or isinstance(record["identifiers"], dict)) and (record.get("transcript_source") is None or isinstance(record["transcript_source"], str))
+            if not all(isinstance(record[field], str) for field in scalar_fields) or not evidence_valid or not lists_valid or not optional_valid:
+                errors.append(f"{rel}: invalid web/media field types")
+                continue
             expected_filename = f"{slug(record['title'])}--{slug(record['stable_id'])}.json"
             if path.name != expected_filename:
                 errors.append(f"{rel}: filename must be title-derived and end in the stable ID")
@@ -242,9 +274,9 @@ def validate() -> tuple[list[str], Counter, Counter]:
                     errors.append(f"{rel}: book lacks exact creator/publisher metadata")
                 if not any(e.get("kind") == "bibliographic_metadata" for e in record["evidence"]):
                     errors.append(f"{rel}: book lacks retained bibliographic evidence")
-            if not set(record["query_ids"]).issubset(query_ids):
+            if enforce_ledgers and not set(record["query_ids"]).issubset(query_ids):
                 errors.append(f"{rel}: query_ids absent from query ledger")
-            if record["stable_id"] not in retrieval_ids:
+            if enforce_ledgers and record["stable_id"] not in retrieval_ids:
                 errors.append(f"{rel}: no retrieval-ledger entry")
 
             for key, value in (
@@ -253,18 +285,19 @@ def validate() -> tuple[list[str], Counter, Counter]:
             ):
                 seen = seen_ids if key == "stable_id" else seen_urls
                 if value in seen:
-                    errors.append(f"{rel}: duplicate {key} with {seen[value].relative_to(ROOT)}")
+                    errors.append(f"{rel}: duplicate {key} with {seen[value].relative_to(root)}")
                 else:
                     seen[value] = path
             title_key = (re.sub(r"\W+", " ", record["title"].casefold()).strip(), record["publisher"].casefold())
             if title_key in seen_titles:
-                errors.append(f"{rel}: duplicate normalized title/publisher with {seen_titles[title_key].relative_to(ROOT)}")
+                errors.append(f"{rel}: duplicate normalized title/publisher with {seen_titles[title_key].relative_to(root)}")
             else:
                 seen_titles[title_key] = path
 
-    for lane, quota in LANES.items():
-        if counts[lane] < quota:
-            errors.append(f"{lane}: accepted {counts[lane]} below quota {quota}")
+    if enforce_quotas:
+        for lane, quota in LANES.items():
+            if counts[lane] < quota:
+                errors.append(f"{lane}: accepted {counts[lane]} below quota {quota}")
     return errors, counts, artifact_counts
 
 

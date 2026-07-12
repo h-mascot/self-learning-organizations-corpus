@@ -5,6 +5,7 @@ audit:
 
 validate: audit
 	python3 scripts/validate_youtube.py
+	python3 scripts/validate_web_media.py
 
 generate:
 	python3 tools/corpus.py generate
