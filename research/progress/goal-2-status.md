@@ -1,8 +1,8 @@
 # Goal 2 manager status
 
-Updated: 2026-07-12T08:18:48Z
+Updated: 2026-07-12T08:20:00Z
 Status: ACTIVE
-Phase: academic recovery merged; social quality repair, web/media acquisition, and global canonical integration active
+Phase: academic recovery merged and remotely verified; social quality repair, web/media acquisition, and global canonical integration active
 
 ## Independently verified counts on main
 
@@ -19,15 +19,17 @@ Phase: academic recovery merged; social quality repair, web/media acquisition, a
 - `python3 scripts/academic_recovery.py validate` returned 200 records with 186 accepted and 14 rejected, matching the ledgers.
 - Academic worktree was clean; lane tests and repository `make check` passed before merge.
 - Merged as `19b2022` (`merge: integrate validated academic recovery`).
-- Pushed main and fetched/read back `origin/main`; local and remote both resolve to `19b2022`.
+- Pushed main and fetched/read back `origin/main`; local and remote both resolve to `6079f2f` (manager status checkpoint after academic merge).
+- GitHub Actions `Corpus validation` run `29185652966` passed for exact main SHA `6079f2fd520bb027518cf59103b258689d92bc6a`.
+- Current main `make check` passes: 15 tests, 101 globally counted YouTube records, and a clean generated-artifact diff.
 - Current global statistics remain YouTube-only by design until the active global integration branch lands; academic files are therefore merged but not yet globally counted by `tools/corpus.py`.
 
 ## Live workers
 
 - Academic: COMPLETE and merged; stale original PID was not trusted and no duplicate worker was launched.
-- Social quality repair: LIVE, PID 970804 (child 970841), branch `goal/social-acquisition`, current commit `ebd4614`. The initial numeric 50 X / 25 Reddit / 25 newsletter batch is under mandatory evidence-quality correction for homepage-only URLs, generic/synthesized excerpts, unknown-date handling, and canonical resource verification; it is not merge-ready.
-- Web/media: LIVE, PID 960449 (child 960539), branch `goal/web-media-acquisition`, no commit yet. It has active uncommitted scripts, validators, ledgers, and channel record trees. Its checkpoint is stale at the design-phase baseline, so branch artifacts/process activity—not checkpoint prose—are the current liveness evidence.
-- Global canonical integration: LIVE, PID 978367 (child 978404), branch `goal/global-integration`, session `019f5568-3377-73b1-8c3e-a08c35280e27`. It owns schema, global validation/generation, statistics, and README integration for merged academic and future lane formats.
+- Social quality repair: LIVE, PID 970804 (child 970841), branch `goal/social-acquisition`, current commit `ebd4614`. The initial numeric 50 X / 25 Reddit / 25 newsletter batch is under mandatory evidence-quality correction for homepage-only URLs, generic/synthesized excerpts, unknown-date handling, and canonical resource verification; it is not merge-ready. CPU time is advancing, so no duplicate worker was launched.
+- Web/media: LIVE, PID 960449 (child 960539), branch `goal/web-media-acquisition`, no commit yet. It currently has 425 accepted-tree candidate files and 842 files modified in the last five minutes across active scripts, validators, ledgers, and channel trees. These are unvalidated candidates—not quota proof. Its checkpoint prose is stale, but process and artifact activity prove the worker is healthy; no duplicate was launched.
+- Global canonical integration: LIVE, PID 978367 (child 978404), branch `goal/global-integration`, session `019f5568-3377-73b1-8c3e-a08c35280e27`. It owns schema, global validation/generation, statistics, and README integration. The worktree had 1,172 recently modified files during deterministic generation; no commit yet and no duplicate launched.
 
 ## Blockers and unmet gates
 
