@@ -1,8 +1,8 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "as_of": "2026-07-12",
   "strict_unit_definition": "A unique named organization with public evidence that its operating system learns or improves through a documented feedback, evaluation, memory, experimentation, decision, failure-learning, specialized-agent, workflow-adaptation, knowledge-curation, or governance loop. A mere AI deployment, tool listing, hypothetical use case, theory paper, or vendor claim without an organization-level improvement loop does not qualify.",
-  "counting_rule": "Strict counts include only entries individually shown to meet strict_unit_definition. Zero means no qualifying entry was proven from the retrieved public evidence; it does not assert that none exists behind an inaccessible interface or after a future full audit.",
+  "counting_rule": "Strict counts include only entries individually shown to meet strict_unit_definition. Null means unknown because no row audit supports a numeric result. Zero is allowed only for a documented sample or complete audit with no qualifying entries; a sample zero does not describe unaudited rows or assert that no qualifying entry exists after a future full audit.",
   "largest_claim": {
     "permitted": false,
     "reason": "No exhaustive public-corpus universe or row-level like-for-like audit has been established. Large adjacent collections use different units, and the closest repository does not expose organization case records."
@@ -25,7 +25,7 @@
       "raw_count_relation": "exact",
       "raw_count_unit": "case studies",
       "raw_count_method": "publisher-stated database composition count in the linked 2025-12-22 analysis; the rounded landing-page headline says 800",
-      "strict_like_for_like_organization_evidence_count": 0,
+      "strict_like_for_like_organization_evidence_count": null,
       "strict_count_method": "Landing-page scope and schema audit only; the 805 rows are application/system designs, not organization-level learning-loop records, and no row-level strict audit was available in the retrieved page.",
       "exclusions": ["ML/LLM product implementations without an organizational improvement loop", "generic system-design learnings", "multiple use cases from one company"],
       "audit": {"coverage":"scope_only","selection_method":"Landing-page scope/schema review; no individual records were counted as audited units.","audited_unit_count":0,"rows":[]},
@@ -43,7 +43,7 @@
       "raw_count_relation": "exact",
       "raw_count_unit": "published case studies",
       "raw_count_method": "publisher-stated exact count on landing page, cross-checked against 67 case links in the retrieved rendering",
-      "strict_like_for_like_organization_evidence_count": 0,
+      "strict_like_for_like_organization_evidence_count": null,
       "strict_count_method": "Landing-page title/summary scope screen only. The records document AI use cases or operational systems, but a stable row-decision audit was not captured and no organization was therefore counted.",
       "exclusions": ["cross-industry reference architectures", "AI task automation", "predictive optimization", "self-healing technical infrastructure without evidence the organization itself learns"],
       "audit": {"coverage":"scope_only","selection_method":"All landing-page titles and summaries were screened at index level, but no stable row-decision ledger was captured; conservatively classified as scope-only.","audited_unit_count":0,"rows":[]},
@@ -61,7 +61,7 @@
       "raw_count_relation": "exact",
       "raw_count_unit": "verified cases claimed",
       "raw_count_method": "publisher-stated exact homepage counter; not independently enumerable from the retrieved public page",
-      "strict_like_for_like_organization_evidence_count": 0,
+      "strict_like_for_like_organization_evidence_count": null,
       "strict_count_method": "Homepage and example-record audit only. The public evidence did not expose an enumerable row set or prove any record whose unit is a named self-learning organization.",
       "exclusions": ["workflow use cases", "deployable agents and templates", "ROI records lacking a named organization-level learning loop", "uninspectable claimed records"],
       "audit": {"coverage":"scope_only","selection_method":"Homepage and example schema only; the claimed cases were not publicly enumerable.","audited_unit_count":0,"rows":[]},
@@ -79,7 +79,7 @@
       "raw_count_relation": "publisher_floor",
       "raw_count_unit": "validated case studies claimed",
       "raw_count_method": "publisher-stated lower-bound counter (928,650+) on directory page; stored numeric value is the advertised floor",
-      "strict_like_for_like_organization_evidence_count": 0,
+      "strict_like_for_like_organization_evidence_count": null,
       "strict_count_method": "Directory-scope audit only. Its unit is a vendor/customer story and no strict topical filter or row-level organizational-loop audit was available.",
       "exclusions": ["generic B2B customer stories", "software purchasing evidence", "vendor success claims", "non-AI cases"],
       "audit": {"coverage":"scope_only","selection_method":"Directory scope only; no topical enumeration or deterministic sample was available.","audited_unit_count":0,"rows":[]},
@@ -97,7 +97,7 @@
       "raw_count_relation": "publisher_floor",
       "raw_count_unit": "case studies",
       "raw_count_method": "publisher-stated lower bound ('over 100'); stored numeric value is the advertised floor",
-      "strict_like_for_like_organization_evidence_count": 0,
+      "strict_like_for_like_organization_evidence_count": null,
       "strict_count_method": "Directory-scope audit only. Employee/member training-system adoption is not evidence that an organization has a self-improving operating loop.",
       "exclusions": ["LMS customer success stories", "training delivery and administration", "vendor satisfaction evidence"],
       "audit": {"coverage":"scope_only","selection_method":"Directory scope only; no organization-loop row audit was performed.","audited_unit_count":0,"rows":[]},
@@ -115,7 +115,7 @@
       "raw_count_relation": "exact",
       "raw_count_unit": "versioned content files excluding repository administration files",
       "raw_count_method": "GitHub recursive tree: 24 blobs minus .gitignore, policy/contribution/license, and README = 19 content files",
-      "strict_like_for_like_organization_evidence_count": 0,
+      "strict_like_for_like_organization_evidence_count": null,
       "strict_count_method": "Complete filename/tree audit. The repository packages patterns, analyses, blueprints and source notes rather than one independently countable record per evidenced organization.",
       "exclusions": ["general patterns", "blueprints", "analysis essays", "source notes not normalized into organization case records"],
       "audit": {"coverage":"scope_only","selection_method":"Complete repository tree/type audit established that organization cases are not its unit; individual files were therefore not treated as comparable audit units.","audited_unit_count":0,"rows":[]},
@@ -182,6 +182,43 @@
         ]
       },
       "retrieval_evidence": [{"retrieved_at":"2026-07-12","url":"https://airepository.worldbank.org/cases","method":"public cases directory rendering","evidence":"Directory reported 111 results, 15 per first page, exposed stable use-case URLs and filters, and showed 2026-04-16 update dates for the audited first five records; no repository-wide last-update date was stated."}]
+    },
+    {
+      "id": "ihi-100-million-healthier-lives",
+      "name": "100 Million Healthier Lives: Case Studies from Around the Globe",
+      "url": "https://www.ihi.org/library/publications/100-million-healthier-lives-case-studies-around-globe",
+      "scope": "Ten named organizations using the Community of Solutions improvement framework to measure outcomes, test changes, learn from feedback and results, adapt operations, and spread successful models.",
+      "update_date": "2020-12-31",
+      "update_date_precision": "year",
+      "schema": ["organization", "framework dimension", "operating challenge", "measurement or feedback method", "tested adaptation", "outcome"],
+      "raw_count": 10,
+      "raw_count_relation": "exact",
+      "raw_count_unit": "organization case studies",
+      "raw_count_method": "Publisher-stated count in the dated report and landing page, cross-checked against all ten organization case headings in the 23-page public PDF.",
+      "strict_like_for_like_organization_evidence_count": 10,
+      "strict_count_method": "Complete report audit. Each of the ten named organization cases documents use of the Community of Solutions framework; the report defines its mutually reinforcing measurement, testing, learning, adaptation, and scaling cycle, and each row contains organization-specific evidence of at least one such loop.",
+      "exclusions": ["The 24 SCALE communities listed as program participants but not presented as the report's ten audited organization cases", "individual partner organizations mentioned only as context", "unnamed schools and local program sites", "outcomes without a documented operating feedback, testing, measurement, or learning mechanism"],
+      "audit": {
+        "coverage": "complete",
+        "selection_method": "All ten organization case headings in report order, audited from the publisher's 2020 public PDF on 2026-07-12.",
+        "audited_unit_count": 10,
+        "rows": [
+          {"label":"Community Solutions","url":"https://www.ihi.org/sites/default/files/2023-09/100-Million-Healthier-Lives_Case-Studies-from-Around-the-Globe.pdf#page=8","decision":"include","organization":"Community Solutions","reason":"Replaced placement totals with real-time by-name data, used gaps and individual barriers to modify outreach, and tracked progress toward functional zero."},
+          {"label":"Health Improvement Partnership of Maricopa County","url":"https://www.ihi.org/sites/default/files/2023-09/100-Million-Healthier-Lives_Case-Studies-from-Around-the-Globe.pdf#page=9","decision":"include","organization":"Health Improvement Partnership of Maricopa County","reason":"Set incremental targets, assessed progress frequently, ran a 100-day test, harvested lessons, and spread the resulting food-distribution model."},
+          {"label":"National Council on Aging","url":"https://www.ihi.org/sites/default/files/2023-09/100-Million-Healthier-Lives_Case-Studies-from-Around-the-Globe.pdf#page=10","decision":"include","organization":"National Council on Aging","reason":"Piloted a well-being assessment, revised questions and time horizon from participant feedback, then used results to adapt partner services and address shortfalls."},
+          {"label":"Proviso Partners for Health","url":"https://www.ihi.org/sites/default/files/2023-09/100-Million-Healthier-Lives_Case-Studies-from-Around-the-Globe.pdf#page=11","decision":"include","organization":"Proviso Partners for Health","reason":"Learned from peer organizations, used resident-led agenda setting and an equity dashboard, and iteratively expanded partnerships and operating programs."},
+          {"label":"Ethnic Community-Based Organization for Immigrants and Refugees","url":"https://www.ihi.org/sites/default/files/2023-09/100-Million-Healthier-Lives_Case-Studies-from-Around-the-Globe.pdf#page=12","decision":"include","organization":"Ethnic Community-Based Organization for Immigrants and Refugees","reason":"Adopted explicit aims, measurement plans, and small tests of change; community feedback directly changed survey design and service practices."},
+          {"label":"LiveWell Kershaw Coalition","url":"https://www.ihi.org/sites/default/files/2023-09/100-Million-Healthier-Lives_Case-Studies-from-Around-the-Globe.pdf#page=13","decision":"include","organization":"LiveWell Kershaw Coalition","reason":"Used assessment data, community feedback, youth-designed small tests of change, and shared measurement to redirect services and define action priorities."},
+          {"label":"Concord Hospital","url":"https://www.ihi.org/sites/default/files/2023-09/100-Million-Healthier-Lives_Case-Studies-from-Around-the-Globe.pdf#page=15","decision":"include","organization":"Concord Hospital","reason":"Used a progress-assessment framework, neighborhood data, and patient feedback to revise strategy, care plans, partnerships, and interventions."},
+          {"label":"Community Platform for Empowerment and Development","url":"https://www.ihi.org/sites/default/files/2023-09/100-Million-Healthier-Lives_Case-Studies-from-Around-the-Globe.pdf#page=16","decision":"include","organization":"Community Platform for Empowerment and Development","reason":"Replicated and adapted a learned empowerment program locally, measured participation and downstream outcomes, and used peer idea exchange to evolve activities."},
+          {"label":"Youth of Solutions","url":"https://www.ihi.org/sites/default/files/2023-09/100-Million-Healthier-Lives_Case-Studies-from-Around-the-Globe.pdf#page=17","decision":"include","organization":"Youth of Solutions","reason":"A cross-country learning network taught driver diagrams and progress tracking; participants adapted and replicated approaches in their own schools and communities."},
+          {"label":"The Daily Mile","url":"https://www.ihi.org/sites/default/files/2023-09/100-Million-Healthier-Lives_Case-Studies-from-Around-the-Globe.pdf#page=18","decision":"include","organization":"The Daily Mile Foundation","reason":"The organization commissioned outcome and equity research, learned from adoption patterns, preserved the tested core model, and deliberately adapted its scaling system."}
+        ]
+      },
+      "retrieval_evidence": [
+        {"retrieved_at":"2026-07-12","url":"https://www.ihi.org/library/publications/100-million-healthier-lives-case-studies-around-globe","method":"Public publisher landing-page audit","evidence":"The page dates the report to 2020, states that it features ten organizations, and describes co-design, co-evaluation, testing, coaching, and learning across the 2014-2020 initiative."},
+        {"retrieved_at":"2026-07-12","url":"https://www.ihi.org/sites/default/files/2023-09/100-Million-Healthier-Lives_Case-Studies-from-Around-the-Globe.pdf","method":"Complete public 23-page PDF text audit","evidence":"The report states that its ten organizations use mutually reinforcing framework components to measure effectiveness, test solutions, learn, adapt, and spread success; all ten organization headings and case narratives were audited."}
+      ]
     },
     {
       "id": "lean-enterprise-institute-case-studies",
