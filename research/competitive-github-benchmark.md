@@ -1,5 +1,7 @@
 # Competitive GitHub Corpus Benchmark
 
+> Superseded for cross-web comparison by the deterministic [public competitor benchmark](benchmark/public-competitor-benchmark.json). This file remains the GitHub discovery log, not the basis for a largest claim.
+
 ## Method
 
 Authenticated GitHub repository search was run on 2026-07-11 with exact and adjacent query families: `learning organization corpus`, `self-learning organizations`, `AI-native company corpus`, `organizational learning dataset`, `recursive improvement organization`, and `autonomous enterprise corpus`. Evidence is preserved in `research/benchmark/github-search.json`.
