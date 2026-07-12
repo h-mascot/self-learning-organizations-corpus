@@ -13,6 +13,7 @@ validate: audit
 	python3 scripts/validate_web_media_saturation_4.py
 	python3 scripts/validate_native_saturation_3.py
 	python3 scripts/validate_native_saturation_4.py
+	python3 scripts/validate_academic_saturation_5.py
 
 generate:
 	python3 tools/corpus.py generate
