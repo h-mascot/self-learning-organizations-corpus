@@ -8,9 +8,9 @@ Phase: scale-and-saturation; fixed quotas remain verified floors, not completion
 
 - Preserved baseline: `make check` passes on main at `c5d28642ea65feeebcad5e3b5b00a2d426175990` (41 tests; 1,052 audited; 634 accepted), the worktree is clean, `origin/main` matches, and exact-SHA GitHub Actions run `29196942345` passed.
 - Current accepted floors remain X 50; Reddit 25; Substack 25; blogs 78; podcasts 30; books 30; conferences 30; case studies 50; GitHub 30; academic 186; YouTube 100.
-- Canonical organization indexing/mechanism tagging is dispatched in `goal/scale-index` (PID 1110025).
-- Public competitor measurement is dispatched in `goal/scale-benchmark` (PID 1110071).
-- Cross-channel saturation/citation chasing is dispatched in `goal/scale-saturation` (PID 1110117).
+- Canonical organization indexing/mechanism tagging is live in `goal/scale-index` (PID 1110566; restarted after a CLI option incompatibility).
+- Public competitor measurement is live in `goal/scale-benchmark` (PID 1110613; restarted after the same diagnosed CLI option incompatibility).
+- Cross-channel saturation/citation chasing is live in `goal/scale-saturation` (PID 1110659; restarted after the same diagnosed CLI option incompatibility).
 - Completion is unproven until the organization index and mechanism dashboard validate, like-for-like public benchmarking supports the measured-largest claim, and every channel has three consecutive materially different search rounds below 5% net-new accepted uniques.
 
 ## Criterion-by-criterion proof
