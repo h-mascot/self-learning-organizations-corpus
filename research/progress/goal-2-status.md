@@ -1,18 +1,17 @@
 # Goal 2 manager status
 
-Updated: 2026-07-12T15:07:04Z
+Updated: 2026-07-12T15:20:38Z
 Status: ACTIVE
 Phase: scale-and-saturation; fixed quotas remain verified floors, not completion
 
 ## Scale checkpoint
 
-- Preserved baseline reverified: `make check` passes on main at `440b1e9845de33e1e9c8dc048d8be6768d7e351f` (41 tests; 1,052 audited; 634 accepted), the worktree was clean before this manager-status update, and `origin/main` matched.
-- Current accepted floors remain X 50; Reddit 25; Substack 25; blogs 78; podcasts 30; books 30; conferences 30; case studies 50; GitHub 30; academic 186; YouTube 100.
-- Canonical organization indexing/mechanism tagging is live in `goal/scale-index` (PID 1115446).
-- Public competitor measurement is live in `goal/scale-benchmark` (PID 1115622).
-- Cross-channel saturation/citation chasing is live in `goal/scale-saturation` (PID 1115797).
-- Worker recovery evidence: the current Codex CLI rejects the launcher-injected legacy `--full-auto` option; all three lanes were relaunched through the versioned Node entrypoint with `exec --ignore-user-config -s danger-full-access`, then polled successfully into substantive repository inspection.
-- Completion is unproven until the organization index and mechanism dashboard validate, like-for-like public benchmarking supports the measured-largest claim, and every channel has three consecutive materially different search rounds below 5% net-new accepted uniques.
+- Preserved baseline and merged all three scale lanes through `edde070`: canonical index (`e215f35`), public benchmark (`e4cb6dd`), and saturation evidence (`4974ab3`).
+- Combined-tree `make check` passes: 47 tests, 1,052 audited records, 634 accepted sources, 9 strictly evidenced organizations / 10 source links, 6 benchmarked public collections, and 33 search rounds / 291 candidates across 11 channels.
+- Integrity held: generic tooling is excluded from organization counts; 267 saturation candidates were rejected and 24 remain blocked for primary-source review. Zero automatic accepts were explicitly ruled ineligible as saturation proof.
+- The benchmark does **not** permit a largest claim: adjacent public collections range from 19 content files to 928,650+ generic case studies, but broader discovery and row-level like-for-like audits remain incomplete.
+- No worker is live; all three completed lanes were independently checked and merged. Follow-up work is required to review the 24 blockers and run three eligible low-yield rounds per channel on higher-precision backends.
+- Completion remains unproven: 0/11 channels are saturated and `largest measured` is not supported.
 
 ## Criterion-by-criterion proof
 
