@@ -1,9 +1,11 @@
 # Goal: Build a validated cross-channel corpus of self-learning and self-improving organizations
 
-**Status: ACHIEVED — 2026-07-12.** Criterion-level proof is recorded in `research/progress/goal-2-status.md`; completion remains reproducible via `make check`.
+**Status: ACTIVE — scale-and-saturation phase.** The first cross-channel quota milestone was achieved on 2026-07-12, but quotas are floors, not the mission.
 
 ## North star
-Transform this repository from a YouTube-only validated corpus into a provenance-first, platform-balanced corpus containing retrievable evidence from academic research, X, Reddit, Substack/newsletters, blogs/company sites, podcasts, books, conference talks, case studies, GitHub, and YouTube.
+Build the largest measured, highest-integrity public corpus of how AI-native and self-learning organizations actually improve: their feedback loops, evals, memory, operating systems, specialized agents, decision records, failure-learning mechanisms, and measurable outcomes. Cover academic research, X, Reddit, Substack/newsletters, blogs/company sites, podcasts, books, conference talks, case studies, GitHub, and YouTube.
+
+The motivating doctrine is Pedro Franceschi's discussion with Garry Tan on YC's *The Light Cone*, “The CEO Must Be the Chief AI Officer,” especially the “Building Company AGI” section: curate context aggressively; model bounded operational domains; compose specialized agents rather than one monolithic company model; preserve raw data, procedures, decisions, and skills; evaluate improvement through operational failures and feedback.
 
 ## Current verified baseline
 - 100 accepted complete timestamped YouTube transcripts; 1 rejected video.
@@ -47,6 +49,19 @@ Search each channel using multiple query families and citation chasing. Minimum 
 - GitHub repositories/issues/discussions: 30
 - Academic: at least 150 relevant accepted records after cleanup
 - YouTube: preserve existing 100; expansion is secondary until other gates pass
+
+These counts are minimum floors only. Passing them does not complete the goal.
+
+### 4B. Scale, company coverage, and saturation
+- Continue acquiring beyond every floor while novel, relevant sources remain discoverable.
+- Maintain a canonical company/organization index linking each organization to all supporting sources and mechanisms.
+- Separate organization case evidence from general theory/tooling; a generic AI repository is not evidence of a self-learning organization.
+- Tag each accepted source by mechanism: feedback/evals, organizational memory, experimentation, decision systems, failure/postmortem learning, specialized agents, workflow adaptation, knowledge curation, governance, and measurable outcome.
+- Run recursive citation and named-entity chasing from every high-value accepted source: people, companies, products, referenced talks, papers, repositories, and customer stories.
+- Benchmark publicly discoverable competing corpora/directories/datasets and record their scope, counts, update date, schema, and URL. “Largest” is permitted only when the measured accepted corpus exceeds all identified comparable public collections on a documented like-for-like basis.
+- Use diminishing-return saturation rather than a fixed total: each channel must complete at least three consecutive documented search rounds with less than 5% net-new accepted unique sources, across materially different query families/backends, before it can be marked saturated.
+- Re-open saturated channels when new entities, citations, or platform access paths appear.
+- Publish an honest dashboard for organizations, sources, mechanisms, artifact levels, channels, rejected/blocked items, and benchmark position.
 
 For every channel, preserve query logs, retrieval evidence, accepted/rejected/blocked counts, and rate-limit/auth blockers. Use legal public access only. Never fabricate unavailable text.
 
@@ -97,4 +112,4 @@ Before marking achieved:
 5. Confirm clean git state, main pushed, CI passing, and remote generated statistics match local.
 6. Produce criterion-by-criterion proof and unresolved blocker ledger.
 
-Status remains ACTIVE until every gate has proof or all safe progress is exhausted and status is explicitly BLOCKED with evidence.
+Status remains ACTIVE until every gate has proof, the public-competitor benchmark supports the “largest measured” claim, and every channel meets the diminishing-return saturation rule; otherwise it is explicitly BLOCKED with evidence.
