@@ -1,0 +1,30 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://openai.com/index/endava/",
+  "content_sha256": "0211fbcbdee5dd77a68592afdfd1b87b9ad9dc0d2de6f58d6b83f8dace1de731",
+  "creator": "OpenAI; Endava",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "primary page, 'Magnifying every skill' and 'Weeks of work, compressed into days'",
+      "text": "Endava says senior expertise is codified into agents used across intake, ideation, and delivery. Senior architectural judgment becomes accessible to junior teams in real time; requirements analysis that formerly took weeks was compressed into two one-hour meetings, producing a usable specification."
+    }
+  ],
+  "platform": "case-studies",
+  "provenance": "Primary OpenAI customer story with named Endava executives manually re-reviewed from blocked saturation discovery on 2026-07-12.",
+  "published_date": "2026-05-28",
+  "publisher": "OpenAI",
+  "query_ids": ["citation-catalog-case-studies"],
+  "rejection_reason": null,
+  "relevance_evidence": ["Named Endava executives describe codifying senior judgment into agents across the delivery lifecycle and provide a bounded time-reduction outcome."],
+  "retrieval_method": "manual primary-page review via public web reader",
+  "retrieved_at": "2026-07-12T16:28:12Z",
+  "rights_note": "Only a bounded paraphrased evidence span is stored; no complete third-party page is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "case-study",
+  "stable_id": "case-studies-15b8697b347c3d41",
+  "status": "accepted",
+  "title": "How Endava builds an agentic organization with Codex"
+}

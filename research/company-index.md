@@ -2,25 +2,25 @@
 
 Generated from `research/organization-evidence.json`. Only accepted evidence about a named organization's implemented operating practice is indexed; generic tooling and theory are excluded.
 
-- Organizations: **9**
-- Organization-evidence source links: **10**
-- Sources with a measurable outcome: **7**
+- Organizations: **13**
+- Organization-evidence source links: **14**
+- Sources with a measurable outcome: **9**
 - Independently sampled generic/theory exclusions: **10**
 
 ## Mechanism dashboard
 
 | Mechanism | Source links |
 | --- | ---: |
-| feedback/evals | 4 |
-| organizational memory | 3 |
-| experimentation | 4 |
+| feedback/evals | 5 |
+| organizational memory | 6 |
+| experimentation | 5 |
 | decision systems | 2 |
-| failure/postmortem learning | 1 |
-| specialized agents | 3 |
-| workflow adaptation | 6 |
-| knowledge curation | 2 |
-| governance | 2 |
-| measurable outcome | 7 |
+| failure/postmortem learning | 3 |
+| specialized agents | 4 |
+| workflow adaptation | 8 |
+| knowledge curation | 5 |
+| governance | 4 |
+| measurable outcome | 9 |
 
 ## Organizations
 
@@ -40,6 +40,14 @@ Generated from `research/organization-evidence.json`. Only accepted evidence abo
 
 - [How we build experiments in-house - Canva Engineering Blog](https://www.canva.dev/blog/engineering/how-we-build-experiments-in-house/) — organizational memory, experimentation, workflow adaptation. Canva built an internal experimentation platform and is adapting setup, analysis, and result-learnability workflows. Evidence: First-party engineering account describes a deployed internal platform and its evolution.
 
+### Endava
+
+- [How Endava builds an agentic organization with Codex](https://openai.com/index/endava/) — organizational memory, specialized agents, workflow adaptation, knowledge curation, measurable outcome. Endava codifies senior architectural judgment into agents used across its delivery lifecycle and reports compressing a requirements-analysis engagement from weeks into two one-hour meetings. Evidence: Named Endava executives describe the deployed knowledge-transfer mechanism; the bounded time outcome is vendor-published.
+
+### Etsy
+
+- [Etsy's Debriefing Facilitation Guide for Blameless Postmortems](https://www.etsy.com/codeascraft/debriefing-facilitation-guide) — organizational memory, failure/postmortem learning, knowledge curation. Etsy evolves a debriefing practice that combines objective event data with multiple subjective perspectives to create organizational learning. Evidence: First-party engineering account describes Etsy's implemented and evolving debrief practice.
+
 ### Google
 
 - [Google SRE - Blameless Postmortem for System Resilience](https://sre.google/sre-book/postmortem-culture/) — organizational memory, failure/postmortem learning, knowledge curation, governance, measurable outcome. Google coordinates postmortems across the company, standardizes templates, automates evidence capture, and mines postmortems for trends. Evidence: First-party SRE book describes a named working group and company-wide mechanism; outage reduction is a company claim.
@@ -47,6 +55,10 @@ Generated from `research/organization-evidence.json`. Only accepted evidence abo
 ### LG CNS
 
 - [LG CNS builds a self-improving modernization harness with Claude Code](https://www.anthropic.com/customers/lg-cns) — feedback/evals, organizational memory, specialized agents, workflow adaptation, measurable outcome. LG CNS uses persistent file-based memory, multi-agent file handoffs, and deterministic quality measurement in a self-improving modernization harness. Evidence: Named customer implementation; mechanism detail is retained, while results are vendor-published.
+
+### Macquarie Group
+
+- [The (not so) secret ingredient — prioritising continuous improvement](https://medium.com/macquarie-engineering-blog/the-not-so-secret-ingredient-prioritising-continuous-improvement-667f8a4bcdb3) — feedback/evals, experimentation, workflow adaptation, governance, measurable outcome. Macquarie teams use retrospectives, a tracked continuous-improvement backlog, OKRs, and reserved Innovation Days; a reported initiative could reduce support by 40 hours per month. Evidence: First-party engineering account by Macquarie's Chief Scrum Master describes concrete team practices and a company-reported bounded outcome.
 
 ### Siemens
 
@@ -56,6 +68,10 @@ Generated from `research/organization-evidence.json`. Only accepted evidence abo
 
 - [Better Experiments with LLM Evals — A funnel, not a fork | Spotify Engineering](https://engineering.atspotify.com/2026/5/better-experiments-with-llm-evals-a-funnel-not-a-fork) — feedback/evals, experimentation, workflow adaptation. Spotify continuously recalibrates offline evals against online outcomes to improve their value as verification tools. Evidence: First-party engineering account describes an operational calibration loop.
 - [Beyond Winning: Spotify’s Experiments with Learning Framework | Spotify Engineering](https://engineering.atspotify.com/2025/9/spotifys-experiments-with-learning-framework) — experimentation, decision systems, measurable outcome. Spotify uses an Experiments-with-Learning metric to guide investment, testing capacity, and experimentation practice. Evidence: First-party engineering account supplies the decision mechanism and reported learning and win rates.
+
+### Wise
+
+- [Blameless postmortems: Creating an honest and open culture](https://medium.com/wise-engineering/blameless-portmortems-creating-and-honest-and-open-culture-6202b0946a1e) — organizational memory, failure/postmortem learning, knowledge curation, governance. Wise records incident impact, timeline, cause, detection, repair, and prevention steps, then shares postmortems so relevant teams or the whole company can learn. Evidence: First-party engineering account describes Wise's organization-wide incident-learning practice.
 
 ### bunq
 

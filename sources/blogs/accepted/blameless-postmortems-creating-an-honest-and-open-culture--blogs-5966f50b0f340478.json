@@ -1,0 +1,30 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://medium.com/wise-engineering/blameless-portmortems-creating-and-honest-and-open-culture-6202b0946a1e",
+  "content_sha256": "5622d6af564f137de31af36ae7ad39883a6df190dba849d15410dfaebf39a513",
+  "creator": "Vincent Oberle",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "primary page, paragraphs 1-3 and 'How we think about screw-ups'",
+      "text": "Wise describes postmortems as deep-dive reflections into what happened, how it was fixed, and how recurrence can be avoided. After an incident, teams record impact, timeline, root cause, detection and repair, and prevention steps, then share the write-up with relevant teams or the whole company so others can learn from it."
+    }
+  ],
+  "platform": "blogs",
+  "provenance": "Primary Wise Engineering publication manually re-reviewed from blocked saturation discovery on 2026-07-12.",
+  "published_date": "2020-11-25",
+  "publisher": "Wise Engineering",
+  "query_ids": ["citation-catalog-blogs"],
+  "rejection_reason": null,
+  "relevance_evidence": ["Wise documents its organization-wide incident write-up, sharing, and recurrence-prevention loop."],
+  "retrieval_method": "manual primary-page review via public web reader",
+  "retrieved_at": "2026-07-12T16:28:12Z",
+  "rights_note": "Only a bounded paraphrased evidence span is stored; no complete third-party page is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "article",
+  "stable_id": "blogs-5966f50b0f340478",
+  "status": "accepted",
+  "title": "Blameless postmortems: Creating an honest and open culture"
+}

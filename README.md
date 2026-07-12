@@ -4,11 +4,11 @@ Open research corpus about self-learning, self-improving, AI-native organization
 
 ## Corpus status
 
-- Accounted canonical/evidence records: **1053**
-- Accepted relevant sources: **635**
-- Retrieved records (including accepted/rejected): **1046**
-- Rejected records: **411**
-- Blocked retrieval records: **7**
+- Accounted canonical/evidence records: **1052**
+- Accepted relevant sources: **638**
+- Retrieved records (including accepted/rejected): **1052**
+- Rejected records: **414**
+- Blocked retrieval records: **0**
 - Complete timestamped YouTube transcripts: **100**
 
 | Platform | Discovered | Retrieved | Accepted | Rejected | Blocked | Artifact levels | Rights statuses | Provenance coverage |
@@ -18,33 +18,32 @@ Open research corpus about self-learning, self-improving, AI-native organization
 | x | 50 | 50 | 50 | 0 | 0 | full_text: 50 | third-party: 50 | 50 records / 1 distinct values |
 | reddit | 25 | 25 | 25 | 0 | 0 | full_text: 25 | third-party: 25 | 25 records / 1 distinct values |
 | substack | 25 | 25 | 25 | 0 | 0 | metadata_only: 25 | third-party: 25 | 25 records / 1 distinct values |
-| blogs | 88 | 82 | 78 | 4 | 6 | metadata_only: 78, unavailable: 10 | bounded-public-evidence: 80, retrieval-evidence-only: 8 | 88 records / 3 distinct values |
+| blogs | 87 | 87 | 80 | 7 | 0 | metadata_only: 80, unavailable: 7 | bounded-public-evidence: 82, retrieval-evidence-only: 5 | 87 records / 9 distinct values |
 | podcasts | 51 | 51 | 30 | 21 | 0 | metadata_only: 30, unavailable: 21 | bounded-public-evidence: 50, retrieval-evidence-only: 1 | 51 records / 50 distinct values |
 | conferences | 53 | 53 | 30 | 23 | 0 | metadata_only: 30, unavailable: 23 | bounded-public-evidence: 53 | 53 records / 2 distinct values |
 | books | 174 | 174 | 30 | 144 | 0 | metadata_only: 30, unavailable: 144 | metadata-only: 174 | 174 records / 174 distinct values |
-| case-studies | 63 | 62 | 50 | 12 | 1 | metadata_only: 50, unavailable: 13 | bounded-public-evidence: 52, retrieval-evidence-only: 11 | 63 records / 3 distinct values |
+| case-studies | 63 | 63 | 51 | 12 | 0 | metadata_only: 51, unavailable: 12 | bounded-public-evidence: 53, retrieval-evidence-only: 10 | 63 records / 4 distinct values |
 | github | 223 | 223 | 31 | 192 | 0 | metadata_only: 31, unavailable: 192 | bounded-public-evidence: 14, open-license: 209 | 223 records / 223 distinct values |
 
 | Artifact level | Records |
 | --- | ---: |
 | abstract | 164 |
 | full_text | 88 |
-| metadata_only | 297 |
+| metadata_only | 300 |
 | transcript | 101 |
-| unavailable | 403 |
+| unavailable | 399 |
 
 | Lifecycle | Records |
 | --- | ---: |
-| accepted | 635 |
-| blocked | 7 |
-| rejected | 411 |
+| accepted | 638 |
+| rejected | 414 |
 
 | Rights status | Records |
 | --- | ---: |
-| bounded-public-evidence | 249 |
+| bounded-public-evidence | 252 |
 | metadata-only | 174 |
 | open-license | 235 |
-| retrieval-evidence-only | 20 |
+| retrieval-evidence-only | 16 |
 | third-party | 201 |
 | third-party-metadata-and-abstract | 174 |
 

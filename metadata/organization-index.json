@@ -1,22 +1,22 @@
 {
   "by_mechanism": {
     "decision systems": 2,
-    "experimentation": 4,
-    "failure/postmortem learning": 1,
-    "feedback/evals": 4,
-    "governance": 2,
-    "knowledge curation": 2,
-    "measurable outcome": 7,
-    "organizational memory": 3,
-    "specialized agents": 3,
-    "workflow adaptation": 6
+    "experimentation": 5,
+    "failure/postmortem learning": 3,
+    "feedback/evals": 5,
+    "governance": 4,
+    "knowledge curation": 5,
+    "measurable outcome": 9,
+    "organizational memory": 6,
+    "specialized agents": 4,
+    "workflow adaptation": 8
   },
   "by_platform": {
-    "blogs": 5,
-    "case-studies": 5
+    "blogs": 8,
+    "case-studies": 6
   },
-  "organization_count": 9,
-  "organization_evidence_source_count": 10,
+  "organization_count": 13,
+  "organization_evidence_source_count": 14,
   "organizations": [
     {
       "mechanisms": [
@@ -127,6 +127,64 @@
     {
       "mechanisms": [
         "organizational memory",
+        "specialized agents",
+        "workflow adaptation",
+        "knowledge curation",
+        "measurable outcome"
+      ],
+      "organization": "Endava",
+      "source_count": 1,
+      "sources": [
+        {
+          "artifact_level": "metadata_only",
+          "claim": "Endava codifies senior architectural judgment into agents used across its delivery lifecycle and reports compressing a requirements-analysis engagement from weeks into two one-hour meetings.",
+          "evidence_basis": "Named Endava executives describe the deployed knowledge-transfer mechanism; the bounded time outcome is vendor-published.",
+          "evidence_locator": "primary page, 'Magnifying every skill' and 'Weeks of work, compressed into days'",
+          "mechanisms": [
+            "organizational memory",
+            "specialized agents",
+            "workflow adaptation",
+            "knowledge curation",
+            "measurable outcome"
+          ],
+          "platform": "case-studies",
+          "source_id": "case-studies-15b8697b347c3d41",
+          "source_path": "sources/case-studies/accepted/how-endava-builds-an-agentic-organization-with-codex--case-studies-15b8697b347c3d41.json",
+          "source_title": "How Endava builds an agentic organization with Codex",
+          "source_url": "https://openai.com/index/endava/"
+        }
+      ]
+    },
+    {
+      "mechanisms": [
+        "organizational memory",
+        "failure/postmortem learning",
+        "knowledge curation"
+      ],
+      "organization": "Etsy",
+      "source_count": 1,
+      "sources": [
+        {
+          "artifact_level": "metadata_only",
+          "claim": "Etsy evolves a debriefing practice that combines objective event data with multiple subjective perspectives to create organizational learning.",
+          "evidence_basis": "First-party engineering account describes Etsy's implemented and evolving debrief practice.",
+          "evidence_locator": "primary page, introduction and 'The Questions Are As Important As The Answers'",
+          "mechanisms": [
+            "organizational memory",
+            "failure/postmortem learning",
+            "knowledge curation"
+          ],
+          "platform": "blogs",
+          "source_id": "blogs-ec4e1bfe3a3ec261",
+          "source_path": "sources/blogs/accepted/etsy-s-debriefing-facilitation-guide-for-blameless-postmortems--blogs-ec4e1bfe3a3ec261.json",
+          "source_title": "Etsy's Debriefing Facilitation Guide for Blameless Postmortems",
+          "source_url": "https://www.etsy.com/codeascraft/debriefing-facilitation-guide"
+        }
+      ]
+    },
+    {
+      "mechanisms": [
+        "organizational memory",
         "failure/postmortem learning",
         "knowledge curation",
         "governance",
@@ -183,6 +241,37 @@
           "source_path": "sources/case-studies/accepted/lg-cns-builds-a-self-improving-modernization-harness-with-claude-code--case-studies-ec6ebd3dfb6054b0.json",
           "source_title": "LG CNS builds a self-improving modernization harness with Claude Code",
           "source_url": "https://www.anthropic.com/customers/lg-cns"
+        }
+      ]
+    },
+    {
+      "mechanisms": [
+        "feedback/evals",
+        "experimentation",
+        "workflow adaptation",
+        "governance",
+        "measurable outcome"
+      ],
+      "organization": "Macquarie Group",
+      "source_count": 1,
+      "sources": [
+        {
+          "artifact_level": "metadata_only",
+          "claim": "Macquarie teams use retrospectives, a tracked continuous-improvement backlog, OKRs, and reserved Innovation Days; a reported initiative could reduce support by 40 hours per month.",
+          "evidence_basis": "First-party engineering account by Macquarie's Chief Scrum Master describes concrete team practices and a company-reported bounded outcome.",
+          "evidence_locator": "primary page, 'Stop to go faster'",
+          "mechanisms": [
+            "feedback/evals",
+            "experimentation",
+            "workflow adaptation",
+            "governance",
+            "measurable outcome"
+          ],
+          "platform": "blogs",
+          "source_id": "blogs-79f8ab4d3215da70",
+          "source_path": "sources/blogs/accepted/the-not-so-secret-ingredient-prioritising-continuous-improvement--blogs-79f8ab4d3215da70.json",
+          "source_title": "The (not so) secret ingredient \u2014 prioritising continuous improvement",
+          "source_url": "https://medium.com/macquarie-engineering-blog/the-not-so-secret-ingredient-prioritising-continuous-improvement-667f8a4bcdb3"
         }
       ]
     },
@@ -260,6 +349,35 @@
     },
     {
       "mechanisms": [
+        "organizational memory",
+        "failure/postmortem learning",
+        "knowledge curation",
+        "governance"
+      ],
+      "organization": "Wise",
+      "source_count": 1,
+      "sources": [
+        {
+          "artifact_level": "metadata_only",
+          "claim": "Wise records incident impact, timeline, cause, detection, repair, and prevention steps, then shares postmortems so relevant teams or the whole company can learn.",
+          "evidence_basis": "First-party engineering account describes Wise's organization-wide incident-learning practice.",
+          "evidence_locator": "primary page, paragraphs 1-3 and 'How we think about screw-ups'",
+          "mechanisms": [
+            "organizational memory",
+            "failure/postmortem learning",
+            "knowledge curation",
+            "governance"
+          ],
+          "platform": "blogs",
+          "source_id": "blogs-5966f50b0f340478",
+          "source_path": "sources/blogs/accepted/blameless-postmortems-creating-an-honest-and-open-culture--blogs-5966f50b0f340478.json",
+          "source_title": "Blameless postmortems: Creating an honest and open culture",
+          "source_url": "https://medium.com/wise-engineering/blameless-portmortems-creating-and-honest-and-open-culture-6202b0946a1e"
+        }
+      ]
+    },
+    {
+      "mechanisms": [
         "decision systems",
         "specialized agents",
         "workflow adaptation",
@@ -290,5 +408,5 @@
   ],
   "sampled_exclusion_count": 10,
   "schema_version": 1,
-  "sources_with_measurable_outcome": 7
+  "sources_with_measurable_outcome": 9
 }
