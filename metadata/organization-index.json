@@ -1,0 +1,294 @@
+{
+  "by_mechanism": {
+    "decision systems": 2,
+    "experimentation": 4,
+    "failure/postmortem learning": 1,
+    "feedback/evals": 4,
+    "governance": 2,
+    "knowledge curation": 2,
+    "measurable outcome": 7,
+    "organizational memory": 3,
+    "specialized agents": 3,
+    "workflow adaptation": 6
+  },
+  "by_platform": {
+    "blogs": 5,
+    "case-studies": 5
+  },
+  "organization_count": 9,
+  "organization_evidence_source_count": 10,
+  "organizations": [
+    {
+      "mechanisms": [
+        "feedback/evals",
+        "measurable outcome"
+      ],
+      "organization": "Accenture",
+      "source_count": 1,
+      "sources": [
+        {
+          "artifact_level": "metadata_only",
+          "claim": "Accenture and GitHub measured Copilot adoption and impact using organization-level usage data and public APIs.",
+          "evidence_basis": "Named enterprise study with an explicit measurement method; outcome claims remain publisher-reported.",
+          "evidence_locator": "publisher body text",
+          "mechanisms": [
+            "feedback/evals",
+            "measurable outcome"
+          ],
+          "platform": "case-studies",
+          "source_id": "case-studies-383c7aae946c41e1",
+          "source_path": "sources/case-studies/accepted/research-quantifying-github-copilot-s-impact-in-the-enterprise-with-accenture-th--case-studies-383c7aae946c41e1.json",
+          "source_title": "Research: Quantifying GitHub Copilot\u2019s impact in the enterprise with Accenture - The GitHub Blog",
+          "source_url": "https://github.blog/news-insights/research/research-quantifying-github-copilots-impact-in-the-enterprise-with-accenture/"
+        }
+      ]
+    },
+    {
+      "mechanisms": [
+        "experimentation",
+        "knowledge curation",
+        "governance"
+      ],
+      "organization": "Automattic",
+      "source_count": 1,
+      "sources": [
+        {
+          "artifact_level": "metadata_only",
+          "claim": "Automattic operates an experiment education and review hub, internal feedback forum, wiki, checklist, and peer review process.",
+          "evidence_basis": "First-party engineering account names the internal operating practices.",
+          "evidence_locator": "publisher body text",
+          "mechanisms": [
+            "experimentation",
+            "knowledge curation",
+            "governance"
+          ],
+          "platform": "blogs",
+          "source_id": "blogs-2976a5906d4a89fb",
+          "source_path": "sources/blogs/accepted/explat-automattic-s-experimentation-nbsp-platform--blogs-2976a5906d4a89fb.json",
+          "source_title": "ExPlat: Automattic\u2019s Experimentation&nbsp;Platform",
+          "source_url": "https://data.blog/2021/03/16/explat-automattics-experimentation-platform/"
+        }
+      ]
+    },
+    {
+      "mechanisms": [
+        "feedback/evals",
+        "workflow adaptation",
+        "measurable outcome"
+      ],
+      "organization": "Bayer China",
+      "source_count": 1,
+      "sources": [
+        {
+          "artifact_level": "metadata_only",
+          "claim": "Bayer China deployed a learn-practice-evaluation training loop and reported adoption, hours saved, and coaching-efficiency results.",
+          "evidence_basis": "Named customer deployment with quantitative, vendor-published outcomes.",
+          "evidence_locator": "publisher body text",
+          "mechanisms": [
+            "feedback/evals",
+            "workflow adaptation",
+            "measurable outcome"
+          ],
+          "platform": "case-studies",
+          "source_id": "case-studies-8a485536e30d391c",
+          "source_path": "sources/case-studies/accepted/covering-1-000-people-in-6-months-saving-7-000-hours-per-year-bayer-china-reshap--case-studies-8a485536e30d391c.json",
+          "source_title": "Covering 1,000 People in 6 Months, Saving 7,000 hours per year, Bayer China Reshapes Training System with Generative AI",
+          "source_url": "https://aws.amazon.com/solutions/case-studies/bayer-china/"
+        }
+      ]
+    },
+    {
+      "mechanisms": [
+        "organizational memory",
+        "experimentation",
+        "workflow adaptation"
+      ],
+      "organization": "Canva",
+      "source_count": 1,
+      "sources": [
+        {
+          "artifact_level": "metadata_only",
+          "claim": "Canva built an internal experimentation platform and is adapting setup, analysis, and result-learnability workflows.",
+          "evidence_basis": "First-party engineering account describes a deployed internal platform and its evolution.",
+          "evidence_locator": "publisher body text",
+          "mechanisms": [
+            "organizational memory",
+            "experimentation",
+            "workflow adaptation"
+          ],
+          "platform": "blogs",
+          "source_id": "blogs-8d8de15ef9fdbf61",
+          "source_path": "sources/blogs/accepted/how-we-build-experiments-in-house-canva-engineering-blog--blogs-8d8de15ef9fdbf61.json",
+          "source_title": "How we build experiments in-house - Canva Engineering Blog",
+          "source_url": "https://www.canva.dev/blog/engineering/how-we-build-experiments-in-house/"
+        }
+      ]
+    },
+    {
+      "mechanisms": [
+        "organizational memory",
+        "failure/postmortem learning",
+        "knowledge curation",
+        "governance",
+        "measurable outcome"
+      ],
+      "organization": "Google",
+      "source_count": 1,
+      "sources": [
+        {
+          "artifact_level": "metadata_only",
+          "claim": "Google coordinates postmortems across the company, standardizes templates, automates evidence capture, and mines postmortems for trends.",
+          "evidence_basis": "First-party SRE book describes a named working group and company-wide mechanism; outage reduction is a company claim.",
+          "evidence_locator": "publisher body text",
+          "mechanisms": [
+            "organizational memory",
+            "failure/postmortem learning",
+            "knowledge curation",
+            "governance",
+            "measurable outcome"
+          ],
+          "platform": "blogs",
+          "source_id": "blogs-571b75f6e0d45b7e",
+          "source_path": "sources/blogs/accepted/google-sre-blameless-postmortem-for-system-resilience--blogs-571b75f6e0d45b7e.json",
+          "source_title": "Google SRE - Blameless Postmortem for System Resilience",
+          "source_url": "https://sre.google/sre-book/postmortem-culture/"
+        }
+      ]
+    },
+    {
+      "mechanisms": [
+        "feedback/evals",
+        "organizational memory",
+        "specialized agents",
+        "workflow adaptation",
+        "measurable outcome"
+      ],
+      "organization": "LG CNS",
+      "source_count": 1,
+      "sources": [
+        {
+          "artifact_level": "metadata_only",
+          "claim": "LG CNS uses persistent file-based memory, multi-agent file handoffs, and deterministic quality measurement in a self-improving modernization harness.",
+          "evidence_basis": "Named customer implementation; mechanism detail is retained, while results are vendor-published.",
+          "evidence_locator": "publisher body text",
+          "mechanisms": [
+            "feedback/evals",
+            "organizational memory",
+            "specialized agents",
+            "workflow adaptation",
+            "measurable outcome"
+          ],
+          "platform": "case-studies",
+          "source_id": "case-studies-ec6ebd3dfb6054b0",
+          "source_path": "sources/case-studies/accepted/lg-cns-builds-a-self-improving-modernization-harness-with-claude-code--case-studies-ec6ebd3dfb6054b0.json",
+          "source_title": "LG CNS builds a self-improving modernization harness with Claude Code",
+          "source_url": "https://www.anthropic.com/customers/lg-cns"
+        }
+      ]
+    },
+    {
+      "mechanisms": [
+        "specialized agents",
+        "workflow adaptation",
+        "measurable outcome"
+      ],
+      "organization": "Siemens",
+      "source_count": 1,
+      "sources": [
+        {
+          "artifact_level": "metadata_only",
+          "claim": "Siemens moved from legacy IVR to production AI-agent routing, validated it in one workflow, and extended it to additional workflows.",
+          "evidence_basis": "Named customer implementation with vendor-published autonomous-handling results.",
+          "evidence_locator": "publisher body text",
+          "mechanisms": [
+            "specialized agents",
+            "workflow adaptation",
+            "measurable outcome"
+          ],
+          "platform": "case-studies",
+          "source_id": "case-studies-591fa85cd1475974",
+          "source_path": "sources/case-studies/accepted/how-siemens-handles-90-of-calls-autonomously-with-amazon-connect-customer-ai-age--case-studies-591fa85cd1475974.json",
+          "source_title": "How Siemens handles 90% of calls autonomously with Amazon Connect Customer AI Agents | AWS Contact Center",
+          "source_url": "https://aws.amazon.com/blogs/contact-center/how-siemens-handles-90-of-calls-autonomously-with-amazon-connect-customer-ai-agents/"
+        }
+      ]
+    },
+    {
+      "mechanisms": [
+        "feedback/evals",
+        "experimentation",
+        "decision systems",
+        "workflow adaptation",
+        "measurable outcome"
+      ],
+      "organization": "Spotify",
+      "source_count": 2,
+      "sources": [
+        {
+          "artifact_level": "metadata_only",
+          "claim": "Spotify continuously recalibrates offline evals against online outcomes to improve their value as verification tools.",
+          "evidence_basis": "First-party engineering account describes an operational calibration loop.",
+          "evidence_locator": "publisher body text",
+          "mechanisms": [
+            "feedback/evals",
+            "experimentation",
+            "workflow adaptation"
+          ],
+          "platform": "blogs",
+          "source_id": "blogs-18072bd0d7279721",
+          "source_path": "sources/blogs/accepted/better-experiments-with-llm-evals-a-funnel-not-a-fork-spotify-engineering--blogs-18072bd0d7279721.json",
+          "source_title": "Better Experiments with LLM Evals \u2014 A funnel, not a fork | Spotify Engineering",
+          "source_url": "https://engineering.atspotify.com/2026/5/better-experiments-with-llm-evals-a-funnel-not-a-fork"
+        },
+        {
+          "artifact_level": "metadata_only",
+          "claim": "Spotify uses an Experiments-with-Learning metric to guide investment, testing capacity, and experimentation practice.",
+          "evidence_basis": "First-party engineering account supplies the decision mechanism and reported learning and win rates.",
+          "evidence_locator": "publisher body text",
+          "mechanisms": [
+            "experimentation",
+            "decision systems",
+            "measurable outcome"
+          ],
+          "platform": "blogs",
+          "source_id": "blogs-f32ffeec08066e1d",
+          "source_path": "sources/blogs/accepted/beyond-winning-spotify-s-experiments-with-learning-framework-spotify-engineering--blogs-f32ffeec08066e1d.json",
+          "source_title": "Beyond Winning: Spotify\u2019s Experiments with Learning Framework | Spotify Engineering",
+          "source_url": "https://engineering.atspotify.com/2025/9/spotifys-experiments-with-learning-framework"
+        }
+      ]
+    },
+    {
+      "mechanisms": [
+        "decision systems",
+        "specialized agents",
+        "workflow adaptation",
+        "measurable outcome"
+      ],
+      "organization": "bunq",
+      "source_count": 1,
+      "sources": [
+        {
+          "artifact_level": "metadata_only",
+          "claim": "bunq runs an orchestrator that routes support work among primary and specialized agents and scales their execution services.",
+          "evidence_basis": "Named production customer architecture; the support outcome is vendor-published.",
+          "evidence_locator": "publisher body text",
+          "mechanisms": [
+            "decision systems",
+            "specialized agents",
+            "workflow adaptation",
+            "measurable outcome"
+          ],
+          "platform": "case-studies",
+          "source_id": "case-studies-987a300a45102ede",
+          "source_path": "sources/case-studies/accepted/how-bunq-handles-97-of-support-with-amazon-bedrock-artificial-intelligence--case-studies-987a300a45102ede.json",
+          "source_title": "How bunq handles 97% of support with Amazon Bedrock | Artificial Intelligence",
+          "source_url": "https://aws.amazon.com/blogs/machine-learning/how-bunq-handles-97-of-support-with-amazon-bedrock/"
+        }
+      ]
+    }
+  ],
+  "sampled_exclusion_count": 10,
+  "schema_version": 1,
+  "sources_with_measurable_outcome": 7
+}
