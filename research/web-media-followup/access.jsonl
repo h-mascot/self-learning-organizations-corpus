@@ -1,0 +1,5 @@
+{"checked_at": "2026-07-12T15:39:13Z", "backend": "agent-reach CLI", "access": "blocked", "error": "launcher absent from PATH"}
+{"checked_at": "2026-07-12T15:39:13Z", "backend": "Exa MCP", "access": "blocked", "error": "HTTP 429 free MCP rate limit"}
+{"checked_at": "2026-07-12T15:39:13Z", "backend": "GitHub authenticated code search", "access": "public-read-success", "error": null}
+{"checked_at": "2026-07-12T15:39:13Z", "backend": "OpenAlex public API", "access": "public-read-success", "error": null}
+{"checked_at": "2026-07-12T15:39:13Z", "backend": "Bing public RSS", "access": "degraded", "error": "domain/high-precision queries exhibited severe result drift"}

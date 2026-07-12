@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-07-12T15:39:13Z",
+  "channels": [
+    "academic",
+    "blogs",
+    "books",
+    "case-studies",
+    "conferences",
+    "github",
+    "podcasts"
+  ],
+  "rounds": 21,
+  "results": 101,
+  "accepted": 1,
+  "rejected": 100,
+  "blocked": 0,
+  "channels_saturated": [],
+  "note": "One GitHub artifact passed manual strict named-organization implementation review; no channel is claimed saturated."
+}

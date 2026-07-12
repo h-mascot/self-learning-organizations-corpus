@@ -4,9 +4,9 @@ Open research corpus about self-learning, self-improving, AI-native organization
 
 ## Corpus status
 
-- Accounted canonical/evidence records: **1052**
-- Accepted relevant sources: **634**
-- Retrieved records (including accepted/rejected): **1045**
+- Accounted canonical/evidence records: **1053**
+- Accepted relevant sources: **635**
+- Retrieved records (including accepted/rejected): **1046**
 - Rejected records: **411**
 - Blocked retrieval records: **7**
 - Complete timestamped YouTube transcripts: **100**
@@ -23,19 +23,19 @@ Open research corpus about self-learning, self-improving, AI-native organization
 | conferences | 53 | 53 | 30 | 23 | 0 | metadata_only: 30, unavailable: 23 | bounded-public-evidence: 53 | 53 records / 2 distinct values |
 | books | 174 | 174 | 30 | 144 | 0 | metadata_only: 30, unavailable: 144 | metadata-only: 174 | 174 records / 174 distinct values |
 | case-studies | 63 | 62 | 50 | 12 | 1 | metadata_only: 50, unavailable: 13 | bounded-public-evidence: 52, retrieval-evidence-only: 11 | 63 records / 3 distinct values |
-| github | 222 | 222 | 30 | 192 | 0 | metadata_only: 30, unavailable: 192 | bounded-public-evidence: 14, open-license: 208 | 222 records / 222 distinct values |
+| github | 223 | 223 | 31 | 192 | 0 | metadata_only: 31, unavailable: 192 | bounded-public-evidence: 14, open-license: 209 | 223 records / 223 distinct values |
 
 | Artifact level | Records |
 | --- | ---: |
 | abstract | 164 |
 | full_text | 88 |
-| metadata_only | 296 |
+| metadata_only | 297 |
 | transcript | 101 |
 | unavailable | 403 |
 
 | Lifecycle | Records |
 | --- | ---: |
-| accepted | 634 |
+| accepted | 635 |
 | blocked | 7 |
 | rejected | 411 |
 
@@ -43,7 +43,7 @@ Open research corpus about self-learning, self-improving, AI-native organization
 | --- | ---: |
 | bounded-public-evidence | 249 |
 | metadata-only | 174 |
-| open-license | 234 |
+| open-license | 235 |
 | retrieval-evidence-only | 20 |
 | third-party | 201 |
 | third-party-metadata-and-abstract | 174 |
