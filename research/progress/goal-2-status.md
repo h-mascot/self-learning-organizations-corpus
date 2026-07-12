@@ -1,8 +1,16 @@
 # Goal 2 manager status
 
-Updated: 2026-07-12T17:13:02Z
+Updated: 2026-07-12T17:47:00Z
 Status: ACTIVE
 Phase: scale-and-saturation; fixed quotas remain verified floors, not completion
+
+## Fourth-wave recovery and dispatch
+
+- Remote main is synchronized at `69e0ee82f2ed9fbc2c733889827a52478d967681`; exact-SHA GitHub Actions run `29201592561` passed. A fresh full `make check` passes with 54 tests, 1,052 audited records, 638 accepted, 414 rejected, 0 blocked, 13 strict organizations / 14 links, and deterministic generated artifacts.
+- Live inspection found no active lane workers but useful uncommitted fourth-wave artifacts in all three isolated worktrees. They were preserved rather than reset.
+- Resumed `goal/saturation-social-4` (PID 1164879), `goal/saturation-webmedia-4` (PID 1165084), and `goal/benchmark-4` (PID 1165261) through the known-good Codex JavaScript entrypoint. All three passed immediate startup polling and began substantive inspection.
+- Ownership remains isolated: native social/video rounds; web/media/academic rounds; and competitor benchmark/validator. Workers may not edit `GOAL.md` or manager status.
+- Completion is still unproven: only 5 native rounds currently qualify as low-yield (Substack 3, YouTube 2), X/Reddit remain access-constrained, no channel has canonical proof of three qualifying consecutive rounds, and `largest_claim.permitted` remains false.
 
 ## Third-wave integrated checkpoint
 
