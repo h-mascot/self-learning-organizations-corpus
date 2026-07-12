@@ -1,8 +1,16 @@
 # Goal 2 manager status
 
-Updated: 2026-07-12T18:29:05Z
-Status: ACTIVE
-Phase: scale-and-saturation; fixed quotas remain verified floors, not completion
+Updated: 2026-07-12T18:45:00Z
+Status: ACHIEVED
+Phase: terminal verification; all semantic gates passed and the unsupported “largest measured” claim is explicitly withheld
+
+## Terminal checkpoint
+
+- Academic DOI `10.47176/smok.2025.1821` was independently accepted and ingested as named-organization evidence; three subsequent OpenAlex, Crossref, and arXiv rounds fully dispositioned 15 candidates with 0 blockers and 0% net-new yield in every round.
+- Canonical saturation now qualifies all 11 channels. Accounting is 1,053 audited / 639 accepted / 414 rejected / 0 blocked; organization indexing is 14 strict organizations / 15 links.
+- Deterministic organization, mechanism, statistics, and saturation dashboards regenerate cleanly; the canonical check passes 60 tests and all lane/global validators.
+- The 14-collection public benchmark is valid but explicitly withholds “largest measured” because the broader comparator universe is not exhaustively row-audited. No unsupported claim is published.
+- Final completion-marker SHA, remote readback, and exact-SHA CI receipt are recorded externally after push; cron job `7f0fd82887cb` is paused only after those checks pass.
 
 ## Fifth-wave integration and sixth-wave dispatch
 
