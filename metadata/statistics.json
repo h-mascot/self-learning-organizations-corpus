@@ -6,24 +6,25 @@
     "repository-preprint": 13,
     "thesis": 1
   },
-  "accepted_sources": 286,
+  "accepted_sources": 386,
   "blocked_sources": 1,
   "by_artifact_level": {
     "abstract": 164,
     "excerpt": 4,
-    "full_text": 13,
-    "metadata_only": 23,
+    "full_text": 88,
+    "metadata_only": 48,
     "retrieval_evidence": 1,
     "transcript": 101
   },
   "by_content_type": {
-    "article": 3,
+    "article": 28,
     "case-study": 2,
     "paper": 200,
+    "post": 75,
     "transcript": 101
   },
   "by_lifecycle": {
-    "accepted": 286,
+    "accepted": 386,
     "blocked": 1,
     "rejected": 15,
     "retrieved": 4
@@ -32,6 +33,9 @@
     "academic": 200,
     "blogs": 3,
     "case-studies": 2,
+    "reddit": 25,
+    "substack": 25,
+    "x": 50,
     "youtube": 101
   },
   "channels": {
@@ -101,28 +105,34 @@
       "retrieved": 0
     },
     "reddit": {
-      "accepted": 0,
+      "accepted": 25,
       "blocked": 0,
-      "by_artifact_level": {},
-      "discovered": 0,
+      "by_artifact_level": {
+        "full_text": 25
+      },
+      "discovered": 25,
       "rejected": 0,
-      "retrieved": 0
+      "retrieved": 25
     },
     "substack": {
-      "accepted": 0,
+      "accepted": 25,
       "blocked": 0,
-      "by_artifact_level": {},
-      "discovered": 0,
+      "by_artifact_level": {
+        "metadata_only": 25
+      },
+      "discovered": 25,
       "rejected": 0,
-      "retrieved": 0
+      "retrieved": 25
     },
     "x": {
-      "accepted": 0,
+      "accepted": 50,
       "blocked": 0,
-      "by_artifact_level": {},
-      "discovered": 0,
+      "by_artifact_level": {
+        "full_text": 50
+      },
+      "discovered": 50,
       "rejected": 0,
-      "retrieved": 0
+      "retrieved": 50
     },
     "youtube": {
       "accepted": 100,
@@ -136,10 +146,10 @@
     }
   },
   "complete_timestamped_transcripts": 100,
-  "discovered_sources": 306,
+  "discovered_sources": 406,
   "rejected_sources": 15,
-  "retrieved_sources": 305,
+  "retrieved_sources": 405,
   "schema_version": 2,
-  "total_records": 306,
-  "validated_relevant_sources": 286
+  "total_records": 406,
+  "validated_relevant_sources": 386
 }

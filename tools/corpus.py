@@ -259,9 +259,23 @@ def audit(root: Path = ROOT) -> tuple[list[dict[str, object]], list[str]]:
         if "academic_schema_version" in meta:
             record = dict(meta); record.update(platform="academic", status=meta.get("lifecycle"), content_type="paper", path=rel.as_posix())
             local_errors = _validate_academic(rel, meta, body)
-        elif meta.get("schema_version") == 1:
+        elif meta.get("schema_version") == 1 and meta.get("platform") == "youtube":
             record = dict(meta); record.update(lifecycle=meta.get("status"), artifact_level="transcript", path=rel.as_posix())
             local_errors = _validate_youtube(rel, meta, body)
+        elif meta.get("schema_version") == 1 and meta.get("platform") in {"x", "reddit", "substack"}:
+            # Social acquisition predates canonical v2 but carries equivalent fields.
+            # Normalize it for global accounting while retaining lane-level validation.
+            retrieved = re.search(r"retrieved (\d{4}-\d{2}-\d{2}T[^;\s]+)", str(meta.get("rights_note", "")))
+            record = dict(meta)
+            record.update(
+                lifecycle=meta.get("status"),
+                artifact_level=meta.get("availability"),
+                retrieved_at=retrieved.group(1) if retrieved else "",
+                path=rel.as_posix(),
+            )
+            canonical_meta = dict(record)
+            canonical_meta["schema_version"] = 2
+            local_errors = _validate_canonical(rel, canonical_meta, body)
         elif meta.get("schema_version") is not None:
             record = dict(meta); record["path"] = rel.as_posix()
             local_errors = _validate_canonical(rel, meta, body)

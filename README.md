@@ -4,9 +4,9 @@ Open research corpus about self-learning, self-improving, AI-native organization
 
 ## Corpus status
 
-- Accounted canonical/evidence records: **306**
-- Accepted relevant sources: **286**
-- Retrieved records (including accepted/rejected): **305**
+- Accounted canonical/evidence records: **406**
+- Accepted relevant sources: **386**
+- Retrieved records (including accepted/rejected): **405**
 - Rejected records: **15**
 - Blocked retrieval records: **1**
 - Complete timestamped YouTube transcripts: **100**
@@ -15,9 +15,9 @@ Open research corpus about self-learning, self-improving, AI-native organization
 | --- | ---: | ---: | ---: | ---: | ---: |
 | youtube | 101 | 101 | 100 | 1 | 0 |
 | academic | 200 | 200 | 186 | 14 | 0 |
-| x | 0 | 0 | 0 | 0 | 0 |
-| reddit | 0 | 0 | 0 | 0 | 0 |
-| substack | 0 | 0 | 0 | 0 | 0 |
+| x | 50 | 50 | 50 | 0 | 0 |
+| reddit | 25 | 25 | 25 | 0 | 0 |
+| substack | 25 | 25 | 25 | 0 | 0 |
 | blogs | 3 | 2 | 0 | 0 | 1 |
 | podcasts | 0 | 0 | 0 | 0 | 0 |
 | conferences | 0 | 0 | 0 | 0 | 0 |
@@ -29,14 +29,14 @@ Open research corpus about self-learning, self-improving, AI-native organization
 | --- | ---: |
 | abstract | 164 |
 | excerpt | 4 |
-| full_text | 13 |
-| metadata_only | 23 |
+| full_text | 88 |
+| metadata_only | 48 |
 | retrieval_evidence | 1 |
 | transcript | 101 |
 
 | Lifecycle | Records |
 | --- | ---: |
-| accepted | 286 |
+| accepted | 386 |
 | blocked | 1 |
 | rejected | 15 |
 | retrieved | 4 |
