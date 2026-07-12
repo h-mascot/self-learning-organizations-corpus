@@ -16,8 +16,8 @@ def validate(path=PATH):
     except (TypeError, ValueError):
         as_of = None
         errors.append("as_of must be an ISO date")
-    if data.get("schema_version") != 2:
-        errors.append("schema_version must be 2")
+    if data.get("schema_version") != 3:
+        errors.append("schema_version must be 3")
     if data.get("largest_claim", {}).get("permitted") is not False:
         errors.append("largest claim must remain false until independently proven")
     rows = data.get("collections")
@@ -42,8 +42,14 @@ def validate(path=PATH):
                 errors.append(f"{label} {field} must be non-empty")
         raw = row["raw_count"]
         strict = row["strict_like_for_like_organization_evidence_count"]
-        if type(raw) is not int or raw < 0 or type(strict) is not int or strict < 0 or strict > raw:
-            errors.append(f"{label} counts must be integers with 0 <= strict <= raw")
+        if type(raw) is not int or raw < 0:
+            errors.append(f"{label} raw_count must be a non-negative integer")
+        if strict is not None and (
+            type(strict) is not int
+            or strict < 0
+            or (type(raw) is int and strict > raw)
+        ):
+            errors.append(f"{label} strict count must be null or an integer with 0 <= strict <= raw")
         if row["raw_count_relation"] not in {"exact", "publisher_floor"}:
             errors.append(f"{label} raw_count_relation is invalid")
         if not row["schema"] or not row["exclusions"] or not row["retrieval_evidence"]:
@@ -85,23 +91,37 @@ def validate(path=PATH):
                         org = item.get("organization")
                         if not isinstance(org, str) or org.casefold() not in included:
                             errors.append(f"{item_label} duplicate must name a previously included organization")
-                if len(included) != strict:
+                if coverage == "scope_only" and strict is not None:
+                    errors.append(f"{label} scope_only audit requires unknown null strict count")
+                if coverage != "scope_only" and strict is None:
+                    errors.append(f"{label} row audit requires an integer strict count")
+                if strict is not None and len(included) != strict:
                     errors.append(f"{label} strict count must equal unique included audit organizations")
                 if coverage == "complete" and audit.get("audited_unit_count") != raw:
                     errors.append(f"{label} complete audit must cover raw_count units")
                 if coverage == "sample" and not 0 < audit.get("audited_unit_count", 0) <= raw:
                     errors.append(f"{label} sample audit must cover between 1 and raw_count units")
-                if coverage == "scope_only" and (audit_rows or strict != 0):
-                    errors.append(f"{label} scope_only audit cannot have rows or a strict count")
+                if coverage == "scope_only" and audit_rows:
+                    errors.append(f"{label} scope_only audit cannot have rows")
         if row["update_date"] is None:
             if row["update_date_precision"] != "unknown":
                 errors.append(f"{label} null update_date requires unknown precision")
         else:
             try:
-                date.fromisoformat(row["update_date"])
+                parsed_update = date.fromisoformat(row["update_date"])
+                if row["update_date_precision"] == "year" and (parsed_update.month, parsed_update.day) != (12, 31):
+                    errors.append(f"{label} year precision must use YYYY-12-31")
+                elif row["update_date_precision"] not in {"day", "year"}:
+                    errors.append(f"{label} dated update precision must be day or year")
             except (TypeError, ValueError):
                 errors.append(f"{label} update_date must be ISO date or null")
+        if not isinstance(row["retrieval_evidence"], list):
+            errors.append(f"{label} retrieval_evidence must be a non-empty list")
+            continue
         for evidence in row["retrieval_evidence"]:
+            if not isinstance(evidence, dict):
+                errors.append(f"{label} retrieval evidence must be an object")
+                continue
             if not all(isinstance(evidence.get(k), str) and evidence[k].strip() for k in ("retrieved_at", "url", "method", "evidence")):
                 errors.append(f"{label} retrieval evidence is incomplete")
                 continue
