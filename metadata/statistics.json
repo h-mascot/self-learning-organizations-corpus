@@ -6,17 +6,17 @@
     "repository-preprint": 13,
     "thesis": 1
   },
-  "accepted_sources": 635,
-  "blocked_sources": 7,
+  "accepted_sources": 638,
+  "blocked_sources": 0,
   "by_artifact_level": {
     "abstract": 164,
     "full_text": 88,
-    "metadata_only": 297,
+    "metadata_only": 300,
     "transcript": 101,
-    "unavailable": 403
+    "unavailable": 399
   },
   "by_content_type": {
-    "article": 113,
+    "article": 112,
     "book": 174,
     "case-study": 63,
     "episode": 51,
@@ -27,13 +27,12 @@
     "transcript": 101
   },
   "by_lifecycle": {
-    "accepted": 635,
-    "blocked": 7,
-    "rejected": 411
+    "accepted": 638,
+    "rejected": 414
   },
   "by_platform": {
     "academic": 200,
-    "blogs": 88,
+    "blogs": 87,
     "books": 174,
     "case-studies": 63,
     "conferences": 53,
@@ -502,9 +501,16 @@
     "OpenAlex W48413605 API metadata plus preserved legacy evidence": 1,
     "OpenAlex W83397471 API metadata plus preserved legacy evidence": 1,
     "OpenAlex W98219716 API metadata plus preserved legacy evidence": 1,
-    "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-blogs.": 80,
-    "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-case-studies.": 57,
+    "Primary Etsy Code as Craft publication manually re-reviewed from blocked saturation discovery on 2026-07-12.": 1,
+    "Primary Institute of Organization Development page manually re-reviewed from blocked saturation discovery on 2026-07-12.": 1,
+    "Primary Macquarie Engineering publication manually re-reviewed from blocked saturation discovery on 2026-07-12.": 1,
+    "Primary McKinsey page manually re-reviewed from blocked saturation discovery on 2026-07-12.": 1,
+    "Primary OpenAI customer story with named Endava executives manually re-reviewed from blocked saturation discovery on 2026-07-12.": 1,
+    "Primary Rework resource page manually re-reviewed while resolving duplicate blocked saturation discovery blogs-13a72d2fad810e43 on 2026-07-12.": 1,
+    "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-blogs.": 73,
+    "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-case-studies.": 56,
     "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-conferences.": 21,
+    "Primary Wise Engineering publication manually re-reviewed from blocked saturation discovery on 2026-07-12.": 1,
     "Public bibliographic record OL10460640W; discovered by openlibrary-books-05.": 1,
     "Public bibliographic record OL10692849W; discovered by openlibrary-books-07.": 1,
     "Public bibliographic record OL11623853W; discovered by openlibrary-books-06.": 1,
@@ -709,10 +715,10 @@
     "YouTube transcript retained from the goal/youtube worker via legacy-youtube-captions": 5
   },
   "by_rights_status": {
-    "bounded-public-evidence": 249,
+    "bounded-public-evidence": 252,
     "metadata-only": 174,
     "open-license": 235,
-    "retrieval-evidence-only": 20,
+    "retrieval-evidence-only": 16,
     "third-party": 201,
     "third-party-metadata-and-abstract": 174
   },
@@ -940,29 +946,34 @@
       "retrieved": 200
     },
     "blogs": {
-      "accepted": 78,
-      "blocked": 6,
+      "accepted": 80,
+      "blocked": 0,
       "by_artifact_level": {
-        "metadata_only": 78,
-        "unavailable": 10
+        "metadata_only": 80,
+        "unavailable": 7
       },
       "by_lifecycle": {
-        "accepted": 78,
-        "blocked": 6,
-        "rejected": 4
+        "accepted": 80,
+        "rejected": 7
       },
       "by_provenance": {
-        "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-blogs.": 80,
+        "Primary Etsy Code as Craft publication manually re-reviewed from blocked saturation discovery on 2026-07-12.": 1,
+        "Primary Institute of Organization Development page manually re-reviewed from blocked saturation discovery on 2026-07-12.": 1,
+        "Primary Macquarie Engineering publication manually re-reviewed from blocked saturation discovery on 2026-07-12.": 1,
+        "Primary McKinsey page manually re-reviewed from blocked saturation discovery on 2026-07-12.": 1,
+        "Primary Rework resource page manually re-reviewed while resolving duplicate blocked saturation discovery blogs-13a72d2fad810e43 on 2026-07-12.": 1,
+        "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-blogs.": 73,
+        "Primary Wise Engineering publication manually re-reviewed from blocked saturation discovery on 2026-07-12.": 1,
         "Public first-party Google SRE book chapter; bounded source evidence retained.": 2,
         "Recovered from research/discovery-inventory.md via early-inventory-blogs.": 6
       },
       "by_rights_status": {
-        "bounded-public-evidence": 80,
-        "retrieval-evidence-only": 8
+        "bounded-public-evidence": 82,
+        "retrieval-evidence-only": 5
       },
-      "discovered": 88,
-      "rejected": 4,
-      "retrieved": 82
+      "discovered": 87,
+      "rejected": 7,
+      "retrieved": 87
     },
     "books": {
       "accepted": 30,
@@ -1159,29 +1170,29 @@
       "retrieved": 174
     },
     "case-studies": {
-      "accepted": 50,
-      "blocked": 1,
+      "accepted": 51,
+      "blocked": 0,
       "by_artifact_level": {
-        "metadata_only": 50,
-        "unavailable": 13
+        "metadata_only": 51,
+        "unavailable": 12
       },
       "by_lifecycle": {
-        "accepted": 50,
-        "blocked": 1,
+        "accepted": 51,
         "rejected": 12
       },
       "by_provenance": {
-        "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-case-studies.": 57,
+        "Primary OpenAI customer story with named Endava executives manually re-reviewed from blocked saturation discovery on 2026-07-12.": 1,
+        "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-case-studies.": 56,
         "Public first-party customer case page; bounded source evidence retained.": 1,
         "Recovered from research/discovery-inventory.md via early-inventory-case-studies.": 5
       },
       "by_rights_status": {
-        "bounded-public-evidence": 52,
-        "retrieval-evidence-only": 11
+        "bounded-public-evidence": 53,
+        "retrieval-evidence-only": 10
       },
       "discovered": 63,
       "rejected": 12,
-      "retrieved": 62
+      "retrieved": 63
     },
     "conferences": {
       "accepted": 30,
@@ -1602,10 +1613,10 @@
     }
   },
   "complete_timestamped_transcripts": 100,
-  "discovered_sources": 1053,
-  "rejected_sources": 411,
-  "retrieved_sources": 1046,
+  "discovered_sources": 1052,
+  "rejected_sources": 414,
+  "retrieved_sources": 1052,
   "schema_version": 2,
-  "total_records": 1053,
-  "validated_relevant_sources": 635
+  "total_records": 1052,
+  "validated_relevant_sources": 638
 }

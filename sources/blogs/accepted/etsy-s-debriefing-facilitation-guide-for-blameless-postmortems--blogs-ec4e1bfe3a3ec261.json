@@ -1,0 +1,30 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.etsy.com/codeascraft/debriefing-facilitation-guide",
+  "content_sha256": "90351b40bd642e75a8ca95f631b00cdfb003d0148df00802a56c3c93d0a33db9",
+  "creator": "John Allspaw",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "primary page, introduction and paragraphs under 'The Questions Are As Important As The Answers'",
+      "text": "Etsy says it continued to explore and evolve how it learns from accidents, then open-sourced a facilitation guide. It treats postmortem debriefing first as a learning opportunity and says organizational learning requires objective event data to be placed in context with subjective data gathered from multiple perspectives."
+    }
+  ],
+  "platform": "blogs",
+  "provenance": "Primary Etsy Code as Craft publication manually re-reviewed from blocked saturation discovery on 2026-07-12.",
+  "published_date": "2016-11-17",
+  "publisher": "Etsy Code as Craft",
+  "query_ids": ["citation-catalog-blogs"],
+  "rejection_reason": null,
+  "relevance_evidence": ["Etsy documents its evolving, organization-specific debriefing practice and the mechanism used to turn incidents into shared learning."],
+  "retrieval_method": "manual primary-page review via public web reader",
+  "retrieved_at": "2026-07-12T16:28:12Z",
+  "rights_note": "Only a bounded paraphrased evidence span is stored; no complete third-party page is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "article",
+  "stable_id": "blogs-ec4e1bfe3a3ec261",
+  "status": "accepted",
+  "title": "Etsy's Debriefing Facilitation Guide for Blameless Postmortems"
+}
