@@ -29,6 +29,42 @@ class PublicCompetitorBenchmarkTests(unittest.TestCase):
             self.assertTrue(row["strict_count_method"].strip())
             self.assertTrue(row["exclusions"])
 
+    def test_validator_recomputes_strict_count_from_audit(self):
+        data = json.loads(PATH.read_text())
+        audited = next(r for r in data["collections"] if r["audit"]["coverage"] == "complete")
+        audited["strict_like_for_like_organization_evidence_count"] += 1
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "benchmark.json"
+            path.write_text(json.dumps(data))
+            errors = "\n".join(validate(path))
+        self.assertIn("strict count must equal unique included audit organizations", errors)
+
+    def test_validator_rejects_incomplete_complete_audit(self):
+        data = json.loads(PATH.read_text())
+        audited = next(r for r in data["collections"] if r["audit"]["coverage"] == "complete")
+        audited["audit"]["rows"].pop()
+        audited["audit"]["audited_unit_count"] -= 1
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "benchmark.json"
+            path.write_text(json.dumps(data))
+            errors = "\n".join(validate(path))
+        self.assertIn("complete audit must cover raw_count units", errors)
+
+    def test_validator_rejects_bad_urls_dates_and_scope_only_rows(self):
+        data = json.loads(PATH.read_text())
+        scoped = next(r for r in data["collections"] if r["audit"]["coverage"] == "scope_only")
+        scoped["retrieval_evidence"][0]["url"] = "https:missing-host"
+        scoped["retrieval_evidence"][0]["retrieved_at"] = "tomorrow-ish"
+        scoped["audit"]["rows"] = [{"label":"x","url":"https:bad","decision":"exclude","reason":"x"}]
+        scoped["audit"]["audited_unit_count"] = 1
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "benchmark.json"
+            path.write_text(json.dumps(data))
+            errors = "\n".join(validate(path))
+        self.assertIn("url must be public https", errors)
+        self.assertIn("retrieved_at must be an ISO date or datetime", errors)
+        self.assertIn("scope_only audit cannot have rows", errors)
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "as_of": "2026-07-12",
   "strict_unit_definition": "A unique named organization with public evidence that its operating system learns or improves through a documented feedback, evaluation, memory, experimentation, decision, failure-learning, specialized-agent, workflow-adaptation, knowledge-curation, or governance loop. A mere AI deployment, tool listing, hypothetical use case, theory paper, or vendor claim without an organization-level improvement loop does not qualify.",
   "counting_rule": "Strict counts include only entries individually shown to meet strict_unit_definition. Zero means no qualifying entry was proven from the retrieved public evidence; it does not assert that none exists behind an inaccessible interface or after a future full audit.",
@@ -9,7 +9,8 @@
   },
   "retrieval_environment": {
     "agent_reach_doctor": "blocked: agent-reach executable not installed",
-    "fallbacks": ["public search index", "Jina Reader public-page rendering", "GitHub public API via authenticated gh CLI"]
+    "exa_search": "blocked: free MCP rate limit returned HTTP 429",
+    "fallbacks": ["public web search", "Jina Reader public-page rendering", "direct public page rendering", "GitHub public API via authenticated gh CLI"]
   },
   "collections": [
     {
@@ -20,13 +21,15 @@
       "update_date": "2025-12-22",
       "update_date_precision": "day",
       "schema": ["company", "industry", "business use case", "ML use case", "content type", "technology tags", "link"],
-      "raw_count": 800,
+      "raw_count": 805,
+      "raw_count_relation": "exact",
       "raw_count_unit": "case studies",
-      "raw_count_method": "publisher-stated exact count on landing page",
+      "raw_count_method": "publisher-stated database composition count in the linked 2025-12-22 analysis; the rounded landing-page headline says 800",
       "strict_like_for_like_organization_evidence_count": 0,
-      "strict_count_method": "Landing-page scope and schema audit only; the 800 rows are application/system designs, not organization-level learning-loop records, and no row-level strict audit was available in the retrieved page.",
+      "strict_count_method": "Landing-page scope and schema audit only; the 805 rows are application/system designs, not organization-level learning-loop records, and no row-level strict audit was available in the retrieved page.",
       "exclusions": ["ML/LLM product implementations without an organizational improvement loop", "generic system-design learnings", "multiple use cases from one company"],
-      "retrieval_evidence": [{"retrieved_at":"2026-07-12T00:00:00Z","method":"Jina Reader public page","evidence":"The page states 800 case studies from 150+ companies, first published 2023-06-14 and last updated 2025-12-22; its filters describe industries, business/ML use cases, content types, and technology tags."}]
+      "audit": {"coverage":"scope_only","selection_method":"Landing-page scope/schema review; no individual records were counted as audited units.","audited_unit_count":0,"rows":[]},
+      "retrieval_evidence": [{"retrieved_at":"2026-07-12T00:00:00Z","url":"https://www.evidentlyai.com/blog/gen-ai-applications","method":"Jina Reader public page and linked publisher analysis","evidence":"The landing page states 800 case studies from 150+ companies; the linked 2025-12-22 database-composition analysis gives the unrounded total as 805 use cases from 185 companies."}]
     },
     {
       "id": "enterprise-ai-case-studies",
@@ -37,12 +40,14 @@
       "update_date_precision": "unknown",
       "schema": ["case ID", "title", "category", "industry", "architecture", "implementation", "evaluation", "references"],
       "raw_count": 67,
+      "raw_count_relation": "exact",
       "raw_count_unit": "published case studies",
       "raw_count_method": "publisher-stated exact count on landing page, cross-checked against 67 case links in the retrieved rendering",
       "strict_like_for_like_organization_evidence_count": 0,
-      "strict_count_method": "All 67 landing-page records were title/summary screened. They document AI use cases or operational systems, but the index does not establish a named organization's organizational learning/improvement loop as the unit of record.",
+      "strict_count_method": "Landing-page title/summary scope screen only. The records document AI use cases or operational systems, but a stable row-decision audit was not captured and no organization was therefore counted.",
       "exclusions": ["cross-industry reference architectures", "AI task automation", "predictive optimization", "self-healing technical infrastructure without evidence the organization itself learns"],
-      "retrieval_evidence": [{"retrieved_at":"2026-07-12T00:00:00Z","method":"Jina Reader public landing and about pages","evidence":"Landing page states 67 Published and 8 Categories. About page specifies named organizations, production systems/pilots, verifiable metrics, and a five-document structure; individual pages carry Updated dates but the collection has no stated global update date."}]
+      "audit": {"coverage":"scope_only","selection_method":"All landing-page titles and summaries were screened at index level, but no stable row-decision ledger was captured; conservatively classified as scope-only.","audited_unit_count":0,"rows":[]},
+      "retrieval_evidence": [{"retrieved_at":"2026-07-12T00:00:00Z","url":"https://case-studies.ai/about/","method":"Jina Reader public landing and about pages","evidence":"Landing page states 67 Published and 8 Categories. About page specifies named organizations, production systems/pilots, verifiable metrics, and a five-document structure; individual pages carry Updated dates but the collection has no stated global update date."}]
     },
     {
       "id": "case-ledger",
@@ -53,12 +58,14 @@
       "update_date_precision": "unknown",
       "schema": ["case ID", "sector", "baseline", "intervention", "outcome", "cost", "caveats", "sources", "ROI", "source grade", "version"],
       "raw_count": 4217,
+      "raw_count_relation": "exact",
       "raw_count_unit": "verified cases claimed",
       "raw_count_method": "publisher-stated exact homepage counter; not independently enumerable from the retrieved public page",
       "strict_like_for_like_organization_evidence_count": 0,
       "strict_count_method": "Homepage and example-record audit only. The public evidence did not expose an enumerable row set or prove any record whose unit is a named self-learning organization.",
       "exclusions": ["workflow use cases", "deployable agents and templates", "ROI records lacking a named organization-level learning loop", "uninspectable claimed records"],
-      "retrieval_evidence": [{"retrieved_at":"2026-07-12T00:00:00Z","method":"Jina Reader public homepage","evidence":"Homepage displayed Verified Cases 4,217, Source Docs 62k+, and an example CL-4188 with sector, baseline, ROI and sources; browse-row enumeration was not present in the retrieved rendering."}]
+      "audit": {"coverage":"scope_only","selection_method":"Homepage and example schema only; the claimed cases were not publicly enumerable.","audited_unit_count":0,"rows":[]},
+      "retrieval_evidence": [{"retrieved_at":"2026-07-12T00:00:00Z","url":"https://caseledger.ai/","method":"Jina Reader public homepage","evidence":"Homepage displayed Verified Cases 4,217, Source Docs 62k+, and an example CL-4188 with sector, baseline, ROI and sources; browse-row enumeration was not present in the retrieved rendering."}]
     },
     {
       "id": "casestudies-dot-com",
@@ -69,12 +76,14 @@
       "update_date_precision": "unknown",
       "schema": ["vendor/company profile", "case-study count", "customer success stories"],
       "raw_count": 928650,
+      "raw_count_relation": "publisher_floor",
       "raw_count_unit": "validated case studies claimed",
       "raw_count_method": "publisher-stated lower-bound counter (928,650+) on directory page; stored numeric value is the advertised floor",
       "strict_like_for_like_organization_evidence_count": 0,
       "strict_count_method": "Directory-scope audit only. Its unit is a vendor/customer story and no strict topical filter or row-level organizational-loop audit was available.",
       "exclusions": ["generic B2B customer stories", "software purchasing evidence", "vendor success claims", "non-AI cases"],
-      "retrieval_evidence": [{"retrieved_at":"2026-07-12T00:00:00Z","method":"public search result and directory rendering","evidence":"Directory advertised 43,957 B2B companies and 928,650+ validated case studies/customer stories; scope is software purchasing rather than self-learning organizations."}]
+      "audit": {"coverage":"scope_only","selection_method":"Directory scope only; no topical enumeration or deterministic sample was available.","audited_unit_count":0,"rows":[]},
+      "retrieval_evidence": [{"retrieved_at":"2026-07-12T00:00:00Z","url":"https://www.casestudies.com/companies","method":"public search result and directory rendering","evidence":"Directory advertised 43,957 B2B companies and 928,650+ validated case studies/customer stories; scope is software purchasing rather than self-learning organizations."}]
     },
     {
       "id": "talented-learning-lms-case-directory",
@@ -85,12 +94,14 @@
       "update_date_precision": "unknown",
       "schema": ["learning solution", "use case", "client industry", "vendor", "functionality", "vendor services"],
       "raw_count": 100,
+      "raw_count_relation": "publisher_floor",
       "raw_count_unit": "case studies",
       "raw_count_method": "publisher-stated lower bound ('over 100'); stored numeric value is the advertised floor",
       "strict_like_for_like_organization_evidence_count": 0,
       "strict_count_method": "Directory-scope audit only. Employee/member training-system adoption is not evidence that an organization has a self-improving operating loop.",
       "exclusions": ["LMS customer success stories", "training delivery and administration", "vendor satisfaction evidence"],
-      "retrieval_evidence": [{"retrieved_at":"2026-07-12T00:00:00Z","method":"public search result and directory rendering","evidence":"Page says it assembled and categorized over 100 case studies from learning-system vendors and exposes vendor-oriented filters."}]
+      "audit": {"coverage":"scope_only","selection_method":"Directory scope only; no organization-loop row audit was performed.","audited_unit_count":0,"rows":[]},
+      "retrieval_evidence": [{"retrieved_at":"2026-07-12T00:00:00Z","url":"https://talentedlearning.com/ads/basic-member-case-study-directory/","method":"public search result and directory rendering","evidence":"Page says it assembled and categorized over 100 case studies from learning-system vendors and exposes vendor-oriented filters."}]
     },
     {
       "id": "jeremy-ai-native-company-research",
@@ -101,12 +112,108 @@
       "update_date_precision": "day",
       "schema": ["analysis", "blueprint", "note", "pattern", "source note"],
       "raw_count": 19,
+      "raw_count_relation": "exact",
       "raw_count_unit": "versioned content files excluding repository administration files",
       "raw_count_method": "GitHub recursive tree: 24 blobs minus .gitignore, policy/contribution/license, and README = 19 content files",
       "strict_like_for_like_organization_evidence_count": 0,
       "strict_count_method": "Complete filename/tree audit. The repository packages patterns, analyses, blueprints and source notes rather than one independently countable record per evidenced organization.",
       "exclusions": ["general patterns", "blueprints", "analysis essays", "source notes not normalized into organization case records"],
-      "retrieval_evidence": [{"retrieved_at":"2026-07-12T00:00:00Z","method":"GitHub public repository metadata and recursive tree API","evidence":"Repository default branch main had 24 blobs and was updated 2026-07-09T04:43:33Z; content paths comprise analyses, one blueprint, notes, patterns, and four source-note files."}]
+      "audit": {"coverage":"scope_only","selection_method":"Complete repository tree/type audit established that organization cases are not its unit; individual files were therefore not treated as comparable audit units.","audited_unit_count":0,"rows":[]},
+      "retrieval_evidence": [{"retrieved_at":"2026-07-12T00:00:00Z","url":"https://api.github.com/repos/jeremy9682/ai-native-company-research/git/trees/main?recursive=1","method":"GitHub public repository metadata and recursive tree API","evidence":"Repository default branch main had 24 blobs and was updated 2026-07-09T04:43:33Z; content paths comprise analyses, one blueprint, notes, patterns, and four source-note files."}]
+    },
+    {
+      "id": "ai-trace",
+      "name": "AI Trace",
+      "url": "https://www.aitrace.org/",
+      "scope": "Free nonprofit transparency collection of cited, moderator-reviewed corporate AI practices, organized by named company.",
+      "update_date": null,
+      "update_date_precision": "unknown",
+      "schema": ["company", "industry", "practice", "category", "severity", "status", "products affected", "sources", "edit history"],
+      "raw_count": 278,
+      "raw_count_relation": "exact",
+      "raw_count_unit": "companies tracked",
+      "raw_count_method": "publisher-displayed exact homepage counter; 1,602 practices and 4,528 cited sources were separate counters at retrieval",
+      "strict_like_for_like_organization_evidence_count": 0,
+      "strict_count_method": "Deterministic audit of the six companies in the homepage Recently Updated list at retrieval. Company pages document AI use, while none of the sampled entries established an operating organizational improvement loop under the strict definition.",
+      "exclusions": ["AI adoption or automation without an improvement loop", "product features", "data analysis without evidence that results feed an organizational learning cycle", "unaudited companies outside the deterministic sample"],
+      "audit": {
+        "coverage": "sample",
+        "selection_method": "All six company links in homepage Recently Updated order at the 2026-07-12 retrieval; this is a freshness sample, not a random or representative sample.",
+        "audited_unit_count": 6,
+        "rows": [
+          {"label":"PTC","url":"https://www.aitrace.org/company/ptc","decision":"exclude","reason":"Practices describe productivity, data-analysis, and customer-service AI use; no organization-level improvement loop is the evidenced unit."},
+          {"label":"IBM","url":"https://www.aitrace.org/company/ibm","decision":"exclude","reason":"Practices describe corporate AI use; the sampled profile does not normalize evidence of an organizational learning loop."},
+          {"label":"UMass Memorial Health","url":"https://www.aitrace.org/company/umass-memorial-health","decision":"exclude","reason":"Healthcare AI practices are deployments and uses, not evidence of a feedback-driven organizational operating loop."},
+          {"label":"Blue Cross Blue Shield of Massachusetts","url":"https://www.aitrace.org/company/blue-cross-blue-shield-of-massachusetts","decision":"exclude","reason":"Productivity and data-analysis practices do not by themselves prove an organization-level improvement loop."},
+          {"label":"Toast","url":"https://www.aitrace.org/company/toast","decision":"exclude","reason":"Customer-service, productivity, and analysis uses are not sufficient evidence of organizational self-improvement."},
+          {"label":"Oral-B","url":"https://www.aitrace.org/company/oral-b","decision":"exclude","reason":"The profile's data-analysis practices do not establish a named organizational learning loop."}
+        ]
+      },
+      "retrieval_evidence": [
+        {"retrieved_at":"2026-07-12","url":"https://www.aitrace.org/","method":"public homepage rendering","evidence":"Homepage displayed 278 companies tracked, 1,602 practices documented, 4,528 sources cited, 'Updated daily,' and six stable Recently Updated company links; no collection-wide last-update date was stated."},
+        {"retrieved_at":"2026-07-12","url":"https://www.aitrace.org/methodology","method":"public methodology page","evidence":"Methodology defines moderator review, a practice-level schema, at least one cited source per published practice, periodic re-checking, and public append-only edit history."}
+      ]
+    },
+    {
+      "id": "world-bank-ai-repository",
+      "name": "World Bank AI Repository",
+      "url": "https://airepository.worldbank.org/cases",
+      "scope": "Cross-sector public repository of implemented or active-pilot AI use cases relevant to development institutions and countries.",
+      "update_date": null,
+      "update_date_precision": "unknown",
+      "schema": ["title", "primary sector", "subsector", "impact evaluation type", "country", "development stage", "AI technology", "AI type", "open-source status", "summary", "updated date"],
+      "raw_count": 111,
+      "raw_count_relation": "exact",
+      "raw_count_unit": "use cases",
+      "raw_count_method": "enumerable directory result counter ('Showing 1 - 15 of 111 results')",
+      "strict_like_for_like_organization_evidence_count": 0,
+      "strict_count_method": "Deterministic first-five directory-order sample. The audited records describe AI solutions and decision-support tools, not evidence that a named organization's operating system learns through a documented loop.",
+      "exclusions": ["AI products and services", "decision-support outputs without an organizational feedback cycle", "global platforms without a single named operating organization as the evidence unit", "106 unaudited use cases"],
+      "audit": {
+        "coverage": "sample",
+        "selection_method": "First five records in the default public directory order on 2026-07-12; deterministic but not random or representative.",
+        "audited_unit_count": 5,
+        "rows": [
+          {"label":"Ibex: AI-Powered Pathology for Cancer Diagnosis","url":"https://airepository.worldbank.org/use-case/ibex-ai-powered-pathology-cancer-diagnosis","decision":"exclude","reason":"A deployed diagnostic product/workflow, not a named organization's improvement loop."},
+          {"label":"FAO GAEZ v4","url":"https://airepository.worldbank.org/use-case/fao-gaez-v4-ai-enhanced-global-agro-ecological-zone-mapping","decision":"exclude","reason":"A modelling platform producing assessments; no organization-level learning cycle is documented as the unit."},
+          {"label":"Kenya Agricultural Observatory Platform","url":"https://airepository.worldbank.org/use-case/kenya-agricultural-observatory-platform-ai-weather-and-advisory-system","decision":"exclude","reason":"A farmer decision-support system; the record does not evidence an operating feedback loop inside a named organization."},
+          {"label":"CropWatch","url":"https://airepository.worldbank.org/use-case/cropwatch-global-ai-based-crop-monitoring-and-assessment","decision":"exclude","reason":"A monitoring and assessment system, not evidence that an organization adapts its own operating system from the outputs."},
+          {"label":"Virtual Agronomist","url":"https://airepository.worldbank.org/use-case/virtual-agronomist","decision":"exclude","reason":"An ongoing advisory service; service personalization alone does not prove organizational learning."}
+        ]
+      },
+      "retrieval_evidence": [{"retrieved_at":"2026-07-12","url":"https://airepository.worldbank.org/cases","method":"public cases directory rendering","evidence":"Directory reported 111 results, 15 per first page, exposed stable use-case URLs and filters, and showed 2026-04-16 update dates for the audited first five records; no repository-wide last-update date was stated."}]
+    },
+    {
+      "id": "lean-enterprise-institute-case-studies",
+      "name": "Lean Enterprise Institute organization case studies",
+      "url": "https://www.lean.org/training-consulting-for-organizations/case-studies/",
+      "scope": "Public case studies from organizations partnered with Lean Enterprise Institute, focused on lean operations, leadership, decision processes, capability development, and continuous improvement.",
+      "update_date": null,
+      "update_date_precision": "unknown",
+      "schema": ["case-study title/summary", "organization where named", "download URL"],
+      "raw_count": 8,
+      "raw_count_relation": "exact",
+      "raw_count_unit": "case-study cards",
+      "raw_count_method": "complete deterministic count of the eight case-study cards on the public page",
+      "strict_like_for_like_organization_evidence_count": 2,
+      "strict_count_method": "Complete card-by-card audit. Included only unique named organizations whose card explicitly describes hoshin kanri strategy deployment or capability development as an operating improvement cycle; duplicate Logoplaste coverage counts once.",
+      "exclusions": ["workflow or outcome improvement without an explicit feedback/learning cycle", "anonymous restaurant case", "scholarship/internship reflection without an evidenced organization operating loop", "duplicate case study for the same organization"],
+      "audit": {
+        "coverage": "complete",
+        "selection_method": "All eight case-study cards in public page order on 2026-07-12.",
+        "audited_unit_count": 8,
+        "rows": [
+          {"label":"Respect for People: Making the Job Easier for Workers","url":"https://info.lean.org/en-us/respect-for-people-making-the-job-easier-for-workers","decision":"exclude","reason":"The card describes workflow and outcome improvement at Turner Construction but does not itself document the feedback or learning cycle required for strict inclusion."},
+          {"label":"Restaurant Partner Story","url":"https://info.lean.org/en-us/en-us/how-organizations-can-increase-profitability-while-improving-the-work-environment","decision":"exclude","reason":"The operating improvement is relevant, but the organization is unnamed on the public index and therefore fails the unique named-organization rule."},
+          {"label":"Addressing a Critical Problem in Strategic Planning and Execution","url":"https://info.lean.org/addressing-a-critical-problem-in-strategic-planning-and-execution-1","decision":"include","organization":"Logoplaste","reason":"The card documents adoption and six-month learning from hoshin kanri strategy development and deployment."},
+          {"label":"Ensuring Success of Hoshin Kanri","url":"https://info.lean.org/ensuring-success-of-hoshin-kanri","decision":"duplicate","organization":"Logoplaste","reason":"Qualifying Logoplaste evidence, but the organization is already counted by the preceding card."},
+          {"label":"How Mercer Celgar Reinvented Its Strategic Planning Process","url":"https://info.lean.org/how-mercer-celgar-reinvented-its-strategic-planning-process-using-hoshin-kanri","decision":"include","organization":"Mercer Celgar","reason":"The card explicitly describes adapting leadership and team capability through hoshin kanri."},
+          {"label":"How to Improve Decision Flow","url":"https://info.lean.org/how-decision","decision":"exclude","reason":"The card documents a decision-flow mapping process at GE Appliances, but not an explicit feedback or learning cycle."},
+          {"label":"James P. Womack Scholarship & Philanthropy Fund case study","url":"https://info.lean.org/jpw","decision":"exclude","reason":"The card reflects on internship outcomes but does not establish an operating improvement loop for a named host organization."},
+          {"label":"Keeping Classroom Technologies Functioning","url":"https://info.lean.org/en-us/trafera","decision":"exclude","reason":"The card documents a lean-operations change and outcome at Trafera, but not the operating feedback or learning cycle required for strict inclusion."}
+        ]
+      },
+      "retrieval_evidence": [{"retrieved_at":"2026-07-12","url":"https://www.lean.org/training-consulting-for-organizations/case-studies/","method":"public case-study page rendering","evidence":"The page exposed eight cards and stable download URLs; two unique named organizations met the conservative strict rule, five cards lacked sufficient named-loop evidence, and one duplicated Logoplaste."}]
     }
   ]
 }
