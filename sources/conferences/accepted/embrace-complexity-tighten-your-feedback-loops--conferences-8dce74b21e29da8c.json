@@ -1,0 +1,39 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.infoq.com/presentations/complexity-feedback-loops/",
+  "content_sha256": "e63e0b052832830e30a4c51d7787b88ecf040476849c7bf28d7288da26aca204",
+  "creator": "Fred Hebert",
+  "date_precision": "unknown",
+  "event_proof": {
+    "duration_or_media_observed": true,
+    "publisher": "InfoQ",
+    "recorded_marker_observed": true
+  },
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "InfoQ presentation transcript/summary",
+      "text": "In terms of fostering behaviors, really give them room to grow. One of the practices we've done at Honeycomb that I think is one of my biggest success, is every week, I've put a one-hour slot in people's schedules where we discuss on-call and operations. That sounds like absolute garbage, just more meetings. In some of these we discuss things like, is it ok to be visibly angry and swear during an incident? What do you do when you don't understand what is going on? How do you deal with the feeling that you're burning out? Do we think code freezes are a good idea or a terrible idea, and when do they apply? What ends up happening is that week to week we have some discussions"
+    }
+  ],
+  "platform": "conferences",
+  "provenance": "InfoQ presentation page with recorded-event marker, speaker attribution, and bounded source excerpt.",
+  "published_date": null,
+  "publisher": "InfoQ",
+  "query_ids": [
+    "review-infoq-continuous-improvement"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Publisher talk text describes a concrete organizational learning, feedback, evaluation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach/Jina public publisher page",
+  "retrieved_at": "2026-07-12T09:15:16Z",
+  "rights_note": "Only a bounded excerpt from the publisher presentation page is retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "talk",
+  "stable_id": "conferences-8dce74b21e29da8c",
+  "status": "accepted",
+  "title": "Embrace Complexity; Tighten Your Feedback Loops"
+}

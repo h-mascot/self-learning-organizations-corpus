@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/rmatteoda/prompt_eval_light",
+  "content_sha256": "08a924e9b34c5d9162b06a2a697c5e36f9d730c65a4ee2ac3d744c2fa2bc0e02",
+  "creator": "rmatteoda",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "Prompt Evaluation Service - Light version # PromptEvalLight **A lightweight Elixir service for prompt evaluation and text analysis, showcasing OTP patterns and concurrent processing.** PromptEvalLight is an educational and production-ready service that demonstrates advanced OTP (Open Telecom Platform) patterns while providing comprehensive text evaluation capabilities. Built with fault tolerance, scalability, and observability in mind. ## 🎯 Features ### Core Evaluation Metrics - **ROUGE Metrics**: ROUGE-1 and ROUGE-L for text similarity analysis - **Text Quality**: Coherence scoring and readability assessment -"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository rmatteoda/prompt_eval_light; discovered by github-repos-07.",
+  "published_date": "2025-08-21",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-07"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "rmatteoda/prompt_eval_light",
+    "last_push": "2025-10-28T12:32:51Z",
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "stars_at_retrieval": 2
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:40:17Z",
+  "rights_note": "Repository license reported by GitHub: {'key': '', 'name': '', 'url': ''}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-rmatteoda-prompt-eval-light",
+  "status": "rejected",
+  "title": "rmatteoda/prompt_eval_light"
+}

@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/aanjaneyasinghdhoni/ClaudeSec",
+  "content_sha256": "b30af2e1a09394e3878579087585987dd97346e51ee37bcee5f480fe493d03e1",
+  "creator": "aanjaneyasinghdhoni",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "Real-time AI agent observability dashboard — visualises OpenTelemetry traces as a communication graph with built-in security threat detection # ClaudeSec [![CI](https://github.com/aanjaneyasinghdhoni/ClaudeSec/actions/workflows/ci.yml/badge.svg)](https://github.com/aanjaneyasinghdhoni/ClaudeSec/actions/workflows/ci.yml) [![CodeQL](https://github.com/aanjaneyasinghdhoni/ClaudeSec/actions/workflows/codeql.yml/badge.svg)](https://github.com/aanjaneyasinghdhoni/ClaudeSec/actions/workflows/codeql.yml) [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](LICENSE)"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository aanjaneyasinghdhoni/ClaudeSec; discovered by github-repos-08.",
+  "published_date": "2026-04-03",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-08"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "aanjaneyasinghdhoni/ClaudeSec",
+    "last_push": "2026-07-11T14:12:48Z",
+    "license": {
+      "key": "agpl-3.0",
+      "name": "GNU Affero General Public License v3.0",
+      "url": "https://api.github.com/licenses/agpl-3.0"
+    },
+    "stars_at_retrieval": 19
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:40:32Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'agpl-3.0', 'name': 'GNU Affero General Public License v3.0', 'url': 'https://api.github.com/licenses/agpl-3.0'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-aanjaneyasinghdhoni-claudesec",
+  "status": "rejected",
+  "title": "aanjaneyasinghdhoni/ClaudeSec"
+}

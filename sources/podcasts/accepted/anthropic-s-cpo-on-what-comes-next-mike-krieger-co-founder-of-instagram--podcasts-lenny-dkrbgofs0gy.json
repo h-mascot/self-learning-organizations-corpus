@@ -1,0 +1,44 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.youtube.com/watch?v=DKrBGOFs0GY",
+  "content_sha256": "0bb3ed03047ecea2aafe54ccfb1b28a5505453b24e200ca4a25588d89658a95c",
+  "creator": "Mike Krieger",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "transcript_excerpt",
+      "locator": "full transcript at (00:09:18)",
+      "text": "Mike Krieger (00:09:18):  wonder how Claude will do this question.\" And we started changing, \"Well, how would we find out?\" And the answer can't just be we'll ask Claude, all right, well, we could do this experiment, we could have this thing. So I think nurturing curiosity and still having a sense of, I don't know, the scientific process sounds grandiose to instill in a 6-year-old, but that process of discovery and asking questions and then systematically working right through, I think will still be important. And of course AI will be an incredible tool for helping resolve large parts of that, but that process of inquiry I think is still really important and independent t"
+    },
+    {
+      "kind": "transcript_excerpt",
+      "locator": "full transcript at (00:52:29)",
+      "text": "Mike Krieger (00:52:29):  pushing forward.\" We ran a much broader early access program with these models than we had in the past, and part of that was because there's this real, we can hill climb on these evaluations and talk about suite bench and towel bench and terminal bench, whatever, but customers ultimately know Cursor bench which doesn't exist other than in their usage and their own testing et cetera is the thing that we ultimately need to serve."
+    }
+  ],
+  "media_format": "podcast_episode",
+  "platform": "podcasts",
+  "provenance": "Full transcript audited at ChatPRD/lennys-podcast-transcripts/mike-krieger; original video ID DKrBGOFs0GY.",
+  "published_date": "2025-06-05",
+  "publisher": "Lenny's Podcast",
+  "query_ids": [
+    "manual-full-transcript-audit-2026-07-12"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "ould we find out?\" And the answer can't just be we'll ask Claude, all right, well, we could do this experiment, we could have this thing. So I think nurturing curiosity and still having a sense of, I don't know, the scientific process sounds grandiose to instill in a 6-year-old, but that process of",
+    "than we had in the past, and part of that was because there's this real, we can hill climb on these evaluations and talk about suite bench and towel bench and terminal bench, whatever, but customers ultimately know Cursor bench which doesn't exist other than in their usage and their own testing et c"
+  ],
+  "retained_complete_transcript": false,
+  "retrieval_method": "full public transcript manual audit via GitHub citation",
+  "retrieved_at": "2026-07-12T09:34:39Z",
+  "rights_note": "The full public transcript was audited; only two bounded, separated guest passages are retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "episode",
+  "stable_id": "podcasts-lenny-DKrBGOFs0GY",
+  "status": "accepted",
+  "title": "Anthropic's CPO on what comes next | Mike Krieger (co-founder of Instagram)",
+  "transcript_available": true,
+  "transcript_source": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/main/episodes/mike-krieger/transcript.md"
+}

@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://falconer.com/guides/preserve-institutional-knowledge/",
+  "content_sha256": "53c733340ad49258a06cd27f45baf58d45cc0d59d31020eeb1e5c3123938c213",
+  "creator": "falconer.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "publisher body text",
+      "text": "| Transfer method | Best for | Time investment | Knowledge retention | When to use | | --- | --- | --- | --- | --- | | Pair sessions and shadowing | Procedural workflows, deployment processes, incident response, day-to-day tasks | High upfront (2-4 hours per session), but creates lasting procedural competency | Very high for hands-on skills, moderate for decision context | When the departing person handles critical live processes that require hands-on demonstration | | Knowledge interviews | Architectural decisions, design rationale, technical tradeoffs, historical context | Moderate (30-60 minutes per domain area), can be recorded for future reference | High for tacit kn"
+    }
+  ],
+  "platform": "blogs",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-blogs.",
+  "published_date": null,
+  "publisher": "falconer.com",
+  "query_ids": [
+    "citation-catalog-blogs"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The retained publisher-authored passage describes a concrete learning, feedback, evaluation, adaptation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:23Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "article",
+  "stable_id": "blogs-2facfd76a28d377b",
+  "status": "accepted",
+  "title": "How to capture critical knowledge and build your company brain: 5 steps for May 2026 | Falconer Guides"
+}

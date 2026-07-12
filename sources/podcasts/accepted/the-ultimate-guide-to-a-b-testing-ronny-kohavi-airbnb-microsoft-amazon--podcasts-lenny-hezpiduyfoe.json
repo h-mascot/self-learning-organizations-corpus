@@ -1,0 +1,44 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.youtube.com/watch?v=hEzpiDuYFoE",
+  "content_sha256": "560a9bdbe4be803df2e371173fc3e2f807e0c3b2e8bb777d8fe2ed6ad3f7b719",
+  "creator": "Ronny Kohavi",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "transcript_excerpt",
+      "locator": "full transcript at (00:01:14)",
+      "text": "Lenny (00:01:14): Today my guest is Ronny Kohavi. Ronny is seen by many as the world expert on A/B testing and experimentation. Most recently, he was VP and technical fellow of relevance at Airbnb where he led their search experience team. Prior to that, he was corporate vice president at Microsoft, where he led Microsoft Experimentation Platform team. Before that, he was director of data mining and personalization at Amazon."
+    },
+    {
+      "kind": "transcript_excerpt",
+      "locator": "full transcript at (00:17:17)",
+      "text": "Ronny Kohavi (00:17:17): I think one of the mistakes that some company makes is they launch a lot of experiments and never go back and summarize the learnings. So I've actually put a lot of effort in this idea of institutional learning, of doing the quarterly meeting of the most surprising experiments."
+    }
+  ],
+  "media_format": "podcast_episode",
+  "platform": "podcasts",
+  "provenance": "Full transcript audited at ChatPRD/lennys-podcast-transcripts/ronny-kohavi; original video ID hEzpiDuYFoE.",
+  "published_date": "2023-07-27",
+  "publisher": "Lenny's Podcast",
+  "query_ids": [
+    "manual-full-transcript-audit-2026-07-12"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Prior to that, he was corporate vice president at Microsoft, where he led Microsoft Experimentation Platform team.",
+    "I think one of the mistakes that some company makes is they launch a lot of experiments and never go back and summarize the learnings."
+  ],
+  "retained_complete_transcript": false,
+  "retrieval_method": "full public transcript manual audit via GitHub citation",
+  "retrieved_at": "2026-07-12T09:34:38Z",
+  "rights_note": "The full public transcript was audited; only two bounded, separated guest passages are retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "episode",
+  "stable_id": "podcasts-lenny-hEzpiDuYFoE",
+  "status": "accepted",
+  "title": "The ultimate guide to A/B testing | Ronny Kohavi (Airbnb, Microsoft, Amazon)",
+  "transcript_available": true,
+  "transcript_source": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/main/episodes/ronny-kohavi/transcript.md"
+}

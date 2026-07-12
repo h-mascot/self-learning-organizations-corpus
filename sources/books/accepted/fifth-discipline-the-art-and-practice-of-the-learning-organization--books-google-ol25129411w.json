@@ -1,0 +1,42 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://openlibrary.org/works/OL25129411W",
+  "content_sha256": "0d4af0ab161c494a18d4b32eb0f58fd6ec771d05793b5886e9e4205d945e515e",
+  "creator": "Peter M. Senge",
+  "date_precision": "year",
+  "evidence": [
+    {
+      "kind": "bibliographic_metadata",
+      "locator": "canonical catalog record",
+      "text": "Title: Fifth Discipline : the Art and Practice of the Learning Organization; creators: Peter M. Senge; publisher: Penguin Random House; publication date: 2010-01-01; catalog ID: OL25129411W; ISBN: 9781407060002, 9781409021438, 1409021432."
+    }
+  ],
+  "identifiers": {
+    "catalog_id": "OL25129411W",
+    "isbn": [
+      "9781407060002",
+      "9781409021438",
+      "1409021432"
+    ]
+  },
+  "platform": "books",
+  "provenance": "Public bibliographic record OL25129411W; discovered by openlibrary-books-01.",
+  "published_date": "2010-01-01",
+  "publisher": "Penguin Random House",
+  "query_ids": [
+    "openlibrary-books-01"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The canonical bibliographic title explicitly concerns organizational learning or a named organizational improvement mechanism: Fifth Discipline : the Art and Practice of the Learning Organization."
+  ],
+  "retrieval_method": "Open Library public Search API",
+  "retrieved_at": "2026-07-12T08:38:19Z",
+  "rights_note": "Bibliographic metadata and at most a bounded publisher/API description are stored; no book text is copied.",
+  "rights_status": "metadata-only",
+  "schema_version": 2,
+  "source_type": "book",
+  "stable_id": "books-google-OL25129411W",
+  "status": "accepted",
+  "title": "Fifth Discipline : the Art and Practice of the Learning Organization"
+}

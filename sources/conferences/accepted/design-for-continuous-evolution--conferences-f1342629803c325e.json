@@ -1,0 +1,39 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.infoq.com/presentations/design-continuous-evolution/",
+  "content_sha256": "8376656db5d2d9d758b8174d35dd2f8b432d19c245ba7b709c61314c755a92fb",
+  "creator": "[](https://www.infoq.com/profile/Eric-Brewer/)[Eric Brewer](https://www.infoq.com/profile/Eric-Brewer/)",
+  "date_precision": "unknown",
+  "event_proof": {
+    "duration_or_media_observed": true,
+    "publisher": "InfoQ",
+    "recorded_marker_observed": true
+  },
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "InfoQ presentation transcript/summary",
+      "text": "* ##### [Building AI Agent Evals for High-Stakes Incident Response (Live Webinar August 6, 2026) - Save Your Seat](https://www.infoq.com/vendorcontent/show.action?vcr=b865e48f-3a48-4006-b8fb-2acffef5cf19&primaryTopicId=2498&vcrPlace=BOTTOM&pageType=PRESENTATION_PAGE&vcrReferrer=https%3A%2F%2Fwww.infoq.com%2Fpresentations%2Fdesign-continuous-evolution%2F)"
+    }
+  ],
+  "platform": "conferences",
+  "provenance": "InfoQ presentation page with recorded-event marker, speaker attribution, and bounded source excerpt.",
+  "published_date": null,
+  "publisher": "InfoQ",
+  "query_ids": [
+    "review-infoq-continuous-improvement"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Publisher talk text describes a concrete organizational learning, feedback, evaluation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach/Jina public publisher page",
+  "retrieved_at": "2026-07-12T09:15:29Z",
+  "rights_note": "Only a bounded excerpt from the publisher presentation page is retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "talk",
+  "stable_id": "conferences-f1342629803c325e",
+  "status": "accepted",
+  "title": "Design for Continuous Evolution"
+}

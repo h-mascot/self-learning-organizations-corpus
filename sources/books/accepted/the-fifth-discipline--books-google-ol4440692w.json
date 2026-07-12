@@ -1,0 +1,42 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://openlibrary.org/works/OL4440692W",
+  "content_sha256": "14ffd49fb7a153a0bdb91bd13219673b4ff330a5f8b094ea915bd56d934e61a8",
+  "creator": "Peter Senge; Peter M. Senge",
+  "date_precision": "year",
+  "evidence": [
+    {
+      "kind": "bibliographic_metadata",
+      "locator": "canonical catalog record",
+      "text": "Title: The Fifth Discipline; creators: Peter Senge; Peter M. Senge; publisher: Currency; publication date: 1990-01-01; catalog ID: OL4440692W; ISBN: 9780553456349, 0385260946, 0385260954."
+    }
+  ],
+  "identifiers": {
+    "catalog_id": "OL4440692W",
+    "isbn": [
+      "9780553456349",
+      "0385260946",
+      "0385260954"
+    ]
+  },
+  "platform": "books",
+  "provenance": "Public bibliographic record OL4440692W; discovered by openlibrary-books-01.",
+  "published_date": "1990-01-01",
+  "publisher": "Currency",
+  "query_ids": [
+    "openlibrary-books-01"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The canonical bibliographic title explicitly concerns organizational learning or a named organizational improvement mechanism: The Fifth Discipline."
+  ],
+  "retrieval_method": "Open Library public Search API",
+  "retrieved_at": "2026-07-12T08:38:19Z",
+  "rights_note": "Bibliographic metadata and at most a bounded publisher/API description are stored; no book text is copied.",
+  "rights_status": "metadata-only",
+  "schema_version": 2,
+  "source_type": "book",
+  "stable_id": "books-google-OL4440692W",
+  "status": "accepted",
+  "title": "The Fifth Discipline"
+}

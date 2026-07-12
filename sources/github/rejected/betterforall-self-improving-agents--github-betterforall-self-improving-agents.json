@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/BetterForAll/self-improving-agents",
+  "content_sha256": "0f497f96abab9c5395b9e09a7eb3d3f1f314b66ce8de1f5a02f49f31bdbcf63b",
+  "creator": "BetterForAll",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "Self-Improving Agents -- A Progression Four levels of self-improving code agents, from the simplest loop to a full adversarial arena with self-modifying agents. Each level adds one key idea. # Self-Improving Agents -- A Progression Four levels of self-improving code agents, from the simplest loop to a full adversarial arena with self-modifying agents. Each level adds one key idea. Independent research comparing existing approaches to self-improving code agents and proposing new ones. ## The 4 Levels - **Level 1 -- AutoResearch Loop:** LLM improves code against a benchmark (a la Karpathy's"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository BetterForAll/self-improving-agents; discovered by github-repos-06.",
+  "published_date": "2026-04-04",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-06"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "BetterForAll/self-improving-agents",
+    "last_push": "2026-04-09T06:21:36Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stars_at_retrieval": 266
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:50Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'mit', 'name': 'MIT License', 'url': 'https://api.github.com/licenses/mit'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-betterforall-self-improving-agents",
+  "status": "rejected",
+  "title": "BetterForAll/self-improving-agents"
+}

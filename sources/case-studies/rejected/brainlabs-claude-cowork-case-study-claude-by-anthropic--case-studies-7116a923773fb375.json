@@ -1,0 +1,32 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://www.anthropic.com/customers/brainlabs",
+  "content_sha256": "de4619d37b412843bde2f19cd8af33649773ebcce6bfc66fe3106f1588ed83d7",
+  "creator": "anthropic.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "public primary page",
+      "text": "Title: Brainlabs Claude Cowork case study | Claude by Anthropic URL Source: https://www.anthropic.com/customers/brainlabs Published Time: Fri, 10 Jul 2026 16:48:17 GMT Markdown Content: Case study | Claude Cowork ## How Brainlabs gave 1k+ marketers at its media agency an AI coworker with Claude Cowork and skills ![Image 1](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a10b2c64ec0843006d9968b_logo_brainlabs-light-mode.svg)![Image 2](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a10b2d4179a46a1609d518f_logo_brainlabs-dark-mode.svg) Industry: Professional services Company size: Large Product: Claude Cowork Claude"
+    }
+  ],
+  "platform": "case-studies",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-case-studies.",
+  "published_date": null,
+  "publisher": "anthropic.com",
+  "query_ids": [
+    "citation-catalog-case-studies"
+  ],
+  "rejection_reason": "Page retrieval did not expose enough substantive topical evidence.",
+  "relevance_evidence": [],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:42:50Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "retrieval-evidence-only",
+  "schema_version": 2,
+  "source_type": "case-study",
+  "stable_id": "case-studies-7116a923773fb375",
+  "status": "rejected",
+  "title": "Brainlabs Claude Cowork case study | Claude by Anthropic"
+}

@@ -1,0 +1,39 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.infoq.com/presentations/culture-continuous-experimentation/",
+  "content_sha256": "9113b79df9603eed545d5151c65dc7bccfe0ca3ec95dbe76504938a2b931267f",
+  "creator": "[![Image 3: Author photo](https://cdn.infoq.com/statics_s1_20260709202526/images/profiles/9cfdf1dea05cdee6d366c1e0a93276c6.jpg)](https://www.infoq.com/profile/Sarah-Aslanifar/)[Sarah Aslanifar](https://www.infoq.com/profile/Sarah-Aslanifar/)",
+  "date_precision": "unknown",
+  "event_proof": {
+    "duration_or_media_observed": true,
+    "publisher": "InfoQ",
+    "recorded_marker_observed": true
+  },
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "InfoQ presentation transcript/summary",
+      "text": "Aslanifar: I really love this quote from Alvin Toffler. He's saying that in our ever-changing world, the illiterate are not those who cannot read or write, but those who cannot learn, and unlearn, and relearn new things. We see it all around us, especially these days, everything is about AI. Where are we headed to? Every company wants to innovate. They want to bring new technology, but at the same time, a lot of us are stretched to mass at work with new features. The question then is, when is that time that I need to set aside to learn new technology, to be fast, to be Agile, so that I can explore and innovate when the time comes. Also, I hear quite a bit that people say "
+    }
+  ],
+  "platform": "conferences",
+  "provenance": "InfoQ presentation page with recorded-event marker, speaker attribution, and bounded source excerpt.",
+  "published_date": null,
+  "publisher": "InfoQ",
+  "query_ids": [
+    "review-infoq-continuous-improvement"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Publisher talk text describes a concrete organizational learning, feedback, evaluation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach/Jina public publisher page",
+  "retrieved_at": "2026-07-12T09:15:14Z",
+  "rights_note": "Only a bounded excerpt from the publisher presentation page is retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "talk",
+  "stable_id": "conferences-eab7d9ac8b6bad40",
+  "status": "accepted",
+  "title": "Building a Culture of Continuous Experimentation"
+}

@@ -1,0 +1,44 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.youtube.com/watch?v=4PhfAbRQpbI",
+  "content_sha256": "bcbc6a25bf8e076ffd7a5395866e157617d64c15bb946765b9db9ee8e257ff73",
+  "creator": "Nikita Bier",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "transcript_excerpt",
+      "locator": "full transcript at (00:36:06)",
+      "text": "Nikita Bier (00:36:06): A lot of people ask me like, \"What's the benchmark for product-market fit?\" And this founder that I'm friends with, his name's Roger Dickey, he told me this one time, \"If your product's working, you'll know. And if there's any uncertainty, it's not working.\" And it really is a binary when it comes to consumer products. People are going to be fighting to get into it and you'll find new measures that you've never heard of like, \"Our metric was hourly actives per day.\" Not daily active users, hourly active users. So you'll start seeing that and it'll be abundantly obvious what product-market fit is. You'll know it when you see it is the bottom line."
+    },
+    {
+      "kind": "transcript_excerpt",
+      "locator": "full transcript at (00:51:57)",
+      "text": "Nikita Bier (00:51:57): Yeah. When we joined the new product experimentation group, we were actually seated I think at basically the same desk as Mark Zuckerberg. And that was pretty cool to see how the machine runs from Zuck's view. But we had a few artifacts that we had kept with us from our old office when we were running tbh, and one of them was this kind of pop art painting that I bought on the street when I needed to get something on the walls for our office. And it was this giant painting of Tim Cook. We had been carrying it between our orgs at Facebook just because it was a funny painting. And I kind of got it because it was kind of symbolic of who actually contro"
+    }
+  ],
+  "media_format": "podcast_episode",
+  "platform": "podcasts",
+  "provenance": "Full transcript audited at ChatPRD/lennys-podcast-transcripts/nikita-bier; original video ID 4PhfAbRQpbI.",
+  "published_date": "2023-04-06",
+  "publisher": "Lenny's Podcast",
+  "query_ids": [
+    "manual-full-transcript-audit-2026-07-12"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "A lot of people ask me like, \"What's the benchmark for product-market fit?\" And this founder that I'm friends with, his name's Roger Dickey, he told me this one time, \"If your product's working, you'll know.",
+    "When we joined the new product experimentation group, we were actually seated I think at basically the same desk as Mark Zuckerberg."
+  ],
+  "retained_complete_transcript": false,
+  "retrieval_method": "full public transcript manual audit via GitHub citation",
+  "retrieved_at": "2026-07-12T09:34:39Z",
+  "rights_note": "The full public transcript was audited; only two bounded, separated guest passages are retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "episode",
+  "stable_id": "podcasts-lenny-4PhfAbRQpbI",
+  "status": "accepted",
+  "title": "Driving alignment within teams, work-life balance, and the changing PM landscape",
+  "transcript_available": true,
+  "transcript_source": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/main/episodes/nikita-bier/transcript.md"
+}

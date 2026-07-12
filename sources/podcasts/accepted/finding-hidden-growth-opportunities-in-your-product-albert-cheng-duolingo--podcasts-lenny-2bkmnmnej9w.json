@@ -1,0 +1,44 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.youtube.com/watch?v=2BKmNmnEj9w",
+  "content_sha256": "60966f5e5010ced85f547d538cdb8a8a67806b552b24acd2ddca2fa42b48d012",
+  "creator": "Albert Cheng",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "transcript_excerpt",
+      "locator": "full transcript at (00:13:34)",
+      "text": "Albert Cheng (00:13:34): Yeah, exactly right. In my experience, the typical win rate, and I hate to use that term for experiments, is often something like 30 to 50%. Usually you're trying a bunch of things, a lot of hypotheses turn out not to be true, consumer products are very unpredictable like that, but when you do find a thing that breaks through the noise, and it could actually be a hugely losing experiment too, those are also super valuable."
+    },
+    {
+      "kind": "transcript_excerpt",
+      "locator": "full transcript at (01:01:30)",
+      "text": "Albert Cheng (01:01:30): The system matters just as much as any given experiment, probably even more, right? I think starting with a growth model, so you have an understanding of how your company grows in the first place and which channels you're going to leverage is critical. You need to make sure that you are instrumenting your product in and out. Otherwise, you're going to run experiments and have wonky results."
+    }
+  ],
+  "media_format": "podcast_episode",
+  "platform": "podcasts",
+  "provenance": "Full transcript audited at ChatPRD/lennys-podcast-transcripts/albert-cheng; original video ID 2BKmNmnEj9w.",
+  "published_date": "2025-10-05",
+  "publisher": "Lenny's Podcast",
+  "query_ids": [
+    "manual-full-transcript-audit-2026-07-12"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "ut when you do find a thing that breaks through the noise, and it could actually be a hugely losing experiment too, those are also super valuable.",
+    "The system matters just as much as any given experiment, probably even more, right?"
+  ],
+  "retained_complete_transcript": false,
+  "retrieval_method": "full public transcript manual audit via GitHub citation",
+  "retrieved_at": "2026-07-12T09:34:39Z",
+  "rights_note": "The full public transcript was audited; only two bounded, separated guest passages are retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "episode",
+  "stable_id": "podcasts-lenny-2BKmNmnEj9w",
+  "status": "accepted",
+  "title": "Finding hidden growth opportunities in your product | Albert Cheng (Duolingo,",
+  "transcript_available": true,
+  "transcript_source": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/main/episodes/albert-cheng/transcript.md"
+}

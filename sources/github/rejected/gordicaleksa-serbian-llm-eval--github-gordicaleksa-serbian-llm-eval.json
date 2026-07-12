@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/gordicaleksa/serbian-llm-eval",
+  "content_sha256": "51a93f5d0f05e66be6a5db4d6133570905632a92f20a77efe42a42e594fff9c5",
+  "creator": "gordicaleksa",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "on Weights & Biases. The branch [serb_eval_translate](https://github.com/gordicaleksa/lm-evaluation-harness-serbian/tree/serb_eval_translate) was used to do machine translation, while [serb_eval_refine](https://github.com/gordicaleksa/lm-evaluation-harness-serbian/tree/serb_eval_refine) was used to do further refinement using GPT-4. Please email me at gordicaleksa at gmail com in case you're willing to sponsor the projects I'm working on. You will get the credits and eternal glory. :) In Serbian: ``` I na srpskom, ukoliko ste voljni da finansijski podržite ovaj poduhvat korišćenja C"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository gordicaleksa/serbian-llm-eval; discovered by github-repos-02.",
+  "published_date": "2023-11-29",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-02"
+  ],
+  "rejection_reason": "Generic agent-memory/evaluation repository lacked a demonstrated organizational operating mechanism.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "gordicaleksa/serbian-llm-eval",
+    "last_push": "2024-03-19T11:17:19Z",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "url": ""
+    },
+    "stars_at_retrieval": 97
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:38:59Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'other', 'name': 'Other', 'url': ''}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-gordicaleksa-serbian-llm-eval",
+  "status": "rejected",
+  "title": "gordicaleksa/serbian-llm-eval"
+}

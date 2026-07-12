@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/pingcy/ace-langgraph",
+  "content_sha256": "a7d4b9e5650fa91cbcbcaf45d23c6c0e611cb7ebe61deeb1742165de2fc8d472",
+  "creator": "pingcy",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "ACE LangGraph: ReAct Agent with Adaptive Learning - Integrating ACE framework with LangGraph for self-improving agents # ACE LangGraph - ReAct Agent with Adaptive Learning ACE (Agentic Context Engine) + LangGraph 集成，为 ReAct Agent 提供自适应学习能力。 ## 🌟 特性 - **自适应学习**：通过 ACE 框架让 ReAct Agent 从经验中学习策略 - **向量检索**：使用 ChromaDB 实现策略的语义检索 - **工具集成**：支持计算器、网络搜索等工具 - **可观测性**：可选的 LangSmith 追踪支持 ## 📦 安装 ```bash # 安装依赖 pip install -r requirements.txt # 配置环境变量 cp .env.example .env # 编辑 .env 文件，填入你的 API keys ``` ## 🚀 快速开始 ### 基本使用 ```python from ace_langgraph.ace_react_agent import ACEReActWorkflow, ReactQuestion # 创建工作流 workflow ="
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository pingcy/ace-langgraph; discovered by github-repos-06.",
+  "published_date": "2025-11-03",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-06"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "pingcy/ace-langgraph",
+    "last_push": "2025-11-03T07:44:26Z",
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "stars_at_retrieval": 46
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:59Z",
+  "rights_note": "Repository license reported by GitHub: {'key': '', 'name': '', 'url': ''}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-pingcy-ace-langgraph",
+  "status": "rejected",
+  "title": "pingcy/ace-langgraph"
+}

@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/microsoft/Build26-DEM341-any-agent-any-cloud-standardized-tracing-with-foundry-and-opentelemetry",
+  "content_sha256": "715afa5ab8373ffc5ef6604c8131c1b1955105821f935dd551b6ebea6ebca0dd",
+  "creator": "microsoft",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "a multi-agent travel concierge, diagnose routing and latency with unified traces, and close the loop with trace-based evaluation in Microsoft Foundry. This repository is the central starting point for DEM341. Start here for the demo walkthrough, sample code, slides, and community links. ### Getting started If you are following the demo at your own pace: 1. Clone this repository. 2. Review the session map below to find the docs, samples, slides, and community links. 3. Open the demo walkthrough and sample code when they are published in this repo. 4. Use GitHub Issues for questions, bugs, or follow-up requests. "
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository microsoft/Build26-DEM341-any-agent-any-cloud-standardized-tracing-with-foundry-and-opentelemetry; discovered by github-repos-08.",
+  "published_date": "2026-04-09",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-08"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "microsoft/Build26-DEM341-any-agent-any-cloud-standardized-tracing-with-foundry-and-opentelemetry",
+    "last_push": "2026-06-02T13:56:34Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stars_at_retrieval": 11
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:40:37Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'mit', 'name': 'MIT License', 'url': 'https://api.github.com/licenses/mit'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-microsoft-build26-dem341-any-agent-any-cloud-standardized-tracing-with-foundry-a",
+  "status": "rejected",
+  "title": "microsoft/Build26-DEM341-any-agent-any-cloud-standardized-tracing-with-foundry-and-opentelemetry"
+}

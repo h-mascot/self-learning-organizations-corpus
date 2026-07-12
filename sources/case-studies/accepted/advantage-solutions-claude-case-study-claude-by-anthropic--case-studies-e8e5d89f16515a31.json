@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.anthropic.com/customers/advantage-solutions",
+  "content_sha256": "23848ec38efd4ed784168600160487dd3e65fff77c67dd7143c23156fe32a989",
+  "creator": "anthropic.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "publisher body text",
+      "text": "Advantage made two organizing decisions. The first was governance: the company stood up an AI office reporting into a CEO-sponsored group of C-suite executives that meets regularly to review the portfolio. The second was sequencing. \"We needed to meet people where they were in their AI learning journey. We chose to invest in AI fluency starting from the top of the organization,\" Miles said. The executive leadership team would go through Claude training before anyone else."
+    }
+  ],
+  "platform": "case-studies",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-case-studies.",
+  "published_date": null,
+  "publisher": "anthropic.com",
+  "query_ids": [
+    "citation-catalog-case-studies"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The retained publisher-authored passage describes a concrete learning, feedback, evaluation, adaptation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:42:50Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "case-study",
+  "stable_id": "case-studies-e8e5d89f16515a31",
+  "status": "accepted",
+  "title": "Advantage Solutions Claude case study | Claude by Anthropic"
+}

@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.ycombinator.com/library/RB-the-ceo-must-be-the-chief-ai-officer",
+  "content_sha256": "36de0d9d8fae179dd77bfd21ab463bdd65e3a7c9134f94f998d1e3a089e4c228",
+  "creator": "Pedro Franceschi; Y Combinator",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "publisher body text",
+      "text": "Pedro Franceschi (guest): So one of the things that we're doing that I I I it is related, but I think it's really fun, which is how do you have every single human interaction in the company becoming an evolve when you have any agent? So for example, we have the onboarding onboarding agent is d doing something. And then you have a team that actually goes in and looks at KYC exceptions that the model can figure out. How to make that a breaking change? And and okay, like this this manual interaction will become an eval case. You know, we have an expense agent in in Brex. Whenever someone has a conversation with the agent that is that flags uh an issue or or a bug or or or or"
+    }
+  ],
+  "platform": "blogs",
+  "provenance": "Recovered from research/discovery-inventory.md via early-inventory-blogs.",
+  "published_date": null,
+  "publisher": "Y Combinator",
+  "query_ids": [
+    "early-inventory-blogs"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The retained publisher-authored passage describes a concrete learning, feedback, evaluation, adaptation, or improvement mechanism."
+  ],
+  "retrieval_method": "public publisher retrieval",
+  "retrieved_at": "2026-07-12T08:36:25Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete protected work is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "article",
+  "stable_id": "blogs-40af6c5a9d3867e1",
+  "status": "accepted",
+  "title": "The CEO Must Be the Chief AI Officer"
+}

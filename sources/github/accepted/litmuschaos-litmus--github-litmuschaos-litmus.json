@@ -1,0 +1,41 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://github.com/litmuschaos/litmus",
+  "content_sha256": "8cae2c1d0b307e4230a4233e52d9ebbef8dce42454bbc13f49401031d5d99f23",
+  "creator": "litmuschaos",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "full repository README",
+      "text": "heir chaos experiments so that their users can use them to increase the resilience of the applications in production. ## Use cases - **For Developers**: To run chaos experiments during application development as an extension of unit testing or integration testing. - **For CI/CD pipeline builders**: To run chaos as a pipeline stage to find bugs when the application is subjected to fail paths in a pipeline. - **For SREs**: To plan and schedule chaos experiments into the application and/or surrounding infrastructure. This practice identifies the weaknesses in the deployment system and increases resilience. ## Getting Started with Litmus To get started, check out the Litmus D"
+    }
+  ],
+  "organizational_mechanism": "heir chaos experiments so that their users can use them to increase the resilience of the applications in production.",
+  "platform": "github",
+  "provenance": "GitHub metadata and full README manually audited for litmuschaos/litmus.",
+  "published_date": "2017-03-15",
+  "publisher": "GitHub",
+  "query_ids": [
+    "manual-full-readme-audit-2026-07-12"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "heir chaos experiments so that their users can use them to increase the resilience of the applications in production."
+  ],
+  "repository": {
+    "full_name": "litmuschaos/litmus",
+    "last_push": "2026-07-08T12:12:09Z",
+    "license": "Apache-2.0",
+    "stars_at_retrieval": 5510
+  },
+  "retrieval_method": "manual full-README audit via GitHub CLI API",
+  "retrieved_at": "2026-07-12T09:34:51Z",
+  "rights_note": "GitHub reports Apache-2.0; only a bounded exact mechanism passage is retained.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-litmuschaos-litmus",
+  "status": "accepted",
+  "title": "litmuschaos/litmus"
+}

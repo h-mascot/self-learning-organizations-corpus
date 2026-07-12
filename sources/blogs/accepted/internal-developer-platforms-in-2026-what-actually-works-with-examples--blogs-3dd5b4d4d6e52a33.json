@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.axelerant.com/blog/building-internal-developer-platforms",
+  "content_sha256": "2b24f34e14c97718bb9604db94efb8f30563127da7e2ae508ea1b4728908612a",
+  "creator": "axelerant.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "publisher body text",
+      "text": "Successful internal developer platforms measure outcomes using deployment frequency, lead time, and developer satisfaction — not simple adoption rates. These metrics more accurately reflect platform effectiveness because they tie directly to delivery performance. The post emphasizes that platform evolution should be continuously shaped by how software is built, tested, and deployed across the organization, ensuring improvements are driven by real usage data and feedback loops rather than architectural assumptions."
+    }
+  ],
+  "platform": "blogs",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-blogs.",
+  "published_date": null,
+  "publisher": "axelerant.com",
+  "query_ids": [
+    "citation-catalog-blogs"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The retained publisher-authored passage describes a concrete learning, feedback, evaluation, adaptation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:23Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "article",
+  "stable_id": "blogs-3dd5b4d4d6e52a33",
+  "status": "accepted",
+  "title": "Internal Developer Platforms in 2026: What Actually Works (With Examples)"
+}

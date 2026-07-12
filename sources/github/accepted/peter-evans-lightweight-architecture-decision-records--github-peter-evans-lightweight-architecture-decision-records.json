@@ -1,0 +1,41 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://github.com/peter-evans/lightweight-architecture-decision-records",
+  "content_sha256": "fc35cd26b8916144149566713c7ef20b2a182e2fc78e74a4bd8302987002aa21",
+  "creator": "peter-evans",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "full repository README",
+      "text": "Lightweight Architecture Decision Records # Lightweight Architecture Decision Records [ ](https://peterevans.dev/posts/lightweight-architecture-decision-records/) >__*\"Lightweight Architecture Decision Records is a technique for capturing important architectural decisions along with their context and consequences.\"*__ — [\"Lightweight Architecture Decision Records\", ThoughtWorks Technology Radar](https://www.thoughtworks.com/radar/techniques/lightweight-architecture-decision-records) ## Making architecture and design decisions In my experience architecture decisions are often made verbally while gathered around a whiteboard. This is a great way to hash out the design while"
+    }
+  ],
+  "organizational_mechanism": "Lightweight Architecture Decision Records # Lightweight Architecture Decision Records [ ](https://peterevans.dev/posts/lightweight-architecture-decision-records/) >__*\"Lightweight Architecture Decision Records is a technique for capturing important architectural decisions along with their context an",
+  "platform": "github",
+  "provenance": "GitHub metadata and full README manually audited for peter-evans/lightweight-architecture-decision-records.",
+  "published_date": "2018-05-24",
+  "publisher": "GitHub",
+  "query_ids": [
+    "manual-full-readme-audit-2026-07-12"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Lightweight Architecture Decision Records # Lightweight Architecture Decision Records [ ](https://peterevans.dev/posts/lightweight-architecture-decision-records/) >__*\"Lightweight Architecture Decision Records is a technique for capturing important architectural decisions along with their context an"
+  ],
+  "repository": {
+    "full_name": "peter-evans/lightweight-architecture-decision-records",
+    "last_push": "2020-07-01T00:21:41Z",
+    "license": "MIT",
+    "stars_at_retrieval": 145
+  },
+  "retrieval_method": "manual full-README audit via GitHub CLI API",
+  "retrieved_at": "2026-07-12T09:34:55Z",
+  "rights_note": "GitHub reports MIT; only a bounded exact mechanism passage is retained.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-peter-evans-lightweight-architecture-decision-records",
+  "status": "accepted",
+  "title": "peter-evans/lightweight-architecture-decision-records"
+}

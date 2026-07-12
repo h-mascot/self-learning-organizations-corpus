@@ -1,0 +1,44 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.youtube.com/watch?v=wP8YyWH524A",
+  "content_sha256": "3ae0685d52ecf52385d08b64713559aca81e6e4a465c4f4d4fd61800176f6f48",
+  "creator": "Adam Fishman",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "transcript_excerpt",
+      "locator": "full transcript at (00:16:06)",
+      "text": "Adam Fishman (00:16:06): of the very first ones that you should be good at if you're a growth practitioner. Within this competency grouping, there's three individual competencies that are channel fluency, experimentation, and what I'd call productizing learnings. And so you can evaluate and ask questions to understand how good people are at these different things and what their experience has been with them."
+    },
+    {
+      "kind": "transcript_excerpt",
+      "locator": "full transcript at (00:38:51)",
+      "text": "Adam Fishman (00:38:51): So I'll give you a really concrete example. At Patreon, one of the places we worked on onboarding really extensively and the onboarding experience was one of the teams that we had on growth at Patreon. We did a lot of experimentation around the earliest, what we would call product led sales now, when do you connect a human being with a creator and the onboarding experience and what is that impact and how do you connect them with the right person or with the right creator when there are tens of thousands going through that onboarding journey every week?"
+    }
+  ],
+  "media_format": "podcast_episode",
+  "platform": "podcasts",
+  "provenance": "Full transcript audited at ChatPRD/lennys-podcast-transcripts/adam-fishman; original video ID wP8YyWH524A.",
+  "published_date": "2022-10-13",
+  "publisher": "Lenny's Podcast",
+  "query_ids": [
+    "manual-full-transcript-audit-2026-07-12"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Within this competency grouping, there's three individual competencies that are channel fluency, experimentation, and what I'd call productizing learnings.",
+    "We did a lot of experimentation around the earliest, what we would call product led sales now, when do you connect a human being with a creator and the onboarding experience and what is that impact and how do you connect them with the right person or with the right creator when there are tens of tho"
+  ],
+  "retained_complete_transcript": false,
+  "retrieval_method": "full public transcript manual audit via GitHub citation",
+  "retrieved_at": "2026-07-12T09:34:38Z",
+  "rights_note": "The full public transcript was audited; only two bounded, separated guest passages are retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "episode",
+  "stable_id": "podcasts-lenny-wP8YyWH524A",
+  "status": "accepted",
+  "title": "How to build a high-performing growth team | Adam Fishman (Patreon, Lyft, Imperfect",
+  "transcript_available": true,
+  "transcript_source": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/main/episodes/adam-fishman/transcript.md"
+}

@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://ramp.com/customers",
+  "content_sha256": "016095837acc363ab26faddd9b98719c59e165f46d39fbdcc9b4b901c358f8d4",
+  "creator": "Ramp",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "publisher body text",
+      "text": "We've simplified our workflows while improving accuracy, and we are faster in closing with the help of automation. We could not have achieved this without the solutions Ramp brought to the table."
+    }
+  ],
+  "platform": "case-studies",
+  "provenance": "Recovered from research/discovery-inventory.md via early-inventory-case-studies.",
+  "published_date": null,
+  "publisher": "Ramp",
+  "query_ids": [
+    "early-inventory-case-studies"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The retained publisher-authored passage describes a concrete learning, feedback, evaluation, adaptation, or improvement mechanism."
+  ],
+  "retrieval_method": "public publisher retrieval",
+  "retrieved_at": "2026-07-12T08:36:25Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete protected work is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "case-study",
+  "stable_id": "case-studies-5f10e2ee49545c95",
+  "status": "accepted",
+  "title": "Ramp Customer Stories"
+}

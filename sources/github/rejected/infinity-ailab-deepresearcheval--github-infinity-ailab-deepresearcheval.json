@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/Infinity-AILab/DeepResearchEval",
+  "content_sha256": "ccdca1ee2b95fc99037829f02198420b4996498471cf99954fa1de52759902f0",
+  "creator": "Infinity-AILab",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "DeepResearchEval: An Automated Framework for Deep Research Task Construction and Agentic Evaluation. <div align=\"center\"> <h1 align=\"center\"> DeepResearch Eval: An Automated Framework for Deep Research Task Construction and Agentic Evaluation </h1> <p> &nbsp;&nbsp;🌐 <a href=\"https://infinity-ailab.github.io/deep_research_eval/\">Website</a>&nbsp;&nbsp;|&nbsp;&nbsp; 📑 <a href=\"https://arxiv.org/abs/2601.09688\">Paper</a>&nbsp;&nbsp;|&nbsp;&nbsp; 🤗 <a href=\"https://huggingface.co/datasets/Infinity-AILab/DeepResearchEval\">Dataset</a>&nbsp;&nbsp;|&nbsp;&nbsp; 🐥 <a"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository Infinity-AILab/DeepResearchEval; discovered by github-repos-03.",
+  "published_date": "2026-01-14",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-03"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "Infinity-AILab/DeepResearchEval",
+    "last_push": "2026-02-10T18:18:55Z",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "url": "https://api.github.com/licenses/apache-2.0"
+    },
+    "stars_at_retrieval": 140
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:20Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'apache-2.0', 'name': 'Apache License 2.0', 'url': 'https://api.github.com/licenses/apache-2.0'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-infinity-ailab-deepresearcheval",
+  "status": "rejected",
+  "title": "Infinity-AILab/DeepResearchEval"
+}

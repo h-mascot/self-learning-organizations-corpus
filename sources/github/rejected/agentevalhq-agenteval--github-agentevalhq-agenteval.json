@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/AgentEvalHQ/AgentEval",
+  "content_sha256": "11e2c4329be8fd6adab7155ea2380ca74d3defdf484a1a0baaac20e7986c7f96",
+  "creator": "AgentEvalHQ",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "AgentEval is the comprehensive .NET toolkit for AI agent evaluation—tool usage validation, RAG quality metrics, stochastic evaluation, and model comparison—built first for Microsoft Agent Framework (MAF) and Microsoft.Extensions.AI. What RAGAS, PromptFoo and DeepEval do for Python, AgentEval does for .NET ﻿# AgentEval <p align=\"center\"> <img src=\"assets/AgentEval_bounded.png\" alt=\"AgentEval Logo\" width=\"450\" /> </p> <p align=\"center\"> <strong>The .NET Evaluation Toolkit for AI Agents</strong> </p> <p align=\"center\"> <a href=\"https://github.com/AgentEvalHQ/AgentEval/actions/workflows/ci.yml\"><img"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository AgentEvalHQ/AgentEval; discovered by github-repos-03.",
+  "published_date": "2026-01-02",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-03"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "AgentEvalHQ/AgentEval",
+    "last_push": "2026-07-12T08:34:07Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stars_at_retrieval": 127
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:21Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'mit', 'name': 'MIT License', 'url': 'https://api.github.com/licenses/mit'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-agentevalhq-agenteval",
+  "status": "rejected",
+  "title": "AgentEvalHQ/AgentEval"
+}

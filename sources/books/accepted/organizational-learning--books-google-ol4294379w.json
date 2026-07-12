@@ -1,0 +1,42 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://openlibrary.org/works/OL4294379W",
+  "content_sha256": "e42b7e3620e4499954753cd906d2428c8e7210208a2b85c8028f09e4f1517c5b",
+  "creator": "Chris Argyris; David A. Schon",
+  "date_precision": "year",
+  "evidence": [
+    {
+      "kind": "bibliographic_metadata",
+      "locator": "canonical catalog record",
+      "text": "Title: Organizational learning; creators: Chris Argyris; David A. Schon; publisher: FT Press; publication date: 1978-01-01; catalog ID: OL4294379W; ISBN: 9780201629835, 0201629836, 0201001748."
+    }
+  ],
+  "identifiers": {
+    "catalog_id": "OL4294379W",
+    "isbn": [
+      "9780201629835",
+      "0201629836",
+      "0201001748"
+    ]
+  },
+  "platform": "books",
+  "provenance": "Public bibliographic record OL4294379W; discovered by openlibrary-books-02.",
+  "published_date": "1978-01-01",
+  "publisher": "FT Press",
+  "query_ids": [
+    "openlibrary-books-02"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The canonical bibliographic title explicitly concerns organizational learning or a named organizational improvement mechanism: Organizational learning."
+  ],
+  "retrieval_method": "Open Library public Search API",
+  "retrieved_at": "2026-07-12T08:38:20Z",
+  "rights_note": "Bibliographic metadata and at most a bounded publisher/API description are stored; no book text is copied.",
+  "rights_status": "metadata-only",
+  "schema_version": 2,
+  "source_type": "book",
+  "stable_id": "books-google-OL4294379W",
+  "status": "accepted",
+  "title": "Organizational learning"
+}

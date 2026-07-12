@@ -1,0 +1,39 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.infoq.com/presentations/tools-continuous-learning-change/",
+  "content_sha256": "e494013f454a07bb68cbea357a666d1031fdefe62567a85ae4bb801632ac3c16",
+  "creator": "Gitte Klitgaard",
+  "date_precision": "day",
+  "event_proof": {
+    "duration_or_media_observed": true,
+    "publisher": "InfoQ",
+    "recorded_marker_observed": true
+  },
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "InfoQ presentation transcript/summary",
+      "text": "Agile Tour London is a conference about Agile in its general approach, where agilists of all background can meet to exchange ideas, refresh their minds, evaluate issues and renew their own approach to Execute Everyday Agile. Join us at Agile Tour London 2018, dive into hands-on workshops and engaging talks, exchange opinions with fellow agilists and meet directly some of the most amazing speakers of the community. Whether you are an agile newbie or an Expert Agilist, this is the conference you can't afford to miss."
+    }
+  ],
+  "platform": "conferences",
+  "provenance": "InfoQ presentation page with recorded-event marker, speaker attribution, and bounded source excerpt.",
+  "published_date": "2019-05-12",
+  "publisher": "InfoQ",
+  "query_ids": [
+    "review-infoq-continuous-improvement"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Publisher talk text describes a concrete organizational learning, feedback, evaluation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach/Jina public publisher page",
+  "retrieved_at": "2026-07-12T09:15:24Z",
+  "rights_note": "Only a bounded excerpt from the publisher presentation page is retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "talk",
+  "stable_id": "conferences-d8b6c4791aaeb7c7",
+  "status": "accepted",
+  "title": "Enabling Teams to Embrace Change"
+}

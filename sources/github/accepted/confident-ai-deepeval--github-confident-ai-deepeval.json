@@ -1,0 +1,41 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://github.com/confident-ai/deepeval",
+  "content_sha256": "408c163794899ffaf740e61f35a4bc43d48d27fbed578d2ecaec59770bbf8af7",
+  "creator": "confident-ai",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "full repository README",
+      "text": "ocs/metrics-prompt-alignment) — measure whether the output aligns with instructions in the prompt template - 🎯 Supports both end-to-end and component-level LLM evaluation. - 🧩 Build your own custom metrics that are automatically integrated with DeepEval's ecosystem. - 🔮 Generate both single and multi-turn synthetic datasets for evaluation. - 🔗 Integrates seamlessly with **ANY** CI/CD environment. - 🧬 Optimize prompts automatically based on evaluation results. - 🏆 Easily benchmark **ANY** LLM on popular LLM benchmarks in [under 10 lines of code.](https://deepeval.com/docs/benchmarks-introduction?utm_source=GitHub), including MMLU, HellaSwag, DROP, BIG-Bench Hard, TruthfulQ"
+    }
+  ],
+  "organizational_mechanism": "- 🏆 Easily benchmark **ANY** LLM on popular LLM benchmarks in [under 10 lines of code.](https://deepeval.com/docs/benchmarks-introduction?utm_source=GitHub), including MMLU, HellaSwag, DROP, BIG-Bench Hard, TruthfulQ",
+  "platform": "github",
+  "provenance": "GitHub metadata and full README manually audited for confident-ai/deepeval.",
+  "published_date": "2023-08-10",
+  "publisher": "GitHub",
+  "query_ids": [
+    "manual-full-readme-audit-2026-07-12"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "- 🏆 Easily benchmark **ANY** LLM on popular LLM benchmarks in [under 10 lines of code.](https://deepeval.com/docs/benchmarks-introduction?utm_source=GitHub), including MMLU, HellaSwag, DROP, BIG-Bench Hard, TruthfulQ"
+  ],
+  "repository": {
+    "full_name": "confident-ai/deepeval",
+    "last_push": "2026-07-12T09:30:40Z",
+    "license": "Apache-2.0",
+    "stars_at_retrieval": 16778
+  },
+  "retrieval_method": "manual full-README audit via GitHub CLI API",
+  "retrieved_at": "2026-07-12T09:34:45Z",
+  "rights_note": "GitHub reports Apache-2.0; only a bounded exact mechanism passage is retained.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-confident-ai-deepeval",
+  "status": "accepted",
+  "title": "confident-ai/deepeval"
+}

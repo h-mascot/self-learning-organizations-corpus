@@ -1,0 +1,44 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.youtube.com/watch?v=BsWxPI9UM4c",
+  "content_sha256": "3307160ea99e3472cc4248fc6a5bd0a053c0b26672865013000c88221205177e",
+  "creator": "Hamel Husain & Shreya Shankar",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "transcript_excerpt",
+      "locator": "full transcript at (00:01:09)",
+      "text": "Lenny Rachitsky (00:01:09): Today, my guests are Hamel Husain and Shreya Shankar. One of the most trending topics on this podcast over the past year has been the rise of evals. Both the chief product officers of Anthropic and OpenAI shared that evals are becoming the most important new skill for product builders. And since then, this has been a recurring theme across many of the top AI builders I've had on. Two years ago, I had never heard the term evals. Now it's coming up constantly. When was the last time that a new skill emerged that product builders had to get good at to be successful?"
+    },
+    {
+      "kind": "transcript_excerpt",
+      "locator": "full transcript at (01:10:19)",
+      "text": "Shreya Shankar (01:10:19): placating and I say I think everyone is on the same side. I think the misconception is that people have very rigid definitions of what evals is. For example, they might think that evals is just unit tests or they might think that evals is just the data analysis part and no online monitoring or no monitoring of product-specific metrics, like actually number of chats engaged in or whatnot. I think everyone has a different mindset of evals going in, and the other thing I will say is that people have been burned by evals in the past. I think people have done evals badly. One concrete example of this is they've tried to do an LLM judge, but it has no"
+    }
+  ],
+  "media_format": "podcast_episode",
+  "platform": "podcasts",
+  "provenance": "Full transcript audited at ChatPRD/lennys-podcast-transcripts/hamel-husain-shreya-shankar; original video ID BsWxPI9UM4c.",
+  "published_date": "2025-09-25",
+  "publisher": "Lenny's Podcast",
+  "query_ids": [
+    "manual-full-transcript-audit-2026-07-12"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Both the chief product officers of Anthropic and OpenAI shared that evals are becoming the most important new skill for product builders.",
+    "For example, they might think that evals is just unit tests or they might think that evals is just the data analysis part and no online monitoring or no monitoring of product-specific metrics, like actually number of chats engaged in or whatnot."
+  ],
+  "retained_complete_transcript": false,
+  "retrieval_method": "full public transcript manual audit via GitHub citation",
+  "retrieved_at": "2026-07-12T09:34:38Z",
+  "rights_note": "The full public transcript was audited; only two bounded, separated guest passages are retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "episode",
+  "stable_id": "podcasts-lenny-BsWxPI9UM4c",
+  "status": "accepted",
+  "title": "Why AI evals are the hottest new skill for product builders | Hamel Husain",
+  "transcript_available": true,
+  "transcript_source": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/main/episodes/hamel-husain-shreya-shankar/transcript.md"
+}

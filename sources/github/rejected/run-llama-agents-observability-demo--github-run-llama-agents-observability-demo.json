@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/run-llama/agents-observability-demo",
+  "content_sha256": "6dcde26662e3cb7883410c93c327414c754be93c12f6b5f2dfd8a65bb8c6afb9",
+  "creator": "run-llama",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "Observe your agents with OpenTelemetry # Agents Observability Demo ## With LlamaIndex and OpenTelemetry! This demo showcases a solution for agent observability and tracing by building on the LlamaIndex x OpenTelemetry integration. It traces the activity of an agent capable of extracting information from a University course syllabus (with LlamaExtract) and answer questions about it (with a LlamaCloud Index in the backend). > _The agents tool are served via MCP!_ ### Get it up and running! Get the GitHub repository: ```bash git clone https://github.com/run-llama/agents-observability-demo ``` Install dependencies:"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository run-llama/agents-observability-demo; discovered by github-repos-08.",
+  "published_date": "2025-06-22",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-08"
+  ],
+  "rejection_reason": "README/description did not establish a substantive learning or evaluation mechanism.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "run-llama/agents-observability-demo",
+    "last_push": "2025-06-24T19:03:59Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stars_at_retrieval": 11
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:40:35Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'mit', 'name': 'MIT License', 'url': 'https://api.github.com/licenses/mit'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-run-llama-agents-observability-demo",
+  "status": "rejected",
+  "title": "run-llama/agents-observability-demo"
+}

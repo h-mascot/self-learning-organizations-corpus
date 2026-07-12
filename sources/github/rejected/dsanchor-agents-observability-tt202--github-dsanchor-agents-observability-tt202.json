@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/dsanchor/agents-observability-tt202",
+  "content_sha256": "304695b8d3d62f5a20a992ec3e65fbf4b9392e33f8be0ae95e615db46b4ee9e8",
+  "creator": "dsanchor",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "- 👉 **[Intelligent Predictive Maintenance Hackathon](https://github.com/microsoft/agentic-factory-hack)** - 👉 **[Automated Regulatory Compliance & Audit​ Hackathon](https://github.com/microsoft/azure-trust-agents)** ## 🚀 Getting Started 1. **Prerequisites:** - Azure subscription - IDEs: there is a `devcontainer` available for this repo. You can either use: - GitHub Codespaces - VS Code with Dev Containers extension - Python 3.12+ 2. **Choose Your Path:** - **Building Agents?** → Start with [From Zero to Hero](./from-zero-to-hero/README.md) - **Implementing Observability?** → "
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository dsanchor/agents-observability-tt202; discovered by github-repos-08.",
+  "published_date": "2026-01-15",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-08"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "dsanchor/agents-observability-tt202",
+    "last_push": "2026-05-05T10:42:42Z",
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "stars_at_retrieval": 21
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:40:31Z",
+  "rights_note": "Repository license reported by GitHub: {'key': '', 'name': '', 'url': ''}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-dsanchor-agents-observability-tt202",
+  "status": "rejected",
+  "title": "dsanchor/agents-observability-tt202"
+}

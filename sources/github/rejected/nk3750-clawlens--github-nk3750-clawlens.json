@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/nk3750/clawlens",
+  "content_sha256": "251dd799f2373598d1300268d6db89cacc0cb85488dbf5ca674afe434b497013",
+  "creator": "nk3750",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "audit entries that make later edits, deletes, or reordering detectable. | | Add LLM context | Optional LLM risk evaluation and session summaries when `risk.llmEnabled=true`, using redacted tool-call metadata. | <p align=\"center\"> <a href=\"https://raw.githubusercontent.com/nk3750/clawlens/main/docs/assets/clawlens-homepage.png\" target=\"_self\"> <img src=\"https://raw.githubusercontent.com/nk3750/clawlens/main/docs/assets/clawlens-homepage.png\" alt=\"ClawLens dashboard\" width=\"900\"> </a> </p> --- ## How It Works 1. OpenClaw runs your agents and tool calls as usual. 2. ClawLens observes each tool call, computes"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository nk3750/clawlens; discovered by github-repos-08.",
+  "published_date": "2026-05-11",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-08"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "nk3750/clawlens",
+    "last_push": "2026-07-01T15:58:11Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stars_at_retrieval": 43
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:40:27Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'mit', 'name': 'MIT License', 'url': 'https://api.github.com/licenses/mit'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-nk3750-clawlens",
+  "status": "rejected",
+  "title": "nk3750/clawlens"
+}

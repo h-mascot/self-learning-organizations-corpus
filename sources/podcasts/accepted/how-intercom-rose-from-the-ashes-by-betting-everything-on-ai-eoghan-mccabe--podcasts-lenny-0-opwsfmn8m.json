@@ -1,0 +1,44 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.youtube.com/watch?v=0_opWSfmN8M",
+  "content_sha256": "e1c306df323b7d1124a4aaf8d5b211fab500816398f9c9a34c3cca3c5052864c",
+  "creator": "Eoghan McCabe",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "transcript_excerpt",
+      "locator": "full transcript at (00:05:53)",
+      "text": "Eoghan McCabe (00:05:53): se agents that helps do all your customer work and they all started with service and in that category we are the biggest by customer count, biggest by revenue, best by performance benchmarks. We win all our head-to-heads and our direct competitor bake-offs. We're rated number one on G2, so I think we're doing pretty well. We're doing far better than we imagined at this point."
+    },
+    {
+      "kind": "transcript_excerpt",
+      "locator": "full transcript at (01:20:06)",
+      "text": "Eoghan McCabe (01:20:06): . You meet so many founders, young founders particularly, and they don't have a sense within themselves about the value of the stuff they're building. Will this be good? Let's get customer feedback. And it is possible to build things that you deeply know makes sense. And that's why my formula for building things was to always build things for myself. And that was what Quitter was like. Followers go up, followers go down. At that point in time, people had 100 followers or 200 followers, and you'd want to know who's not my friend anymore."
+    }
+  ],
+  "media_format": "podcast_episode",
+  "platform": "podcasts",
+  "provenance": "Full transcript audited at ChatPRD/lennys-podcast-transcripts/eoghan-mccabe; original video ID 0_opWSfmN8M.",
+  "published_date": "2025-08-21",
+  "publisher": "Lenny's Podcast",
+  "query_ids": [
+    "manual-full-transcript-audit-2026-07-12"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "and in that category we are the biggest by customer count, biggest by revenue, best by performance benchmarks.",
+    "Let's get customer feedback."
+  ],
+  "retained_complete_transcript": false,
+  "retrieval_method": "full public transcript manual audit via GitHub citation",
+  "retrieved_at": "2026-07-12T09:34:39Z",
+  "rights_note": "The full public transcript was audited; only two bounded, separated guest passages are retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "episode",
+  "stable_id": "podcasts-lenny-0_opWSfmN8M",
+  "status": "accepted",
+  "title": "How Intercom rose from the ashes by betting everything on AI | Eoghan McCabe",
+  "transcript_available": true,
+  "transcript_source": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/main/episodes/eoghan-mccabe/transcript.md"
+}

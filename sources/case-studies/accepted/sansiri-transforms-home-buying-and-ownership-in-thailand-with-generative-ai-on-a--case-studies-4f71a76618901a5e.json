@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://press.aboutamazon.com/aws/2025/12/sansiri-transforms-home-buying-and-ownership-in-thailand-with-generative-ai-on-aws",
+  "content_sha256": "d6f690175815e5185ae715e163cf98127c79e42b3e00610c375cea25d8f26412",
+  "creator": "press.aboutamazon.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "publisher body text",
+      "text": "Since 2006, Amazon Web Services has been the world’s most comprehensive and broadly adopted cloud. AWS has been continually expanding its services to support virtually any workload, and it now has more than 240 fully featured services for compute, storage, databases, networking, analytics, machine learning and artificial intelligence (AI), Internet of Things (IoT), mobile, security, hybrid, media, and application development, deployment, and management from 120 Availability Zones within 38 geographic regions, with announced plans for 10 more Availability Zones and three more AWS Regions in Chile, the Kingdom of Saudi Arabia, and the AWS European Sovereign Cloud. Millions "
+    }
+  ],
+  "platform": "case-studies",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-case-studies.",
+  "published_date": null,
+  "publisher": "press.aboutamazon.com",
+  "query_ids": [
+    "citation-catalog-case-studies"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The retained publisher-authored passage describes a concrete learning, feedback, evaluation, adaptation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:34Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "case-study",
+  "stable_id": "case-studies-4f71a76618901a5e",
+  "status": "accepted",
+  "title": "Sansiri Transforms Home Buying and Ownership in Thailand with Generative AI on AWS - US Press Center"
+}

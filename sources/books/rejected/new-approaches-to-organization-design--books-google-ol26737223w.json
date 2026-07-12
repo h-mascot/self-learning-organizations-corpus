@@ -1,0 +1,33 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://openlibrary.org/works/OL26737223W",
+  "content_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "creator": "Springer Publisher Staff; John Parm Ulhøi; Dorthe Døjbak Håkonsson; Jørn Flohr Nielsen; Charles C. Snow",
+  "date_precision": "year",
+  "evidence": [],
+  "identifiers": {
+    "catalog_id": "OL26737223W",
+    "isbn": [
+      "1461429315",
+      "9781461429319"
+    ]
+  },
+  "platform": "books",
+  "provenance": "Public bibliographic record OL26737223W; discovered by openlibrary-books-09.",
+  "published_date": "2012-01-01",
+  "publisher": "Springer",
+  "query_ids": [
+    "openlibrary-books-09"
+  ],
+  "rejection_reason": "Metadata did not establish topical relevance.",
+  "relevance_evidence": [],
+  "retrieval_method": "Open Library public Search API",
+  "retrieved_at": "2026-07-12T08:38:29Z",
+  "rights_note": "Bibliographic metadata and at most a bounded publisher/API description are stored; no book text is copied.",
+  "rights_status": "metadata-only",
+  "schema_version": 2,
+  "source_type": "book",
+  "stable_id": "books-google-OL26737223W",
+  "status": "rejected",
+  "title": "New Approaches to Organization Design"
+}

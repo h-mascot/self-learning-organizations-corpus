@@ -1,0 +1,41 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://github.com/UKGovernmentBEIS/inspect_ai",
+  "content_sha256": "0b5b58d014ec1f14fb33ffa25ba9a38311c913766b309a9c15b905ea5a4309d0",
+  "creator": "UKGovernmentBEIS",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "full repository README",
+      "text": "Inspect: A framework for large language model evaluations [ ](https://aisi.gov.uk/) Welcome to Inspect, a framework for large language model evaluations created by the [UK AI Security Institute](https://aisi.gov.uk/). Inspect provides many built-in components, including facilities for prompt engineering, tool usage, multi-turn dialog, and model graded evaluations. Extensions to Inspect (e.g. to support new elicitation and scoring techniques) can be provided by other Python packages. To get started with Inspect, please see the documentation at . Inspect also includes a collection of over 200 pre-built evaluations ready to run on any model (learn more at ). > Coding agents:"
+    }
+  ],
+  "organizational_mechanism": "Inspect: A framework for large language model evaluations [ ](https://aisi.gov.uk/) Welcome to Inspect, a framework for large language model evaluations created by the [UK AI Security Institute](https://aisi.gov.uk/).",
+  "platform": "github",
+  "provenance": "GitHub metadata and full README manually audited for UKGovernmentBEIS/inspect_ai.",
+  "published_date": "2023-11-14",
+  "publisher": "GitHub",
+  "query_ids": [
+    "manual-full-readme-audit-2026-07-12"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Inspect: A framework for large language model evaluations [ ](https://aisi.gov.uk/) Welcome to Inspect, a framework for large language model evaluations created by the [UK AI Security Institute](https://aisi.gov.uk/)."
+  ],
+  "repository": {
+    "full_name": "UKGovernmentBEIS/inspect_ai",
+    "last_push": "2026-07-11T13:15:22Z",
+    "license": "MIT",
+    "stars_at_retrieval": 2332
+  },
+  "retrieval_method": "manual full-README audit via GitHub CLI API",
+  "retrieved_at": "2026-07-12T09:34:48Z",
+  "rights_note": "GitHub reports MIT; only a bounded exact mechanism passage is retained.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-ukgovernmentbeis-inspect-ai",
+  "status": "accepted",
+  "title": "UKGovernmentBEIS/inspect_ai"
+}

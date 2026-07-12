@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/Kastalien-Research/thoughtbox",
+  "content_sha256": "60f0c9799b7e118fdfcd958e499baf97f79aeb6ba08042d5fe1e57c1f0c883ac",
+  "creator": "Kastalien-Research",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "with hot reload ``` ### Testing ```bash npx vitest run # Unit tests pnpm test # Full suite (build + vitest) pnpm test:agentic # Agentic tests — full suite (build + run) pnpm test:agentic:tool # Agentic tests — tool-level only pnpm test:agentic:quick # Agentic tests — quick (no build) pnpm test:behavioral # Behavioral contract tests ``` ### Docker Compose `docker compose up --build` starts the full stack: | Service | Port | Description | |---------|------|-------------| | **thoughtbox** | 1731 (MCP), 1729 (Observatory) | Core MCP server + Observatory UI | | **mcp-sidecar** | 4000 | Observability proxy with OpenT"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository Kastalien-Research/thoughtbox; discovered by github-repos-03.",
+  "published_date": "2025-10-20",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-03"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "Kastalien-Research/thoughtbox",
+    "last_push": "2026-07-10T22:45:26Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stars_at_retrieval": 64
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:25Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'mit', 'name': 'MIT License', 'url': 'https://api.github.com/licenses/mit'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-kastalien-research-thoughtbox",
+  "status": "rejected",
+  "title": "Kastalien-Research/thoughtbox"
+}

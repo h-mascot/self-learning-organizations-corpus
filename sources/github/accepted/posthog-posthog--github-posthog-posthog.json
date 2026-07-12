@@ -1,0 +1,41 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://github.com/PostHog/posthog",
+  "content_sha256": "41ea24b1b0fe620f34f346749e1327cb1ed70061159d33a71845c91d31bb6d90",
+  "creator": "PostHog",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "full repository README",
+      "text": "🦔 PostHog is an all-in-one developer platform for building successful products. We offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data warehouse, a CDP, and an AI product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack. Docs - Community - Roadmap - Why PostHog? - Changelog - Bug reports ## PostHog is an all-in-one, open source platform for building successful products [PostHog](https://posthog.com/) provides every tool you need to build a successful product including: - [Product Analytics](https://posthog.com/product-analytics): Autocapture or "
+    }
+  ],
+  "organizational_mechanism": "We offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data warehouse, a CDP, and an AI product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack.",
+  "platform": "github",
+  "provenance": "GitHub metadata and full README manually audited for PostHog/posthog.",
+  "published_date": "2020-01-23",
+  "publisher": "GitHub",
+  "query_ids": [
+    "manual-full-readme-audit-2026-07-12"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "We offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data warehouse, a CDP, and an AI product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack."
+  ],
+  "repository": {
+    "full_name": "PostHog/posthog",
+    "last_push": "2026-07-12T09:33:21Z",
+    "license": "NOASSERTION",
+    "stars_at_retrieval": 35434
+  },
+  "retrieval_method": "manual full-README audit via GitHub CLI API",
+  "retrieved_at": "2026-07-12T09:34:41Z",
+  "rights_note": "GitHub reports NOASSERTION; only a bounded exact mechanism passage is retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-posthog-posthog",
+  "status": "accepted",
+  "title": "PostHog/posthog"
+}

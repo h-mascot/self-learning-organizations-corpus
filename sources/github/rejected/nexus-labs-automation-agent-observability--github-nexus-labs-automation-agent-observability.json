@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/nexus-labs-automation/agent-observability",
+  "content_sha256": "2906a05806c6beaae6e61c829b923de85aaacb41c5731c85cb2354bc98039b86",
+  "creator": "nexus-labs-automation",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "Claude Code plugin for AI agent observability - LLM tracing, tool calls, multi-agent coordination, cost tracking # Agent Observability Plugin Expert guidance for instrumenting AI agents in production. This Claude Code plugin provides best practices, hooks against anti-patterns, and ready-to-use templates for observing multi-agent systems and workflows. ## Features - **14 Specialized Skills** - LLM tracing, tool calls, multi-agent coordination, cost tracking, prompt A/B testing, guardrails, decision tracing, and more - **2 AI Agents** - Codebase analyzer and instrumentation reviewer - **2 Commands** -"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository nexus-labs-automation/agent-observability; discovered by github-repos-08.",
+  "published_date": "2025-12-26",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-08"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "nexus-labs-automation/agent-observability",
+    "last_push": "2025-12-26T23:48:33Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stars_at_retrieval": 7
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:40:39Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'mit', 'name': 'MIT License', 'url': 'https://api.github.com/licenses/mit'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-nexus-labs-automation-agent-observability",
+  "status": "rejected",
+  "title": "nexus-labs-automation/agent-observability"
+}

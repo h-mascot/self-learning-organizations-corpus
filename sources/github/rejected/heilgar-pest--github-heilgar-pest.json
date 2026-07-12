@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/heilgar/pest",
+  "content_sha256": "2879376f9b24a22ecf9a1ff128be3c0517ffa7bbce30694211a49b583a3680ce",
+  "creator": "heilgar",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "Prompt Evaluation & Scoring Toolkit. A lightweight, config-driven TypeScript library for testing LLM prompts, comparing models, verifying tool calls, and optimizing prompts automatically # pest **Prompt Evaluation & Scoring Toolkit** — lightweight TypeScript library for testing LLM prompts with a vitest-like API. ```bash npm install pest ``` ## What it does - **Test your prompts** — write test cases in TypeScript, import your actual system prompts and tool definitions, verify LLM behavior with familiar `expect()` matchers - **Verify tool calls** — `expect(res).toCallTool('process_refund')` — ensure your prompts"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository heilgar/pest; discovered by github-repos-07.",
+  "published_date": "2026-03-13",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-07"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "heilgar/pest",
+    "last_push": "2026-04-21T19:27:23Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stars_at_retrieval": 4
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:40:13Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'mit', 'name': 'MIT License', 'url': 'https://api.github.com/licenses/mit'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-heilgar-pest",
+  "status": "rejected",
+  "title": "heilgar/pest"
+}

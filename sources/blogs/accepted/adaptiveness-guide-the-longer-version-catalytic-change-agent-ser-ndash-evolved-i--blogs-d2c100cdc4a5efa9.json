@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://evolved.institute/blogs/news/adaptiveness-guide-long-version",
+  "content_sha256": "c89c854319bc22941df7a324534170078ee5f262c6e7a056b22763d8dd954877",
+  "creator": "evolved.institute",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "publisher body text",
+      "text": "e. Different constraints. Different history. We assess before we act. Culture. Politics. Constraints. Market dynamics. Regulations. We learn how the work actually works here. Not how it should work. How it does work. We learn the history. What's been tried. What failed. Why. We learn real limits. Budget. Headcount. Technology. Time. We learn current goals. What matters now. Then we tailor our approach. This isn't abandoning principles. It's thoughtful, adaptive use of principles. We don't copy-paste solutions from one context to another. We adapt. Always. Context-sensitivity means humility. We don't know this organization yet. We listen. We learn. We adapt. On Being Peopl"
+    }
+  ],
+  "platform": "blogs",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-blogs.",
+  "published_date": null,
+  "publisher": "evolved.institute",
+  "query_ids": [
+    "citation-catalog-blogs"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The retained publisher-authored passage describes a concrete learning, feedback, evaluation, adaptation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:23Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "article",
+  "stable_id": "blogs-d2c100cdc4a5efa9",
+  "status": "accepted",
+  "title": "Adaptiveness Guide - The Longer Version –– Catalytic change agent. Ser &ndash; evolved.institute"
+}

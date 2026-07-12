@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/cognix-labs/promptlab",
+  "content_sha256": "f9345d3e9a2304b2a873e96d971aa8c4fb74c92ad06120853a02983b28a06c23",
+  "creator": "cognix-labs",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "PromptLab is a free, lightweight open-source tool to maintain all stages of prompt lifecycle- development, evaluation and deployment. It simplifies LLMOps, enabling workflows that range from simple prompt evaluation to complex agent evaluation. <div align=\"center\"> <img alt=\"logo\" src=\"https://github.com/imum-ai/promptlab/blob/main/img/logo.png\" style=\"height:300px\"> <h1>PromptLab</h1> <p>A free, lightweight, open-source experimentation tool for Gen AI applications</p> <a href=\"https://pypi.org/project/promptlab/\"><img src=\"https://img.shields.io/pypi/v/promptlab.svg\" alt=\"PyPI Version\"></a> <a"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository cognix-labs/promptlab; discovered by github-repos-03.",
+  "published_date": "2025-01-25",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-03"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "cognix-labs/promptlab",
+    "last_push": "2026-06-09T12:45:03Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stars_at_retrieval": 42
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:29Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'mit', 'name': 'MIT License', 'url': 'https://api.github.com/licenses/mit'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-cognix-labs-promptlab",
+  "status": "rejected",
+  "title": "cognix-labs/promptlab"
+}

@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/lukehollis/mindcraft-multi-wm",
+  "content_sha256": "09a05a46eb2d6106755cde07692bc7c8f2aa49111880cac141c9fde5913555ce",
+  "creator": "lukehollis",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "in Minecraft https://github.com/user-attachments/assets/e982b6b0-0655-472a-be9f-4b61b3f44956 # Mindcraft: Continuous Self-Improving Agents with Collaborative Behaviors in Minecraft <p align=\"left\"> <a href=\"https://github.com/lukehollis/mindcraft-multi-wm\"><img alt=\"Code\" src=\"https://img.shields.io/badge/Code-181717?style=for-the-badge&logo=github&logoColor=white\"></a> <a href=\"http://mindcraft.fyi/\"><img alt=\"Demo\" src=\"https://img.shields.io/badge/Demo-181717?style=for-the-badge&logo=vercel&logoColor=white\"></a> <a href=\"https://github.com/lukehollis/mindcraft-multi-wm/blob/main/mindcraft_hackathon_final_re"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository lukehollis/mindcraft-multi-wm; discovered by github-repos-04.",
+  "published_date": "2026-05-31",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-04"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "lukehollis/mindcraft-multi-wm",
+    "last_push": "2026-06-29T12:19:13Z",
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "stars_at_retrieval": 4
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:37Z",
+  "rights_note": "Repository license reported by GitHub: {'key': '', 'name': '', 'url': ''}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-lukehollis-mindcraft-multi-wm",
+  "status": "rejected",
+  "title": "lukehollis/mindcraft-multi-wm"
+}

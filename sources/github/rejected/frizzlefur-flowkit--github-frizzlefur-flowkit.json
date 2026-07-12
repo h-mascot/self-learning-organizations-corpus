@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/FrizzleFur/flowkit",
+  "content_sha256": "ed4aeaba6c2b57a1d08e74f062eef0ea4134fd26a942edda86642d39248ed331",
+  "creator": "FrizzleFur",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "Claude Code Skills Workflow Engine — automated pipelines with quality gates, multi-agent teams, and prompt evaluation # FlowKit > **📝 博客深度解读**: [FlowKit: AI 原生工作流编排工具集](https://michaelmaomao.github.io/2026/05/05/FlowKit-AI%E5%8E%9F%E7%94%9F%E5%B7%A5%E4%BD%9C%E6%B5%81%E7%BC%96%E6%8E%92%E5%B7%A5%E5%85%B7%E9%9B%86/) —— 设计动机、核心架构、设计决策与踩坑经验详解 > AI 原生工作流编排工具集 —— 从任务分析到验证交付的结构化管道。 **[English](README_EN.md)** | 中文 ## Pipeline 架构总览 ``` ┌──────────────────────────────────────────────────┐ │ FlowKit 管道 │ └──────────────────────────────────────────────────┘ ┌───────────┐ ┌───────────┐ ┌───────────┐ ┌───────────┐ Input──▶│"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository FrizzleFur/flowkit; discovered by github-repos-07.",
+  "published_date": "2026-06-11",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-07"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "FrizzleFur/flowkit",
+    "last_push": "2026-06-14T16:28:23Z",
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "stars_at_retrieval": 12
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:40:06Z",
+  "rights_note": "Repository license reported by GitHub: {'key': '', 'name': '', 'url': ''}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-frizzlefur-flowkit",
+  "status": "rejected",
+  "title": "FrizzleFur/flowkit"
+}

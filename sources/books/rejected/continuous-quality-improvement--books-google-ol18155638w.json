@@ -1,0 +1,33 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://openlibrary.org/works/OL18155638W",
+  "content_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "creator": "Unknown",
+  "date_precision": "year",
+  "evidence": [],
+  "identifiers": {
+    "catalog_id": "OL18155638W",
+    "isbn": [
+      "9780963381989",
+      "0963381989"
+    ]
+  },
+  "platform": "books",
+  "provenance": "Public bibliographic record OL18155638W; discovered by openlibrary-books-03.",
+  "published_date": "1993-01-01",
+  "publisher": "Prescott",
+  "query_ids": [
+    "openlibrary-books-03"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "retrieval_method": "Open Library public Search API",
+  "retrieved_at": "2026-07-12T08:38:22Z",
+  "rights_note": "Bibliographic metadata and at most a bounded publisher/API description are stored; no book text is copied.",
+  "rights_status": "metadata-only",
+  "schema_version": 2,
+  "source_type": "book",
+  "stable_id": "books-google-OL18155638W",
+  "status": "rejected",
+  "title": "Continuous quality improvement"
+}

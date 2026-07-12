@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/LRudL/evalugator",
+  "content_sha256": "a7d6e5508177d63bcd24503ceff01ded9c894fb1761bd5034eb74b8a78e8601c",
+  "creator": "LRudL",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "same model. Piles represent the *abstract* dataset; exported piles the *finalised* one. - **Eval results**: once an evaluation is run, the results can be parsed into a human- and machine-readable eval result file. - You can also run `evalg table` to create a file with summaries from all eval runs. - **Templating**. You can see the `structs/sampletemplates` and `structs/templateextensions` folders in a post-`evalg init` folder to see available templating options. ## Quickstart ### CLI-only #### QA questions (free-form answer) Navigate to a folder and run `evalg init` if you haven't already. 1. Import sample da"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository LRudL/evalugator; discovered by github-repos-02.",
+  "published_date": "2023-08-26",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-02"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "LRudL/evalugator",
+    "last_push": "2024-12-13T12:50:46Z",
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "stars_at_retrieval": 19
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:09Z",
+  "rights_note": "Repository license reported by GitHub: {'key': '', 'name': '', 'url': ''}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-lrudl-evalugator",
+  "status": "rejected",
+  "title": "LRudL/evalugator"
+}

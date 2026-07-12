@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://aws.amazon.com/solutions/case-studies/genentech-generativeai-case-study/",
+  "content_sha256": "a29cab0b054992a3f179fe49b476aa97a84071bedbbe24c071311e6ef4012d5b",
+  "creator": "aws.amazon.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "publisher body text",
+      "text": "Genentech is building for the future by developing a data infrastructure that allows agents to seamlessly access and integrate data across their organization. The strategy involves expanding beyond a single comprehensive agent to a network of specialized sub-agents through Amazon Bedrock's multi-agent collaboration capabilities. This approach creates dedicated agents for specific domains—for instance, one agent focusing on public data sources like PubMed, while another specializes in querying Genentech's internal Single Cell Hub database. This specialized agent approach generally results in greater speed and precision, as multiple focused agents can work in parallel while"
+    }
+  ],
+  "platform": "case-studies",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-case-studies.",
+  "published_date": null,
+  "publisher": "aws.amazon.com",
+  "query_ids": [
+    "citation-catalog-case-studies"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The retained publisher-authored passage describes a concrete learning, feedback, evaluation, adaptation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:34Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "case-study",
+  "stable_id": "case-studies-2bfb4043c8185169",
+  "status": "accepted",
+  "title": "Genentech Leverages Generative AI to Get Lifesaving Medicines to Patients Faster"
+}

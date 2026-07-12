@@ -1,0 +1,39 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.infoq.com/presentations/blame-accountability/",
+  "content_sha256": "3342d97cd6ee0343dcbf25379d6380b0bd913d5e03240ac2fcba336ecd5a043c",
+  "creator": "Jessica DeVita",
+  "date_precision": "day",
+  "event_proof": {
+    "duration_or_media_observed": true,
+    "publisher": "InfoQ",
+    "recorded_marker_observed": true
+  },
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "InfoQ presentation transcript/summary",
+      "text": "Next, I want to talk a little bit about a resource that Sidney Dekker has shared on Just Culture. He's provided this Restorative Just Culture checklist. This is another set of questions that I asked some of the participants. First of all, it says that a Restorative Just Culture aims to repair trust and relationships damaged after an incident. It allows all parties to discuss how they've been affected and to collaboratively decide what should be done to repair the harm. Who has been hurt here? These second victims are these engineers who again were involved or just responding to the incident. I also want to mention that there is a third victim here. There's incident analys"
+    }
+  ],
+  "platform": "conferences",
+  "provenance": "InfoQ presentation page with recorded-event marker, speaker attribution, and bounded source excerpt.",
+  "published_date": "2023-05-12",
+  "publisher": "InfoQ",
+  "query_ids": [
+    "review-infoq-continuous-improvement"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Publisher talk text describes a concrete organizational learning, feedback, evaluation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach/Jina public publisher page",
+  "retrieved_at": "2026-07-12T09:15:19Z",
+  "rights_note": "Only a bounded excerpt from the publisher presentation page is retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "talk",
+  "stable_id": "conferences-0871550630d43aa4",
+  "status": "accepted",
+  "title": "Reckoning with the Harm We Do: in Search of Restorative Just Culture in Software and Web Operations"
+}

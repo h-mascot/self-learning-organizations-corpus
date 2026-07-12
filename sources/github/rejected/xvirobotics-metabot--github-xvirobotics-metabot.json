@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/xvirobotics/metabot",
+  "content_sha256": "5074884bcc6a6c23351f52ad43bbc41b43c03b2c9141b96bf79947368f5cf37f",
+  "creator": "xvirobotics",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "构建受监督的、自我进化的 Agent 组织的基础设施 | Infrastructure for supervised, self-improving agent organization. 飞书/Telegram 手机端运行 Claude Code 或 Kimi Code（双引擎，两家原生订阅直接用），共享记忆、Agent 工厂、定时任务、通信总线。 <div align=\"center\"> # 🤖 MetaBot ### 在飞书 / Telegram / 微信上用手机控制 Claude Code、Kimi Code 或 Codex CLI *写代码 · 管 Agent · 自动化一切* <p> <a href=\"https://github.com/xvirobotics/metabot\"><img src=\"https://img.shields.io/badge/GitHub-Repo-181717?style=for-the-badge&logo=github&logoColor=white\" alt=\"GitHub\"></a> <a href=\"https://opensource.org/licenses/MIT\"><img src=\"https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge\""
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository xvirobotics/metabot; discovered by github-repos-06.",
+  "published_date": "2026-02-07",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-06"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "xvirobotics/metabot",
+    "last_push": "2026-06-15T11:45:17Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stars_at_retrieval": 913
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:46Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'mit', 'name': 'MIT License', 'url': 'https://api.github.com/licenses/mit'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-xvirobotics-metabot",
+  "status": "rejected",
+  "title": "xvirobotics/metabot"
+}

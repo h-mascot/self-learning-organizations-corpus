@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/lowoodz/AgentMirror",
+  "content_sha256": "f3cba781b02715e533e67781d9ced17ace9d8306cb72649f20b99bf03b990115",
+  "creator": "lowoodz",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "Desktop app for agent observability & reflection and LLM API proxy/routing. # AgentMirror **Desktop app for LLM safe routing, agent observability & reflection.** - Lightweight local model proxy/router compatible with OpenAI and Anthropic client protocols; on API failure, exhausted quota/token limits, or rate limits, automatic fallback with no interruption. - Built-in safeguards: data-leak prevention, redaction, operation blocking, and file-path protection. - Reconstructs agent goals, decisions, and actions from LLM proxy traffic; provides causal trajectory maps, action reflection reports, and agent daily"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository lowoodz/AgentMirror; discovered by github-repos-08.",
+  "published_date": "2026-06-02",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-08"
+  ],
+  "rejection_reason": "README/description did not establish a substantive learning or evaluation mechanism.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "lowoodz/AgentMirror",
+    "last_push": "2026-06-23T10:02:01Z",
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "stars_at_retrieval": 8
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:40:39Z",
+  "rights_note": "Repository license reported by GitHub: {'key': '', 'name': '', 'url': ''}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-lowoodz-agentmirror",
+  "status": "rejected",
+  "title": "lowoodz/AgentMirror"
+}

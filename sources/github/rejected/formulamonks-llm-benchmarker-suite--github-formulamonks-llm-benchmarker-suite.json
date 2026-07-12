@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/FormulaMonks/llm-benchmarker-suite",
+  "content_sha256": "dbc86254732ed351842872c8803327be9bd41782c4ace7b4a2bc811bdc2acd79",
+  "creator": "FormulaMonks",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "# <a id=\"table-of-contents\"></a> Table of Contents - [Introduction](#introduction) - [Building Blocks of LLM Evaluation](#building-blocks-of-llm-evaluation) - [Loading the Model](#loading-the-model) - [Loading the Dataset](#loading-the-dataset) - [Selecting a Metric](#selecting-a-metric) - [Leaderboard](#leaderboard) - [Tools Overview](#tools-overview) - [Getting Started](#getting-started) - [Usage](#usage) - [Run static evaluations](#run-static-evaluations) - [OpenCompass](#opencompass) - [LLM-as-a-Judge](#llm-as-a-judge) - [OpenAI Evals](#openai-evals) ## <a id=\"introduction\"></a> Introduction In rec"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository FormulaMonks/llm-benchmarker-suite; discovered by github-repos-02.",
+  "published_date": "2023-07-14",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-02"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "FormulaMonks/llm-benchmarker-suite",
+    "last_push": "2023-11-21T16:49:43Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stars_at_retrieval": 48
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:02Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'mit', 'name': 'MIT License', 'url': 'https://api.github.com/licenses/mit'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-formulamonks-llm-benchmarker-suite",
+  "status": "rejected",
+  "title": "FormulaMonks/llm-benchmarker-suite"
+}

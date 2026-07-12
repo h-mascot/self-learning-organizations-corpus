@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/neosigmaai/auto-harness",
+  "content_sha256": "a394b2218c14cf320515b742e6a4bd8dc999b998d5bf29caec21dd3d1f15c0d9",
+  "creator": "neosigmaai",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "Bring your own agent and build a self-improving agentic system. Automatically mine failures, optimize the agent harness, and gate against regressions. # auto-harness > Give a coding agent a benchmark and an agent file. Let it iterate overnight. It reads failures, improves the system prompt and tools, gates every change against a self-maintained eval suite, and repeats. This repo is a simplified version of our auto-harness agent setup. We demonstrate our system on Tau3 benchmark tasks where the agent's score improves from 0.56 to 0.78 (~40% jump) while mining failures and auto maintaining live evals. If you are"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository neosigmaai/auto-harness; discovered by github-repos-06.",
+  "published_date": "2026-04-03",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-06"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "neosigmaai/auto-harness",
+    "last_push": "2026-07-08T02:58:36Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stars_at_retrieval": 521
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:48Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'mit', 'name': 'MIT License', 'url': 'https://api.github.com/licenses/mit'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-neosigmaai-auto-harness",
+  "status": "rejected",
+  "title": "neosigmaai/auto-harness"
+}

@@ -1,0 +1,44 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.youtube.com/watch?v=AZpo5785v8A",
+  "content_sha256": "92c4bbf17909dba2f0aa57b81b13420330819d687584845201e785aeda246927",
+  "creator": "Josh Miller",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "transcript_excerpt",
+      "locator": "full transcript at (00:45:34)",
+      "text": "Josh Miller (00:45:34):  things that, hopefully, you're picking up in this interview, so far, is we are a very prototype-driven culture. It goes back to the \"assume you don't know\" ethos. We try a lot of experiments, and we try them related to product features related to how we work together, related to the stories we tell. So, this isn't a category of, \"I'm not sure it's going to work, but we're trying it,\" and it seems to be working so far, at least for us. What Lenny's referencing is, we have a handful of teams. I'll pick two just as an examples. We have a membership team and we have a storytelling team. And though you probably recognize or are obviously familiar with "
+    },
+    {
+      "kind": "transcript_excerpt",
+      "locator": "full transcript at (01:05:01)",
+      "text": "Josh Miller (01:05:01): bout very tactical advice. So, one tactical piece of advice I'll give is, whether or not you like the idea of the storytelling team or something else, a byproduct of some of these experiments that we've found works really well is when you give something a new name, it sheds a lot of preconceived notions of what the thing should be. We found that even with product. So if you say you're building a browser history feature, then the benefit is everyone knows what you're talking about. And the downside is, everyone knows what you're talking about. And you show up with these preconceived notions of what it has to be. And so, if you go back again to reval"
+    }
+  ],
+  "media_format": "podcast_episode",
+  "platform": "podcasts",
+  "provenance": "Full transcript audited at ChatPRD/lennys-podcast-transcripts/josh-miller; original video ID AZpo5785v8A.",
+  "published_date": "2023-03-19",
+  "publisher": "Lenny's Podcast",
+  "query_ids": [
+    "manual-full-transcript-audit-2026-07-12"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "We try a lot of experiments, and we try them related to product features related to how we work together, related to the stories we tell.",
+    "r or not you like the idea of the storytelling team or something else, a byproduct of some of these experiments that we've found works really well is when you give something a new name, it sheds a lot of preconceived notions of what the thing should be."
+  ],
+  "retained_complete_transcript": false,
+  "retrieval_method": "full public transcript manual audit via GitHub citation",
+  "retrieved_at": "2026-07-12T09:34:39Z",
+  "rights_note": "The full public transcript was audited; only two bounded, separated guest passages are retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "episode",
+  "stable_id": "podcasts-lenny-AZpo5785v8A",
+  "status": "accepted",
+  "title": "Competing with giants: An inside look at how The Browser Company builds product",
+  "transcript_available": true,
+  "transcript_source": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/main/episodes/josh-miller/transcript.md"
+}

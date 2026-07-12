@@ -1,0 +1,44 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.youtube.com/watch?v=JMeXWVw0r3E",
+  "content_sha256": "32c17101f9d8f84db81dfc5e211a6cbc1dbc92f553570d513c9500aed4024574",
+  "creator": "Dhanji R. Prasanna",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "transcript_excerpt",
+      "locator": "full transcript at (00:30:41)",
+      "text": "Dhanji R. Prasanna (00:30:41): Yeah, so voice is the other big part of it. It has voice processing capability, so it's always listening to what he's saying as well and trying to interpret that. I would say that this is mostly an experiment, given that he's on our core Goose team and he contributes to Goose, so he has a day job. This is a kind of thing on the side that he was developing."
+    },
+    {
+      "kind": "transcript_excerpt",
+      "locator": "full transcript at (00:46:55)",
+      "text": "Dhanji R. Prasanna (00:46:55): Yeah, a learning mindset is how I would put it. This is something that Jack our CEO talks about a lot is he wants us to be a learning first company. So everything we do, every experiment that we ship, what can we learn from it and did we feel that we gave it our best shot? And I think that that's more important to him than even sort of coming up with the right business answer every time."
+    }
+  ],
+  "media_format": "podcast_episode",
+  "platform": "podcasts",
+  "provenance": "Full transcript audited at ChatPRD/lennys-podcast-transcripts/dhanji-r-prasanna; original video ID JMeXWVw0r3E.",
+  "published_date": "2025-10-26",
+  "publisher": "Lenny's Podcast",
+  "query_ids": [
+    "manual-full-transcript-audit-2026-07-12"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "I would say that this is mostly an experiment, given that he's on our core Goose team and he contributes to Goose, so he has a day job.",
+    "This is something that Jack our CEO talks about a lot is he wants us to be a learning first company."
+  ],
+  "retained_complete_transcript": false,
+  "retrieval_method": "full public transcript manual audit via GitHub citation",
+  "retrieved_at": "2026-07-12T09:34:39Z",
+  "rights_note": "The full public transcript was audited; only two bounded, separated guest passages are retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "episode",
+  "stable_id": "podcasts-lenny-JMeXWVw0r3E",
+  "status": "accepted",
+  "title": "How Block is becoming the most AI-native enterprise in the world | Dhanji R.",
+  "transcript_available": true,
+  "transcript_source": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/main/episodes/dhanji-r-prasanna/transcript.md"
+}

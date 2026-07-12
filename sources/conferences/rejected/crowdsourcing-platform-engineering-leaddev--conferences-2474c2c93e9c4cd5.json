@@ -1,0 +1,32 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://leaddev.com/technical-direction/crowdsourcing-platform-engineering",
+  "content_sha256": "b9280fcefa6aef04a0153f8227a40ec26449b327e910419554f09c8aa10feff1",
+  "creator": "leaddev.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "public primary page",
+      "text": "to developer tooling, while platform engineers stayed grounded by building product features. This created powerful feedback loops that improved collaboration, accelerated delivery, and increased build reliability across mobile teams. Attendees will learn practical leadership patterns for enabling this kind of culture: embedding DX tooling in monorepos to lower contribution barriers, recognizing cross-team contributions publicly, running regular qualitative feedback sessions, and rotating engineers between platform and product work to build empathy and skill breadth. In a world of AI and constrained resources, the ability to “do more with"
+    }
+  ],
+  "platform": "conferences",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-conferences.",
+  "published_date": null,
+  "publisher": "leaddev.com",
+  "query_ids": [
+    "citation-catalog-conferences"
+  ],
+  "rejection_reason": "Independent review found no sufficient event/talk/proceeding proof in the retained record.",
+  "relevance_evidence": [],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:26Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "talk",
+  "stable_id": "conferences-2474c2c93e9c4cd5",
+  "status": "rejected",
+  "title": "Crowdsourcing platform engineering - LeadDev"
+}

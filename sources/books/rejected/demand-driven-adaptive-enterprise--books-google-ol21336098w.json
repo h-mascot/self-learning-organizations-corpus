@@ -1,0 +1,33 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://openlibrary.org/works/OL21336098W",
+  "content_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "creator": "Carol Ptak; Chad Smith",
+  "date_precision": "year",
+  "evidence": [],
+  "identifiers": {
+    "catalog_id": "OL21336098W",
+    "isbn": [
+      "0831136359",
+      "9780831136352"
+    ]
+  },
+  "platform": "books",
+  "provenance": "Public bibliographic record OL21336098W; discovered by openlibrary-books-09.",
+  "published_date": "2018-01-01",
+  "publisher": "Industrial Press, Incorporated",
+  "query_ids": [
+    "openlibrary-books-09"
+  ],
+  "rejection_reason": "Metadata did not establish topical relevance.",
+  "relevance_evidence": [],
+  "retrieval_method": "Open Library public Search API",
+  "retrieved_at": "2026-07-12T08:38:29Z",
+  "rights_note": "Bibliographic metadata and at most a bounded publisher/API description are stored; no book text is copied.",
+  "rights_status": "metadata-only",
+  "schema_version": 2,
+  "source_type": "book",
+  "stable_id": "books-google-OL21336098W",
+  "status": "rejected",
+  "title": "Demand Driven Adaptive Enterprise"
+}

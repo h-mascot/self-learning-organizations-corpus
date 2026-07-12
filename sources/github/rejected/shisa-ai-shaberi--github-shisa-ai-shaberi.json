@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/shisa-ai/shaberi",
+  "content_sha256": "58e8bdc79f91268ff5998f7ad1781141625b4ce47bcc0ed9da1e501cc6fa8d74",
+  "creator": "shisa-ai",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "This is a heavily modified version of [LightBlue's Shaberi](https://github.com/lightblue-tech/japanese_llm_eval) evaluation suite. It's due for an overhaul soon, hwever it *does* support quite a few addditional features: - Full support for OpenAI API Compatible (vLLM/SGLang etc) models, as well as OpenAI and Gemini models (including custom parameters to support GPT5+, Gemini safety and reasoning, etc) - `backoff` used for handling retries and rate limits - The ability to parse out reasoning/think tags - Saving of judgement reasoning - Heuristics for calculating a \"JA %\" to help detect non-JA output - Savin"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository shisa-ai/shaberi; discovered by github-repos-02.",
+  "published_date": "2024-05-17",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-02"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "shisa-ai/shaberi",
+    "last_push": "2026-04-29T19:01:46Z",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "url": "https://api.github.com/licenses/apache-2.0"
+    },
+    "stars_at_retrieval": 18
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:10Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'apache-2.0', 'name': 'Apache License 2.0', 'url': 'https://api.github.com/licenses/apache-2.0'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-shisa-ai-shaberi",
+  "status": "rejected",
+  "title": "shisa-ai/shaberi"
+}

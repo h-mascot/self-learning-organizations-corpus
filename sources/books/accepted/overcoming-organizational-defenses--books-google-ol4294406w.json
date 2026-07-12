@@ -1,0 +1,42 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://openlibrary.org/works/OL4294406W",
+  "content_sha256": "9fb0b83f39c456bfb5bb81594e3478c3f78e9919652f06612814a09c89bd9e07",
+  "creator": "Chris Argyris",
+  "date_precision": "year",
+  "evidence": [
+    {
+      "kind": "bibliographic_metadata",
+      "locator": "canonical catalog record",
+      "text": "Title: Overcoming organizational defenses; creators: Chris Argyris; publisher: Allynand Bacon; publication date: 1990-01-01; catalog ID: OL4294406W; ISBN: 9780205123384, 0205123384, 0205128823."
+    }
+  ],
+  "identifiers": {
+    "catalog_id": "OL4294406W",
+    "isbn": [
+      "9780205123384",
+      "0205123384",
+      "0205128823"
+    ]
+  },
+  "platform": "books",
+  "provenance": "Public bibliographic record OL4294406W; discovered by openlibrary-books-02.",
+  "published_date": "1990-01-01",
+  "publisher": "Allynand Bacon",
+  "query_ids": [
+    "openlibrary-books-02"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The canonical bibliographic title explicitly concerns organizational learning or a named organizational improvement mechanism: Overcoming organizational defenses."
+  ],
+  "retrieval_method": "Open Library public Search API",
+  "retrieved_at": "2026-07-12T08:38:20Z",
+  "rights_note": "Bibliographic metadata and at most a bounded publisher/API description are stored; no book text is copied.",
+  "rights_status": "metadata-only",
+  "schema_version": 2,
+  "source_type": "book",
+  "stable_id": "books-google-OL4294406W",
+  "status": "accepted",
+  "title": "Overcoming organizational defenses"
+}

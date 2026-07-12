@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/radanliev/Agentic-AI-Security-Demos",
+  "content_sha256": "09ab842c5c81520bdd9bed687344babf7f60f65b4bf6a450a7806fc5434c2476",
+  "creator": "radanliev",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "Agentic AI Security Bootcamp is a hands-on, research-driven training environment for analysing, attacking, and securing autonomous AI systems. The repository provides structured labs, adversarial evaluation frameworks, and red-teaming exercises covering multi-agent observability, prompt injection.. Homework for Week 1, 2, 3, and 4: Week 1: # agentic-ai-observability-lab- agentic-ai-observability-lab/ │ ├── README.md ├── requirements.txt ├── app.py │ ├── src/ │ ├── agent.py │ ├── retrieval.py │ ├── memory.py │ ├── observability.py │ ├── evaluation.py │ ├── notebooks/ │ └── agentic_observability_lab.ipynb │ └──"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository radanliev/Agentic-AI-Security-Demos; discovered by github-repos-08.",
+  "published_date": "2026-03-01",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-08"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "radanliev/Agentic-AI-Security-Demos",
+    "last_push": "2026-06-23T14:40:19Z",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "url": "https://api.github.com/licenses/apache-2.0"
+    },
+    "stars_at_retrieval": 13
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:40:33Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'apache-2.0', 'name': 'Apache License 2.0', 'url': 'https://api.github.com/licenses/apache-2.0'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-radanliev-agentic-ai-security-demos",
+  "status": "rejected",
+  "title": "radanliev/Agentic-AI-Security-Demos"
+}

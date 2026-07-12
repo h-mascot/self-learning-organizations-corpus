@@ -1,0 +1,36 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/pkkulk/LLM-Prompt-Evaluation-System",
+  "content_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "creator": "pkkulk",
+  "date_precision": "day",
+  "evidence": [],
+  "platform": "github",
+  "provenance": "GitHub repository pkkulk/LLM-Prompt-Evaluation-System; discovered by github-repos-07.",
+  "published_date": "2025-11-10",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-07"
+  ],
+  "rejection_reason": "README/description did not establish a substantive learning or evaluation mechanism.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "pkkulk/LLM-Prompt-Evaluation-System",
+    "last_push": "2025-11-10T18:25:58Z",
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "stars_at_retrieval": 2
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:40:20Z",
+  "rights_note": "Repository license reported by GitHub: {'key': '', 'name': '', 'url': ''}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-pkkulk-llm-prompt-evaluation-system",
+  "status": "rejected",
+  "title": "pkkulk/LLM-Prompt-Evaluation-System"
+}

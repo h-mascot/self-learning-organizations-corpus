@@ -1,0 +1,39 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.infoq.com/presentations/service-delivery-review-feedback/",
+  "content_sha256": "772c133aa53684e28afd6ca51eec88d4e7d36524b83e3ded20d6added0797902",
+  "creator": "Matt Philip",
+  "date_precision": "day",
+  "event_proof": {
+    "duration_or_media_observed": true,
+    "publisher": "InfoQ",
+    "recorded_marker_observed": true
+  },
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "InfoQ presentation transcript/summary",
+      "text": "Matt Philip is the Director of Global Talent and Capability at ThoughtWorks. He has worked in software development as a coach, trainer, quality advocate and facilitator, helping organizations and teams to improve themselves and business outcomes. He is especially passionate about the Kanban method, continuous improvement and motivational design."
+    }
+  ],
+  "platform": "conferences",
+  "provenance": "InfoQ presentation page with recorded-event marker, speaker attribution, and bounded source excerpt.",
+  "published_date": "2018-07-22",
+  "publisher": "InfoQ",
+  "query_ids": [
+    "review-infoq-continuous-improvement"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Publisher talk text describes a concrete organizational learning, feedback, evaluation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach/Jina public publisher page",
+  "retrieved_at": "2026-07-12T09:15:27Z",
+  "rights_note": "Only a bounded excerpt from the publisher presentation page is retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "talk",
+  "stable_id": "conferences-d7cdfdfba44e5b60",
+  "status": "accepted",
+  "title": "The Service-Delivery Review: The Missing Agile Feedback Loop"
+}

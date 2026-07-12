@@ -1,0 +1,44 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.youtube.com/watch?v=xvQadImf568",
+  "content_sha256": "c94358a11fec8cb79b4398cad8e28dafdbc6d875a9cb430dd8132e0a8b587ce1",
+  "creator": "Naomi Ionita",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "transcript_excerpt",
+      "locator": "full transcript at (13:36)",
+      "text": "Naomi Ionita (13:36): I do believe in that. That was tied to... We had done this experiment at my last company, Invoice2go, where... Typically on the demand curve, the higher you raise the price, the average revenue per user or ARPU, the lower the conversion rate. So, these things are inversely correlated. And we were able to do this rebalancing of our pricing and packaging so that we actually doubled our upgrade rate from our starter plan to our pro plan."
+    },
+    {
+      "kind": "transcript_excerpt",
+      "locator": "full transcript at (34:27)",
+      "text": "Naomi Ionita (34:27): And I think if you do have a few free users, crafting it as more of a sweetheart discount, like more of a year one discount, but getting paid over time. I mean, again, I am a big believer in having some early users being your design partners and really giving you that tight feedback loop to make sure you're building the right product. So it's not that you should really optimize for revenue on day one. I mean, it is a journey, but I just oftentimes see companies just take too long. Or in Evernote's case, I mean the free version was just too good. So that's just something to consider, where to put the paywall and be really, really strategic about that."
+    }
+  ],
+  "media_format": "podcast_episode",
+  "platform": "podcasts",
+  "provenance": "Full transcript audited at ChatPRD/lennys-podcast-transcripts/naomi-ionita; original video ID xvQadImf568.",
+  "published_date": "2023-01-12",
+  "publisher": "Lenny's Podcast",
+  "query_ids": [
+    "manual-full-transcript-audit-2026-07-12"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "We had done this experiment at my last company, Invoice2go, where...",
+    "big believer in having some early users being your design partners and really giving you that tight feedback loop to make sure you're building the right product."
+  ],
+  "retained_complete_transcript": false,
+  "retrieval_method": "full public transcript manual audit via GitHub citation",
+  "retrieved_at": "2026-07-12T09:34:39Z",
+  "rights_note": "The full public transcript was audited; only two bounded, separated guest passages are retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "episode",
+  "stable_id": "podcasts-lenny-xvQadImf568",
+  "status": "accepted",
+  "title": "How to price your product | Naomi Ionita (Menlo Ventures)",
+  "transcript_available": true,
+  "transcript_source": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/main/episodes/naomi-ionita/transcript.md"
+}

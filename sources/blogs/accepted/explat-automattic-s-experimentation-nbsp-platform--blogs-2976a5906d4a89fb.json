@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://data.blog/2021/03/16/explat-automattics-experimentation-platform/",
+  "content_sha256": "d6abecc5fc737184b08cacd14317f415821ce0a904395e8f724139aef09f201e",
+  "creator": "data.blog",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "publisher body text",
+      "text": "The experiment education and review hub is the starting point for experimenters at Automattic to learn how to design and deploy an experiment. We have an internal blog (called a P2 ) for experimenters to get feedback on proposed experiments. We also have a wiki to share resources like a pre‑experiment checklist , how to write a hypothesis, and how to create metrics that capture a project’s intended impact. Experimenters can post their experiment design to discuss it with colleagues and ask for comments and reviews from our team."
+    }
+  ],
+  "platform": "blogs",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-blogs.",
+  "published_date": null,
+  "publisher": "data.blog",
+  "query_ids": [
+    "citation-catalog-blogs"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The retained publisher-authored passage describes a concrete learning, feedback, evaluation, adaptation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:23Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "article",
+  "stable_id": "blogs-2976a5906d4a89fb",
+  "status": "accepted",
+  "title": "ExPlat: Automattic’s Experimentation&nbsp;Platform"
+}

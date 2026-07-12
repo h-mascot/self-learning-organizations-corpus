@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/aiverify-foundation/LLM-Evals-Catalogue",
+  "content_sha256": "dbd7613fc61181aa75726435d52ade9f7f581dee2d5c027d13c90175c568cd6a",
+  "creator": "aiverify-foundation",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "This repository stems from our paper, “Cataloguing LLM Evaluations”, and serves as a living, collaborative catalogue of LLM evaluation frameworks, benchmarks and papers. ## Cataloguing LLM Evaluations The table below provides a comprehensive catalogue of the Large Language Model (LLM) evaluation frameworks, benchmarks and papers we've surveyed in our paper, <a href = \"https://aiverifyfoundation.sg/downloads/Cataloguing_LLM_Evaluations.pdf\">\"Cataloguing LLM Evaluations\"</a>. It organizes them based on the taxonomy proposed in our paper. The realm of LLM evaluation is advancing at an unparalleled pace."
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository aiverify-foundation/LLM-Evals-Catalogue; discovered by github-repos-02.",
+  "published_date": "2023-11-08",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-02"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "aiverify-foundation/LLM-Evals-Catalogue",
+    "last_push": "2023-11-16T02:34:46Z",
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "stars_at_retrieval": 22
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:07Z",
+  "rights_note": "Repository license reported by GitHub: {'key': '', 'name': '', 'url': ''}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-aiverify-foundation-llm-evals-catalogue",
+  "status": "rejected",
+  "title": "aiverify-foundation/LLM-Evals-Catalogue"
+}

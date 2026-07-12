@@ -1,0 +1,41 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://github.com/microsoft/promptflow",
+  "content_sha256": "8a92a994c22ece9d7ebf54bba7d1e4c3e25bbed72318b3f498c14ecc0607629b",
+  "creator": "microsoft",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "full repository README",
+      "text": "--interactive ``` **Core value: ensuring \"High Quality” from prototype to production** Explore our [**15-minute tutorial**](examples/tutorials/flow-fine-tuning-evaluation/promptflow-quality-improvement.md) that guides you through prompt tuning ➡ batch testing ➡ evaluation, all designed to ensure high quality ready for production. Next Step! Continue with the **Tutorial** 👇 section to delve deeper into prompt flow. ## Tutorial 🏃‍♂️ Prompt flow is a tool designed to **build high quality LLM apps**, the development process in prompt flow follows these steps: develop a flow, improve the flow quality, deploy the flow to production. ### Develop your own LLM apps #### VS Code Ex"
+    }
+  ],
+  "organizational_mechanism": "--interactive ``` **Core value: ensuring \"High Quality” from prototype to production** Explore our [**15-minute tutorial**](examples/tutorials/flow-fine-tuning-evaluation/promptflow-quality-improvement.md) that guides you through prompt tuning ➡ batch testing ➡ evaluation, all designed to ensure hig",
+  "platform": "github",
+  "provenance": "GitHub metadata and full README manually audited for microsoft/promptflow.",
+  "published_date": "2023-06-30",
+  "publisher": "GitHub",
+  "query_ids": [
+    "manual-full-readme-audit-2026-07-12"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "--interactive ``` **Core value: ensuring \"High Quality” from prototype to production** Explore our [**15-minute tutorial**](examples/tutorials/flow-fine-tuning-evaluation/promptflow-quality-improvement.md) that guides you through prompt tuning ➡ batch testing ➡ evaluation, all designed to ensure hig"
+  ],
+  "repository": {
+    "full_name": "microsoft/promptflow",
+    "last_push": "2026-07-09T22:00:22Z",
+    "license": "MIT",
+    "stars_at_retrieval": 11180
+  },
+  "retrieval_method": "manual full-README audit via GitHub CLI API",
+  "retrieved_at": "2026-07-12T09:34:57Z",
+  "rights_note": "GitHub reports MIT; only a bounded exact mechanism passage is retained.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-microsoft-promptflow",
+  "status": "accepted",
+  "title": "microsoft/promptflow"
+}

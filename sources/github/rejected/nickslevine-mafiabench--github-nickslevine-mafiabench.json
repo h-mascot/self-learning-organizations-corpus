@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/nickslevine/mafiabench",
+  "content_sha256": "53801c623071f23eff6106940b87d86647412af958ec0cbb879b52189f27a6df",
+  "creator": "nickslevine",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "LLM eval using the social deduction game of Mafia # MafiaBench A benchmark for evaluating language models through the game of Mafia (also known as Werewolf). MafiaBench pits different language models against each other in a tournament, testing their ability to persuade, deceive and strategize in a social deduction game. ## Overview MafiaBench creates tournaments where language models play multiple rounds of Mafia games against each other. Each game involves players being secretly assigned roles (mafia or townsperson) and trying to convince fellow players to eliminate who they believe to be on the other side. ##"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository nickslevine/mafiabench; discovered by github-repos-02.",
+  "published_date": "2025-03-25",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-02"
+  ],
+  "rejection_reason": "README/description did not establish a substantive learning or evaluation mechanism.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "nickslevine/mafiabench",
+    "last_push": "2025-04-07T15:39:45Z",
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "stars_at_retrieval": 6
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:15Z",
+  "rights_note": "Repository license reported by GitHub: {'key': '', 'name': '', 'url': ''}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-nickslevine-mafiabench",
+  "status": "rejected",
+  "title": "nickslevine/mafiabench"
+}

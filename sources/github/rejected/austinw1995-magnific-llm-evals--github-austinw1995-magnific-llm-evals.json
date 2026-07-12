@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/austinw1995/magnific-llm-evals",
+  "content_sha256": "e0f57cdac6e74a1379340010e5d134fa4ae5f7dd6a6f7d67a523a14c0d56e3af",
+  "creator": "austinw1995",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "# Magnific-Evals A python package for testing LLMs with custom evaluation criterias, specifically for multi-turn conversations under customer service scenarios. ## Installation ```bash pip install magnific-llm-evals ``` This will automatically install all required dependencies. Alternatively, if installing from source: ```bash git clone https://github.com/austinw1995/magnific-llm-evals cd magnific-llm-evals pip install -r requirements.txt pip install -e . ``` ## Features - Evaluate multiple LLMs against various customer conversation scenarios by customizing the service and customer agents - Define custom"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository austinw1995/magnific-llm-evals; discovered by github-repos-02.",
+  "published_date": "2025-02-17",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-02"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "austinw1995/magnific-llm-evals",
+    "last_push": "2025-02-23T01:25:40Z",
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "stars_at_retrieval": 8
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:13Z",
+  "rights_note": "Repository license reported by GitHub: {'key': '', 'name': '', 'url': ''}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-austinw1995-magnific-llm-evals",
+  "status": "rejected",
+  "title": "austinw1995/magnific-llm-evals"
+}

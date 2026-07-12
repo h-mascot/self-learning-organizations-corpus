@@ -1,0 +1,42 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://openlibrary.org/works/OL4294408W",
+  "content_sha256": "f0da631dbfa4eda5a9c7914ca2f36f91211e2b96e9e65d7b3ef64f55cfb6907d",
+  "creator": "Chris Argyris",
+  "date_precision": "year",
+  "evidence": [
+    {
+      "kind": "bibliographic_metadata",
+      "locator": "canonical catalog record",
+      "text": "Title: On organizational learning; creators: Chris Argyris; publisher: Blackwell Publishers; publication date: 1993-01-01; catalog ID: OL4294408W; ISBN: 1557862621, 1557866635, 0631213082."
+    }
+  ],
+  "identifiers": {
+    "catalog_id": "OL4294408W",
+    "isbn": [
+      "1557862621",
+      "1557866635",
+      "0631213082"
+    ]
+  },
+  "platform": "books",
+  "provenance": "Public bibliographic record OL4294408W; discovered by openlibrary-books-02.",
+  "published_date": "1993-01-01",
+  "publisher": "Blackwell Publishers",
+  "query_ids": [
+    "openlibrary-books-02"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The canonical bibliographic title explicitly concerns organizational learning or a named organizational improvement mechanism: On organizational learning."
+  ],
+  "retrieval_method": "Open Library public Search API",
+  "retrieved_at": "2026-07-12T08:38:20Z",
+  "rights_note": "Bibliographic metadata and at most a bounded publisher/API description are stored; no book text is copied.",
+  "rights_status": "metadata-only",
+  "schema_version": 2,
+  "source_type": "book",
+  "stable_id": "books-google-OL4294408W",
+  "status": "accepted",
+  "title": "On organizational learning"
+}

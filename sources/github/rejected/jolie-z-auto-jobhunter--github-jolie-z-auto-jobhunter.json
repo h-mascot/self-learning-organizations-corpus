@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/jolie-z/Auto-JobHunter",
+  "content_sha256": "66405af8ef5005f53285646d2659790264326579677266eec99628a33d5b09b3",
+  "creator": "jolie-z",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "🚀 An industrial-grade AI job application system (BOSS/Liepin/51job). Workflow: Scraping ➡️ SQLite ➡️ LLM Eval ➡️ RPA Delivery. | 🚀 工业级全自动 AI 求职系统。工作流：自动抓取 ➡️ SQLite 入库 ➡️ LLM 深度评估 ➡️ RPA 静默投递。基于 FastAPI, LangGraph & DrissionPage. # 🚀 Auto-Job-Hunter | 全自动 AI 求职 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/) [![Next.js 14](https://img.shields.io/badge/Next.js-14-black)](https://nextjs.org/) [![License: Custom](https://img.shields.io/badge/License-Custom_NonCommercial-red.svg)](#-版权声明-license) [![PRs"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository jolie-z/Auto-JobHunter; discovered by github-repos-02.",
+  "published_date": "2026-04-26",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-02"
+  ],
+  "rejection_reason": "README/description did not establish a substantive learning or evaluation mechanism.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "jolie-z/Auto-JobHunter",
+    "last_push": "2026-04-27T02:16:38Z",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "url": ""
+    },
+    "stars_at_retrieval": 55
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:01Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'other', 'name': 'Other', 'url': ''}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-jolie-z-auto-jobhunter",
+  "status": "rejected",
+  "title": "jolie-z/Auto-JobHunter"
+}

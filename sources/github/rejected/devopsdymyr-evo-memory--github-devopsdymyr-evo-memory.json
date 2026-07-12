@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/devopsdymyr/Evo-Memory",
+  "content_sha256": "1d93886a9956a8b85593a62dca12e13cb028923cd65b8adcc31035e3802e0e07",
+  "creator": "devopsdymyr",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "and get smarter with every task. 🚀 Features: Experience-driven memory architecture Semantic search + context synthesis Self-improving agents # 🧠 Evo-Memory: Self-Evolving Memory for LLM Agents <div align=\"center\"> **Experience Reuse, Not Just Conversational Recall** *A production-ready implementation based on the research paper:* **\"Evo-Memory: A Comprehensive Benchmark for Self-Evolving Memory in LLM Agents\"** *Google DeepMind & UIUC* [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/) [![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-green.svg)](https://fastapi.tiangol"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository devopsdymyr/Evo-Memory; discovered by github-repos-06.",
+  "published_date": "2025-12-03",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-06"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "devopsdymyr/Evo-Memory",
+    "last_push": "2025-12-03T18:19:33Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stars_at_retrieval": 48
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:58Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'mit', 'name': 'MIT License', 'url': 'https://api.github.com/licenses/mit'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-devopsdymyr-evo-memory",
+  "status": "rejected",
+  "title": "devopsdymyr/Evo-Memory"
+}

@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/jeev1992/fintech-agent-observability-evaluation",
+  "content_sha256": "e79b4e53aab6bdedda8a1625fc3cba2d7e0e16e27a5a4c2b432ba4dff6ba623f",
+  "creator": "jeev1992",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "# Agent Observability, Evaluation & Safety Workshop ## Learn LangSmith · DeepEval · Guardrails AI · Presidio A **4-hour hands-on workshop** teaching production-grade AI agent hardening through a concrete, runnable project: a multi-agent FinTech customer support system for SecureBank. --- ## What You'll Learn | Concept | What It Is | How We Use It | |---|---|---| | **LangSmith** | LLM observability & evaluation platform | Trace every LLM call, debug failures, run A/B experiments | | **DeepEval** | Open-source evaluation framework (pytest-native) | Faithfulness, hallucination, answer relevancy, G-Eval metrics | |"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository jeev1992/fintech-agent-observability-evaluation; discovered by github-repos-08.",
+  "published_date": "2026-03-17",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-08"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "jeev1992/fintech-agent-observability-evaluation",
+    "last_push": "2026-05-28T21:22:50Z",
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "stars_at_retrieval": 9
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:40:37Z",
+  "rights_note": "Repository license reported by GitHub: {'key': '', 'name': '', 'url': ''}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-jeev1992-fintech-agent-observability-evaluation",
+  "status": "rejected",
+  "title": "jeev1992/fintech-agent-observability-evaluation"
+}

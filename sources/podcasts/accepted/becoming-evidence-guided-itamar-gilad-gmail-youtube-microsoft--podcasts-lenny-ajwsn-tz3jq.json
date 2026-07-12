@@ -1,0 +1,44 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.youtube.com/watch?v=aJWSn-tz3jQ",
+  "content_sha256": "ef810686000a7e028c1eaa07dc75f7afabe1c05933efecb3cc190e4b8a5d12a9",
+  "creator": "Itamar Gilad",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "transcript_excerpt",
+      "locator": "full transcript at (00:19:45)",
+      "text": "Itamar Gilad (00:19:45): specially on road mapping. Creating the perfect roadmap which really can consume a lot of time of the top management and PMs, etc. Then as you go down you see there's not a lot of experimentation and if there is experimentation there's not a lot of learning and finally another telltale sign is that the team is disengaged. So the engineers are kind of getting the signal that what they need to do is deliver, they're focused on output, that's what they're measured on. So they're kind of disengaged, they're disengaged from the users, from the business, they don't care that much."
+    },
+    {
+      "kind": "transcript_excerpt",
+      "locator": "full transcript at (00:59:22)",
+      "text": "Itamar Gilad (00:59:22): me of the steps will be done by the PM, some by the data analyst, some by the user researcher. But some will involve the team, there'll be some coding, there'll be some running of experiments and so there's some ownership around the steps. A sub team owns each one of these steps and we will change the board very actively."
+    }
+  ],
+  "media_format": "podcast_episode",
+  "platform": "podcasts",
+  "provenance": "Full transcript audited at ChatPRD/lennys-podcast-transcripts/itamar-gilad; original video ID aJWSn-tz3jQ.",
+  "published_date": "2023-09-21",
+  "publisher": "Lenny's Podcast",
+  "query_ids": [
+    "manual-full-transcript-audit-2026-07-12"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Then as you go down you see there's not a lot of experimentation and if there is experimentation there's not a lot of learning and finally another telltale sign is that the team is disengaged.",
+    "But some will involve the team, there'll be some coding, there'll be some running of experiments and so there's some ownership around the steps."
+  ],
+  "retained_complete_transcript": false,
+  "retrieval_method": "full public transcript manual audit via GitHub citation",
+  "retrieved_at": "2026-07-12T09:34:38Z",
+  "rights_note": "The full public transcript was audited; only two bounded, separated guest passages are retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "episode",
+  "stable_id": "podcasts-lenny-aJWSn-tz3jQ",
+  "status": "accepted",
+  "title": "Becoming evidence-guided | Itamar Gilad (Gmail, YouTube, Microsoft)",
+  "transcript_available": true,
+  "transcript_source": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/main/episodes/itamar-gilad/transcript.md"
+}

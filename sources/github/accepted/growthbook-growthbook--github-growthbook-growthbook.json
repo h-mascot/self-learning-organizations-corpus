@@ -1,0 +1,41 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://github.com/growthbook/growthbook",
+  "content_sha256": "13169a3a10627af8ecf5aa247c16eaf9b50784201b9efc144278263be84e7409",
+  "creator": "growthbook",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "full repository README",
+      "text": "Open Source Feature Flags, Experimentation, and Product Analytics Open Source Feature Flags, Experimentation, and Product Analytics Create a free [GrowthBook Cloud](https://app.growthbook.io) account to get started quickly. Or run it yourself with: ```sh git clone https://github.com/growthbook/growthbook.git cd growthbook docker compose up -d ``` Then visit http://localhost:3000. View the full [Self-Hosting Instructions](https://docs.growthbook.io/self-host) for more details. [ ](https://www.growthbook.io) ## Our Philosophy The top 1% of companies spend thousands of hours building their own in-house experimentation, feature flagging, and analytics platforms. The other 99%"
+    }
+  ],
+  "organizational_mechanism": "Open Source Feature Flags, Experimentation, and Product Analytics Open Source Feature Flags, Experimentation, and Product Analytics Create a free [GrowthBook Cloud](https://app.growthbook.io) account to get started quickly.",
+  "platform": "github",
+  "provenance": "GitHub metadata and full README manually audited for growthbook/growthbook.",
+  "published_date": "2021-05-07",
+  "publisher": "GitHub",
+  "query_ids": [
+    "manual-full-readme-audit-2026-07-12"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Open Source Feature Flags, Experimentation, and Product Analytics Open Source Feature Flags, Experimentation, and Product Analytics Create a free [GrowthBook Cloud](https://app.growthbook.io) account to get started quickly."
+  ],
+  "repository": {
+    "full_name": "growthbook/growthbook",
+    "last_push": "2026-07-12T09:12:11Z",
+    "license": "NOASSERTION",
+    "stars_at_retrieval": 7987
+  },
+  "retrieval_method": "manual full-README audit via GitHub CLI API",
+  "retrieved_at": "2026-07-12T09:34:40Z",
+  "rights_note": "GitHub reports NOASSERTION; only a bounded exact mechanism passage is retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-growthbook-growthbook",
+  "status": "accepted",
+  "title": "growthbook/growthbook"
+}

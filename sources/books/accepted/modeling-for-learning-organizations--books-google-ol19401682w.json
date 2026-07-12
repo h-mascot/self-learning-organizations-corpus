@@ -1,0 +1,41 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://openlibrary.org/works/OL19401682W",
+  "content_sha256": "c7983acea42696d0e739852d4efb88fcafc8669178cefedfaf7d49a4f9195c27",
+  "creator": "John D. W. Morecroft; John Sterman",
+  "date_precision": "year",
+  "evidence": [
+    {
+      "kind": "bibliographic_metadata",
+      "locator": "canonical catalog record",
+      "text": "Title: Modeling for learning organizations; creators: John D. W. Morecroft; John Sterman; publisher: Productivity Press; publication date: 1994-01-01; catalog ID: OL19401682W; ISBN: 1563270609, 9781563270604."
+    }
+  ],
+  "identifiers": {
+    "catalog_id": "OL19401682W",
+    "isbn": [
+      "1563270609",
+      "9781563270604"
+    ]
+  },
+  "platform": "books",
+  "provenance": "Public bibliographic record OL19401682W; discovered by openlibrary-books-01.",
+  "published_date": "1994-01-01",
+  "publisher": "Productivity Press",
+  "query_ids": [
+    "openlibrary-books-01"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The canonical bibliographic title explicitly concerns organizational learning or a named organizational improvement mechanism: Modeling for learning organizations."
+  ],
+  "retrieval_method": "Open Library public Search API",
+  "retrieved_at": "2026-07-12T08:38:19Z",
+  "rights_note": "Bibliographic metadata and at most a bounded publisher/API description are stored; no book text is copied.",
+  "rights_status": "metadata-only",
+  "schema_version": 2,
+  "source_type": "book",
+  "stable_id": "books-google-OL19401682W",
+  "status": "accepted",
+  "title": "Modeling for learning organizations"
+}

@@ -1,0 +1,32 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://info.rasa.com/hubfs/2026_Case_Studies/Rasa_AlbertHeijn_customerstory.pdf",
+  "content_sha256": "109a211636197b6157290fbd45d0749c8d87dd3a35a2208e0068b4590df8ca5d",
+  "creator": "info.rasa.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "public primary page",
+      "text": "%PDF-1.7 %���� 907 0 obj > endobj 1237 0 obj >/Filter/FlateDecode/ID[ ]/Index[907 339]/Info 906 0 R/Length 452/Prev 3537312/Root 908 0 R/Size 1246/Type/XRef/W[1 3 1]>>stream hތU�J�@\u0010�͡\u0016g!�� ��/q\b�3h\u0002���fw�{ \u001bA�\u0019�\u0005\u0011|\u0002K+A\u0004{ \u001b��\u0005�m�\u0004��\u001863��~3�ɴR\u0007*Sj�&����_#�ۈ˯��y�z����h�g�.c������#N�\u001a�^�5���!l+�5ص�*Ů�.;;�Z�-U�\\l\u0003Q����\u0002\u0003�\u000e�*�w��C.�����\u0010[M�ê��M��q�i��\u001b���S�m�~\u0003�����j��\u0003����V[ �$ d� �H\u0016\u0015��M�\u0000 ��D~T�\u0000�Q �\u0017�L�\u001b@\u0019\u0007 �!�*P��@A�Ó�!��}�i4�\u0019F����\u0013x\u0007җ�wg�ϻ��v�ě�hf,) �l�U�m��M���\u001a�\u0011��\u000ft���� ��x��-H\u0001��fb �pr ��z� '����\"�K����*�jr$�J���*{��\u0013`\u0000�4�\u001a endstream endobj startxref 0 %%EOF 1245 0 obj >stream hޔR=K#Q\u0014=�I&���d\u0002 �U:�* \u0011�,����&��,fYB�&X � �L��"
+    }
+  ],
+  "platform": "case-studies",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-case-studies.",
+  "published_date": null,
+  "publisher": "info.rasa.com",
+  "query_ids": [
+    "citation-catalog-case-studies"
+  ],
+  "rejection_reason": "Page retrieval did not expose enough substantive topical evidence.",
+  "relevance_evidence": [],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:34Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "retrieval-evidence-only",
+  "schema_version": 2,
+  "source_type": "case-study",
+  "stable_id": "case-studies-5d888a44a7a11745",
+  "status": "rejected",
+  "title": "rasa-albertheijn-customerstory-pdf"
+}

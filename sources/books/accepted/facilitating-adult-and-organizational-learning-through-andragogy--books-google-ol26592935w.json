@@ -1,0 +1,42 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://openlibrary.org/works/OL26592935W",
+  "content_sha256": "636d09546918386871da61bd67b8e02eb8f39f56cae28fefb74482172968eb83",
+  "creator": "John Arthur Henschke",
+  "date_precision": "year",
+  "evidence": [
+    {
+      "kind": "bibliographic_metadata",
+      "locator": "canonical catalog record",
+      "text": "Title: Facilitating Adult and Organizational Learning Through Andragogy; creators: John Arthur Henschke; publisher: IGI Global; publication date: 2020-01-01; catalog ID: OL26592935W; ISBN: 1799856577, 1799839397, 9781799839385."
+    }
+  ],
+  "identifiers": {
+    "catalog_id": "OL26592935W",
+    "isbn": [
+      "1799856577",
+      "1799839397",
+      "9781799839385"
+    ]
+  },
+  "platform": "books",
+  "provenance": "Public bibliographic record OL26592935W; discovered by openlibrary-books-02.",
+  "published_date": "2020-01-01",
+  "publisher": "IGI Global",
+  "query_ids": [
+    "openlibrary-books-02"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The canonical bibliographic title explicitly concerns organizational learning or a named organizational improvement mechanism: Facilitating Adult and Organizational Learning Through Andragogy."
+  ],
+  "retrieval_method": "Open Library public Search API",
+  "retrieved_at": "2026-07-12T08:38:20Z",
+  "rights_note": "Bibliographic metadata and at most a bounded publisher/API description are stored; no book text is copied.",
+  "rights_status": "metadata-only",
+  "schema_version": 2,
+  "source_type": "book",
+  "stable_id": "books-google-OL26592935W",
+  "status": "accepted",
+  "title": "Facilitating Adult and Organizational Learning Through Andragogy"
+}

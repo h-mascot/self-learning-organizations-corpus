@@ -1,0 +1,42 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://openlibrary.org/works/OL16990918W",
+  "content_sha256": "07075bcc55c99a4b3a69c4aa8ffa5fc794b1b334f77df29b90f75d6176a735b8",
+  "creator": "Raanan Lipshitz; Micha Popper; Victor J. Friedman",
+  "date_precision": "year",
+  "evidence": [
+    {
+      "kind": "bibliographic_metadata",
+      "locator": "canonical catalog record",
+      "text": "Title: Demystifying organizational learning; creators: Raanan Lipshitz; Micha Popper; Victor J. Friedman; publisher: Sage Publications, Inc; publication date: 2006-01-01; catalog ID: OL16990918W; ISBN: 9781322282787, 1452222517, 9781452222516."
+    }
+  ],
+  "identifiers": {
+    "catalog_id": "OL16990918W",
+    "isbn": [
+      "9781322282787",
+      "1452222517",
+      "9781452222516"
+    ]
+  },
+  "platform": "books",
+  "provenance": "Public bibliographic record OL16990918W; discovered by openlibrary-books-02.",
+  "published_date": "2006-01-01",
+  "publisher": "Sage Publications, Inc",
+  "query_ids": [
+    "openlibrary-books-02"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The canonical bibliographic title explicitly concerns organizational learning or a named organizational improvement mechanism: Demystifying organizational learning."
+  ],
+  "retrieval_method": "Open Library public Search API",
+  "retrieved_at": "2026-07-12T08:38:20Z",
+  "rights_note": "Bibliographic metadata and at most a bounded publisher/API description are stored; no book text is copied.",
+  "rights_status": "metadata-only",
+  "schema_version": 2,
+  "source_type": "book",
+  "stable_id": "books-google-OL16990918W",
+  "status": "accepted",
+  "title": "Demystifying organizational learning"
+}

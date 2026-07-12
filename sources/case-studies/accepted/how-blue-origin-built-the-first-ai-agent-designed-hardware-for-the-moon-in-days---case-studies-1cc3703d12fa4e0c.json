@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://aws.amazon.com/solutions/case-studies/blue-origin-case-study/",
+  "content_sha256": "1890225f33959abea758bc3973f8d0fa2a0b18091fccf6ff6616d58324eb9bcb",
+  "creator": "aws.amazon.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "publisher body text",
+      "text": "Blue Origin built an AI ecosystem called BlueGPT — a secure LLM gateway, agent marketplace, and multi-agent orchestration platform built using Strands Agents SDK for a model-based agentic design framework, Amazon Bedrock for agent deployment and model access, Amazon EKS for agent runtime envions, Amazon OpenSearch for Retrieval-Augmented Generation (RAG) knowledge bases , Amazon RDS for general purpose databases, and AWS Lambda for scaling serverless workflow automations across all services. The platform empowers every Blue Origin employee to create and deploy specialized AI agents, providing access to proprietary knowledge bases, custom tools, and leading models. Jay Nav"
+    }
+  ],
+  "platform": "case-studies",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-case-studies.",
+  "published_date": null,
+  "publisher": "aws.amazon.com",
+  "query_ids": [
+    "citation-catalog-case-studies"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The retained publisher-authored passage describes a concrete learning, feedback, evaluation, adaptation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:34Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "case-study",
+  "stable_id": "case-studies-1cc3703d12fa4e0c",
+  "status": "accepted",
+  "title": "How Blue Origin Built the First AI Agent-Designed Hardware for the Moon in Days, Not Years"
+}

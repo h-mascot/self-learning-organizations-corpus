@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/GoogleCloudPlatform/BigQuery-Agent-Analytics-SDK",
+  "content_sha256": "9a5f80e1e3e9f0f4da13ddacdf4167ddd97f822cc699a3da4efab390b6d6c4f1",
+  "creator": "GoogleCloudPlatform",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "on top of the BigQuery Agent Analytics, it provides a consumption-layer toolkit for agent observability, analysis, evaluation, and advanced capabilities like context graph at scale. # BigQuery Agent Analytics SDK [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE) [![Python](https://img.shields.io/badge/python-3.10%20|%203.11%20|%203.12%20|%203.13%20|%203.14-blue)](pyproject.toml) [![CI](https://github.com/GoogleCloudPlatform/BigQuery-Agent-Analytics-SDK/actions/workflows/ci.yml/badge.svg)](https://github.com/GoogleCloudPlatform/BigQuery-Agent-Analytics-SDK/actions/workflows/ci.ym"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository GoogleCloudPlatform/BigQuery-Agent-Analytics-SDK; discovered by github-repos-08.",
+  "published_date": "2026-04-09",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-08"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "GoogleCloudPlatform/BigQuery-Agent-Analytics-SDK",
+    "last_push": "2026-07-11T09:37:53Z",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "url": "https://api.github.com/licenses/apache-2.0"
+    },
+    "stars_at_retrieval": 32
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:40:29Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'apache-2.0', 'name': 'Apache License 2.0', 'url': 'https://api.github.com/licenses/apache-2.0'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-googlecloudplatform-bigquery-agent-analytics-sdk",
+  "status": "rejected",
+  "title": "GoogleCloudPlatform/BigQuery-Agent-Analytics-SDK"
+}

@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/Neal006/memorylens-bench",
+  "content_sha256": "b5b1b0b71dcb553649a923a2128b5499df9461dc0826f63a2e2d773e898d6bb6",
+  "creator": "Neal006",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "| REST API | | `memorylens-bench[faiss]` | faiss-cpu | FAISS vector backend | | `memorylens-bench[groq]` | groq | LLM evaluation via Groq | | `memorylens-bench[openai]` | openai | LLM evaluation via OpenAI | | `memorylens-bench[anthropic]` | anthropic | LLM evaluation via Anthropic | | `memorylens-bench[all]` | everything above | — | Python 3.10–3.13 · Linux, macOS, Windows (all tested in CI). --- ## Quick Start ### CLI — results in under a minute, no API key ```bash memorylens # 100-turn benchmark, 3 backends memorylens --seeds 5 # multi-seed: mean ± std across 5 personas memorylens --scenario medical # domain"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository Neal006/memorylens-bench; discovered by github-repos-02.",
+  "published_date": "2026-05-21",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-02"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "Neal006/memorylens-bench",
+    "last_push": "2026-07-04T16:30:56Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stars_at_retrieval": 7
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:14Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'mit', 'name': 'MIT License', 'url': 'https://api.github.com/licenses/mit'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-neal006-memorylens-bench",
+  "status": "rejected",
+  "title": "Neal006/memorylens-bench"
+}

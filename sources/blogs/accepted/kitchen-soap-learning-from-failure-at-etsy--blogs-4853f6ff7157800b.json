@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.kitchensoap.com/2013/09/30/learning-from-failure-at-etsy/",
+  "content_sha256": "630392b63cfaeedfd0906d86078405b477afd0e2a805382f4df44e8ba91906c0",
+  "creator": "kitchensoap.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "publisher body text",
+      "text": "Great tactics this Just Culture, from my point of view. But given that failure is norm, particularly when you are building sth new; that people tend tu build up their experience just because we don’t really recall what really happened after a few hours of taking the wrong decision; that people usually tend to repeat at least twice the same mistake before acknowledging they maybe wrong; and that the situation is not really repeating itself in the future, I’m wondering:"
+    }
+  ],
+  "platform": "blogs",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-blogs.",
+  "published_date": null,
+  "publisher": "kitchensoap.com",
+  "query_ids": [
+    "citation-catalog-blogs"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The retained publisher-authored passage describes a concrete learning, feedback, evaluation, adaptation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:23Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "article",
+  "stable_id": "blogs-4853f6ff7157800b",
+  "status": "accepted",
+  "title": "Kitchen Soap – Learning from Failure at Etsy"
+}

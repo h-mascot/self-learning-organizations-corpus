@@ -1,0 +1,34 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://openlibrary.org/works/OL17998462W",
+  "content_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "creator": "J. Bradley Cousins; Lorna M. Earl",
+  "date_precision": "year",
+  "evidence": [],
+  "identifiers": {
+    "catalog_id": "OL17998462W",
+    "isbn": [
+      "9780203695104",
+      "9781135718848",
+      "0750704020"
+    ]
+  },
+  "platform": "books",
+  "provenance": "Public bibliographic record OL17998462W; discovered by openlibrary-books-02.",
+  "published_date": "1995-01-01",
+  "publisher": "Taylor & Francis Group",
+  "query_ids": [
+    "openlibrary-books-02"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "retrieval_method": "Open Library public Search API",
+  "retrieved_at": "2026-07-12T08:38:20Z",
+  "rights_note": "Bibliographic metadata and at most a bounded publisher/API description are stored; no book text is copied.",
+  "rights_status": "metadata-only",
+  "schema_version": 2,
+  "source_type": "book",
+  "stable_id": "books-google-OL17998462W",
+  "status": "rejected",
+  "title": "Participatory evaluation in education"
+}

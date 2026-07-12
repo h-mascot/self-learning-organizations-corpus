@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://developers.openai.com/cookbook/examples/agents_sdk/agent_improvement_loop",
+  "content_sha256": "fb7c669916095fec2a8c47da326c944aa0883e6ca19c91214219d65f1b7024f1",
+  "creator": "developers.openai.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "publisher body text",
+      "text": "An agent improvement loop offers a path toward continual improvement without reducing the problem to prompt tuning alone. The full loop matters: traces capture behavior, human feedback adds judgment, evals preserve what the system should do, HALO turns the evidence into ranked harness changes, and Codex can implement the next pass."
+    }
+  ],
+  "platform": "blogs",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-blogs.",
+  "published_date": null,
+  "publisher": "developers.openai.com",
+  "query_ids": [
+    "citation-catalog-blogs"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The retained publisher-authored passage describes a concrete learning, feedback, evaluation, adaptation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:23Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "article",
+  "stable_id": "blogs-8ae8ef4c867cca7d",
+  "status": "accepted",
+  "title": "Build an Agent Improvement Loop with Traces, Evals, and Codex"
+}

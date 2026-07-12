@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/jaiswal-naman/agentland",
+  "content_sha256": "1d450ae25797342fcbabf9866d14fd61575d806791f1c0d7c3ada33da3a16487",
+  "creator": "jaiswal-naman",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "AI Agent Observability Platform <p align=\"center\"> <img src=\"https://img.shields.io/badge/Agentland-AI%20Agent%20Governance-8B5CF6?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0tMiAxNWwtNS01IDEuNDEtMS40MUwxMCAxNC4xN2w3LjU5LTcuNTlMMTkgOGwtOSA5eiIvPjwvc3ZnPg==&logoColor=white\" alt=\"Agentland\" /> </p> <h1 align=\"center\">🛡️ Agentland</h1> <p align=\"center\"> <b>Open-Source AI Agent Observability, Governance &"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository jaiswal-naman/agentland; discovered by github-repos-08.",
+  "published_date": "2026-03-05",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-08"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "jaiswal-naman/agentland",
+    "last_push": "2026-04-06T15:00:46Z",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "url": ""
+    },
+    "stars_at_retrieval": 52
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:40:26Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'other', 'name': 'Other', 'url': ''}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-jaiswal-naman-agentland",
+  "status": "rejected",
+  "title": "jaiswal-naman/agentland"
+}

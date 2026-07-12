@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://claude.com/customers/coinbase",
+  "content_sha256": "45055d6ff5d2175f6043a6a711e692bb2ae15751d16d547a835510449b0db865",
+  "creator": "claude.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "publisher body text",
+      "text": "Coinbase's AI tools have also sped up onboarding and increased support staff productivity. Mahadevan highlighted the benefit, \"New agents join weekly and require proper training and familiarity with procedures. This Agent Assist chatbot streamlines onboarding by enabling them to query knowledge bases, offering multi-lingual support, and efficiently processing a wide range of unstructured text inputs.\""
+    }
+  ],
+  "platform": "case-studies",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-case-studies.",
+  "published_date": null,
+  "publisher": "claude.com",
+  "query_ids": [
+    "citation-catalog-case-studies"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The retained publisher-authored passage describes a concrete learning, feedback, evaluation, adaptation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:35Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "case-study",
+  "stable_id": "case-studies-ae767b2c847df811",
+  "status": "accepted",
+  "title": "Coinbase Claude Platform (API) case study | Claude by Anthropic"
+}

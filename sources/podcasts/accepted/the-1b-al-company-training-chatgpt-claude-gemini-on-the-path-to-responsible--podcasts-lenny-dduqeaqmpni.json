@@ -1,0 +1,44 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.youtube.com/watch?v=dduQeaqmpnI",
+  "content_sha256": "f3827966b04dbf7526801dca1d065721b6f606f0d414debd6c9ab99c739f53dc",
+  "creator": "Edwin Chen",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "transcript_excerpt",
+      "locator": "full transcript at (00:19:31)",
+      "text": "Edwin Chen (00:19:31): Yeah, so there's, again, maybe two parts to this. So one is, sometimes, yeah, these benchmarks, they accidentally leak in certain ways or the frontier labs will tweak the way they evaluate their models on these benchmarks. They'll tweak your system prompt or they'll tweak the number of times they run their model, and so on and so on in a way that games these benchmarks."
+    },
+    {
+      "kind": "transcript_excerpt",
+      "locator": "full transcript at (00:42:19)",
+      "text": "Edwin Chen (00:42:19): Yeah. So I think evals often covers two terms. One is you are using the evaluations for training because you're evaluating whether or not the model did a good job, and when it does do a good job, you're rewarding it."
+    }
+  ],
+  "media_format": "podcast_episode",
+  "platform": "podcasts",
+  "provenance": "Full transcript audited at ChatPRD/lennys-podcast-transcripts/edwin-chen; original video ID dduQeaqmpnI.",
+  "published_date": "2025-12-07",
+  "publisher": "Lenny's Podcast",
+  "query_ids": [
+    "manual-full-transcript-audit-2026-07-12"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "So one is, sometimes, yeah, these benchmarks, they accidentally leak in certain ways or the frontier labs will tweak the way they evaluate their models on these benchmarks.",
+    "One is you are using the evaluations for training because you're evaluating whether or not the model did a good job, and when it does do a good job, you're rewarding it."
+  ],
+  "retained_complete_transcript": false,
+  "retrieval_method": "full public transcript manual audit via GitHub citation",
+  "retrieved_at": "2026-07-12T09:34:38Z",
+  "rights_note": "The full public transcript was audited; only two bounded, separated guest passages are retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "episode",
+  "stable_id": "podcasts-lenny-dduQeaqmpnI",
+  "status": "accepted",
+  "title": "The $1B Al company training ChatGPT, Claude & Gemini on the path to responsible",
+  "transcript_available": true,
+  "transcript_source": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/main/episodes/edwin-chen/transcript.md"
+}

@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/prompt-foundry/typescript-sdk",
+  "content_sha256": "336dedac21cc0fc8dc177b5db438dcb9cbdb8f6987ef62e9c78c0b346c609cd9",
+  "creator": "prompt-foundry",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "The prompt engineering, prompt management, and prompt evaluation tool for TypeScript, JavaScript, and NodeJS. # Prompt Foundry TypeScript SDK Prompt Foundry is a comprehensive tool for prompt engineering, management, and evaluation. It is designed to simplify the development and integration process for developers working on TypeScript, JavaScript, and NodeJS AI applications utilizing large language models (LLMs). This SDK provides convenient access to the Prompt Foundry REST API from server-side TypeScript or JavaScript applications. ## Deploy Prompt To use this SDK, you need a Prompt Foundry account. Sign up at"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository prompt-foundry/typescript-sdk; discovered by github-repos-07.",
+  "published_date": "2024-05-20",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-07"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "prompt-foundry/typescript-sdk",
+    "last_push": "2026-05-13T02:40:28Z",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "url": "https://api.github.com/licenses/apache-2.0"
+    },
+    "stars_at_retrieval": 6
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:40:10Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'apache-2.0', 'name': 'Apache License 2.0', 'url': 'https://api.github.com/licenses/apache-2.0'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-prompt-foundry-typescript-sdk",
+  "status": "rejected",
+  "title": "prompt-foundry/typescript-sdk"
+}

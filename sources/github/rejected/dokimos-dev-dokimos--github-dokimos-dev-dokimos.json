@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/dokimos-dev/dokimos",
+  "content_sha256": "879cbe5bd6f1d4e3afa08c958abfc84f6a9616367b70170cea3b3101924a9f49",
+  "creator": "dokimos-dev",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "LLM and agent evaluation for Java & Kotlin. Runs in JUnit and CI. Spring AI, LangChain4j, Koog, Embabel, and any LLM client. <p align=\"center\"> <img src=\"https://raw.githubusercontent.com/dokimos-dev/dokimos/master/docs/static/img/logo.jpeg\" alt=\"Dokimos Logo\" width=\"150\"> </p> <h1 align=\"center\">Dokimos</h1> <p align=\"center\"> <strong>The LLM evaluation framework for Java and Kotlin</strong> </p> <p align=\"center\"> <a href=\"https://dokimos.dev/overview\">Documentation</a> • <a href=\"https://dokimos.dev/category/getting-started\">Getting Started</a> • <a href=\"./dokimos-examples\">Examples</a> • <a"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository dokimos-dev/dokimos; discovered by github-repos-03.",
+  "published_date": "2025-12-13",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-03"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "dokimos-dev/dokimos",
+    "last_push": "2026-07-11T08:32:46Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stars_at_retrieval": 45
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:27Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'mit', 'name': 'MIT License', 'url': 'https://api.github.com/licenses/mit'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-dokimos-dev-dokimos",
+  "status": "rejected",
+  "title": "dokimos-dev/dokimos"
+}

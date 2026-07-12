@@ -1,0 +1,41 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://github.com/langfuse/langfuse",
+  "content_sha256": "1610f78a1adcb13b3eec4a6bee3d78c9a2772500b8708ffbee359684cf337bc0",
+  "creator": "langfuse",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "full repository README",
+      "text": "/evaluation/overview) are key to the LLM application development workflow, and Langfuse adapts to your needs. It supports LLM-as-a-judge, Code evaluators, user feedback collection, manual labeling, and custom evaluation pipelines via APIs/SDKs. - [Datasets](https://langfuse.com/docs/evaluation/dataset-runs/datasets) enable test sets and benchmarks for evaluating your LLM application. They support continuous improvement, pre-deployment testing, structured experiments, flexible evaluation, and seamless integration with frameworks like LangChain and LlamaIndex. - [LLM Playground](https://langfuse.com/docs/playground) is a tool for testing and iterating on your prompts and mo"
+    }
+  ],
+  "organizational_mechanism": "- [Datasets](https://langfuse.com/docs/evaluation/dataset-runs/datasets) enable test sets and benchmarks for evaluating your LLM application.",
+  "platform": "github",
+  "provenance": "GitHub metadata and full README manually audited for langfuse/langfuse.",
+  "published_date": "2023-05-18",
+  "publisher": "GitHub",
+  "query_ids": [
+    "manual-full-readme-audit-2026-07-12"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "- [Datasets](https://langfuse.com/docs/evaluation/dataset-runs/datasets) enable test sets and benchmarks for evaluating your LLM application."
+  ],
+  "repository": {
+    "full_name": "langfuse/langfuse",
+    "last_push": "2026-07-11T07:49:08Z",
+    "license": "NOASSERTION",
+    "stars_at_retrieval": 30952
+  },
+  "retrieval_method": "manual full-README audit via GitHub CLI API",
+  "retrieved_at": "2026-07-12T09:34:47Z",
+  "rights_note": "GitHub reports NOASSERTION; only a bounded exact mechanism passage is retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-langfuse-langfuse",
+  "status": "accepted",
+  "title": "langfuse/langfuse"
+}

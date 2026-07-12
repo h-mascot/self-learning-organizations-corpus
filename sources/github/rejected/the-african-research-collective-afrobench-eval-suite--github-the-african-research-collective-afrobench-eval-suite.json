@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/The-African-Research-Collective/afrobench-eval-suite",
+  "content_sha256": "81ed62325534f2e527d5cee82f6ab80929ded484e27cb214f60b382bff7f555d",
+  "creator": "The-African-Research-Collective",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "LLM Eval leaderboard for African Languages # LLM Evaluation for African Languages ## Setup This repo is Poetry compatible. To install the dependencies, ensure you have Poetry installed and run: ```bash poetry install ``` ## Description This project is aimed at creating a standard evaluation library and scripts for assessing the performance of language models on tasks related to African languages. This project uses the [lm-evaluation-harness by EleutherAI](https://github.com/EleutherAI/lm-evaluation-harness) for evaluation, focusing on African language tasks. Some of the tasks contained in this leaderboard have"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository The-African-Research-Collective/afrobench-eval-suite; discovered by github-repos-02.",
+  "published_date": "2024-08-30",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-02"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "The-African-Research-Collective/afrobench-eval-suite",
+    "last_push": "2025-02-27T15:27:28Z",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "url": "https://api.github.com/licenses/apache-2.0"
+    },
+    "stars_at_retrieval": 9
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:11Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'apache-2.0', 'name': 'Apache License 2.0', 'url': 'https://api.github.com/licenses/apache-2.0'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-the-african-research-collective-afrobench-eval-suite",
+  "status": "rejected",
+  "title": "The-African-Research-Collective/afrobench-eval-suite"
+}

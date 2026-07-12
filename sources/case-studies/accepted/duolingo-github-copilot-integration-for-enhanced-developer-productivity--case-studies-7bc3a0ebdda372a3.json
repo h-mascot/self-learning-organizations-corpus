@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.zenml.io/llmops-database/github-copilot-integration-for-enhanced-developer-productivity",
+  "content_sha256": "a5871b2bb2f1217bed0c53195e59a3e5001a4d656f525105f9116c28fa03a004",
+  "creator": "ZenML",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "publisher body text",
+      "text": "This podcast discussion between Galileo and Crew AI leadership explores the challenges and solutions for deploying AI agents in production environments at enterprise scale. The conversation covers the technical complexities of multi-agent systems, the need for robust evaluation and observability frameworks, and the emergence of new LLMOps practices specifically designed for non-deterministic agent workflows. Key topics include authentication protocols, custom evaluation metrics, governance frameworks for regulated industries, and the democratization of agent development through no-code platforms."
+    }
+  ],
+  "platform": "case-studies",
+  "provenance": "Recovered from research/discovery-inventory.md via early-inventory-case-studies.",
+  "published_date": null,
+  "publisher": "ZenML",
+  "query_ids": [
+    "early-inventory-case-studies"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The retained publisher-authored passage describes a concrete learning, feedback, evaluation, adaptation, or improvement mechanism."
+  ],
+  "retrieval_method": "public publisher retrieval",
+  "retrieved_at": "2026-07-12T08:36:25Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete protected work is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "case-study",
+  "stable_id": "case-studies-7bc3a0ebdda372a3",
+  "status": "accepted",
+  "title": "Duolingo: GitHub Copilot Integration for Enhanced Developer Productivity"
+}

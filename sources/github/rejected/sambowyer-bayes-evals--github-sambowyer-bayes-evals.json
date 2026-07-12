@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/sambowyer/bayes_evals",
+  "content_sha256": "f6582e36b2c5099cd05bbd4ea84d9c3efc06481c6d8bceb3def64183bc3006a7",
+  "creator": "sambowyer",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "CLT in LLM evals with fewer than a few hundred datapoints](https://arxiv.org/abs/2503.01747)\". (Code to reproduce the experiments in that paper can be found at a [different repo](https://github.com/sambowyer/no_clt_paper).) ## Installation This is a simple package, so you can just download the `bayes_evals.py` file (located at [src/bayes_evals/bayes_evals.py](src/bayes_evals/bayes_evals.py)) and put it in your project directory, e.g. with `wget`: ```bash wget https://raw.githubusercontent.com/sambowyer/bayes_evals/main/src/bayes_evals/bayes_evals.py ``` or `curl`: ```bash curl -L -O https://raw.githubuserconten"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository sambowyer/bayes_evals; discovered by github-repos-02.",
+  "published_date": "2025-02-20",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-02"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "sambowyer/bayes_evals",
+    "last_push": "2025-05-28T09:35:52Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stars_at_retrieval": 25
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:06Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'mit', 'name': 'MIT License', 'url': 'https://api.github.com/licenses/mit'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-sambowyer-bayes-evals",
+  "status": "rejected",
+  "title": "sambowyer/bayes_evals"
+}

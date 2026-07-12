@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.coehub.ai/blog/closing-long-loop-nick-rockwell",
+  "content_sha256": "bed48555918eac93a85df465edb28d5352b4fdb48062203cb6d60f75e70fc9fc",
+  "creator": "coehub.ai",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "publisher body text",
+      "text": "This is where many postmortems quietly fail. They document the fix but ignore the organizational impact. Shame does not disappear when the service recovers. It lingers in future decision-making, risk tolerance, and silence."
+    }
+  ],
+  "platform": "blogs",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-blogs.",
+  "published_date": null,
+  "publisher": "coehub.ai",
+  "query_ids": [
+    "citation-catalog-blogs"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The retained publisher-authored passage describes a concrete learning, feedback, evaluation, adaptation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:23Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "article",
+  "stable_id": "blogs-b40d02d73f528696",
+  "status": "accepted",
+  "title": "Closing the Long Loop: What Nick Rockwell Taught Me About Resilience"
+}

@@ -1,0 +1,32 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://www.jimcollins.com/concepts/the-flywheel.html",
+  "content_sha256": "f6a7217a5a7d1cb59a8264c3d2faf3bc30c2f284c8943163be8428c47bd5a25e",
+  "creator": "Jim Collins",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "public publisher page",
+      "text": "Good-to-great transformations do not happen in one action; repeated turns of a flywheel build organizational momentum toward breakthrough."
+    }
+  ],
+  "platform": "blogs",
+  "provenance": "Recovered from research/discovery-inventory.md via early-inventory-blogs.",
+  "published_date": null,
+  "publisher": "Jim Collins",
+  "query_ids": [
+    "early-inventory-blogs"
+  ],
+  "rejection_reason": "Publisher page yielded no substantive source prose after navigation filtering.",
+  "relevance_evidence": [],
+  "retrieval_method": "public publisher retrieval",
+  "retrieved_at": "2026-07-12T08:36:25Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete protected work is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "article",
+  "stable_id": "blogs-197bbc7f2a29234c",
+  "status": "rejected",
+  "title": "The Flywheel Effect"
+}

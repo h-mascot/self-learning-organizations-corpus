@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.glowbl.com/blog/en/the-retrospective-a-powerful-tool-for-continuous-improvement-",
+  "content_sha256": "d4cea7db5ad7f4f3312c69a51c7aa708b1241c5c5d15ec3578bc718afcb7ec01",
+  "creator": "glowbl.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "publisher body text",
+      "text": "In today’s dynamic world, continuous learning and improvement are at the heart of personal and professional success. The retrospective, a practice borrowed from the Agile methodology, has proven to be a powerful tool to promote this continuous improvement. This article explores the retrospective, its importance, how it unfolds, and why it is essential in different contexts. This also applies to project management, personal development, and more."
+    }
+  ],
+  "platform": "blogs",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-blogs.",
+  "published_date": null,
+  "publisher": "glowbl.com",
+  "query_ids": [
+    "citation-catalog-blogs"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The retained publisher-authored passage describes a concrete learning, feedback, evaluation, adaptation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:23Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "article",
+  "stable_id": "blogs-db932787d4b37c96",
+  "status": "accepted",
+  "title": "The Retrospective: A Powerful Tool for Continuous Improvement - Blog"
+}

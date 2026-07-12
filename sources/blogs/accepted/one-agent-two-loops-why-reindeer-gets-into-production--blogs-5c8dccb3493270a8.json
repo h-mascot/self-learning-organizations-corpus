@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://reindeer.ai/blog/inner-loop-outer-loop",
+  "content_sha256": "987f0064cafb290e6ae7ca42f8094d1ddc7f807b2dc5f0d4a896390a0f9d1dd6",
+  "creator": "reindeer.ai",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "publisher body text",
+      "text": "GenAI has given the world two big capabilities: conversational intelligence and code generation. Fusing them together finally makes them work, but until now they've mostly lived in separate products. Reindeer's agents collect feedback through conversations and SME corrections in the inner loop. The hard part is not collecting that feedback. It's deciding which signals justify rewriting the agent and which are noise. That judgment feeds a code-gen layer where the agent modifies its own context, tests, validates, and proposes new policy branches to the agent manager. The conversational layer feeds the code-gen layer, which rebuilds the conversational layer. Humans review th"
+    }
+  ],
+  "platform": "blogs",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-blogs.",
+  "published_date": null,
+  "publisher": "reindeer.ai",
+  "query_ids": [
+    "citation-catalog-blogs"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The retained publisher-authored passage describes a concrete learning, feedback, evaluation, adaptation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:23Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "article",
+  "stable_id": "blogs-5c8dccb3493270a8",
+  "status": "accepted",
+  "title": "One Agent, Two Loops: Why Reindeer Gets Into Production"
+}

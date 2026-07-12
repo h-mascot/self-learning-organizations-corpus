@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/SimonLucas/planet-wars-rts",
+  "content_sha256": "ffb856a9b18ec130259020283dcf3bac2420be4f883c9589fd36e59a9908c173",
+  "creator": "SimonLucas",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "Planet wars RTS game for AI agent evaluation # Planet Wars RTS <img width=\"406\" alt=\"image\" src=\"https://github.com/user-attachments/assets/d70c0d2a-bd57-4795-9ec4-fb35a401f8f3\" alt=\"QR Code\" width=\"150\" align=\"right\"/> The code is in early access, but the interfaces are intended to be stable both for the fully observable and partially observable versions of the game. To run headless games use the examples in the `games.planetwars.runners` package. To run games with a GUI, use the `games.planetwars.view.RunVisualGame` class. The following features are ready for community testing: * containerised version (PodMan"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository SimonLucas/planet-wars-rts; discovered by github-repos-03.",
+  "published_date": "2024-12-30",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-03"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "SimonLucas/planet-wars-rts",
+    "last_push": "2026-06-23T09:44:32Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stars_at_retrieval": 27
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:33Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'mit', 'name': 'MIT License', 'url': 'https://api.github.com/licenses/mit'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-simonlucas-planet-wars-rts",
+  "status": "rejected",
+  "title": "SimonLucas/planet-wars-rts"
+}

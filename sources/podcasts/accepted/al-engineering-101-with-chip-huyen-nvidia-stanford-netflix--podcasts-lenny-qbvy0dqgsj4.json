@@ -1,0 +1,44 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.youtube.com/watch?v=qbvY0dQgSJ4",
+  "content_sha256": "7a57149d5b5c0e83850be41e2a8bc968f17325a08ed6f2087a9654cbd656e548",
+  "creator": "Chip Huyen",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "transcript_excerpt",
+      "locator": "full transcript at (00:27:54)",
+      "text": "Chip Huyen (00:27:54): I don't think of just a fixed number on the evals. What was the goal of eval? The goal of eval is to guide the product development. So you see eval, because I think I'm a big fan of eval, is that it helps you uncover opportunities where the progress are doing well. So sometimes, we've seen a very obvious [inaudible 00:28:15] where you look at the eval and we realize it's like, okay, it performed really poorly on this specific segment of users and then we look into it's like, okay, what's wrong with it? And it turns out, it's like we just don't have a good messaging to it. So people should just focus on the things that we're doing poorly, can improve"
+    },
+    {
+      "kind": "transcript_excerpt",
+      "locator": "full transcript at (00:57:40)",
+      "text": "Chip Huyen (00:57:40): ink this a lot of value plays in... So before we have a lot of disjointed teams. We have very clear engineering team, product team, but then there's a question of who should write eval? Who should own the metrics? And it turns out, eval, it's not a separate problem. It's a system problem because you need to look into different components, how they interact with each other. You need user behaviors because you need to know what users care about so that you can write eval reflect what users care about."
+    }
+  ],
+  "media_format": "podcast_episode",
+  "platform": "podcasts",
+  "provenance": "Full transcript audited at ChatPRD/lennys-podcast-transcripts/chip-huyen; original video ID qbvY0dQgSJ4.",
+  "published_date": "2025-10-23",
+  "publisher": "Lenny's Podcast",
+  "query_ids": [
+    "manual-full-transcript-audit-2026-07-12"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The goal of eval is to guide the product development.",
+    "We have very clear engineering team, product team, but then there's a question of who should write eval?"
+  ],
+  "retained_complete_transcript": false,
+  "retrieval_method": "full public transcript manual audit via GitHub citation",
+  "retrieved_at": "2026-07-12T09:34:38Z",
+  "rights_note": "The full public transcript was audited; only two bounded, separated guest passages are retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "episode",
+  "stable_id": "podcasts-lenny-qbvY0dQgSJ4",
+  "status": "accepted",
+  "title": "Al Engineering 101 with Chip Huyen (Nvidia, Stanford, Netflix)",
+  "transcript_available": true,
+  "transcript_source": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/main/episodes/chip-huyen/transcript.md"
+}

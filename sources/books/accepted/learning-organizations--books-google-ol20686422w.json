@@ -1,0 +1,42 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://openlibrary.org/works/OL20686422W",
+  "content_sha256": "ae8dd83ddfc03ccf53760642604f8077d0a1b9341f4aff363f385ef3bb5d15c9",
+  "creator": "Ariane Berthoin Antal; Peter Meusburger; Laura Suarsana",
+  "date_precision": "year",
+  "evidence": [
+    {
+      "kind": "bibliographic_metadata",
+      "locator": "canonical catalog record",
+      "text": "Title: Learning Organizations; creators: Ariane Berthoin Antal; Peter Meusburger; Laura Suarsana; publisher: Springer; publication date: 2013-01-01; catalog ID: OL20686422W; ISBN: 9789402405316, 9789400772199, 9789400772205."
+    }
+  ],
+  "identifiers": {
+    "catalog_id": "OL20686422W",
+    "isbn": [
+      "9789402405316",
+      "9789400772199",
+      "9789400772205"
+    ]
+  },
+  "platform": "books",
+  "provenance": "Public bibliographic record OL20686422W; discovered by openlibrary-books-01.",
+  "published_date": "2013-01-01",
+  "publisher": "Springer",
+  "query_ids": [
+    "openlibrary-books-01"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The canonical bibliographic title explicitly concerns organizational learning or a named organizational improvement mechanism: Learning Organizations."
+  ],
+  "retrieval_method": "Open Library public Search API",
+  "retrieved_at": "2026-07-12T08:38:19Z",
+  "rights_note": "Bibliographic metadata and at most a bounded publisher/API description are stored; no book text is copied.",
+  "rights_status": "metadata-only",
+  "schema_version": 2,
+  "source_type": "book",
+  "stable_id": "books-google-OL20686422W",
+  "status": "accepted",
+  "title": "Learning Organizations"
+}

@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/DeepDreamerLSC/prompt-evaluation",
+  "content_sha256": "d43fbe5fc30e373e28fc611a5fae9d99409fc2a5f450e8e8709cd9ece0329a8e",
+  "creator": "DeepDreamerLSC",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "Prompt 质量评价与自动优化。用户提供 prompt 后自动执行六维评价（准确性、相关性、安全性、效率、一致性、格式）、输出评分、生成优化版 prompt、说明改动原因。 # prompt-evaluation Prompt 质量评价与自动优化工具。 输入任意 prompt，自动完成六维评分 + 问题诊断 + 优化改写 + 改动说明，全流程无需额外输入。 ## 特性 - **六维评价** — 准确性、相关性、安全性、效率、一致性、格式，加权评分 0 ~ 1.0 - **自动优化** — 基于评分结果生成可直接替换的改进版 prompt - **改动溯源** — 逐条对比原版问题与优化改进，说明改动原因 - **零依赖** — 评分脚本仅使用 Python 标准库 `re`，无外部 API，无网络调用 - **中文优先** — 完整支持中文 prompt 评价（PII 检测、填充词、逻辑矛盾等均适配中文场景） ## 工作流程 ``` 用户输入 prompt ↓ Step 1: 六维评价（Python 确定性评分） ↓ Step 2: 输出评分表格 + 问题诊断 ↓ Step 3: 输出优化后的 prompt ↓ Step 4: 输出改动说明 ``` ## 评价维度 | 维度 | 权重 | 说明 | |------|------|------| | 准确性 | 0.25 | 事实覆盖、逻辑自洽、无幻觉 | | 相关性"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository DeepDreamerLSC/prompt-evaluation; discovered by github-repos-07.",
+  "published_date": "2026-04-09",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-07"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "DeepDreamerLSC/prompt-evaluation",
+    "last_push": "2026-04-09T10:58:29Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stars_at_retrieval": 2
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:40:19Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'mit', 'name': 'MIT License', 'url': 'https://api.github.com/licenses/mit'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-deepdreamerlsc-prompt-evaluation",
+  "status": "rejected",
+  "title": "DeepDreamerLSC/prompt-evaluation"
+}

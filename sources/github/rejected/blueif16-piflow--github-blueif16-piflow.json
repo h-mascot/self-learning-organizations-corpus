@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/blueif16/PiFlow",
+  "content_sha256": "699d67a7db863a5632d25755ce9b9ed913dfce01371892401c3a53e98339fe5d",
+  "creator": "blueif16",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "Self-designing, durable, self-improving agent orchestration: describe a goal — an agent designs the graph, a fleet of sealed full-agent nodes runs it, and a learning loop makes it better every run. <p align=\"center\"> <img src=\"docs/assets/tui-hero.png\" width=\"820\" alt=\"Pi Flow's terminal monitor: a fusion workflow (plan → three parallel drafts → harden → publish) running one pi agent per node, with per-node stage, model, token count, and verified on-disk outputs.\"> </p> <h1 align=\"center\">Pi Flow</h1> <p align=\"center\"><b>Describe a goal. An agent designs the graph, a fleet of sealed full-agent nodes runs it,"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository blueif16/PiFlow; discovered by github-repos-06.",
+  "published_date": "2026-06-09",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-06"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "blueif16/PiFlow",
+    "last_push": "2026-07-10T07:39:53Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stars_at_retrieval": 101
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:53Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'mit', 'name': 'MIT License', 'url': 'https://api.github.com/licenses/mit'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-blueif16-piflow",
+  "status": "rejected",
+  "title": "blueif16/PiFlow"
+}

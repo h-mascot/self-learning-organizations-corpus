@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/VibeCodingWithPhil/agentwise",
+  "content_sha256": "97221e4eced4a031e60a2b1c863161f8923e619434375b99b702d2d843b6d3b4",
+  "creator": "VibeCodingWithPhil",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "Multi-agent orchestration for Claude Code with 15-30% token optimization, self-improving agents, and automatic verification <div align=\"center\"> # 🚀 Agentwise ### Multi-Agent Orchestration System for Claude Code [![License: Apache 2.0 + Commercial](https://img.shields.io/badge/License-Apache%202.0%20%2B%20Commercial-blue.svg)](LICENSE) [![Node.js Version](https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen)](https://nodejs.org) [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)](https://www.typescriptlang.org/) [![Claude"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository VibeCodingWithPhil/agentwise; discovered by github-repos-06.",
+  "published_date": "2025-08-19",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-06"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "VibeCodingWithPhil/agentwise",
+    "last_push": "2025-11-24T22:17:00Z",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "url": ""
+    },
+    "stars_at_retrieval": 46
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:58Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'other', 'name': 'Other', 'url': ''}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-vibecodingwithphil-agentwise",
+  "status": "rejected",
+  "title": "VibeCodingWithPhil/agentwise"
+}

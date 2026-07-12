@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.microsoft.com/en/customers/story/25506-danone-microsoft-365-copilot",
+  "content_sha256": "676d07ce4ed3ef7b856e2ce0fdf8a515043a3343c8c9497a86aaf4b57852687e",
+  "creator": "microsoft.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "publisher body text",
+      "text": "Danone’s approach to digital transformation goes beyond technology. By integrating digital transformation with a human-centric approach, the company is leveraging AI and data to enhance decision-making while maintaining its commitment to wellbeing, equity, and purpose. \"Transforming the culture, building the capabilities and truly generating digital and a data savvy organization within Danone can only go through the Danone x Microsoft partnership\". By launching initiatives such as the Danone Microsoft AI Academy, the organization intends to equip employees with the necessary skills and confidence to use new technologies and services. It offers a wide range of learning opp"
+    }
+  ],
+  "platform": "case-studies",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-case-studies.",
+  "published_date": null,
+  "publisher": "microsoft.com",
+  "query_ids": [
+    "citation-catalog-case-studies"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The retained publisher-authored passage describes a concrete learning, feedback, evaluation, adaptation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:35Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "case-study",
+  "stable_id": "case-studies-92de3101429c0dc1",
+  "status": "accepted",
+  "title": "Danone: transforming critical business operations at scale with Microsoft AI &amp; Autonomous Agents | Microsoft Customer Stories"
+}

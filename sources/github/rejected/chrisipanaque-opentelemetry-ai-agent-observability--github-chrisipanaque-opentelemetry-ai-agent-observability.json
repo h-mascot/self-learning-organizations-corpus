@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/chrisipanaque/opentelemetry-ai-agent-observability",
+  "content_sha256": "bca1bb645ea2f81f64d603e8155f33477c929e728ef58a115af860feaf7d734a",
+  "creator": "chrisipanaque",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "OpenTelemetry AI Agent # agent-observability A reference implementation for AI agent observability — logging, tracing, and metrics — built directly on OpenTelemetry. ## Problem AI agents fail in ways traditional monitoring cannot see: - **Non-deterministic paths**: the same input triggers different tool sequences across runs. - **Subtle failures**: well-formed but wrong answers, redundant tool calls, semantically invalid actions. - **No decision provenance**: when an agent veers off course, there is no record of *why* it chose one tool over another, what context it considered, or which LLM response drove the"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository chrisipanaque/opentelemetry-ai-agent-observability; discovered by github-repos-08.",
+  "published_date": "2026-06-19",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-08"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "chrisipanaque/opentelemetry-ai-agent-observability",
+    "last_push": "2026-06-19T02:13:36Z",
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "stars_at_retrieval": 39
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:40:29Z",
+  "rights_note": "Repository license reported by GitHub: {'key': '', 'name': '', 'url': ''}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-chrisipanaque-opentelemetry-ai-agent-observability",
+  "status": "rejected",
+  "title": "chrisipanaque/opentelemetry-ai-agent-observability"
+}

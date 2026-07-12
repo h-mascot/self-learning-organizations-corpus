@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.microsoft.com/en/customers/story/23524-holland-america-line-microsoft-copilot-studio",
+  "content_sha256": "ae7f3b0b6d4706bcf7d2cb430ea3768661b60a6c5a46f8a8cd78daed23c5894e",
+  "creator": "microsoft.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "publisher body text",
+      "text": "In this first MVP release, Holland America Line’s Anna supports new and existing customers, including travel advisors, and was designed to support three core scenarios: booking new cruises, adding products and services to existing bookings, and responding to myriad general questions. “We get an incredibly diverse number of questions—from basic cruise and booking requests to travel documentation needed for specific routes, even what to wear on specific dates and destinations,” says Pettit. “Our goal was to create an agent that could address a wide range of customer questions and requests with natural language—just like a live agent, and with 24/7 availability.”"
+    }
+  ],
+  "platform": "case-studies",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-case-studies.",
+  "published_date": null,
+  "publisher": "microsoft.com",
+  "query_ids": [
+    "citation-catalog-case-studies"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The retained publisher-authored passage describes a concrete learning, feedback, evaluation, adaptation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:35Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "case-study",
+  "stable_id": "case-studies-b8505c1a32412483",
+  "status": "accepted",
+  "title": "Holland America Line sees signs of more informed purchasing with Copilot Studio agent | Microsoft Customer Stories"
+}

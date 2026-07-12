@@ -1,0 +1,30 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://openlibrary.org/works/OL43786915W",
+  "content_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "creator": "Lee, Michael Y. (DBA, Harvard University, 2019); Harvard Business School; Harvard University",
+  "date_precision": "year",
+  "evidence": [],
+  "identifiers": {
+    "catalog_id": "OL43786915W",
+    "isbn": []
+  },
+  "platform": "books",
+  "provenance": "Public bibliographic record OL43786915W; discovered by openlibrary-books-10.",
+  "published_date": "2019-01-01",
+  "publisher": "Unknown",
+  "query_ids": [
+    "openlibrary-books-10"
+  ],
+  "rejection_reason": "Metadata did not establish topical relevance.",
+  "relevance_evidence": [],
+  "retrieval_method": "Open Library public Search API",
+  "retrieved_at": "2026-07-12T08:38:30Z",
+  "rights_note": "Bibliographic metadata and at most a bounded publisher/API description are stored; no book text is copied.",
+  "rights_status": "metadata-only",
+  "schema_version": 2,
+  "source_type": "book",
+  "stable_id": "books-google-OL43786915W",
+  "status": "rejected",
+  "title": "Self-Managing Organizations"
+}

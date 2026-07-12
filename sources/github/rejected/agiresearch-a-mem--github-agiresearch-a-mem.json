@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/agiresearch/A-mem",
+  "content_sha256": "a2b90d9fa1403a29f459e53c6879dea4737494c3049e193d0eef469e697a93a1",
+  "creator": "agiresearch",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "A-MEM: Agentic Memory for LLM Agents # Agentic Memory 🧠 A novel agentic memory system for LLM agents that can dynamically organize memories in an agentic way. ## Introduction 🌟 Large Language Model (LLM) agents have demonstrated remarkable capabilities in handling complex real-world tasks through external tool usage. However, to effectively leverage historical experiences, they require sophisticated memory systems. Traditional memory systems, while providing basic storage and retrieval functionality, often lack advanced memory organization capabilities. Our project introduces an innovative **Agentic Memory**"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository agiresearch/A-mem; discovered by github-repos-01.",
+  "published_date": "2025-02-25",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-01"
+  ],
+  "rejection_reason": "Generic agent-memory/evaluation repository lacked a demonstrated organizational operating mechanism.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "agiresearch/A-mem",
+    "last_push": "2025-12-12T21:15:29Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stars_at_retrieval": 1107
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:38:36Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'mit', 'name': 'MIT License', 'url': 'https://api.github.com/licenses/mit'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-agiresearch-a-mem",
+  "status": "rejected",
+  "title": "agiresearch/A-mem"
+}

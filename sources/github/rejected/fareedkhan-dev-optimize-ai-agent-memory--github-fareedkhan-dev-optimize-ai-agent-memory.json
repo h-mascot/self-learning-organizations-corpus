@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/FareedKhan-dev/optimize-ai-agent-memory",
+  "content_sha256": "e7cc0d0eb8f30da8a93392f75e44ebf340944d456e91d790e84290f0241cb8e9",
+  "creator": "FareedKhan-dev",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "9 Different Ways to Optimize AI Agent Memories <!-- omit in toc --> # Optimizing Memory of AI Agents One way to optimize an AI agent is to design its [architecture with multiple sub-agents to improve accuracy](https://medium.com/r/?url=https%3A%2F%2Flevelup.gitconnected.com%2Fbuilding-a-multi-agent-ai-system-with-langgraph-and-langsmith-6cb70487cd81). However, in conversational AI, optimization doesn’t stop there—memory becomes even more crucial. This is due to components like **previous context storage**, **tool calling**, **database searches**, and other dependencies your AI agent relies on. In this blog, we"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository FareedKhan-dev/optimize-ai-agent-memory; discovered by github-repos-01.",
+  "published_date": "2025-07-12",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-01"
+  ],
+  "rejection_reason": "Generic agent-memory/evaluation repository lacked a demonstrated organizational operating mechanism.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "FareedKhan-dev/optimize-ai-agent-memory",
+    "last_push": "2025-07-12T04:40:01Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stars_at_retrieval": 330
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:38:48Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'mit', 'name': 'MIT License', 'url': 'https://api.github.com/licenses/mit'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-fareedkhan-dev-optimize-ai-agent-memory",
+  "status": "rejected",
+  "title": "FareedKhan-dev/optimize-ai-agent-memory"
+}

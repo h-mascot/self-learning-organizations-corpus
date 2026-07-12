@@ -1,0 +1,41 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://github.com/danluu/post-mortems",
+  "content_sha256": "6227e9d6e97abb199fa0c8e70c5107a43ca6ab18c1140bad2cbb32d88d427c89",
+  "creator": "danluu",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "full repository README",
+      "text": "b.archive.org/web/20190914025003/http://www.availabilitydigest.com:80/articles.htm). [Postmortems community](https://web.archive.org/web/20230329091806/https://postmortems.info/) (with imported archive from the now-dead G+ community). [John Daily's list of postmortems (in json)](https://github.com/macintux/Service-postmortems). [Jeff Hammerbacher's list of postmortems](https://www.quora.com/Jeff-Hammerbacher/Post-mortems). [NASA lessons learned database](https://llis.nasa.gov/). [Tim Freeman's list of postmortems](https://pinboard.in/u:peakscale/t:postmortem/) [Wikimedia's postmortems](https://wikitech.wikimedia.org/wiki/Incident_documentation). [Autopsy.io's list of Star"
+    }
+  ],
+  "organizational_mechanism": "[Tim Freeman's list of postmortems](https://pinboard.in/u:peakscale/t:postmortem/) [Wikimedia's postmortems](https://wikitech.wikimedia.org/wiki/Incident_documentation).",
+  "platform": "github",
+  "provenance": "GitHub metadata and full README manually audited for danluu/post-mortems.",
+  "published_date": "2015-08-03",
+  "publisher": "GitHub",
+  "query_ids": [
+    "manual-full-readme-audit-2026-07-12"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "[Tim Freeman's list of postmortems](https://pinboard.in/u:peakscale/t:postmortem/) [Wikimedia's postmortems](https://wikitech.wikimedia.org/wiki/Incident_documentation)."
+  ],
+  "repository": {
+    "full_name": "danluu/post-mortems",
+    "last_push": "2026-06-22T04:52:28Z",
+    "license": "NOASSERTION",
+    "stars_at_retrieval": 12156
+  },
+  "retrieval_method": "manual full-README audit via GitHub CLI API",
+  "retrieved_at": "2026-07-12T09:34:55Z",
+  "rights_note": "GitHub reports NOASSERTION; only a bounded exact mechanism passage is retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-danluu-post-mortems",
+  "status": "accepted",
+  "title": "danluu/post-mortems"
+}

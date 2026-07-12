@@ -1,0 +1,41 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://github.com/Unleash/unleash",
+  "content_sha256": "237c2848726ed6884a37214f9ebf30aa3fe7429450b54cf35fa249bc5f5e0b79",
+  "creator": "Unleash",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "full repository README",
+      "text": "ol how and when they roll out new features to end users. With Unleash, you can deploy code to production in smaller, more manageable releases at your own pace. Feature flags in Unleash let you test your code with real production data, reducing the risk of negatively impacting your users' experience. It also enables your team to work on multiple features simultaneously without the need for separate feature branches. Unleash is the most popular open-source solution for feature flagging on GitHub. It supports 15 official client and server SDKs and over 15 community SDKs. You can even create your own SDK if you wish. Unleash is compatible with any language and framework. ## G"
+    }
+  ],
+  "organizational_mechanism": "Feature flags in Unleash let you test your code with real production data, reducing the risk of negatively impacting your users' experience.",
+  "platform": "github",
+  "provenance": "GitHub metadata and full README manually audited for Unleash/unleash.",
+  "published_date": "2014-09-29",
+  "publisher": "GitHub",
+  "query_ids": [
+    "manual-full-readme-audit-2026-07-12"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Feature flags in Unleash let you test your code with real production data, reducing the risk of negatively impacting your users' experience."
+  ],
+  "repository": {
+    "full_name": "Unleash/unleash",
+    "last_push": "2026-07-10T14:50:42Z",
+    "license": "AGPL-3.0",
+    "stars_at_retrieval": 13659
+  },
+  "retrieval_method": "manual full-README audit via GitHub CLI API",
+  "retrieved_at": "2026-07-12T09:34:42Z",
+  "rights_note": "GitHub reports AGPL-3.0; only a bounded exact mechanism passage is retained.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-unleash-unleash",
+  "status": "accepted",
+  "title": "Unleash/unleash"
+}

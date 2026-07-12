@@ -1,0 +1,44 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.youtube.com/watch?v=-PDsvl2WCZU",
+  "content_sha256": "4c5dd1b1e0cdbc53df1bc16e18fbd25288bc6c681f4d8749ad66a0af63f9fa57",
+  "creator": "Adam Grenier",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "transcript_excerpt",
+      "locator": "full transcript at (00:06:51)",
+      "text": "Adam Grenier (00:06:51): So, I think generally the whole suite of skills that you develop in improv are pretty applicable, right? Because you are getting comfortable on your feet with change, with teamwork, building off of each other, experimenting, trying new things, a little bit of everything. I think a couple of the key rules or themes of improv that I really try to hammer home with people are obviously the \"Yes, and...\" side of improv, which everyone's probably heard, which is in a scene the worst thing you could do is deny somebody, because you're actually just stopping progress and you're not building off of anything."
+    },
+    {
+      "kind": "transcript_excerpt",
+      "locator": "full transcript at (00:54:24)",
+      "text": "Adam Grenier (00:54:24): going to listen to them. I'm not going to assume that I'm smarter than them, and those types of things. And so I think the same thing with product questions and data questions and experimentation questions for this concept of a Growth CMO is like, well, somebody's coming from a world where they've not had to work really closely with the product team, spend time with them to figure out how they plan on adapting to that."
+    }
+  ],
+  "media_format": "podcast_episode",
+  "platform": "podcasts",
+  "provenance": "Full transcript audited at ChatPRD/lennys-podcast-transcripts/adam-grenier; original video ID -PDsvl2WCZU.",
+  "published_date": "2022-09-15",
+  "publisher": "Lenny's Podcast",
+  "query_ids": [
+    "manual-full-transcript-audit-2026-07-12"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "se you are getting comfortable on your feet with change, with teamwork, building off of each other, experimenting, trying new things, a little bit of everything.",
+    "And so I think the same thing with product questions and data questions and experimentation questions for this concept of a Growth CMO is like, well, somebody's coming from a world where they've not had to work really closely with the product team, spend time with them to figure out how they plan on"
+  ],
+  "retained_complete_transcript": false,
+  "retrieval_method": "full public transcript manual audit via GitHub citation",
+  "retrieved_at": "2026-07-12T09:34:39Z",
+  "rights_note": "The full public transcript was audited; only two bounded, separated guest passages are retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "episode",
+  "stable_id": "podcasts-lenny--PDsvl2WCZU",
+  "status": "accepted",
+  "title": "When to invest in new acquisition channels | Adam Grenier (Uber, MasterClass)",
+  "transcript_available": true,
+  "transcript_source": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/main/episodes/adam-grenier/transcript.md"
+}

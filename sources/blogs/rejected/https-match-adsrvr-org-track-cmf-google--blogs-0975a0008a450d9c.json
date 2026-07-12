@@ -1,0 +1,32 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://www.databricks.com/blog/platform-engineering-building-internal-developer-platforms-improve-developer-productivity",
+  "content_sha256": "4af02c4d193231c9ebf4688616510e0f59c575faea482776b615c32d379820e3",
+  "creator": "databricks.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "public primary page",
+      "text": "Title: https://match.adsrvr.org/track/cmf/google URL Source: https://www.databricks.com/blog/platform-engineering-building-internal-developer-platforms-improve-developer-productivity Markdown Content: A 1x1 image, likely be a tacker probe"
+    }
+  ],
+  "platform": "blogs",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-blogs.",
+  "published_date": null,
+  "publisher": "databricks.com",
+  "query_ids": [
+    "citation-catalog-blogs"
+  ],
+  "rejection_reason": "Page retrieval did not expose enough substantive topical evidence.",
+  "relevance_evidence": [],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:23Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "retrieval-evidence-only",
+  "schema_version": 2,
+  "source_type": "article",
+  "stable_id": "blogs-0975a0008a450d9c",
+  "status": "rejected",
+  "title": "https://match.adsrvr.org/track/cmf/google"
+}

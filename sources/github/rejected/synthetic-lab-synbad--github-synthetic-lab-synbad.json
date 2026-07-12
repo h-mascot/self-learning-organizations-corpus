@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/synthetic-lab/synbad",
+  "content_sha256": "898c974c55eb69834b93c597ed249ce2f1c2c2db840ac9184945da9d9e10980f",
+  "creator": "synthetic-lab",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "LLM evals to test open-source inference providers ![Synbad the legendary sailor](https://raw.githubusercontent.com/synthetic-lab/synbad/main/synbad.png) Synbad is a tool for detecting bugs in LLM inference providers, especially open-source ones. Synbad is maintained by [Synthetic](https://synthetic.new), as part of our efforts to keep our inference quality as high as possible. If you find bugs in Synthetic's model hosting, please contribute the bugs here! We will fix them. ## Install Synbad is distributed through npm. Install it with: ```bash npm install -g @syntheticlab/synbad ``` ## Results We keep a running"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository synthetic-lab/synbad; discovered by github-repos-02.",
+  "published_date": "2025-11-26",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-02"
+  ],
+  "rejection_reason": "README/description did not establish a substantive learning or evaluation mechanism.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "synthetic-lab/synbad",
+    "last_push": "2026-06-27T02:05:30Z",
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "stars_at_retrieval": 111
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:38:58Z",
+  "rights_note": "Repository license reported by GitHub: {'key': '', 'name': '', 'url': ''}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-synthetic-lab-synbad",
+  "status": "rejected",
+  "title": "synthetic-lab/synbad"
+}

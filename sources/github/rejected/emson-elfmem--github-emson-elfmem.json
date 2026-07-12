@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/emson/elfmem",
+  "content_sha256": "9cb39393d337264bf72dd6cf41c5c5bc3dfb402e43bee62967427e4e478bc11d",
+  "creator": "emson",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "sELF improving agent memory system # elfmem [![Tests](https://github.com/emson/elfmem/actions/workflows/ci.yml/badge.svg)](https://github.com/emson/elfmem/actions/workflows/ci.yml) [![PyPI](https://img.shields.io/pypi/v/elfmem.svg)](https://pypi.org/project/elfmem/) [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/) [![Codecov](https://codecov.io/gh/emson/elfmem/branch/main/graph/badge.svg)](https://codecov.io/gh/emson/elfmem) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) **Adaptive memory for LLM"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository emson/elfmem; discovered by github-repos-06.",
+  "published_date": "2026-03-04",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-06"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "emson/elfmem",
+    "last_push": "2026-07-02T13:23:01Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stars_at_retrieval": 55
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:57Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'mit', 'name': 'MIT License', 'url': 'https://api.github.com/licenses/mit'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-emson-elfmem",
+  "status": "rejected",
+  "title": "emson/elfmem"
+}

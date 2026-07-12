@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/felipemaiapolo/prompteval",
+  "content_sha256": "b719867a25fc2e1a430deeb3c85b38d8e2e32d68086980fb4f9a453738fbb03a",
+  "creator": "felipemaiapolo",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "Efficient multi-prompt evaluation of LLMs # Efficient multi-prompt evaluation of LLMs Welcome to the [*PromptEval* GitHub repository](https://github.com/felipemaiapolo/prompteval)! Here you will find more information about our implementation of *PromptEval* and datasets introduced in [Maia Polo, Felipe, Ronald Xu, Lucas Weber, Mírian Silva, Onkar Bhardwaj, Leshem Choshen, Allysson Flavio Melo de Oliveira, Yuekai Sun, and Mikhail Yurochkin. \"Efficient multi-prompt evaluation of LLMs.\" arXiv preprint arXiv:2405.17202 (2024).](https://arxiv.org/abs/2405.17202) ## Overview Most popular benchmarks for comparing LLMs"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository felipemaiapolo/prompteval; discovered by github-repos-07.",
+  "published_date": "2024-06-10",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-07"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "felipemaiapolo/prompteval",
+    "last_push": "2024-12-06T20:27:07Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stars_at_retrieval": 33
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:40:04Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'mit', 'name': 'MIT License', 'url': 'https://api.github.com/licenses/mit'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-felipemaiapolo-prompteval",
+  "status": "rejected",
+  "title": "felipemaiapolo/prompteval"
+}

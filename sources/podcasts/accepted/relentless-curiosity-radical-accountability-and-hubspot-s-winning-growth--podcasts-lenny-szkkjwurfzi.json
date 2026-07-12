@@ -1,0 +1,44 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.youtube.com/watch?v=SzKKJwuRFZI",
+  "content_sha256": "8eba63f32bc78d65854de1e51f220c66b058d93408bae9e1f98e62ec7e2b4944",
+  "creator": "Christopher Miller",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "transcript_excerpt",
+      "locator": "full transcript at (00:13:37)",
+      "text": "Chris Miller (00:13:37): y. And if you're not resilient, that can be really demotivating. I think there's a stat that some growth person put out there years ago, which is that on average only 20 to 30% of experiments of growth team runs might be successful. So, that means 70 to 80% of the time you're, you're not putting numbers on the board and you're extracting learnings hopefully that you can apply to the future."
+    },
+    {
+      "kind": "transcript_excerpt",
+      "locator": "full transcript at (00:53:07)",
+      "text": "Chris Miller (00:53:07): re. I definitely, I won't say that our team were the sole driving force behind that shift in our strategy and approach, but certainly the data that we were able to collect and the experiments we were able to run and the insights we were able to surface and the research we were able to synthesize... It gave us conviction to double down on it for sure. And that was definitely maybe the beginning of that inflection point for the company, but there was certainly a lot of other things that led to us wanting to become more product led."
+    }
+  ],
+  "media_format": "podcast_episode",
+  "platform": "podcasts",
+  "provenance": "Full transcript audited at ChatPRD/lennys-podcast-transcripts/christopher-miller; original video ID SzKKJwuRFZI.",
+  "published_date": "2023-08-10",
+  "publisher": "Lenny's Podcast",
+  "query_ids": [
+    "manual-full-transcript-audit-2026-07-12"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "a stat that some growth person put out there years ago, which is that on average only 20 to 30% of experiments of growth team runs might be successful.",
+    "hat shift in our strategy and approach, but certainly the data that we were able to collect and the experiments we were able to run and the insights we were able to surface and the research we were able to synthesize..."
+  ],
+  "retained_complete_transcript": false,
+  "retrieval_method": "full public transcript manual audit via GitHub citation",
+  "retrieved_at": "2026-07-12T09:34:39Z",
+  "rights_note": "The full public transcript was audited; only two bounded, separated guest passages are retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "episode",
+  "stable_id": "podcasts-lenny-SzKKJwuRFZI",
+  "status": "accepted",
+  "title": "Relentless curiosity, radical accountability, and HubSpot’s winning growth",
+  "transcript_available": true,
+  "transcript_source": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/main/episodes/christopher-miller/transcript.md"
+}

@@ -1,0 +1,44 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.youtube.com/watch?v=DeskgjrLxxs",
+  "content_sha256": "044bff687668bea0923b01d974bd78f9b8e1abe77a32d483e42eb1529c734318",
+  "creator": "Karina Nguyen",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "transcript_excerpt",
+      "locator": "full transcript at (00:23:47)",
+      "text": "Karina Nguyen (00:23:47): You definitely want to measure progress of your model and this is where evals is, is because you can have prompted model as a baseline already. And the most robust evals is the one where prompted baselines get the lowest score or something. And then because then you know if you're trained a good model, then it should just hill climb on that eval all the time, while not also regressing on other intelligence evals. That's what I'm saying, it's more of an art than science. It's like, \"Okay, if you optimize the model for this behavior, you don't want to brain damage in other areas of intelligence or...\" This is happening all the time in every lab, in"
+    },
+    {
+      "kind": "transcript_excerpt",
+      "locator": "full transcript at (00:51:59)",
+      "text": "Karina Nguyen (00:51:59): Yeah, same as scientific research. Ideally the model would be able to suggest ideas, new ideas, or iterate on the experimental given the empirical results of the previous experiments like how do you come up with new ideas or the methods?"
+    }
+  ],
+  "media_format": "podcast_episode",
+  "platform": "podcasts",
+  "provenance": "Full transcript audited at ChatPRD/lennys-podcast-transcripts/karina-nguyen; original video ID DeskgjrLxxs.",
+  "published_date": "2025-02-09",
+  "publisher": "Lenny's Podcast",
+  "query_ids": [
+    "manual-full-transcript-audit-2026-07-12"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "You definitely want to measure progress of your model and this is where evals is, is because you can have prompted model as a baseline already.",
+    "Ideally the model would be able to suggest ideas, new ideas, or iterate on the experimental given the empirical results of the previous experiments like how do you come up with new ideas or the methods?"
+  ],
+  "retained_complete_transcript": false,
+  "retrieval_method": "full public transcript manual audit via GitHub citation",
+  "retrieved_at": "2026-07-12T09:34:38Z",
+  "rights_note": "The full public transcript was audited; only two bounded, separated guest passages are retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "episode",
+  "stable_id": "podcasts-lenny-DeskgjrLxxs",
+  "status": "accepted",
+  "title": "OpenAI researcher on why soft skills are the future of work | Karina Nguyen",
+  "transcript_available": true,
+  "transcript_source": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/main/episodes/karina-nguyen/transcript.md"
+}

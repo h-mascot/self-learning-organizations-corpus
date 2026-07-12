@@ -1,0 +1,44 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.youtube.com/watch?v=XrRlVOWe5GE",
+  "content_sha256": "149b607aa3ff9676551f2f07382c0e176aea128eae54c2ad342847f470ec329e",
+  "creator": "Noah Weiss",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "transcript_excerpt",
+      "locator": "full transcript at (00:22:29)",
+      "text": "Noah Weiss (00:22:29): A classic example of that would be Netflix back in the day, their rating system, they actually have a feedback loop from their customers then make the system better at predicting. I think people you are still trying to figure out what does that look like in this world in LLMs?"
+    },
+    {
+      "kind": "transcript_excerpt",
+      "locator": "full transcript at (00:59:30)",
+      "text": "Noah Weiss (00:59:30): nnect itself through surveys and this winds up being a lifeblood of feature teams where you can, by the time you actually launch a big net new feature for Slack, have done so much customer feedback from people actually using in the wild to get work done and so much more confidence in what you're building from the metrics and the surveys that we do that you know can't guarantee it's going to be a hit."
+    }
+  ],
+  "media_format": "podcast_episode",
+  "platform": "podcasts",
+  "provenance": "Full transcript audited at ChatPRD/lennys-podcast-transcripts/noah-weiss; original video ID XrRlVOWe5GE.",
+  "published_date": "2023-07-23",
+  "publisher": "Lenny's Podcast",
+  "query_ids": [
+    "manual-full-transcript-audit-2026-07-12"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "classic example of that would be Netflix back in the day, their rating system, they actually have a feedback loop from their customers then make the system better at predicting.",
+    "s where you can, by the time you actually launch a big net new feature for Slack, have done so much customer feedback from people actually using in the wild to get work done and so much more confidence in what you're building from the metrics and the surveys that we do that you know can't guarantee"
+  ],
+  "retained_complete_transcript": false,
+  "retrieval_method": "full public transcript manual audit via GitHub citation",
+  "retrieved_at": "2026-07-12T09:34:38Z",
+  "rights_note": "The full public transcript was audited; only two bounded, separated guest passages are retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "episode",
+  "stable_id": "podcasts-lenny-XrRlVOWe5GE",
+  "status": "accepted",
+  "title": "The 10 traits of great PMs, AI, and Slack’s approach to product | Noah Weiss",
+  "transcript_available": true,
+  "transcript_source": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/main/episodes/noah-weiss/transcript.md"
+}

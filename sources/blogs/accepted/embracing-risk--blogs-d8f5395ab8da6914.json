@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://sre.google/sre-book/embracing-risk/",
+  "content_sha256": "8f798c053e2b43fbea7cffe62b70b80c1d908e9521730ce66bba87da9dc0392d",
+  "creator": "Betsy Beyer; Chris Jones; Jennifer Petoff; Niall Richard Murphy",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "publisher body text",
+      "text": "You might expect Google to try to build 100% reliable services—ones that never fail. It turns out that past a certain point, however, increasing reliability is worse for a service (and its users) rather than better! Extreme reliability comes at a cost: maximizing stability limits how fast new features can be developed and how quickly products can be delivered to users, and dramatically increases their cost, which in turn reduces the numbers of features a team can afford to offer. Further, users typically don’t notice the difference between high reliability and extreme reliability in a service, because the user experience is dominated by less reliable components like the c"
+    }
+  ],
+  "platform": "blogs",
+  "provenance": "Public first-party Google SRE book chapter; bounded source evidence retained.",
+  "published_date": null,
+  "publisher": "Google Site Reliability Engineering",
+  "query_ids": [
+    "review-primary-source-blogs"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The source documents error budgets as an organizational feedback mechanism balancing reliability and change."
+  ],
+  "retrieval_method": "agent-reach/Jina public first-party page",
+  "retrieved_at": "2026-07-12T09:16:00Z",
+  "rights_note": "Only a bounded publisher-authored excerpt is retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "article",
+  "stable_id": "blogs-d8f5395ab8da6914",
+  "status": "accepted",
+  "title": "Embracing Risk"
+}

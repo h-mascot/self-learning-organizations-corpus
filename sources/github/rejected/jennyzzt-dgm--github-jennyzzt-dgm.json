@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/jennyzzt/dgm",
+  "content_sha256": "befb6d415dfb9c4c9f6b6912e5e34edcde88c7901bd1aebbe15fd79febe9c31a",
+  "creator": "jennyzzt",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "Darwin Gödel Machine: Open-Ended Evolution of Self-Improving Agents <h1 align=\"center\"> Darwin Gödel Machine:<br/>Open-Ended Evolution of Self-Improving Agents </h1> <p align=\"center\"> <a href=\"https://github.com/jennyzzt/dgm/blob/main/LICENSE\"><img src=\"https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=for-the-badge\"></a> <a href=\"https://arxiv.org/abs/2505.22954\"><img src=\"https://img.shields.io/badge/arXiv-2505.22954-b31b1b.svg?logo=arxiv&style=for-the-badge\"></a> <a href=\"https://sakana.ai/dgm/\"><img"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository jennyzzt/dgm; discovered by github-repos-06.",
+  "published_date": "2025-05-23",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-06"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "jennyzzt/dgm",
+    "last_push": "2025-08-13T10:40:14Z",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "url": "https://api.github.com/licenses/apache-2.0"
+    },
+    "stars_at_retrieval": 2173
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:44Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'apache-2.0', 'name': 'Apache License 2.0', 'url': 'https://api.github.com/licenses/apache-2.0'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-jennyzzt-dgm",
+  "status": "rejected",
+  "title": "jennyzzt/dgm"
+}

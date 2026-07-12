@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/simonw/llm-evals-plugin",
+  "content_sha256": "332766f3d5310afd4e8c0898d84e0f066294ae4592a87c9b9410676a1b7eb1be",
+  "creator": "simonw",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "Run evals using LLM # llm-evals-plugin [![PyPI](https://img.shields.io/pypi/v/llm-evals-plugin.svg)](https://pypi.org/project/llm-evals-plugin/) [![Changelog](https://img.shields.io/github/v/release/simonw/llm-evals-plugin?include_prereleases&label=changelog)](https://github.com/simonw/llm-evals-plugin/releases) [![Tests](https://github.com/simonw/llm-evals-plugin/actions/workflows/test.yml/badge.svg)](https://github.com/simonw/llm-evals-plugin/actions/workflows/test.yml) [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/simonw/llm-evals-plugin/blob/main/LICENSE) Run"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository simonw/llm-evals-plugin; discovered by github-repos-02.",
+  "published_date": "2024-04-20",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-02"
+  ],
+  "rejection_reason": "README/description did not establish a substantive learning or evaluation mechanism.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "simonw/llm-evals-plugin",
+    "last_push": "2026-01-08T20:28:06Z",
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "stars_at_retrieval": 27
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:04Z",
+  "rights_note": "Repository license reported by GitHub: {'key': '', 'name': '', 'url': ''}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-simonw-llm-evals-plugin",
+  "status": "rejected",
+  "title": "simonw/llm-evals-plugin"
+}

@@ -1,0 +1,34 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://openlibrary.org/works/OL57249W",
+  "content_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "creator": "John E. McMurry",
+  "date_precision": "year",
+  "evidence": [],
+  "identifiers": {
+    "catalog_id": "OL57249W",
+    "isbn": [
+      "9780534389994",
+      "0495118370",
+      "9780840054449"
+    ]
+  },
+  "platform": "books",
+  "provenance": "Public bibliographic record OL57249W; discovered by openlibrary-books-01.",
+  "published_date": "1984-01-01",
+  "publisher": "Brooks/Cole Pub.",
+  "query_ids": [
+    "openlibrary-books-01"
+  ],
+  "rejection_reason": "Lexical false positive for 'learning organization'; unrelated chemistry book.",
+  "relevance_evidence": [],
+  "retrieval_method": "Open Library public Search API",
+  "retrieved_at": "2026-07-12T08:38:19Z",
+  "rights_note": "Bibliographic metadata and at most a bounded publisher/API description are stored; no book text is copied.",
+  "rights_status": "metadata-only",
+  "schema_version": 2,
+  "source_type": "book",
+  "stable_id": "books-google-OL57249W",
+  "status": "rejected",
+  "title": "Organic chemistry"
+}

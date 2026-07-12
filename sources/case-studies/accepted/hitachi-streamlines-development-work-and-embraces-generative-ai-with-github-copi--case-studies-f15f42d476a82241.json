@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.microsoft.com/en/customers/story/23738-hitachi-ltd-github-copilot",
+  "content_sha256": "88c3693b3a645d5c05503b979eeedde87f7e2ca0dd16c1c77833369091180359",
+  "creator": "microsoft.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "publisher body text",
+      "text": "“The purpose of our communities is to help knowledge owners and users collaborate, and there’s always a moderator between the two,” explains Saito. “Moderators review, approve, and disseminate knowledge so that it’s systemized and of high quality. We’ve systemized over 1,000 use cases within Hitachi into about 200 units of knowledge.”"
+    }
+  ],
+  "platform": "case-studies",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-case-studies.",
+  "published_date": null,
+  "publisher": "microsoft.com",
+  "query_ids": [
+    "citation-catalog-case-studies"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The retained publisher-authored passage describes a concrete learning, feedback, evaluation, adaptation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:35Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "case-study",
+  "stable_id": "case-studies-f15f42d476a82241",
+  "status": "accepted",
+  "title": "Hitachi streamlines development work and embraces generative AI with GitHub Copilot | Microsoft Customer Stories"
+}

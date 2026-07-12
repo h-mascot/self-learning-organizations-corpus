@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://bloomfire.com/blog/benefits-learning-organization-culture/",
+  "content_sha256": "2cd34284bd7c10a60512fce7e722e76d15ec5f1d931ffedacacb7ef63e0657b7",
+  "creator": "bloomfire.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "publisher body text",
+      "text": "So, why should organizations care about personal mastery? Not only can it increase job satisfaction, but it can also increase productivity and grow the organization’s collective intelligence. According to Senge: “Organizations learn only through individuals who learn. Individual learning does not guarantee organizational learning. But without it no organizational learning occurs.”"
+    }
+  ],
+  "platform": "blogs",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-blogs.",
+  "published_date": null,
+  "publisher": "bloomfire.com",
+  "query_ids": [
+    "citation-catalog-blogs"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The retained publisher-authored passage describes a concrete learning, feedback, evaluation, adaptation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:23Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "article",
+  "stable_id": "blogs-08c7ce0a687aea49",
+  "status": "accepted",
+  "title": "The Benefits Of A Learning Organization Culture - Bloomfire"
+}

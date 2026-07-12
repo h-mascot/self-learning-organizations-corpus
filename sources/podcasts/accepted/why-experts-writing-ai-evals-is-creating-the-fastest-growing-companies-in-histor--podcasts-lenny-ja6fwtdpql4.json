@@ -1,0 +1,44 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.youtube.com/watch?v=ja6fWTDPQl4",
+  "content_sha256": "34cb7ce3767a98142581cc14e5104821b2a072d0e080c4ece7ec6884e32f3683",
+  "creator": "Brendan Foody",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "transcript_excerpt",
+      "locator": "full transcript at (00:06:39)",
+      "text": "Brendan Foody (00:06:39): If the model is the product, then the eval is the product requirement document. And the way that researchers' day-to-day looks is that they'll run dozens of experiments where they'll make small improvements on an eval set. And reinforcement learning is becoming so effective that once they have an eval, they can help climb it. If you look at just how fast people were able to saturate Olympiad Math once they focused on it, how fast we're even saturating SWE-bench once we focus on it. And so in many ways, the barrier to applying agents the entire economy to automate every workflow is how do we measure success? How do we eval it? And write the PRDs f"
+    },
+    {
+      "kind": "transcript_excerpt",
+      "locator": "full transcript at (00:57:15)",
+      "text": "Brendan Foody (00:57:15): at labs need this close collaboration with experts to help understand what are the evals that they're building and how can they push the frontier. But I think it's very clear that evals are evergreen, that so long as we want to improve models, we'll need experts to create evals for them and to create the post-training data for them to learn those capabilities. And of course there might be changes in the exact way that people do training with RL or otherwise, but they will always need an eval to measure what does success look like across every domain that they want to build."
+    }
+  ],
+  "media_format": "podcast_episode",
+  "platform": "podcasts",
+  "provenance": "Full transcript audited at ChatPRD/lennys-podcast-transcripts/brendan-foody; original video ID ja6fWTDPQl4.",
+  "published_date": "2025-09-18",
+  "publisher": "Lenny's Podcast",
+  "query_ids": [
+    "manual-full-transcript-audit-2026-07-12"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "If the model is the product, then the eval is the product requirement document.",
+    "But I think it's very clear that evals are evergreen, that so long as we want to improve models, we'll need experts to create evals for them and to create the post-training data for them to learn those capabilities."
+  ],
+  "retained_complete_transcript": false,
+  "retrieval_method": "full public transcript manual audit via GitHub citation",
+  "retrieved_at": "2026-07-12T09:34:38Z",
+  "rights_note": "The full public transcript was audited; only two bounded, separated guest passages are retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "episode",
+  "stable_id": "podcasts-lenny-ja6fWTDPQl4",
+  "status": "accepted",
+  "title": "Why experts writing AI evals is creating the fastest-growing companies in history",
+  "transcript_available": true,
+  "transcript_source": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/main/episodes/brendan-foody/transcript.md"
+}

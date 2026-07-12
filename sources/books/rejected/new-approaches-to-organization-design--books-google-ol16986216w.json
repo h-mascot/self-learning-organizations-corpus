@@ -1,0 +1,34 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://openlibrary.org/works/OL16986216W",
+  "content_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "creator": "Anne Bøllingtoft",
+  "date_precision": "year",
+  "evidence": [],
+  "identifiers": {
+    "catalog_id": "OL16986216W",
+    "isbn": [
+      "9781441906267",
+      "9781441906274",
+      "1441906266"
+    ]
+  },
+  "platform": "books",
+  "provenance": "Public bibliographic record OL16986216W; discovered by openlibrary-books-09.",
+  "published_date": "2009-01-01",
+  "publisher": "Springer-Verlag US",
+  "query_ids": [
+    "openlibrary-books-09"
+  ],
+  "rejection_reason": "Metadata did not establish topical relevance.",
+  "relevance_evidence": [],
+  "retrieval_method": "Open Library public Search API",
+  "retrieved_at": "2026-07-12T08:38:29Z",
+  "rights_note": "Bibliographic metadata and at most a bounded publisher/API description are stored; no book text is copied.",
+  "rights_status": "metadata-only",
+  "schema_version": 2,
+  "source_type": "book",
+  "stable_id": "books-google-OL16986216W",
+  "status": "rejected",
+  "title": "New Approaches to Organization Design"
+}

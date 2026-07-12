@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/bangoc123/multi-agents-design-patterns",
+  "content_sha256": "92f8676bb9a8c2c4a1a4b091890da26d124cbfe3bee6576487cf0b3087e38a8c",
+  "creator": "bangoc123",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "Multi-agent design pattern and agent evaluation process # Multi-agents Design Patterns and Evaluation Process ## Installation 1. Clone the repository: ```bash git clone [repository-url] cd multi-agents ``` 2. Create and activate a virtual environment (recommended): ```bash python -m venv venv source venv/bin/activate # On Windows: venv\\Scripts\\activate ``` 3. Install dependencies: ```bash pip install -r requirements.txt ``` 4. Set up environment variables: ```bash # Create .env file cat << EOF > .env OPENAI_API_KEY=your_openai_key LANGFUSE_PUBLIC_KEY=your_key LANGFUSE_SECRET_KEY=your_secret"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository bangoc123/multi-agents-design-patterns; discovered by github-repos-03.",
+  "published_date": "2025-03-27",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-03"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "bangoc123/multi-agents-design-patterns",
+    "last_push": "2025-03-27T10:04:29Z",
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "stars_at_retrieval": 23
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:34Z",
+  "rights_note": "Repository license reported by GitHub: {'key': '', 'name': '', 'url': ''}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-bangoc123-multi-agents-design-patterns",
+  "status": "rejected",
+  "title": "bangoc123/multi-agents-design-patterns"
+}

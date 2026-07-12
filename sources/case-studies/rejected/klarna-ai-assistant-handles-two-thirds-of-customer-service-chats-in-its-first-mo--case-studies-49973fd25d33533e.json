@@ -1,0 +1,32 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://www.klarna.com/international/press/klarna-ai-assistant-handles-two-thirds-of-customer-service-chats-in-its-first-month/",
+  "content_sha256": "6181ecc8e46be91efc362ed5ce91ca848e71977e197af40dd32354c0846f8948",
+  "creator": "Klarna",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "publisher body text",
+      "text": "Available in the Klarna app, the assistant is designed to enhance the shopping and payments experience for Klarna’s 150 million consumers worldwide, capable of managing a range of tasks from multilingual customer service to managing refunds and returns, and fostering healthy financial habits. This launch marks a significant leap forward in Klarna's vision of a fully AI-powered financial assistant aimed at saving consumers time, worry and money, while making the global retail banking industry more efficient and consumer-focused. Exciting new features are already in the pipeline and will be added to the AI assistant soon. Additionally, customers can still choose to interact"
+    }
+  ],
+  "platform": "case-studies",
+  "provenance": "Recovered from research/discovery-inventory.md via early-inventory-case-studies.",
+  "published_date": "2024-02-27",
+  "publisher": "Klarna",
+  "query_ids": [
+    "early-inventory-case-studies"
+  ],
+  "rejection_reason": "Publisher page yielded no substantive source prose after navigation filtering.",
+  "relevance_evidence": [],
+  "retrieval_method": "public publisher retrieval",
+  "retrieved_at": "2026-07-12T08:36:25Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete protected work is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "case-study",
+  "stable_id": "case-studies-49973fd25d33533e",
+  "status": "rejected",
+  "title": "Klarna AI assistant handles two-thirds of customer service chats in its first month"
+}

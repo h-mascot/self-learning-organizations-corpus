@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/builderz-labs/agent-run",
+  "content_sha256": "5ca3bb6381a679308f00974a5d8ce740802fa246dee7c3e6073dc3ec811f8504",
+  "creator": "builderz-labs",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "Open standard for agent observability. One schema for how AI agents report work. # agent-run Open standard for agent observability. One schema for how AI agents report work — regardless of runtime, model, or provider. ## Why Code is commoditizing. The durable value in AI agent infrastructure is **data**, **provenance**, **protocols**, and **evals**. This spec is the protocol layer. agent-run defines a standard `AgentRun` object that any agent runtime can emit and any dashboard can consume. It answers: *what ran, how it ran, what it cost, and whether it worked.* ## Core Objects | Object | Purpose |"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository builderz-labs/agent-run; discovered by github-repos-08.",
+  "published_date": "2026-03-23",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-08"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "builderz-labs/agent-run",
+    "last_push": "2026-06-21T06:12:45Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stars_at_retrieval": 6
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:40:40Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'mit', 'name': 'MIT License', 'url': 'https://api.github.com/licenses/mit'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-builderz-labs-agent-run",
+  "status": "rejected",
+  "title": "builderz-labs/agent-run"
+}

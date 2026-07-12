@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/oliveirabruno01/babyagi-asi",
+  "content_sha256": "7599da371ed63ebbba9687d5e0a2202ae73ecd01b472cecf06d78affea425c92",
+  "creator": "oliveirabruno01",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "BabyAGI: an Autonomous and Self-Improving agent, or BASI"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository oliveirabruno01/babyagi-asi; discovered by github-repos-06.",
+  "published_date": "2023-04-07",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-06"
+  ],
+  "rejection_reason": "README/description did not establish a substantive learning or evaluation mechanism.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "oliveirabruno01/babyagi-asi",
+    "last_push": "2023-06-02T22:15:42Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stars_at_retrieval": 802
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:46Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'mit', 'name': 'MIT License', 'url': 'https://api.github.com/licenses/mit'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-oliveirabruno01-babyagi-asi",
+  "status": "rejected",
+  "title": "oliveirabruno01/babyagi-asi"
+}

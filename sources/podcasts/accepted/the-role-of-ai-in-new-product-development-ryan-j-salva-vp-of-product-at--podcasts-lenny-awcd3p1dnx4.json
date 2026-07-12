@@ -1,0 +1,44 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.youtube.com/watch?v=awcd3P1DnX4",
+  "content_sha256": "2f27de52d29a8a62106e1b2802f0fc75dc1f1b5fc513669db63c393216f14afa",
+  "creator": "Ryan J. Salva",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "transcript_excerpt",
+      "locator": "full transcript at (00:24:38)",
+      "text": "Ryan J. Salva (00:24:38): The period in between kind of OpenAI almost taking down GitHub and then us really arriving at the user experience, part of that was, frankly, a lot of really smart researchers at OpenAI experimenting and doing what only world class AI researchers can do. It was a lot of them experimenting, occasionally asking for updates to the data set, tossing back to us a model that we might play with and tinker around with. These models have literally thousands of parameters that you can pass to them. When you're really thinking about GPT-3 and CodeX and then the transition from that to something like Copilot, it was not just like the model..."
+    },
+    {
+      "kind": "transcript_excerpt",
+      "locator": "full transcript at (00:38:46)",
+      "text": "Ryan J. Salva (00:38:46): I mean, this is the best problem in the world to have. Talk about kind of customer ask, for Copilot in particular, the amount of chatter, the amount of customer feedback that was coming in especially for us with AI, I mean, the world is still figuring out AI, candidly. I mean, we're getting a lot better at it, especially in the last couple of years with things like Dolly and Copilot. But it brings with it not only engineering challenges, but also, frankly, ethical challenges and legal challenges, like making sense of what our expectations are of AI. If AI produces something that is offensive, who's at fault?"
+    }
+  ],
+  "media_format": "podcast_episode",
+  "platform": "podcasts",
+  "provenance": "Full transcript audited at ChatPRD/lennys-podcast-transcripts/ryan-j-salva; original video ID awcd3P1DnX4.",
+  "published_date": "2022-09-04",
+  "publisher": "Lenny's Podcast",
+  "query_ids": [
+    "manual-full-transcript-audit-2026-07-12"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "It was a lot of them experimenting, occasionally asking for updates to the data set, tossing back to us a model that we might play with and tinker around with.",
+    "Talk about kind of customer ask, for Copilot in particular, the amount of chatter, the amount of customer feedback that was coming in especially for us with AI, I mean, the world is still figuring out AI, candidly."
+  ],
+  "retained_complete_transcript": false,
+  "retrieval_method": "full public transcript manual audit via GitHub citation",
+  "retrieved_at": "2026-07-12T09:34:39Z",
+  "rights_note": "The full public transcript was audited; only two bounded, separated guest passages are retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "episode",
+  "stable_id": "podcasts-lenny-awcd3P1DnX4",
+  "status": "accepted",
+  "title": "The role of AI in new product development | Ryan J. Salva (VP of Product at",
+  "transcript_available": true,
+  "transcript_source": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/main/episodes/ryan-j-salva/transcript.md"
+}

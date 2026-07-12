@@ -1,0 +1,41 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://github.com/r-aaron-graham/incident-response-and-postmortem-framework",
+  "content_sha256": "668c1222f3ee443d4d0aff20c9d33d740fa3f0eddab048d77f3728315d2a676c",
+  "creator": "r-aaron-graham",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "full repository README",
+      "text": "nd Slack notifications. # Incident Response and Postmortem Framework This repository contains templates and a small script to standardize incident response and postmortem documentation. The goal is to encourage consistent, blameless analysis of incidents and capture lessons learned to prevent recurrence. ## Contents - **templates/**: Markdown templates for incident reports and postmortems. - **postmortem_cli.py**: A simple script to generate new postmortem files with placeholder sections. ## Usage Generate a new postmortem: ```bash python postmortem_cli.py --id INC‑12345 --title \"Outage in payment service\" --output postmortems/INC‑12345.md ``` Fill out the resulting file "
+    }
+  ],
+  "organizational_mechanism": "## Usage Generate a new postmortem: ```bash python postmortem_cli.py --id INC‑12345 --title \"Outage in payment service\" --output postmortems/INC‑12345.md ``` Fill out the resulting file ",
+  "platform": "github",
+  "provenance": "GitHub metadata and full README manually audited for r-aaron-graham/incident-response-and-postmortem-framework.",
+  "published_date": "2026-03-16",
+  "publisher": "GitHub",
+  "query_ids": [
+    "manual-full-readme-audit-2026-07-12"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "## Usage Generate a new postmortem: ```bash python postmortem_cli.py --id INC‑12345 --title \"Outage in payment service\" --output postmortems/INC‑12345.md ``` Fill out the resulting file "
+  ],
+  "repository": {
+    "full_name": "r-aaron-graham/incident-response-and-postmortem-framework",
+    "last_push": "2026-03-16T16:31:16Z",
+    "license": "NOASSERTION",
+    "stars_at_retrieval": 1
+  },
+  "retrieval_method": "manual full-README audit via GitHub CLI API",
+  "retrieved_at": "2026-07-12T09:34:58Z",
+  "rights_note": "GitHub reports NOASSERTION; only a bounded exact mechanism passage is retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-r-aaron-graham-incident-response-and-postmortem-framework",
+  "status": "accepted",
+  "title": "r-aaron-graham/incident-response-and-postmortem-framework"
+}

@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.lucasware.com/embracing-agile-principles-in-the-warehouse-continuously-learning-and-improving-with-retrospective-sessions/",
+  "content_sha256": "e347dbf63e387ba9749f79d706bf4a301326334436aafa83d8cd8812f268b802",
+  "creator": "lucasware.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "publisher body text",
+      "text": "The industrial parts warehouse smoothly transitioned its pickers during the go live largely thanks to retrospective meetings. Retrospectives are more than just a meeting, they are a catalyst for continuous improvement, cultural alignment, and operational excellence in modern warehouse environments. As shown in both conceptual and real-world examples, when implemented with intention and inclusivity, retrospectives empower frontline teams, surface actionable insights, and drive agile decision-making that can accelerate technology adoption and optimize daily performance. Whether it’s enhancing picker morale, troubleshooting new systems, or staying resilient during peak deman"
+    }
+  ],
+  "platform": "blogs",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-blogs.",
+  "published_date": null,
+  "publisher": "lucasware.com",
+  "query_ids": [
+    "citation-catalog-blogs"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The retained publisher-authored passage describes a concrete learning, feedback, evaluation, adaptation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:23Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "article",
+  "stable_id": "blogs-4ae0260f57ea36ed",
+  "status": "accepted",
+  "title": "Continuously Learning and Improving with Retrospective Sessions"
+}

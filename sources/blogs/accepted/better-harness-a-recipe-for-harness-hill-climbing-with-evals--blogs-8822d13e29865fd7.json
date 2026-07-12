@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.langchain.com/blog/better-harness-a-recipe-for-harness-hill-climbing-with-evals",
+  "content_sha256": "773388b6c7dfd886c41da96ffc8d555de7052b36edc18aabf9a63ebfba1ac116",
+  "creator": "langchain.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "publisher body text",
+      "text": "Production traces. Every agent interaction generates a trace where failures become eval cases. Mining traces for eval material is the leverage, high-throughput way to improve evals over time. Even before running an agent over evals, often a team dogfooding our agent will report errors directly in Slack with a Trace link. We recommend dogfooding agents and directly sharing feedback for everyone to see, it helps build shared knowledge of agent behavior."
+    }
+  ],
+  "platform": "blogs",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-blogs.",
+  "published_date": null,
+  "publisher": "langchain.com",
+  "query_ids": [
+    "citation-catalog-blogs"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The retained publisher-authored passage describes a concrete learning, feedback, evaluation, adaptation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:23Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "article",
+  "stable_id": "blogs-8822d13e29865fd7",
+  "status": "accepted",
+  "title": "Better Harness: A Recipe for Harness Hill-Climbing with Evals"
+}

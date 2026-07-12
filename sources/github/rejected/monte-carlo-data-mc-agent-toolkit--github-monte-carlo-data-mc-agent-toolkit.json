@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/monte-carlo-data/mc-agent-toolkit",
+  "content_sha256": "1b348e754783a5062a47487d2017fa34b8e65c810a8d2a732524aa3df9d679b3",
+  "creator": "monte-carlo-data",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "| | **Monitoring Advisor** | Identifies coverage gaps and creates monitors for warehouse tables or AI agents — validates tables and fields against your live workspace, emits monitors-as-code YAML. | [README](skills/monitoring-advisor/README.md) | | **Manage MaC** | Create, edit, validate, and import Monitors-as-Code YAML files — authors new monitors from scratch, modifies existing files, validates against the published JSON Schema, and exports live monitors to YAML. | [SKILL](skills/manage-mac/SKILL.md) | | **Tune Monitor** | Recommends sensitivity, segment, and schedule changes to reduce ale"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository monte-carlo-data/mc-agent-toolkit; discovered by github-repos-08.",
+  "published_date": "2026-02-25",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-08"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "monte-carlo-data/mc-agent-toolkit",
+    "last_push": "2026-07-03T22:10:15Z",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "url": "https://api.github.com/licenses/apache-2.0"
+    },
+    "stars_at_retrieval": 89
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:40:24Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'apache-2.0', 'name': 'Apache License 2.0', 'url': 'https://api.github.com/licenses/apache-2.0'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-monte-carlo-data-mc-agent-toolkit",
+  "status": "rejected",
+  "title": "monte-carlo-data/mc-agent-toolkit"
+}

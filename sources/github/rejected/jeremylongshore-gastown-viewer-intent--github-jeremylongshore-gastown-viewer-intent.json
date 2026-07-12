@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/jeremylongshore/gastown-viewer-intent",
+  "content_sha256": "8733ec010de0cbf2a08c20f89fdf9b305b8c9c154ee18ae7dfcbcdeac85fdc1d",
+  "creator": "jeremylongshore",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "Real-time agent observability dashboard. View beads tasks, agent activity, and system health in TUI or React web interface. Go + React. # gastown-viewer-intent v0.6.0 > Local-first Mission Control dashboard for Beads + Gas Town, with a read-only-forever memory panel. [![CI](https://github.com/jeremylongshore/gastown-viewer-intent/actions/workflows/ci.yaml/badge.svg)](https://github.com/jeremylongshore/gastown-viewer-intent/actions/workflows/ci.yaml) [![Release](https://img.shields.io/github/v/release/jeremylongshore/gastown-viewer-intent)](https://github.com/jeremylongshore/gastown-viewer-intent/releases)"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository jeremylongshore/gastown-viewer-intent; discovered by github-repos-08.",
+  "published_date": "2026-01-02",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-08"
+  ],
+  "rejection_reason": "README/description did not establish a substantive learning or evaluation mechanism.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "jeremylongshore/gastown-viewer-intent",
+    "last_push": "2026-07-09T20:56:05Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stars_at_retrieval": 31
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:40:30Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'mit', 'name': 'MIT License', 'url': 'https://api.github.com/licenses/mit'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-jeremylongshore-gastown-viewer-intent",
+  "status": "rejected",
+  "title": "jeremylongshore/gastown-viewer-intent"
+}

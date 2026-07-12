@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/qualifire-dev/rogue",
+  "content_sha256": "a5f52565d304c5bd8fd2ca8c3848bc883a819b527e6a8b28eae663def1212bce",
+  "creator": "qualifire-dev",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "AI Agent Evaluator & Red Team Platform # Rogue — AI Agent Evaluator & Red Team Platform ![](https://pixel.qualifire.ai/api/record/rogue) <div align=\"center\"> <a href=\"https://trendshift.io/repositories/15191\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/15191\" alt=\"qualifire-dev%2Frogue | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a> ![Tests](https://github.com/qualifire-dev/rogue/actions/workflows/test.yml/badge.svg?branch=main) <img src=\"./freddy-rogue.png\" width=\"200\"/> **Stress-test your AI agents before attackers do.** [Discord"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository qualifire-dev/rogue; discovered by github-repos-03.",
+  "published_date": "2025-06-05",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-03"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "qualifire-dev/rogue",
+    "last_push": "2026-05-04T10:58:46Z",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "url": ""
+    },
+    "stars_at_retrieval": 1052
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:17Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'other', 'name': 'Other', 'url': ''}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-qualifire-dev-rogue",
+  "status": "rejected",
+  "title": "qualifire-dev/rogue"
+}

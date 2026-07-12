@@ -1,0 +1,44 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.youtube.com/watch?v=f10s3rxKaJw",
+  "content_sha256": "58c052bed8cde7eadab99a5736c03f52cefe769d9a4d9c87c26dc8d205951f2c",
+  "creator": "Inbal S",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "transcript_excerpt",
+      "locator": "full transcript at (21:51)",
+      "text": "(21:51): So I think that the world of the metrics for AI is really a big one. We are working a lot with our customers as they're asking the same questions and they're running their own experiments within their companies to figure out what is it that they want to measure. The most easiest one is time, but time is, it's funny what I'm going to say, but time is not quantifiable as a success metrics because you can write really bad code really fast."
+    },
+    {
+      "kind": "transcript_excerpt",
+      "locator": "full transcript at (33:10)",
+      "text": "Inbal Shani (33:10): It's a lot about that. It's a lot about creating that bandwidth for the team to innovate and experiment and carving that time out, but also being okay that not every experiment is going to be successful. So the shift to learn or to fail forward, these are the philosophies that I believe in. If you don't try, if you don't experiment, you will never innovate. And if you don't fail, you will never learn from your mistakes, you'll never learn from your experience, so you will not progress forward."
+    }
+  ],
+  "media_format": "podcast_episode",
+  "platform": "podcasts",
+  "provenance": "Full transcript audited at ChatPRD/lennys-podcast-transcripts/inbal-s; original video ID f10s3rxKaJw.",
+  "published_date": "2023-12-01",
+  "publisher": "Lenny's Podcast",
+  "query_ids": [
+    "manual-full-transcript-audit-2026-07-12"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "working a lot with our customers as they're asking the same questions and they're running their own experiments within their companies to figure out what is it that they want to measure.",
+    "It's a lot about creating that bandwidth for the team to innovate and experiment and carving that time out, but also being okay that not every experiment is going to be successful."
+  ],
+  "retained_complete_transcript": false,
+  "retrieval_method": "full public transcript manual audit via GitHub citation",
+  "retrieved_at": "2026-07-12T09:34:39Z",
+  "rights_note": "The full public transcript was audited; only two bounded, separated guest passages are retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "episode",
+  "stable_id": "podcasts-lenny-f10s3rxKaJw",
+  "status": "accepted",
+  "title": "The future of AI in software development | Inbal Shani (CPO of GitHub)",
+  "transcript_available": true,
+  "transcript_source": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/main/episodes/inbal-s/transcript.md"
+}

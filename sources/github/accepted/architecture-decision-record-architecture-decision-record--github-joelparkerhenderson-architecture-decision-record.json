@@ -1,0 +1,41 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://github.com/architecture-decision-record/architecture-decision-record",
+  "content_sha256": "f982ea630419c2eb0ff653596446ed7e6c076cef3ba45b0a56116f4403a9765a",
+  "creator": "architecture-decision-record",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "full repository README",
+      "text": "reates needs for more smaller decisions. - Include any after-action review processes. It's typical for teams to review each ADR one month later, to compare the ADR information with what's happened in actual practice, in order to learn and grow. A new ADR may take the place of a previous ADR: - When an AD is made that replaces or invalidates a previous ADR, then a new ADR should be created ## ADR example templates ADR example templates that we have collected on the net: - [ADR template by Michael Nygard](locales/en/templates/decision-record-template-by-michael-nygard/) (simple and popular) - [ADR template by Jeff Tyree and Art Akerman](locales/en/templates/decision-record-"
+    }
+  ],
+  "organizational_mechanism": "A new ADR may take the place of a previous ADR: - When an AD is made that replaces or invalidates a previous ADR, then a new ADR should be created ## ADR example templates ADR example templates that we have collected on the net: - [ADR template by Michael Nygard](locales/en/templates/decision-record",
+  "platform": "github",
+  "provenance": "GitHub metadata and full README manually audited for architecture-decision-record/architecture-decision-record.",
+  "published_date": "2016-10-18",
+  "publisher": "GitHub",
+  "query_ids": [
+    "manual-full-readme-audit-2026-07-12"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "A new ADR may take the place of a previous ADR: - When an AD is made that replaces or invalidates a previous ADR, then a new ADR should be created ## ADR example templates ADR example templates that we have collected on the net: - [ADR template by Michael Nygard](locales/en/templates/decision-record"
+  ],
+  "repository": {
+    "full_name": "architecture-decision-record/architecture-decision-record",
+    "last_push": "2026-07-08T17:25:31Z",
+    "license": "NOASSERTION",
+    "stars_at_retrieval": 16408
+  },
+  "retrieval_method": "manual full-README audit via GitHub CLI API",
+  "retrieved_at": "2026-07-12T09:34:52Z",
+  "rights_note": "GitHub reports NOASSERTION; only a bounded exact mechanism passage is retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-joelparkerhenderson-architecture-decision-record",
+  "status": "accepted",
+  "title": "architecture-decision-record/architecture-decision-record"
+}

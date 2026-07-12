@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/yf-he/EvoTest",
+  "content_sha256": "be730b8889675a4feb0d9a3b23514608ffd442b4a6112730e1cad21cfbecf6ec",
+  "creator": "yf-he",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "EvoTest: Evolutionary Test-Time Learning for Self-Improving Agentic Systems (ICLR'26) ## EVOTEST: Evolutionary Test-Time Learning for Self-Improving Agentic Systems EVOTEST is an evolutionary test-time learning framework that improves an agent across episodes without gradients or fine-tuning. It evolves the entire agentic system between attempts by rewriting prompts, updating cross-episode memory, tuning hyperparameters, and refining tool-use routines. This repository also provides J-TTL (Jericho Test-Time Learning), a benchmark setting where an agent plays the same text adventure game for multiple consecutive"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository yf-he/EvoTest; discovered by github-repos-06.",
+  "published_date": "2025-10-08",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-06"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "yf-he/EvoTest",
+    "last_push": "2025-11-03T11:44:57Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stars_at_retrieval": 22
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:40:00Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'mit', 'name': 'MIT License', 'url': 'https://api.github.com/licenses/mit'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-yf-he-evotest",
+  "status": "rejected",
+  "title": "yf-he/EvoTest"
+}

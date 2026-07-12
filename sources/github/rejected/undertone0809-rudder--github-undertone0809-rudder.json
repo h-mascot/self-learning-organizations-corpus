@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/Undertone0809/rudder",
+  "content_sha256": "1a29a711eb8e98386dc8e75ca86877320c8ebec619d7c2ed70f0030097ce1041",
+  "creator": "Undertone0809",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "Open-source local Agent orchestration for self-improving agent teams: run agents, review work, and turn feedback into reusable skills. # Rudder > Build your self-improving Agent Team. Agents that think, build, play, and learn from real work. [Website](https://rudderhq.dev) | [Docs](https://docs.rudderhq.dev) Rudder turns goals, issues, agent runs, reviews, and feedback into a work loop for agent teams. It gives humans and agents a shared operating structure for assigning work, running agents, reviewing outputs, controlling spend, and preserving the lessons that should make the next run better. Rudder began as a"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository Undertone0809/rudder; discovered by github-repos-06.",
+  "published_date": "2026-03-30",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-06"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "Undertone0809/rudder",
+    "last_push": "2026-07-12T08:34:02Z",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "url": "https://api.github.com/licenses/apache-2.0"
+    },
+    "stars_at_retrieval": 227
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:50Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'apache-2.0', 'name': 'Apache License 2.0', 'url': 'https://api.github.com/licenses/apache-2.0'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-undertone0809-rudder",
+  "status": "rejected",
+  "title": "Undertone0809/rudder"
+}

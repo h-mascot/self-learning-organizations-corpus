@@ -1,0 +1,44 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.youtube.com/watch?v=AlTQ6O2qooI",
+  "content_sha256": "bff9553e4cfc2a4bd4b5d6fae1a8a528d158571e486afd60a6ac299d8ea25958",
+  "creator": "Dan Hockenmaier",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "transcript_excerpt",
+      "locator": "full transcript at (00:17:04)",
+      "text": "Dan Hockenmaier (00:17:04): tart there and start iterating on the model. And I think this process of where you have leverage to move it is very hard to intuit. So I think you just have to start and there's a feedback loop between what kind of gains the team is putting up and how that impacts your model and over the course of multiple quarters of iterating on this, you build much more intuition for what works."
+    },
+    {
+      "kind": "transcript_excerpt",
+      "locator": "full transcript at (00:45:33)",
+      "text": "Dan Hockenmaier (00:45:33): But I've learned over and over and over that that's actually not the main thing. It's who can deliver an incredible end-to-end customer experience first, even if for a smaller number of customers. Because that's what creates the flame where actually customers are really loving it, retained, talking about it, and you can then expand from there. So the other big learning from expanding a marketplace is don't let go to market get too far ahead of product. You need to keep those two pieces in lockstep as you're expanding."
+    }
+  ],
+  "media_format": "podcast_episode",
+  "platform": "podcasts",
+  "provenance": "Full transcript audited at ChatPRD/lennys-podcast-transcripts/dan-hockenmaier; original video ID AlTQ6O2qooI.",
+  "published_date": "2022-10-09",
+  "publisher": "Lenny's Podcast",
+  "query_ids": [
+    "manual-full-transcript-audit-2026-07-12"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "So I think you just have to start and there's a feedback loop between what kind of gains the team is putting up and how that impacts your model and over the course of multiple quarters of iterating on this, you build much more intuition for what works.",
+    "So the other big learning from expanding a marketplace is don't let go to market get too far ahead of product."
+  ],
+  "retained_complete_transcript": false,
+  "retrieval_method": "full public transcript manual audit via GitHub citation",
+  "retrieved_at": "2026-07-12T09:34:39Z",
+  "rights_note": "The full public transcript was audited; only two bounded, separated guest passages are retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "episode",
+  "stable_id": "podcasts-lenny-AlTQ6O2qooI",
+  "status": "accepted",
+  "title": "Developing a growth model + marketplace growth strategy | Dan Hockenmaier",
+  "transcript_available": true,
+  "transcript_source": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/main/episodes/dan-hockenmaier/transcript.md"
+}

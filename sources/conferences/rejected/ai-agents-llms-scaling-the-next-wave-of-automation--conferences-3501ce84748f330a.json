@@ -1,0 +1,37 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://www.infoq.com/presentations/llm-ai-agents/",
+  "content_sha256": "a452cf7c2413ad56b288b25a8797227cfecea3157b098cff2a3e75ecc8709eaa",
+  "creator": "Unknown speaker",
+  "date_precision": "unknown",
+  "event_proof": {
+    "duration_or_media_observed": true,
+    "publisher": "InfoQ",
+    "recorded_marker_observed": false
+  },
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "InfoQ presentation transcript/summary",
+      "text": "**Hien Luu**: It's good to establish some kind of a baseline. Initially, when I learned about AI agents probably about a year ago from Andrew Ng, he introduced that, I got really confused. Like, what does it mean? The term, it's hard to digest in terms of what it encompasses and stuff like that. For me, after reading a lot of blogs, learning, whatever, the thing that really helped me understand is really step back and really understand the term, what is agentic or the agentic part of AI really means in terms of its own definition. I looked it up and according to the dictionary, it says like, the ability to act independently and achieve outcomes through self-directed actio"
+    }
+  ],
+  "platform": "conferences",
+  "provenance": "InfoQ presentation page with recorded-event marker, speaker attribution, and bounded source excerpt.",
+  "published_date": null,
+  "publisher": "InfoQ",
+  "query_ids": [
+    "review-infoq-continuous-improvement"
+  ],
+  "rejection_reason": "Independent review found no sufficient event/talk/proceeding proof in the retained record.",
+  "relevance_evidence": [],
+  "retrieval_method": "agent-reach/Jina public publisher page",
+  "retrieved_at": "2026-07-12T09:10:03Z",
+  "rights_note": "Only a bounded excerpt from the publisher presentation page is retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "talk",
+  "stable_id": "conferences-3501ce84748f330a",
+  "status": "rejected",
+  "title": "AI Agents & LLMs: Scaling the Next Wave of Automation"
+}

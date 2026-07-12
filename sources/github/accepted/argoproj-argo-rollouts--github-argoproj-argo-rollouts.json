@@ -1,0 +1,41 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://github.com/argoproj/argo-rollouts",
+  "content_sha256": "f8983707f38dcb2f7d2dde8c4359d626af269ea54cba9e04de0c08972fb9570a",
+  "creator": "argoproj",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "full repository README",
+      "text": "ernetes-using-argo-rollouts-992fb9519969) * [Progressive Application Delivery with GitOps on Red Hat OpenShift](https://www.youtube.com/watch?v=DfeL7cdTx4c) * [Progressive delivery for Kubernetes Config Maps using Argo Rollouts](https://codefresh.io/blog/progressive-delivery-for-kubernetes-config-maps-using-argo-rollouts/) * [Multi-Service Progressive Delivery with Argo Rollouts](https://codefresh.io/blog/multi-service-progressive-delivery-with-argo-rollouts/) * [Progressive Delivery for Stateful Services Using Argo Rollouts](https://codefresh.io/blog/progressive-delivery-for-stateful-services-using-argo-rollouts/)"
+    }
+  ],
+  "organizational_mechanism": "ernetes-using-argo-rollouts-992fb9519969) * [Progressive Application Delivery with GitOps on Red Hat OpenShift](https://www.youtube.com/watch?v=DfeL7cdTx4c) * [Progressive delivery for Kubernetes Config Maps using Argo Rollouts](https://codefresh.io/blog/progressive-delivery-for-kubernetes-config-ma",
+  "platform": "github",
+  "provenance": "GitHub metadata and full README manually audited for argoproj/argo-rollouts.",
+  "published_date": "2018-11-17",
+  "publisher": "GitHub",
+  "query_ids": [
+    "manual-full-readme-audit-2026-07-12"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "ernetes-using-argo-rollouts-992fb9519969) * [Progressive Application Delivery with GitOps on Red Hat OpenShift](https://www.youtube.com/watch?v=DfeL7cdTx4c) * [Progressive delivery for Kubernetes Config Maps using Argo Rollouts](https://codefresh.io/blog/progressive-delivery-for-kubernetes-config-ma"
+  ],
+  "repository": {
+    "full_name": "argoproj/argo-rollouts",
+    "last_push": "2026-07-07T16:58:46Z",
+    "license": "Apache-2.0",
+    "stars_at_retrieval": 3516
+  },
+  "retrieval_method": "manual full-README audit via GitHub CLI API",
+  "retrieved_at": "2026-07-12T09:35:01Z",
+  "rights_note": "GitHub reports Apache-2.0; only a bounded exact mechanism passage is retained.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-argoproj-argo-rollouts",
+  "status": "accepted",
+  "title": "argoproj/argo-rollouts"
+}

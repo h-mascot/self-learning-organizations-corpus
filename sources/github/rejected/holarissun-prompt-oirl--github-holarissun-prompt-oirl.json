@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/holarissun/Prompt-OIRL",
+  "content_sha256": "b1bc85d036f485391ea74367191d81e0c567b1b088fd51c802e090155f242832",
+  "creator": "holarissun",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "code for paper Query-Dependent Prompt Evaluation and Optimization with Offline Inverse Reinforcement Learning # 🪄 Prompt-OIRL: Learning to Prompt LLMs with Expert Knowledge (Known Magic Words 🧙) ### 💻 Implementation and 📒 tutorial for ICLR 2024 paper ![Image](prompt-oirl-title.png) - [Paper Link](https://arxiv.org/pdf/2309.06553.pdf) - [Open Review Link](https://openreview.net/forum?id=N6o0ZtPzTg) ## 🔥 News - (2024.2) (Internal Code-Reviewing) Code with GPT3.5 and TigerBot to be released. - (2024.1) Prompt-OIRL has been accepted by ICLR'2024. We look forward to talking with you in Vienna! - (2024.12) Prompt-OIRL"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository holarissun/Prompt-OIRL; discovered by github-repos-07.",
+  "published_date": "2023-09-10",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-07"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "holarissun/Prompt-OIRL",
+    "last_push": "2024-03-20T11:41:36Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stars_at_retrieval": 45
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:40:03Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'mit', 'name': 'MIT License', 'url': 'https://api.github.com/licenses/mit'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-holarissun-prompt-oirl",
+  "status": "rejected",
+  "title": "holarissun/Prompt-OIRL"
+}

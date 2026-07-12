@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/Asaf-Yehudai/LLM-Agent-Evaluation-Survey",
+  "content_sha256": "543ff7c73c386fad1e6cb9473eccb6708ed2661162d06d67c17ea20051e229f1",
+  "creator": "Asaf-Yehudai",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "Top papers related to LLM-based agent evaluation <div align=\"center\"> <h1>Evaluation of LLM-based Agents: A Reading List</h1> </div> <div align=\"center\"> Based on the Survey Paper: <br /> <b>Survey on Evaluation of LLM-based Agents</b> (arXiv 2025) </div> <div align=\"center\"> <b>Asaf Yehudai¹², Lilach Eden², Alan Li³, Guy Uziel², Yilun Zhao³, Roy Bar-Haim², Arman Cohan³, Michal Shmueli-Scheuer²</b><br /> <small>¹The Hebrew University of Jerusalem | ²IBM Research | ³Yale University</small> </div> <br /> <div align=\"center\"> <!-- === UPDATE LINKS === --> <a href=\"https://arxiv.org/abs/2503.16416\"><img"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository Asaf-Yehudai/LLM-Agent-Evaluation-Survey; discovered by github-repos-03.",
+  "published_date": "2025-04-28",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-03"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "Asaf-Yehudai/LLM-Agent-Evaluation-Survey",
+    "last_push": "2025-10-21T21:23:38Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stars_at_retrieval": 98
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:22Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'mit', 'name': 'MIT License', 'url': 'https://api.github.com/licenses/mit'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-asaf-yehudai-llm-agent-evaluation-survey",
+  "status": "rejected",
+  "title": "Asaf-Yehudai/LLM-Agent-Evaluation-Survey"
+}

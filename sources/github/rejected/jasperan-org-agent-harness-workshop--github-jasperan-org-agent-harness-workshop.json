@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/jasperan-org/agent-harness-workshop",
+  "content_sha256": "a244d0931e69312f440b7f1df03f33d21fee2ebb0701c54b8ab7e73b6feb95ea",
+  "creator": "jasperan-org",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "Total Recall: build a self-improving agent harness on Oracle AI Database 26ai, with Grok on OCI. Hands-on workshop (student + instructor notebooks, Codespaces-ready). # Total Recall — Agent Harness Workshop [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?repo=1280760538&ref=main&machine=standardLinux32gb&location=WestUs2&devcontainer_path=.devcontainer/devcontainer.json) Build a **self-improving agent harness** from the ground up on a single **Oracle AI Database** — and watch the same harness running in your browser as you build it. The agent persists its"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository jasperan-org/agent-harness-workshop; discovered by github-repos-06.",
+  "published_date": "2026-06-25",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-06"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "jasperan-org/agent-harness-workshop",
+    "last_push": "2026-06-28T22:36:54Z",
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "stars_at_retrieval": 15
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:40:01Z",
+  "rights_note": "Repository license reported by GitHub: {'key': '', 'name': '', 'url': ''}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-jasperan-org-agent-harness-workshop",
+  "status": "rejected",
+  "title": "jasperan-org/agent-harness-workshop"
+}

@@ -1,0 +1,33 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://openlibrary.org/works/OL29311605W",
+  "content_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "creator": "Bruce Robertson; Valentin Sribar",
+  "date_precision": "year",
+  "evidence": [],
+  "identifiers": {
+    "catalog_id": "OL29311605W",
+    "isbn": [
+      "9780971288720",
+      "0971288720"
+    ]
+  },
+  "platform": "books",
+  "provenance": "Public bibliographic record OL29311605W; discovered by openlibrary-books-09.",
+  "published_date": "2004-01-01",
+  "publisher": "Intel Press",
+  "query_ids": [
+    "openlibrary-books-09"
+  ],
+  "rejection_reason": "Metadata did not establish topical relevance.",
+  "relevance_evidence": [],
+  "retrieval_method": "Open Library public Search API",
+  "retrieved_at": "2026-07-12T08:38:29Z",
+  "rights_note": "Bibliographic metadata and at most a bounded publisher/API description are stored; no book text is copied.",
+  "rights_status": "metadata-only",
+  "schema_version": 2,
+  "source_type": "book",
+  "stable_id": "books-google-OL29311605W",
+  "status": "rejected",
+  "title": "Adaptive Enterprise, The"
+}

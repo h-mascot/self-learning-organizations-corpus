@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://github.com/customer-stories/amd",
+  "content_sha256": "a00d45fe4695ba4bec217160475b148c25dd992bbd24022205186e20141e8c9a",
+  "creator": "github.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "publisher body text",
+      "text": "This confidence is enabling a more ambitious vision: self-healing software where AI agents detect defects in the field, understand the root cause, propose a fix, and surface it for review before users ever notice a problem. \"I've seen one agent looking at the defect ticket, another agent looking at the code making the fix, another agent testing the code,\" says Galvez. \"If all of these agents work hand in hand, you effectively have an autonomous ecosystem.\""
+    }
+  ],
+  "platform": "case-studies",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-case-studies.",
+  "published_date": null,
+  "publisher": "github.com",
+  "query_ids": [
+    "citation-catalog-case-studies"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The retained publisher-authored passage describes a concrete learning, feedback, evaluation, adaptation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:35Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "case-study",
+  "stable_id": "case-studies-f05c072c51b3d942",
+  "status": "accepted",
+  "title": "AMD · GitHub"
+}

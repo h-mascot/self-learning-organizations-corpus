@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.anthropic.com/customers/jakala",
+  "content_sha256": "54791c944bd6e004e0e394c0958f761dde27976653c8dbac38a4e0d5145f74e1",
+  "creator": "anthropic.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "publisher body text",
+      "text": "These pressures showed up most concretely inside JAKALA's Activation business, which runs media, campaign, and engagement delivery for global clients. Senior planners on multi-market accounts were spending 40 to 60 percent of the week assembling data, building reports, and stress-testing hypotheses rather than making decisions. A complete optimization loop on a complex multi-channel account took 5 to 7 working days, including pulling data from 8 to 12 systems, hand-consolidating it in business intelligence tools, running scenarios, building a deck, and presenting it to the client. Each iteration set the upper limit on how fast ROI could improve. JAKALA wanted that time sp"
+    }
+  ],
+  "platform": "case-studies",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-case-studies.",
+  "published_date": null,
+  "publisher": "anthropic.com",
+  "query_ids": [
+    "citation-catalog-case-studies"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The retained publisher-authored passage describes a concrete learning, feedback, evaluation, adaptation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:42:50Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "case-study",
+  "stable_id": "case-studies-acbb152db3e3afa2",
+  "status": "accepted",
+  "title": "JAKALA Claude case study | Claude by Anthropic"
+}
