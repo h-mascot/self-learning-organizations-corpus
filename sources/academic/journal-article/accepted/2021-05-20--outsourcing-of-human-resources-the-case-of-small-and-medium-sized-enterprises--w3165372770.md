@@ -1,0 +1,445 @@
+---
+academic_schema_version: 1
+stable_id: "openalex:W3165372770"
+openalex_id: "W3165372770"
+doi: "10.3390/merits1010003"
+arxiv_id: ""
+title: "Outsourcing of Human Resources: The Case of Small- and Medium-Sized Enterprises"
+authors: ["Ingi Rúnar Eðvarðsson", "Guðmundur Kristján Óskarsson"]
+publisher: "Merits"
+published_date: "2021-05-20"
+canonical_url: "https://doi.org/10.3390/merits1010003"
+source_type: "journal-article"
+lifecycle: "accepted"
+relevance_status: "relevant"
+relevance_reason: "Title/abstract directly connects an organizational unit or business context with learning, knowledge, adaptation, innovation, or improvement."
+relevance_terms: ["companies", "enterprises", "firms", "management", "smes", "knowledge", "transfer"]
+artifact_level: "full_text"
+rights_status: "open-license"
+rights_license: "cc-by"
+rights_holder: "Merits"
+retrieved_at: "2026-07-12T08:10:07+00:00"
+provenance: "OpenAlex W3165372770 API metadata plus preserved legacy evidence"
+open_full_text_url: "https://www.mdpi.com/2673-8104/1/1/3/pdf?version=1621484347"
+duplicate_of: null
+rejection_reason: null
+legacy_path: "sources/arxiv/2021--outsourcing-of-human-resources-the-case-of-small-and-medium-sized-enterprises--ingi-r-nar-e-var-sson--w3165372770.md"
+legacy_sha256: "96e40c587a67fb4f85e3885b9e8d92e6ec963393cc762a349e61e544568a611d"
+content_sha256: "ee4cf97ee23a21f67f36841712be8ab2846ffcd0e7cf653f4ec8bc703f1930e7"
+---
+# Outsourcing of Human Resources: The Case of Small- and Medium-Sized Enterprises
+
+## Relevance decision
+
+Title/abstract directly connects an organizational unit or business context with learning, knowledge, adaptation, innovation, or improvement.
+
+## Preserved evidence
+
+The outsourcing of human resources has increased in recent years. As in other fields of management research, limited knowledge is available on outsourcing in small- and medium-sized enterprises (SMEs). The aim of this paper is to present a study on the outsourcing of human resources in Icelandic service SMEs in the period 2009–2018. Surveys were used to gather information on outsourcing, with the participation of 802 firms. The results show that three out of four firms have outsourced some activities, while only 21% have formulated a formal strategy for outsourcing. The main motives for outsourcing are accessing expertise and simplifying operations. Cost reduction comes in third place. SMEs tend to outsource human resources on a very limited scale, while 50% of firms outsource information technology and 39% outsource security services. Larger firms outsource human resources on a larger scale than smaller firms. Managers in companies that outsource human resources are more satisfied with many aspects of outsourcing compared to those managers who do not outsource those resources. Firms that outsource human resources also realise more actual cost reduction. Outsourcing in SMEs has little impact on employment, as 3% of firms lay off staff and 6% transfer staff to vendors. Larger firms and firms that outsource human resources are more likely to change their staff’s employment status after outsourcing.
+
+## Legally retrieved full text
+
+Title: Outsourcing of Human Resources: The Case of Small- and Medium-Sized Enterprises
+
+URL Source: https://doi.org/10.3390/merits1010003
+
+Published Time: 2021-05-20
+
+Markdown Content:
+## 1. Introduction
+
+Human resources, especially employees’ skills and knowledge, are frequently acknowledged to play an important part in establishing the competitive advantage of firms [[1](https://doi.org/10.3390/merits1010003#B1-merits-01-00003),[2](https://doi.org/10.3390/merits1010003#B2-merits-01-00003),[3](https://doi.org/10.3390/merits1010003#B3-merits-01-00003)]. While there is no generally accepted definition of human resource management (HRM), Beardwell and Clark [[4](https://doi.org/10.3390/merits1010003#B4-merits-01-00003)] (p. 4) provide a broad definition: “Human resource management refers to a collection of policies used to organise work in the employment relationship and centers on the management of work and the management of people who undertake this work.” Therefore, human resource management encompasses the administration of employees in companies, such as the selection and hiring of staff, training, performance management, payroll, and termination. Given the central role of HRM in companies and even in their competitive standing, one may ask why companies outsource; that is, buy-in products or services provided by a third party [[5](https://doi.org/10.3390/merits1010003#B5-merits-01-00003)]. The literature indicates that there might be four reasons. First, there is an attempt to lower costs in general or to reduce indirect costs, for example by reducing the number of employees, simplifying organisational structure, or applying stricter cost control [[6](https://doi.org/10.3390/merits1010003#B6-merits-01-00003),[7](https://doi.org/10.3390/merits1010003#B7-merits-01-00003),[8](https://doi.org/10.3390/merits1010003#B8-merits-01-00003),[9](https://doi.org/10.3390/merits1010003#B9-merits-01-00003)]. Second, in light of rising international competition, companies aim to focus on core competencies that are scarce, treasured resources and difficult for other companies to imitate. Companies are advised to concentrate on such resources and keep them in-house, while other non-core, low value-added resources are well-suited for outsourcing [[1](https://doi.org/10.3390/merits1010003#B1-merits-01-00003),[7](https://doi.org/10.3390/merits1010003#B7-merits-01-00003),[9](https://doi.org/10.3390/merits1010003#B9-merits-01-00003),[10](https://doi.org/10.3390/merits1010003#B10-merits-01-00003),[11](https://doi.org/10.3390/merits1010003#B11-merits-01-00003)]. Third, there are mimetic forces that managers take into account when facing high ambiguity. In such circumstances, there is a tendency to replicate other organisations that seem to cope with uncertainty. Accordingly, in recent years, organisations have adopted management practices such as outsourcing, reengineering, and the balanced scorecard without clear evidence of their effectiveness [[12](https://doi.org/10.3390/merits1010003#B12-merits-01-00003),[13](https://doi.org/10.3390/merits1010003#B13-merits-01-00003)]. Fourth, demand uncertainty contributes to outsourcing of human resources, as labour costs can be limited in times of low demand, and increased by contracting other firms when demand rises [[9](https://doi.org/10.3390/merits1010003#B9-merits-01-00003),[14](https://doi.org/10.3390/merits1010003#B14-merits-01-00003)].
+
+HRM outsourcing has risen in Western countries in recent decades, especially in the US [[2](https://doi.org/10.3390/merits1010003#B2-merits-01-00003),[15](https://doi.org/10.3390/merits1010003#B15-merits-01-00003),[16](https://doi.org/10.3390/merits1010003#B16-merits-01-00003),[17](https://doi.org/10.3390/merits1010003#B17-merits-01-00003)]. Similar trends can be found in Vietnam, Taiwan, and other Asian countries [[9](https://doi.org/10.3390/merits1010003#B9-merits-01-00003),[18](https://doi.org/10.3390/merits1010003#B18-merits-01-00003)]. The reasons given for outsourcing human resources are primarily to reduce cost, lack of HRM expertise, to gain specialised and sophisticated services, and to increase firm performance [[9](https://doi.org/10.3390/merits1010003#B9-merits-01-00003),[15](https://doi.org/10.3390/merits1010003#B15-merits-01-00003),[18](https://doi.org/10.3390/merits1010003#B18-merits-01-00003)]. The HR functions that have been outsourced are recruitment and selection, skill development and training, payroll and benefits, performance assessment, workforce redundancies, law and regulations, and retirement schemes [[15](https://doi.org/10.3390/merits1010003#B15-merits-01-00003),[16](https://doi.org/10.3390/merits1010003#B16-merits-01-00003),[19](https://doi.org/10.3390/merits1010003#B19-merits-01-00003),[20](https://doi.org/10.3390/merits1010003#B20-merits-01-00003),[21](https://doi.org/10.3390/merits1010003#B21-merits-01-00003),[22](https://doi.org/10.3390/merits1010003#B22-merits-01-00003)].
+
+The needs of small and large businesses differ regarding HRM outsourcing. Small businesses tend to buy in HRM functions from outside contractors, and they are likely to look for simple and standardised services. In middle-sized companies, HRM departments cover most of their common HRM commitments, and they tend to outsource basic HRM services. However, big firms outsource primarily sophisticated and innovative HRM services, while multinational companies are inclined to cover all HRM services in-house [[15](https://doi.org/10.3390/merits1010003#B15-merits-01-00003)]. Sheeshan [[21](https://doi.org/10.3390/merits1010003#B21-merits-01-00003)] argues, in contrast, that it is mainly big firms that tend to outsource HR functions, as increased company size brings more human resource challenges. In SMEs, direct observation of employee behaviour, ongoing communication between the manager and employees, and a detailed definition of duties are often used instead of the human resource function [[23](https://doi.org/10.3390/merits1010003#B23-merits-01-00003)]. Consequently, SMEs have mainly outsourced services such as payroll and employee benefits, and insurance [[2](https://doi.org/10.3390/merits1010003#B2-merits-01-00003)].
+
+There seems to be a lack of knowledge on outsourcing in SMEs, as few studies have been conducted on the subject. There are studies on offshoring, HRM, service firms, the footwear industry, and broadband use [[6](https://doi.org/10.3390/merits1010003#B6-merits-01-00003),[15](https://doi.org/10.3390/merits1010003#B15-merits-01-00003),[21](https://doi.org/10.3390/merits1010003#B21-merits-01-00003),[24](https://doi.org/10.3390/merits1010003#B24-merits-01-00003),[25](https://doi.org/10.3390/merits1010003#B25-merits-01-00003),[26](https://doi.org/10.3390/merits1010003#B26-merits-01-00003)].
+
+In order to add to the knowledge on outsourcing in SMEs, this paper will present a study on the outsourcing of human resources in Icelandic service SMEs during the period 2009–2018. The paper seeks to answer the following research questions: (1) What is the extent of the outsourcing of human resources? (2) What are the motives for the outsourcing of human resources? (3) How does firm size affect the outsourcing of human resources? (4) How does outsourcing of human resources affect cost in SMEs? (5) How does the outsourcing of human resources affect employment?
+
+In the next section, research methods, and data analysis are presented, followed by a review of the study results, discussion, and conclusions.
+
+## 2. Materials and Methods
+
+The aim of the study was to analyse the general pattern of outsourcing in Icelandic service firms and thus a descriptive and analytical research design was selected [[27](https://doi.org/10.3390/merits1010003#B27-merits-01-00003)]. As relatively few firms outsource HRM activities, three surveys were merged. The surveys were conducted in 2009, 2013, and 2018. The first survey was a telephone survey, the second a mixture of a telephone and online survey, while the last was based on an online survey only. The managers of firms or their deputies were sent the surveys and asked to answer questions about outsourcing in their firms. The three surveys provide a useful opportunity to measure changes over time and to test, for instance, whether the financial crisis in 2008 had an impact on outsourcing patterns, by comparing the 2009 and 2013 surveys.
+
+### 2.1. The Sample and Selection Criteria
+
+In the surveys conducted in 2009 and 2013, the samples were received from the Internal Revenue Directorate in Iceland. The firm Creditinfo, which specialises in information on Icelandic companies, provided the sample in 2018. A stratified random sample was used in all three cases. The selection criteria were the size of the firm, industry, and location within Iceland (50% in the capital area, the remainder throughout Iceland). In addition, for inclusion in the sample, firms had to be classified as service firms according to an economic activity classification (the Icelandic version of NACE) and had to have five employees or more. The final sample of the 2009 study consisted of 484 firms, and 397 responses were returned (82% response rate). In 2013, the revised final sample consisted of 392 firms, and 220 responses were returned (55% response rate). In 2018, the sample consisted of 500 companies, of which 185 replied (37.1% response rate). In this paper, the analysis is based on responses from 802 firms, collected as outlined above.
+
+### 2.2. The Research Instrument
+
+The research instrument was based mainly on Kadabadse and Kadabadse’s [[11](https://doi.org/10.3390/merits1010003#B11-merits-01-00003)] paper and a questionnaire designed by Edvardsson and Sigurdardottir [[28](https://doi.org/10.3390/merits1010003#B28-merits-01-00003)] after interviewing 10 managers and specialists on the subject in Iceland.
+
+Slight changes were made to the questionnaire after it was pilot tested in four companies. These were primarily related to concept clarity and whether more options were needed.
+
+The questionnaire was made up of 25 questions that dealt with outsourcing; which activities are outsourced, whether the firm has a strategy on outsourcing, the reason for outsourcing, cost reduction and other benefits of outsourcing, and the impact of outsourcing on employment. These questions were mostly nominal scale. Later in the questionnaire, managers were requested to share their opinions on eight propositions regarding their experience on a five-point Likert scale. The questionnaire also included background variables such as size, location, corporate profit, managers’ education, gender, and age. Replying to questions regarding age, number of employees, and turnover, the respondents referred to the actual number written in the database by the interviewees responsible for data collection.
+
+As regards the analysis in this paper, it has to be pointed out that the questionnaire was mainly based on the paper by Kadabadse and Kadabadse [[11](https://doi.org/10.3390/merits1010003#B11-merits-01-00003)]. Thus, very few HRM outsourcing aspects were collected, namely, HRM, training, payroll, and consultation. That offers limited insights, but it can nonetheless give some information on the outsourcing pattern of Icelandic SMEs.
+
+### 2.3. Data Analysis
+
+Data were analysed using the Statistical Package for the Social Sciences (SPSS 22.0). Descriptive statistics, Chi-square test, and Mann–Whitney U test were used in the ana-lyses.
+
+A p-value of 0.05 was considered statistically significant. A p-value less than 0.001 was reported as <0.001.
+
+### 2.4. Hypotheses
+
+From the theoretical observations in the introduction, we hypothesise the following:
+
+**Hypothesis****1****(H1).**
+
+Smaller firms tend to outsource primarily to increase expertise in their field of operation.
+
+**Hypothesis****2****(H2).**
+
+Smaller firms tend to outsource primarily to simplify operations.
+
+**Hypothesis****3****(H3).**
+
+Smaller firms tend to outsource mainly standardised HRM functions, such as payroll.
+
+**Hypothesis****4****(H4).**
+
+Larger firms tend to outsource more HRM functions than smaller firms.
+
+**Hypothesis****5****(H5).**
+
+Managers in firms that outsource HRM functions are more satisfied with the benefits of outsourcing than other managers.
+
+**Hypothesis****6****(H6).**
+
+Firms that outsource HRM functions realise more cost reduction.
+
+**Hypothesis****7****(H7).**
+
+Given the central role of employees in small businesses, they tend not to lay off staff as a consequence of outsourcing.
+
+**Hypothesis****8****(H8).**
+
+Large companies will lay off staff or transfer staff to clients as a consequence of outsourcing.
+
+**Hypothesis****9****(H9).**
+
+SMEs that outsource HRM tend to lay off staff or transfer staff to clients as a consequence of outsourcing.
+
+### 2.5. SMEs Definition
+
+In this study, we use the European Union’s (2005) definition of small- and medium-sized enterprises. Accordingly, micro firms have fewer than 10 staff members and a maximum revenue of €2 million, small businesses are those with 10–49 staff members and a revenue of less than €10 million, and medium-sized firms have 50–250 staff members and a maximum revenue of €50 million.
+
+## 3. Results
+
+The findings of the research will be presented in this section of the paper. Here, we will look into the extent of outsourcing, whether the firms have formulated a strategy for outsourcing, and what activities are outsourced. Additionally, the motives for outsourcing are presented as well as the benefits. The section ends by looking at the impact of outsourcing on employment.
+
+### 3.1. The Firms in the Surveys
+
+[Table 1](https://doi.org/10.3390/merits1010003#table_body_display_merits-01-00003-t001) presents the classification of firms in the surveys according to the NACE classification and the average number of employees. The table reveals that firms in wholesale and related activities were most numerous in the surveys, followed by real estate and business activities and hotels and restaurants. The average number of employees in the firms was 52 when all the firms in the surveys were counted, but 40.7 if four companies with more than 1000 employees were excluded. The median number of employees was 10.
+
+**Table 1.** Firms; classification in accordance with Icelandic classification of NACE.
+
+### 3.2. The Extent of Outsourcing and Outsourcing Strategy
+
+The study’s findings show that 74.8% of the firms (600) had outsourced some service activities in the past three years before the survey was conducted. They outsourced mostly in the local market. [Table 2](https://doi.org/10.3390/merits1010003#table_body_display_merits-01-00003-t002) shows that larger firms tend to outsource more than other firms (p ≤ 0.001). Similar patterns were found in all three surveys (2009, 2013, and 2018).
+
+**Table 2.** Firm size and outsourcing (n = 802, missing values 55).
+
+A minority of the outsourcing firms in the survey, or 21%, had formulated a strategy on outsourcing, and there was no difference based on the size of firms (p = 0.309).
+
+### 3.3. Motives for Outsourcing and Outsourced Activities
+
+In total, 45.7% of the firms in the study used outsourcing to increase expertise in their field of operation and 43.0% in order to simplify operations. Cost reduction was in third place (see [Table 3](https://doi.org/10.3390/merits1010003#table_body_display_merits-01-00003-t003)). Firms with 10–49 employees were more inclined to outsource to reduce costs, simplify operations, look into operational security, minimise investments, and focus on core businesses. The firms that outsourced HRM did so primarily to increase expertise, simplify operations, reduce cost, and focus on core competencies (see [Table 4](https://doi.org/10.3390/merits1010003#table_body_display_merits-01-00003-t004)). Hypotheses 1 and 2 are confirmed.
+
+**Table 3.** Motives for outsourcing and firm size.
+
+**Table 4.** Motives for outsourcing and firm outsourcing HRM (n = 600, missing values 0).
+
+The dataset allows us to look into the effect of the financial crisis in 2008 on the motives for outsourcing. The 2009 survey was conducted in the first months of the year when the impact of the financial crisis was only beginning to be felt, while the 2013 survey was conducted five years after the financial crisis. A pre- and post-effect could thus be measured. In the 2009 survey, the most common reason for outsourcing was to simplify the operation of the firm (42.6%), to increase expert knowledge (36.9%), and to reduce cost (34.7%). In 2013, the motives for outsourcing changed. The respondents mentioned increasing expert knowledge in 51.7% of cases, cost reduction in 41.5%, and simplifying the operation in 35.2%. The financial crisis seems to have motivated managers to use outsourcing to achieve cost reduction on a larger scale than before. In 2018, the results were similar to those of 2009. The motives for outsourcing were simplifying the operation (60.5%), increasing expertise (54.0%), and reducing cost (39.5%).
+
+[Table 5](https://doi.org/10.3390/merits1010003#table_body_display_merits-01-00003-t005) shows, interestingly, that service firms in Iceland outsource human resource-related activities on a very limited scale. Only 5.5% of firms outsource HRM and training, and 17.8% outsource payroll. Hypothesis 3 is partly confirmed. In comparison, 50.2% of firms outsource information technology, and 39% outsource security.
+
+**Table 5.** Outsourced tasks in the survey. Multiple choices allowed (n = 600, missing values 0).
+
+In the remainder of the paper, we will look into those 208 firms that outsource human resource-related tasks (payroll, HRM, training, and consultation) and note whether they have different patterns than those firms that do not outsource HRM. Firms with more than 50 employees were more inclined to outsource HRM activities (see [Table 6](https://doi.org/10.3390/merits1010003#table_body_display_merits-01-00003-t006)), as 46.3% of them outsource, compared to 28.9% of firms with fewer than 10 employees. Hypothesis 4 is confirmed.
+
+**Table 6.** HRM outsourcing and firm size (n = 600, missing values 29).
+
+Outsourcing of HRM activities increased from 30.0% in 2009 to 36.5% in 2013. In 2018, 44.4% of firms outsourced HRM activities, a significant increase from 2009.
+
+### 3.4. Benefits of Outsourcing
+
+The managers were asked to respond to different statements regarding their experience of outsourcing on a five-fold Likert scale. The study results (see [Table 7](https://doi.org/10.3390/merits1010003#table_body_display_merits-01-00003-t007)) indicate that managers in firms that outsource HRM activities are more satisfied with cost reduction in general than those who do not outsource HRM (p = 0.006). The former managed to increase expertise more than the others (p = 0.012), focus more on core competencies (p = 0.002), have more cost discipline/control (0.024), and add more value to their companies (p = 0.042). Hypothesis 5 is confirmed. If we look at the real cost reduction achieved ([Table 8](https://doi.org/10.3390/merits1010003#table_body_display_merits-01-00003-t008)), then the firms that outsource HRM activities realised more cost savings in accounting (p< 0.001), purchase of equipment (p = 0.038), and financial costs (p< 0.001). As it is primarily larger firms that outsource HRM activities, it is no surprise that larger firms achieve more cost reduction in many respects (see [Table 9](https://doi.org/10.3390/merits1010003#table_body_display_merits-01-00003-t009)). Hypothesis 6 is confirmed.
+
+**Table 7.** Mean scores for managers on different statements regarding their experience of outsourcing and HRM outsourcing. (n = 600).
+
+**Table 8.** HRM outsourcing and cost reduction (n = 600, missing values 0).
+
+**Table 9.** Cost reduction and firm size. (n = 600, missing values 29).
+
+In the 2013 survey, managers were more satisfied with most aspects of outsourcing compared to 2009, such as improved service quality, reduced cost, increased expertise, reduced risk, increased service to customers, and focusing more on core competencies. No such difference was noticed between 2013 and 2018.
+
+### 3.5. Human Resources
+
+In many cases, outsourcing can have a major impact on employment and human resources, such as when whole departments or company sectors are outsourced. Consequently, staff are laid off, moved to the vendor firms, or hired on a new contract. [Table 10](https://doi.org/10.3390/merits1010003#table_body_display_merits-01-00003-t010) shows that 90.2% of managers in the survey say that outsourcing has had an insignificant effect on employment, while 2.7% have laid off staff. Hypothesis 7 is confirmed. We can see from [Table 11](https://doi.org/10.3390/merits1010003#table_body_display_merits-01-00003-t011) that it is primarily in firms with more than 50 employees that outsourcing has a significant effect on human resources, or in 20.5% of cases (p = 0.001). In those firms that outsource HRM, the effect on employment is more significant than in firms that do not outsource HRM (p = 0.003) (see [Table 12](https://doi.org/10.3390/merits1010003#table_body_display_merits-01-00003-t012)). Hypothesis 8 and 9 are confirmed.
+
+**Table 10.** The employment impact of outsourcing (n = 600, missing values 47).
+
+**Table 11.** Firm size and employment impact of outsourcing (n = 600, missing values 53).
+
+**Table 12.** HRM outsourcing and effect on employment (n = 600, missing values 47).
+
+When the three surveys are compared it seems that outsourcing had a trivial effect on employment: 89.2% of managers in 2009 and 90.1% in 2013 reported that outsourcing had an insignificant impact on employment. In 2009, 10.1% of firms in the survey had laid off staff or transferred staff to suppliers, compared to 9.9% in 2013. In 2018, 93.4% of firms reported that outsourcing had had very little impact on employment, and 0.9% had laid off staff. It should be mentioned in this context that several of the participating firms had outsourced from the beginning and employment had remained stable for the most part.
+
+## 4. Discussion
+
+This paper aimed to present a study on outsourcing human resources in Icelandic service SMEs in 2009–2018. The paper attempted to answer the following research questions: (1) What is the extent of outsourcing human resources? (2) What are the motives for the outsourcing of human resources? (3) How does firm size affect the outsourcing of human resources? (4) How does outsourcing of human resources affect cost in SMEs? (5) How does the outsourcing of human resources affect employment?
+
+The firms in the study outsourced HRM on a limited scale. Only 5.5% of firms outsourced HRM and training, and 17.8% outsourced payroll. The outsourcing of HRM activities increased after the financial crisis in 2008 and has remained at a high level. This is in line with former research, such as by Sheeshan [[21](https://doi.org/10.3390/merits1010003#B21-merits-01-00003)], which argues that it is mainly larger firms that outsource HRM functions, while, Klass [[2](https://doi.org/10.3390/merits1010003#B2-merits-01-00003)] points out that SMEs mainly outsource payroll and employee benefits. The firms in the study had fewer than 50 employees on average. In such organisations, it is highly uncommon to have human resource managers or HRM departments. Payroll administration and benefits are, then, the responsibility of middle managers and general managers, who feel tempted to outsource such activities.
+
+As the number of employees grows in the firms studied, they tend to outsource more and more HRM functions. About 68.5% of firms with fewer than 10 employees outsource activities in general, while 90.5% of firms with more than 50 employees do so. The same applies to HRM outsourcing; larger firms outsource more than smaller ones. This is because human resource challenges arise with a growing number of employees (Sheeshan (25). At this stage, a human resource manager is more often than not hired to take care of strategic aspects of HRM and tends to outsource basic HRM services [[15](https://doi.org/10.3390/merits1010003#B15-merits-01-00003)].
+
+The firms in the study outsourced on a large scale; three out of four outsource some activities. Given that the majority of the firms had fewer than 50 employees, this can be explained in different ways. First, they outsourced by concentrating on core competencies, as the main reasons for outsourcing were to enhance expertise in their field of operation and simplify operations. Similar results were found among the firms that outsourced HRM activities. They wanted to increase expertise, simplify operations, reduce costs, and focus on core competencies. Core competencies theory gets some support in these findings [[1](https://doi.org/10.3390/merits1010003#B1-merits-01-00003),[7](https://doi.org/10.3390/merits1010003#B7-merits-01-00003),[10](https://doi.org/10.3390/merits1010003#B10-merits-01-00003),[11](https://doi.org/10.3390/merits1010003#B11-merits-01-00003)]. Second, they used outsourcing to lower costs [[6](https://doi.org/10.3390/merits1010003#B6-merits-01-00003),[7](https://doi.org/10.3390/merits1010003#B7-merits-01-00003)]. In the 2013 survey, more emphasis was placed on cost reduction than in 2009, whereas this was not the case in 2018. Third, given SMEs’ resource constraints, they used outsourcing to potentially provide all aspects of production and service processes. Finally, as outsourcing has become a very common practice, mimetic forces can be at play, with managers copying common procedures [[12](https://doi.org/10.3390/merits1010003#B12-merits-01-00003),[13](https://doi.org/10.3390/merits1010003#B13-merits-01-00003)].
+
+The firms that outsource HRM activities have realised more cost savings in HRM services, accounting, purchase of equipment, and financial costs. The reasons might be that such companies concentrate more on cost reduction [[6](https://doi.org/10.3390/merits1010003#B6-merits-01-00003),[7](https://doi.org/10.3390/merits1010003#B7-merits-01-00003)] and are more strategic in their outsourcing than firms that do not outsource HRM activities.
+
+The findings show that outsourcing has a very limited impact on employment relations. About 90% of managers in the survey said that outsourcing has had an insignificant effect on hiring policies, while 2.7% laid off staff. Larger firms and firms that outsource HRM tend to lay off staff or transfer to vendors on a larger scale than smaller firms. Similar findings were revealed in all three surveys. These results diverge from Kakabadse and Kakabadse’s [[11](https://doi.org/10.3390/merits1010003#B11-merits-01-00003)] findings in European and US firms, where 39% of European firms transferred staff to vendors and 24% laid off staff. The explanation may be found in the different sizes of the firms in the samples. Employees in smaller firms tend to be very important and cannot so easily be laid off, and small firms seldom have the possibility of selling departments or transferring them to vendors.
+
+## 5. Conclusions
+
+The characteristics of SMEs and how they perform in comparison to larger organisations continue to receive attention from both researchers and practitioners. In this paper, we presented studies on the outsourcing pattern of human resource management in SMEs. The paper is based on three cross-sectional surveys over the period 2009–2018. Although the study provides robust data, a mixed method would be preferred as well as a cross-national study design. Interviews could provide in-depth knowledge on motives for outsourcing, and a cross-cultural perspective has the potential to inform on how culture and legislation may affect outsourcing patterns.
+
+This research is based on data collected prior to the COVID-19 pandemic. It would be of theoretical interest to conduct research after the pandemic to investigate whether and how it has affected the outsourcing of human resource management in SMEs. Future research should also consider the specificity of services, such as the service-dominant logic, and consider outsourcing to be a part of value co-creation and resource sharing [[29](https://doi.org/10.3390/merits1010003#B29-merits-01-00003)]. In addition, future research could investigate the different needs of micro, small-, and medium-sized organisations.
+
+The findings of the study have some theoretical and practical implications. First, the study contributes to the outsourcing theory regarding human resource management in SMEs. Second, the study also has practical implications for managers of small businesses who are encouraged to outsource standardised HR functions, such as payments. This can lift a tedious task off their shoulders, and they can concentrate on the core competencies of the firms. Managers in medium-sized firms benefit from outsourcing more than those in smaller ones and, consequently, they can achieve lower HRM costs, as well as higher quality, by contracting vendors with specialist knowledge and expertise.
+
+## Author Contributions
+
+Conceptualization, I.R.E.; methodology, G.K.Ó.; software, G.K.Ó.; formal analysis, G.K.Ó. and I.R.E.; writing—original draft preparation, I.R.E. and G.K.Ó.; writing—review and editing, I.R.E. All authors have read and agreed to the published version of the manuscript.
+
+## Funding
+
+The research was funded by the University of Akureyri, University of Iceland, and the Icelandic research fund.
+
+## Institutional Review Board Statement
+
+The research was conducted in accordance with the Code of Ethics of the University of Iceland ([https://english.hi.is/university/code_of_ethics](https://english.hi.is/university/code_of_ethics), accessed on 15 April 2021). The surveys were conducted in such a way that participants were informed of the aim of the study and were asked to participate but also informed that they had no obligation to participate. The results were not traceable to individuals or companies after the surveys were complete, and no information on the participants was stored. According to Icelandic law, there is a need for an Institutional Review Board Statement in such cases.
+
+## Informed Consent Statement
+
+Informed consent was obtained from all subjects involved in the study.
+
+## Conflicts of Interest
+
+The authors declare no conflict of interest.
+
+## References
+
+1.   Barney, J. Is the resource-based “view” a useful perspective for strategic management? Yes. Acad. Manag. Rev.**2001**, 26, 141–156. [[Google Scholar](https://scholar.google.com/scholar_lookup?title=Is+the+resource-based+%E2%80%9Cview%E2%80%9D+a+useful+perspective+for+strategic+management?+Yes&author=Barney,+J.&publication_year=2001&journal=Acad.+Manag.+Rev.&volume=26&pages=141%E2%80%93156)]
+2.   Klaas, B.S. Outsourcing and the HR function: An examination of trends and developments within North American firms. Int. J. Hum. Resour. Manag.**2008**, 19, 1500–1514. [[Google Scholar](https://scholar.google.com/scholar_lookup?title=Outsourcing+and+the+HR+function:+An+examination+of+trends+and+developments+within+North+American+firms&author=Klaas,+B.S.&publication_year=2008&journal=Int.+J.+Hum.+Resour.+Manag.&volume=19&pages=1500%E2%80%931514&doi=10.1080/09585190802200280)] [[CrossRef](https://doi.org/10.1080/09585190802200280)]
+3.   Lee, S.-H. Taxonomy of HRM policies of knowledge-based firms: A resource-based explanation. Int. J. Innov. Manag.**1999**, 3, 379–395. [[Google Scholar](https://scholar.google.com/scholar_lookup?title=Taxonomy+of+HRM+policies+of+knowledge-based+firms:+A+resource-based+explanation&author=Lee,+S.-H.&publication_year=1999&journal=Int.+J.+Innov.+Manag.&volume=3&pages=379%E2%80%93395&doi=10.1142/S1363919699000190)] [[CrossRef](https://doi.org/10.1142/S1363919699000190)]
+4.   Beardwell, J.; Clark, I. An Introduction to Human Resource Management. In Human Resource Management: A Contempory Approach, 6th ed.; Beardwell, J., Claydon, T., Eds.; Pearson: London, UK, 2010. [[Google Scholar](https://scholar.google.com/scholar_lookup?title=An+Introduction+to+Human+Resource+Management&author=Beardwell,+J.&author=Clark,+I.&publication_year=2010)]
+5.   Manning, S.; Massini, S.; Lewin, A.Y. A dynamic perspective on next-generation offshoring: The global sourcing of science and engineering talent. Acad. Manag. Perspect.**2008**, 22, 35–54. [[Google Scholar](https://scholar.google.com/scholar_lookup?title=A+dynamic+perspective+on+next-generation+offshoring:+The+global+sourcing+of+science+and+engineering+talent&author=Manning,+S.&author=Massini,+S.&author=Lewin,+A.Y.&publication_year=2008&journal=Acad.+Manag.+Perspect.&volume=22&pages=35%E2%80%9354)]
+6.   Di Gregorio, D.; Musteen, M.; Thomas, D.E. Offshore outsourcing as a source of international competitiveness for SMEs. J. Int. Bus. Stud.**2009**, 40, 969–988. [[Google Scholar](https://scholar.google.com/scholar_lookup?title=Offshore+outsourcing+as+a+source+of+international+competitiveness+for+SMEs&author=Di+Gregorio,+D.&author=Musteen,+M.&author=Thomas,+D.E.&publication_year=2009&journal=J.+Int.+Bus.+Stud.&volume=40&pages=969%E2%80%93988&doi=10.1057/jibs.2008.90)] [[CrossRef](https://doi.org/10.1057/jibs.2008.90)]
+7.   Kremic, T.; Tukel, I.G.; Rom, O.W. Outsourcing decision support: A survey of benefits, risks, and decision factors. Supply Chain Manag. Int. J.**2006**, 11, 467–482. [[Google Scholar](https://scholar.google.com/scholar_lookup?title=Outsourcing+decision+support:+A+survey+of+benefits,+risks,+and+decision+factors&author=Kremic,+T.&author=Tukel,+I.G.&author=Rom,+O.W.&publication_year=2006&journal=Supply+Chain+Manag.+Int.+J.&volume=11&pages=467%E2%80%93482&doi=10.1108/13598540610703864)] [[CrossRef](https://doi.org/10.1108/13598540610703864)]
+8.   Lacity, M.C.; Khan, S.A.; Yan, A. Review of the empirical business services sourcing literature: An update and future directions. J. Inf. Technol.**2016**, 31, 269–328. [[Google Scholar](https://scholar.google.com/scholar_lookup?title=Review+of+the+empirical+business+services+sourcing+literature:+An+update+and+future+directions&author=Lacity,+M.C.&author=Khan,+S.A.&author=Yan,+A.&publication_year=2016&journal=J.+Inf.+Technol.&volume=31&pages=269%E2%80%93328&doi=10.1057/jit.2016.2)] [[CrossRef](https://doi.org/10.1057/jit.2016.2)]
+9.   Nguyen, T.T.T.; Chang, M. Antecedents of human resources outsourcing decision in Vietnam. Pers. Rev.**2017**, 46, 702–717. [[Google Scholar](https://scholar.google.com/scholar_lookup?title=Antecedents+of+human+resources+outsourcing+decision+in+Vietnam&author=Nguyen,+T.T.T.&author=Chang,+M.&publication_year=2017&journal=Pers.+Rev.&volume=46&pages=702%E2%80%93717&doi=10.1108/PR-11-2015-0307)] [[CrossRef](https://doi.org/10.1108/PR-11-2015-0307)]
+10.   Iqbal, Z.; Dad, A.M. Outsourcing: A review of trends. Winners & losers and future directions. Int. J. Bus. Soc. Sci.**2013**, 4, 91–107. [[Google Scholar](https://scholar.google.com/scholar_lookup?title=Outsourcing:+A+review+of+trends.+Winners+%2526+losers+and+future+directions&author=Iqbal,+Z.&author=Dad,+A.M.&publication_year=2013&journal=Int.+J.+Bus.+Soc.+Sci.&volume=4&pages=91%E2%80%93107)]
+11.   Kakabadse, A.; Kakabadse, N. Trends in outsourcing: Contrasting USA and Europe. Eur. Manag. J.**2002**, 20, 89–198. [[Google Scholar](https://scholar.google.com/scholar_lookup?title=Trends+in+outsourcing:+Contrasting+USA+and+Europe&author=Kakabadse,+A.&author=Kakabadse,+N.&publication_year=2002&journal=Eur.+Manag.+J.&volume=20&pages=89%E2%80%93198&doi=10.1016/S0263-2373(02)00029-4)] [[CrossRef](https://doi.org/10.1016/S0263-2373(02)00029-4)]
+12.   Daft, R.L. Understanding the Theory and Design of Organizations; Thomson South-Western Publishing: Nashville, TN, USA, 2007. [[Google Scholar](https://scholar.google.com/scholar_lookup?title=Understanding+the+Theory+and+Design+of+Organizations&author=Daft,+R.L.&publication_year=2007)]
+13.   Staw, B.M.; Epstein, L.D. What bandwagons bring: Effects of popular management techniques on corporate performance, reputation, and CEO pay. Adm. Sci. Q.**2000**, 45, 523–556. [[Google Scholar](https://scholar.google.com/scholar_lookup?title=What+bandwagons+bring:+Effects+of+popular+management+techniques+on+corporate+performance,+reputation,+and+CEO+pay&author=Staw,+B.M.&author=Epstein,+L.D.&publication_year=2000&journal=Adm.+Sci.+Q.&volume=45&pages=523%E2%80%93556&doi=10.2307/2667108)] [[CrossRef](https://doi.org/10.2307/2667108)]
+14.   Bakhtiari, S.; Breunig, R. Demand Uncertainty and Outsourcing; Mimeo: Canberra, Australia, 2014. [[Google Scholar](https://scholar.google.com/scholar_lookup?title=Demand+Uncertainty+and+Outsourcing&author=Bakhtiari,+S.&author=Breunig,+R.&publication_year=2014)]
+15.   Galanaki, E.; Papalexandris, N. Internationalization as a determining factor of HRM outsourcing. Int. J. Hum. Resour. Manag.**2007**, 18, 1557–1567. [[Google Scholar](https://scholar.google.com/scholar_lookup?title=Internationalization+as+a+determining+factor+of+HRM+outsourcing&author=Galanaki,+E.&author=Papalexandris,+N.&publication_year=2007&journal=Int.+J.+Hum.+Resour.+Manag.&volume=18&pages=1557%E2%80%931567&doi=10.1080/09585190701502687)] [[CrossRef](https://doi.org/10.1080/09585190701502687)]
+16.   Gottardello, D.; Valverde, M. Human resource management outsourcing in Spanish firms: Evolution over time and implication for devolution. Intang. Cap.**2018**, 14, 56–73. [[Google Scholar](https://scholar.google.com/scholar_lookup?title=Human+resource+management+outsourcing+in+Spanish+firms:+Evolution+over+time+and+implication+for+devolution&author=Gottardello,+D.&author=Valverde,+M.&publication_year=2018&journal=Intang.+Cap.&volume=14&pages=56%E2%80%9373&doi=10.3926/ic.1102)] [[CrossRef](https://doi.org/10.3926/ic.1102)]
+17.   Szierbowski-Seibel, K.; Kabst, R. The impact of HR outsourcing and strategic HR integration on the HR-to-employee ratio: An empirical evaluation of the HR function over the last decade. Int. J. Manpow.**2018**, 39, 283–300. [[Google Scholar](https://scholar.google.com/scholar_lookup?title=The+impact+of+HR+outsourcing+and+strategic+HR+integration+on+the+HR-to-employee+ratio:+An+empirical+evaluation+of+the+HR+function+over+the+last+decade&author=Szierbowski-Seibel,+K.&author=Kabst,+R.&publication_year=2018&journal=Int.+J.+Manpow.&volume=39&pages=283%E2%80%93300&doi=10.1108/IJM-06-2016-0129)] [[CrossRef](https://doi.org/10.1108/IJM-06-2016-0129)]
+18.   Ko, C. Exploring the performance effects of human resource out-sourcing in the hotel industry. Int. J. Organ. Innov.**2019**, 12, 20–28. [[Google Scholar](https://scholar.google.com/scholar_lookup?title=Exploring+the+performance+effects+of+human+resource+out-sourcing+in+the+hotel+industry&author=Ko,+C.&publication_year=2019&journal=Int.+J.+Organ.+Innov.&volume=12&pages=20%E2%80%9328)]
+19.   Quinn, J.B. Strategic outsourcing: Leveraging knowledge capabilities. Sloan Manag. Rev.**1999**, 40, 9–21. [[Google Scholar](https://scholar.google.com/scholar_lookup?title=Strategic+outsourcing:+Leveraging+knowledge+capabilities&author=Quinn,+J.B.&publication_year=1999&journal=Sloan+Manag.+Rev.&volume=40&pages=9%E2%80%9321)]
+20.   Schlosser, F.; Templer, A.; Ghanam, D. How human resource outsourcing affects organizational learning in the knowledge economy. J. Labor Res.**2006**, 27, 291–303. [[Google Scholar](https://scholar.google.com/scholar_lookup?title=How+human+resource+outsourcing+affects+organizational+learning+in+the+knowledge+economy&author=Schlosser,+F.&author=Templer,+A.&author=Ghanam,+D.&publication_year=2006&journal=J.+Labor+Res.&volume=27&pages=291%E2%80%93303&doi=10.1007/s12122-006-1024-x)] [[CrossRef](https://doi.org/10.1007/s12122-006-1024-x)]
+21.   Sheehan, C. Outsourcing HRM activities in Australian organisations. Asia Pac. J. Hum. Resour.**2009**, 47, 236–253. [[Google Scholar](https://scholar.google.com/scholar_lookup?title=Outsourcing+HRM+activities+in+Australian+organisations&author=Sheehan,+C.&publication_year=2009&journal=Asia+Pac.+J.+Hum.+Resour.&volume=47&pages=236%E2%80%93253&doi=10.1177/1038411109105444)] [[CrossRef](https://doi.org/10.1177/1038411109105444)]
+22.   Shen, J. Human resource outsourcing: 1990–2004. J. Organ. Transform. Soc. Chang.**2005**, 2, 275–296. [[Google Scholar](https://scholar.google.com/scholar_lookup?title=Human+resource+outsourcing:+1990%E2%80%932004&author=Shen,+J.&publication_year=2005&journal=J.+Organ.+Transform.+Soc.+Chang.&volume=2&pages=275%E2%80%93296&doi=10.1386/jots.2.3.275/1)] [[CrossRef](https://doi.org/10.1386/jots.2.3.275/1)]
+23.   Singh, M.; Vohra, N. Level of formalisation of human resource management in small and medium enterprises in India. J. Entrep.**2009**, 18, 95–116. [[Google Scholar](https://scholar.google.com/scholar_lookup?title=Level+of+formalisation+of+human+resource+management+in+small+and+medium+enterprises+in+India&author=Singh,+M.&author=Vohra,+N.&publication_year=2009&journal=J.+Entrep.&volume=18&pages=95%E2%80%93116&doi=10.1177/097135570801800105)] [[CrossRef](https://doi.org/10.1177/097135570801800105)]
+24.   Arbore, A.; Ordanini, A. Broadband divide among SMEs: The role of size, location and outsourcing strategies. Int. Small Bus. J.**2006**, 24, 83–99. [[Google Scholar](https://scholar.google.com/scholar_lookup?title=Broadband+divide+among+SMEs:+The+role+of+size,+location+and+outsourcing+strategies&author=Arbore,+A.&author=Ordanini,+A.&publication_year=2006&journal=Int.+Small+Bus.+J.&volume=24&pages=83%E2%80%9399&doi=10.1177/0266242606059781)] [[CrossRef](https://doi.org/10.1177/0266242606059781)]
+25.   Belso-Martinez, J.A. Outsourcing decisions, product innovation and the spatial dimension: Evidence from the Spanish footwear industry. Urban Stud.**2010**, 47, 3057–3077. [[Google Scholar](https://scholar.google.com/scholar_lookup?title=Outsourcing+decisions,+product+innovation+and+the+spatial+dimension:+Evidence+from+the+Spanish+footwear+industry&author=Belso-Martinez,+J.A.&publication_year=2010&journal=Urban+Stud.&volume=47&pages=3057%E2%80%933077&doi=10.1177/0042098009359952)] [[CrossRef](https://doi.org/10.1177/0042098009359952)]
+26.   Edvardsson, I.R.; Oskarsson, G.K.; Durst, S. Strategic outsourcing in SMEs. J. Small Bus. Enterp. Dev.**2019**, 27, 73–84. [[Google Scholar](https://scholar.google.com/scholar_lookup?title=Strategic+outsourcing+in+SMEs&author=Edvardsson,+I.R.&author=Oskarsson,+G.K.&author=Durst,+S.&publication_year=2019&journal=J.+Small+Bus.+Enterp.+Dev.&volume=27&pages=73%E2%80%9384&doi=10.1108/JSBED-09-2019-0322)] [[CrossRef](https://doi.org/10.1108/JSBED-09-2019-0322)]
+27.   Nishishiba, M.; Jones, M.; Kraner, M. Research Methods and Statistics for Public and Nonprofit Administrators: A Practical Guide; SAGE: Thousand Oaks, CA, USA, 2014. [[Google Scholar](https://scholar.google.com/scholar_lookup?title=Research+Methods+and+Statistics+for+Public+and+Nonprofit+Administrators:+A+Practical+Guide&author=Nishishiba,+M.&author=Jones,+M.&author=Kraner,+M.&publication_year=2014)]
+28.   Edvardsson, I.R.; Sigurdardottir, S.B. Útvistun þÞjónustu mMilli lLandsvæða. Niðurstöður vViðtala [Outsourcing of Services between Regions: Interview Results]; University of Akureyri: Akureyri, Iceland, 2009; unpublished manuscript. [[Google Scholar](https://scholar.google.com/scholar_lookup?title=%C3%9Atvistun+%C3%BE%C3%9Ej%C3%B3nustu+mMilli+lLandsv%C3%A6%C3%B0a.+Ni%C3%B0urst%C3%B6%C3%B0ur+vVi%C3%B0tala+%5BOutsourcing+of+Services+between+Regions:+Interview+Results%5D&author=Edvardsson,+I.R.&author=Sigurdardottir,+S.B.&publication_year=2009)]
+29.   Altuntas Vural, C. Service-dominant logic and supply chain management: A systematic literature review. J. Bus. Ind. Mark.**2017**, 32, 1109–1124. [[Google Scholar](https://scholar.google.com/scholar_lookup?title=Service-dominant+logic+and+supply+chain+management:+A+systematic+literature+review&author=Altuntas+Vural,+C.&publication_year=2017&journal=J.+Bus.+Ind.+Mark.&volume=32&pages=1109%E2%80%931124&doi=10.1108/JBIM-06-2015-0121)] [[CrossRef](https://doi.org/10.1108/JBIM-06-2015-0121)]
+
+**Table 1.** Firms; classification in accordance with Icelandic classification of NACE.
+
+|  | Number | Percent | Median Number of Employees | Average Number of Employees * |
+| --- | --- | --- | --- | --- |
+| Wholesale, retail trade, repairs | 217 | 28.6% | 10 | 66.8/60.12 |
+| Hotels, restaurants | 101 | 13.3% | 14 | 73.9/22.4 |
+| Transport, communications | 58 | 7.6% | 15 | 37.3 |
+| Financial intermediation | 57 | 7.5% | 11 | 34.7 |
+| Real estate & business activities | 103 | 13.6% | 7 | 19.9 |
+| Public administration | 8 | 1.1% | 69 | 115 |
+| Education | 11 | 1.4% | 8 | 30 |
+| Health services, social work | 39 | 5.1% | 11 | 143.4/15.6 |
+| Hi-tech- and knowledge-intensive | 80 | 10.5% | 9 | 51.8 |
+| Other services | 85 | 11.2% | 9 | 39.6 |
+| Missing values | 43 |  |  |  |
+| Total | 802 |  | 10 | 52.0/40.7 |
+
+* The higher numbers of employees are the averages of all the firms in the survey, while the second numbers are based on the exclusion of firms larger than 1000 employees.
+
+**Table 2.** Firm size and outsourcing (n = 802, missing values 55).
+
+|  | No Outsourcing | Do Outsource | p-Value a |
+| --- | --- | --- | --- |
+| 1–9 | 31.5% | 68.5% | <0.001 |
+| 10–49 | 19.1% | 80.9% |  |
+| More than 50 | 9.5% | 90.5% |  |
+
+a Chi-square test.
+
+**Table 3.** Motives for outsourcing and firm size.
+
+|  | Total n = 600 | 1–9 n = 239 | 10–49 n = 237 | More than 50 n = 95 | p-Value a |
+| --- | --- | --- | --- | --- | --- |
+| Cost reduction | 37.5% | 31.2% | 46.6% | 22.2% | <0.001 |
+| Less staff turnover | 11.7% | 44.9% | 37.7% | 17.4% | 0.787 |
+| Increased expertise | 45.7% | 41.4% | 39.9% | 18.7% | 0.457 |
+| Simpler operation | 43.0% | 34.5% | 44.7% | 20.8% | 0.003 |
+| Operational security | 16.0% | 27.5% | 51.6% | 20.9% | 0.010 |
+| The goal of minimising investment | 12.3% | 25.0% | 44.4% | 30.6% | <0.001 |
+| Increased emphasis on core business | 17.7% | 30.5% | 41.0% | 28.6% | 0.001 |
+| Increased service | 8.2% | 34.7% | 36.7% | 28.6% | 0.063 |
+| Other | 18.0% | 45.3% | 39.6% | 15.1% | 0.718 |
+
+a Chi-square test.
+
+**Table 4.** Motives for outsourcing and firm outsourcing HRM (n = 600, missing values 0).
+
+|  | No HRM Outsourcing | HRM Outsourcing | p-Value a |
+| --- | --- | --- | --- |
+| Cost reduction | 32.2% | 47.6% | <0.001 |
+| Less staff turnover | 7.9% | 18.8% | <0.001 |
+| Increased expertise | 40.6% | 55.3% | 0.001 |
+| Simpler operation | 34.4% | 59.1% | <0.001 |
+| Operational security | 12.8% | 22.1% | 0.003 |
+| Minimising investment | 8.2% | 20.2% | <0.001 |
+| Increased emphasis on core business | 10.5% | 31.2% | <0.001 |
+| Increased service | 7.4% | 9.5% | 0.345 |
+| Other | 21.2% | 12.0% | 0.005 |
+
+a Chi-square test.
+
+**Table 5.** Outsourced tasks in the survey. Multiple choices allowed (n = 600, missing values 0).
+
+|  | Total n = 600 | 1–9 n = 239 | 10–49 n = 237 | More than 50 n = 95 | p-Value a |
+| --- | --- | --- | --- | --- | --- |
+| Cleaning | 36.7% | 28.0% | 35.9% | 68.4% | <0.001 |
+| Security | 39.0% | 28.5% | 40.9% | 68.4% | <0.001 |
+| Canteen | 7.5% | 3.3% | 6.3% | 23.2% | <0.001 |
+| Information technology | 50.2% | 40.2% | 54.9% | 73.7% | <0.001 |
+| Payroll | 17.8% | 18.8% | 19.0% | 14.7% | 0.629 |
+| Finances | 7.5% | 6.3% | 9.7% | 6.3% | 0.320 |
+| Human resource management | 0.8% | 0.4% | 1.3% | 1.1% | (0.599) |
+| Training | 4.8% | 3.8% | 4.6% | 8.4% | (0.200) |
+| Telecommunications | 12.3% | 10.0% | 12.7% | 17.9% | 0.145 |
+| Consulting | 18.5% | 12.1% | 19.4% | 35.8% | <0.001 |
+| Accounting | 37.5% | 48.5% | 35.9% | 21.1% | <0.001 |
+| Back office processes | 2.7% | 2.1% | 3.0% | 4.2% | (0.561) |
+| Transport | 17.7% | 12.1% | 18.6% | 30.5% | <0.001 |
+| Other | 30.5% | 36.0% | 27.8% | 30.5% | 0.156 |
+
+a Chi-square test.
+
+**Table 6.** HRM outsourcing and firm size (n = 600, missing values 29).
+
+|  | No HRM Outsourcing | HRM Outsourcing | p-Value a |
+| --- | --- | --- | --- |
+| 1–9 | 71.1% | 28.9% | 0.007 |
+| 10–49 | 62.4% | 37.6% |  |
+| More than 50 | 53.7% | 46.3% |  |
+
+a Chi-square test.
+
+**Table 7.** Mean scores for managers on different statements regarding their experience of outsourcing and HRM outsourcing. (n = 600).
+
+|  | Not HRM Outsourcing M (sd/n) | HRM Outsourcing M (sd/n) | Missing Values | p-Value a |
+| --- | --- | --- | --- | --- |
+| Improved service quality | 3.54(0.87/356) | 3.66(0.81/199) | 45 | 0.112 |
+| Reduced cost | 2.96(1.16/354) | 3.23(1.08/193) | 53 | 0.006 |
+| Increased expertise | 3.49(0.98/357) | 3.66(0.93/194) | 49 | 0.012 |
+| Reduced risk | 3.54(0.97/349) | 3.72(0.76/193) | 58 | 0.059 |
+| Improved service to customers | 3.59(0.92/350) | 3.61(0.77/191) | 59 | 0.792 |
+| Focus on core competencies | 3.63(0.85/352) | 3.85(0.81/193) | 55 | 0.002 |
+| Cost discipline/control | 3.24(0.98/345) | 3.45(0.91/193) | 62 | 0.024 |
+| Value added has increased | 3.31(0.85/353) | 3.46(0.84/193) | 54 | 0.042 |
+
+a Mann–Whitney U test.
+
+**Table 8.** HRM outsourcing and cost reduction (n = 600, missing values 0).
+
+|  | Not HRM Outsourcing | HRM Outsourcing | p-Value a |
+| --- | --- | --- | --- |
+| Housing | 3.3% | 6.7% | 0.055 |
+| Cost of purchasing equipment | 10.5% | 16.3% | 0.038 |
+| Cleaning cost | 10.2% | 15.4% | 0.063 |
+| Security cost | 5.9% | 10.1% | 0.590 |
+| Cafeteria | 2.0% | 3.8% | 0.191 |
+| Finance cost | 2.3% | 10.6% | <0.001 |
+| Human resource management | 1.0% | 4.3% | (0.008) |
+| Training cost | 0.5% | 4.3% | (0.001) |
+| Telecommunication cost | 1.3% | 3.8% | (0.040) |
+| Consulting cost | 1.3% | 6.2% | 0.001 |
+| Accounting cost | 6.9% | 27.4% | <0.001 |
+| Transport cost | 4.3% | 7.7% | 0.086 |
+
+a Chi-square test.
+
+**Table 9.** Cost reduction and firm size. (n = 600, missing values 29).
+
+|  | 1–9 | 10–49 | More than 50 | p-Value a |
+| --- | --- | --- | --- | --- |
+| Housing | 3.3% | 3.8% | 10.5% | 0.014 |
+| Cost of purchasing equipment | 8.4% | 14.3% | 22.1% | 0.003 |
+| Cleaning costs | 7.9% | 10.5% | 29.5% | <0.001 |
+| Security costs | 4.2% | 5.9% | 21.1% | <0.001 |
+| Canteen | 0.8% | 2.1% | 9.5% | <0.001 |
+| Finance costs | 4.6% | 5.9% | 5.3% | 0.816 |
+| Human resource management | 1.3% | 2.5% | 4.2% | 0.248 |
+| Training cost | 1.7% | 1.3% | 4.2% | 0.197 |
+| Telecommunication cost | 1.7% | 1.7% | 5.3% | 0.102 |
+| Consulting cost | 2.5% | 3.4% | 4.2% | 0.701 |
+| Accounting cost | 18.0% | 11.8% | 13.7% | 0.156 |
+| Transport cost | 4.6% | 4.6% | 11.6% | 0.030 |
+
+a Chi-square test.
+
+**Table 10.** The employment impact of outsourcing (n = 600, missing values 47).
+
+Insignificant effect on employment 90.2%
+Staff are laid off 2.7%
+Staff moved to the vendor firms 6.3%
+Staff hired on a new contract 0.5%
+Other 0.2%
+
+**Table 11.** Firm size and employment impact of outsourcing (n = 600, missing values 53).
+
+|  | Insignificant Effect | Significant Effect | p-Value a |
+| --- | --- | --- | --- |
+| 1–9 | 93.9% | 6.1% | 0.001 |
+| 10–49 | 90.8% | 9.2% |  |
+| more than 50 | 79.5% | 20.5% |  |
+
+a Chi-square test.
+
+**Table 12.** HRM outsourcing and effect on employment (n = 600, missing values 47).
+
+|  | Insignificant Effect | Significant Effect | p-Value a |
+| --- | --- | --- | --- |
+| No HRM outsourcing | 93.0% | 7.0% | 0.003 |
+| HRM outsourcing | 85.2% | 14.8% |  |
+
+a Chi-square test.
+
+**Publisher’s Note:** MDPI stays neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+
+© 2021 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license ([https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)).
+
+## Artifact honesty
+
+Artifact level: `full_text`. The complete extracted text is preserved above under the declared reusable license.

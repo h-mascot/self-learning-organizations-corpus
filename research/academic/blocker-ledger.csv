@@ -1,0 +1,190 @@
+openalex_id,blocker,url,retryable
+W121121963,OpenAlex exposes no direct open PDF URL; no full text is claimed,http://www.pacis-net.org/file/2013/PACIS2013-027.pdf,yes
+W1490729419,Open PDF lacks an explicit reusable license in audited metadata,http://penerbit.uthm.edu.my/ojs/index.php/jtmb/article/view/913,yes
+W1525574620,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://ieeexplore.ieee.org/iel5/5594059/5602021/05603372.pdf,yes
+W1543498508,Open PDF lacks an explicit reusable license in audited metadata,http://library2.smu.ca/xmlui/handle/01/25002,yes
+W1556856773,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1108/jfbm-05-2014-0012,yes
+W1658993051,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://openalex.org/W1658993051,yes
+W169680222,Open PDF lacks an explicit reusable license in audited metadata,https://eprints.qut.edu.au/31946/1/31946.pdf,yes
+W1718011808,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://openalex.org/W1718011808,yes
+W1751124435,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1111/j.1467-8551.2011.00749.x,yes
+W1832704641,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1111/jscm.12085,yes
+W1837698247,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1142/s1363919615500449,yes
+W1841615065,Open PDF lacks an explicit reusable license in audited metadata,https://digital.library.unt.edu/ark:/67531/metadc115064/m2/1/high_res_d/dissertation.pdf,yes
+W1905285866,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1002/9781119207245.ch13,yes
+W1952543176,"PDF: HTTP Error 301: The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Moved Permanently; Jina: Jina fallback did not return a substantive bounded document",https://clutejournals.com/index.php/JABR/article/download/8410/8430,yes
+W1958593542,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1142/s1363919615500486,yes
+W1973189905,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1109/itmc.2012.6306355,yes
+W1985378821,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1109/icime.2010.5477563,yes
+W1992325436,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1016/j.technovation.2014.10.003,yes
+W1995317269,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1016/j.indmarman.2008.12.003,yes
+W1999462942,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1007/s11187-011-9368-x,yes
+W1999525915,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1080/14697017.2014.988637,yes
+W2005142374,Open PDF lacks an explicit reusable license in audited metadata,https://www.investigo.biblioteca.uvigo.es/xmlui/bitstream/11093/5625/4/2015_martinez_product_innovation.pdf,yes
+W2008104572,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1016/j.emj.2012.03.002,yes
+W2009248191,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1108/09696470010316288,yes
+W2010579248,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1016/j.respol.2012.02.008,yes
+W2015042503,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1016/j.jwb.2014.09.004,yes
+W2015493992,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1057/jibs.2013.55,yes
+W2018072225,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1108/08876041011060693,yes
+W2022745178,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1016/j.technovation.2009.05.010,yes
+W2025030878,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.4018/jksr.2013010103,yes
+W2026140270,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.4018/ijcrmm.2013100104,yes
+W2030074618,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1108/jkm-04-2013-0138,yes
+W2037209812,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1142/s1363919611003179,yes
+W2039024536,Open PDF lacks an explicit reusable license in audited metadata,https://www.atlantis-press.com/article/11408.pdf,yes
+W2040818436,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1109/icmse.2006.314077,yes
+W2043233302,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1504/ijtm.2011.042981,yes
+W2045106028,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1109/itapp.2010.5566154,yes
+W2050753516,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1016/j.jbusres.2012.12.019,yes
+W2054873847,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1109/icmse.2009.5317398,yes
+W2062893154,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.4018/jkm.2010103003,yes
+W2065309558,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1504/ijtm.2008.015991,yes
+W2071418825,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1177/1350507610389684,yes
+W2081797436,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1057/palgrave.kmrp.8500090,yes
+W2091681150,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1108/17506201111131550,yes
+W2091704485,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1002/smj.882,yes
+W2092972183,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.4028/www.scientific.net/ddf.334-335.26,yes
+W2093465784,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.5465/ambpp.2013.13604abstract,yes
+W2096545732,Open PDF lacks an explicit reusable license in audited metadata,https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/mde.1423,yes
+W2097751394,Open PDF lacks an explicit reusable license in audited metadata,https://cris.brighton.ac.uk/ws/files/367907/2015%20Rashidirad%20The%20applicaability%20of%20Grants%20framework.pdf,yes
+W2107592024,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1142/s2251361212500139,yes
+W2108795964,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.2307/2393553,yes
+W2109597629,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1109/hicss.2004.1265596,yes
+W2113033875,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1109/hicss.2006.77,yes
+W2114883614,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1017/s1833367200000560,yes
+W2119652992,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.5465/amr.2002.6587995,yes
+W2124969087,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1109/icmss.2009.5300911,yes
+W2127436640,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1109/iccasm.2010.5622837,yes
+W2129650137,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1093/icc/dtr049,yes
+W2130185540,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.5465/ambpp.2014.12776abstract,yes
+W2139737633,PDF: HTTP Error 403: Forbidden; Jina: Jina fallback failed title/full-article structure checks,http://aisel.aisnet.org/cgi/viewcontent.cgi?article=1809&context=amcis2003,yes
+W2144661394,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1109/hicss.2000.926701,yes
+W2160195859,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1109/hicss.2007.64,yes
+W2164284962,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1287/orsc.2.1.71,yes
+W2166318386,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1108/13673271111174339,yes
+W2168129067,Open PDF lacks an explicit reusable license in audited metadata,https://www.sciedu.ca/journal/index.php/jms/article/download/162/66,yes
+W2172157658,Open PDF lacks an explicit reusable license in audited metadata,https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/smj.4250171105,yes
+W2183320229,OpenAlex exposes no direct open PDF URL; no full text is claimed,http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.583.5795,yes
+W2186642170,OpenAlex exposes no direct open PDF URL; no full text is claimed,http://chss.uonbi.ac.ke/sites/default/files/chss/1057-3855-2-PB.pdf,yes
+W2216740627,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1109/liss.2015.7369749,yes
+W2228585107,Open PDF lacks an explicit reusable license in audited metadata,https://www.igi-global.com/ViewTitle.aspx?TitleId=143167&isxn=9781466688865,yes
+W2247552713,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://dialnet.unirioja.es/descarga/articulo/2710867.pdf,yes
+W2250236342,OpenAlex exposes no direct open PDF URL; no full text is claimed,http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.941.3971,yes
+W2252777709,Open PDF lacks an explicit reusable license in audited metadata,http://www.toknowpress.net/ISBN/978-961-6914-02-4/papers/ML13-319.pdf,yes
+W2279454972,OpenAlex exposes no direct open PDF URL; no full text is claimed,http://hdl.handle.net/10278/22114,yes
+W22840974,Open PDF lacks an explicit reusable license in audited metadata,http://repo.uum.edu.my/11459/1/141.pdf,yes
+W2291105470,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1080/09537325.2015.1131258,yes
+W2304811421,OpenAlex exposes no direct open PDF URL; no full text is claimed,http://ijimt.org/papers/171-T10035.pdf,yes
+W2316083084,Open PDF lacks an explicit reusable license in audited metadata,https://doi.org/10.14257/ijunesst.2015.8.12.14,yes
+W2319564280,Open PDF lacks an explicit reusable license in audited metadata,https://www.atlantis-press.com/article/25849179.pdf,yes
+W2326350366,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.5465/ambpp.2014.11006abstract,yes
+W2327025638,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1061/9780784413135.029,yes
+W2332902499,Open PDF lacks an explicit reusable license in audited metadata,http://society.kisti.re.kr/sv/SV_svpsbs03V.do?method=download&cn1=JAKO201504641501202,yes
+W2334087974,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.5465/ambpp.2013.10336abstract,yes
+W2348829882,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://en.cnki.com.cn/Article_en/CJFDTOTAL-HRBG200801025.htm,yes
+W2349364486,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://en.cnki.com.cn/Article_en/CJFDTOTAL-WLYF201011016.htm,yes
+W2349869695,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://en.cnki.com.cn/Article_en/CJFDTOTAL-XUXI200903017.htm,yes
+W2350547853,Open PDF lacks an explicit reusable license in audited metadata,https://pure.rug.nl/ws/files/98709208/Information_Technology_and_Organizational_Learning_in_Knowledge_Alliances_and_Networks.pdf,yes
+W2351266167,OpenAlex exposes no direct open PDF URL; no full text is claimed,http://en.cnki.com.cn/Article_en/CJFDTOTAL-BJGG201103010.htm,yes
+W2351266377,OpenAlex exposes no direct open PDF URL; no full text is claimed,http://en.cnki.com.cn/Article_en/CJFDTotal-KXYJ2005S1045.htm,yes
+W2354630219,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://en.cnki.com.cn/Article_en/CJFDTOTAL-DJKX201301012.htm,yes
+W2355425519,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://en.cnki.com.cn/Article_en/CJFDTOTAL-XADZ201003002.htm,yes
+W2357842919,OpenAlex exposes no direct open PDF URL; no full text is claimed,http://en.cnki.com.cn/Article_en/CJFDTOTAL-ZGRK200909018.htm,yes
+W2360228312,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://en.cnki.com.cn/Article_en/CJFDTOTAL-KXYJ200303017.htm,yes
+W2360499881,OpenAlex exposes no direct open PDF URL; no full text is claimed,http://en.cnki.com.cn/Article_en/CJFDTOTAL-WSLD200606005.htm,yes
+W2360770798,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://en.cnki.com.cn/Article_en/CJFDTOTAL-KXXG201002011.htm,yes
+W2361696831,OpenAlex exposes no direct open PDF URL; no full text is claimed,http://en.cnki.com.cn/Article_en/CJFDTOTAL-JJLL201008010.htm,yes
+W2364670211,OpenAlex exposes no direct open PDF URL; no full text is claimed,http://en.cnki.com.cn/Article_en/CJFDTOTAL-JCJJ200902002.htm,yes
+W2374226729,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://openalex.org/W2374226729,yes
+W2375844141,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://en.cnki.com.cn/Article_en/CJFDTOTAL-GLXB200806013.htm,yes
+W2376856881,OpenAlex exposes no direct open PDF URL; no full text is claimed,http://en.cnki.com.cn/Article_en/CJFDTOTAL-JZGC201232073.htm,yes
+W2378725772,OpenAlex exposes no direct open PDF URL; no full text is claimed,http://en.cnki.com.cn/Article_en/CJFDTOTAL-JJYG201107011.htm,yes
+W2380543958,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://en.cnki.com.cn/Article_en/CJFDTOTAL-KXXG201010010.htm,yes
+W2380840150,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://en.cnki.com.cn/Article_en/CJFDTOTAL-YJYF201506015.htm,yes
+W2387197579,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://en.cnki.com.cn/Article_en/CJFDTOTAL-KXYJ201307013.htm,yes
+W2387847986,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://en.cnki.com.cn/Article_en/CJFDTOTAL-HDCS200804008.htm,yes
+W2390074040,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://openalex.org/W2390074040,yes
+W2391996585,OpenAlex exposes no direct open PDF URL; no full text is claimed,http://en.cnki.com.cn/Article_en/CJFDTOTAL-SYCH201306014.htm,yes
+W2392323350,OpenAlex exposes no direct open PDF URL; no full text is claimed,http://en.cnki.com.cn/Article_en/CJFDTOTAL-TJLT201211017.htm,yes
+W2404335681,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1515/arbeit-2012-2-311,yes
+W2407579429,OpenAlex exposes no direct open PDF URL; no full text is claimed,http://ipedr.com/vol13/55-T10035.pdf,yes
+W2464478539,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1007/s10961-016-9488-1,yes
+W2467318596,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://ci.nii.ac.jp/naid/120005737885,yes
+W2504355237,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1016/j.jengtecman.2016.07.001,yes
+W2602055812,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.4337/9781784718053.00017,yes
+W2608344698,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://openalex.org/W2608344698,yes
+W2619136484,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.5465/ambpp.2016.12263abstract,yes
+W2625196300,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1504/ijbe.2017.10005662,yes
+W2727719618,Open PDF lacks an explicit reusable license in audited metadata,http://ir.uitm.edu.my/13072/1/AJ_ZARINA%20DENAN%20SMRJ%2009%201.pdf,yes
+W273073713,OpenAlex exposes no direct open PDF URL; no full text is claimed,http://en.cnki.com.cn/Article_en/CJFDTOTAL-GLXZ200915026.htm,yes
+W2742619630,Open PDF lacks an explicit reusable license in audited metadata,http://hdl.handle.net/20.500.11820/942b4d78-21cb-4012-b0f8-5cd6653a1222,yes
+W2753684301,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1108/jkm-09-2016-0410,yes
+W2765356250,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.5465/ambpp.2017.10687abstract,yes
+W2765646572,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1108/ijopm-08-2016-0450,yes
+W2767699486,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1142/s1363919618500445,yes
+W2783544070,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1386/tmsd.16.3.209_1,yes
+W2784810216,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1016/j.jwb.2018.01.004,yes
+W2786484532,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1016/j.jbusres.2018.01.019,yes
+W2788157583,Open PDF lacks an explicit reusable license in audited metadata,https://ars.els-cdn.com/content/image/1-s2.0-S0048733318300246-fx1_lrg.jpg,yes
+W2828152500,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.5465/ambpp.2018.13612abstract,yes
+W2837402946,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.5465/ambpp.2018.15817abstract,yes
+W2891018755,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1080/09537325.2018.1516866,yes
+W2901434377,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1016/j.indmarman.2018.11.007,yes
+W2913302557,Open PDF lacks an explicit reusable license in audited metadata,https://eprints.lancs.ac.uk/id/eprint/125249/1/2014_BAM_Liu.pdf,yes
+W2917276100,Open PDF lacks an explicit reusable license in audited metadata,http://repo.uum.edu.my/25875/1/AEJ%2024%204%202018%201%209.pdf,yes
+W2917984021,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1109/tem.2019.2893133,yes
+W2924062839,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1080/19761597.2019.1595688,yes
+W2940153225,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.16980/jitc.14.6.201812.357,yes
+W2941449377,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://scholar.dkyobobook.co.kr/searchDetail.laf?barcode=4010026960866,yes
+W2941926800,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.24191/smrj.v6i1.5170,yes
+W2949630013,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1080/09537325.2019.1632821,yes
+W2957811032,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1080/14778238.2019.1638742,yes
+W2963510126,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1007/978-3-030-25629-6_135,yes
+W2970608368,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1108/vjikms-11-2018-0105,yes
+W2973814955,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://openalex.org/W2973814955,yes
+W2997491296,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.34874/imist.prsm/doreg-v8i1.18752,yes
+W3006286288,Open PDF lacks an explicit reusable license in audited metadata,https://eprints.lancs.ac.uk/id/eprint/141261/1/Manuscript_JBR_final.pdf,yes
+W3011443804,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1108/ejim-09-2019-0244,yes
+W3015719447,Open PDF lacks an explicit reusable license in audited metadata,https://aisel.aisnet.org/iceb2003/145,yes
+W3021502306,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1108/bpmj-11-2019-0453,yes
+W3029106931,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1504/ijtis.2020.10029699,yes
+W3045566683,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.5465/ambpp.2020.19351abstract,yes
+W3045996744,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.5465/ambpp.2020.17984abstract,yes
+W3112514933,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://db.koreascholar.com/Article?code=403495,yes
+W3119539330,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://www.sysrevpharm.org/index.php?mno=38746,yes
+W3121075725,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1007/s13132-020-00708-3,yes
+W3123267990,OpenAlex exposes no direct open PDF URL; no full text is claimed,http://www.sciencedirect.com/science/article/pii/S0969593109001425,yes
+W3123522775,OpenAlex exposes no direct open PDF URL; no full text is claimed,http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.455.932,yes
+W3125825491,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.2139/ssrn.2942821,yes
+W3133702157,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1145/3442188.3445922,yes
+W3151962107,PDF: <urlopen error [Errno -2] Name or service not known>; Jina: HTTP Error 422: Unprocessable Entity,http://publikasi.dinus.ac.id/index.php/jpeb/article/download/4043/2231,yes
+W3159096815,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1109/snpdwinter52325.2021.00034,yes
+W3169278803,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3703636,yes
+W3190349563,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1080/02692171.2021.1957783,yes
+W3190917026,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.14456/tureview.2021.10,yes
+W3195303261,PDF: HTTP Error 403: Forbidden; Jina: Jina fallback did not return a substantive bounded document,https://www.scielo.br/j/ram/a/XNCqk8XvpLnNttVVZ54nhWq/?lang=en&format=pdf,yes
+W3197212781,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.9876/sim.v25i1.929,yes
+W3206294586,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1080/14778238.2021.1982421,yes
+W3209894979,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1080/20421338.2021.1958988,yes
+W354275420,OpenAlex exposes no direct open PDF URL; no full text is claimed,http://www.diva-portal.org/smash/record.jsf?pid=diva2:165196,yes
+W391337096,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://pure.eur.nl/en/publications/896ee9ef-d3a9-4225-af6d-55e106397826,yes
+W4230885242,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.4018/978-1-4666-7357-1.ch057,yes
+W4232076013,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.4018/978-1-4666-0035-5.ch003,yes
+W4243427013,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.4018/978-1-4666-2625-6.ch023,yes
+W4243692361,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.4018/978-1-4666-6268-1.ch050,yes
+W4244396275,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1504/ijbe.2017.084703,yes
+W4285502288,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.23919/cisti54924.2022.9820028,yes
+W4295768358,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.23919/picmet53225.2022.9882856,yes
+W4310691070,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1016/j.indmarman.2022.11.003,yes
+W4321063683,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1109/ictmod55867.2022.10041884,yes
+W4323637042,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1016/j.technovation.2023.102735,yes
+W4376528572,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.59188/eduvest.v1i10.232,yes
+W4386798285,Open PDF lacks an explicit reusable license in audited metadata,https://sciendo.com/pdf/10.2478/minib-2023-0017,yes
+W4399441943,PDF: HTTP Error 403: Forbidden; Jina: Jina fallback did not return a substantive bounded document,https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/apel.12417,yes
+W4400268572,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1016/j.jbusres.2024.114811,yes
+W48413605,Open PDF lacks an explicit reusable license in audited metadata,https://eprints.qut.edu.au/27164/1/CINet_09_-_Storer.pdf,yes
+W83397471,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://doi.org/10.1016/s1074-7540(07)10007-6,yes
+W98219716,OpenAlex exposes no direct open PDF URL; no full text is claimed,https://www.jstor.org/stable/info/20798908,yes

@@ -1,0 +1,21 @@
+openalex_id,url,outcome,error,license,pdf_sha256,text_sha256,text_bytes
+W1952543176,https://clutejournals.com/index.php/JABR/article/download/8410/8430,blocked,"PDF: HTTP Error 301: The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Moved Permanently; Jina: Jina fallback did not return a substantive bounded document",cc-by,,,
+W2034797595,https://openaccess.city.ac.uk/id/eprint/16269/1/investigating%20absorptive%20capacity.pdf,retrieved,,public-domain,392c738cea650fb60259466f910d8ef6a3b8e73ddbffec4b23f958ed0f9c5053,423a9220a8b13960222e7b938369fe018150fc43dfb28dc3c8047cc71c90f78e,35359
+W2139737633,http://aisel.aisnet.org/cgi/viewcontent.cgi?article=1809&context=amcis2003,blocked,PDF: HTTP Error 403: Forbidden; Jina: Jina fallback failed title/full-article structure checks,public-domain,,,
+W2153358630,https://academicjournals.org/journal/AJBM/article-full-text-pdf/AD10A6142928.pdf,retrieved,,cc-by,af85aac1eae8684549a36625d302d776b7533adeb46c85c7e158b31b80ba9ae3,8c1cd971060d688c9be43bcf8e608cb77a2f57d6d8cd2fea82b0998d98b47bd6,59237
+W2783456758,https://scielo.conicyt.cl/pdf/jotmi/v12n4/art02.pdf,retrieved,,cc-by,dc9a414a41bd5d02c7f23b20dbff3fd8409f334afc0bdd20c38bb9d667172297,9c00dc3db6590ddca349c5bc65ca567e84f2f8f5423f43aabc619029a36a5c02,56028
+W3011596403,https://www.ieeca.org/journal/index.php/JEECAR/article/download/340/263,retrieved,,cc-by,bab978b032667e3430316b186b90021adc946949d08648e173545aad7f3e80f2,8476a19711f35d1ec7c974270bbf71236015123c6fe24377f43b2bff0067a07e,38333
+W3046524639,https://r.jina.ai/https://doi.org/10.3390/admsci10030048,retrieved-html-fallback,PDF failed first: HTTP Error 403: Forbidden,cc-by,,b77399816d4c0d31a9e5cb8cd5a3f50ac6e4021fc4eaca809e7ccf293559eca8,44969
+W3151962107,http://publikasi.dinus.ac.id/index.php/jpeb/article/download/4043/2231,blocked,PDF: <urlopen error [Errno -2] Name or service not known>; Jina: HTTP Error 422: Unprocessable Entity,cc-by,,,
+W3165372770,https://r.jina.ai/https://doi.org/10.3390/merits1010003,retrieved-html-fallback,PDF failed first: HTTP Error 403: Forbidden,cc-by,,f785968c65c5fc2e842f9230f22be29abb93c7ec80ef423a16466cf3f4a55b4a,51673
+W3165549842,https://r.jina.ai/https://doi.org/10.1080/23311975.2021.1929032,retrieved-html-fallback,PDF failed first: HTTP Error 403: Forbidden,cc-by,,4535fd20064fbdbc7982bfa59deca2127bcfb3da46cd975407fea34ce365569b,70049
+W3195303261,https://www.scielo.br/j/ram/a/XNCqk8XvpLnNttVVZ54nhWq/?lang=en&format=pdf,blocked,PDF: HTTP Error 403: Forbidden; Jina: Jina fallback did not return a substantive bounded document,cc-by,,,
+W3199743489,https://r.jina.ai/https://doi.org/10.3390/su131810294,retrieved-html-fallback,PDF failed first: HTTP Error 403: Forbidden,cc-by,,b69feff260e0f9452b7c79421b3ab3e36f451a28795eb01441fa69b3875457f0,105723
+W3208788294,https://www.frontiersin.org/articles/10.3389/fpsyg.2021.751997/pdf,retrieved,,cc-by,6094e478c5c5a53073506bb42a5827c7ec17b19c3b82fc1d6fba965817292347,5b9f6bf4b54c31c1d50f06e9433eb02621661fde041baade151ae3f37db5959d,67925
+W3215465353,https://eduvest.greenvest.co.id/index.php/edv/article/download/232/677,retrieved,,cc-by-sa,07d86a86e8719926ccd0c133667d0ad7d699fa79c488d5b0506c4c6cf13b7fc6,2d7a3b288609798eaa7c5602bf2e1850e9951621abc6a3e480e52772e790e5d0,39172
+W3217510971,https://r.jina.ai/https://doi.org/10.3390/su132313202,retrieved-html-fallback,PDF failed first: HTTP Error 403: Forbidden,cc-by,,176f60a2f1f469d9fd90418cc483afc697e91ac8da9db0519d73325cd9c79f5c,141271
+W38652429,https://revistas.pucsp.br/index.php/risus/article/download/18260/13583,retrieved,,cc-by,094ce8ac40299bb5e62cb0967e091397e33281dd8daf243ccbfabc5480372647,ae7484af6555bbce4310c2604ad7f5782ecebcb803a8633e8089551d10c75a43,37135
+W4386255792,https://r.jina.ai/https://doi.org/10.1007/s13132-023-01465-9,retrieved-html-fallback,PDF failed first: response is not a bounded PDF,cc-by,,578dfc7e8790923e9f22b1c10437e367362c4367eebc5bf427d4058ce8809b78,168389
+W4399441943,https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/apel.12417,blocked,PDF: HTTP Error 403: Forbidden; Jina: Jina fallback did not return a substantive bounded document,cc-by,,,
