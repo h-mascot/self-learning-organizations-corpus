@@ -1,0 +1,41 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://github.com/PagerDuty/incident-response-docs",
+  "content_sha256": "141b180b8d4571b4544e748a8c191bdd4f22209966ae8d6bf8f41ee6b0ba7f4f",
+  "creator": "PagerDuty",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository README",
+      "text": "This is a public version of the Incident Response process used at PagerDuty. It is also used to prepare new employees for on-call responsibilities, and provides information not only on preparing for an incident, but also what to do during and after. See the [about page](docs/about.md) for more information on what this documentation is and why it exists."
+    }
+  ],
+  "organizational_mechanism": "documented incident learning and response operations",
+  "platform": "github",
+  "provenance": "GitHub API metadata and bounded README evidence for PagerDuty/incident-response-docs.",
+  "published_date": "2016-11-28",
+  "publisher": "GitHub",
+  "query_ids": [
+    "review-github-organizational-mechanisms"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The repository documents documented incident learning and response operations; this is an organizational operating mechanism, not generic agent-memory research."
+  ],
+  "repository": {
+    "full_name": "PagerDuty/incident-response-docs",
+    "last_push": "2026-07-02T15:10:20Z",
+    "license": "Apache-2.0",
+    "stars_at_retrieval": 1047
+  },
+  "retrieval_method": "agent-reach/GitHub CLI API and README endpoint",
+  "retrieved_at": "2026-07-12T09:15:55Z",
+  "rights_note": "GitHub reports Apache-2.0; only a bounded README excerpt is retained.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-pagerduty-incident-response-docs",
+  "status": "accepted",
+  "title": "PagerDuty/incident-response-docs"
+}

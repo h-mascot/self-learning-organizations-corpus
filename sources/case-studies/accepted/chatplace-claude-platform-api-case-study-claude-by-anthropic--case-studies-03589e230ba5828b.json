@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.anthropic.com/customers/chatplace",
+  "content_sha256": "deedfce221b2bf7ae297543524ede5b64845e11cbbd02813fbea59a4d14abfbc",
+  "creator": "anthropic.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "publisher body text",
+      "text": "On top of that architecture, ChatPlace built a system that handles the entire Instagram growth workflow. Virale, their content agent built with Claude Code, scans live Instagram data in the creator's niche, language, and country to find what's performing this week. The agent then runs the full production sequence in one conversation: niche research, script writing, cover image generation, chatbot creation, and publication to Instagram. The workflow used to require five separate tools and several hours; it now runs from a single chat thread."
+    }
+  ],
+  "platform": "case-studies",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-case-studies.",
+  "published_date": null,
+  "publisher": "anthropic.com",
+  "query_ids": [
+    "citation-catalog-case-studies"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The retained publisher-authored passage describes a concrete learning, feedback, evaluation, adaptation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:42:50Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "case-study",
+  "stable_id": "case-studies-03589e230ba5828b",
+  "status": "accepted",
+  "title": "ChatPlace Claude Platform (API) case study | Claude by Anthropic"
+}

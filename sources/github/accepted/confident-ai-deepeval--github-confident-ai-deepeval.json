@@ -1,0 +1,41 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://github.com/confident-ai/deepeval",
+  "content_sha256": "4248626c1460e941a2e62a22164acb1ab0aac5308b91843e031505ff9721e4e7",
+  "creator": "confident-ai",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository README",
+      "text": "- 🎯 Supports both end-to-end and component-level LLM evaluation. - 🧩 Build your own custom metrics that are automatically integrated with DeepEval's ecosystem. - 🔮 Generate both single and multi-turn synthetic datasets for evaluation. - 🔗 Integrates seamlessly with **ANY** CI/CD environment. - 🧬 Optimize prompts automatically based on evaluation results. - 🏆 Easily benchmark **ANY** LLM on popular LLM benchmarks in [under 10 lines of code.](https://deepeval.com/docs/benchmarks-introduction?utm_source=GitHub), including MMLU, HellaSwag, DROP, BIG-Bench Hard, TruthfulQA, HumanEval, GSM8K."
+    }
+  ],
+  "organizational_mechanism": "test and evaluation loops for production LLM systems",
+  "platform": "github",
+  "provenance": "GitHub API metadata and bounded README evidence for confident-ai/deepeval.",
+  "published_date": "2023-08-10",
+  "publisher": "GitHub",
+  "query_ids": [
+    "review-github-organizational-mechanisms"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The repository documents test and evaluation loops for production LLM systems; this is an organizational operating mechanism, not generic agent-memory research."
+  ],
+  "repository": {
+    "full_name": "confident-ai/deepeval",
+    "last_push": "2026-07-12T09:07:35Z",
+    "license": "Apache-2.0",
+    "stars_at_retrieval": 16778
+  },
+  "retrieval_method": "agent-reach/GitHub CLI API and README endpoint",
+  "retrieved_at": "2026-07-12T09:15:43Z",
+  "rights_note": "GitHub reports Apache-2.0; only a bounded README excerpt is retained.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-confident-ai-deepeval",
+  "status": "accepted",
+  "title": "confident-ai/deepeval"
+}

@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.microsoft.com/en/customers/story/26047-air-india-azure-openai-in-foundry-models",
+  "content_sha256": "553bf2cf3255a6cdf227ea867466f245a0431109d5e2a27474172052fd4e859e",
+  "creator": "microsoft.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "publisher body text",
+      "text": "The improvements since then are profound. AI.g currently handles about 40,000 customer queries daily across more than 1,300 different questions—from booking changes to refund requests. Since launch, it has resolved more than 13 million conversations with a 97% success rate. That means only 3% of queries are escalated to a human agent. “AI.g now handles 97% of 4 million-plus customer queries. We’ve saved millions, but the real win is customers aren’t waiting—they’re served. Fast answers for them, unlocking real problem-solving time for our people,” says Dr. Ramaswamy."
+    }
+  ],
+  "platform": "case-studies",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-case-studies.",
+  "published_date": null,
+  "publisher": "microsoft.com",
+  "query_ids": [
+    "citation-catalog-case-studies"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The retained publisher-authored passage describes a concrete learning, feedback, evaluation, adaptation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:35Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "case-study",
+  "stable_id": "case-studies-c4bec8ecbd5a4869",
+  "status": "accepted",
+  "title": "How Azure AI helped Air India reinvent customer service by answering 40,000 daily queries instantly | Microsoft Customer Stories"
+}

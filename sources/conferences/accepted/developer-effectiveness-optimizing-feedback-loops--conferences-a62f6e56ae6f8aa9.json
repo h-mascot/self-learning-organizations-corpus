@@ -1,0 +1,39 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.infoq.com/presentations/thoughtworks-high-performance-teams/",
+  "content_sha256": "a3e29edc8a68a570530434f04fa4813c500282f33ce5a5b4474ed69214bc141c",
+  "creator": "Tim Cochran",
+  "date_precision": "unknown",
+  "event_proof": {
+    "duration_or_media_observed": true,
+    "publisher": "InfoQ",
+    "recorded_marker_observed": true
+  },
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "InfoQ presentation transcript/summary",
+      "text": "How do we fix this? What we like to do at ThoughtWorks is actually take a data-driven approach. We're going to start by looking at, what do engineers do during the day? The low effective one might be the client that called us. It's very obvious that the engineers are spending way too much time on things other than writing code, other than providing value. This is not actually that useful. It's not actually that actionable. I don't really know what to do about this. When we talk about the DevOps report, a lot of it is about feedback loops. It's about this lead time. This lead time of, I write some code. I deploy it to production. I get feedback. What we've noticed is that "
+    }
+  ],
+  "platform": "conferences",
+  "provenance": "InfoQ presentation page with recorded-event marker, speaker attribution, and bounded source excerpt.",
+  "published_date": null,
+  "publisher": "InfoQ",
+  "query_ids": [
+    "review-infoq-continuous-improvement"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Publisher talk text describes a concrete organizational learning, feedback, evaluation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach/Jina public publisher page",
+  "retrieved_at": "2026-07-12T09:15:17Z",
+  "rights_note": "Only a bounded excerpt from the publisher presentation page is retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "talk",
+  "stable_id": "conferences-a62f6e56ae6f8aa9",
+  "status": "accepted",
+  "title": "Developer Effectiveness: Optimizing Feedback Loops"
+}

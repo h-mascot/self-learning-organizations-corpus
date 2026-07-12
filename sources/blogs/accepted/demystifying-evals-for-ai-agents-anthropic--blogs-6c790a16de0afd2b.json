@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents",
+  "content_sha256": "727e166e850ce047379593fc1629058e0f3f91fdc484f17c007e7dd3980d2559",
+  "creator": "anthropic.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "publisher body text",
+      "text": "Test both the cases where a behavior should occur and where it shouldn't . One-sided evals create one-sided optimization. For instance, if you only test whether the agent searches when it should, you might end up with an agent that searches for almost everything. Try to avoid class-imbalanced evals. We learned this firsthand when building evals for web search in Claude.ai . The challenge was preventing the model from searching when it shouldn’t, while preserving its ability to do extensive research when appropriate. The team built evals covering both directions: queries where the model should search (like finding the weather) and queries where it should answer from existi"
+    }
+  ],
+  "platform": "blogs",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-blogs.",
+  "published_date": null,
+  "publisher": "anthropic.com",
+  "query_ids": [
+    "citation-catalog-blogs"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The retained publisher-authored passage describes a concrete learning, feedback, evaluation, adaptation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:23Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "article",
+  "stable_id": "blogs-6c790a16de0afd2b",
+  "status": "accepted",
+  "title": "Demystifying evals for AI agents \\ Anthropic"
+}

@@ -1,0 +1,41 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://github.com/GoogleCloudPlatform/cloud-ops-sandbox",
+  "content_sha256": "3e19a13447aea3f85e3875ebc3c7465fd1cee76082cacbbdd115b4c45ab6158f",
+  "creator": "GoogleCloudPlatform",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository README",
+      "text": "Cloud Operations Sandbox is an open source collection of tools that helps practitioners to learn O11y and R9y practices from Google and apply them using Cloud Operations suite of tools."
+    }
+  ],
+  "organizational_mechanism": "hands-on organizational observability and reliability learning",
+  "platform": "github",
+  "provenance": "GitHub API metadata and bounded README evidence for GoogleCloudPlatform/cloud-ops-sandbox.",
+  "published_date": "2019-03-13",
+  "publisher": "GitHub",
+  "query_ids": [
+    "review-github-organizational-mechanisms"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The repository documents hands-on organizational observability and reliability learning; this is an organizational operating mechanism, not generic agent-memory research."
+  ],
+  "repository": {
+    "full_name": "GoogleCloudPlatform/cloud-ops-sandbox",
+    "last_push": "2024-09-02T19:49:34Z",
+    "license": "Apache-2.0",
+    "stars_at_retrieval": 406
+  },
+  "retrieval_method": "agent-reach/GitHub CLI API and README endpoint",
+  "retrieved_at": "2026-07-12T09:15:56Z",
+  "rights_note": "GitHub reports Apache-2.0; only a bounded README excerpt is retained.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-googlecloudplatform-cloud-ops-sandbox",
+  "status": "accepted",
+  "title": "GoogleCloudPlatform/cloud-ops-sandbox"
+}

@@ -1,0 +1,41 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://github.com/danluu/post-mortems",
+  "content_sha256": "cb124a4905cee6dea5d28099a3182e54bf3c6edce7f279fcf09bf5095f561de6",
+  "creator": "danluu",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository README",
+      "text": "[Amazon](https://aws.amazon.com/message/680342/). Inability to contact a data collection server triggered a latent memory leak bug in the reporting agent on the storage servers. And there is no graceful degradation handling, thus the reporting agent continuously contacted the collection server in a way that slowly consumed system memory. Also the monitoring system failed to alarm this EBS server's memory leak, also EBS servers generally make very dynamic use of all memory. By Monday morning, the rate of memory loss became quite high and confused enough memory on the affected storage servers which cannot keep with the request handling process. This error got further severe"
+    }
+  ],
+  "organizational_mechanism": "cross-company incident and postmortem learning corpus",
+  "platform": "github",
+  "provenance": "GitHub API metadata and bounded README evidence for danluu/post-mortems.",
+  "published_date": "2015-08-03",
+  "publisher": "GitHub",
+  "query_ids": [
+    "review-github-organizational-mechanisms"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The repository documents cross-company incident and postmortem learning corpus; this is an organizational operating mechanism, not generic agent-memory research."
+  ],
+  "repository": {
+    "full_name": "danluu/post-mortems",
+    "last_push": "2026-06-22T04:52:28Z",
+    "license": "NOASSERTION",
+    "stars_at_retrieval": 12156
+  },
+  "retrieval_method": "agent-reach/GitHub CLI API and README endpoint",
+  "retrieved_at": "2026-07-12T09:15:56Z",
+  "rights_note": "GitHub reports NOASSERTION; only a bounded README excerpt is retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-danluu-post-mortems",
+  "status": "accepted",
+  "title": "danluu/post-mortems"
+}

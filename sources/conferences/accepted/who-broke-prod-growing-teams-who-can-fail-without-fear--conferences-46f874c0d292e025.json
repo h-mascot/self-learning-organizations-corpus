@@ -1,0 +1,39 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.infoq.com/presentations/culture-blameless-failure/",
+  "content_sha256": "21aae4c1bea8c071d4c93a7dd0ddd4b0acf2f0346bc0131fbeb0a62853041552",
+  "creator": "Emma Button",
+  "date_precision": "unknown",
+  "event_proof": {
+    "duration_or_media_observed": true,
+    "publisher": "InfoQ",
+    "recorded_marker_observed": true
+  },
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "InfoQ presentation transcript/summary",
+      "text": "The blameless post-mortem. When people hear that I talk about blameless failure, most people go, \"Uh, blameless post-mortem, I know about that.\" Well, I don't really talk about blameless postmortem because the only place where you're looking to eliminate blame is after an incident happened, then you've got it all wrong. Blameless culture starts right from the very beginning that you need to be trying to eliminate that finger pointing right from the beginning of your development cycle. That's it. Blameless post-mortems are one of the most painful things you will ever have to experience. So, whether it's a major incident review after the production outage, or whether it's a"
+    }
+  ],
+  "platform": "conferences",
+  "provenance": "InfoQ presentation page with recorded-event marker, speaker attribution, and bounded source excerpt.",
+  "published_date": null,
+  "publisher": "InfoQ",
+  "query_ids": [
+    "review-infoq-continuous-improvement"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Publisher talk text describes a concrete organizational learning, feedback, evaluation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach/Jina public publisher page",
+  "retrieved_at": "2026-07-12T09:15:18Z",
+  "rights_note": "Only a bounded excerpt from the publisher presentation page is retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "talk",
+  "stable_id": "conferences-46f874c0d292e025",
+  "status": "accepted",
+  "title": "Who Broke Prod? - Growing Teams Who Can Fail without Fear"
+}

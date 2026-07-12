@@ -1,0 +1,38 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.youtube.com/watch?v=Bp_h674oIhw",
+  "content_sha256": "be49adbab71cfb149be2feda06090d1e947d7cc1e08225fc3e5df081e4e86609",
+  "creator": "Amjad Masad",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "transcript_excerpt",
+      "locator": "public transcript near matched timestamp (amjad-masad)",
+      "text": "(00:10:49): Amazing, and that's why you're here. Let's do a demo. While you're pulling it up, you're going to share your screen and show us what this product can do. And the reason I am excited about doing a demo, and this is an experiment, kind of a new type of podcast episode I'm doing where we're diving into specific products and what they can do, I feel like there's so much talk about AI and what it's doing and people keep reading about, oh, AI can do this and AI can do that, and I feel like not many people actually see this stuff in action, especially the most cutting edge stuff. I think people are unaware of just how far things have gone and how much is actually pos"
+    }
+  ],
+  "media_format": "podcast_episode",
+  "platform": "podcasts",
+  "provenance": "Public timestamped transcript at ChatPRD/lennys-podcast-transcripts/amjad-masad; original video ID Bp_h674oIhw.",
+  "published_date": "2024-11-21",
+  "publisher": "Lenny's Podcast",
+  "query_ids": [
+    "github-citation-lennys-podcast-transcripts"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Multiple transcript passages match organizational feedback, experimentation, learning, memory, or AI-agent operating mechanisms."
+  ],
+  "retained_complete_transcript": false,
+  "retrieval_method": "GitHub public transcript citation; original publisher video identified in front matter",
+  "retrieved_at": "2026-07-12T08:44:29Z",
+  "rights_note": "A genuine episode and public transcript source were verified; only the bounded transcript excerpt in evidence is retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "episode",
+  "stable_id": "podcasts-lenny-Bp_h674oIhw",
+  "status": "accepted",
+  "title": "Behind the product: Replit | Amjad Masad (co-founder and CEO)",
+  "transcript_available": true,
+  "transcript_source": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/main/episodes/amjad-masad/transcript.md"
+}

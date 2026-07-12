@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/Prompthon-IO/agent-systems-handbook",
+  "content_sha256": "335945c565c2493e94df0cfdf88bd81d19c69cf331ec36c17ed07dbef8b1bf31",
+  "creator": "Prompthon-IO",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "A practical AI agents handbook covering agent systems, agentic workflows, LangGraph, MCP/A2A, context engineering, agent memory, evaluation, observability, and multi-agent architecture. Current trend focus: Gemini Interactions API and managed agents, emerging agent runtimes, and production AI workflow patterns. <div align=\"center\"> <a href=\"https://github.com/Prompthon-IO\"> <img src=\"https://github.com/Prompthon-IO.png?size=160\" alt=\"Prompthon IO\" width=\"96\" height=\"96\" /> </a> <h1>Agent Systems Handbook by Prompthon</h1> <p> <a href=\"https://labs.prompthon.io/\"> <img"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository Prompthon-IO/agent-systems-handbook; discovered by github-repos-01.",
+  "published_date": "2026-04-20",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-01"
+  ],
+  "rejection_reason": "Generic agent-memory/evaluation repository lacked a demonstrated organizational operating mechanism.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "Prompthon-IO/agent-systems-handbook",
+    "last_push": "2026-07-05T21:40:13Z",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "url": ""
+    },
+    "stars_at_retrieval": 326
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:38:49Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'other', 'name': 'Other', 'url': ''}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-prompthon-io-agent-systems-handbook",
+  "status": "rejected",
+  "title": "Prompthon-IO/agent-systems-handbook"
+}

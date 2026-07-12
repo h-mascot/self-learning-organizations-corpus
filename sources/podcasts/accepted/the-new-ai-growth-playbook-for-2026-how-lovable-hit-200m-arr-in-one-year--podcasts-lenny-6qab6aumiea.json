@@ -1,0 +1,38 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.youtube.com/watch?v=6qAB6aUMIeA",
+  "content_sha256": "45642740c7bd7765c1aceb48b318cce286fc6b8893036dfbdd9b4151e17f5222",
+  "creator": "Elena Verna 4.0",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "transcript_excerpt",
+      "locator": "public transcript near matched timestamp (elena-verna-40)",
+      "text": "(01:11:11): So from that perspective, I think if you want to leapfrog on what it means to be AI native employee and how to use all of these AI tools, you should go to AI company. But if you know that your superpower is in more structure and more definition and a really high specialty of things, because in AI companies, they're all fairly small, so you'll have to generalize quite a bit and have a lot of ownership, all of areas that you usually maybe not have ownership over, then you shouldn't join it, because AI companies will evolve to be more stable too. (01:11:43): So it's just a matter of time on where you can join. So I would just urge people to look at their superpo"
+    }
+  ],
+  "media_format": "podcast_episode",
+  "platform": "podcasts",
+  "provenance": "Public timestamped transcript at ChatPRD/lennys-podcast-transcripts/elena-verna-40; original video ID 6qAB6aUMIeA.",
+  "published_date": "2025-12-18",
+  "publisher": "Lenny's Podcast",
+  "query_ids": [
+    "github-citation-lennys-podcast-transcripts"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Multiple transcript passages match organizational feedback, experimentation, learning, memory, or AI-agent operating mechanisms."
+  ],
+  "retained_complete_transcript": false,
+  "retrieval_method": "GitHub public transcript citation; original publisher video identified in front matter",
+  "retrieved_at": "2026-07-12T08:44:29Z",
+  "rights_note": "A genuine episode and public transcript source were verified; only the bounded transcript excerpt in evidence is retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "episode",
+  "stable_id": "podcasts-lenny-6qAB6aUMIeA",
+  "status": "accepted",
+  "title": "The new AI growth playbook for 2026 | How Lovable hit $200M ARR in one year",
+  "transcript_available": true,
+  "transcript_source": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/main/episodes/elena-verna-40/transcript.md"
+}

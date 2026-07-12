@@ -1,0 +1,41 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://github.com/upgundecha/howtheysre",
+  "content_sha256": "b0a2dce185b565a85eee36bee6cf89aa871f91859e89cc0db479b52ceada79ab",
+  "creator": "upgundecha",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository README",
+      "text": "* Site Reliability Engineering * Hiring and Building SRE teams * SRE Culture * DevOps * Monitoring & Observability * Alerting * Incident Response & Post-Mortem * On-Call * Testing in Production * Chaos Engineering * Automation * Performance * Platform Engineering"
+    }
+  ],
+  "organizational_mechanism": "cross-company evidence about reliability operating mechanisms",
+  "platform": "github",
+  "provenance": "GitHub API metadata and bounded README evidence for upgundecha/howtheysre.",
+  "published_date": "2021-02-14",
+  "publisher": "GitHub",
+  "query_ids": [
+    "review-github-organizational-mechanisms"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The repository documents cross-company evidence about reliability operating mechanisms; this is an organizational operating mechanism, not generic agent-memory research."
+  ],
+  "repository": {
+    "full_name": "upgundecha/howtheysre",
+    "last_push": "2025-11-17T18:57:19Z",
+    "license": "CC0-1.0",
+    "stars_at_retrieval": 9753
+  },
+  "retrieval_method": "agent-reach/GitHub CLI API and README endpoint",
+  "retrieved_at": "2026-07-12T09:15:57Z",
+  "rights_note": "GitHub reports CC0-1.0; only a bounded README excerpt is retained.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-upgundecha-howtheysre",
+  "status": "accepted",
+  "title": "upgundecha/howtheysre"
+}

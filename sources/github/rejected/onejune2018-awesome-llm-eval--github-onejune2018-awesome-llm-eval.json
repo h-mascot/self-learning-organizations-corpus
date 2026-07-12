@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/onejune2018/Awesome-LLM-Eval",
+  "content_sha256": "3b8b79751ba3b3232ed866055eef34c38fbd2257250deb01e33bcd0e89ce7839",
+  "creator": "onejune2018",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "Awesome-LLM-Eval: a curated list of tools, datasets/benchmark, demos, leaderboard, papers, docs and models, mainly for Evaluation on LLMs. 一个由工具、基准/数据、演示、排行榜和大模型等组成的精选列表，主要面向基础大模型评测，旨在探求生成式AI的技术边界. <div align=\"center\"> <h1>Awesome LLM Eval</h1> <a href=\"https://awesome.re\"><img src=\"https://awesome.re/badge.svg\"/></a> </div> [English](README_EN.md) | [中文](README_CN.md) Awesome-LLM-Eval: a curated list of tools, datasets/benchmark, demos, leaderboard, papers, docs and models, mainly for Evaluation on Large Language Models and exploring the boundaries and limits of Generative AI. The is the official project of our"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository onejune2018/Awesome-LLM-Eval; discovered by github-repos-02.",
+  "published_date": "2023-04-26",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-02"
+  ],
+  "rejection_reason": "Generic agent-memory/evaluation repository lacked a demonstrated organizational operating mechanism.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "onejune2018/Awesome-LLM-Eval",
+    "last_push": "2025-11-24T01:59:12Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stars_at_retrieval": 649
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:38:57Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'mit', 'name': 'MIT License', 'url': 'https://api.github.com/licenses/mit'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-onejune2018-awesome-llm-eval",
+  "status": "rejected",
+  "title": "onejune2018/Awesome-LLM-Eval"
+}

@@ -1,0 +1,42 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://openlibrary.org/works/OL2002798W",
+  "content_sha256": "23669e7bf0326c23a1b5452736200d57c0f9463d79c3ed54381829fc20c9bf21",
+  "creator": "Linda Argote",
+  "date_precision": "year",
+  "evidence": [
+    {
+      "kind": "bibliographic_metadata",
+      "locator": "canonical catalog record",
+      "text": "Title: Organizational Learning; creators: Linda Argote; publisher: Springer; publication date: 1999-01-01; catalog ID: OL2002798W; ISBN: 9781461452515, 1461452511, 0792384202."
+    }
+  ],
+  "identifiers": {
+    "catalog_id": "OL2002798W",
+    "isbn": [
+      "9781461452515",
+      "1461452511",
+      "0792384202"
+    ]
+  },
+  "platform": "books",
+  "provenance": "Public bibliographic record OL2002798W; discovered by openlibrary-books-02.",
+  "published_date": "1999-01-01",
+  "publisher": "Springer",
+  "query_ids": [
+    "openlibrary-books-02"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The canonical bibliographic title explicitly concerns organizational learning or a named organizational improvement mechanism: Organizational Learning."
+  ],
+  "retrieval_method": "Open Library public Search API",
+  "retrieved_at": "2026-07-12T08:38:20Z",
+  "rights_note": "Bibliographic metadata and at most a bounded publisher/API description are stored; no book text is copied.",
+  "rights_status": "metadata-only",
+  "schema_version": 2,
+  "source_type": "book",
+  "stable_id": "books-google-OL2002798W",
+  "status": "accepted",
+  "title": "Organizational Learning"
+}

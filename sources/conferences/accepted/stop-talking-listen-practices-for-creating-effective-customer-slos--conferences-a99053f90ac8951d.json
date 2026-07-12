@@ -1,0 +1,39 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.infoq.com/presentations/slo-pitfalls-2019/",
+  "content_sha256": "467de5331906756a5363ec703eb88c800ed98812aec75fda3dd681cad02f036e",
+  "creator": "Cindy Quach",
+  "date_precision": "day",
+  "event_proof": {
+    "duration_or_media_observed": true,
+    "publisher": "InfoQ",
+    "recorded_marker_observed": true
+  },
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "InfoQ presentation transcript/summary",
+      "text": "Then you can also ask your customers, do some surveys, allowing your customers to actually reach you and leave comments and feedback. It's not great if the customer has to talk to you every time there's an outage. It is a useful data point. I've seen companies where sometimes that's their only signal, so it's not great. Other things you can do is you can use some web trend analyzers or scrapers, and you can see how many folks are mentioning your website's reliability on social media, and adjust accordingly. One other thing is not everything has to be on fire for you to do these things. You can also proactively reach out to your customer and ask them how their experience w"
+    }
+  ],
+  "platform": "conferences",
+  "provenance": "InfoQ presentation page with recorded-event marker, speaker attribution, and bounded source excerpt.",
+  "published_date": "2020-05-22",
+  "publisher": "InfoQ",
+  "query_ids": [
+    "review-infoq-continuous-improvement"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Publisher talk text describes a concrete organizational learning, feedback, evaluation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach/Jina public publisher page",
+  "retrieved_at": "2026-07-12T09:15:22Z",
+  "rights_note": "Only a bounded excerpt from the publisher presentation page is retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "talk",
+  "stable_id": "conferences-a99053f90ac8951d",
+  "status": "accepted",
+  "title": "Stop Talking & Listen; Practices for Creating Effective Customer SLOs"
+}

@@ -1,0 +1,38 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.youtube.com/watch?v=21sFTZzIfUk",
+  "content_sha256": "8fb3607ea1049d3bcecb7a64bdbaa73adb065bdc0e419c2fffd0cdf2f099bab9",
+  "creator": "Ben Williams",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "transcript_excerpt",
+      "locator": "public transcript near matched timestamp (ben-williams)",
+      "text": "(00:13:35): And the initial version of Snyk, it was a command line tool. It was a tool for developers, it could be run locally or easily integrated into CICD pipelines for early feedback. It allowed devs to assume more responsibility for the security of their apps, and that was just very different from the typical incumbent technologies that were run by security teams late in the dev process, long feedback loops, issues thrown over the walls, inevitably just frustrating developers. And all of this was just built on this fundamental belief that the only viable path, and by viable I really mean sustainably effective, the only sustainably effective path for software-centric"
+    }
+  ],
+  "media_format": "podcast_episode",
+  "platform": "podcasts",
+  "provenance": "Public timestamped transcript at ChatPRD/lennys-podcast-transcripts/ben-williams; original video ID 21sFTZzIfUk.",
+  "published_date": "2022-11-06",
+  "publisher": "Lenny's Podcast",
+  "query_ids": [
+    "github-citation-lennys-podcast-transcripts"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Multiple transcript passages match organizational feedback, experimentation, learning, memory, or AI-agent operating mechanisms."
+  ],
+  "retained_complete_transcript": false,
+  "retrieval_method": "GitHub public transcript citation; original publisher video identified in front matter",
+  "retrieved_at": "2026-07-12T08:44:29Z",
+  "rights_note": "A genuine episode and public transcript source were verified; only the bounded transcript excerpt in evidence is retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "episode",
+  "stable_id": "podcasts-lenny-21sFTZzIfUk",
+  "status": "accepted",
+  "title": "How Snyk built a product-led growth juggernaut | Ben Williams (VP of Product",
+  "transcript_available": true,
+  "transcript_source": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/main/episodes/ben-williams/transcript.md"
+}

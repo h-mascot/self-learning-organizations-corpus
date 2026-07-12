@@ -1,0 +1,32 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://leaddev.com/culture/beyond-timelines-learning-from-incidents",
+  "content_sha256": "559fcc405348a28df00afbc5a490212df1717b90342a611f01e156e05dcb3e4a",
+  "creator": "leaddev.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "public primary page",
+      "text": "The talk demonstrates practical techniques for asking better questions, listening more effectively, and creating the psychological safety required for people to articulate these factors without fear or blame. Attendees will leave with concrete approaches for facilitating post-incident reviews that go beyond technical analysis, strengthen leadership effectiveness, improve decision-making, and build teams and systems that are more resilient because they are better understood. Key takeaways What the Social Psychology of Risk is and why it matters in post-incident reviews. How to use Workspace, Headspace, and Groupspace to analyse incidents mo"
+    }
+  ],
+  "platform": "conferences",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-conferences.",
+  "published_date": null,
+  "publisher": "leaddev.com",
+  "query_ids": [
+    "citation-catalog-conferences"
+  ],
+  "rejection_reason": "Independent review found no sufficient event/talk/proceeding proof in the retained record.",
+  "relevance_evidence": [],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:26Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "talk",
+  "stable_id": "conferences-5f5556aa0a27b4e4",
+  "status": "rejected",
+  "title": "Beyond timelines: Learning from incidents - LeadDev"
+}

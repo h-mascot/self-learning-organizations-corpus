@@ -1,0 +1,41 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://github.com/PostHog/posthog",
+  "content_sha256": "54e61661d15f49ba70d16ab8f0521bd5be2613291e407dbccb82a251b7222d24",
+  "creator": "PostHog",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository README",
+      "text": "🦔 PostHog is an all-in-one developer platform for building successful products. We offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data warehouse, a CDP, and an AI product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack."
+    }
+  ],
+  "organizational_mechanism": "product analytics, experiments, and user-feedback loops",
+  "platform": "github",
+  "provenance": "GitHub API metadata and bounded README evidence for PostHog/posthog.",
+  "published_date": "2020-01-23",
+  "publisher": "GitHub",
+  "query_ids": [
+    "review-github-organizational-mechanisms"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The repository documents product analytics, experiments, and user-feedback loops; this is an organizational operating mechanism, not generic agent-memory research."
+  ],
+  "repository": {
+    "full_name": "PostHog/posthog",
+    "last_push": "2026-07-12T09:05:36Z",
+    "license": "NOASSERTION",
+    "stars_at_retrieval": 35434
+  },
+  "retrieval_method": "agent-reach/GitHub CLI API and README endpoint",
+  "retrieved_at": "2026-07-12T09:15:39Z",
+  "rights_note": "GitHub reports NOASSERTION; only a bounded README excerpt is retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-posthog-posthog",
+  "status": "accepted",
+  "title": "PostHog/posthog"
+}

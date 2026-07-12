@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://engineering.atspotify.com/2025/9/spotifys-experiments-with-learning-framework",
+  "content_sha256": "10eefe36c04b104b95b67a41418a54fa7ebaaedb15e5177ec047f29ebcb92f63",
+  "creator": "engineering.atspotify.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "publisher body text",
+      "text": "Our EwL framework redefines experimental success by shifting focus from a narrow win rate to the broader value of generating decision-informing insights. By classifying any valid experiment that detects a win, a regression, or a conclusive neutral result as a “learning,” we acknowledge that the primary value of experimentation comes from mitigating risk and understanding what doesn’t work. Our EwL rate of ~64% and win rate of ~12% clearly show there’s more to learn than just what wins. Our EwL metric is a strategic tool that helps us guide investment, manage testing capacity, improve experimentation practices, and evolve Confidence — fostering an innovative culture that l"
+    }
+  ],
+  "platform": "blogs",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-blogs.",
+  "published_date": null,
+  "publisher": "engineering.atspotify.com",
+  "query_ids": [
+    "citation-catalog-blogs"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The retained publisher-authored passage describes a concrete learning, feedback, evaluation, adaptation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:23Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "article",
+  "stable_id": "blogs-f32ffeec08066e1d",
+  "status": "accepted",
+  "title": "Beyond Winning: Spotify’s Experiments with Learning Framework | Spotify Engineering"
+}

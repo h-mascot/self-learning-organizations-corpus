@@ -1,0 +1,41 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://github.com/npryce/adr-tools",
+  "content_sha256": "b02415ac7b6ff71bd9ce27d71df6517199dbc0e8bb0139bebee126e823ea8a6e",
+  "creator": "npryce",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository README",
+      "text": "This will create a directory named `doc/architecture/decisions` containing the first ADR, which records that you are using ADRs to record architectural decisions and links to [Michael Nygard's article on the subject][ADRs]."
+    }
+  ],
+  "organizational_mechanism": "durable architecture decision records",
+  "platform": "github",
+  "provenance": "GitHub API metadata and bounded README evidence for npryce/adr-tools.",
+  "published_date": "2016-02-04",
+  "publisher": "GitHub",
+  "query_ids": [
+    "review-github-organizational-mechanisms"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The repository documents durable architecture decision records; this is an organizational operating mechanism, not generic agent-memory research."
+  ],
+  "repository": {
+    "full_name": "npryce/adr-tools",
+    "last_push": "2024-04-25T18:22:02Z",
+    "license": "NOASSERTION",
+    "stars_at_retrieval": 5555
+  },
+  "retrieval_method": "agent-reach/GitHub CLI API and README endpoint",
+  "retrieved_at": "2026-07-12T09:15:54Z",
+  "rights_note": "GitHub reports NOASSERTION; only a bounded README excerpt is retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-npryce-adr-tools",
+  "status": "accepted",
+  "title": "npryce/adr-tools"
+}

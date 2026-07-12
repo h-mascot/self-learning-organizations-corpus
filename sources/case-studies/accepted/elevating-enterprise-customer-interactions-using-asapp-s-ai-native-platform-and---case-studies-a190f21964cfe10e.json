@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://aws.amazon.com/solutions/case-studies/asapp-case-study/",
+  "content_sha256": "47bae6f01b0dfdd1f659fb2ba295c9584c677ca3eba9586d02681b06d285527b",
+  "creator": "aws.amazon.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "publisher body text",
+      "text": "Because AWS provides built-in rigorous controls that keep information protected, ASAPP has eliminated its PII redaction layer using Amazon Bedrock. The GenerativeAgent Platform is producing higher-quality outputs and solving up to 40 percent more problems without escalating to a human agent. ASAPP maintains transparency about its use of AI even as it develops the increasingly human-like qualities of GenerativeAgent, all while emphasizing the importance of protecting private information. “We bring AI to the contact center in a way that encourages consumers to trust the product and doesn’t mislead them,” says Mackenzie Smith, head of partnerships and business operations at "
+    }
+  ],
+  "platform": "case-studies",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-case-studies.",
+  "published_date": null,
+  "publisher": "aws.amazon.com",
+  "query_ids": [
+    "citation-catalog-case-studies"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The retained publisher-authored passage describes a concrete learning, feedback, evaluation, adaptation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:35Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "case-study",
+  "stable_id": "case-studies-a190f21964cfe10e",
+  "status": "accepted",
+  "title": "Elevating Enterprise Customer Interactions Using ASAPP’s AI-Native Platform and Amazon Bedrock"
+}

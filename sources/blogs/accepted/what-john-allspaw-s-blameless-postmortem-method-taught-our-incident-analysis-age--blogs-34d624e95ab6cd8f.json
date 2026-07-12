@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://dataworkers.io/blog/what-allspaw-blameless-postmortem-taught-our-incident-agent/",
+  "content_sha256": "9357b59d8010dfe8bbc0d418cb188c7e7074c927c8a85dfacac79213a4ed2086",
+  "creator": "dataworkers.io",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "publisher body text",
+      "text": "The dw-incidents agent carries more than 400 method-named skills across the full Data Workers swarm of 19 agents. Each skill is distilled from a practitioner's public method — a framework, a paper, a body of writing that has proven its value in the field. The blameless postmortem skill is one of those. It is named for the method, not the person, because the goal is to institutionalize the practice — to make it available to any agent invocation, at any hour, without requiring the analyst to have read everything Allspaw has written."
+    }
+  ],
+  "platform": "blogs",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-blogs.",
+  "published_date": null,
+  "publisher": "dataworkers.io",
+  "query_ids": [
+    "citation-catalog-blogs"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The retained publisher-authored passage describes a concrete learning, feedback, evaluation, adaptation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:23Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "article",
+  "stable_id": "blogs-34d624e95ab6cd8f",
+  "status": "accepted",
+  "title": "What John Allspaw's Blameless Postmortem Method Taught Our Incident Analysis Agent"
+}

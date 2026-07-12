@@ -1,0 +1,32 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://leaddev.com/culture/simplify-your-postmortems-and-focus-scaling",
+  "content_sha256": "59139a484c0ca045f1fc42f344d2192bf33c234c4bde90da1cf7eaa582f994e5",
+  "creator": "leaddev.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "public primary page",
+      "text": "Title: Simplify your postmortems and focus on scaling - LeadDev Simplify your postmortems and focus on scaling - LeadDev Skip to content Search LeadDev.com Go Upcoming events Login Login Register Knowledge Newsletters Latest news in your inbox Panel discussions See all our upcoming events Videos From our archives Reports Unique engineering research For you Find content specific to your role Management Software quality Communication Culture Hiring Leadership Velocity Career development Metrics Technical direction AI Events London June 28–29, 2027 LDX3 Meetups Browse our upcoming Meetups New York September 15–16, 2026 LDX3 Berlin November"
+    }
+  ],
+  "platform": "conferences",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-conferences.",
+  "published_date": null,
+  "publisher": "leaddev.com",
+  "query_ids": [
+    "citation-catalog-conferences"
+  ],
+  "rejection_reason": "Independent review found no sufficient event/talk/proceeding proof in the retained record.",
+  "relevance_evidence": [],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:26Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "talk",
+  "stable_id": "conferences-1b68aaa4cb4d3024",
+  "status": "rejected",
+  "title": "Simplify your postmortems and focus on scaling - LeadDev"
+}

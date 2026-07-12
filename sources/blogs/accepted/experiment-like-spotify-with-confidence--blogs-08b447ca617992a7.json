@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://confidence.spotify.com/blog/experiment-like-spotify",
+  "content_sha256": "d4a188d7efdaff5413f2758d6c1fcd3d5d518c2b72941c4536bcc79016a05e02",
+  "creator": "confidence.spotify.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "publisher body text",
+      "text": "As our experimentation needs at Spotify have evolved, we've continuously evaluated what the market has to offer. Our choice has been to invest in building our own experimentation platform, because no tool has been able to meet our constantly changing requirements. Building your own platform is an incredible investment that's easy to underestimate. Part of the problem is that among commercial experimentation platforms, your choice has for a long time been build versus buy — with no viable alternative between the two. With Confidence, we're turning the build-vs-buy dichotomy into a build-and-buy continuum. Confidence is a modern, warehouse-native experimentation platform th"
+    }
+  ],
+  "platform": "blogs",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-blogs.",
+  "published_date": null,
+  "publisher": "confidence.spotify.com",
+  "query_ids": [
+    "citation-catalog-blogs"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The retained publisher-authored passage describes a concrete learning, feedback, evaluation, adaptation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:23Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "article",
+  "stable_id": "blogs-08b447ca617992a7",
+  "status": "accepted",
+  "title": "Experiment like Spotify: With Confidence"
+}

@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://cloud.google.com/blog/topics/customers/how-manipal-hospitals-sped-up-nurse-handoffs-across-37-hospitals",
+  "content_sha256": "ae78f505ae05660c0f58c44cd24b90f24377ff5052f0dbafb9eb071ff0cbc53d",
+  "creator": "cloud.google.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "publisher body text",
+      "text": "summarizes only the most pertinent facts, dramatically improving the accuracy and consistency of the final ISBAR (Identify, Situation, Background, Assessment, and Recommendation) report. The ability of Gemini to understand complex medical terminology, medication names, and clinical procedures without specialized fine-tuning was a game-changer, accelerating the entire development process."
+    }
+  ],
+  "platform": "case-studies",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-case-studies.",
+  "published_date": null,
+  "publisher": "cloud.google.com",
+  "query_ids": [
+    "citation-catalog-case-studies"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The retained publisher-authored passage describes a concrete learning, feedback, evaluation, adaptation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:34Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "case-study",
+  "stable_id": "case-studies-21813e3f60a2e150",
+  "status": "accepted",
+  "title": "How Manipal Hospitals sped up nurse handoffs across 37 hospitals"
+}

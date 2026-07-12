@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.uber.com/us/en/blog/supercharging-a-b-testing-at-uber/",
+  "content_sha256": "3b5585042a335f69cc4d30cbc9e20a154338c9f997b46ff286f84fb1f8e3e2ca",
+  "creator": "uber.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "public primary page",
+      "text": "A gain of 5 percent, of perhaps a small total. A competent overhauling of the process of collection, or of the experimental design, may often increase the yield ten- or twelve-fold, for the same cost in time and labor. To consult the statistician after an experiment is finished is often merely to ask him to conduct a post mortem examination. He can perhaps say what the experiment died of. To utilize this kind of experience he must be induced to use his imagination, and to foresee in advance the difficulties and uncertainties with which, if they are not foreseen, his investigations will be beset.”_([R. A. Fisher’s Presidential address"
+    }
+  ],
+  "platform": "blogs",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-blogs.",
+  "published_date": null,
+  "publisher": "uber.com",
+  "query_ids": [
+    "citation-catalog-blogs"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The retained publisher-authored passage describes a concrete learning, feedback, evaluation, adaptation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:23Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "article",
+  "stable_id": "blogs-2bb703a940ae552d",
+  "status": "accepted",
+  "title": "Supercharging A/B Testing at Uber"
+}

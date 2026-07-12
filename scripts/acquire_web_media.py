@@ -728,7 +728,9 @@ def materialize() -> None:
         evidence = row["evidence"]
         row["schema_version"] = 2
         row["content_sha256"] = hashlib.sha256(json.dumps(evidence, ensure_ascii=False, sort_keys=True, separators=(",", ":")).encode()).hexdigest()
-        out = ROOT / "sources" / row["platform"] / row["status"] / f"{row['stable_id']}.json"
+        # Human-readable title first; the stable ID suffix makes collisions impossible.
+        filename = f"{slug(row['title'])}--{slug(row['stable_id'])}.json"
+        out = ROOT / "sources" / row["platform"] / row["status"] / filename
         out.write_text(json.dumps(row, ensure_ascii=False, indent=2, sort_keys=True) + "\n")
     print(f"materialized records={len(rows)}")
 

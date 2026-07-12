@@ -1,0 +1,41 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://github.com/litmuschaos/litmus",
+  "content_sha256": "d3081d1d134a317631da45423e6a5add588be4d11239e3e4732e6b1e6a1949d7",
+  "creator": "litmuschaos",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository README",
+      "text": "- **ChaosExperiment**: A resource to group the configuration parameters of a particular fault. ChaosExperiment CRs are essentially installable templates that describe the library carrying out the fault, indicate permissions needed to run it & the defaults it will operate with. Through the ChaosExperiment, Litmus supports BYOC (bring-your-own-chaos) that helps integrate (optional) any third-party tooling to perform the fault injection."
+    }
+  ],
+  "organizational_mechanism": "organizational chaos experiments and reliability learning",
+  "platform": "github",
+  "provenance": "GitHub API metadata and bounded README evidence for litmuschaos/litmus.",
+  "published_date": "2017-03-15",
+  "publisher": "GitHub",
+  "query_ids": [
+    "review-github-organizational-mechanisms"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The repository documents organizational chaos experiments and reliability learning; this is an organizational operating mechanism, not generic agent-memory research."
+  ],
+  "repository": {
+    "full_name": "litmuschaos/litmus",
+    "last_push": "2026-07-08T12:12:09Z",
+    "license": "Apache-2.0",
+    "stars_at_retrieval": 5510
+  },
+  "retrieval_method": "agent-reach/GitHub CLI API and README endpoint",
+  "retrieved_at": "2026-07-12T09:15:50Z",
+  "rights_note": "GitHub reports Apache-2.0; only a bounded README excerpt is retained.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-litmuschaos-litmus",
+  "status": "accepted",
+  "title": "litmuschaos/litmus"
+}

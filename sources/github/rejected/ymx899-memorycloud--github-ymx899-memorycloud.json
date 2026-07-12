@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/YMX899/MemoryCloud",
+  "content_sha256": "bf02f23c83f5b545b56e227e1be23b8cfe53f818403218d010ceb8a997c28835",
+  "creator": "YMX899",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "The AI agent memory cloud you’ll wish existed yesterday. Manage agent memory like a GitHub repo: switch devices, switch agents, switch sessions, and your AI still remembers who you are, what it has learned, the rules you taught it, where the project left off, and what to do next. <p align=\"center\"> <img src=\"static/assets/readme-hero.png\" alt=\"MemoryCloud hero: AI agent memories flowing from chats and code into installable memory packages\" width=\"100%\" /> </p> # 🧠 MemoryCloud Community <p> <a href=\"https://github.com/YMX899/MemoryCloud/blob/main/LICENSE\"><img alt=\"License: AGPLv3\""
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository YMX899/MemoryCloud; discovered by github-repos-01.",
+  "published_date": "2026-06-06",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-01"
+  ],
+  "rejection_reason": "Generic agent-memory/evaluation repository lacked a demonstrated organizational operating mechanism.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "YMX899/MemoryCloud",
+    "last_push": "2026-06-09T06:33:07Z",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "url": ""
+    },
+    "stars_at_retrieval": 318
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:38:50Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'other', 'name': 'Other', 'url': ''}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-ymx899-memorycloud",
+  "status": "rejected",
+  "title": "YMX899/MemoryCloud"
+}

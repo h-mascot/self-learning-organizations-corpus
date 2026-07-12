@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://aws.amazon.com/solutions/case-studies/doordash-bedrock-case-study/",
+  "content_sha256": "299311cb153711bc3fd4f43b30b4da27396cd10d50866fa19adaffbfd5794bce",
+  "creator": "aws.amazon.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "publisher body text",
+      "text": "DoorDash also increased the capacity to test its solution with help from the GenAIIC. Previously, the team had to pull contact center agents off help queues to complete a small number of manual test cases per hour. Using Amazon SageMaker, which developers use to build, train, and deploy machine learning models, DoorDash built a test and evaluation framework that quickly drew insights from A/B testing and evaluated key success metrics at scale. This framework helps DoorDash to complete thousands of automated tests per hour—a 50x increase in capacity—and semantically evaluates responses against ground-truth data."
+    }
+  ],
+  "platform": "case-studies",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-case-studies.",
+  "published_date": null,
+  "publisher": "aws.amazon.com",
+  "query_ids": [
+    "citation-catalog-case-studies"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The retained publisher-authored passage describes a concrete learning, feedback, evaluation, adaptation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:35Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "case-study",
+  "stable_id": "case-studies-93245d8ac045e2f4",
+  "status": "accepted",
+  "title": "Building a Generative AI Contact Center Solution for DoorDash Using Amazon Bedrock, Amazon Connect Customer, and Anthropic’s Claude | Case Study | AWS"
+}

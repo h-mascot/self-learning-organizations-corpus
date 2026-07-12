@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/nuster1128/LLM_Agent_Memory_Survey",
+  "content_sha256": "69f5f19df7fce668435ee798862336051fbf0e379b46bf19f08bbe9f7b17f1a8",
+  "creator": "nuster1128",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "for enhancing the learning efficiency of the agent in the self-evolving process. **(2) Environment exploration.** To autonomously evolve in the environment, the agents have to explore different actions and learn from the feedback. By remembering historical information, the memory can help to better decide when and how to make explorations, for example, focusing more on previously failed trials or actions with lower exploring frequencies. **(3) Knowledge abstraction.** Another important function of the memory is to summarize and abstract high-level information from raw observations, which is the basis for the a"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository nuster1128/LLM_Agent_Memory_Survey; discovered by github-repos-01.",
+  "published_date": "2024-04-13",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-01"
+  ],
+  "rejection_reason": "Generic agent-memory/evaluation repository lacked a demonstrated organizational operating mechanism.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "nuster1128/LLM_Agent_Memory_Survey",
+    "last_push": "2025-07-28T01:46:49Z",
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "stars_at_retrieval": 502
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:38:45Z",
+  "rights_note": "Repository license reported by GitHub: {'key': '', 'name': '', 'url': ''}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-nuster1128-llm-agent-memory-survey",
+  "status": "rejected",
+  "title": "nuster1128/LLM_Agent_Memory_Survey"
+}

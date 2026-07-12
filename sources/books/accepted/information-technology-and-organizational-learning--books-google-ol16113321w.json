@@ -1,0 +1,42 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://openlibrary.org/works/OL16113321W",
+  "content_sha256": "221a7638114f5016050bd1a8215bf0a02cdf0fd0e35c897a56f6d11838b1bd03",
+  "creator": "Arthur M. Langer",
+  "date_precision": "year",
+  "evidence": [
+    {
+      "kind": "bibliographic_metadata",
+      "locator": "canonical catalog record",
+      "text": "Title: Information technology and organizational learning; creators: Arthur M. Langer; publisher: Taylor & Francis Group; publication date: 2010-01-01; catalog ID: OL16113321W; ISBN: 9781351387583, 0415875838, 9781498775755."
+    }
+  ],
+  "identifiers": {
+    "catalog_id": "OL16113321W",
+    "isbn": [
+      "9781351387583",
+      "0415875838",
+      "9781498775755"
+    ]
+  },
+  "platform": "books",
+  "provenance": "Public bibliographic record OL16113321W; discovered by openlibrary-books-02.",
+  "published_date": "2010-01-01",
+  "publisher": "Taylor & Francis Group",
+  "query_ids": [
+    "openlibrary-books-02"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The canonical bibliographic title explicitly concerns organizational learning or a named organizational improvement mechanism: Information technology and organizational learning."
+  ],
+  "retrieval_method": "Open Library public Search API",
+  "retrieved_at": "2026-07-12T08:38:20Z",
+  "rights_note": "Bibliographic metadata and at most a bounded publisher/API description are stored; no book text is copied.",
+  "rights_status": "metadata-only",
+  "schema_version": 2,
+  "source_type": "book",
+  "stable_id": "books-google-OL16113321W",
+  "status": "accepted",
+  "title": "Information technology and organizational learning"
+}

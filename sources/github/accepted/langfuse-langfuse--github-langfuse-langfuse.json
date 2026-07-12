@@ -1,0 +1,41 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://github.com/langfuse/langfuse",
+  "content_sha256": "8d376868eb2a8d1fc2a6b41d5337297f6b782ba3eefadcd4e38493e8a96be0ea",
+  "creator": "langfuse",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository README",
+      "text": "- [Datasets](https://langfuse.com/docs/evaluation/dataset-runs/datasets) enable test sets and benchmarks for evaluating your LLM application. They support continuous improvement, pre-deployment testing, structured experiments, flexible evaluation, and seamless integration with frameworks like LangChain and LlamaIndex."
+    }
+  ],
+  "organizational_mechanism": "production traces, evaluations, and user-feedback loops",
+  "platform": "github",
+  "provenance": "GitHub API metadata and bounded README evidence for langfuse/langfuse.",
+  "published_date": "2023-05-18",
+  "publisher": "GitHub",
+  "query_ids": [
+    "review-github-organizational-mechanisms"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The repository documents production traces, evaluations, and user-feedback loops; this is an organizational operating mechanism, not generic agent-memory research."
+  ],
+  "repository": {
+    "full_name": "langfuse/langfuse",
+    "last_push": "2026-07-11T07:49:08Z",
+    "license": "NOASSERTION",
+    "stars_at_retrieval": 30951
+  },
+  "retrieval_method": "agent-reach/GitHub CLI API and README endpoint",
+  "retrieved_at": "2026-07-12T09:15:45Z",
+  "rights_note": "GitHub reports NOASSERTION; only a bounded README excerpt is retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-langfuse-langfuse",
+  "status": "accepted",
+  "title": "langfuse/langfuse"
+}

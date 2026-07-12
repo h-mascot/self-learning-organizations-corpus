@@ -1,0 +1,32 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://devblogs.microsoft.com/foundry/build-2026-open-trust-stack-ai-agents/",
+  "content_sha256": "7573029d52eaab59903470eacb01762dcc99dc8274528ea9b69103a43fad4474",
+  "creator": "devblogs.microsoft.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "public primary page",
+      "text": "source. What’s new Today we are announcing a new trust framework and a set of capabilities for developers building AI agents on any framework. It starts with two open-source projects that any developer can use regardless of their stack: ASSERT (Adaptive Spec-driven Scoring for Evaluation and Regression Testing) , a policy-driven evaluation framework built on Microsoft Research. Agent Control Specification (ACS) , a portable runtime control standard and part of the Agent Governance Toolkit, built for broad ecosystem adoption. ASSERT: Open-source agent evaluation Agents fail in ways that are hard to see. They drift from policy, produce uns"
+    }
+  ],
+  "platform": "conferences",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-conferences.",
+  "published_date": null,
+  "publisher": "devblogs.microsoft.com",
+  "query_ids": [
+    "citation-catalog-conferences"
+  ],
+  "rejection_reason": "Independent review found no sufficient event/talk/proceeding proof in the retained record.",
+  "relevance_evidence": [],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:26Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "talk",
+  "stable_id": "conferences-f4a0bbdde0f75d2e",
+  "status": "rejected",
+  "title": "Build agents you can trust across any framework with open evals and a control standard | Microsoft Foundry Blog"
+}

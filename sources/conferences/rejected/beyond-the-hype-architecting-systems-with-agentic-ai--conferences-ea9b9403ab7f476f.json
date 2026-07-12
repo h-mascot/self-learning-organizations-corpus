@@ -1,0 +1,37 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://www.infoq.com/presentations/agentic-ai/",
+  "content_sha256": "d3e5f15b188b1a05805967e7550032b4efe8e1a43707e155ff3443e6326e8006",
+  "creator": "Unknown speaker",
+  "date_precision": "unknown",
+  "event_proof": {
+    "duration_or_media_observed": true,
+    "publisher": "InfoQ",
+    "recorded_marker_observed": false
+  },
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "InfoQ presentation transcript/summary",
+      "text": "Koch: I find that mental model pretty interesting, Arun. The question is, how much are we able to delegate to those agents in the future? How much prompt engineering do I need to do to make that happen, or will I get agents to do the prompt engineer for me? This is where I see a lot of things. If I look at, how do I architect as a cloud architect today? Then, that's maybe also a question for you, how you do that. You need to have a lot of experience built into what you're actually doing as taking your decisions on when to choose SQS versus Kafka versus something else. There is a decision process happening in your head that you've built out by experience. We can say all of"
+    }
+  ],
+  "platform": "conferences",
+  "provenance": "InfoQ presentation page with recorded-event marker, speaker attribution, and bounded source excerpt.",
+  "published_date": null,
+  "publisher": "InfoQ",
+  "query_ids": [
+    "review-infoq-continuous-improvement"
+  ],
+  "rejection_reason": "Independent review found no sufficient event/talk/proceeding proof in the retained record.",
+  "relevance_evidence": [],
+  "retrieval_method": "agent-reach/Jina public publisher page",
+  "retrieved_at": "2026-07-12T09:05:48Z",
+  "rights_note": "Only a bounded excerpt from the publisher presentation page is retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "talk",
+  "stable_id": "conferences-ea9b9403ab7f476f",
+  "status": "rejected",
+  "title": "Beyond the Hype: Architecting Systems with Agentic AI"
+}

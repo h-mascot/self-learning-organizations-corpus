@@ -1,0 +1,39 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.infoq.com/presentations/feedback-research-tips/",
+  "content_sha256": "7acaea1b096236f11d533b38bdf23a9667d30dd2d0bb64838b448afda21802bd",
+  "creator": "Sarah Hagan",
+  "date_precision": "day",
+  "event_proof": {
+    "duration_or_media_observed": true,
+    "publisher": "InfoQ",
+    "recorded_marker_observed": true
+  },
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "InfoQ presentation transcript/summary",
+      "text": "So you're going to hate this and I get it. But the first part at being good at this continuous feedback attitude and culture at work is to seek feedback from your colleagues, yes. So I want to give you two jumping off points for how to get feedback. The first is something specific and event related. “How did I show up in that meeting?” “Can you give me some feedback about that email?” This is pretty innocuous, right? There's an event, a very specific occurrence that happens that you are asking feedback on. This works really well because the person giving you feedback is only going to give you feedback about what you asked on, so it's a safe space. It's also really helpful"
+    }
+  ],
+  "platform": "conferences",
+  "provenance": "InfoQ presentation page with recorded-event marker, speaker attribution, and bounded source excerpt.",
+  "published_date": "2019-02-15",
+  "publisher": "InfoQ",
+  "query_ids": [
+    "review-infoq-continuous-improvement"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Publisher talk text describes a concrete organizational learning, feedback, evaluation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach/Jina public publisher page",
+  "retrieved_at": "2026-07-12T09:15:25Z",
+  "rights_note": "Only a bounded excerpt from the publisher presentation page is retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "talk",
+  "stable_id": "conferences-74a90977cf39a96a",
+  "status": "accepted",
+  "title": "Baby Got Feedback: How to Give and Take Feedback Like A Boss"
+}

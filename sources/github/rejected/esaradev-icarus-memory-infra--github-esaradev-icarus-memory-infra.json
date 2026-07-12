@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/esaradev/icarus-memory-infra",
+  "content_sha256": "101b5425f1fba436c0b38de1487a0a813dd96f8578cebf760420b798ae6c2b1a",
+  "creator": "esaradev",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "wiki). Markdown on disk, MCP-native. # icarus Agent coherence infrastructure. Local-first, markdown-native memory for AI agents. > Icarus gives agents persistent, sourced, version-controlled memory so they stop using stale facts, repeating failed attempts, and contradicting prior decisions. Built first for coding agents on long-lived codebases. ## The problem AI coding agents forget what your team decided last month. They repeat fixes that didn't work. They suggest patterns the team migrated away from. They leave no audit trail. As agents move from suggesting code to writing it, this becomes operational risk. #"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository esaradev/icarus-memory-infra; discovered by github-repos-01.",
+  "published_date": "2026-03-24",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-01"
+  ],
+  "rejection_reason": "Generic agent-memory/evaluation repository lacked a demonstrated organizational operating mechanism.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "esaradev/icarus-memory-infra",
+    "last_push": "2026-05-08T06:12:37Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stars_at_retrieval": 293
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:38:52Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'mit', 'name': 'MIT License', 'url': 'https://api.github.com/licenses/mit'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-esaradev-icarus-memory-infra",
+  "status": "rejected",
+  "title": "esaradev/icarus-memory-infra"
+}

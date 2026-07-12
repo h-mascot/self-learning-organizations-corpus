@@ -1,0 +1,39 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.infoq.com/presentations/team-optimization-fast-flow/",
+  "content_sha256": "9dc4e6177cb653ee39d756ba5c6820a6e30088cc81c7c50de652b520b7b6f00d",
+  "creator": "Collette Tauscher",
+  "date_precision": "day",
+  "event_proof": {
+    "duration_or_media_observed": true,
+    "publisher": "InfoQ",
+    "recorded_marker_observed": true
+  },
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "InfoQ presentation transcript/summary",
+      "text": "From this talk, you will take away three things. It's important to start with the culture shift needed to activate a people centric model. Make sure that you pace yourself and the team with intentional capacity prioritization. Always celebrate continuous learning. If we start with culture, there are so many different ways to think about what this means, and the buzzwords that float into everyone's mind when they hear the phrase, our corporate culture. I found an interesting stat from Gartner that stated, 46% of respondents surveyed cited that culture challenges to accept change is the number one roadblock most critical to transformation. To help explain this, I have a lit"
+    }
+  ],
+  "platform": "conferences",
+  "provenance": "InfoQ presentation page with recorded-event marker, speaker attribution, and bounded source excerpt.",
+  "published_date": "2023-10-17",
+  "publisher": "InfoQ",
+  "query_ids": [
+    "review-infoq-continuous-improvement"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Publisher talk text describes a concrete organizational learning, feedback, evaluation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach/Jina public publisher page",
+  "retrieved_at": "2026-07-12T09:15:34Z",
+  "rights_note": "Only a bounded excerpt from the publisher presentation page is retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "talk",
+  "stable_id": "conferences-da7f07c20acb3448",
+  "status": "accepted",
+  "title": "Optimizing Teams for Fast Flow"
+}

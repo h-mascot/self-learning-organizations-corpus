@@ -1,0 +1,38 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.youtube.com/watch?v=z7T1pCxgvlA",
+  "content_sha256": "2a90d22c985df5b43e5e1ad158deeb697f9372a3338459ebc339dd95dd90f96b",
+  "creator": "Aishwarya Naresh Reganti + Kiriti Badam",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "transcript_excerpt",
+      "locator": "public transcript near matched timestamp (aishwarya-naresh-reganti-kiriti-badam)",
+      "text": "(00:00:08): Most people tend to ignore the non-determinism. You don't know how the user might behave with your product, and you also don't know how the LLM might respond to that. The second difference is the agency control trade-off. Every time you hand over decision-making capabilities to agentic systems, you're kind of relinquishing some amount of control on your end. Lenny Rachitsky (00:00:25): This significantly changes the way you should be building product. Kiriti Badam (00:00:28): So we recommend building step-by-step. When you start small, it forces you to think about what is the problem that I'm going to solve. In all this advancements of the AI, one easy, slip"
+    }
+  ],
+  "media_format": "podcast_episode",
+  "platform": "podcasts",
+  "provenance": "Public timestamped transcript at ChatPRD/lennys-podcast-transcripts/aishwarya-naresh-reganti-kiriti-badam; original video ID z7T1pCxgvlA.",
+  "published_date": "2026-01-11",
+  "publisher": "Lenny's Podcast",
+  "query_ids": [
+    "github-citation-lennys-podcast-transcripts"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Multiple transcript passages match organizational feedback, experimentation, learning, memory, or AI-agent operating mechanisms."
+  ],
+  "retained_complete_transcript": false,
+  "retrieval_method": "GitHub public transcript citation; original publisher video identified in front matter",
+  "retrieved_at": "2026-07-12T08:44:29Z",
+  "rights_note": "A genuine episode and public transcript source were verified; only the bounded transcript excerpt in evidence is retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "episode",
+  "stable_id": "podcasts-lenny-z7T1pCxgvlA",
+  "status": "accepted",
+  "title": "Why most AI products fail: Lessons from 50+ AI deployments at OpenAI, Google & Amazon",
+  "transcript_available": true,
+  "transcript_source": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/main/episodes/aishwarya-naresh-reganti-kiriti-badam/transcript.md"
+}

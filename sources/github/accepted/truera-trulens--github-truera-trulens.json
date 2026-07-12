@@ -1,0 +1,41 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://github.com/truera/trulens",
+  "content_sha256": "1a5353327be75a95596bdc5a0aab212a784f0e71212aab39a60cf6a1cd36c77f",
+  "creator": "truera",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository README",
+      "text": "**Don't just vibe-check your LLM app!** Systematically evaluate and track your LLM experiments with TruLens. As you develop your app including prompts, models, retrievers, knowledge sources and more, *TruLens* is the tool you need to understand its performance."
+    }
+  ],
+  "organizational_mechanism": "feedback functions and evaluation for production AI applications",
+  "platform": "github",
+  "provenance": "GitHub API metadata and bounded README evidence for truera/trulens.",
+  "published_date": "2020-11-02",
+  "publisher": "GitHub",
+  "query_ids": [
+    "review-github-organizational-mechanisms"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The repository documents feedback functions and evaluation for production AI applications; this is an organizational operating mechanism, not generic agent-memory research."
+  ],
+  "repository": {
+    "full_name": "truera/trulens",
+    "last_push": "2026-07-11T01:04:48Z",
+    "license": "MIT",
+    "stars_at_retrieval": 3435
+  },
+  "retrieval_method": "agent-reach/GitHub CLI API and README endpoint",
+  "retrieved_at": "2026-07-12T09:15:48Z",
+  "rights_note": "GitHub reports MIT; only a bounded README excerpt is retained.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-truera-trulens",
+  "status": "accepted",
+  "title": "truera/trulens"
+}

@@ -1,0 +1,41 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://openlibrary.org/works/OL16055202W",
+  "content_sha256": "12c549eb29d6ab6bfea3e441f02de2c80f55e466c7a4342e4c81403f8e2327c9",
+  "creator": "Peter M. Senge",
+  "date_precision": "year",
+  "evidence": [
+    {
+      "kind": "bibliographic_metadata",
+      "locator": "canonical catalog record",
+      "text": "Title: The Fifth discipline fieldbook; creators: Peter M. Senge; publisher: Currency, Doubleday; publication date: 1994-01-01; catalog ID: OL16055202W; ISBN: 0385472560, 9780385472562."
+    }
+  ],
+  "identifiers": {
+    "catalog_id": "OL16055202W",
+    "isbn": [
+      "0385472560",
+      "9780385472562"
+    ]
+  },
+  "platform": "books",
+  "provenance": "Public bibliographic record OL16055202W; discovered by openlibrary-books-01.",
+  "published_date": "1994-01-01",
+  "publisher": "Currency, Doubleday",
+  "query_ids": [
+    "openlibrary-books-01"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The canonical bibliographic title explicitly concerns organizational learning or a named organizational improvement mechanism: The Fifth discipline fieldbook."
+  ],
+  "retrieval_method": "Open Library public Search API",
+  "retrieved_at": "2026-07-12T08:38:19Z",
+  "rights_note": "Bibliographic metadata and at most a bounded publisher/API description are stored; no book text is copied.",
+  "rights_status": "metadata-only",
+  "schema_version": 2,
+  "source_type": "book",
+  "stable_id": "books-google-OL16055202W",
+  "status": "accepted",
+  "title": "The Fifth discipline fieldbook"
+}

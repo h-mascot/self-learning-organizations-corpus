@@ -1,0 +1,42 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://openlibrary.org/works/OL6049004W",
+  "content_sha256": "892b6f3d8f6a9109b11f396602391947e905beba45c94024cb0bc02d9a88f59a",
+  "creator": "Henrich R. Greve",
+  "date_precision": "year",
+  "evidence": [
+    {
+      "kind": "bibliographic_metadata",
+      "locator": "canonical catalog record",
+      "text": "Title: Organizational learning from performance feedback; creators: Henrich R. Greve; publisher: Cambridge University Press; publication date: 2003-01-01; catalog ID: OL6049004W; ISBN: 1280162945, 9781108344289, 9781280162947."
+    }
+  ],
+  "identifiers": {
+    "catalog_id": "OL6049004W",
+    "isbn": [
+      "1280162945",
+      "9781108344289",
+      "9781280162947"
+    ]
+  },
+  "platform": "books",
+  "provenance": "Public bibliographic record OL6049004W; discovered by openlibrary-books-02.",
+  "published_date": "2003-01-01",
+  "publisher": "Cambridge University Press",
+  "query_ids": [
+    "openlibrary-books-02"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The canonical bibliographic title explicitly concerns organizational learning or a named organizational improvement mechanism: Organizational learning from performance feedback."
+  ],
+  "retrieval_method": "Open Library public Search API",
+  "retrieved_at": "2026-07-12T08:38:20Z",
+  "rights_note": "Bibliographic metadata and at most a bounded publisher/API description are stored; no book text is copied.",
+  "rights_status": "metadata-only",
+  "schema_version": 2,
+  "source_type": "book",
+  "stable_id": "books-google-OL6049004W",
+  "status": "accepted",
+  "title": "Organizational learning from performance feedback"
+}

@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://noteandsave.com/blog/sre-postmortems/",
+  "content_sha256": "74288ee5e42e3edaf9e5f6ffa06ba0ef75408b326609956dadaca8c630af4a5d",
+  "creator": "noteandsave.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "publisher body text",
+      "text": "Every incident contains a lesson. The question is whether your organization actually learns it. Postmortems exist to extract those lessons, but only if you build a culture that values honesty over blame. This article covers how to run postmortems that produce real improvements instead of empty documents nobody reads."
+    }
+  ],
+  "platform": "blogs",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-blogs.",
+  "published_date": null,
+  "publisher": "noteandsave.com",
+  "query_ids": [
+    "citation-catalog-blogs"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The retained publisher-authored passage describes a concrete learning, feedback, evaluation, adaptation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:23Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "article",
+  "stable_id": "blogs-7e4243cf82fb30d7",
+  "status": "accepted",
+  "title": "Postmortems and learning from failure"
+}

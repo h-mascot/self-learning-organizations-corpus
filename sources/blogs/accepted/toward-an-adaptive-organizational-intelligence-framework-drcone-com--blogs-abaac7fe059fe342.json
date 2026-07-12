@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://drcone.com/2026/05/18/toward-an-adaptive-organizational-intelligence-framework/",
+  "content_sha256": "dcb7a860fc98a75c7d7940ff54427515ebb9f7b32ac8d0275d2dd42b4221b32c",
+  "creator": "drcone.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "publisher body text",
+      "text": "Traditional organizational learning frequently emphasizes information transfer, procedural compliance, or isolated skill acquisition. In contrast, adaptive organizational learning prioritizes reflective development, contextual understanding, critical thinking, adaptive reasoning, and transformational growth.[4] Learning becomes developmental rather than transactional."
+    }
+  ],
+  "platform": "blogs",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-blogs.",
+  "published_date": null,
+  "publisher": "drcone.com",
+  "query_ids": [
+    "citation-catalog-blogs"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The retained publisher-authored passage describes a concrete learning, feedback, evaluation, adaptation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:23Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "article",
+  "stable_id": "blogs-abaac7fe059fe342",
+  "status": "accepted",
+  "title": "Toward an Adaptive Organizational Intelligence Framework - drcone.com"
+}

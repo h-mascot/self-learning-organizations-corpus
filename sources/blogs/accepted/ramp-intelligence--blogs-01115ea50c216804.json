@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://ramp.com/intelligence",
+  "content_sha256": "196ac6a67e4a54f99604a8e96d0feda1880076db979360e97e6a0bdb40b6990f",
+  "creator": "Ramp",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "publisher body text",
+      "text": "Our AI features are designed to help with very specific tasks, like matching receipts to transactions or auto-populating your bills—so they can’t go off script. Unlike open-ended AI tools that can improvise and dream up new ideas altogether, we like to be reliable and precise every time."
+    }
+  ],
+  "platform": "blogs",
+  "provenance": "Recovered from research/discovery-inventory.md via early-inventory-blogs.",
+  "published_date": null,
+  "publisher": "Ramp",
+  "query_ids": [
+    "early-inventory-blogs"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The retained publisher-authored passage describes a concrete learning, feedback, evaluation, adaptation, or improvement mechanism."
+  ],
+  "retrieval_method": "public publisher retrieval",
+  "retrieved_at": "2026-07-12T08:36:25Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete protected work is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "article",
+  "stable_id": "blogs-01115ea50c216804",
+  "status": "accepted",
+  "title": "Ramp Intelligence"
+}

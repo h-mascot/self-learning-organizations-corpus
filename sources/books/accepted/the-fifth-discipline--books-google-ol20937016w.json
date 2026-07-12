@@ -1,0 +1,42 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://openlibrary.org/works/OL20937016W",
+  "content_sha256": "186ba1ac7eabcbeae3e6f681e2a33c73941bb91d8ed9cf40a1b6ceac227ddc30",
+  "creator": "Peter M. Senge",
+  "date_precision": "year",
+  "evidence": [
+    {
+      "kind": "bibliographic_metadata",
+      "locator": "canonical catalog record",
+      "text": "Title: The fifth discipline; creators: Peter M. Senge; publisher: DoubleDay; publication date: 1994-01-01; catalog ID: OL20937016W; ISBN: 0385469888, 9780385469883, 9780099383512."
+    }
+  ],
+  "identifiers": {
+    "catalog_id": "OL20937016W",
+    "isbn": [
+      "0385469888",
+      "9780385469883",
+      "9780099383512"
+    ]
+  },
+  "platform": "books",
+  "provenance": "Public bibliographic record OL20937016W; discovered by openlibrary-books-01.",
+  "published_date": "1994-01-01",
+  "publisher": "DoubleDay",
+  "query_ids": [
+    "openlibrary-books-01"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The canonical bibliographic title explicitly concerns organizational learning or a named organizational improvement mechanism: The fifth discipline."
+  ],
+  "retrieval_method": "Open Library public Search API",
+  "retrieved_at": "2026-07-12T08:38:19Z",
+  "rights_note": "Bibliographic metadata and at most a bounded publisher/API description are stored; no book text is copied.",
+  "rights_status": "metadata-only",
+  "schema_version": 2,
+  "source_type": "book",
+  "stable_id": "books-google-OL20937016W",
+  "status": "accepted",
+  "title": "The fifth discipline"
+}

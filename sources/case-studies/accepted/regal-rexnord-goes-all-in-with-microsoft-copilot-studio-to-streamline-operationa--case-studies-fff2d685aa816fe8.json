@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.microsoft.com/en/customers/story/26197-regal-rexnord-microsoft-copilot-studio",
+  "content_sha256": "6d58764a066a3d60fad58af9b3763931a307f61fbae3bd0b9ec33ab891ec7382",
+  "creator": "microsoft.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "publisher body text",
+      "text": "The agent was migrated to Copilot Studio and the problem was quickly solved. With direct integration into SharePoint and other Microsoft 365 knowledge sources, the agent – called RRX GPT - gained reliable access to policy documents and other corporate intranet content. Improvements in document handling also meant Word files and PDFs were processed more accurately than before. The agent was deployed in just one month and made available in Microsoft Teams and also as a custom agent in Microsoft 365 Copilot."
+    }
+  ],
+  "platform": "case-studies",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-case-studies.",
+  "published_date": null,
+  "publisher": "microsoft.com",
+  "query_ids": [
+    "citation-catalog-case-studies"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The retained publisher-authored passage describes a concrete learning, feedback, evaluation, adaptation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:35Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "case-study",
+  "stable_id": "case-studies-fff2d685aa816fe8",
+  "status": "accepted",
+  "title": "Regal Rexnord goes all in with Microsoft Copilot Studio to streamline operational efficiency and support customers | Microsoft Customer Stories"
+}

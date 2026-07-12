@@ -1,0 +1,42 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://openlibrary.org/works/OL24317184W",
+  "content_sha256": "930ad16fab4a5a318b2d9abaaa0f50a79d7ed32ef6f49729e0d5d51df91eeaeb",
+  "creator": "Marcus Goncalves",
+  "date_precision": "year",
+  "evidence": [
+    {
+      "kind": "bibliographic_metadata",
+      "locator": "canonical catalog record",
+      "text": "Title: Learning Organizations; creators: Marcus Goncalves; publisher: Brand: Business Expert Press; publication date: 2012-01-01; catalog ID: OL24317184W; ISBN: 1637420714, 1606494597, 1606494589."
+    }
+  ],
+  "identifiers": {
+    "catalog_id": "OL24317184W",
+    "isbn": [
+      "1637420714",
+      "1606494597",
+      "1606494589"
+    ]
+  },
+  "platform": "books",
+  "provenance": "Public bibliographic record OL24317184W; discovered by openlibrary-books-01.",
+  "published_date": "2012-01-01",
+  "publisher": "Brand: Business Expert Press",
+  "query_ids": [
+    "openlibrary-books-01"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The canonical bibliographic title explicitly concerns organizational learning or a named organizational improvement mechanism: Learning Organizations."
+  ],
+  "retrieval_method": "Open Library public Search API",
+  "retrieved_at": "2026-07-12T08:38:19Z",
+  "rights_note": "Bibliographic metadata and at most a bounded publisher/API description are stored; no book text is copied.",
+  "rights_status": "metadata-only",
+  "schema_version": 2,
+  "source_type": "book",
+  "stable_id": "books-google-OL24317184W",
+  "status": "accepted",
+  "title": "Learning Organizations"
+}

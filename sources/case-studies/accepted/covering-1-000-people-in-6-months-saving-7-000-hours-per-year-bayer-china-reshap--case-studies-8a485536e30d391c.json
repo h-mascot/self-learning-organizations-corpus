@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://aws.amazon.com/solutions/case-studies/bayer-china/",
+  "content_sha256": "be00faf71fa10326dcb462c47d22d9762eb5e30fff9884606bb219ccc2779d3a",
+  "creator": "aws.amazon.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "publisher body text",
+      "text": "Dr.Bei took only 72 days from Proof of Concept(PoC) to official launch. Upon launch, it quickly covered 450 users and rapidly expanded to over 1,000 users within 6 months, widely welcomed by pharmaceutical medical representatives. After implementation, it has helped 1,000 medical representatives save 6,000-7,000 hours of training time, with role-play coaching efficiency increased by over 50%. This innovative solution completes the \"Learn-Practice-Evaluation\" training loop."
+    }
+  ],
+  "platform": "case-studies",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-case-studies.",
+  "published_date": null,
+  "publisher": "aws.amazon.com",
+  "query_ids": [
+    "citation-catalog-case-studies"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The retained publisher-authored passage describes a concrete learning, feedback, evaluation, adaptation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:34Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "case-study",
+  "stable_id": "case-studies-8a485536e30d391c",
+  "status": "accepted",
+  "title": "Covering 1,000 People in 6 Months, Saving 7,000 hours per year, Bayer China Reshapes Training System with Generative AI"
+}

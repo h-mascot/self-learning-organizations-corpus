@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.anthropic.com/customers/lg-cns",
+  "content_sha256": "436837ab54dc020857ff24d05a5ff5aceac32bbdf95208c51a1ff185a1697eaa",
+  "creator": "LG CNS; Anthropic",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "publisher body text",
+      "text": "The file-mediated approach began as a workaround. Before the 1M-token context window and memory features arrived, preventing quality degradation as context accumulated was the team's hardest engineering problem. The patterns LG CNS designed to solve it, persistent file-based memory and multi-agent coordination through file handoffs, anticipated capabilities Anthropic later shipped natively."
+    }
+  ],
+  "platform": "case-studies",
+  "provenance": "Public first-party customer case page; bounded source evidence retained.",
+  "published_date": null,
+  "publisher": "Anthropic",
+  "query_ids": [
+    "review-primary-case-studies"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The customer case documents evaluation, persistent organizational memory, deterministic quality measurement, and a harness that improves over time."
+  ],
+  "retrieval_method": "agent-reach/Jina public first-party customer page",
+  "retrieved_at": "2026-07-12T09:16:01Z",
+  "rights_note": "Only a bounded publisher-authored excerpt is retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "case-study",
+  "stable_id": "case-studies-ec6ebd3dfb6054b0",
+  "status": "accepted",
+  "title": "LG CNS builds a self-improving modernization harness with Claude Code"
+}

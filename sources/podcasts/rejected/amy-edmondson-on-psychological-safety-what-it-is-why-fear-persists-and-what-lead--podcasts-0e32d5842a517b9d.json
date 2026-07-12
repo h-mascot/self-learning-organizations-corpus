@@ -1,0 +1,36 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://www.leanblog.org/2020/01/amy-edmondson-psychological-safety-speaking-up/",
+  "content_sha256": "ebf715a30f4b16a9ea1e8586d0b4e96f6a3cebf737b8341e23d1093e654af83f",
+  "creator": "Mark Graban; Amy Edmondson",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "transcript_excerpt",
+      "locator": "public publisher page",
+      "text": "The public episode page supplies a transcript and detailed discussion of psychological safety, speaking up, and how leaders enable organizational learning from failures."
+    }
+  ],
+  "media_format": "podcast_episode",
+  "platform": "podcasts",
+  "provenance": "Recovered from research/discovery-inventory.md via early-inventory-podcasts.",
+  "published_date": "2020-01-01",
+  "publisher": "Lean Blog",
+  "query_ids": [
+    "early-inventory-podcasts"
+  ],
+  "rejection_reason": "Independent review could not verify both a genuine publisher episode and a separate transcript source.",
+  "relevance_evidence": [],
+  "retained_complete_transcript": false,
+  "retrieval_method": "public publisher retrieval",
+  "retrieved_at": "2026-07-12T08:36:25Z",
+  "rights_note": "A genuine episode and public transcript source were verified; only the bounded transcript excerpt in evidence is retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "episode",
+  "stable_id": "podcasts-0e32d5842a517b9d",
+  "status": "rejected",
+  "title": "Amy Edmondson on Psychological Safety: What It Is, Why Fear Persists, and What Leaders Can Do",
+  "transcript_available": true,
+  "transcript_source": "https://www.leanblog.org/2020/01/amy-edmondson-psychological-safety-speaking-up/"
+}

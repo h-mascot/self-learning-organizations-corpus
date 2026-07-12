@@ -1,0 +1,38 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.youtube.com/watch?v=NR85H55eYkM",
+  "content_sha256": "55382681271dc1d1799227c35cbbe5a706baa4b70df48ef3f1f81c8668a1ce92",
+  "creator": "Madhavan Ramanujam",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "transcript_excerpt",
+      "locator": "public transcript near matched timestamp (madhavan-ramanujam)",
+      "text": "(00:28:31): So for instance, think about this. If you're building a agentic AI product that taps into labor budgets, labor budgets are 10X compared to software budgets. So if you use all the old playbooks, then you're under monetizing, again, from day one and training your customers to expect more for less. So how do you come up with foundational models that actually allow you to capture the value that you bring to the table? (00:28:55): And why has this become critical? Because with AI, finally, founders can really solve the attribution problem. In the previous vintages... For instance, if you take Slack, you can say that the productivity went up, efficiency happened, b"
+    }
+  ],
+  "media_format": "podcast_episode",
+  "platform": "podcasts",
+  "provenance": "Public timestamped transcript at ChatPRD/lennys-podcast-transcripts/madhavan-ramanujam; original video ID NR85H55eYkM.",
+  "published_date": "2025-07-27",
+  "publisher": "Lenny's Podcast",
+  "query_ids": [
+    "github-citation-lennys-podcast-transcripts"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Multiple transcript passages match organizational feedback, experimentation, learning, memory, or AI-agent operating mechanisms."
+  ],
+  "retained_complete_transcript": false,
+  "retrieval_method": "GitHub public transcript citation; original publisher video identified in front matter",
+  "retrieved_at": "2026-07-12T08:44:29Z",
+  "rights_note": "A genuine episode and public transcript source were verified; only the bounded transcript excerpt in evidence is retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "episode",
+  "stable_id": "podcasts-lenny-NR85H55eYkM",
+  "status": "accepted",
+  "title": "Pricing your AI product: Lessons from 400+ companies and 50 unicorns | Madhavan",
+  "transcript_available": true,
+  "transcript_source": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/main/episodes/madhavan-ramanujam/transcript.md"
+}

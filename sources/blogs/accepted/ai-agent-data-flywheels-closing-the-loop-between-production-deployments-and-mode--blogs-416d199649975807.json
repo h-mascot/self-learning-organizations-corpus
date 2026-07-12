@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://zylos.ai/research/2026-04-16-ai-agent-data-flywheels-production-feedback-loops/",
+  "content_sha256": "b164a768cba6e54bfc87ef1ff4db5be34466dc8928be7ffc353c1d9c92d0b21f",
+  "creator": "zylos.ai",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "publisher body text",
+      "text": "Adoption tracking. In the Airbnb Agent-in-the-Loop (AITL) framework (arxiv 2510.06674, EMNLP Industry Track 2025), human customer support agents reviewing AI-generated response suggestions provided four categories of explicit feedback: pairwise response preferences, adoption/rejection with rationales, knowledge relevance assessments, and flagging of missing knowledge gaps. These four signal types, embedded directly in the live support workflow, drove measurable improvements: +11.7% retrieval recall, +8.4% response helpfulness, and +4.5% agent adoption — while compressing retraining cycles from months to weeks."
+    }
+  ],
+  "platform": "blogs",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-blogs.",
+  "published_date": null,
+  "publisher": "zylos.ai",
+  "query_ids": [
+    "citation-catalog-blogs"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The retained publisher-authored passage describes a concrete learning, feedback, evaluation, adaptation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:23Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "article",
+  "stable_id": "blogs-416d199649975807",
+  "status": "accepted",
+  "title": "AI Agent Data Flywheels: Closing the Loop Between Production Deployments and Model Improvement | Zylos Research"
+}

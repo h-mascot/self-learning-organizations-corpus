@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://codeclimate.com/legacy/plan-retrospectives-with-data",
+  "content_sha256": "e3da8f71f83ad026cda2093e44bcd7873bda758400d96900e33497980cf8a797",
+  "creator": "codeclimate.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "publisher body text",
+      "text": "The final principle in the Agile manifesto urges developers to reflect on the past and use that knowledge to improve future outcomes. Since we learn from the past, holding sprint retrospectives is key to improving the results of future iterations. Conducted well, sprint retrospectives can boost outputs and propel teams forward; conducted poorly, they may breed toxicity. The careful use of objective data can help you steer your retro in the right direction — read on to find out how to leverage data from the beginning to the end of the retrospective process, so you can maximize the value of this key opportunity for continuous improvement."
+    }
+  ],
+  "platform": "blogs",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-blogs.",
+  "published_date": null,
+  "publisher": "codeclimate.com",
+  "query_ids": [
+    "citation-catalog-blogs"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The retained publisher-authored passage describes a concrete learning, feedback, evaluation, adaptation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:23Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "article",
+  "stable_id": "blogs-4057dc0829d5c5eb",
+  "status": "accepted",
+  "title": "Adding Value to Sprint Retrospectives with Data"
+}

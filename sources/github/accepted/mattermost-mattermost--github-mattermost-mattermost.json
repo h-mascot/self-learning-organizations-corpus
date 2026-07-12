@@ -1,0 +1,41 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://github.com/mattermost/mattermost",
+  "content_sha256": "c2e898223f1700c236dd2d40544149848f0472a359aa7c546fc279a4f028f5f1",
+  "creator": "mattermost",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository README",
+      "text": "ost.com/sign-up/?utm_source=github-mattermost-server-readme). <img width=\"1006\" alt=\"mattermost user interface\" src=\"https://user-images.githubusercontent.com/7205829/136107976-7a894c9e-290a-490d-8501-e5fdbfc3785a.png\"> Learn more about the following use cases with Mattermost: - [DevSecOps](https://mattermost.com/solutions/use-cases/devops/?utm_source=github-mattermost-server-readme) - [Incident Resolution](https://mattermost.com/solutions/use-cases/incident-resolution/?utm_source=github-mattermost-server-readme) - [IT Service Desk](https://mattermost.com/solutions/use-cases/it-service-desk/?utm_source=github-mattermost-server-readme) Other useful resources: - [Download a"
+    }
+  ],
+  "organizational_mechanism": "shared operational knowledge and incident collaboration",
+  "platform": "github",
+  "provenance": "GitHub API metadata and bounded README evidence for mattermost/mattermost.",
+  "published_date": "2015-06-15",
+  "publisher": "GitHub",
+  "query_ids": [
+    "review-github-organizational-mechanisms"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The repository documents shared operational knowledge and incident collaboration; this is an organizational operating mechanism, not generic agent-memory research."
+  ],
+  "repository": {
+    "full_name": "mattermost/mattermost",
+    "last_push": "2026-07-11T07:22:08Z",
+    "license": "NOASSERTION",
+    "stars_at_retrieval": 38402
+  },
+  "retrieval_method": "agent-reach/GitHub CLI API and README endpoint",
+  "retrieved_at": "2026-07-12T09:15:53Z",
+  "rights_note": "GitHub reports NOASSERTION; only a bounded README excerpt is retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-mattermost-mattermost",
+  "status": "accepted",
+  "title": "mattermost/mattermost"
+}

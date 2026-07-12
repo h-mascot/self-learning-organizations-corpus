@@ -37,6 +37,19 @@ class WebMediaValidatorTests(unittest.TestCase):
             MODULE.canonical_url("https://www.youtube.com/watch?v=abc123&utm_source=test"),
         )
 
+    def test_filename_slug_is_human_readable_and_bounded(self):
+        self.assertEqual("a-learning-organization", MODULE.slug("A Learning Organization"))
+        self.assertLessEqual(len(MODULE.slug("x" * 200)), 80)
+
+    def test_navigation_boilerplate_is_detected(self):
+        self.assertRegex("Skip to content and log in", MODULE.BOILERPLATE)
+
+    def test_current_corpus_passes_strict_validation(self):
+        errors, counts, artifacts = MODULE.validate()
+        self.assertEqual([], errors)
+        self.assertTrue(all(counts[lane] >= quota for lane, quota in MODULE.LANES.items()))
+        self.assertEqual(30, artifacts[("podcasts", "metadata_only")])
+
 
 if __name__ == "__main__":
     unittest.main()

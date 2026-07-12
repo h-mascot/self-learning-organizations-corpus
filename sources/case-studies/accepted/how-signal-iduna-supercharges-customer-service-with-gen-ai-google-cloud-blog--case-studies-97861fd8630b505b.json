@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://cloud.google.com/blog/products/ai-machine-learning/how-signal-iduna-supercharges-customer-service-with-gen-ai",
+  "content_sha256": "cba74e31bd34c337ad18adfb065299c138602bc762ff80da94979553f3fe862f",
+  "creator": "cloud.google.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "publisher body text",
+      "text": "Though complex, SIGNAL IDUNA prioritized this process as one of its top gen AI use cases, developing an AI assistant to help agents provide quick and accurate answers to customer inquiries, particularly those about health insurance. The AI knowledge assistant is grounded in more than 2,000 internal documents for more than 600 different tariffs, allowing agents to ask questions in natural language and receive accurate answers, significantly reducing the time spent searching for relevant information."
+    }
+  ],
+  "platform": "case-studies",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-case-studies.",
+  "published_date": null,
+  "publisher": "cloud.google.com",
+  "query_ids": [
+    "citation-catalog-case-studies"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The retained publisher-authored passage describes a concrete learning, feedback, evaluation, adaptation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:35Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "case-study",
+  "stable_id": "case-studies-97861fd8630b505b",
+  "status": "accepted",
+  "title": "How SIGNAL IDUNA supercharges customer service with gen AI | Google Cloud Blog"
+}

@@ -1,0 +1,42 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://openlibrary.org/works/OL3777090W",
+  "content_sha256": "c8123df190e7453a467ee448c9028d1164af05e3cd3eec8da23be3d2245a2a74",
+  "creator": "David A. Garvin",
+  "date_precision": "year",
+  "evidence": [
+    {
+      "kind": "bibliographic_metadata",
+      "locator": "canonical catalog record",
+      "text": "Title: Learning in Action; creators: David A. Garvin; publisher: Harvard Business School Press; publication date: 2000-01-01; catalog ID: OL3777090W; ISBN: 1578512514, 9781591391906, 9781578512515."
+    }
+  ],
+  "identifiers": {
+    "catalog_id": "OL3777090W",
+    "isbn": [
+      "1578512514",
+      "9781591391906",
+      "9781578512515"
+    ]
+  },
+  "platform": "books",
+  "provenance": "Public bibliographic record OL3777090W; discovered by openlibrary-books-01.",
+  "published_date": "2000-01-01",
+  "publisher": "Harvard Business School Press",
+  "query_ids": [
+    "openlibrary-books-01"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The canonical bibliographic title explicitly concerns organizational learning or a named organizational improvement mechanism: Learning in Action."
+  ],
+  "retrieval_method": "Open Library public Search API",
+  "retrieved_at": "2026-07-12T08:38:19Z",
+  "rights_note": "Bibliographic metadata and at most a bounded publisher/API description are stored; no book text is copied.",
+  "rights_status": "metadata-only",
+  "schema_version": 2,
+  "source_type": "book",
+  "stable_id": "books-google-OL3777090W",
+  "status": "accepted",
+  "title": "Learning in Action"
+}

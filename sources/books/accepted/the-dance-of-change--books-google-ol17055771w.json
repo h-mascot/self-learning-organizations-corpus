@@ -1,0 +1,41 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://openlibrary.org/works/OL17055771W",
+  "content_sha256": "09cbdde89cb13f67c5927954a1e4c702e4afd2819c7ca5b472d4a60956cac95c",
+  "creator": "Peter Senge",
+  "date_precision": "year",
+  "evidence": [
+    {
+      "kind": "bibliographic_metadata",
+      "locator": "canonical catalog record",
+      "text": "Title: The Dance of Change; creators: Peter Senge; publisher: Currency; publication date: 1999-01-01; catalog ID: OL17055771W; ISBN: 9780385493222, 0385493223."
+    }
+  ],
+  "identifiers": {
+    "catalog_id": "OL17055771W",
+    "isbn": [
+      "9780385493222",
+      "0385493223"
+    ]
+  },
+  "platform": "books",
+  "provenance": "Public bibliographic record OL17055771W; discovered by openlibrary-books-01.",
+  "published_date": "1999-01-01",
+  "publisher": "Currency",
+  "query_ids": [
+    "openlibrary-books-01"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The canonical bibliographic title explicitly concerns organizational learning or a named organizational improvement mechanism: The Dance of Change."
+  ],
+  "retrieval_method": "Open Library public Search API",
+  "retrieved_at": "2026-07-12T08:38:19Z",
+  "rights_note": "Bibliographic metadata and at most a bounded publisher/API description are stored; no book text is copied.",
+  "rights_status": "metadata-only",
+  "schema_version": 2,
+  "source_type": "book",
+  "stable_id": "books-google-OL17055771W",
+  "status": "accepted",
+  "title": "The Dance of Change"
+}

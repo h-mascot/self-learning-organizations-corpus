@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://aws.amazon.com/blogs/devops/from-ai-agent-prototype-to-product-lessons-from-building-aws-devops-agent/",
+  "content_sha256": "2eb924ee41c55981f5d5c79bff8a099caabcbf110b9a1cff7e23546e0e92ac4c",
+  "creator": "aws.amazon.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "publisher body text",
+      "text": "At re:Invent 2025, Matt Garman announced AWS DevOps Agent , a frontier agent that resolves and proactively prevents incidents, continuously improving reliability and performance. As a member of the DevOps Agent team, we’ve focused heavily on making sure that the “incident response” capability of the DevOps Agent generates useful findings and observations. In particular, we’ve been working on making root cause analysis for native AWS applications accurate and performant. Under the hood, DevOps Agent has a multi-agent architecture where a lead agent acts as an incident commander: it understands the symptom, creates an investigation plan, and delegates individual tasks to sp"
+    }
+  ],
+  "platform": "blogs",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-blogs.",
+  "published_date": null,
+  "publisher": "aws.amazon.com",
+  "query_ids": [
+    "citation-catalog-blogs"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The retained publisher-authored passage describes a concrete learning, feedback, evaluation, adaptation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:23Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "article",
+  "stable_id": "blogs-c3b6a43e8258f398",
+  "status": "accepted",
+  "title": "From AI agent prototype to product: Lessons from building AWS DevOps Agent | AWS DevOps &amp; Developer Productivity Blog"
+}

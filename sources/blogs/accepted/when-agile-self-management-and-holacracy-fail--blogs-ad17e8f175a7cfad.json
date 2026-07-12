@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.corporate-rebels.com/blog/when-agile-self-management-and-holacracy-fail",
+  "content_sha256": "1a1433b97e869d6d06b0eaa0c18fc7f38b71fc5a5352b0f0f71e66492fcf4309",
+  "creator": "Pim de Morree",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "publisher body text",
+      "text": "They experiment with self-management because their competitors are experimenting with it too. They “implement” Holacracy simply because it's something many hip start-ups have done, and they want to be hip too. Or they set up “Agile” transformations because they've read about it in Harvard Business Review. You know how it goes. The same disingenuous bullshit, repackaged."
+    }
+  ],
+  "platform": "blogs",
+  "provenance": "Recovered from research/discovery-inventory.md via early-inventory-blogs.",
+  "published_date": "2021-12-04",
+  "publisher": "Corporate Rebels",
+  "query_ids": [
+    "early-inventory-blogs"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The retained publisher-authored passage describes a concrete learning, feedback, evaluation, adaptation, or improvement mechanism."
+  ],
+  "retrieval_method": "public publisher retrieval",
+  "retrieved_at": "2026-07-12T08:36:25Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete protected work is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "article",
+  "stable_id": "blogs-ad17e8f175a7cfad",
+  "status": "accepted",
+  "title": "When Agile, Self-Management, and Holacracy Fail"
+}

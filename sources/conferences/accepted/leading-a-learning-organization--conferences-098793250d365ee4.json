@@ -1,0 +1,39 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.infoq.com/presentations/leadership-learning-competitive-advantage/",
+  "content_sha256": "2db7743e65bf6395d7dc6a68fc9395e0df038a6f0a212b0b4d274356b6798226",
+  "creator": "Andrew Clay Shafer",
+  "date_precision": "day",
+  "event_proof": {
+    "duration_or_media_observed": true,
+    "publisher": "InfoQ",
+    "recorded_marker_observed": true
+  },
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "InfoQ presentation transcript/summary",
+      "text": "Andrew Clay Shafer is regarded as a contributor to whatever 'devops' is and helping spread the body of knowledge now known by this name. As cofounder of Puppet Labs, Andrew help transformed the way people manage IT infrastructure. He popularized the concept of \"infrastructure as code\", and helps to improve IT with both tools and culture. Andrew is most happy when he is learning or teaching."
+    }
+  ],
+  "platform": "conferences",
+  "provenance": "InfoQ presentation page with recorded-event marker, speaker attribution, and bounded source excerpt.",
+  "published_date": "2014-02-01",
+  "publisher": "InfoQ",
+  "query_ids": [
+    "review-infoq-continuous-improvement"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Publisher talk text describes a concrete organizational learning, feedback, evaluation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach/Jina public publisher page",
+  "retrieved_at": "2026-07-12T09:15:33Z",
+  "rights_note": "Only a bounded excerpt from the publisher presentation page is retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "talk",
+  "stable_id": "conferences-098793250d365ee4",
+  "status": "accepted",
+  "title": "Leading a Learning Organization"
+}

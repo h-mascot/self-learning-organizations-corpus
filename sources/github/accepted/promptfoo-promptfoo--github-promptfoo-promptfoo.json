@@ -1,0 +1,41 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://github.com/promptfoo/promptfoo",
+  "content_sha256": "9287468b529d0a633150c6752c661b0c82002fcf18577900be187e3f070a58f6",
+  "creator": "promptfoo",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository README",
+      "text": "- **Developer-first**: Fast, with features like live reload and caching - **Private**: LLM evals run 100% locally - your prompts never leave your machine - **Flexible**: Works with any LLM API or programming language - **Battle-tested**: Powers LLM apps serving 10M+ users in production - **Data-driven**: Make decisions based on metrics, not gut feel - **Open source**: MIT licensed, with an active community"
+    }
+  ],
+  "organizational_mechanism": "continuous evaluation and red-team feedback for AI products",
+  "platform": "github",
+  "provenance": "GitHub API metadata and bounded README evidence for promptfoo/promptfoo.",
+  "published_date": "2023-04-28",
+  "publisher": "GitHub",
+  "query_ids": [
+    "review-github-organizational-mechanisms"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The repository documents continuous evaluation and red-team feedback for AI products; this is an organizational operating mechanism, not generic agent-memory research."
+  ],
+  "repository": {
+    "full_name": "promptfoo/promptfoo",
+    "last_push": "2026-07-12T08:45:01Z",
+    "license": "MIT",
+    "stars_at_retrieval": 23164
+  },
+  "retrieval_method": "agent-reach/GitHub CLI API and README endpoint",
+  "retrieved_at": "2026-07-12T09:15:43Z",
+  "rights_note": "GitHub reports MIT; only a bounded README excerpt is retained.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-promptfoo-promptfoo",
+  "status": "accepted",
+  "title": "promptfoo/promptfoo"
+}

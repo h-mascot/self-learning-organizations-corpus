@@ -1,0 +1,38 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.youtube.com/watch?v=DeskgjrLxxs",
+  "content_sha256": "bccbb14648cc1d32f88bd60330ea8a4b75e7791a9d141841b1855b54a34588d5",
+  "creator": "Karina Nguyen",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "transcript_excerpt",
+      "locator": "public transcript near matched timestamp (karina-nguyen)",
+      "text": "(00:00:58): Today my guest is Karina Nguyen. Karina is an AI researcher at OpenAI where she helped build Canvas, tasks, the o1 chain-of-thought model and more. Prior to OpenAI, she was at Anthropic where she led work on post-training and evaluation for the Claude 3 models, built a document upload feature with 100K context windows and so much more. She was also an engineer at New York Times, was a designer at Dropbox and at Square. It's very rare to get a glimpse into how someone working on the bleeding edge of AI and LLMs operates and how they think about where things are heading. Canvas (00:01:31): In our conversation, we talk about how teams that OpenAI operate and bui"
+    }
+  ],
+  "media_format": "podcast_episode",
+  "platform": "podcasts",
+  "provenance": "Public timestamped transcript at ChatPRD/lennys-podcast-transcripts/karina-nguyen; original video ID DeskgjrLxxs.",
+  "published_date": "2025-02-09",
+  "publisher": "Lenny's Podcast",
+  "query_ids": [
+    "github-citation-lennys-podcast-transcripts"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Multiple transcript passages match organizational feedback, experimentation, learning, memory, or AI-agent operating mechanisms."
+  ],
+  "retained_complete_transcript": false,
+  "retrieval_method": "GitHub public transcript citation; original publisher video identified in front matter",
+  "retrieved_at": "2026-07-12T08:44:29Z",
+  "rights_note": "A genuine episode and public transcript source were verified; only the bounded transcript excerpt in evidence is retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "episode",
+  "stable_id": "podcasts-lenny-DeskgjrLxxs",
+  "status": "accepted",
+  "title": "OpenAI researcher on why soft skills are the future of work | Karina Nguyen",
+  "transcript_available": true,
+  "transcript_source": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/main/episodes/karina-nguyen/transcript.md"
+}

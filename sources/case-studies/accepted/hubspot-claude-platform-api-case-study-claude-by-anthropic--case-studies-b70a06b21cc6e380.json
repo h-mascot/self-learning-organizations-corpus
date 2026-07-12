@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://claude.com/customers/hubspot",
+  "content_sha256": "32f2949de1b2aaa6e67649a4fb2777e6422a36aac11e3c8d549664a70422b236",
+  "creator": "claude.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "publisher body text",
+      "text": "The team ran internal benchmarks using a battery of engineering tasks from real HubSpot work. Claude consistently required the least human intervention to reach finished solutions. Signoretti noted a particular improvement with Claude Sonnet 4.5: \"I've seen Claude Sonnet 4.5 asking for four pieces of information at the same time, whereas Claude Sonnet 4 was more sequential in the way it asked for information,\" Signoretti said. \"That allowed us to speed up the development process even further.\""
+    }
+  ],
+  "platform": "case-studies",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-case-studies.",
+  "published_date": null,
+  "publisher": "claude.com",
+  "query_ids": [
+    "citation-catalog-case-studies"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The retained publisher-authored passage describes a concrete learning, feedback, evaluation, adaptation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:42:50Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "case-study",
+  "stable_id": "case-studies-b70a06b21cc6e380",
+  "status": "accepted",
+  "title": "HubSpot Claude Platform (API) case study | Claude by Anthropic"
+}

@@ -1,0 +1,42 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://openlibrary.org/works/OL2982818W",
+  "content_sha256": "2ab8f9903eaab0697a14ca9000d454f1bc77d39cf15e9b56e20dc7f1e5a64ac6",
+  "creator": "Vivienne Collinson; Tanya Fedoruk Cook",
+  "date_precision": "year",
+  "evidence": [
+    {
+      "kind": "bibliographic_metadata",
+      "locator": "canonical catalog record",
+      "text": "Title: Organizational learning; creators: Vivienne Collinson; Tanya Fedoruk Cook; publisher: Sage Publications; publication date: 2006-01-01; catalog ID: OL2982818W; ISBN: 9781412916868, 1452222665, 9781452222660."
+    }
+  ],
+  "identifiers": {
+    "catalog_id": "OL2982818W",
+    "isbn": [
+      "9781412916868",
+      "1452222665",
+      "9781452222660"
+    ]
+  },
+  "platform": "books",
+  "provenance": "Public bibliographic record OL2982818W; discovered by openlibrary-books-02.",
+  "published_date": "2006-01-01",
+  "publisher": "Sage Publications",
+  "query_ids": [
+    "openlibrary-books-02"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The canonical bibliographic title explicitly concerns organizational learning or a named organizational improvement mechanism: Organizational learning."
+  ],
+  "retrieval_method": "Open Library public Search API",
+  "retrieved_at": "2026-07-12T08:38:20Z",
+  "rights_note": "Bibliographic metadata and at most a bounded publisher/API description are stored; no book text is copied.",
+  "rights_status": "metadata-only",
+  "schema_version": 2,
+  "source_type": "book",
+  "stable_id": "books-google-OL2982818W",
+  "status": "accepted",
+  "title": "Organizational learning"
+}

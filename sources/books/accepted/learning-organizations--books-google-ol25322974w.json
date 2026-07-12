@@ -1,0 +1,42 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://openlibrary.org/works/OL25322974W",
+  "content_sha256": "306fc17f9ead5e5c74abdbc81773a36154ae56bbcbd89af9863fd262cfe78e20",
+  "creator": "Malva Daniel Reid; Jyldyz Bekbalaeva; Denise Bedford; Alexeis Garcia-Perez; Dwane Jones",
+  "date_precision": "year",
+  "evidence": [
+    {
+      "kind": "bibliographic_metadata",
+      "locator": "canonical catalog record",
+      "text": "Title: Learning Organizations; creators: Malva Daniel Reid; Jyldyz Bekbalaeva; Denise Bedford; Alexeis Garcia-Perez; Dwane Jones; publisher: Emerald Publishing Limited; publication date: 2021-01-01; catalog ID: OL25322974W; ISBN: 9781839824319, 9781839824302, 1839824328."
+    }
+  ],
+  "identifiers": {
+    "catalog_id": "OL25322974W",
+    "isbn": [
+      "9781839824319",
+      "9781839824302",
+      "1839824328"
+    ]
+  },
+  "platform": "books",
+  "provenance": "Public bibliographic record OL25322974W; discovered by openlibrary-books-01.",
+  "published_date": "2021-01-01",
+  "publisher": "Emerald Publishing Limited",
+  "query_ids": [
+    "openlibrary-books-01"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The canonical bibliographic title explicitly concerns organizational learning or a named organizational improvement mechanism: Learning Organizations."
+  ],
+  "retrieval_method": "Open Library public Search API",
+  "retrieved_at": "2026-07-12T08:38:19Z",
+  "rights_note": "Bibliographic metadata and at most a bounded publisher/API description are stored; no book text is copied.",
+  "rights_status": "metadata-only",
+  "schema_version": 2,
+  "source_type": "book",
+  "stable_id": "books-google-OL25322974W",
+  "status": "accepted",
+  "title": "Learning Organizations"
+}

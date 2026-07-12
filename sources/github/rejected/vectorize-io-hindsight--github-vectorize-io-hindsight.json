@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/vectorize-io/hindsight",
+  "content_sha256": "eb54bc60188d999b02fe144bf186688fd7313560c091773c8a3f0a4563be4d00",
+  "creator": "vectorize-io",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "used in production at Fortune 500 enterprises and by a growing number of AI startups. ## Adding Hindsight to Your AI Agents The easiest way to use Hindsight with an existing agent is with the LLM Wrapper. You can add memory to your agent with 2 lines of code. That will swap your current LLM client out with the Hindsight wrapper. After that, memories will be stored and retrieved automatically as you make LLM calls. If you need more control over how and when your agent stores and recalls memories, there's also a simple API you can integrate with using the SDKs or directly via HTTP. ![Hindsight Banner](./hinds"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository vectorize-io/hindsight; discovered by github-repos-01.",
+  "published_date": "2025-10-30",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-01"
+  ],
+  "rejection_reason": "Generic agent-memory/evaluation repository lacked a demonstrated organizational operating mechanism.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "vectorize-io/hindsight",
+    "last_push": "2026-07-11T00:17:29Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stars_at_retrieval": 18252
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:38:34Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'mit', 'name': 'MIT License', 'url': 'https://api.github.com/licenses/mit'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-vectorize-io-hindsight",
+  "status": "rejected",
+  "title": "vectorize-io/hindsight"
+}

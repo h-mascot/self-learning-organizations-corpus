@@ -1,0 +1,38 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.youtube.com/watch?v=qImgGtnNbx0",
+  "content_sha256": "530a56d1f386ba814c8fb018560eafad1ebf24f0b8245c79b07318471dda1196",
+  "creator": "Bret Taylor",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "transcript_excerpt",
+      "locator": "public transcript near matched timestamp (bret-taylor)",
+      "text": "(00:35:10): But I say that because I think that whether AI is writing code or doing the design or doing all these other things, you need to learn how to have a system in your head. You need to understand the basics of what's hard and what's easy and what's possible and what's impossible. And AI can help you do that too, by the way. But I do think that's a really useful skill. I think in general, with the advent of AI agents and AI approaching super intelligence in certain domains, I think the tools with which we do our job will change a lot. I think it's very important to have a very loose attachment to the way we do our jobs and that story that we won't talk about when I"
+    }
+  ],
+  "media_format": "podcast_episode",
+  "platform": "podcasts",
+  "provenance": "Public timestamped transcript at ChatPRD/lennys-podcast-transcripts/bret-taylor; original video ID qImgGtnNbx0.",
+  "published_date": "2025-07-31",
+  "publisher": "Lenny's Podcast",
+  "query_ids": [
+    "github-citation-lennys-podcast-transcripts"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Multiple transcript passages match organizational feedback, experimentation, learning, memory, or AI-agent operating mechanisms."
+  ],
+  "retained_complete_transcript": false,
+  "retrieval_method": "GitHub public transcript citation; original publisher video identified in front matter",
+  "retrieved_at": "2026-07-12T08:44:29Z",
+  "rights_note": "A genuine episode and public transcript source were verified; only the bounded transcript excerpt in evidence is retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "episode",
+  "stable_id": "podcasts-lenny-qImgGtnNbx0",
+  "status": "accepted",
+  "title": "He saved OpenAI, invented the “Like” button, and built Google Maps: Bret Taylor",
+  "transcript_available": true,
+  "transcript_source": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/main/episodes/bret-taylor/transcript.md"
+}

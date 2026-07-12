@@ -1,0 +1,42 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://openlibrary.org/works/OL18967765W",
+  "content_sha256": "5c03db8ca411a79ef2bb90f53d4d3bcb8763c86c7be3673bcb9698498425c3d3",
+  "creator": "Laurence Prusak",
+  "date_precision": "year",
+  "evidence": [
+    {
+      "kind": "bibliographic_metadata",
+      "locator": "canonical catalog record",
+      "text": "Title: Knowledge management and organizational learning; creators: Laurence Prusak; publisher: Oxford University Press; publication date: 2006-01-01; catalog ID: OL18967765W; ISBN: 0199291802, 0199291799, 9780199291793."
+    }
+  ],
+  "identifiers": {
+    "catalog_id": "OL18967765W",
+    "isbn": [
+      "0199291802",
+      "0199291799",
+      "9780199291793"
+    ]
+  },
+  "platform": "books",
+  "provenance": "Public bibliographic record OL18967765W; discovered by openlibrary-books-02.",
+  "published_date": "2006-01-01",
+  "publisher": "Oxford University Press",
+  "query_ids": [
+    "openlibrary-books-02"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The canonical bibliographic title explicitly concerns organizational learning or a named organizational improvement mechanism: Knowledge management and organizational learning."
+  ],
+  "retrieval_method": "Open Library public Search API",
+  "retrieved_at": "2026-07-12T08:38:20Z",
+  "rights_note": "Bibliographic metadata and at most a bounded publisher/API description are stored; no book text is copied.",
+  "rights_status": "metadata-only",
+  "schema_version": 2,
+  "source_type": "book",
+  "stable_id": "books-google-OL18967765W",
+  "status": "accepted",
+  "title": "Knowledge management and organizational learning"
+}

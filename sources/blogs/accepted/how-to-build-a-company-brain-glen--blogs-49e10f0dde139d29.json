@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://tryglen.com/blog/how-to-build-a-company-brain",
+  "content_sha256": "15371697c9433d2098a1faecc6bc709204fb8bada566bdf79d0310f82ac61a4b",
+  "creator": "tryglen.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "publisher body text",
+      "text": "Knowledge work runs on two kinds of knowledge. The explicit kind sits in documents, and it survives when someone leaves. The tacit kind, the judgment and the context and the reasons behind the decisions, lives in people, and it walks out the door with them. Every company brain project is an attempt to convert the second kind into the first. The catch is that tacit knowledge is expensive to write down, the people who hold it are the busiest people you have, and the moment they stop to document it they are no longer doing the work that generated it. So it does not get written. The famous statistic about knowledge workers losing nine hours a week to searching has been recycl"
+    }
+  ],
+  "platform": "blogs",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-blogs.",
+  "published_date": null,
+  "publisher": "tryglen.com",
+  "query_ids": [
+    "citation-catalog-blogs"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The retained publisher-authored passage describes a concrete learning, feedback, evaluation, adaptation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:23Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "article",
+  "stable_id": "blogs-49e10f0dde139d29",
+  "status": "accepted",
+  "title": "How to build a company brain — Glen"
+}

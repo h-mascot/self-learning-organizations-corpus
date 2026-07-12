@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.datadoghq.com/blog/feedback-loops-progressive-delivery/",
+  "content_sha256": "7271011ba49302b86a83ba7f66108e07e25e596481ab7e1c5b1f26df8ee5b967",
+  "creator": "datadoghq.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "publisher body text",
+      "text": "Progressive delivery offers a way to escape this tradeoff. Techniques like feature flags, canary releases, and blue-green deployments give teams control over when and how code reaches users. By enabling safe experimentation in production and decoupling releases from deployments, these techniques naturally minimize risk and help teams ship with confidence. However, progressive delivery can only succeed when supported by feedback loops that incorporate observability and automation to accelerate engineering response. When feedback loops include real-time signals about performance and user impact, teams can detect problems early, decide whether to continue or roll back, and g"
+    }
+  ],
+  "platform": "blogs",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-blogs.",
+  "published_date": null,
+  "publisher": "datadoghq.com",
+  "query_ids": [
+    "citation-catalog-blogs"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The retained publisher-authored passage describes a concrete learning, feedback, evaluation, adaptation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:23Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "article",
+  "stable_id": "blogs-9a787433425d612e",
+  "status": "accepted",
+  "title": "How a Feedback Loop Improves the Software Development Life Cycle | Datadog"
+}

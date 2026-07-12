@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.hyscaler.com/insights/internal-developer-platforms-idp-guide/",
+  "content_sha256": "e4aa362560e33a4265780ec2c5554e12ba494c329c6a2f96f66d41bf078066bc",
+  "creator": "hyscaler.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "publisher body text",
+      "text": "Slow onboarding : compounds the cost. Without standardized paths to production, new engineers spend weeks learning organizational infrastructure conventions that are tribal knowledge, often undocumented and inconsistently applied."
+    }
+  ],
+  "platform": "blogs",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-blogs.",
+  "published_date": null,
+  "publisher": "hyscaler.com",
+  "query_ids": [
+    "citation-catalog-blogs"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The retained publisher-authored passage describes a concrete learning, feedback, evaluation, adaptation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:23Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "article",
+  "stable_id": "blogs-a0a52abdb7d05879",
+  "status": "accepted",
+  "title": "Internal Developer Platforms (IDP): The Complete Guide for 2026 - HyScaler"
+}

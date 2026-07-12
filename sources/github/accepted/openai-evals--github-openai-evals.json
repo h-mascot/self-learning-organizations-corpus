@@ -1,0 +1,41 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://github.com/openai/evals",
+  "content_sha256": "5b7ff0f3fe6b48648812e48060a9489f00c555c4c225e28e93f35c3eadafc73d",
+  "creator": "openai",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository README",
+      "text": "Evals provide a framework for evaluating large language models (LLMs) or systems built using LLMs. We offer an existing registry of evals to test different dimensions of OpenAI models and the ability to write your own custom evals for use cases you care about. You can also use your data to build private evals which represent the common LLMs patterns in your workflow without exposing any of that data publicly."
+    }
+  ],
+  "organizational_mechanism": "repeatable evaluation feedback for improving AI systems",
+  "platform": "github",
+  "provenance": "GitHub API metadata and bounded README evidence for openai/evals.",
+  "published_date": "2023-01-23",
+  "publisher": "GitHub",
+  "query_ids": [
+    "review-github-organizational-mechanisms"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The repository documents repeatable evaluation feedback for improving AI systems; this is an organizational operating mechanism, not generic agent-memory research."
+  ],
+  "repository": {
+    "full_name": "openai/evals",
+    "last_push": "2026-04-14T15:29:57Z",
+    "license": "NOASSERTION",
+    "stars_at_retrieval": 18899
+  },
+  "retrieval_method": "agent-reach/GitHub CLI API and README endpoint",
+  "retrieved_at": "2026-07-12T09:15:42Z",
+  "rights_note": "GitHub reports NOASSERTION; only a bounded README excerpt is retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-openai-evals",
+  "status": "accepted",
+  "title": "openai/evals"
+}

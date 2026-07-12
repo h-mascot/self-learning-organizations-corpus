@@ -1,0 +1,41 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://github.com/microsoft/promptflow",
+  "content_sha256": "cfba39c8881ea9532296b6db7ebb881f615d184fd2c77ed28227d52cf4742d9e",
+  "creator": "microsoft",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository README",
+      "text": "The software may collect information about you and your use of the software and send it to Microsoft if configured to enable telemetry. Microsoft may use this information to provide services and improve our products and services. You may turn on the telemetry as described in the repository. There are also some features in the software that may enable you and Microsoft to collect data from users of your applications. If you use these features, you must comply with applicable law, including providing appropriate notices to users of your applications together with a copy of Microsoft's privacy statement. Our privacy statement is located at https://go.microsoft.com/fwlink/?Li"
+    }
+  ],
+  "organizational_mechanism": "evaluation and deployment loops for organizational AI workflows",
+  "platform": "github",
+  "provenance": "GitHub API metadata and bounded README evidence for microsoft/promptflow.",
+  "published_date": "2023-06-30",
+  "publisher": "GitHub",
+  "query_ids": [
+    "review-github-organizational-mechanisms"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The repository documents evaluation and deployment loops for organizational AI workflows; this is an organizational operating mechanism, not generic agent-memory research."
+  ],
+  "repository": {
+    "full_name": "microsoft/promptflow",
+    "last_push": "2026-07-09T22:00:22Z",
+    "license": "MIT",
+    "stars_at_retrieval": 11180
+  },
+  "retrieval_method": "agent-reach/GitHub CLI API and README endpoint",
+  "retrieved_at": "2026-07-12T09:15:58Z",
+  "rights_note": "GitHub reports MIT; only a bounded README excerpt is retained.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-microsoft-promptflow",
+  "status": "accepted",
+  "title": "microsoft/promptflow"
+}

@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://cloud.google.com/blog/topics/developers-practitioners/from-vibe-checks-to-continuous-evaluation-engineering-reliable-ai-agents",
+  "content_sha256": "62945dd1ede1f9e41a8caf6bf73559cef58bf856703707768f5f6220eefa81c8",
+  "creator": "cloud.google.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "publisher body text",
+      "text": "# Create the Evaluation Run in Vertex AI evaluation_run = client.evals.create_evaluation_run( dataset=agent_dataset_with_inference, agent_info=agent_info, # Contains the LIVE tool definitions/schema metrics=metrics, dest=evaluation_storage_uri )"
+    }
+  ],
+  "platform": "blogs",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-blogs.",
+  "published_date": null,
+  "publisher": "cloud.google.com",
+  "query_ids": [
+    "citation-catalog-blogs"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The retained publisher-authored passage describes a concrete learning, feedback, evaluation, adaptation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:23Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "article",
+  "stable_id": "blogs-bae9fe965bc92f3f",
+  "status": "accepted",
+  "title": "From &quot;Vibe Checks&quot; to Continuous Evaluation: Engineering Reliable AI Agents | Google Cloud Blog"
+}

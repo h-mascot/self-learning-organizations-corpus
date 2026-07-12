@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/verifywise-ai/verifywise",
+  "content_sha256": "0f7f490f537e7855cc99436710677fc5865c9ef47d1a0da743161dce87bd5ffc",
+  "creator": "verifywise-ai",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "Module, which scans code repositories to identify AI-generated content. - Shadow AI detection and risk management - AI agent discovery - Activity history for each entity - Integration with MIT and IBM AI risk repository - Model inventory and model risks that keeps a list of models used and risks - Policy manager to create and manage internal company AI policies - Risk and control mappings for EU AI Act, ISO 42001, NIST AI RMF and ISO 27001 - CE Marking registry - Dataset registry - Desktop notifications - Approval workflows & approval requests - Detailed reports with PDF and DOCX export - Event logs (audits) "
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository verifywise-ai/verifywise; discovered by github-repos-02.",
+  "published_date": "2024-08-18",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-02"
+  ],
+  "rejection_reason": "Generic agent-memory/evaluation repository lacked a demonstrated organizational operating mechanism.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "verifywise-ai/verifywise",
+    "last_push": "2026-07-12T01:51:41Z",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "url": ""
+    },
+    "stars_at_retrieval": 319
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:38:58Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'other', 'name': 'Other', 'url': ''}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-verifywise-ai-verifywise",
+  "status": "rejected",
+  "title": "verifywise-ai/verifywise"
+}

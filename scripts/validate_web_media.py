@@ -31,6 +31,12 @@ REQUIRED = {
     "evidence", "query_ids",
 }
 SHA256 = re.compile(r"^[0-9a-f]{64}$")
+TIMESTAMP = re.compile(r"\b\d{1,2}:\d{2}(?::\d{2})?\b")
+BOILERPLATE = re.compile(r"skip to (?:content|main)|privacy policy|cookie settings|sign in|log in|upcoming events|all rights reserved", re.I)
+
+
+def slug(value: str, limit: int = 80) -> str:
+    return (re.sub(r"[^a-z0-9]+", "-", value.casefold()).strip("-")[:limit] or "source")
 
 
 def canonical_url(url: str) -> str:
@@ -77,6 +83,8 @@ def validate() -> tuple[list[str], Counter, Counter]:
     query_rows = load_ledger(ROOT / "research/web-media-acquisition/query-ledger.jsonl", errors)
     retrieval_rows = load_ledger(ROOT / "research/web-media-acquisition/retrieval-ledger.jsonl", errors)
     query_ids = {row.get("query_id") for row in query_rows}
+    if len(query_ids) != len(query_rows):
+        errors.append("query ledger contains duplicate query_ids")
     retrieval_ids = {row.get("stable_id") for row in retrieval_rows}
     for lane in LANES:
         if not any(row.get("lane") == lane for row in query_rows):
@@ -95,6 +103,9 @@ def validate() -> tuple[list[str], Counter, Counter]:
                 errors.append(f"{path.relative_to(ROOT)}: missing {', '.join(missing)}")
                 continue
             rel = path.relative_to(ROOT)
+            expected_filename = f"{slug(record['title'])}--{slug(record['stable_id'])}.json"
+            if path.name != expected_filename:
+                errors.append(f"{rel}: filename must be title-derived and end in the stable ID")
             if record["schema_version"] != 2:
                 errors.append(f"{rel}: schema_version must be 2")
             if record["platform"] != lane:
@@ -116,24 +127,55 @@ def validate() -> tuple[list[str], Counter, Counter]:
             if record["status"] == "accepted":
                 counts[lane] += 1
                 artifact_counts[(lane, record["artifact_level"])] += 1
-                if not record["relevance_evidence"]:
+                if not isinstance(record["relevance_evidence"], list) or not record["relevance_evidence"] or not all(isinstance(item, str) and item.strip() for item in record["relevance_evidence"]):
                     errors.append(f"{rel}: accepted record lacks relevance evidence")
                 if record["artifact_level"] == "unavailable":
                     errors.append(f"{rel}: accepted record cannot be unavailable")
-                if lane != "books" and not record["evidence"]:
-                    errors.append(f"{rel}: non-book acceptance lacks evidence")
-                if lane == "podcasts" and not any(e.get("kind") in {"transcript", "timestamped-note"} for e in record["evidence"]):
-                    errors.append(f"{rel}: accepted podcast lacks transcript or timestamped notes")
+                if not isinstance(record["evidence"], list) or not record["evidence"]:
+                    errors.append(f"{rel}: acceptance lacks retained evidence")
+                elif not all(isinstance(e, dict) and e.get("kind") and e.get("locator") and isinstance(e.get("text"), str) and e["text"].strip() for e in record["evidence"]):
+                    errors.append(f"{rel}: evidence spans must have non-empty kind, locator, and text")
             if record["artifact_level"] == "full_text" and record["rights_status"] not in {"licensed", "public-domain", "permission-granted", "open-license"}:
                 errors.append(f"{rel}: full_text lacks an affirmative rights basis")
-            if record["artifact_level"] == "transcript" and not any(e.get("kind") in {"transcript", "timestamped-note"} for e in record["evidence"]):
-                errors.append(f"{rel}: transcript level lacks transcript/timestamped-note evidence")
-            if record.get("transcript_source") and not any(re.search(r"\b\d{1,2}:\d{2}(?::\d{2})?\b", e.get("text", "")) for e in record["evidence"]):
+            if record["artifact_level"] == "transcript" and not record.get("retained_complete_transcript"):
+                errors.append(f"{rel}: transcript artifact requires a retained complete transcript")
+            if record["status"] == "accepted" and record.get("transcript_source") and not any(TIMESTAMP.search(e.get("text", "")) for e in record["evidence"]):
                 errors.append(f"{rel}: cited timestamped transcript lacks a timestamp in retained evidence")
             if record["status"] == "accepted" and re.search(r"page not found|\b404\b", record["title"], re.I):
                 errors.append(f"{rel}: accepted title indicates a missing page")
             if any(len(e.get("text", "")) > 700 for e in record["evidence"]):
                 errors.append(f"{rel}: evidence span exceeds bounded 700-character limit")
+            if record["status"] == "accepted" and lane in {"blogs", "case-studies"}:
+                if any(BOILERPLATE.search(e.get("text", "")) for e in record["evidence"]):
+                    errors.append(f"{rel}: accepted source excerpt contains navigation boilerplate")
+                if not any(len(e.get("text", "")) >= 180 and e.get("kind") == "excerpt" for e in record["evidence"]):
+                    errors.append(f"{rel}: accepted source lacks a substantive publisher excerpt")
+            if record["status"] == "accepted" and lane == "conferences":
+                proof = record.get("event_proof") or {}
+                if record["source_type"] not in {"talk", "proceeding"} or not proof.get("recorded_marker_observed") or not proof.get("duration_or_media_observed"):
+                    errors.append(f"{rel}: conference acceptance lacks event/talk/proceeding proof")
+            if record["status"] == "accepted" and lane == "github":
+                if not isinstance(record.get("organizational_mechanism"), str) or len(record["organizational_mechanism"].strip()) < 20:
+                    errors.append(f"{rel}: GitHub acceptance lacks a concrete organizational mechanism")
+            if record["status"] == "accepted" and lane == "podcasts":
+                if record.get("media_format") != "podcast_episode" or record["source_type"] != "episode":
+                    errors.append(f"{rel}: podcast acceptance lacks genuine episode classification")
+                if record.get("transcript_available") is not True or record.get("retained_complete_transcript") is not False:
+                    errors.append(f"{rel}: podcast transcript availability/retention is dishonest or missing")
+                if record["artifact_level"] == "transcript":
+                    errors.append(f"{rel}: bounded excerpt cannot claim transcript artifact level")
+                if not record.get("transcript_source") or canonical_url(record["transcript_source"]) == canonical_url(record["canonical_url"]):
+                    errors.append(f"{rel}: podcast needs distinct episode and transcript/notes sources")
+                if not any(e.get("kind") in {"transcript_excerpt", "timestamped-note"} and TIMESTAMP.search(e.get("text", "")) for e in record["evidence"]):
+                    errors.append(f"{rel}: podcast lacks a retained timestamped transcript excerpt/note")
+            if record["status"] == "accepted" and lane == "books":
+                identifiers = record.get("identifiers") or {}
+                if not identifiers.get("catalog_id"):
+                    errors.append(f"{rel}: book lacks an exact bibliographic catalog identifier")
+                if record["creator"] == "Unknown" or record["publisher"] == "Unknown":
+                    errors.append(f"{rel}: book lacks exact creator/publisher metadata")
+                if not any(e.get("kind") == "bibliographic_metadata" for e in record["evidence"]):
+                    errors.append(f"{rel}: book lacks retained bibliographic evidence")
             if not set(record["query_ids"]).issubset(query_ids):
                 errors.append(f"{rel}: query_ids absent from query ledger")
             if record["stable_id"] not in retrieval_ids:

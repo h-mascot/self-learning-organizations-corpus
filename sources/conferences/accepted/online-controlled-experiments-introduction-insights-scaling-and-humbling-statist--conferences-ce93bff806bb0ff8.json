@@ -1,0 +1,39 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.infoq.com/presentations/controlled-experiments/",
+  "content_sha256": "e0b3b8a068f4a869059742aa1c2be6cb9d535f67dbb78a8c5820e8a682380ce6",
+  "creator": "[](https://www.infoq.com/profile/Ronny-Kohavi/)[Ronny Kohavi](https://www.infoq.com/profile/Ronny-Kohavi/)",
+  "date_precision": "unknown",
+  "event_proof": {
+    "duration_or_media_observed": true,
+    "publisher": "InfoQ",
+    "recorded_marker_observed": true
+  },
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "InfoQ presentation transcript/summary",
+      "text": "[**InfoQ Online Certification Programs** For Senior Engineers, Architects, and Technical Leaders * **AI Engineering** with Hien Luu | July 25 * **Architect** with Luca Mezzalira | August 13 * **AI Security & Privacy Engineering** with Katharine Jarmul | August 26 As your role becomes more senior, the work changes. You're no longer just implementing decisions; you're shaping the systems, trade-offs, and technical direction other teams depend on. These 5-week online programs give you a structured way to work through real decisions from your current role with senior peers from other companies. **RESERVE YOUR PLACE** Live online. 4 hours a week, for 5 weeks.](https://certific"
+    }
+  ],
+  "platform": "conferences",
+  "provenance": "InfoQ presentation page with recorded-event marker, speaker attribution, and bounded source excerpt.",
+  "published_date": null,
+  "publisher": "InfoQ",
+  "query_ids": [
+    "review-infoq-continuous-improvement"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Publisher talk text describes a concrete organizational learning, feedback, evaluation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach/Jina public publisher page",
+  "retrieved_at": "2026-07-12T09:15:16Z",
+  "rights_note": "Only a bounded excerpt from the publisher presentation page is retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "talk",
+  "stable_id": "conferences-ce93bff806bb0ff8",
+  "status": "accepted",
+  "title": "Online Controlled Experiments: Introduction, Insights, Scaling, and Humbling Statistics"
+}

@@ -1,0 +1,41 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://github.com/langchain-ai/langsmith-sdk",
+  "content_sha256": "c6e972ac807ee1bb9b2ab994e0526c8179068d88b3eb13feb4416558ad6cccc2",
+  "creator": "langchain-ai",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository README",
+      "text": " platform](https://smith.langchain.com/). Please see [LangSmith Documentation](https://docs.smith.langchain.com/) for documentation about using the LangSmith platform and the client SDK. LangSmith helps your team debug, evaluate, and monitor your language models and intelligent agents. It works with any LLM Application, including a native integration with the [LangChain Python](https://github.com/langchain-ai/langchain) and [LangChain JS](https://github.com/langchain-ai/langchainjs) open source libraries. LangSmith is developed and maintained by [LangChain](https://langchain.com/), the company behind the LangChain framework. ## Quick Start To get started with the Python S"
+    }
+  ],
+  "organizational_mechanism": "tracing, evaluation, and feedback for production agents",
+  "platform": "github",
+  "provenance": "GitHub API metadata and bounded README evidence for langchain-ai/langsmith-sdk.",
+  "published_date": "2023-05-30",
+  "publisher": "GitHub",
+  "query_ids": [
+    "review-github-organizational-mechanisms"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The repository documents tracing, evaluation, and feedback for production agents; this is an organizational operating mechanism, not generic agent-memory research."
+  ],
+  "repository": {
+    "full_name": "langchain-ai/langsmith-sdk",
+    "last_push": "2026-07-11T20:16:10Z",
+    "license": "MIT",
+    "stars_at_retrieval": 963
+  },
+  "retrieval_method": "agent-reach/GitHub CLI API and README endpoint",
+  "retrieved_at": "2026-07-12T09:15:59Z",
+  "rights_note": "GitHub reports MIT; only a bounded README excerpt is retained.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-langchain-ai-langsmith-sdk",
+  "status": "accepted",
+  "title": "langchain-ai/langsmith-sdk"
+}

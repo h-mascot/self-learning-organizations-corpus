@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://github.com/resources/insights/thomson-reuters-ai-adoption",
+  "content_sha256": "f3b22dc9035a722e9bf7c26172c5f2d97b61325d9c42aaea208ee381eb2f4db2",
+  "creator": "github.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "publisher body text",
+      "text": "Across industries, organizations are turning to AI to automate repetitive tasks, streamline complex processes, and enable workers to focus on more strategic, creative initiatives. Tools like GitHub Copilot—shown to speed up task completion by 46% and improve code quality by 39%—are already transforming the way software gets built."
+    }
+  ],
+  "platform": "case-studies",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-case-studies.",
+  "published_date": null,
+  "publisher": "github.com",
+  "query_ids": [
+    "citation-catalog-case-studies"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The retained publisher-authored passage describes a concrete learning, feedback, evaluation, adaptation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:35Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "case-study",
+  "stable_id": "case-studies-cb59c19af9b94391",
+  "status": "accepted",
+  "title": "How Thomson Reuters successfully adopted AI (and how your organization can, too) · GitHub"
+}

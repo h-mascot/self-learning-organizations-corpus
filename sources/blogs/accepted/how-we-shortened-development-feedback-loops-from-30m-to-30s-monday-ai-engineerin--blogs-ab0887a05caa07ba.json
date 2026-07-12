@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://engineering.monday.com/how-we-shortened-development-feedback-loops-from-30m-to-30s/",
+  "content_sha256": "fa186e1c5879a1c6035072b9a5ee9112a862ba0c8d23a938a54e1738b27f1794",
+  "creator": "engineering.monday.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "publisher body text",
+      "text": "When we talk about tight feedback loops, we want to eliminate all unnecessary time delays. I am not too old to remember the classic XKCD comic that showcases a problem analogous to a cold boot: long compile times. It demonstrates that, as an industry, we have simply learned to accept this as the status quo and live with it."
+    }
+  ],
+  "platform": "blogs",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-blogs.",
+  "published_date": null,
+  "publisher": "engineering.monday.com",
+  "query_ids": [
+    "citation-catalog-blogs"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The retained publisher-authored passage describes a concrete learning, feedback, evaluation, adaptation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:23Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "article",
+  "stable_id": "blogs-ab0887a05caa07ba",
+  "status": "accepted",
+  "title": "How We Shortened Development Feedback Loops From 30m to 30s - monday AI engineering"
+}

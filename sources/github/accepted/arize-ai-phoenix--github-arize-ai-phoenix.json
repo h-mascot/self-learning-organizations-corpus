@@ -1,0 +1,41 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://github.com/Arize-ai/phoenix",
+  "content_sha256": "018abe78898682834dbf3dc85db82a66ca94d35e9437915120cf72ececb678cf",
+  "creator": "Arize-ai",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository README",
+      "text": "By default, Phoenix collects basic web analytics (e.g., page views, UI interactions) to help us understand how Phoenix is used and improve the product. **None of your trace data, evaluation results, or any sensitive information is ever collected.**"
+    }
+  ],
+  "organizational_mechanism": "production AI observability, evaluation, and improvement",
+  "platform": "github",
+  "provenance": "GitHub API metadata and bounded README evidence for Arize-ai/phoenix.",
+  "published_date": "2022-11-09",
+  "publisher": "GitHub",
+  "query_ids": [
+    "review-github-organizational-mechanisms"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The repository documents production AI observability, evaluation, and improvement; this is an organizational operating mechanism, not generic agent-memory research."
+  ],
+  "repository": {
+    "full_name": "Arize-ai/phoenix",
+    "last_push": "2026-07-12T07:43:11Z",
+    "license": "NOASSERTION",
+    "stars_at_retrieval": 10513
+  },
+  "retrieval_method": "agent-reach/GitHub CLI API and README endpoint",
+  "retrieved_at": "2026-07-12T09:15:44Z",
+  "rights_note": "GitHub reports NOASSERTION; only a bounded README excerpt is retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-arize-ai-phoenix",
+  "status": "accepted",
+  "title": "Arize-ai/phoenix"
+}

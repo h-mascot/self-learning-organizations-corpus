@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://zakhassan.com/blog/building-a-reliability-culture-the-organizational-work-that-makes-sre-stick",
+  "content_sha256": "ea822b84a7730047edaa55def7c0f6c77f1789915af99cc69b4db1483de8bacc",
+  "creator": "zakhassan.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "publisher body text",
+      "text": "Reliability work deprioritized in every sprint. Technical debt accumulates, toil accumulates, reliability gaps accumulate — because every sprint, the reliability work competes with feature work and loses. Without organizational mechanisms that protect reliability investment (error budget policies, explicit engineering capacity allocation), the culture nominally values reliability but actually values feature velocity."
+    }
+  ],
+  "platform": "blogs",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-blogs.",
+  "published_date": null,
+  "publisher": "zakhassan.com",
+  "query_ids": [
+    "citation-catalog-blogs"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "The retained publisher-authored passage describes a concrete learning, feedback, evaluation, adaptation, or improvement mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:23Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "article",
+  "stable_id": "blogs-682ff490d386548c",
+  "status": "accepted",
+  "title": "Building a Reliability Culture: The Organizational Work That Makes SRE Stick"
+}

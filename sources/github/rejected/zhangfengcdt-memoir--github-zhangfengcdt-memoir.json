@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/zhangfengcdt/memoir",
+  "content_sha256": "df7ed4e9f80f4441155ab7f849f4617827ce59987d98ef2574e9e3bf9f452935",
+  "creator": "zhangfengcdt",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "alt=\"Memoir demo\" width=\"900\"> </p> Memoir is a high-performance semantic memory system for AI agents that brings Git-like version control to AI memory management. It replaces opaque vector databases with transparent, versioned, cryptographically secure memory storage using hierarchical semantic paths. > **Project page:** **[memoir-ai.dev](https://www.memoir-ai.dev/)** — full overview, demos, and roadmap. ## Why agents need versioned memory > **AI memory is a Global Variable anti-pattern.** Every production agent hits the same three walls: context contamination, token rent, and memory "
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository zhangfengcdt/memoir; discovered by github-repos-01.",
+  "published_date": "2025-08-08",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-01"
+  ],
+  "rejection_reason": "Generic agent-memory/evaluation repository lacked a demonstrated organizational operating mechanism.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "zhangfengcdt/memoir",
+    "last_push": "2026-07-10T19:10:37Z",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "url": "https://api.github.com/licenses/apache-2.0"
+    },
+    "stars_at_retrieval": 592
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:38:42Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'apache-2.0', 'name': 'Apache License 2.0', 'url': 'https://api.github.com/licenses/apache-2.0'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-zhangfengcdt-memoir",
+  "status": "rejected",
+  "title": "zhangfengcdt/memoir"
+}
