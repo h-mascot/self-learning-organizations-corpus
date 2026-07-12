@@ -3,12 +3,12 @@
 Generated from every saturation wave; raw lane ledgers remain authoritative evidence.
 
 - Qualifying channels: **10** — blogs, books, case-studies, conferences, github, podcasts, reddit, substack, x, youtube
-- Academic: **unmet** — no three-round eligible proof; separate academic recovery wave pending
-- Canonical rounds: **96**; candidates reviewed: **561**
+- Academic: **unmet** — wave 5 has two eligible rounds and one ineligible round with a blocked net-new candidate
+- Canonical rounds: **99**; candidates reviewed: **596**
 
 | Channel | Rounds | Candidates | Eligible | Blocked | Three-round proof |
 | --- | ---: | ---: | ---: | ---: | --- |
-| academic | 6 | 42 | 0 | 7 | unmet |
+| academic | 9 | 77 | 2 | 8 | unmet |
 | blogs | 9 | 54 | 3 | 9 | web-media-saturation-4 r1 (0.0%), web-media-saturation-4 r2 (0.0%), web-media-saturation-4 r3 (0.0%) |
 | books | 9 | 60 | 3 | 0 | web-media-saturation-4 r1 (0.0%), web-media-saturation-4 r2 (0.0%), web-media-saturation-4 r3 (0.0%) |
 | case-studies | 9 | 60 | 3 | 4 | web-media-saturation-4 r1 (0.0%), web-media-saturation-4 r2 (0.0%), web-media-saturation-4 r3 (0.0%) |

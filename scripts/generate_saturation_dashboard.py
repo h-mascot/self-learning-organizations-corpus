@@ -18,9 +18,12 @@ def jsonl(path: Path) -> list[dict]:
     return [json.loads(line) for line in path.read_text().splitlines() if line.strip()]
 
 
-def ordinary_rounds(path: Path, wave: str) -> list[dict]:
+def ordinary_rounds(path: Path, wave: str, default_channel: str | None = None) -> list[dict]:
     result = []
-    for row in jsonl(path):
+    for original in jsonl(path):
+        row = dict(original)
+        if default_channel and "channel" not in row:
+            row["channel"] = default_channel
         candidates = row.get("retrieved_candidates", row.get("result_count", 0))
         rate = row.get("net_new_accepted_unique_rate", row.get("net_new_accepted_rate", 0.0))
         if isinstance(rate, dict):
@@ -74,9 +77,10 @@ def build(root: Path = ROOT) -> tuple[dict, str, list[str]]:
         ("web-media-followup", "research/web-media-followup/rounds.jsonl"),
         ("native-saturation-3", "research/native-saturation-3/rounds.jsonl"),
         ("web-media-saturation-4", "research/web-media-saturation-4/rounds.jsonl"),
+        ("academic-saturation-5", "research/academic-saturation-5/rounds.jsonl"),
     )
     for wave, relative in inputs:
-        rounds.extend(ordinary_rounds(root / relative, wave))
+        rounds.extend(ordinary_rounds(root / relative, wave, "academic" if wave == "academic-saturation-5" else None))
     rounds.extend(native_four(root))
     rounds.sort(key=lambda row: (row["searched_at"], row["wave"], row["channel"], row["round"]))
 
@@ -117,7 +121,7 @@ def build(root: Path = ROOT) -> tuple[dict, str, list[str]]:
         "round_count": len(rounds), "candidate_count": sum(row["candidate_count"] for row in rounds),
         "eligible_round_count": sum(row["eligible"] for row in rounds),
         "saturated_channels": saturated, "unsaturated_channels": sorted(set(channels) - set(saturated)),
-        "academic_status": "unmet: no three-round eligible proof; separate academic recovery wave pending",
+        "academic_status": "unmet: wave 5 has two eligible rounds and one ineligible round with a blocked net-new candidate",
         "channels": channels, "rounds": rounds,
     }
     lines = ["# Canonical Saturation Dashboard", "", "Generated from every saturation wave; raw lane ledgers remain authoritative evidence.", "",

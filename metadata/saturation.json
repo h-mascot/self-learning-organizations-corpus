@@ -1,16 +1,16 @@
 {
-  "academic_status": "unmet: no three-round eligible proof; separate academic recovery wave pending",
-  "candidate_count": 561,
+  "academic_status": "unmet: wave 5 has two eligible rounds and one ineligible round with a blocked net-new candidate",
+  "candidate_count": 596,
   "channels": {
     "academic": {
       "accepted": 0,
-      "blocked": 7,
-      "candidate_count": 42,
+      "blocked": 8,
+      "candidate_count": 77,
       "duplicates": 1,
-      "eligible_round_count": 0,
+      "eligible_round_count": 2,
       "qualifying_rounds": [],
-      "rejected": 35,
-      "round_count": 6,
+      "rejected": 68,
+      "round_count": 9,
       "saturated": false
     },
     "blogs": {
@@ -374,15 +374,16 @@
       "saturated": true
     }
   },
-  "eligible_round_count": 35,
+  "eligible_round_count": 37,
   "input_waves": [
     "initial-saturation",
     "web-media-followup",
     "native-saturation-3",
     "web-media-saturation-4",
+    "academic-saturation-5",
     "native-saturation-4"
   ],
-  "round_count": 96,
+  "round_count": 99,
   "rounds": [
     {
       "accepted": 0,
@@ -1787,6 +1788,60 @@
       "round": 3,
       "searched_at": "2026-07-12T18:02:00Z",
       "wave": "native-saturation-4"
+    },
+    {
+      "accepted": 0,
+      "backend": "OpenAlex Works API",
+      "blocked": 0,
+      "candidate_count": 15,
+      "channel": "academic",
+      "duplicates": 0,
+      "eligibility_note": "Both bounded API pages completed and every candidate was dispositioned; no blocked candidate and 0% net-new accepted unique is below 5%.",
+      "eligible": true,
+      "material_difference": "Direct concept retrieval followed recursively through the citation neighborhood of the only returned feedback-loop case study.",
+      "novelty_rate": 0.0,
+      "query": "search=\"organizational learning\" company case study feedback loop; filter=has_abstract:true; per-page=10; then filter=cites:W2020651972,has_abstract:true; sort=cited_by_count:desc; per-page=5",
+      "query_family": "openalex-direct-plus-citation-chase",
+      "rejected": 14,
+      "round": 1,
+      "searched_at": "2026-07-12T18:20:41Z",
+      "wave": "academic-saturation-5"
+    },
+    {
+      "accepted": 0,
+      "backend": "Crossref REST API",
+      "blocked": 1,
+      "candidate_count": 10,
+      "channel": "academic",
+      "duplicates": 0,
+      "eligibility_note": "Retrieval and review are complete, but one plausible net-new named-organization source is intentionally blocked for manager review; a blocked round is ineligible regardless of its numerical rate.",
+      "eligible": false,
+      "material_difference": "DOI-registry bibliographic ranking focused on published company case studies rather than OpenAlex full-text relevance and citations.",
+      "novelty_rate": 0.0,
+      "query": "query.bibliographic=organizational learning named company case study postmortem feedback; filter=type:journal-article; rows=10",
+      "query_family": "crossref-doi-case-study-screen",
+      "rejected": 9,
+      "round": 2,
+      "searched_at": "2026-07-12T18:20:42Z",
+      "wave": "academic-saturation-5"
+    },
+    {
+      "accepted": 0,
+      "backend": "arXiv Atom API",
+      "blocked": 0,
+      "candidate_count": 10,
+      "channel": "academic",
+      "duplicates": 0,
+      "eligibility_note": "The bounded Atom feed completed and all ten candidates were reviewed; no blocked candidate and 0% net-new accepted unique is below 5%.",
+      "eligible": true,
+      "material_difference": "Repository-native preprint search over title, abstract, and full metadata, independent of DOI registry and OpenAlex ranking.",
+      "novelty_rate": 0.0,
+      "query": "search_query=all:\"organizational learning\" AND (all:company OR all:firm); start=0; max_results=10; sortBy=relevance",
+      "query_family": "arxiv-preprint-organization-screen",
+      "rejected": 10,
+      "round": 3,
+      "searched_at": "2026-07-12T18:21:59Z",
+      "wave": "academic-saturation-5"
     },
     {
       "accepted": 0,

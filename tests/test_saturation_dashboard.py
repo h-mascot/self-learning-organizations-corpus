@@ -10,7 +10,7 @@ class SaturationDashboardTests(unittest.TestCase):
         self.assertEqual(data["unsaturated_channels"], ["academic"])
         self.assertIn("academic", data["channels"])
         self.assertFalse(data["channels"]["academic"]["saturated"])
-        self.assertIn("academic recovery wave pending", data["academic_status"])
+        self.assertIn("blocked net-new candidate", data["academic_status"])
         self.assertIn("Academic: **unmet**", markdown)
 
     def test_every_claim_has_three_distinct_consecutive_qualifying_rounds(self):
@@ -28,6 +28,6 @@ class SaturationDashboardTests(unittest.TestCase):
         data, _, _ = build(ROOT)
         self.assertEqual(data["input_waves"], [
             "initial-saturation", "web-media-followup", "native-saturation-3",
-            "web-media-saturation-4", "native-saturation-4",
+            "web-media-saturation-4", "academic-saturation-5", "native-saturation-4",
         ])
 

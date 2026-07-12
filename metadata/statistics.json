@@ -1617,10 +1617,10 @@
   "rejected_sources": 414,
   "retrieved_sources": 1052,
   "saturation": {
-    "academic_status": "unmet: no three-round eligible proof; separate academic recovery wave pending",
-    "candidate_count": 561,
-    "eligible_round_count": 35,
-    "round_count": 96,
+    "academic_status": "unmet: wave 5 has two eligible rounds and one ineligible round with a blocked net-new candidate",
+    "candidate_count": 596,
+    "eligible_round_count": 37,
+    "round_count": 99,
     "saturated_channels": [
       "blogs",
       "books",
