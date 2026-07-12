@@ -99,6 +99,39 @@ class PublicCompetitorBenchmarkTests(unittest.TestCase):
         self.assertIn("retrieved_at must be an ISO date or datetime", errors)
         self.assertIn("scope_only audit cannot have rows", errors)
 
+    def test_validator_rejects_duplicate_audit_rows_and_future_updates(self):
+        data = json.loads(PATH.read_text())
+        audited = next(r for r in data["collections"] if r["audit"]["coverage"] == "complete")
+        audited["audit"]["rows"][1]["url"] = audited["audit"]["rows"][0]["url"]
+        audited["audit"]["rows"][1]["label"] = audited["audit"]["rows"][0]["label"]
+        audited["update_date"] = "2099-01-01"
+        audited["update_date_precision"] = "day"
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "benchmark.json"
+            path.write_text(json.dumps(data))
+            errors = "\n".join(validate(path))
+        self.assertIn("audit row url must be unique", errors)
+        self.assertIn("audit row label must be unique", errors)
+        self.assertIn("update_date cannot be after as_of", errors)
+
+    def test_validator_requires_reason_for_withholding_largest_claim(self):
+        data = json.loads(PATH.read_text())
+        data["largest_claim"]["reason"] = ""
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "benchmark.json"
+            path.write_text(json.dumps(data))
+            errors = "\n".join(validate(path))
+        self.assertIn("withheld largest claim requires a non-empty reason", errors)
+
+    def test_validator_requires_collection_uncertainty(self):
+        data = json.loads(PATH.read_text())
+        data["collections"][0]["uncertainty"] = ""
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "benchmark.json"
+            path.write_text(json.dumps(data))
+            errors = "\n".join(validate(path))
+        self.assertIn("uncertainty must be non-empty", errors)
+
 
 if __name__ == "__main__":
     unittest.main()

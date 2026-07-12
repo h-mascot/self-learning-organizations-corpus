@@ -20,10 +20,12 @@ def validate(path=PATH):
         errors.append("schema_version must be 3")
     if data.get("largest_claim", {}).get("permitted") is not False:
         errors.append("largest claim must remain false until independently proven")
+    if not isinstance(data.get("largest_claim", {}).get("reason"), str) or not data["largest_claim"]["reason"].strip():
+        errors.append("withheld largest claim requires a non-empty reason")
     rows = data.get("collections")
     if not isinstance(rows, list) or not rows:
         return ["collections must be a non-empty list"]
-    required = {"id", "name", "url", "scope", "update_date", "update_date_precision", "schema", "raw_count", "raw_count_relation", "raw_count_unit", "raw_count_method", "strict_like_for_like_organization_evidence_count", "strict_count_method", "exclusions", "retrieval_evidence", "audit"}
+    required = {"id", "name", "url", "scope", "update_date", "update_date_precision", "schema", "raw_count", "raw_count_relation", "raw_count_unit", "raw_count_method", "strict_like_for_like_organization_evidence_count", "strict_count_method", "uncertainty", "exclusions", "retrieval_evidence", "audit"}
     ids = set()
     for i, row in enumerate(rows):
         label = f"collections[{i}]"
@@ -37,7 +39,7 @@ def validate(path=PATH):
         parsed = urlparse(row["url"])
         if parsed.scheme != "https" or not parsed.netloc:
             errors.append(f"{label} url must be public https")
-        for field in ("scope", "raw_count_unit", "raw_count_method", "strict_count_method"):
+        for field in ("scope", "raw_count_unit", "raw_count_method", "strict_count_method", "uncertainty"):
             if not isinstance(row[field], str) or not row[field].strip():
                 errors.append(f"{label} {field} must be non-empty")
         raw = row["raw_count"]
@@ -73,6 +75,8 @@ def validate(path=PATH):
                 errors.append(f"{label} audit row count must equal audited_unit_count")
             else:
                 included = set()
+                audit_urls = set()
+                audit_labels = set()
                 for j, item in enumerate(audit_rows):
                     item_label = f"{label}.audit.rows[{j}]"
                     if item.get("decision") not in {"include", "exclude", "duplicate"}:
@@ -81,6 +85,15 @@ def validate(path=PATH):
                         errors.append(f"{item_label} label, url and reason must be non-empty")
                     elif urlparse(item["url"]).scheme != "https" or not urlparse(item["url"]).netloc:
                         errors.append(f"{item_label} url must be public https")
+                    elif item["url"] in audit_urls:
+                        errors.append(f"{item_label} audit row url must be unique")
+                    else:
+                        audit_urls.add(item["url"])
+                    if isinstance(item.get("label"), str):
+                        normalized_label = item["label"].strip().casefold()
+                        if normalized_label in audit_labels:
+                            errors.append(f"{item_label} audit row label must be unique")
+                        audit_labels.add(normalized_label)
                     if item.get("decision") == "include":
                         org = item.get("organization")
                         if not isinstance(org, str) or not org.strip():
@@ -109,6 +122,8 @@ def validate(path=PATH):
         else:
             try:
                 parsed_update = date.fromisoformat(row["update_date"])
+                if as_of and parsed_update > as_of:
+                    errors.append(f"{label} update_date cannot be after as_of")
                 if row["update_date_precision"] == "year" and (parsed_update.month, parsed_update.day) != (12, 31):
                     errors.append(f"{label} year precision must use YYYY-12-31")
                 elif row["update_date_precision"] not in {"day", "year"}:

@@ -27,6 +27,7 @@
       "raw_count_method": "publisher-stated database composition count in the linked 2025-12-22 analysis; the rounded landing-page headline says 800",
       "strict_like_for_like_organization_evidence_count": null,
       "strict_count_method": "Landing-page scope and schema audit only; the 805 rows are application/system designs, not organization-level learning-loop records, and no row-level strict audit was available in the retrieved page.",
+      "uncertainty": "Strict count unknown: the retrieved landing page supports scope and raw volume but not stable row-level decisions.",
       "exclusions": ["ML/LLM product implementations without an organizational improvement loop", "generic system-design learnings", "multiple use cases from one company"],
       "audit": {"coverage":"scope_only","selection_method":"Landing-page scope/schema review; no individual records were counted as audited units.","audited_unit_count":0,"rows":[]},
       "retrieval_evidence": [{"retrieved_at":"2026-07-12T00:00:00Z","url":"https://www.evidentlyai.com/blog/gen-ai-applications","method":"Jina Reader public page and linked publisher analysis","evidence":"The landing page states 800 case studies from 150+ companies; the linked 2025-12-22 database-composition analysis gives the unrounded total as 805 use cases from 185 companies."}]
@@ -45,6 +46,7 @@
       "raw_count_method": "publisher-stated exact count on landing page, cross-checked against 67 case links in the retrieved rendering",
       "strict_like_for_like_organization_evidence_count": null,
       "strict_count_method": "Landing-page title/summary scope screen only. The records document AI use cases or operational systems, but a stable row-decision audit was not captured and no organization was therefore counted.",
+      "uncertainty": "Strict count unknown because no stable complete or sampled row audit was captured.",
       "exclusions": ["cross-industry reference architectures", "AI task automation", "predictive optimization", "self-healing technical infrastructure without evidence the organization itself learns"],
       "audit": {"coverage":"scope_only","selection_method":"All landing-page titles and summaries were screened at index level, but no stable row-decision ledger was captured; conservatively classified as scope-only.","audited_unit_count":0,"rows":[]},
       "retrieval_evidence": [{"retrieved_at":"2026-07-12T00:00:00Z","url":"https://case-studies.ai/about/","method":"Jina Reader public landing and about pages","evidence":"Landing page states 67 Published and 8 Categories. About page specifies named organizations, production systems/pilots, verifiable metrics, and a five-document structure; individual pages carry Updated dates but the collection has no stated global update date."}]
@@ -63,6 +65,7 @@
       "raw_count_method": "publisher-stated exact homepage counter; not independently enumerable from the retrieved public page",
       "strict_like_for_like_organization_evidence_count": null,
       "strict_count_method": "Homepage and example-record audit only. The public evidence did not expose an enumerable row set or prove any record whose unit is a named self-learning organization.",
+      "uncertainty": "Both strict count and exhaustiveness are unknown because the claimed total is publisher-reported and the public row set was not enumerable.",
       "exclusions": ["workflow use cases", "deployable agents and templates", "ROI records lacking a named organization-level learning loop", "uninspectable claimed records"],
       "audit": {"coverage":"scope_only","selection_method":"Homepage and example schema only; the claimed cases were not publicly enumerable.","audited_unit_count":0,"rows":[]},
       "retrieval_evidence": [{"retrieved_at":"2026-07-12T00:00:00Z","url":"https://caseledger.ai/","method":"Jina Reader public homepage","evidence":"Homepage displayed Verified Cases 4,217, Source Docs 62k+, and an example CL-4188 with sector, baseline, ROI and sources; browse-row enumeration was not present in the retrieved rendering."}]
@@ -81,6 +84,7 @@
       "raw_count_method": "publisher-stated lower-bound counter (928,650+) on directory page; stored numeric value is the advertised floor",
       "strict_like_for_like_organization_evidence_count": null,
       "strict_count_method": "Directory-scope audit only. Its unit is a vendor/customer story and no strict topical filter or row-level organizational-loop audit was available.",
+      "uncertainty": "The publisher claim is a raw-volume statement; the strict count is unknown without an enumerable topical filter and row audit.",
       "exclusions": ["generic B2B customer stories", "software purchasing evidence", "vendor success claims", "non-AI cases"],
       "audit": {"coverage":"scope_only","selection_method":"Directory scope only; no topical enumeration or deterministic sample was available.","audited_unit_count":0,"rows":[]},
       "retrieval_evidence": [{"retrieved_at":"2026-07-12T00:00:00Z","url":"https://www.casestudies.com/companies","method":"public search result and directory rendering","evidence":"Directory advertised 43,957 B2B companies and 928,650+ validated case studies/customer stories; scope is software purchasing rather than self-learning organizations."}]
@@ -99,6 +103,7 @@
       "raw_count_method": "publisher-stated lower bound ('over 100'); stored numeric value is the advertised floor",
       "strict_like_for_like_organization_evidence_count": null,
       "strict_count_method": "Directory-scope audit only. Employee/member training-system adoption is not evidence that an organization has a self-improving operating loop.",
+      "uncertainty": "The raw count is only a publisher floor and no row audit supports a strict organization count.",
       "exclusions": ["LMS customer success stories", "training delivery and administration", "vendor satisfaction evidence"],
       "audit": {"coverage":"scope_only","selection_method":"Directory scope only; no organization-loop row audit was performed.","audited_unit_count":0,"rows":[]},
       "retrieval_evidence": [{"retrieved_at":"2026-07-12T00:00:00Z","url":"https://talentedlearning.com/ads/basic-member-case-study-directory/","method":"public search result and directory rendering","evidence":"Page says it assembled and categorized over 100 case studies from learning-system vendors and exposes vendor-oriented filters."}]
@@ -117,6 +122,7 @@
       "raw_count_method": "GitHub recursive tree: 24 blobs minus .gitignore, policy/contribution/license, and README = 19 content files",
       "strict_like_for_like_organization_evidence_count": null,
       "strict_count_method": "Complete filename/tree audit. The repository packages patterns, analyses, blueprints and source notes rather than one independently countable record per evidenced organization.",
+      "uncertainty": "The file count is exact for the retrieved tree, but no numeric strict count is assigned because files are not normalized organization-case units.",
       "exclusions": ["general patterns", "blueprints", "analysis essays", "source notes not normalized into organization case records"],
       "audit": {"coverage":"scope_only","selection_method":"Complete repository tree/type audit established that organization cases are not its unit; individual files were therefore not treated as comparable audit units.","audited_unit_count":0,"rows":[]},
       "retrieval_evidence": [{"retrieved_at":"2026-07-12T00:00:00Z","url":"https://api.github.com/repos/jeremy9682/ai-native-company-research/git/trees/main?recursive=1","method":"GitHub public repository metadata and recursive tree API","evidence":"Repository default branch main had 24 blobs and was updated 2026-07-09T04:43:33Z; content paths comprise analyses, one blueprint, notes, patterns, and four source-note files."}]
@@ -135,6 +141,7 @@
       "raw_count_method": "publisher-displayed exact homepage counter; 1,602 practices and 4,528 cited sources were separate counters at retrieval",
       "strict_like_for_like_organization_evidence_count": 0,
       "strict_count_method": "Deterministic audit of the six companies in the homepage Recently Updated list at retrieval. Company pages document AI use, while none of the sampled entries established an operating organizational improvement loop under the strict definition.",
+      "uncertainty": "Zero applies only to the six-row deterministic sample; the remaining 272 company entries were not audited and may contain qualifying evidence.",
       "exclusions": ["AI adoption or automation without an improvement loop", "product features", "data analysis without evidence that results feed an organizational learning cycle", "unaudited companies outside the deterministic sample"],
       "audit": {
         "coverage": "sample",
@@ -168,6 +175,7 @@
       "raw_count_method": "enumerable directory result counter ('Showing 1 - 15 of 111 results')",
       "strict_like_for_like_organization_evidence_count": 0,
       "strict_count_method": "Deterministic first-five directory-order sample. The audited records describe AI solutions and decision-support tools, not evidence that a named organization's operating system learns through a documented loop.",
+      "uncertainty": "Zero applies only to the five-row prefix sample; the remaining 106 use cases were not audited.",
       "exclusions": ["AI products and services", "decision-support outputs without an organizational feedback cycle", "global platforms without a single named operating organization as the evidence unit", "106 unaudited use cases"],
       "audit": {
         "coverage": "sample",
@@ -197,6 +205,7 @@
       "raw_count_method": "Publisher-stated count in the dated report and landing page, cross-checked against all ten organization case headings in the 23-page public PDF.",
       "strict_like_for_like_organization_evidence_count": 10,
       "strict_count_method": "Complete report audit. Each of the ten named organization cases documents use of the Community of Solutions framework; the report defines its mutually reinforcing measurement, testing, learning, adaptation, and scaling cycle, and each row contains organization-specific evidence of at least one such loop.",
+      "uncertainty": "Low within this fixed report: all ten cases were audited, though inclusion still depends on interpretation of the documented framework against the strict unit definition.",
       "exclusions": ["The 24 SCALE communities listed as program participants but not presented as the report's ten audited organization cases", "individual partner organizations mentioned only as context", "unnamed schools and local program sites", "outcomes without a documented operating feedback, testing, measurement, or learning mechanism"],
       "audit": {
         "coverage": "complete",
@@ -234,6 +243,7 @@
       "raw_count_method": "complete deterministic count of the eight case-study cards on the public page",
       "strict_like_for_like_organization_evidence_count": 2,
       "strict_count_method": "Complete card-by-card audit. Included only unique named organizations whose card explicitly describes hoshin kanri strategy deployment or capability development as an operating improvement cycle; duplicate Logoplaste coverage counts once.",
+      "uncertainty": "Low for the eight-card snapshot; conservative exclusions may undercount cases whose downloadable detail contains stronger loop evidence than the public card.",
       "exclusions": ["workflow or outcome improvement without an explicit feedback/learning cycle", "anonymous restaurant case", "scholarship/internship reflection without an evidenced organization operating loop", "duplicate case study for the same organization"],
       "audit": {
         "coverage": "complete",
@@ -251,6 +261,148 @@
         ]
       },
       "retrieval_evidence": [{"retrieved_at":"2026-07-12","url":"https://www.lean.org/training-consulting-for-organizations/case-studies/","method":"public case-study page rendering","evidence":"The page exposed eight cards and stable download URLs; two unique named organizations met the conservative strict rule, five cards lacked sufficient named-loop evidence, and one duplicated Logoplaste."}]
+    },
+    {
+      "id": "moresteam-continuous-improvement-case-studies",
+      "name": "MoreSteam continuous-improvement case studies",
+      "url": "https://www.moresteam.com/resources/case-studies",
+      "scope": "Public resource index labeled as case studies, mixing named-organization Lean Six Sigma and operational-excellence cases with interviews, instructional articles, training stories, and one-off projects.",
+      "update_date": "2026-04-25",
+      "update_date_precision": "day",
+      "schema": ["content type", "title", "summary", "author", "publication date", "stable detail URL"],
+      "raw_count": 20,
+      "raw_count_relation": "exact",
+      "raw_count_unit": "case-study-labeled index cards",
+      "raw_count_method": "Complete deterministic count of the 20 cards exposed on the public case-studies index at retrieval; the newest card supplies the collection's observed update date.",
+      "strict_like_for_like_organization_evidence_count": 7,
+      "strict_count_method": "Complete card-by-card index audit, deepened on the strongest candidates' detail pages. Included only unique named organizations with explicit recurring measurement, feedback, experimentation, capability-building, or adaptation loops; one-off modeling projects, unnamed sites, training delivery, interviews, and general articles were excluded.",
+      "uncertainty": "Moderate: all 20 cards were decided, but detail-page depth was concentrated on plausible inclusions and borderline one-off versus recurring-loop judgments remain interpretive.",
+      "exclusions": ["general methods or interviews", "training delivery without an organization-level improvement loop", "unnamed organizations", "one-off process-modeling or restructuring projects without a recurring learning cycle", "country-level ecosystem commentary rather than a single operating organization"],
+      "audit": {
+        "coverage": "complete",
+        "selection_method": "All 20 cards in public index order on 2026-07-12; detail pages were inspected for candidate inclusions and ambiguous named-organization rows.",
+        "audited_unit_count": 20,
+        "rows": [
+          {"label":"Human-Powered Technology at the Center of Continuous Improvement at Veritext","url":"https://www.moresteam.com/resources/case-studies/veritext","decision":"include","organization":"Veritext Legal Solutions","reason":"The detail page documents a continuous NPS feedback system, Gemba observation, DMAIC measurement, frontline feedback, pilots, and changes guided by resulting data."},
+          {"label":"Greif's Success Scaling Lean Six Sigma with MoreSteam","url":"https://www.moresteam.com/resources/case-studies/greif","decision":"include","organization":"Greif","reason":"Greif piloted, measured and showcased early results, then adapted cohort training into continuous on-demand flow and scaled the learned model globally."},
+          {"label":"How Dartmouth Health Uses Process Modeling to Predict the Unpredictable","url":"https://www.moresteam.com/resources/case-studies/process-modeling-dartmouth-health","decision":"include","organization":"Dartmouth Health","reason":"Its operational-excellence team repeatedly simulates real-world variation, tests scenarios, and uses results to alter staffing and care-system decisions."},
+          {"label":"Aurorium’s TRACtion Success – From Spreadsheets to a Single Source of Truth","url":"https://www.moresteam.com/resources/case-studies/traction-replaces-excel-aurorium","decision":"include","organization":"Aurorium","reason":"Aurorium established a centralized improvement-project system for recurring visibility, reporting, prioritization, and review rather than a single isolated automation."},
+          {"label":"Process Modeling Produces Transformational Recipe for Success","url":"https://www.moresteam.com/resources/case-studies/pizza-process-challenges","decision":"exclude","reason":"A consultant's one-off optimization of an unnamed pizza maker does not satisfy the named-organization or recurring operating-loop requirements."},
+          {"label":"Process Modeling Fuels Operational Excellence in High-Stakes Industry","url":"https://www.moresteam.com/resources/case-studies/medtronic-process-playground","decision":"include","organization":"Medtronic","reason":"Medtronic used repeated simulation experiments to identify production variation, test countermeasures safely, and feed findings into operational decisions."},
+          {"label":"A Voyage of Continuous Improvement at Mercy Ships","url":"https://www.moresteam.com/resources/case-studies/mercy-ships","decision":"include","organization":"Mercy Ships","reason":"The case describes an organization-level continuous-improvement program that develops internal problem-solving capability and applies learned methods across processes."},
+          {"label":"The Impact of Process Modeling: Reducing Queue Times for COVID Testing","url":"https://www.moresteam.com/resources/case-studies/modeling-a-hospital-process","decision":"exclude","reason":"A bounded queue-modeling intervention at an unnamed hospital does not establish a recurring organization-level learning loop."},
+          {"label":"IISE-MoreSteam Pact Enables Blended Learning Pivot","url":"https://www.moresteam.com/resources/case-studies/iise-training-partner","decision":"exclude","reason":"A training-delivery partnership and blended-learning pivot is not evidence of IISE's operating system learning through a documented loop."},
+          {"label":"New Perspectives on the Seven Basic Tools of Quality","url":"https://www.moresteam.com/resources/case-studies/7-tools-of-quality-updated","decision":"exclude","reason":"A general instructional article, not an organization case."},
+          {"label":"An In-Depth Interview with Mike Carnell","url":"https://www.moresteam.com/resources/case-studies/interview-with-mike-carnell","decision":"exclude","reason":"An individual career interview, not a named-organization operating-loop case."},
+          {"label":"A Hot Spot for Operational Excellence","url":"https://www.moresteam.com/resources/case-studies/operational-excellence-costa-rica","decision":"exclude","reason":"Country-level training and innovation commentary does not define one named operating organization with a documented improvement loop."},
+          {"label":"Software to Help Your Organization Continue Moving Forward","url":"https://www.moresteam.com/resources/case-studies/engineroom-karina-interview","decision":"exclude","reason":"A product-oriented interview does not evidence a named customer's organizational learning loop."},
+          {"label":"Master Black Belt Uses Data to Help YMCA","url":"https://www.moresteam.com/resources/case-studies/nonprofit-using-lean-six-sigma","decision":"exclude","reason":"The card establishes a data-supported restructuring project at YMCA of Greater Cincinnati, but not a recurring feedback or learning cycle."},
+          {"label":"Exploring the Evolution of Continuous Improvement","url":"https://www.moresteam.com/resources/case-studies/continuous-improvement-evolution","decision":"exclude","reason":"General expert commentary across companies, not a normalized organization case."},
+          {"label":"Rapper Highlights the Fun Side of Lean Six Sigma","url":"https://www.moresteam.com/resources/case-studies/six-sigma-rap","decision":"exclude","reason":"An individual profile and educational artifact, not organization evidence."},
+          {"label":"Creating the path for a Lean IT transformation","url":"https://www.moresteam.com/resources/case-studies/path-for-lean-it-transformation","decision":"exclude","reason":"General course and transformation guidance without a named audited organization."},
+          {"label":"Blended Learning Keeps Classroom Productive","url":"https://www.moresteam.com/resources/case-studies/universities-using-blended-learning","decision":"exclude","reason":"Remote instructional delivery examples do not establish an organization-level operating improvement loop."},
+          {"label":"Governing with a Lean State of Mind","url":"https://www.moresteam.com/resources/case-studies/arizona-management-system","decision":"include","organization":"State of Arizona","reason":"The Arizona Management System institutionalized recurring performance measurement, problem solving, review, and adaptation across state agencies."},
+          {"label":"'Fresh Eyes' Fuel Gains for Habitat for Humanity","url":"https://www.moresteam.com/resources/case-studies/habitat-for-humanity","decision":"exclude","reason":"A student-team partnership and bounded project at Habitat for Humanity MidOhio does not by itself prove a recurring organizational learning loop."}
+        ]
+      },
+      "retrieval_evidence": [
+        {"retrieved_at":"2026-07-12","url":"https://www.moresteam.com/resources/case-studies","method":"Complete public index rendering and stable-link enumeration","evidence":"The index exposed 20 case-study-labeled cards with titles, summaries, dates, authors and stable detail URLs; cards range from named continuous-improvement systems to general articles and interviews."},
+        {"retrieved_at":"2026-07-12","url":"https://www.moresteam.com/resources/case-studies/veritext","method":"Public detail-page audit","evidence":"Veritext's case documents continuous NPS collection, Gemba observation, DMAIC, pilots, staff/client feedback, measured changes, and repeated improvement projects."},
+        {"retrieved_at":"2026-07-12","url":"https://www.moresteam.com/resources/case-studies/greif","method":"Public detail-page audit","evidence":"Greif's case documents pilot-first deployment, early-result review, demand-led scaling, and adaptation from cohorts to a continuous on-demand global program."}
+      ]
+    },
+    {
+      "id": "less-case-studies-showcase",
+      "name": "LeSS case studies showcase",
+      "url": "https://less.works/case-studies/showcase",
+      "scope": "Public full-case-study showcase for organizations adopting Large-Scale Scrum; a separate five-item section explicitly lacking full case studies is outside the measured scope.",
+      "update_date": null,
+      "update_date_precision": "unknown",
+      "schema": ["industry", "case-study title", "summary", "full or mini designation", "stable detail URL"],
+      "raw_count": 34,
+      "raw_count_relation": "exact",
+      "raw_count_unit": "full case-study cards",
+      "raw_count_method": "Deterministic count of the 34 cards between the public page's LeSS Case Studies heading and its separate LeSS Adoptions without a full case study heading.",
+      "strict_like_for_like_organization_evidence_count": 3,
+      "strict_count_method": "Reproducible first-five-card sample audit. Three unique named organizations have detail-page evidence of recurring feedback, experimentation, retrospection, or learning loops; one pseudonymous organization and one card without sufficiently explicit loop evidence in this audit were excluded. This is a sample result, not a whole-directory count.",
+      "uncertainty": "High for the collection total: three is only the qualifying count in a five-card prefix sample, and the other 29 full cases include pseudonyms, duplicate organizations, and unaudited candidates.",
+      "exclusions": ["five adoption entries explicitly listed outside the full-case-study section", "pseudonymous organizations", "cards not deep-audited beyond the reproducible sample", "adoption or transformation descriptions without explicit operating-loop evidence"],
+      "audit": {
+        "coverage": "sample",
+        "selection_method": "First five full case-study cards in public showcase order on 2026-07-12; each stable detail page was inspected. The deterministic prefix avoids favorable-case selection.",
+        "audited_unit_count": 5,
+        "rows": [
+          {"label":"Agfa Healthcare","url":"https://less.works/case-studies/agfa-healthcare","decision":"include","organization":"Agfa Healthcare","reason":"The detail page documents two-week team retrospectives, cross-team retrospectives feeding a curated organizational impediment list, quarterly leadership evaluation and action, and continuously revised communities-of-practice guidance."},
+          {"label":"Alcatel Lucent","url":"https://less.works/case-studies/alcatel-lucent","decision":"include","organization":"Alcatel-Lucent","reason":"The detail page describes an exploratory iterative system designed to obtain early market feedback, increase delivery transparency, and help teams and management learn new operating practices."},
+          {"label":"Antarctica Investment Bank","url":"https://less.works/case-studies/antarctica-investment-bank","decision":"exclude","reason":"The detail page explicitly identifies Antarctica Investment Bank as a pseudonym and states that names were changed, so it fails the unique named-organization rule even though the operating-loop content is relevant."},
+          {"label":"BASE Company","url":"https://less.works/case-studies/base-company","decision":"exclude","reason":"The audited public evidence establishes a named transformation and feature-team adoption, but this conservative sample review did not establish a sufficiently explicit recurring organization-level learning loop."},
+          {"label":"BMW Group - Unified Sales Platform","url":"https://less.works/case-studies/bmw-group","decision":"include","organization":"BMW Group","reason":"The detail page documents early and continuous product and organizational feedback, sprint experiments, knowledge-gap measurement and countermeasures, automated integration feedback, demonstrations, and backlog adaptation from customer feedback."}
+        ]
+      },
+      "retrieval_evidence": [
+        {"retrieved_at":"2026-07-12","url":"https://less.works/case-studies/showcase","method":"Complete public showcase section enumeration plus deterministic prefix selection","evidence":"The page exposed 34 stable full-case-study cards, followed by a separately labeled five-entry section for adoptions without a full case study; the first five full cases were selected for row audit."},
+        {"retrieved_at":"2026-07-12","url":"https://less.works/case-studies/agfa-healthcare","method":"Public detail-page audit","evidence":"Agfa's case explicitly documents recurring team and cross-team retrospectives, a curated organizational impediment list, quarterly leadership review/action, feedback, and knowledge transfer."},
+        {"retrieved_at":"2026-07-12","url":"https://less.works/case-studies/bmw-group","method":"Public detail-page audit","evidence":"BMW's case explicitly documents experimentation, early and continuous feedback, knowledge measurement, continuous integration signals, customer review, and backlog adaptation."}
+      ]
+    },
+    {
+      "id": "ahrq-lean-implementation-case-studies",
+      "name": "AHRQ Improving Care Delivery Through Lean implementation cases",
+      "url": "https://www.ahrq.gov/practiceimprovement/systemdesign/leancasestudies/index.html",
+      "scope": "Government-published contract report with six Lean implementation cases drawn from five health-care organizations, including two cases from the same health system.",
+      "update_date": "2014-12-31",
+      "update_date_precision": "year",
+      "schema": ["case number", "organization alias", "organizational background", "Lean implementation process", "monitoring and sustainment", "outcomes", "stable section URL"],
+      "raw_count": 6,
+      "raw_count_relation": "exact",
+      "raw_count_unit": "implementation case studies",
+      "raw_count_method": "Publisher-stated six cases and complete count of the six numbered case-study sections in the public report table of contents.",
+      "strict_like_for_like_organization_evidence_count": 0,
+      "strict_count_method": "Complete six-case audit. The report's Lakeview, Central, Grand, Suntown, Heights, and Horizon labels do not publicly identify a real named organization; Horizon is additionally part of Lakeview. Therefore none satisfies the unique named-organization requirement despite strong improvement-loop evidence.",
+      "uncertainty": "Low under the public-identity rule: all six cases were audited, but the zero reflects unavailable real identities rather than absence of organizational learning loops.",
+      "exclusions": ["organization aliases or non-identifying labels", "duplicate case within the same aliased health system", "organizational learning evidence that cannot be attributed to a publicly named organization"],
+      "audit": {
+        "coverage": "complete",
+        "selection_method": "All six numbered cases in the public report table-of-contents order on 2026-07-12.",
+        "audited_unit_count": 6,
+        "rows": [
+          {"label":"Case 1. Lakeview Healthcare","url":"https://www.ahrq.gov/practiceimprovement/systemdesign/leancasestudies/lean1.html","decision":"exclude","reason":"Lakeview Healthcare is a generic non-identifying label rather than a verifiable public organization identity, so the case cannot satisfy the strict named-organization unit."},
+          {"label":"Case 2. Central Hospital","url":"https://www.ahrq.gov/practiceimprovement/systemdesign/leancasestudies/lean2.html","decision":"exclude","reason":"Central Hospital is a generic non-identifying label rather than a verifiable public organization identity, so the case cannot satisfy the strict named-organization unit."},
+          {"label":"Case 3. Grand Hospital Center","url":"https://www.ahrq.gov/practiceimprovement/systemdesign/leancasestudies/lean3.html","decision":"exclude","reason":"Grand Hospital Center is a generic non-identifying label rather than a verifiable public organization identity, so the case cannot satisfy the strict named-organization unit."},
+          {"label":"Case 4. Suntown Hospital","url":"https://www.ahrq.gov/practiceimprovement/systemdesign/leancasestudies/lean4.html","decision":"exclude","reason":"Suntown Hospital is a generic non-identifying label rather than a verifiable public organization identity, so the case cannot satisfy the strict named-organization unit."},
+          {"label":"Case 5. Heights Hospital","url":"https://www.ahrq.gov/practiceimprovement/systemdesign/leancasestudies/lean5.html","decision":"exclude","reason":"Heights Hospital is a generic non-identifying label rather than a verifiable public organization identity, so the case cannot satisfy the strict named-organization unit."},
+          {"label":"Case 6. Horizon Hospital—Lakeview Healthcare","url":"https://www.ahrq.gov/practiceimprovement/systemdesign/leancasestudies/lean6.html","decision":"exclude","reason":"Horizon Hospital and Lakeview Healthcare are non-identifying labels, and the publisher states that this is a second case from the Lakeview system rather than a sixth unique organization."}
+        ]
+      },
+      "retrieval_evidence": [
+        {"retrieved_at":"2026-07-12","url":"https://www.ahrq.gov/practiceimprovement/systemdesign/leancasestudies/index.html","method":"Complete public report table-of-contents and case-section audit","evidence":"AHRQ states that the report contains six case studies from five organizations; the public contents enumerate all six and expose sections on implementation, monitoring/control/sustainment, dissemination, outcomes, and learning-relevant processes. The page says content was last reviewed in November 2014; the artifact records 2014 with year precision rather than inventing a day."}
+      ]
+    },
+    {
+      "id": "nist-baldrige-award-recipients",
+      "name": "NIST Baldrige Award recipients listing",
+      "url": "https://www.nist.gov/baldrige/award-recipients",
+      "scope": "Public year-by-year listing of Baldrige award-recipient entries from 1988 through 2025, with sector, recipient name, and where available profile and award-application-summary links.",
+      "update_date": "2025-12-31",
+      "update_date_precision": "year",
+      "schema": ["award year", "sector", "recipient name", "profile where available", "award application summary where available", "contact where available"],
+      "raw_count": 144,
+      "raw_count_relation": "exact",
+      "raw_count_unit": "year-recipient entries",
+      "raw_count_method": "Deterministic count of the 144 recipient-name headings beneath award-year sections in the rendered public listing, excluding the page's unrelated HEADQUARTERS footer heading. Repeat winners remain separate raw year-recipient entries.",
+      "strict_like_for_like_organization_evidence_count": null,
+      "strict_count_method": "Withheld. The directory is a highly plausible comparator, but 144 year-recipient entries include repeat organizations and heterogeneous profile availability. No complete or reproducible row sample was added in this lane, so a numeric like-for-like organization count would be unsupported.",
+      "uncertainty": "High: raw year-recipient entries are exact for the rendered snapshot, but unique organizations, repeat winners, category recognition, profile availability, and strict qualification remain unresolved.",
+      "exclusions": ["page footer and navigation headings", "unresolved duplicate award years for the same organization", "recipient entries not individually audited for a qualifying operating loop", "category-recognition ambiguity where present"],
+      "audit": {
+        "coverage": "scope_only",
+        "selection_method": "Public scope and deterministic raw-entry enumeration only; strict row audit explicitly deferred.",
+        "audited_unit_count": 0,
+        "rows": []
+      },
+      "retrieval_evidence": [
+        {"retrieved_at":"2026-07-12","url":"https://www.nist.gov/baldrige/award-recipients","method":"Complete rendered-heading enumeration and page-structure audit","evidence":"The NIST page describes profiles as recipient success stories and application summaries as condensed applications; 144 recipient headings were counted across award-year sections from 1988 through 2025 after excluding the unrelated HEADQUARTERS footer heading."}
+      ]
     }
   ]
 }
