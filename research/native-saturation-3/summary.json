@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-07-12T16:40:00Z",
+  "scope": ["x", "reddit", "substack", "youtube"],
+  "round_count": 12,
+  "path_attempt_count": 18,
+  "candidate_count": 25,
+  "accepted": 0,
+  "rejected": 18,
+  "duplicates": 7,
+  "blocked": 0,
+  "saturation_eligible_rounds": 5,
+  "eligible_rounds_by_channel": {"x": 0, "reddit": 0, "substack": 3, "youtube": 2},
+  "saturated_channels": [],
+  "conclusion": "No channel saturation claim. Three bounded, materially distinct Substack publisher-feed rounds and two materially distinct native YouTube searches were fully dispositioned and yielded zero net-new accepted sources. X and Reddit remained access-blocked, one functioning YouTube query returned no candidates, and no evidence supports channel-wide saturation."
+}
