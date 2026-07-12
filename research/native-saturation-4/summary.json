@@ -1,0 +1,17 @@
+{
+  "generated_at":"2026-07-12T18:05:00Z",
+  "scope":["x","reddit","substack","youtube"],
+  "lane_files":{"x":"x.jsonl","reddit":"reddit.jsonl","substack":"substack.jsonl","youtube":"youtube.jsonl"},
+  "rounds_per_lane":{"x":3,"reddit":3,"substack":3,"youtube":3},
+  "candidate_count":54,
+  "accepted":0,
+  "rejected":48,
+  "duplicate":6,
+  "blocked":0,
+  "low_yield_rounds":12,
+  "saturation_eligible_rounds":12,
+  "eligible_rounds_by_lane":{"x":3,"reddit":3,"substack":3,"youtube":3},
+  "saturated_lanes":["x","reddit","substack","youtube"],
+  "conclusion":"Each lane completed three consecutive bounded, materially distinct native/public rounds with complete candidate-level review and zero net-new accepted uniques. Blocked capability attempts were retained only as path evidence and were not counted. All four lanes meet the documented <5% diminishing-return rule for this wave and should reopen when new entities, citations, or access paths appear.",
+  "acceptance_boundary":"Only named-organization implementation evidence with an auditable learning or improvement mechanism is accepted. Generic tooling, tutorials, product announcements, anonymous anecdotes, and uncorroborated vendor claims do not count."
+}

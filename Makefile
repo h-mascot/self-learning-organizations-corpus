@@ -11,6 +11,7 @@ validate: audit
 	python3 scripts/validate_saturation.py
 	python3 scripts/validate_web_media_followup.py
 	python3 scripts/validate_native_saturation_3.py
+	python3 scripts/validate_native_saturation_4.py
 
 generate:
 	python3 tools/corpus.py generate
