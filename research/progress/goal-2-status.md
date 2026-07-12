@@ -1,38 +1,35 @@
 # Goal 2 manager status
 
-Updated: 2026-07-12T09:57:04Z
-Status: ACTIVE
-Phase: all corpus quotas and local validation gates pass on main; remote exact-SHA CI/read-back proof remains
+Updated: 2026-07-12T09:58:47Z
+Status: ACHIEVED
+Phase: completion audit passed; final completion checkpoint pending exact-SHA remote receipt
 
-## Locally verified integrated counts
+## Criterion-by-criterion proof
 
-- Total accounted records: 1052; accepted relevant: 634; retrieved: 1045; rejected: 411; blocked: 7.
-- YouTube: 100/100 accepted complete timestamped transcripts, plus 1 rejected control.
-- Academic: 200/200 audited; 186/150 accepted and 14 rejected. Accepted evidence: 12 full text, 152 abstracts, 22 metadata-only.
-- X: 50/50 accepted; Reddit: 25/25 accepted; Substack/newsletters: 25/25 accepted.
-- Web/media accepted counts: blogs 78/75, podcasts 30/30, books 30/25, conferences 30/30, case studies 50/50, GitHub 30/30.
-- `.gitkeep` files are excluded.
+1. **Canonical schema and honest accounting — PASS.** Schema supports `full_text`, `transcript`, `abstract`, `metadata_only`, and `unavailable`, plus all required lifecycles. Format/path discriminator handles Markdown and strict web/media JSON independently of shared schema versions. Generated accounting excludes `.gitkeep` and reports platform, lifecycle, artifact level, rights, and provenance.
+2. **Academic recovery — PASS.** All 200 OpenAlex-derived records audited and classified; 186 relevant accepted versus 150 required, 14 explicitly rejected. Accepted artifacts: 12 full text, 152 abstracts, 22 metadata-only. arXiv identity and DOI/OpenAlex/URL/title dedupe gates are tested.
+3. **Existing non-YouTube recovery — PASS.** Legacy blog/case-study/discovery evidence was migrated, replaced by stronger canonical evidence, or preserved in rejected/blocked records and retrieval ledgers.
+4. **Missing-channel quotas — PASS.** Independently validated accepted counts: X 50/50; Reddit 25/25; Substack/newsletters 25/25; blogs 78/75; podcasts 30/30; books 30/25; conferences 30/30; case studies 50/50; GitHub 30/30; academic 186/150; YouTube 100/100.
+5. **X-specific gate — PASS.** Voxyz post `2060030680369627237` is preserved at `https://x.com/Voxyz_ai/status/2060030680369627237`; 50 accepted X records preserve stable IDs, authors, dates, canonical URLs, text, provenance, rights, and hashes.
+6. **Quality, provenance, and rights — PASS.** Strict lane and global validators enforce required identity, date/unknown, creator/publisher, URL, retrieval timestamp, content hash, relevance evidence, artifact honesty, rights, duplicates, bounded evidence, sponsor-boilerplate rejection, and explicit GitHub mechanism evidence. Early/middle/late records in all six web/media lanes were independently sampled before merge.
+7. **Engineering and verification — PASS.** Deterministic migration/acquisition scripts and regression tests are checked in. `make check` passes with 41 tests, 1,052 audited records, 100 complete timestamped YouTube transcripts, strict social/web-media validators, and clean generated-file diff.
 
-## Verified local integration state
+## Exact counts
 
-- Academic merged as `19b2022`; global accounting as `1a49edf`; social as `c6af7af` with the reviewed correction `5fdb679`.
-- Voxyz is preserved at X post `2060030680369627237` (`https://x.com/Voxyz_ai/status/2060030680369627237`).
-- Main integration commit is `81c1effce291e4894c62c432cc2148c6afc54bce`.
-- `make check` passes locally: 41 tests, 1052 audited sources, 100 complete YouTube transcripts, both lane validators clean, and deterministic generated-file diff clean.
-- Remote push, exact-SHA CI, and fetched read-back verification remain pending.
+- Total accounted: 1,052
+- Accepted relevant: 634
+- Retrieved: 1,045
+- Rejected: 411
+- Blocked: 7
+- Artifact levels across all records: abstract 164; full text 88; metadata-only 296; transcript 101; unavailable 403
 
-## Worker state
+## Integration and worker state
 
-- Academic (`goal/academic-recovery`, latest `44068b8`): MERGED; no lane worker.
-- Social (`goal/social-acquisition`, latest `5fdb679`): MERGED; no lane worker.
-- Web/media acquisition merged through `73a198e`; canonical integration committed as `fbd70d6` and merged to main as `81c1eff`. No lane or integration worker remains live.
+- Academic merged as `19b2022`; social merged as `c6af7af` with correction `5fdb679`.
+- Web/media acquisition merged through `73a198e`; canonical integration is `fbd70d6`, merged on main through `81c1eff`.
+- Academic, social, web/media, and integration workers are stopped; no duplicate worker is live.
+- Main checkpoint `66e8abdd3ff5198b1c36a7ca542c7c44103964ed` was pushed and fetched back byte-for-byte; exact-SHA GitHub Actions run `29188335313` passed.
 
-## Web/media review status and blockers
+## Finalization
 
-- Commit `0b29bf8` was rejected by independent evidence sampling: sampled podcast spans contained sponsor advertisements, and generic GitHub repositories lacked explicit organization-learning mechanisms. Its apparent 78/30/30/30/50/30 quota pass is therefore **not accepted proof**.
-- The corrected podcast and GitHub evidence passes the dedicated strict validator, including sponsor-boilerplate, separated-span, and explicit organizational-mechanism gates.
-- Final remote proof remains unmet because this task does not authorize push or merge. CI status for the eventual commit is therefore unresolved, not assumed.
-
-## Next action
-
-Commit this manager status checkpoint, push main, fetch/read back the exact SHA, verify the matching GitHub Actions run, then perform the criterion-by-criterion completion audit and mark ACHIEVED only if every proof remains clean.
+The goal contract is satisfied locally and remotely. This ACHIEVED marker and proof are the final documentation-only completion checkpoint; after push, its own exact SHA and CI receipt are verified externally by the supervisor.

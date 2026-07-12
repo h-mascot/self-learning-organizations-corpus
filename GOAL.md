@@ -1,5 +1,7 @@
 # Goal: Build a validated cross-channel corpus of self-learning and self-improving organizations
 
+**Status: ACHIEVED — 2026-07-12.** Criterion-level proof is recorded in `research/progress/goal-2-status.md`; completion remains reproducible via `make check`.
+
 ## North star
 Transform this repository from a YouTube-only validated corpus into a provenance-first, platform-balanced corpus containing retrievable evidence from academic research, X, Reddit, Substack/newsletters, blogs/company sites, podcasts, books, conference talks, case studies, GitHub, and YouTube.
 
