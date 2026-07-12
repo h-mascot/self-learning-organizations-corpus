@@ -1,41 +1,39 @@
 # Goal 2 manager status
 
-Updated: 2026-07-12T08:35:12Z
+Updated: 2026-07-12T08:49:52Z
 Status: ACTIVE
-Phase: academic, global canonical accounting, and validated social lanes merged; web/media acquisition active
+Phase: academic, canonical accounting, and social lanes merged; web/media lane under corrective audit
 
 ## Independently verified counts on main
 
 - Total accounted records: 406; accepted relevant: 386; retrieved: 405; rejected: 15; blocked: 1.
-- YouTube: 100 accepted transcripts plus 1 rejected control.
-- Academic: 200/200 audited; 186 accepted, 14 rejected; accepted evidence includes 12 full text, 152 abstracts, and 22 metadata-only records.
-- X: 50 accepted full-post/article records (quota 50).
-- Reddit: 25 accepted full self-post records (quota 25).
-- Substack/newsletters: 25 accepted metadata-only records with bounded direct-article evidence (quota 25).
-- Current canonical counts still below quota: blogs 0 accepted (3 legacy evidence records, 1 blocked); podcasts 0; books 0; conferences 0; case studies 0 (2 retrieved legacy evidence records); GitHub 0.
-- `.gitkeep` files remain excluded.
+- YouTube: 100/100 accepted complete timestamped transcripts, plus 1 rejected control.
+- Academic: 200/200 audited; 186/150 accepted and 14 rejected. Accepted evidence: 12 full text, 152 abstracts, 22 metadata-only.
+- X: 50/50 accepted; Reddit: 25/25 accepted; Substack/newsletters: 25/25 accepted.
+- Canonical main remains below quota: blogs 0/75 accepted (3 legacy evidence records, 1 blocked); podcasts 0/30; books 0/25; conferences 0/30; case studies 0/50 (2 legacy retrieved evidence records); GitHub 0/30.
+- `.gitkeep` files are excluded.
 
-## Verified merges and tests
+## Verified integration and remote state
 
-- Academic lane merged previously as `19b2022`; its deterministic validator proved 200 audited / 186 accepted / 14 rejected.
-- Global accounting commit `45c13ee` independently passed `make check` with 18 tests and 306 records before merge; merged as `1a49edf`.
-- Social commits `ebd4614` and `5fdb679` were independently reviewed. `python3 scripts/validate_social_lane.py` returned exactly `{'x': 50, 'reddit': 25, 'substack': 25}`; 17 branch tests passed; early/middle/late source samples confirmed canonical resource URLs, exact IDs/authors/dates, preserved bodies or bounded evidence, hashes, and honest rights labels. Merged as `c6af7af`.
-- Manager repaired the global parser after merge so schema-v1 social records normalize to canonical lifecycle/artifact accounting instead of being misclassified as YouTube. Global generation now validates 406 sources and the combined suite passes 25 tests; generated README/statistics report the exact counts above.
-- Voxyz history requirement is satisfied by X record `2060030680369627237` at `https://x.com/Voxyz_ai/status/2060030680369627237`.
+- Academic merged as `19b2022`; global accounting as `1a49edf`; social as `c6af7af` with the reviewed correction `5fdb679`.
+- Voxyz is preserved at X post `2060030680369627237` (`https://x.com/Voxyz_ai/status/2060030680369627237`).
+- `make check` passes on main: 25 tests, 406 audited sources, 100 complete YouTube transcripts, deterministic generated-file diff clean.
+- Local main and fetched `origin/main` both equal `185a7389d16051052625389eaa84807ec3357291`.
+- Exact-SHA GitHub Actions run `29186127349` (`Corpus validation`) completed successfully.
 
-## Live workers
+## Worker state
 
-- Academic: COMPLETE and merged; no process running.
-- Social: COMPLETE and merged; no process running.
-- Global canonical integration: COMPLETE and merged; no process running.
-- Web/media: LIVE, PID 960449 (child 960539, code-mode host 960918), branch `goal/web-media-acquisition`, still based at `75e3dbe` with uncommitted acquisition artifacts. A manager-side execution of its current validator reports accepted candidates: blogs 5/75, podcasts 32/30, books 30/25, conferences 21/30, case studies 10/50, and GitHub 35/30. Files continue to change and CPU time continues to advance, so the worker is healthy and no duplicate was launched.
+- Academic (`goal/academic-recovery`, latest `44068b8`): MERGED; no lane worker.
+- Social (`goal/social-acquisition`, latest `5fdb679`): MERGED; no lane worker.
+- Web/media (`goal/web-media-acquisition`, latest `d94c6f0`): LIVE corrective audit, parent PID `1009052`, Codex PID `1009088`, host PID `1009276`. CPU is advancing; worktree is currently clean because the correction worker has only just started. No duplicate launched.
 
-## Blockers and unmet gates
+## Web/media review status and blockers
 
-- Blogs/company, conferences, and case studies are currently below quota by 70, 9, and 40 accepted candidates respectively. All six web/media lanes remain unproven until the active worker commits and independent validation/sampling passes.
-- Local `make check` passes all 25 tests and validates 406 records. Manager commit `2b6110b` added the missing pinned PyYAML CI dependency; remote main readback matched exactly and GitHub Actions run `29186103865` passed.
-- Goal remains ACTIVE; achievement is forbidden while six channel quotas and final remote completion proof are absent.
+- The branch validator currently reports candidates: blogs 77/75, podcasts 32/30, books 30/25, conferences 34/30, case studies 51/50, GitHub 35/30. These are **not independently accepted counts** and are not merged.
+- Independent review rejected the lane's completion claim pending correction: generic LeadDev articles lack conference proof; many GitHub records are generic agent-memory repositories rather than organizational mechanisms; podcast records label bounded excerpts as transcripts; books can have empty substantive evidence; blog/case-study excerpts may contain boilerplate; and random-hash filenames violate human-readable naming requirements.
+- The active worker owns only those corrections and unmet proof gates. It must strengthen validators, reject/replace weak records, preserve evidence, rerun tests, and commit before manager sampling and integration.
+- Goal remains ACTIVE. Six web/media quotas, combined-tree validation, final generated accounting, and final remote proof remain unmet.
 
 ## Next action
 
-Commit and push the CI dependency repair, verify remote readback and GitHub Actions, then independently validate and sample the first web/media commit. Merge only rights-honest records, regenerate global views, and dispatch isolated follow-up workers for post-validation shortfalls, especially blogs and case studies.
+Allow the healthy corrective worker to finish without duplication. Then independently review its diff, run the lane validator/tests, sample early/middle/late records in all six channels for source identity, relevance, artifact honesty, rights, and hashes, and merge only the proven subset. Regenerate canonical views, run `make check`, push/read back exact SHA, verify CI, and dispatch isolated quota-specific follow-ups for any real post-review shortfalls.
