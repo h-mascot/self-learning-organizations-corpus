@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/AVIDS2/memorix",
+  "content_sha256": "71387a8f3553887be9a0940164abd87e23403ea9016a0808a253f17d85440de7",
+  "creator": "AVIDS2",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "Open-source cross-agent memory layer for coding agents via MCP. Compatible with Claude Code, Codex, Cursor, Windsurf, Gemini CLI, Antigravity, OpenClaw, Hermes Agent, Oh-my-Pi, Pi, Copilot, Kiro, OpenCode, and Trae. <p align=\"center\"> <img src=\"https://raw.githubusercontent.com/AVIDS2/memorix/main/assets/readme-hero.svg\" alt=\"Memorix\" width=\"720\"> </p> <h1 align=\"center\">Memorix</h1> <p align=\"center\"> <strong>Local-first shared memory layer for AI coding agents.</strong><br> One project memory system for Claude Code, Codex, Cursor, Windsurf, Copilot, Gemini CLI, OpenCode, OpenClaw, Hermes Agent, Oh-my-Pi, Pi,"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository AVIDS2/memorix; discovered by github-repos-01.",
+  "published_date": "2026-02-14",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-01"
+  ],
+  "rejection_reason": "README/description did not establish a substantive learning or evaluation mechanism.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "AVIDS2/memorix",
+    "last_push": "2026-07-08T15:44:25Z",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "url": "https://api.github.com/licenses/apache-2.0"
+    },
+    "stars_at_retrieval": 538
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:38:44Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'apache-2.0', 'name': 'Apache License 2.0', 'url': 'https://api.github.com/licenses/apache-2.0'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-avids2-memorix",
+  "status": "rejected",
+  "title": "AVIDS2/memorix"
+}

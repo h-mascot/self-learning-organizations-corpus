@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://sylvain.artois.io/tech/blameless-postmortem-en",
+  "content_sha256": "03049f465af44e7384f6f594d2110dfd939357563c4e1344a016e4e0291e24a8",
+  "creator": "sylvain.artois.io",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "public primary page",
+      "text": "Title: Blameless post-mortems: what I owe to John Allspaw and the Etsy engineering team URL Source: https://sylvain.artois.io/tech/blameless-postmortem-en Published Time: 2026-04-02T00:00:00.000Z Markdown Content: Wednesday, April 1st 2026, 8:35 AM, Meaux train station. I had scheduled a LinkedIn post at 8:30. I need to paste a link in the comments. I look for the URL on my tech blog. Unreachable. ## The incident 8:37 AM. The connection is unreliable at the station, so I do what everyone does: I type “test” into DuckDuckGo. Results show up. The internet works. My site does not. 8:38 AM. I check my other services."
+    }
+  ],
+  "platform": "blogs",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-blogs.",
+  "published_date": null,
+  "publisher": "sylvain.artois.io",
+  "query_ids": [
+    "citation-catalog-blogs"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Primary source evidence describes a learning, evaluation, feedback, adaptation, or agentic operating mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:23Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "article",
+  "stable_id": "blogs-0b626bda3b686a6a",
+  "status": "accepted",
+  "title": "Blameless post-mortems: what I owe to John Allspaw and the Etsy engineering team"
+}

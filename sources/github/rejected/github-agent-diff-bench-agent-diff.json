@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/agent-diff-bench/agent-diff",
+  "content_sha256": "17cbc310a92b7dca9ec62412a4d980bb0135a9ee3993f4cf8e1772f2eae3008f",
+  "creator": "agent-diff-bench",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "Interactive Sandboxes for AI Agent Evaluations & Reinforcement Learning on 3rd party APIs (Slack, Linear, Box, gCalendar) # Agent Diff **Interactive environments for evaluating AI agents & RL training on replicas of 3rd party APIs like Linear or Slack.** Run it locally (or deploy it). Agents call sandboxed replicas of APIs that behave like the real ones, and you get deterministic diffs of every state change — no external services, no side effects, no rate limits. <p align=\"center\"> <a href=\"https://arxiv.org/abs/2602.11224\"><img src=\"https://img.shields.io/badge/arXiv-2602.11224-b31b1b.svg\" alt=\"arXiv\"></a> <a"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository agent-diff-bench/agent-diff; discovered by github-repos-03.",
+  "published_date": "2025-08-23",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-03"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "agent-diff-bench/agent-diff",
+    "last_push": "2026-07-02T03:24:07Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stars_at_retrieval": 35
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:30Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'mit', 'name': 'MIT License', 'url': 'https://api.github.com/licenses/mit'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-agent-diff-bench-agent-diff",
+  "status": "rejected",
+  "title": "agent-diff-bench/agent-diff"
+}

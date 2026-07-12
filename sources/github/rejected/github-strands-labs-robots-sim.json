@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/strands-labs/robots-sim",
+  "content_sha256": "a888260926340c2ca0a90698c8d566b585bea450a1f35ef4d6a73b6d185d655b",
+  "creator": "strands-labs",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "Simulated environments for robot agent evaluation and reinforcement learning. <div align=\"center\"> <h1>Strands Robots Sim</h1> <h2>The GPU-accelerated NVIDIA Isaac Sim backend for <a href=\"https://github.com/strands-labs/robots\"><code>strands-robots</code></a></h2> <div align=\"center\"> <a href=\"https://pypi.org/project/strands-robots-sim/\"><img alt=\"PyPI Version\" src=\"https://img.shields.io/pypi/v/strands-robots-sim\"/></a> <a href=\"https://github.com/strands-labs/robots-sim\"><img alt=\"GitHub stars\" src=\"https://img.shields.io/github/stars/strands-labs/robots-sim\"/></a> <a"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository strands-labs/robots-sim; discovered by github-repos-03.",
+  "published_date": "2026-02-19",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-03"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "strands-labs/robots-sim",
+    "last_push": "2026-07-07T02:08:25Z",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "url": "https://api.github.com/licenses/apache-2.0"
+    },
+    "stars_at_retrieval": 34
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:31Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'apache-2.0', 'name': 'Apache License 2.0', 'url': 'https://api.github.com/licenses/apache-2.0'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-strands-labs-robots-sim",
+  "status": "rejected",
+  "title": "strands-labs/robots-sim"
+}

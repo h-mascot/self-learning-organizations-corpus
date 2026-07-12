@@ -1,0 +1,44 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://github.com/volcengine/OpenViking",
+  "content_sha256": "b9e2b2e3bc98958840d41c751cc1fdfce8e7ee5e07a845dc509b946594d23feb",
+  "creator": "volcengine",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills. <div align=\"center\"> <a href=\"https://openviking.ai/\" target=\"_blank\"> <picture> <img alt=\"OpenViking\" src=\"docs/images/ov-logo.png\" width=\"200px\" height=\"auto\"> </picture> </a> ### OpenViking: The Context Database for AI Agents English / [中文](README_CN.md) / [日本語](README_JA.md) <a href=\"https://www.openviking.ai\">Website</a> · <a href=\"https://openviking.ai/studio\">Live Demo</a> · <a href=\"https://github.com/volcengine/OpenViking\">GitHub</a> · <a href=\"https://github.com/volcengine/OpenViking/issues\">Issues</a> · <a"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository volcengine/OpenViking; discovered by github-repos-01.",
+  "published_date": "2026-01-05",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-01"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Repository supplies infrastructure for the agent memory learning/evaluation mechanism."
+  ],
+  "repository": {
+    "full_name": "volcengine/OpenViking",
+    "last_push": "2026-07-12T08:26:33Z",
+    "license": {
+      "key": "agpl-3.0",
+      "name": "GNU Affero General Public License v3.0",
+      "url": "https://api.github.com/licenses/agpl-3.0"
+    },
+    "stars_at_retrieval": 26603
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:38:34Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'agpl-3.0', 'name': 'GNU Affero General Public License v3.0', 'url': 'https://api.github.com/licenses/agpl-3.0'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-volcengine-openviking",
+  "status": "accepted",
+  "title": "volcengine/OpenViking"
+}

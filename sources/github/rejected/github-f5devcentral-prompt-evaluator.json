@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/f5devcentral/prompt-evaluator",
+  "content_sha256": "bb86d2f13275ebc2a4b8860bb7301ff40b02fc3b88a4643f73e751c5247e2963",
+  "creator": "f5devcentral",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "in PDF reports - **Percentile Interpretation**: Built-in explanations help understand what metrics mean ### Concurrent Evaluation ⚡ - **Parallel Processing**: Evaluate datasets using multiple concurrent workers - **Load Testing**: Simulate real-world multi-user scenarios - **Enhanced Metrics**: Queue time analysis, worker distribution, and throughput under load - **Configurable**: Adjust concurrency levels and rate limiting - **Safety Guidelines**: Built-in infrastructure impact warnings and best practices ### Improved Dataset Formats - **Multiple Format Support**: JSONL, CSV, TSV, and Parquet formats - **Proper"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository f5devcentral/prompt-evaluator; discovered by github-repos-07.",
+  "published_date": "2026-05-26",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-07"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "f5devcentral/prompt-evaluator",
+    "last_push": "2026-05-27T16:06:48Z",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "url": "https://api.github.com/licenses/apache-2.0"
+    },
+    "stars_at_retrieval": 3
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:40:16Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'apache-2.0', 'name': 'Apache License 2.0', 'url': 'https://api.github.com/licenses/apache-2.0'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-f5devcentral-prompt-evaluator",
+  "status": "rejected",
+  "title": "f5devcentral/prompt-evaluator"
+}

@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/octave-commons/shibboleth",
+  "content_sha256": "258297a6e0d2be8c7e96580865cdae8f76485c6b398fe3b7dbd5ece1f08b78c9",
+  "creator": "octave-commons",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "Generative DSL for adversarial prompt evaluation datasets # Shibboleth **A generative Clojure DSL for publication-grade adversarial prompt evaluation datasets.** Existing safety benchmarks are static artifacts that decay as models evolve. Shibboleth presents a generative DSL where the attack taxonomy is extensible, transforms are first-class composable constructs, and the dataset regenerates with full provenance and reproducibility. Every build produces a self-contained bundle with a Gebru et al. datasheet, SHA-256 manifests, and cluster-disjoint splits that are leakage-proof by construction. ## Table of"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository octave-commons/shibboleth; discovered by github-repos-07.",
+  "published_date": "2026-03-13",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-07"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "octave-commons/shibboleth",
+    "last_push": "2026-06-27T18:44:34Z",
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0"
+    },
+    "stars_at_retrieval": 2
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:40:17Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'gpl-3.0', 'name': 'GNU General Public License v3.0', 'url': 'https://api.github.com/licenses/gpl-3.0'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-octave-commons-shibboleth",
+  "status": "rejected",
+  "title": "octave-commons/shibboleth"
+}

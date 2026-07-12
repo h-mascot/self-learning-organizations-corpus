@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.alibabacloud.com/blog/the-second-half-of-the-enterprise-agent-era-how-to-make-agents-smarter-the-more-they-are-used_603319",
+  "content_sha256": "99d9856f423d4b358f5512cbf1b0c7e689349986f0ce1906568ec0169185adc1",
+  "creator": "alibabacloud.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "public primary page",
+      "text": "Flywheels The evolution flywheel is typically divided into 4 steps: data collection, dataset construction, performance evaluation, and evolutionary asset accumulation. Although the pipeline of the model and Agent evolution flywheel is similar, there are more factors that influence Agent behavior. A model task refers to a single call of a model, including the input to the model and the output of the model. In contrast, an Agent task forms a topological graph or network, involving retrievals, planning, tool calls, browser interactions, intermediate states, reflections, rollbacks, and parallel subtasks. This is because, in addition to model cal"
+    }
+  ],
+  "platform": "blogs",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-blogs.",
+  "published_date": null,
+  "publisher": "alibabacloud.com",
+  "query_ids": [
+    "citation-catalog-blogs"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Primary source evidence describes a learning, evaluation, feedback, adaptation, or agentic operating mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:23Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "article",
+  "stable_id": "blogs-2d4641141019c0f3",
+  "status": "accepted",
+  "title": "The Second Half of the Enterprise Agent Era: How to Make Agents Smarter the More They Are Used?"
+}

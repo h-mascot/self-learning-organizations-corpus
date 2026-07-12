@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/Antonio-Velasco/prompt_evaluation",
+  "content_sha256": "43f48fe992f80d0874fc4d7c36d11979426290aad44e0af6af9bee274d90b4d5",
+  "creator": "Antonio-Velasco",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "# prompt evaluation Find in this repo: - article/prompt_evaluation_article.md an article about the importance of prompt testing and a practial example - code/prompt_evaluation.ipynb a notebook where the example was developed ## Pre-requisite libraries - llama_index - openai - promptimize - datasets - matplotlib - seaborn"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository Antonio-Velasco/prompt_evaluation; discovered by github-repos-07.",
+  "published_date": "2023-07-05",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-07"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "Antonio-Velasco/prompt_evaluation",
+    "last_push": "2023-08-09T11:08:16Z",
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "stars_at_retrieval": 2
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:40:18Z",
+  "rights_note": "Repository license reported by GitHub: {'key': '', 'name': '', 'url': ''}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-antonio-velasco-prompt-evaluation",
+  "status": "rejected",
+  "title": "Antonio-Velasco/prompt_evaluation"
+}

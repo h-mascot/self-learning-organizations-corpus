@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/AgentToolkit/altk-evolve",
+  "content_sha256": "fd6120ae934df119352be837352b5a232691d5f71f2b3a95931c8271927bbba0",
+  "creator": "AgentToolkit",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "Self improving agents through iterations <div align=\"center\"> # Evolve: On‑the‑job learning for AI agents [![Python](https://img.shields.io/badge/python-3.12%2B-blue)](https://www.python.org/) ![Status](https://img.shields.io/badge/status-active-brightgreen) [![Documentation](https://shields.io/badge/Official%20Webpage-Documentation-blue)](https://agenttoolkit.github.io/altk-evolve) [![arXiv](https://img.shields.io/badge/arXiv-2603.10600-b31b1b)](https://arxiv.org/pdf/2603.10600) [![License](https://img.shields.io/github/license/AgentToolkit/altk-evolve)](https://www.apache.org/licenses/LICENSE-2.0)"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository AgentToolkit/altk-evolve; discovered by github-repos-06.",
+  "published_date": "2025-12-12",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-06"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "AgentToolkit/altk-evolve",
+    "last_push": "2026-07-08T19:24:06Z",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "url": "https://api.github.com/licenses/apache-2.0"
+    },
+    "stars_at_retrieval": 95
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:54Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'apache-2.0', 'name': 'Apache License 2.0', 'url': 'https://api.github.com/licenses/apache-2.0'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-agenttoolkit-altk-evolve",
+  "status": "rejected",
+  "title": "AgentToolkit/altk-evolve"
+}

@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/UKGovernmentBEIS/aisi-sandboxing",
+  "content_sha256": "72527ae78eae8eb07e51bd163902bcdd6e7b5e15420ecd7154f57b724d78c5a9",
+  "creator": "UKGovernmentBEIS",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "The open-source AISI toolkit for sandboxing agentic evaluations # The Inspect Sandboxing Toolkit: Scalable and secure AI agent evaluations How do we test AI systems for dangerous capabilities without risking real-world harm? The more capable models become, the harder it is to safely evaluate them. When an agent can execute arbitrary code and interact with critical systems to gain sensitive information, running evaluations without adequate safeguards could put critical systems at risk. Sandboxes are isolated environments for testing and monitoring AI behaviour. When we give a model access to use tools (such as"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository UKGovernmentBEIS/aisi-sandboxing; discovered by github-repos-03.",
+  "published_date": "2025-07-30",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-03"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "UKGovernmentBEIS/aisi-sandboxing",
+    "last_push": "2025-08-07T12:46:22Z",
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "stars_at_retrieval": 23
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:34Z",
+  "rights_note": "Repository license reported by GitHub: {'key': '', 'name': '', 'url': ''}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-ukgovernmentbeis-aisi-sandboxing",
+  "status": "rejected",
+  "title": "UKGovernmentBEIS/aisi-sandboxing"
+}

@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/FareedKhan-dev/autonomous-agentic-rag",
+  "content_sha256": "db6e3faf54b8324edf58d6acffb9173e190d0e2a5f3d66e5c7551ddf7573da99",
+  "creator": "FareedKhan-dev",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "Self improving agentic rag pipeline # Building Self Improving RAG Agentic System Agentic RAG systems act as a **high dimensional vector space** where each dimension represents a design decision such as prompt engineering, agent coordination, retrieval strategies, and much more. Manually tuning these dimensions to find the right combination is extremely difficult and unseen data in production often breaks what worked in testing. **A better approach is to let the system learn how to optimize itself**. A typical Agentic RAG pipeline that **evolves itself** follows the thinking process as shown below: ![Self"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository FareedKhan-dev/autonomous-agentic-rag; discovered by github-repos-06.",
+  "published_date": "2025-11-13",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-06"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "FareedKhan-dev/autonomous-agentic-rag",
+    "last_push": "2025-11-13T18:23:51Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stars_at_retrieval": 203
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:51Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'mit', 'name': 'MIT License', 'url': 'https://api.github.com/licenses/mit'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-fareedkhan-dev-autonomous-agentic-rag",
+  "status": "rejected",
+  "title": "FareedKhan-dev/autonomous-agentic-rag"
+}

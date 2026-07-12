@@ -1,0 +1,35 @@
+{
+  "artifact_level": "transcript",
+  "canonical_url": "https://www.youtube.com/watch?v=J9982NLmTXg",
+  "content_sha256": "ed11e3cf5db821e5c938f5d4a951315b4c1a3f48eeb04f835534659777df1718",
+  "creator": "Sander Schulhoff 2.0",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "transcript",
+      "locator": "public transcript near matched timestamp (sander-schulhoff-20)",
+      "text": "(00:02:55): This episode is brought to you by Datadog, now home to Eppo, the leading experimentation and feature flagging platform. Product managers at the world's best companies use Datadog, the same platform their engineers rely on every day to connect product insights to product issues like bugs, UX friction and business impact. It starts with product analytics, where PMs can watch replays, review funnels, dive into retention, and explore their growth metrics. Where other tools stop, Datadog goes even further. It helps you actually diagnose the impact of funnel drop-offs and bugs and UX friction. Once you know where to focus, experiments prove what works. I saw this fi"
+    }
+  ],
+  "platform": "podcasts",
+  "provenance": "Public timestamped transcript at ChatPRD/lennys-podcast-transcripts/sander-schulhoff-20; original video ID J9982NLmTXg.",
+  "published_date": "2025-12-21",
+  "publisher": "Lenny's Podcast",
+  "query_ids": [
+    "github-citation-lennys-podcast-transcripts"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Multiple transcript passages match organizational feedback, experimentation, learning, memory, or AI-agent operating mechanisms."
+  ],
+  "retrieval_method": "GitHub public transcript citation; original publisher video identified in front matter",
+  "retrieved_at": "2026-07-12T08:44:29Z",
+  "rights_note": "The public transcript repository asserts no license; only a bounded timestamped span is preserved, and no complete transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "episode",
+  "stable_id": "podcasts-lenny-J9982NLmTXg",
+  "status": "accepted",
+  "title": "Why securing AI is harder than anyone expected and guardrails are failing |",
+  "transcript_source": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/main/episodes/sander-schulhoff-20/transcript.md"
+}

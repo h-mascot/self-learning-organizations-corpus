@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.datadoghq.com/blog/feedback-loops-progressive-delivery/",
+  "content_sha256": "d8e689040556a621512414e7725170ddcbf0e6084cb14f663db6c622a647188a",
+  "creator": "datadoghq.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "public primary page",
+      "text": "Title: How a Feedback Loop Improves the Software Development Life Cycle | Datadog How a Feedback Loop Improves the Software Development Life Cycle | Datadog 30; }, handleResize() { if (window.innerWidth >= 1024) { this.mobileOpen = false; this.dropdownOpen = 'none'; } }, checkAnnouncementBanner() { const announcementBanner = document.querySelector('.announcement-banner') || document.querySelector('.announcement-banner--large'); if (announcementBanner) { this.hasAnnouncementBanner = true; } else { this.hasAnnouncementBanner = false; } } }\" x-init=\"checkAnnouncementBanner()\" x-on:scroll.window=\"handleScroll\" x-on:resize.window=\"handleResize\">"
+    }
+  ],
+  "platform": "blogs",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-blogs.",
+  "published_date": null,
+  "publisher": "datadoghq.com",
+  "query_ids": [
+    "citation-catalog-blogs"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Primary source evidence describes a learning, evaluation, feedback, adaptation, or agentic operating mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:23Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "article",
+  "stable_id": "blogs-9a787433425d612e",
+  "status": "accepted",
+  "title": "How a Feedback Loop Improves the Software Development Life Cycle | Datadog"
+}

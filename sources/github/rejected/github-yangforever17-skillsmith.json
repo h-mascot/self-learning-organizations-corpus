@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/yangforever17/SkillSmith",
+  "content_sha256": "c70da718c034364c382f30b2f809348ded5af586c62bb871cac63e16ca382a54",
+  "creator": "yangforever17",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "SkillSmith: Co-Evolving Skills and Tools for Self-Improving Agent Systems <p align=\"center\"> <img src=\"img/logo.png\" alt=\"SkillSmith\" width=\"620\"> </p> <p align=\"center\"> <b>Skills and tools that co-evolve from their own failures.</b><br> A filesystem-based agent that forges reusable skills and tools, tests them, and keeps only what works. </p> <p align=\"center\"> <a href=\"https://arxiv.org/abs/2606.01314\"><img src=\"https://img.shields.io/badge/arXiv-2606.01314-b31b1b.svg\" alt=\"arXiv\"></a> <a href=\"https://arxiv.org/pdf/2606.01314\"><img src=\"https://img.shields.io/badge/Paper-PDF-success.svg\" alt=\"PDF\"></a> <img"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository yangforever17/SkillSmith; discovered by github-repos-06.",
+  "published_date": "2026-05-29",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-06"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "yangforever17/SkillSmith",
+    "last_push": "2026-06-05T17:03:07Z",
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "stars_at_retrieval": 33
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:40:00Z",
+  "rights_note": "Repository license reported by GitHub: {'key': '', 'name': '', 'url': ''}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-yangforever17-skillsmith",
+  "status": "rejected",
+  "title": "yangforever17/SkillSmith"
+}

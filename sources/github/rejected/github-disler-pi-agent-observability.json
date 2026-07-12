@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/disler/pi-agent-observability",
+  "content_sha256": "2b912747bedb795dcf0c8cac131c7edfe85747dba35a4778014221dfc24a25dc",
+  "creator": "disler",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "codebase and [video breakdown](https://youtu.be/9ijnN985O_c) --- ## Install ### Agentic Install ```bash just install # runs the /install slash command in Claude Code (or Pi, or your favorite agentic coding tool) ``` The `/install` command lives at `.claude/commands/install.md` and handles toolchain checks, executable bits, and any project-specific setup. ### Manual Install **Prereqs:** [`bun`](https://bun.sh) ≥ 1.1, [`pi`](https://github.com/earendil-works/pi-mono) on `$PATH`, [`just`](https://just.systems), `sqlite3` (system). ```bash git clone <this-repo> pi-agent-observa"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository disler/pi-agent-observability; discovered by github-repos-08.",
+  "published_date": "2026-05-26",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-08"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "disler/pi-agent-observability",
+    "last_push": "2026-05-31T17:19:36Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stars_at_retrieval": 122
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:40:23Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'mit', 'name': 'MIT License', 'url': 'https://api.github.com/licenses/mit'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-disler-pi-agent-observability",
+  "status": "rejected",
+  "title": "disler/pi-agent-observability"
+}

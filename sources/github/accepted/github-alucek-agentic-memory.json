@@ -1,0 +1,44 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://github.com/ALucek/agentic-memory",
+  "content_sha256": "5d825c12c62258077c2cd389dfed3f52490412d8410b74fd9ee13ab6001fee72",
+  "creator": "ALucek",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "Implementing cognitive architecture and psychological memory concepts into Agentic LLM Systems # Agent Memory - Can LLMs *Really* Think? <img src=\"./media/memory.png\" width=600> *[Cognitive Architectures for Language Agents, 2024](https://arxiv.org/pdf/2309.02427)* LLMs are considered \"stateless\" in that every time you invoke an LLM call, it is like the first time it's ever seen the input being passed through. Given this quirk, multi-turn LLM agents have a unique challenge to overcome with fully understanding and navigating a vast world model which we humans do naturally. Being a human has a lot of advantages"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository ALucek/agentic-memory; discovered by github-repos-01.",
+  "published_date": "2024-12-10",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-01"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Repository supplies infrastructure for the agent memory learning/evaluation mechanism."
+  ],
+  "repository": {
+    "full_name": "ALucek/agentic-memory",
+    "last_push": "2024-12-12T17:02:53Z",
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "stars_at_retrieval": 550
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:38:43Z",
+  "rights_note": "Repository license reported by GitHub: {'key': '', 'name': '', 'url': ''}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-alucek-agentic-memory",
+  "status": "accepted",
+  "title": "ALucek/agentic-memory"
+}

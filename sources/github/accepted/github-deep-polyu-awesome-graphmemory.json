@@ -1,0 +1,44 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://github.com/DEEP-PolyU/Awesome-GraphMemory",
+  "content_sha256": "347acf53fa5d45057c7a2e5ed44a689f6113659168b6f3a4d1729584f4c53662",
+  "creator": "DEEP-PolyU",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "are We From Human Memory?** [[Paper]](https://openreview.net/forum?id=Sk7pwmLuAY) - (arXiv'25) **Memory in the Age of AI Agents** [[Paper]](https://arxiv.org/abs/2512.13564) - (arXiv'25) **Memory in LLM-based Multi-agent Systems: Mechanisms, Challenges, and Collective Intelligence** [[Paper]](https://www.techrxiv.org/doi/full/10.36227/techrxiv.176539617.79044553) - (arXiv'25) **AI Meets Brain: Memory Systems from Cognitive Neuroscience to Autonomous Agents** [[Paper]](https://arxiv.org/abs/2512.23343) - (arXiv'25) **From Human Memory to AI Memory: A Survey on Memory Mechanisms in the Era of LLMs** [[Paper]](htt"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository DEEP-PolyU/Awesome-GraphMemory; discovered by github-repos-01.",
+  "published_date": "2025-12-14",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-01"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Repository supplies infrastructure for the agent memory learning/evaluation mechanism."
+  ],
+  "repository": {
+    "full_name": "DEEP-PolyU/Awesome-GraphMemory",
+    "last_push": "2026-06-06T14:26:56Z",
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "stars_at_retrieval": 315
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:38:50Z",
+  "rights_note": "Repository license reported by GitHub: {'key': '', 'name': '', 'url': ''}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-deep-polyu-awesome-graphmemory",
+  "status": "accepted",
+  "title": "DEEP-PolyU/Awesome-GraphMemory"
+}

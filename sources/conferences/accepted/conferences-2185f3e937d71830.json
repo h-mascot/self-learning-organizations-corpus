@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://leaddev.com/career-development/learning-core-capability-software-teams-heres-how-measure-it",
+  "content_sha256": "932be3969e0b885f26675ca62f4028832a970887d3b10a8152daecdc40f3d6ce",
+  "creator": "leaddev.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "public primary page",
+      "text": "learning culture and using the data to uplift learning capability in different organizations and teams. While still an experiment in progress, the methods and tools she's using are mature enough to be shared, so as to invite commentary and feedback from fellow practitioners. By Sorrel Harriet Register or log in to access this video Create an account to access our free engineering leadership content, free online events and to receive our weekly email newsletter. We will also keep you up to date with LeadDev events. Register with google or Enter email address Register Log in We have linked your account and just need a few more details to compl"
+    }
+  ],
+  "platform": "conferences",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-conferences.",
+  "published_date": null,
+  "publisher": "leaddev.com",
+  "query_ids": [
+    "citation-catalog-conferences"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Primary source evidence describes a learning, evaluation, feedback, adaptation, or agentic operating mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:26Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "talk",
+  "stable_id": "conferences-2185f3e937d71830",
+  "status": "accepted",
+  "title": "Learning is a core capability of software teams; here’s how to measure it - LeadDev"
+}

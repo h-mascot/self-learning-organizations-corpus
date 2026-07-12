@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/Marcos171/autonomous-ai-research",
+  "content_sha256": "f2692debf2c1bc5f8dd47f5058b58102099c0cf31b3639b18a9de8ce89cbe2c1",
+  "creator": "Marcos171",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "Research and development of autonomous continuous learning agents and AI security systems. # Sistema de Inteligência Artificial Autônoma ## 🚀 Visão Geral Este projeto implementa uma arquitetura de IA baseada em múltiplos agentes autônomos capazes de planejar, executar código dinâmico, avaliar resultados e aprender de forma contínua. ## 🛠️ Arquitetura do Sistema O sistema opera em um ciclo evolutivo composto por: - **Agente Autônomo:** Define metas e objetivos de aprendizado. - **Orquestrador:** Coordena o fluxo entre planejamento e execução. - **Executor:** Roda código Python gerado dinamicamente para testes e"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository Marcos171/autonomous-ai-research; discovered by github-repos-04.",
+  "published_date": "2026-05-16",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-04"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "Marcos171/autonomous-ai-research",
+    "last_push": "2026-05-16T02:35:28Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stars_at_retrieval": 0
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:39Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'mit', 'name': 'MIT License', 'url': 'https://api.github.com/licenses/mit'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-marcos171-autonomous-ai-research",
+  "status": "rejected",
+  "title": "Marcos171/autonomous-ai-research"
+}

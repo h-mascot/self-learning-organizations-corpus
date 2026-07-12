@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/mindsdb/anton",
+  "content_sha256": "84a8fbe7697f60a73ecb50c2ea652260f4c08ed740330c9f1a2ec3b0982dd800",
+  "creator": "mindsdb",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "AI coworker self-improving agent <div align = center> # Anton - a self-improving agent [![Stars](https://img.shields.io/github/stars/mindsdb/anton?logo=github)](https://github.com/mindsdb/anton/stargazers) [![License](https://img.shields.io/github/license/mindsdb/anton)](LICENSE) [![Discord](https://img.shields.io/badge/Discord-join-5865F2?logo=discord&logoColor=white)](https://mindshub.ai/discord) [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/mindsdb/anton) [MindsHub Cowork](https://mindshub.ai/?utm_source=github&utm_medium=repo-readme&utm_campaign=anton-readme) ·"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository mindsdb/anton; discovered by github-repos-06.",
+  "published_date": "2026-02-19",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-06"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "mindsdb/anton",
+    "last_push": "2026-07-11T01:04:14Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stars_at_retrieval": 697
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:47Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'mit', 'name': 'MIT License', 'url': 'https://api.github.com/licenses/mit'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-mindsdb-anton",
+  "status": "rejected",
+  "title": "mindsdb/anton"
+}

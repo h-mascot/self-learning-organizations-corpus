@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/disler/claude-code-hooks-multi-agent-observability",
+  "content_sha256": "f80f173cf100b6b8832881f4bd5fb1f78d1ea81f142b20125d359aef2747f067",
+  "creator": "disler",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "supports Claude Code Agent Teams for orchestrating multi-agent workflows. Teams are enabled via the `CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS` environment variable in `.claude/settings.json`. ### Team Agents - **Builder** (`.claude/agents/team/builder.md`): Engineering agent that executes one task at a time. Includes PostToolUse hooks for `ruff` and `ty` validation on Write/Edit operations. - **Validator** (`.claude/agents/team/validator.md`): Read-only validation agent that inspects work without modifying files. Cannot use Write, Edit, or NotebookEdit tools. ### Planning with Teams Use the `/plan_w_team` slas"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository disler/claude-code-hooks-multi-agent-observability; discovered by github-repos-08.",
+  "published_date": "2025-07-13",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-08"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "disler/claude-code-hooks-multi-agent-observability",
+    "last_push": "2026-02-08T23:59:13Z",
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "stars_at_retrieval": 1483
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:40:22Z",
+  "rights_note": "Repository license reported by GitHub: {'key': '', 'name': '', 'url': ''}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-disler-claude-code-hooks-multi-agent-observability",
+  "status": "rejected",
+  "title": "disler/claude-code-hooks-multi-agent-observability"
+}

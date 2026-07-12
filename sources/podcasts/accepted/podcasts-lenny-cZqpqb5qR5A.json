@@ -1,0 +1,35 @@
+{
+  "artifact_level": "transcript",
+  "canonical_url": "https://www.youtube.com/watch?v=cZqpqb5qR5A",
+  "content_sha256": "5ee0e870860ab6e5bde5813c140060deb31a1ea304570f6254da4d9cbaf2a0c1",
+  "creator": "Tanguy Crusson",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "transcript",
+      "locator": "public transcript near matched timestamp (tanguy-crusson)",
+      "text": "(00:58:52): And so the psychological safety of everyone's job was safe, coupled with access to all the resources from the company. That part was just invaluable to the success of what JPD is today. (00:59:03): So to give you a bit of context, Jira Product Discovery started four years ago with some research. I was alone back then, and then we were three. The first line of code was written three years before we launched officially, as generally available. Which means that for three years we were dogfooding alpha or beta and able to do that with the full support of the company. So when I mention the long game, I mean it. It's something that's very hard to get in most compan"
+    }
+  ],
+  "platform": "podcasts",
+  "provenance": "Public timestamped transcript at ChatPRD/lennys-podcast-transcripts/tanguy-crusson; original video ID cZqpqb5qR5A.",
+  "published_date": "2024-06-16",
+  "publisher": "Lenny's Podcast",
+  "query_ids": [
+    "github-citation-lennys-podcast-transcripts"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Multiple transcript passages match organizational feedback, experimentation, learning, memory, or AI-agent operating mechanisms."
+  ],
+  "retrieval_method": "GitHub public transcript citation; original publisher video identified in front matter",
+  "retrieved_at": "2026-07-12T08:44:29Z",
+  "rights_note": "The public transcript repository asserts no license; only a bounded timestamped span is preserved, and no complete transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "episode",
+  "stable_id": "podcasts-lenny-cZqpqb5qR5A",
+  "status": "accepted",
+  "title": "Hard-won lessons building 0 to 1 inside Atlassian | Tanguy Crusson (Head of",
+  "transcript_source": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/main/episodes/tanguy-crusson/transcript.md"
+}

@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/canwhite/AgentEval",
+  "content_sha256": "e3d2461927e7e7d82a6641c40d40df50420c17fe1dcaa46108280fab0d785fb7",
+  "creator": "canwhite",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "The agent responsible for conducting the agent evaluation # AgentEval A transparent HTTP proxy that captures Agent ↔ LLM API traffic, auto-splits sessions, builds structured conversation views, **grades** with multi-dimensional scoring, **diagnoses** behavioral issues via rule engine, and **probes** agent configuration for root causes — all with a built-in web dashboard. *透明 HTTP 代理，捕获 Agent ↔ LLM 的 API 流量，自动切分 session、构建结构化视图、多维自动评分、规则诊断行为问题、探针审查配置根因 —— 内置 Web 评测面板。* ## How It Works / 工作原理 ``` ┌──────────────────────────────┐ │ AgentEval (127.0.0.1:57633) │ └──────────────┬───────────────┘ │ Agent ── HTTP ──►"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository canwhite/AgentEval; discovered by github-repos-03.",
+  "published_date": "2026-05-25",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-03"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "canwhite/AgentEval",
+    "last_push": "2026-07-06T04:16:02Z",
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "stars_at_retrieval": 443
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:17Z",
+  "rights_note": "Repository license reported by GitHub: {'key': '', 'name': '', 'url': ''}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-canwhite-agenteval",
+  "status": "rejected",
+  "title": "canwhite/AgentEval"
+}

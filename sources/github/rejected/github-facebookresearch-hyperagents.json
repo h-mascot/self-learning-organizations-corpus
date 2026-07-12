@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/facebookresearch/HyperAgents",
+  "content_sha256": "af0dbc8020179f73772934d528e3af629f8c4414c3b817738f332d285fecb141",
+  "creator": "facebookresearch",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "Self-referential self-improving agents that can optimize for any computable task <div align=\"center\"> <!-- Logo/Banner placeholder - uncomment and add your image --> <!-- <img src=\"assets/banner.png\" alt=\"HyperAgents Banner\" width=\"800\"> --> <h1>HyperAgents</h1> <p>Self-referential self-improving agents that can optimize for any computable task</p> <p> <a href=\"LICENSE.md\"><img src=\"https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg?style=for-the-badge\" alt=\"License: CC BY-NC-SA 4.0\"></a> <a href=\"https://arxiv.org/abs/2603.19461\"><img"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository facebookresearch/HyperAgents; discovered by github-repos-06.",
+  "published_date": "2026-03-19",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-06"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "facebookresearch/HyperAgents",
+    "last_push": "2026-05-09T04:52:16Z",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "url": ""
+    },
+    "stars_at_retrieval": 2630
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:43Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'other', 'name': 'Other', 'url': ''}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-facebookresearch-hyperagents",
+  "status": "rejected",
+  "title": "facebookresearch/HyperAgents"
+}

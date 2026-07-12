@@ -1,0 +1,32 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://www.brex.com/product/ai",
+  "content_sha256": "57780345c052c10c7b09bc36b643b8dcae3b6298677babf9b0049c835a628dbb",
+  "creator": "Brex",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "public publisher page",
+      "text": "The public route returned a 404 page rather than the AI product evidence claimed by the early index."
+    }
+  ],
+  "platform": "blogs",
+  "provenance": "Recovered from research/discovery-inventory.md via early-inventory-blogs.",
+  "published_date": null,
+  "publisher": "Brex",
+  "query_ids": [
+    "early-inventory-blogs"
+  ],
+  "rejection_reason": "Public retrieval did not substantiate the earlier discovery claim.",
+  "relevance_evidence": [],
+  "retrieval_method": "public publisher retrieval",
+  "retrieved_at": "2026-07-12T08:36:25Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete protected work is copied.",
+  "rights_status": "retrieval-evidence-only",
+  "schema_version": 2,
+  "source_type": "article",
+  "stable_id": "blogs-4590fd2bba1782e6",
+  "status": "rejected",
+  "title": "Brex AI page retrieval contradiction"
+}

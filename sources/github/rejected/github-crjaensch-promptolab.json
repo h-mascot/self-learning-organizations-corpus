@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/crjaensch/PromptoLab",
+  "content_sha256": "4a6a97d82c0e058d240ed416ca7844706fbec56cab8d7c89619ace9bb11c0497",
+  "creator": "crjaensch",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "A multi-platform app to serve as a prompts catalog, a LLM playground for running and optimizing prompts, plus a prompts evaluation and assessment playground. # PromptoLab PromptoLab is a cross-platform desktop application for cataloging, evaluating, testing, and improving LLM prompts. It provides a playground for interactive prompt development and a test set manager for systematic prompt testing. ### Key Features - **Prompts Catalog**: Seamlessly define and organize prompts using three distinct prompt categories. This centralized hub ensures your prompts are always accessible and well-structured for easy reuse."
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository crjaensch/PromptoLab; discovered by github-repos-07.",
+  "published_date": "2024-11-28",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-07"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "crjaensch/PromptoLab",
+    "last_push": "2026-06-23T16:56:33Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stars_at_retrieval": 8
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:40:06Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'mit', 'name': 'MIT License', 'url': 'https://api.github.com/licenses/mit'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-crjaensch-promptolab",
+  "status": "rejected",
+  "title": "crjaensch/PromptoLab"
+}

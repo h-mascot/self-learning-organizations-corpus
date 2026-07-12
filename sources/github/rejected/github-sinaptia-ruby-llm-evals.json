@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/sinaptia/ruby_llm-evals",
+  "content_sha256": "66110eb3b9ddf293020c6001b8d4d839307e47f44d8e70b5b0440a9eafeb79d3",
+  "creator": "sinaptia",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "LLM evaluation engine for Rails. # RubyLLM::Evals Test, compare, and improve your LLM prompts within your Rails application. ## Installation > [!NOTE] > This engine relies on ActiveJob, ActiveStorage, and [RubyLLM](https://github.com/crmne/ruby_llm). Make sure you have them installed and configured. Add this line to your application's Gemfile: ```ruby gem \"ruby_llm-evals\" ``` And then execute: ```bash $ bundle ``` To copy and migrate RubyLLM::Evals's migrations, run: ``` $ rails ruby_llm_evals:install:migrations db:migrate ``` And then mount the engine in your `config/routes.rb`: ```ruby"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository sinaptia/ruby_llm-evals; discovered by github-repos-02.",
+  "published_date": "2025-10-14",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-02"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "sinaptia/ruby_llm-evals",
+    "last_push": "2026-07-11T02:31:38Z",
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "stars_at_retrieval": 21
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:07Z",
+  "rights_note": "Repository license reported by GitHub: {'key': '', 'name': '', 'url': ''}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-sinaptia-ruby-llm-evals",
+  "status": "rejected",
+  "title": "sinaptia/ruby_llm-evals"
+}

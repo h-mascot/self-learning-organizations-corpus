@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://aws.amazon.com/solutions/case-studies/bayer-china/",
+  "content_sha256": "297fe2763518ebe291364f5704f100fe50af6fb7ba3df9337d374341c6b2e8ca",
+  "creator": "aws.amazon.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "public primary page",
+      "text": "that all generative AI innovations are confined within a secure and manageable application framework. During the evaluation process conducted by Bayer China's Digital Transformation and IT team, Amazon Web Services (AWS) stood out for the breadth of its services and high performance and for its excellent support for complex AI applications. Ultimately, Bayer China selected AWS for the implementation of Dr. Bei. To accelerate our business innovation, we choose AWS for its seamless local-to-global integration and responsive support. These capabilities are crucial for us to timely incorporate the latest LLMs and services into our developm"
+    }
+  ],
+  "platform": "case-studies",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-case-studies.",
+  "published_date": null,
+  "publisher": "aws.amazon.com",
+  "query_ids": [
+    "citation-catalog-case-studies"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Primary source evidence describes a learning, evaluation, feedback, adaptation, or agentic operating mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:34Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "case-study",
+  "stable_id": "case-studies-8a485536e30d391c",
+  "status": "accepted",
+  "title": "Covering 1,000 People in 6 Months, Saving 7,000 hours per year, Bayer China Reshapes Training System with Generative AI"
+}

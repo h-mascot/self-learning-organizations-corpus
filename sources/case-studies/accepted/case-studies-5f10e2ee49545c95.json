@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://ramp.com/customers",
+  "content_sha256": "1ab64721560d466dbdf4ffc7e9412db8b16c0fc5dc047a5bebac7515091001a6",
+  "creator": "Ramp",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "public publisher page",
+      "text": "The customer index names organizations using agents and reports bounded outcomes including finance-team scaling, faster close, and staff hours saved."
+    }
+  ],
+  "platform": "case-studies",
+  "provenance": "Recovered from research/discovery-inventory.md via early-inventory-case-studies.",
+  "published_date": null,
+  "publisher": "Ramp",
+  "query_ids": [
+    "early-inventory-case-studies"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Early project lead directly documents an organizational learning, adaptation, autonomy, or AI operating mechanism."
+  ],
+  "retrieval_method": "public publisher retrieval",
+  "retrieved_at": "2026-07-12T08:36:25Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete protected work is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "case-study",
+  "stable_id": "case-studies-5f10e2ee49545c95",
+  "status": "accepted",
+  "title": "Ramp Customer Stories"
+}

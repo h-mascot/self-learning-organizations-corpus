@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://github.com/customer-stories/mercedes-benz",
+  "content_sha256": "eccd72fc586f7ba054d90080ef09ef275ff7f1003f9f1f46c1d7b017d3e4cdb0",
+  "creator": "github.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "public primary page",
+      "text": "are empowered to spend more time on the tasks they enjoy the most — creative-problem solving, innovative projects and experimentation. Mercedes’ developers report they’re able to code faster with fewer errors, saving at least a half hour every week with Copilot, as they are less susceptible to disruptions and able to stay in their flow state longer. Copilot acts as an AI pair programmer and collaborator that is always available to answer questions, explain code, make suggestions, and act as a sounding board—in addition to writing code. “With the time savings Copilot unlocks, our developers are empowered to spend more time on the tasks they "
+    }
+  ],
+  "platform": "case-studies",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-case-studies.",
+  "published_date": null,
+  "publisher": "github.com",
+  "query_ids": [
+    "citation-catalog-case-studies"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Primary source evidence describes a learning, evaluation, feedback, adaptation, or agentic operating mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:34Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "case-study",
+  "stable_id": "case-studies-5360520196cd2127",
+  "status": "accepted",
+  "title": "Mercedes-Benz · GitHub"
+}

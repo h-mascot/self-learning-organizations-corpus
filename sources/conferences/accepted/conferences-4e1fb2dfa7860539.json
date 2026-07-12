@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://github.com/microsoft/Build26-BRK240-build-context-aware-agents-from-data-to-decisions/blob/main/README.md",
+  "content_sha256": "8787a669e58dca460bfd6d14b858dc740e65a00d3dca138b02c06b8d93aebfd7",
+  "creator": "github.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "public primary page",
+      "text": "and governance. Learn how Foundry IQ, Fabric IQ, and Work IQ provide the enterprise intelligence layer for AI agents. Design agents that can search across organizational knowledge, reason over business data, and operate with awareness of people and work signals. Take action within trusted boundaries, providing a practical foundation for building scalable and reliable agents. 🚀 Getting started The demo source code for this session lives in the microsoft/iq-samples repository. Browse the demo source code at github.com/microsoft/iq-samples Clone the repository and follow the setup instructions in its README Explore each demo to see "
+    }
+  ],
+  "platform": "conferences",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-conferences.",
+  "published_date": null,
+  "publisher": "github.com",
+  "query_ids": [
+    "citation-catalog-conferences"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Primary source evidence describes a learning, evaluation, feedback, adaptation, or agentic operating mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:26Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "talk",
+  "stable_id": "conferences-4e1fb2dfa7860539",
+  "status": "accepted",
+  "title": "Build26-BRK240-build-context-aware-agents-from-data-to-decisions/README.md at main · microsoft/Build26-BRK240-build-context-aware-agents-from-data-to-decisions · GitHub"
+}

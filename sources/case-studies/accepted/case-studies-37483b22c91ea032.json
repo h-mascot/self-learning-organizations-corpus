@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.microsoft.com/en/customers/story/25660-banco-bradesco-sa-azure-ai-foundry",
+  "content_sha256": "f182921d5d8b802d5c7a0338d740fd027a37301ecfb2cdc059e1307ab0e533c9",
+  "creator": "microsoft.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "public primary page",
+      "text": "in audit planning with the internal Audit Intelligent Learning Assistant. Business units can now create and manage AI agents, fostering innovation. And software engineers get a boost, too: They can use virtual assistant BIA Tech to accelerate development. The scope is gigantic, with 10 large language models and more than 400 experiments and at least 20 use cases in production. Employees spend less time on manual tasks and more on strategic initiatives. For example, MentorIA, an agent for the collections area, automates analysis of more than 18,000 calls per day, driving an increase in conversion of more than 22 percent. Building a Bridge"
+    }
+  ],
+  "platform": "case-studies",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-case-studies.",
+  "published_date": null,
+  "publisher": "microsoft.com",
+  "query_ids": [
+    "citation-catalog-case-studies"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Primary source evidence describes a learning, evaluation, feedback, adaptation, or agentic operating mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:34Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "case-study",
+  "stable_id": "case-studies-37483b22c91ea032",
+  "status": "accepted",
+  "title": "Banco Bradesco streamlines customer service with Azure AI Foundry, apps, and databases | Microsoft Customer Stories"
+}

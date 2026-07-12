@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/DarshanS-Dev/APE-Automated-Prompt-Evaluation",
+  "content_sha256": "43b1e62f5610ac015f617755c6c919c9455141cd17d7d6750421f7b743ff44f6",
+  "creator": "DarshanS-Dev",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "# APE — Automated Prompt Evaluation You changed your prompt. Did it break anything? APE tells you. Register any HTTP endpoint, define golden input/output pairs and plain English rubric rules. APE hits your endpoint concurrently, LLM-grades every output, and returns a structured regression report showing exactly what broke between prompt versions. **Zero SDK instrumentation. Zero changes to your app. Talks to any endpoint over HTTP.** → [Live API](https://ape-automated-prompt-evaluation.onrender.com/docs) · [Demo Video](https://youtu.be/IBNIV15B6XY) ·"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository DarshanS-Dev/APE-Automated-Prompt-Evaluation; discovered by github-repos-07.",
+  "published_date": "2026-05-02",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-07"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "DarshanS-Dev/APE-Automated-Prompt-Evaluation",
+    "last_push": "2026-06-09T05:40:12Z",
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "stars_at_retrieval": 4
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:40:12Z",
+  "rights_note": "Repository license reported by GitHub: {'key': '', 'name': '', 'url': ''}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-darshans-dev-ape-automated-prompt-evaluation",
+  "status": "rejected",
+  "title": "DarshanS-Dev/APE-Automated-Prompt-Evaluation"
+}

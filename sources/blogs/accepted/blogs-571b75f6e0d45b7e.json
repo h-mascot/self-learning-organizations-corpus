@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://sre.google/sre-book/postmortem-culture/",
+  "content_sha256": "93c80a7072e3b2ccab7f1252ff6c8f75236d3d90d7d37227f7050ac882945676",
+  "creator": "sre.google",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "public primary page",
+      "text": "Title: Google SRE - Blameless Postmortem for System Resilience Google SRE - Blameless Postmortem for System Resilience Chapter 15 - Postmortem Culture: Learning from Failure Table of Contents Foreword Preface Part I - Introduction 1. Introduction 2. The Production Environment at Google, from the Viewpoint of an SRE Part II - Principles 3. Embracing Risk 4. Service Level Objectives 5. Eliminating Toil 6. Monitoring Distributed Systems 7. The Evolution of Automation at Google 8. Release Engineering 9. Simplicity Part III - Practices 10. Practical Alerting 11. Being On-Call 12. Effective Troubleshooting 13. Emergency Response 14. Managing"
+    }
+  ],
+  "platform": "blogs",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-blogs.",
+  "published_date": null,
+  "publisher": "sre.google",
+  "query_ids": [
+    "citation-catalog-blogs"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Primary source evidence describes a learning, evaluation, feedback, adaptation, or agentic operating mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:23Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "article",
+  "stable_id": "blogs-571b75f6e0d45b7e",
+  "status": "accepted",
+  "title": "Google SRE - Blameless Postmortem for System Resilience"
+}

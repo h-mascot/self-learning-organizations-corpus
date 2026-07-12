@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.nvidia.com/en-us/glossary/data-flywheel/",
+  "content_sha256": "3e66e347a4007896ed19e5fcf09bbe9446db0a372f0b2dd957a0950a5297aecf",
+  "creator": "nvidia.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "public primary page",
+      "text": "Title: Data flywheel: What it is and how it works URL Source: https://www.nvidia.com/en-us/glossary/data-flywheel/ Published Time: Thu, 09 Jul 2026 16:19:06 GMT Markdown Content: ## How Do AI Data Flywheels Work? AI data flywheels work by creating a loop where AI models continuously improve by learning from the latest institutional knowledge and user feedback. As the system interacts with the environment, it collects feedback and new data, which are then used to refine and enhance the backbone models powering the AI workflows. This process involves curating and improving the quality of the data collected, using that to refine the underlying"
+    }
+  ],
+  "platform": "blogs",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-blogs.",
+  "published_date": null,
+  "publisher": "nvidia.com",
+  "query_ids": [
+    "citation-catalog-blogs"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Primary source evidence describes a learning, evaluation, feedback, adaptation, or agentic operating mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:23Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "article",
+  "stable_id": "blogs-6973975d196661ce",
+  "status": "accepted",
+  "title": "Data flywheel: What it is and how it works"
+}

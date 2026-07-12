@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://github.com/resources/insights/thomson-reuters-ai-adoption",
+  "content_sha256": "0ab2f1b4f50f220ca9d24f26815ab28584ab1d0a37a3ea906dba6991776294be",
+  "creator": "github.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "public primary page",
+      "text": "were addressed promptly. This approach also provided a clear way to track ongoing success. Best practices and continuous improvement: The team shared success stories and use cases internally to maintain enthusiasm and optimize strategies for long-term ROI. Sustained performance metrics By expanding their data collection and feedback loops, Thomson Reuters observed the following: A 45% decrease in pull request (PR) durations. A 44% increase in the number of changes per PR, indicating more impactful contributions from developers. Even more striking? Developers reported using their newfound efficiency to engage in learning, research, a"
+    }
+  ],
+  "platform": "case-studies",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-case-studies.",
+  "published_date": null,
+  "publisher": "github.com",
+  "query_ids": [
+    "citation-catalog-case-studies"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Primary source evidence describes a learning, evaluation, feedback, adaptation, or agentic operating mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:35Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "case-study",
+  "stable_id": "case-studies-cb59c19af9b94391",
+  "status": "accepted",
+  "title": "How Thomson Reuters successfully adopted AI (and how your organization can, too) · GitHub"
+}

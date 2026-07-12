@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://labs.scale.com/blog/insights-generator",
+  "content_sha256": "5d19dac378498d8089b6139d1f1e336cbfa7ac03be5d86fa87b2b5e1944c2c8e",
+  "creator": "labs.scale.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "public primary page",
+      "text": "Automated Failure Mode Analysis for Agents | Scale Labs [PAPERS] [BLOG] [LEADERBOARDS] [SHOWDOWN] ⌘K ⌘K BACK Agents Evaluation and Alignment 6/16/2026 Insights Generator: Automated Failure Mode Analysis for Agents By Akshay Manglik , Veronica Chatrath , Yuan (Emily) Xue View paper Every production agent fails in ways its developers did not anticipate. Identifying the patterns behind those failures, understanding them, and fixing them is the work of making an agent deployment reliable . It means understanding when the agent fails, why it fails, which failures are rare but dangerous, and which behaviors quietly degrade quality before aggreg"
+    }
+  ],
+  "platform": "blogs",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-blogs.",
+  "published_date": null,
+  "publisher": "labs.scale.com",
+  "query_ids": [
+    "citation-catalog-blogs"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Primary source evidence describes a learning, evaluation, feedback, adaptation, or agentic operating mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:23Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "article",
+  "stable_id": "blogs-5d0d1d1acefac261",
+  "status": "accepted",
+  "title": "Insights Generator: Automated Failure Mode Analysis for Agents | Scale Labs"
+}

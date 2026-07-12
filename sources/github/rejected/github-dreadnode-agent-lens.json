@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/dreadnode/agent-lens",
+  "content_sha256": "5618e84c43a00cae126f564212adc9f62e2778496e9bc413cc08875aa0548b9f",
+  "creator": "dreadnode",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "agents and frameworks is planned — see [Roadmap](#roadmap). Some features (especially turn-level replay) are experimental. We welcome PRs and contributions — [open an issue](https://github.com/dreadnode/agent-lens/issues) if you run into bugs. ![Run list](docs/assets/run-list.png) ## What it does The harness takes a YAML config describing a sequence of sessions (prompts to an agent), runs each session against a working directory via the selected engine (Claude Code or Codex), and produces structured outputs: - **ATIF trajectories** — standardized JSON capturing every agent step, tool call, observation,"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository dreadnode/agent-lens; discovered by github-repos-08.",
+  "published_date": "2026-03-18",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-08"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "dreadnode/agent-lens",
+    "last_push": "2026-06-19T01:05:54Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stars_at_retrieval": 105
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:40:24Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'mit', 'name': 'MIT License', 'url': 'https://api.github.com/licenses/mit'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-dreadnode-agent-lens",
+  "status": "rejected",
+  "title": "dreadnode/agent-lens"
+}

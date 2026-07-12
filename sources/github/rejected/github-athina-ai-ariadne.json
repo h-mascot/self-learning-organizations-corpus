@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/athina-ai/ariadne",
+  "content_sha256": "c41ff9add8be745051cf79b4b29ab4b7280bb4c168314c8833e3b85a46db04f1",
+  "creator": "athina-ai",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "explanations for the failures. ## Installation ```bash pip install ariadne-ai ``` or ```python poetry run python run_experiment_rag.py poetry run python run_experiment_summarization.py ``` or see the provided [notebook examples](examples/) ## Text Summarization ![Text Summarization QAG Approach](docs/QAG_approach.png) For text summarization, a question-answer generation (QAG) framework has been developed, which allows us to pinpoint failure cases in production without human-annotated reference summaries. Here is a breakdown of our approach: 1. **Question Generation:** The LLM formulates closed-ended (Yes/No) q"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository athina-ai/ariadne; discovered by github-repos-02.",
+  "published_date": "2023-09-17",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-02"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "athina-ai/ariadne",
+    "last_push": "2024-01-22T18:47:27Z",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "url": "https://api.github.com/licenses/apache-2.0"
+    },
+    "stars_at_retrieval": 35
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:03Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'apache-2.0', 'name': 'Apache License 2.0', 'url': 'https://api.github.com/licenses/apache-2.0'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-athina-ai-ariadne",
+  "status": "rejected",
+  "title": "athina-ai/ariadne"
+}

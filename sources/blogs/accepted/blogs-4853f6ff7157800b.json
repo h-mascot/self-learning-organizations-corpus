@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.kitchensoap.com/2013/09/30/learning-from-failure-at-etsy/",
+  "content_sha256": "cee917c30b0bb1e3274397a0b9d4edba19437537d20ac446090ca057586049a2",
+  "creator": "kitchensoap.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "public primary page",
+      "text": "Markdown Content: _(This was originally [posted](http://codeascraft.com/2012/05/22/blameless-postmortems/ \"Blameless Postmortems\") on Code As Craft, Etsy’s engineering blog. I’m re-posting it here because it still resonates strongly as I prepare to teach a ‘postmortem facilitator’s course internally at Etsy.)_ Last week, Owen Thomas wrote a flattering [article over at Business Insider](http://articles.businessinsider.com/2012-05-15/tech/31708880_1_etsy-mortem-blameless \"Don't Play The Blame Game\") on how we handle errors and mistakes at Etsy. I thought I might give some detail on how that actually happens,"
+    }
+  ],
+  "platform": "blogs",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-blogs.",
+  "published_date": null,
+  "publisher": "kitchensoap.com",
+  "query_ids": [
+    "citation-catalog-blogs"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Primary source evidence describes a learning, evaluation, feedback, adaptation, or agentic operating mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:23Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "article",
+  "stable_id": "blogs-4853f6ff7157800b",
+  "status": "accepted",
+  "title": "Kitchen Soap – Learning from Failure at Etsy"
+}

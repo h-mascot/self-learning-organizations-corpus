@@ -1,0 +1,36 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://openlibrary.org/works/OL20752900W",
+  "content_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "creator": "Indira Rachmawati; Ratih Hendayani",
+  "date_precision": "year",
+  "evidence": [],
+  "identifiers": {
+    "catalog_id": "OL20752900W",
+    "isbn": [
+      "1000069788",
+      "0367545810",
+      "9781000069785"
+    ]
+  },
+  "platform": "books",
+  "provenance": "Public bibliographic record OL20752900W; discovered by openlibrary-books-01.",
+  "published_date": "2020-01-01",
+  "publisher": "CRC Press LLC",
+  "query_ids": [
+    "openlibrary-books-01"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Title/description matches the corpus query family: learning organization."
+  ],
+  "retrieval_method": "Open Library public Search API",
+  "retrieved_at": "2026-07-12T08:38:19Z",
+  "rights_note": "Bibliographic metadata and at most a bounded publisher/API description are stored; no book text is copied.",
+  "rights_status": "metadata-only",
+  "schema_version": 2,
+  "source_type": "book",
+  "stable_id": "books-google-OL20752900W",
+  "status": "accepted",
+  "title": "Managing Learning Organization in Industry 4. 0"
+}

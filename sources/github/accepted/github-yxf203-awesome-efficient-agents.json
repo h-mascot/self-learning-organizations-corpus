@@ -1,0 +1,44 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://github.com/yxf203/Awesome-Efficient-Agents",
+  "content_sha256": "6264f33fe12668e0e26350ba65479388f9383a8c11a947cc4c02eb3e5f64604c",
+  "creator": "yxf203",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "categorization. ## ⚡Introduction Recent years have seen growing interest in extending large language models into agentic systems. While agent capabilities have advanced rapidly, efficiency has received comparatively less attention despite being crucial for real-world deployment. This repository studies efficiency-guided agent design from three core components: memory, tool use, and planning. We provide a curated paper list to help readers quickly locate representative work, along with lightweight notes on how each topic connects to efficiency. - **Efficient Memory.** We organize memory-related papers into "
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository yxf203/Awesome-Efficient-Agents; discovered by github-repos-01.",
+  "published_date": "2026-01-13",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-01"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Repository supplies infrastructure for the agent memory learning/evaluation mechanism."
+  ],
+  "repository": {
+    "full_name": "yxf203/Awesome-Efficient-Agents",
+    "last_push": "2026-06-15T03:23:35Z",
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "stars_at_retrieval": 284
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:38:53Z",
+  "rights_note": "Repository license reported by GitHub: {'key': '', 'name': '', 'url': ''}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-yxf203-awesome-efficient-agents",
+  "status": "accepted",
+  "title": "yxf203/Awesome-Efficient-Agents"
+}

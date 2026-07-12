@@ -1,0 +1,35 @@
+{
+  "artifact_level": "transcript",
+  "canonical_url": "https://www.youtube.com/watch?v=qbvY0dQgSJ4",
+  "content_sha256": "31c21bb6ef5980cb2bcd16f82ec362fb90123073b0aedbb641e5f7c3cfffa3a8",
+  "creator": "Chip Huyen",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "transcript",
+      "locator": "public transcript near matched timestamp (chip-huyen)",
+      "text": "(00:39:32): For GenAI in company, I think there are two types of GenAI toolings that have been, I've seen ones is to internal productivity, like have coding tools, Slack chatbot, internal knowledge. A lot of big enterprises have some a wrapper around models, so with access to maybe some different type of a RAG solution. I think we talk about data or kind of like text-based RAG. We haven't talked about agentic RAG or I haven't talked about multi-modal RAG yet. But this, yes, it's a whole very exciting area around that. So basically, it should allow the employee to access internal document. Somebody ask, okay, I'm having a baby. What could be the maternal or paternal policy"
+    }
+  ],
+  "platform": "podcasts",
+  "provenance": "Public timestamped transcript at ChatPRD/lennys-podcast-transcripts/chip-huyen; original video ID qbvY0dQgSJ4.",
+  "published_date": "2025-10-23",
+  "publisher": "Lenny's Podcast",
+  "query_ids": [
+    "github-citation-lennys-podcast-transcripts"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Multiple transcript passages match organizational feedback, experimentation, learning, memory, or AI-agent operating mechanisms."
+  ],
+  "retrieval_method": "GitHub public transcript citation; original publisher video identified in front matter",
+  "retrieved_at": "2026-07-12T08:44:29Z",
+  "rights_note": "The public transcript repository asserts no license; only a bounded timestamped span is preserved, and no complete transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "episode",
+  "stable_id": "podcasts-lenny-qbvY0dQgSJ4",
+  "status": "accepted",
+  "title": "Al Engineering 101 with Chip Huyen (Nvidia, Stanford, Netflix)",
+  "transcript_source": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/main/episodes/chip-huyen/transcript.md"
+}

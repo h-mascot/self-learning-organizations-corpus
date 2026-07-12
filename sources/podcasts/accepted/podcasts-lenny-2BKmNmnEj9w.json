@@ -1,0 +1,35 @@
+{
+  "artifact_level": "transcript",
+  "canonical_url": "https://www.youtube.com/watch?v=2BKmNmnEj9w",
+  "content_sha256": "6228eb80824f4c1ccd606c7d2a2ade5c9b334d850addd7d1e0540f807ce13a55",
+  "creator": "Albert Cheng",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "transcript",
+      "locator": "public transcript near matched timestamp (albert-cheng)",
+      "text": "(00:01:32): His unique approach to growth blends marketing, data, strategy, and product management, and in our conversation, we cover a lot of ground, including his explore and exploit framework to find growth opportunities. His biggest and most interesting growth wins at Duolingo, Grammarly and Chess.com, how he uses AI to accelerate his growth work, what he's come to realize about the power of brand and community in your growth work, his top experimentation, best practices, why his goal at every company is to run 1,000 experiments a year and so much more. (00:02:02): A huge thank you to Erik Allebest, Noam Levinsky, and Jorge Mazal for suggesting topics for this conver"
+    }
+  ],
+  "platform": "podcasts",
+  "provenance": "Public timestamped transcript at ChatPRD/lennys-podcast-transcripts/albert-cheng; original video ID 2BKmNmnEj9w.",
+  "published_date": "2025-10-05",
+  "publisher": "Lenny's Podcast",
+  "query_ids": [
+    "github-citation-lennys-podcast-transcripts"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Multiple transcript passages match organizational feedback, experimentation, learning, memory, or AI-agent operating mechanisms."
+  ],
+  "retrieval_method": "GitHub public transcript citation; original publisher video identified in front matter",
+  "retrieved_at": "2026-07-12T08:44:29Z",
+  "rights_note": "The public transcript repository asserts no license; only a bounded timestamped span is preserved, and no complete transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "episode",
+  "stable_id": "podcasts-lenny-2BKmNmnEj9w",
+  "status": "accepted",
+  "title": "Finding hidden growth opportunities in your product | Albert Cheng (Duolingo,",
+  "transcript_source": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/main/episodes/albert-cheng/transcript.md"
+}

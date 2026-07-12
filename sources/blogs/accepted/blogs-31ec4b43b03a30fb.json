@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://medium.com/leboncoin-tech-blog/confidence-by-spotify-bringing-a-b-testing-into-the-product-conversation-at-leboncoin-d197e9354854",
+  "content_sha256": "8fb5fd9ca5505cbac3486b39f676f7334a77e03337c6f1c25ab5b529f0b94ef5",
+  "creator": "medium.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "public primary page",
+      "text": "Qian Jin, Joséphine Lhermite, Olivier Dumenil, Frédéric Jouannaud, and the Spotify Confidence team._ At leboncoin, experimentation isn’t a side practice. It’s how we build and improve our platform. Across web, mobile apps, and backend services, teams regularly run A/B tests to validate hypotheses, improve user journeys, and guide product decisions with data. In 2024, we ran about 160 experiments totaling over 35 billion user impressions. Behind each of those tests was a conviction that learning beats guessing and that every experiment, whether it ships or not, makes us sharper. Yet with more than 700 people over 70 feature teams contribu"
+    }
+  ],
+  "platform": "blogs",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-blogs.",
+  "published_date": null,
+  "publisher": "medium.com",
+  "query_ids": [
+    "citation-catalog-blogs"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Primary source evidence describes a learning, evaluation, feedback, adaptation, or agentic operating mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:23Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "article",
+  "stable_id": "blogs-31ec4b43b03a30fb",
+  "status": "accepted",
+  "title": "Confidence by Spotify: how A/B testing enriches product conversations at leboncoin"
+}

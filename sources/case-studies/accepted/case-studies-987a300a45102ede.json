@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://aws.amazon.com/blogs/machine-learning/how-bunq-handles-97-of-support-with-amazon-bedrock/",
+  "content_sha256": "68f2f72a58e0f140259a9f762bec2fd36e651b2537712dea9d570faee631034e",
+  "creator": "aws.amazon.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "public primary page",
+      "text": "Share This post was co-authored with Benjamin Kleppe, Machine Learning Engineering Lead at bunq . The integration of agentic AI is transforming the banking industry, marking a significant shift from traditional customer service systems. Agentic AI demonstrates autonomous decision-making capabilities in complex financial environments, enabling banks to provide round-the-clock multilingual support, process transactions, and deliver personalized financial insights at scale. bunq is Europe’s second-largest neobank, built to make life easy for people and businesses who live an international lifestyle. Founded in 2012 by serial entrepreneur Ali "
+    }
+  ],
+  "platform": "case-studies",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-case-studies.",
+  "published_date": null,
+  "publisher": "aws.amazon.com",
+  "query_ids": [
+    "citation-catalog-case-studies"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Primary source evidence describes a learning, evaluation, feedback, adaptation, or agentic operating mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:35Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "case-study",
+  "stable_id": "case-studies-987a300a45102ede",
+  "status": "accepted",
+  "title": "How bunq handles 97% of support with Amazon Bedrock | Artificial Intelligence"
+}

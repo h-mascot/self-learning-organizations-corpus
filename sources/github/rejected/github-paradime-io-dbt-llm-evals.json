@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/paradime-io/dbt-llm-evals",
+  "content_sha256": "08165588f0a8fb95f17c4df69a7aecebb6fc7d74bf7e27a6fffacf0015736ad6",
+  "creator": "paradime-io",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "The warehouse-native LLM evaluation package for dbt™ - monitor AI quality without data egress <p align=\"center\"> <img alt=\"Paradime.io Logo\" src=\"https://20146536.fs1.hubspotusercontent-na1.net/hubfs/20146536/paradime-dbt-llm-evals.png\"> </p> <p align=\"center\"> <a href=\"https://github.com/paradime-io/dbt-llm-evals/issues\"><img src=\"https://img.shields.io/badge/Contribute-Open_GitHub_Issue-584cff\"/></a> <a href=\"#quick-start\"><img src=\"https://img.shields.io/badge/Docs-Quickstart-584cff\"/></a> <img alt=\"License\" src=\"https://img.shields.io/badge/License-Apache%202.0-584cff\"/> <h2 align=\"center\"> Warehouse-native"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository paradime-io/dbt-llm-evals; discovered by github-repos-02.",
+  "published_date": "2026-01-19",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-02"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "paradime-io/dbt-llm-evals",
+    "last_push": "2026-02-10T21:32:55Z",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "url": ""
+    },
+    "stars_at_retrieval": 30
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:04Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'other', 'name': 'Other', 'url': ''}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-paradime-io-dbt-llm-evals",
+  "status": "rejected",
+  "title": "paradime-io/dbt-llm-evals"
+}

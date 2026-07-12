@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/litefuse/litefuse",
+  "content_sha256": "8aa1ab92fd897ab7489ff744b3018406e928de82c1d506a2e3b2aa86af6d1264",
+  "creator": "litefuse",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "Litefuse - Agent Observability and Evaluation Platform <img alt=\"Litefuse banner\" src=\"./.github/assets/banner.png\" /> <div align=\"center\"> <div> <h3> <a href=\"https://litefuse.ai/blog/2025-06-04-open-sourcing-litefuse-product\"> <strong>Litefuse Is Doubling Down On Open Source</strong> </a> <br> <br> <a href=\"https://cloud.litefuse.ai\"> <strong>Litefuse Cloud</strong> </a> · <a href=\"https://litefuse.ai/self-hosting\"> <strong>Self Host</strong> </a> · <a href=\"https://litefuse.ai/demo\"> <strong>Demo</strong> </a> </h3> </div> <div> <a href=\"https://litefuse.ai/docs\"><strong>Docs</strong></a> · <a"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository litefuse/litefuse; discovered by github-repos-08.",
+  "published_date": "2026-04-20",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-08"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "litefuse/litefuse",
+    "last_push": "2026-07-09T04:09:34Z",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "url": ""
+    },
+    "stars_at_retrieval": 66
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:40:25Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'other', 'name': 'Other', 'url': ''}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-litefuse-litefuse",
+  "status": "rejected",
+  "title": "litefuse/litefuse"
+}

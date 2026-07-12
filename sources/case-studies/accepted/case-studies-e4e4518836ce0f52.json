@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://decagon.ai/case-studies/hunter-douglas",
+  "content_sha256": "044834bdea9c79d1923baa57d828ca306c59b481b093f6881e90a04a9018136a",
+  "creator": "decagon.ai",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "public primary page",
+      "text": "conversation Chat Safe, on-brand replies Email Contextual resolutions Duet AI partner Build AOPs Workflows for AI agents Integrations Support for tool connectors Optimize Experiments Live A/B testing Testing & QA Simulations at scale Scale Insights & reporting Voice of the customer Watchtower Always on QA Suggestions AI powered knowledge Industries Retail Travel & hospitality Technology Financial services Health & wellness Media Telecommunications Customers Resources Learn Resources Hub Decagon University Glossary Introducing Duet Autopilot: The self-improving agent for conversational AI Learn more Company About Careers Security Sign"
+    }
+  ],
+  "platform": "case-studies",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-case-studies.",
+  "published_date": null,
+  "publisher": "decagon.ai",
+  "query_ids": [
+    "citation-catalog-case-studies"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Primary source evidence describes a learning, evaluation, feedback, adaptation, or agentic operating mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:35Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "case-study",
+  "stable_id": "case-studies-e4e4518836ce0f52",
+  "status": "accepted",
+  "title": "Hunter Douglas Group Customer Success Story | Decagon AI"
+}

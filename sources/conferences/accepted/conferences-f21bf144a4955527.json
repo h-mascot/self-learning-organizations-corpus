@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://github.com/microsoft/Build26-BRK252-from-observability-to-roi-for-ai-agents-on-any-framework",
+  "content_sha256": "095f3c4546e9f7cbc6a904f4939d40812b08fec3bcd65ca872688fdbe36651bf",
+  "creator": "github.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "public primary page",
+      "text": "MIT license CC-BY-SA-4.0 license Security More items Microsoft Build 2026 BRK252: From observability to ROI for AI agents on any framework Nondeterministic, multi-agent systems break traditional monitoring. As agents reach production, observability must be built in—not added after failures. This session covers modern agent observability: cross-framework tracing and evals, rigorous inner-loop practices, evolving context-specific evals, and always-on signals that connect behavior to business outcomes to measure value, cost, and ROI. Watch the Session Replay BRK252: From observability to ROI for AI agents on any framework Complete the Ha"
+    }
+  ],
+  "platform": "conferences",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-conferences.",
+  "published_date": null,
+  "publisher": "github.com",
+  "query_ids": [
+    "citation-catalog-conferences"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Primary source evidence describes a learning, evaluation, feedback, adaptation, or agentic operating mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:26Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "talk",
+  "stable_id": "conferences-f21bf144a4955527",
+  "status": "accepted",
+  "title": "GitHub - microsoft/Build26-BRK252-from-observability-to-roi-for-ai-agents-on-any-framework: Resources for modern agent observability — cross-framework tracing, evals, always-on signals connecting agent behavior to business outcomes, cost, and ROI. From Microsoft Build 2026. · GitHub"
+}

@@ -1,0 +1,44 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://github.com/TeleAI-UAGI/Awesome-Agent-Memory",
+  "content_sha256": "fc753afbc6fa73487e1e99615f41cb3382be11943f4c35d6702b97060347e285",
+  "creator": "TeleAI-UAGI",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "name=\"readme-top\"></a> <h1 align=\"center\">🧠 Awesome Agent Memory</h1> <p align=\"center\"> A curated map of memory for AI agents — the systems, benchmarks, and research that give LLM and multimodal agents long-term context, persistent recall, and the ability to improve from experience. </p> <p align=\"center\"> 👀 <b>Open-source</b> resources (e.g. papers with reproducible code publicly available on Github) are marked in bold font and ranked higher. </p> <p align=\"center\"> <a href=\"https://github.com/sindresorhus/awesome\"><img src=\"https://awesome.re/badge.svg\" alt=\"Awesome\"></a> <a href=\"LICENSE\"><img src=\"https:/"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository TeleAI-UAGI/Awesome-Agent-Memory; discovered by github-repos-01.",
+  "published_date": "2025-10-30",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-01"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Repository supplies infrastructure for the agent memory learning/evaluation mechanism."
+  ],
+  "repository": {
+    "full_name": "TeleAI-UAGI/Awesome-Agent-Memory",
+    "last_push": "2026-07-11T18:25:53Z",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "url": "https://api.github.com/licenses/apache-2.0"
+    },
+    "stars_at_retrieval": 527
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:38:44Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'apache-2.0', 'name': 'Apache License 2.0', 'url': 'https://api.github.com/licenses/apache-2.0'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-teleai-uagi-awesome-agent-memory",
+  "status": "accepted",
+  "title": "TeleAI-UAGI/Awesome-Agent-Memory"
+}

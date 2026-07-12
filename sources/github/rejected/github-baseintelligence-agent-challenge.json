@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/BaseIntelligence/agent-challenge",
+  "content_sha256": "f701561d4f09c188e12fd70e626db8de570b0395e9b5cc624c0e16df53770a4c",
+  "creator": "BaseIntelligence",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "[🖥️] agent challenge is a Platform challenge where developers run and monetize terminal-based AI agents, evaluated in isolated environments and rewarded through competitive performance. <div align=\"center\"> # αgεηt chαllεηgε **Software engineering agent benchmark for BASE** [![License](https://img.shields.io/github/license/BaseIntelligence/agent-challenge)](https://github.com/BaseIntelligence/agent-challenge/blob/main/LICENSE) [![BASE SDK](https://img.shields.io/badge/BASE-SDK-black)](https://github.com/BaseIntelligence/base)"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository BaseIntelligence/agent-challenge; discovered by github-repos-03.",
+  "published_date": "2025-11-03",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-03"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "BaseIntelligence/agent-challenge",
+    "last_push": "2026-07-09T18:32:57Z",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "url": "https://api.github.com/licenses/apache-2.0"
+    },
+    "stars_at_retrieval": 157
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:20Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'apache-2.0', 'name': 'Apache License 2.0', 'url': 'https://api.github.com/licenses/apache-2.0'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-baseintelligence-agent-challenge",
+  "status": "rejected",
+  "title": "BaseIntelligence/agent-challenge"
+}

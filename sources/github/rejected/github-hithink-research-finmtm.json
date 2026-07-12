@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/HiThink-Research/FinMTM",
+  "content_sha256": "d909c490f1c28f78c0cfa67098ba214d75f491328d3403306d7db1c71a2e4795",
+  "creator": "HiThink-Research",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "FinMTM: A Multi-Turn Multimodal Benchmark for Financial Reasoning and Agent Evaluation <p align=\"center\"> <h1 align=\"center\"> <img src=\"static/logo.png\" height=\"40\" style=\"position:relative; top:6px;\"> FinMTM: A Multi-Turn Multimodal Benchmark for Financial Reasoning and Agent Evaluation </h1> </p> <!-- <p align=\"center\"> 📖<a href=\"https://arxiv.org/abs/2602.03130\">[Paper]</a> | 🏠<a href=\"https://bbdjj.github.io/FinMTM.github-io/\">[Project Page]</a>|🤗<a href=\"https://huggingface.co/datasets/HiThink-Research/FinMTM\">[Huggingface]</a> </p> --> <br> <p align=\"center\"> <img src=\"static/main2.png\" hetight=\"320\" />"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository HiThink-Research/FinMTM; discovered by github-repos-03.",
+  "published_date": "2026-01-06",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-03"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "HiThink-Research/FinMTM",
+    "last_push": "2026-05-06T07:46:43Z",
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "stars_at_retrieval": 31
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:32Z",
+  "rights_note": "Repository license reported by GitHub: {'key': '', 'name': '', 'url': ''}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-hithink-research-finmtm",
+  "status": "rejected",
+  "title": "HiThink-Research/FinMTM"
+}

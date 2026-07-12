@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.microsoft.com/en/customers/story/26405-premera-blue-cross-microsoft-365",
+  "content_sha256": "8d751ceb3bf154f472afd470f87650962c8252dad49f931d48c411e23952a61f",
+  "creator": "microsoft.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "public primary page",
+      "text": "as IT and engineering teams were already stretched to capacity. The constraint was clear: how do you create space to experiment, learn, and modernize without asking already maxed teams to do more, while continuing to meet the demands of a highly regulated, service critical industry? At the same time, urgency was growing. As Dr. Mayers explains, what began as a desire to improve employee productivity quickly expanded into a broader set of questions: “How does this impact our customers? Is this going to enrich our value proposition? And how do we think about the competitive landscape?” Capacity constraints were real and they directly shaped "
+    }
+  ],
+  "platform": "case-studies",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-case-studies.",
+  "published_date": null,
+  "publisher": "microsoft.com",
+  "query_ids": [
+    "citation-catalog-case-studies"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Primary source evidence describes a learning, evaluation, feedback, adaptation, or agentic operating mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:33Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "case-study",
+  "stable_id": "case-studies-01769b027c3f569e",
+  "status": "accepted",
+  "title": "Premera Blue Cross makes AI mainstream with Copilot and Copilot Studio | Microsoft Customer Stories"
+}

@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/FrontisAI/Awesome-Self-Improving-Agents",
+  "content_sha256": "5b8f8028a8e33f91b8c26fed3129f094a2d78827151365e5234a694f9797b592",
+  "creator": "FrontisAI",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "for agents in the era of experience <div align=\"center\"> <img src=\"figs/chapters.png\" style=\"width: 100%;\"/> ## Self-Improving Agents in the Era of Experience: A Survey of Self- to Meta-Evolution [![Awesome](https://img.shields.io/badge/Awesome-0066CC?style=for-the-badge&logo=awesome-lists&logoColor=white)](https://github.com/sindresorhus/awesome) [![Survey](https://img.shields.io/badge/Survey-coming%20soon-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](#citation) [![PDF](https://img.shields.io/badge/OpenReview-PDF-B31B1B?style=for-the-badge&logo=openreview&logoColor=white)](https://openreview.ne"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository FrontisAI/Awesome-Self-Improving-Agents; discovered by github-repos-06.",
+  "published_date": "2026-06-24",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-06"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "FrontisAI/Awesome-Self-Improving-Agents",
+    "last_push": "2026-07-03T04:53:14Z",
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "stars_at_retrieval": 126
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:53Z",
+  "rights_note": "Repository license reported by GitHub: {'key': '', 'name': '', 'url': ''}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-frontisai-awesome-self-improving-agents",
+  "status": "rejected",
+  "title": "FrontisAI/Awesome-Self-Improving-Agents"
+}

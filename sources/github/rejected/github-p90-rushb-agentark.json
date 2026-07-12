@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/P90-RushB/AgentArk",
+  "content_sha256": "f3718bdbb8cc4b9cc72dca7cf5369068813d94e77a1c3ab7b154cb84d55f177c",
+  "creator": "P90-RushB",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "A General-Purpose Environment Framework for Scalable Multimodal Agent Evaluation and RL # AgentArk English | [简体中文](README.zh-CN.md) <p align=\"center\"> <img src=\"docs/figures/agentark-figure1.png\" alt=\"AgentArk architecture and workflow overview\" width=\"900\"> </p> AgentArk is an open environment framework for multimodal agents: models can see interactive tasks, write actions as code or tool calls, receive verifiable feedback, and improve through evaluation, replay, or RL. The goal is not to freeze one benchmark. AgentArk is built as infrastructure for continuously growing interactive tasks. Its base environment"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository P90-RushB/AgentArk; discovered by github-repos-03.",
+  "published_date": "2025-08-21",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-03"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "P90-RushB/AgentArk",
+    "last_push": "2026-07-12T04:39:35Z",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "url": "https://api.github.com/licenses/apache-2.0"
+    },
+    "stars_at_retrieval": 46
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:27Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'apache-2.0', 'name': 'Apache License 2.0', 'url': 'https://api.github.com/licenses/apache-2.0'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-p90-rushb-agentark",
+  "status": "rejected",
+  "title": "P90-RushB/AgentArk"
+}

@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/OWASP/www-project-agent-observability-standard",
+  "content_sha256": "521927b3f960c1f5ff1964492d6dd0d9b0809f0161226c95fdba0f9e0ed8bd47",
+  "creator": "OWASP",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "![AOS Banner](docs/assets/banner.png) **Making AI agents trustworthy by standardizing observability.** ## Rational Agents must become trustworthy to enable widescale adoption. Transparency is the foundation of trust. Whether built in-house or adopted as part of a service. Consumed on cloud, as SaaS, on-prem or on endpoints. Agents must be fully observable by the enterprise that welcomes them in. We cannot trust a magic black-box. For agents to become trustworthy they must be **inspectable, traceable and instrumentable**. - **Inspectable:** w"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository OWASP/www-project-agent-observability-standard; discovered by github-repos-08.",
+  "published_date": "2025-05-08",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-08"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "OWASP/www-project-agent-observability-standard",
+    "last_push": "2026-07-08T09:08:41Z",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "url": "https://api.github.com/licenses/apache-2.0"
+    },
+    "stars_at_retrieval": 54
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:40:26Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'apache-2.0', 'name': 'Apache License 2.0', 'url': 'https://api.github.com/licenses/apache-2.0'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-owasp-www-project-agent-observability-standard",
+  "status": "rejected",
+  "title": "OWASP/www-project-agent-observability-standard"
+}

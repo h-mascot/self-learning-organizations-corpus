@@ -1,0 +1,35 @@
+{
+  "artifact_level": "transcript",
+  "canonical_url": "https://www.youtube.com/watch?v=crMrVozp_h8",
+  "content_sha256": "e6fff2a09b3a070c90df5a436f785700cfc702f13b978c5b6a5e376b24d9e74c",
+  "creator": "Dan Shipper",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "transcript",
+      "locator": "public transcript near matched timestamp (dan-shipper)",
+      "text": "(00:07:47): You can give it something to do and it will go off and it'll run for 20 or 30 minutes and complete a task autonomously, agentically. Especially with Claude Opus 4 that just came out, it's this gigantic leap forward in AI's ability to work by itself. And Claude Code can even spawn multiple sub-agents that do a bunch of tasks in parallel and it's incredibly useful for programmers. Everybody inside of Every is using it all day, every day. Everyone's agent-pilled. They've got 15 agents doing all this kind of stuff. It's crazy. (00:08:18): But non-programmers don't use it because it's intimidating to use the terminal. But for example, you can download all your mee"
+    }
+  ],
+  "platform": "podcasts",
+  "provenance": "Public timestamped transcript at ChatPRD/lennys-podcast-transcripts/dan-shipper; original video ID crMrVozp_h8.",
+  "published_date": "2025-07-17",
+  "publisher": "Lenny's Podcast",
+  "query_ids": [
+    "github-citation-lennys-podcast-transcripts"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Multiple transcript passages match organizational feedback, experimentation, learning, memory, or AI-agent operating mechanisms."
+  ],
+  "retrieval_method": "GitHub public transcript citation; original publisher video identified in front matter",
+  "retrieved_at": "2026-07-12T08:44:29Z",
+  "rights_note": "The public transcript repository asserts no license; only a bounded timestamped span is preserved, and no complete transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "episode",
+  "stable_id": "podcasts-lenny-crMrVozp_h8",
+  "status": "accepted",
+  "title": "The AI-native startup: 5 products, 7-figure revenue, 100% AI-written code.",
+  "transcript_source": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/main/episodes/dan-shipper/transcript.md"
+}

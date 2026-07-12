@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/lostbean/agent_obs",
+  "content_sha256": "744c72bf5770417ecde8443fae2f116c12a4bcb6b97a0e8917385722d6c619a2",
+  "creator": "lostbean",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "for LLM agent observability.** AgentObs provides a simple, powerful, and idiomatic interface for instrumenting LLM agentic applications with telemetry events. It supports multiple observability backends through a pluggable handler architecture. ## Features - 🎯 **High-level instrumentation helpers** - `trace_agent/3`, `trace_tool/3`, `trace_llm/3`, `trace_prompt/3` - 🤖 **ReqLLM integration helpers (optional)** - Automatic instrumentation for ReqLLM with token tracking and streaming support - 🔌 **Pluggable backend architecture** - Support for multiple observability platforms - 🌟 **OpenInference support** - Ful"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository lostbean/agent_obs; discovered by github-repos-08.",
+  "published_date": "2025-10-23",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-08"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "lostbean/agent_obs",
+    "last_push": "2026-06-17T21:36:01Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stars_at_retrieval": 11
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:40:35Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'mit', 'name': 'MIT License', 'url': 'https://api.github.com/licenses/mit'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-lostbean-agent-obs",
+  "status": "rejected",
+  "title": "lostbean/agent_obs"
+}

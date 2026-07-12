@@ -1,0 +1,32 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://www.self-managementinstitute.org/about-morning-star",
+  "content_sha256": "ddea0cf3f14fc8b0f08f9d04908580d8c3a442fefa7a84c310246bf939845b90",
+  "creator": "Self-Management Institute",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "public publisher page",
+      "text": "The retrieval backend could not find the public page, so the early lead is preserved without substantive evidence."
+    }
+  ],
+  "platform": "case-studies",
+  "provenance": "Recovered from research/discovery-inventory.md via early-inventory-case-studies.",
+  "published_date": null,
+  "publisher": "Self-Management Institute",
+  "query_ids": [
+    "early-inventory-case-studies"
+  ],
+  "rejection_reason": "Public retrieval did not substantiate the earlier discovery claim.",
+  "relevance_evidence": [],
+  "retrieval_method": "public publisher retrieval",
+  "retrieved_at": "2026-07-12T08:36:25Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete protected work is copied.",
+  "rights_status": "retrieval-evidence-only",
+  "schema_version": 2,
+  "source_type": "case-study",
+  "stable_id": "case-studies-014474f7bd94c52b",
+  "status": "rejected",
+  "title": "The Morning Star Company: Self-Management at Scale"
+}

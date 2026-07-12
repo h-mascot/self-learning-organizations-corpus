@@ -1,0 +1,34 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://openlibrary.org/works/OL8393686W",
+  "content_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "creator": "Arnon Bentovim",
+  "date_precision": "year",
+  "evidence": [],
+  "identifiers": {
+    "catalog_id": "OL8393686W",
+    "isbn": [
+      "9781855750128",
+      "0429937547",
+      "042990908X"
+    ]
+  },
+  "platform": "books",
+  "provenance": "Public bibliographic record OL8393686W; discovered by openlibrary-books-05.",
+  "published_date": "1992-01-01",
+  "publisher": "Karnac Books",
+  "query_ids": [
+    "openlibrary-books-05"
+  ],
+  "rejection_reason": "Metadata did not establish topical relevance.",
+  "relevance_evidence": [],
+  "retrieval_method": "Open Library public Search API",
+  "retrieved_at": "2026-07-12T08:38:24Z",
+  "rights_note": "Bibliographic metadata and at most a bounded publisher/API description are stored; no book text is copied.",
+  "rights_status": "metadata-only",
+  "schema_version": 2,
+  "source_type": "book",
+  "stable_id": "books-google-OL8393686W",
+  "status": "rejected",
+  "title": "Trauma-organized systems"
+}

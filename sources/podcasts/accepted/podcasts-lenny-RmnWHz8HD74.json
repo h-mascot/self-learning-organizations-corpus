@@ -1,0 +1,35 @@
+{
+  "artifact_level": "transcript",
+  "canonical_url": "https://www.youtube.com/watch?v=RmnWHz8HD74",
+  "content_sha256": "16b3cd98d61c2a174a494132a8e037d2ddba39ac09cf3e4bec290973f9f20e96",
+  "creator": "Jeanne Grosser",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "transcript",
+      "locator": "public transcript near matched timestamp (jeanne-grosser)",
+      "text": "(00:03:14): This episode is brought to you by Datadog, now home to Epo, the leading experimentation and feature flagging platform. Product managers at the world's best companies use Datadog, the same platform their engineers rely on every day to connect product insights to product issues like bugs, UX, friction and business impact. (00:03:32): It starts with product analytics where PMs can watch replays, review funnels, dive into retention, and explore their growth metrics. Where other tools stop, Datadog goes even further. It helps you actually diagnose the impact of funnel drop-offs and bugs and UX friction. Once you know where to focus experiments, prove what works. I"
+    }
+  ],
+  "platform": "podcasts",
+  "provenance": "Public timestamped transcript at ChatPRD/lennys-podcast-transcripts/jeanne-grosser; original video ID RmnWHz8HD74.",
+  "published_date": "2025-11-30",
+  "publisher": "Lenny's Podcast",
+  "query_ids": [
+    "github-citation-lennys-podcast-transcripts"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Multiple transcript passages match organizational feedback, experimentation, learning, memory, or AI-agent operating mechanisms."
+  ],
+  "retrieval_method": "GitHub public transcript citation; original publisher video identified in front matter",
+  "retrieved_at": "2026-07-12T08:44:29Z",
+  "rights_note": "The public transcript repository asserts no license; only a bounded timestamped span is preserved, and no complete transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "episode",
+  "stable_id": "podcasts-lenny-RmnWHz8HD74",
+  "status": "accepted",
+  "title": "What world-class GTM looks like in 2026 | Jeanne DeWitt Grosser (Vercel, Stripe,",
+  "transcript_source": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/main/episodes/jeanne-grosser/transcript.md"
+}

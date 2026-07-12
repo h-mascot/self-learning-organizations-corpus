@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/mbchang/meta-prompt",
+  "content_sha256": "13e0999f923540c826c89abae32ad30c8bf8c54c97549683931f480ebb3b176d",
+  "creator": "mbchang",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "A re-implementation of Meta-Prompt in LangChain for building self-improving agents. # Meta-Prompt This is a minimal re-implementation of [Meta-Prompt](https://noahgoodman.substack.com/p/meta-prompt-a-simple-self-improving), by [Noah Goodman](https://cocolab.stanford.edu/ndg), for building self-improving agents. It is written in [LangChain](https://github.com/hwchase17/langchain). <p align=\"center\"> <img src=\"assets/drawing_hands.png\" alt=\"escher drawing hands\" width=\"50%\"> </p> Meta-Prompt is a simple self-improving language agent that reflects on interactions with a user and modifies its own instructions based"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository mbchang/meta-prompt; discovered by github-repos-06.",
+  "published_date": "2023-04-13",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-06"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "mbchang/meta-prompt",
+    "last_push": "2023-04-16T18:56:48Z",
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "stars_at_retrieval": 65
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:56Z",
+  "rights_note": "Repository license reported by GitHub: {'key': '', 'name': '', 'url': ''}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-mbchang-meta-prompt",
+  "status": "rejected",
+  "title": "mbchang/meta-prompt"
+}

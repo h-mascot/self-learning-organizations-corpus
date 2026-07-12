@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/altryne/llm-evals-workshop",
+  "content_sha256": "eeb1d411468ba73656c59d3a67ae706565630bbe897030983fc65a8a3bed708b",
+  "creator": "altryne",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "Materials for the LLM Evals Workshop from Weights & BIases # LLM Evaluations Workshop A workshop project demonstrating how to build and evaluate LLM-powered classification systems using real-world data from Bluesky social network. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/altryne/llm-evals-workshop/blob/main/eval.ipynb) ## Overview This workshop explores a comprehensive methodology for productizing robust LLM applications through tracing, dataset creation, and evaluation. Using [W&B Weave](https://wandb.me/weave-workshop-jan), we'll"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository altryne/llm-evals-workshop; discovered by github-repos-02.",
+  "published_date": "2025-01-06",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-02"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "altryne/llm-evals-workshop",
+    "last_push": "2025-02-24T22:38:32Z",
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "stars_at_retrieval": 15
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:11Z",
+  "rights_note": "Repository license reported by GitHub: {'key': '', 'name': '', 'url': ''}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-altryne-llm-evals-workshop",
+  "status": "rejected",
+  "title": "altryne/llm-evals-workshop"
+}

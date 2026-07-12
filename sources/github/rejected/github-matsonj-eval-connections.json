@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/matsonj/eval-connections",
+  "content_sha256": "14e4eb835c0f3797b354280afec936baf695bdb86bf9fb3cc13841f8322bc2b7",
+  "creator": "matsonj",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "AI models (or humans) on New York Times *Connections* puzzles. ## Overview This project provides a comprehensive evaluation framework for testing linguistic reasoning capabilities using *Connections* puzzles. It supports 200+ AI models through a unified OpenRouter integration and includes both batch evaluation and interactive modes. ## Features - **Multi-model support**: Access 200+ AI models through OpenRouter (OpenAI, Anthropic, xAI, Google Gemini, and more) - **Reasoning model support**: Full support for reasoning models (GPT-5, o3, Grok-4, etc.) with proper parameter handling - **Parallel execution**: "
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository matsonj/eval-connections; discovered by github-repos-02.",
+  "published_date": "2025-07-31",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-02"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "matsonj/eval-connections",
+    "last_push": "2026-07-10T17:55:41Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stars_at_retrieval": 25
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:05Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'mit', 'name': 'MIT License', 'url': 'https://api.github.com/licenses/mit'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-matsonj-eval-connections",
+  "status": "rejected",
+  "title": "matsonj/eval-connections"
+}

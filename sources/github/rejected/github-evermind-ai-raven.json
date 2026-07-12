@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/EverMind-AI/Raven",
+  "content_sha256": "b5d8e44c56ccf6634a92d0c2b53770f4f865c4a9d9d5738d7d5d705a1565040b",
+  "creator": "EverMind-AI",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "The memory-first self-improving agent harness built on EverOS. <div align=\"center\" id=\"readme-top\"> ![Raven banner](https://github.com/user-attachments/assets/5a99d736-49ee-49c9-8b51-890f14078e78) <p align=\"center\"> <a href=\"https://x.com/evermind\"><img src=\"https://img.shields.io/badge/EverMind-000000?labelColor=gray&style=for-the-badge&logo=x&logoColor=white\" alt=\"X\"></a> <a href=\"https://huggingface.co/EverMind-AI\"><img src=\"https://img.shields.io/badge/🤗_HuggingFace-EverMind-F5C842?labelColor=gray&style=for-the-badge\" alt=\"HuggingFace\"></a> <a href=\"https://discord.gg/gYep5nQRZJ\"><img"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository EverMind-AI/Raven; discovered by github-repos-06.",
+  "published_date": "2026-05-21",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-06"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "EverMind-AI/Raven",
+    "last_push": "2026-07-12T08:18:29Z",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "url": "https://api.github.com/licenses/apache-2.0"
+    },
+    "stars_at_retrieval": 1396
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:44Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'apache-2.0', 'name': 'Apache License 2.0', 'url': 'https://api.github.com/licenses/apache-2.0'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-evermind-ai-raven",
+  "status": "rejected",
+  "title": "EverMind-AI/Raven"
+}

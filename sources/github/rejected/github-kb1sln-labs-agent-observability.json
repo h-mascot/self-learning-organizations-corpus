@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/KB1SLN-Labs/agent-observability",
+  "content_sha256": "8958bf62c5318e1e0db35d270304681f8fcfa712e7f4db5b94249368db91c665",
+  "creator": "KB1SLN-Labs",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "code review, multi-agent work. Compare against Main Session Cost to understand what fraction of your usage is autonomous parallel work versus direct conversation. Includes the 7-day average and today-vs-yesterday change. #### API-Equivalent Main Session Cost API-equivalent cost from primary conversation turns: your prompts and Claude's direct responses. Excludes subagent and auxiliary tasks. Includes the 7-day average and percentage change. #### API-Equivalent Cost Forecast Daily and monthly projections of API-equivalent cost extrapolated from the current 6-hour burn rate. The 6-hour window smooths out "
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository KB1SLN-Labs/agent-observability; discovered by github-repos-08.",
+  "published_date": "2026-06-07",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-08"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "KB1SLN-Labs/agent-observability",
+    "last_push": "2026-06-24T14:22:57Z",
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "stars_at_retrieval": 11
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:40:36Z",
+  "rights_note": "Repository license reported by GitHub: {'key': '', 'name': '', 'url': ''}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-kb1sln-labs-agent-observability",
+  "status": "rejected",
+  "title": "KB1SLN-Labs/agent-observability"
+}

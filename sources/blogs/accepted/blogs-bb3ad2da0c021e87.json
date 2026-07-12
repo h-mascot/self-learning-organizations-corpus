@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://aws.amazon.com/blogs/machine-learning/evaluating-ai-agents-real-world-lessons-from-building-agentic-systems-at-amazon/",
+  "content_sha256": "4fd6459e84173bb53acf06861a26ca08b313da7a2f963668360f0020041b394c",
+  "creator": "aws.amazon.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "public primary page",
+      "text": "Title: Evaluating AI agents: Real-world lessons from building agentic systems at Amazon | Artificial Intelligence Evaluating AI agents: Real-world lessons from building agentic systems at Amazon | Artificial Intelligence Skip to Main Content Filter: All English Contact us AWS Marketplace Support My account Search Filter: All Sign in to console Create account AWS Blogs Home Blogs Editions Artificial Intelligence Evaluating AI agents: Real-world lessons from building agentic systems at Amazon by Yunfei Bai , Allie Colin , Kashif Imran , and Winnie Xiong on 18 FEB 2026 in Amazon Bedrock AgentCore , Artificial Intelligence , Best Practices ,"
+    }
+  ],
+  "platform": "blogs",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-blogs.",
+  "published_date": null,
+  "publisher": "aws.amazon.com",
+  "query_ids": [
+    "citation-catalog-blogs"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Primary source evidence describes a learning, evaluation, feedback, adaptation, or agentic operating mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:23Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "article",
+  "stable_id": "blogs-bb3ad2da0c021e87",
+  "status": "accepted",
+  "title": "Evaluating AI agents: Real-world lessons from building agentic systems at Amazon | Artificial Intelligence"
+}

@@ -1,0 +1,32 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://news.sap.com/2026/06/introducing-autonomous-enterprise-podcast-series/",
+  "content_sha256": "2e6df85b7a6b9bc275f3c2f5a1e198e73188150dbcf2d92647db99d565c440c9",
+  "creator": "Benedikt Gieger; Julia Kloppenburg",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "public publisher page",
+      "text": "The announcement establishes a relevant podcast series about autonomous-enterprise operating models, but no episode transcript or timestamped notes were available on the inspected page."
+    }
+  ],
+  "platform": "podcasts",
+  "provenance": "Recovered from research/discovery-inventory.md via early-inventory-podcasts.",
+  "published_date": "2026-06-10",
+  "publisher": "SAP",
+  "query_ids": [
+    "early-inventory-podcasts"
+  ],
+  "rejection_reason": "Public retrieval did not substantiate the earlier discovery claim.",
+  "relevance_evidence": [],
+  "retrieval_method": "public publisher retrieval",
+  "retrieved_at": "2026-07-12T08:36:25Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete protected work is copied.",
+  "rights_status": "retrieval-evidence-only",
+  "schema_version": 2,
+  "source_type": "episode",
+  "stable_id": "podcasts-308dc440052521fc",
+  "status": "rejected",
+  "title": "Introducing the Autonomous Enterprise Podcast"
+}

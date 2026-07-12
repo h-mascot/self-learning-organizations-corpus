@@ -1,0 +1,35 @@
+{
+  "artifact_level": "transcript",
+  "canonical_url": "https://www.youtube.com/watch?v=CYwgStMln6U",
+  "content_sha256": "e448714a2796e637427a9ca836ee4581f8b2309432ec17db825ff528a58f2ec7",
+  "creator": "Benjamin Mann",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "transcript",
+      "locator": "public transcript near matched timestamp (benjamin-mann)",
+      "text": "(00:33:15): This episode is brought to you by Fin, the number one AI agent for customer service. If your customer support tickets are piling up, then you need Finn. Fin. Fin is the highest performing AI agent on the market with a 59% average resolution rate. Fin resolves even the most complex customer queries. No other AI agent performs better. In head head bake-offs with competitors. Fin wins every time. Yes, switching to a new tool can be scary, but Fin works on any help desk with no migration needed, which means you don't have to overhaul your current system or deal with delays in service for your customers. And Fin is trusted by over 5,000 customer service leaders and"
+    }
+  ],
+  "platform": "podcasts",
+  "provenance": "Public timestamped transcript at ChatPRD/lennys-podcast-transcripts/benjamin-mann; original video ID CYwgStMln6U.",
+  "published_date": "2024-09-29",
+  "publisher": "Lenny's Podcast",
+  "query_ids": [
+    "github-citation-lennys-podcast-transcripts"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Multiple transcript passages match organizational feedback, experimentation, learning, memory, or AI-agent operating mechanisms."
+  ],
+  "retrieval_method": "GitHub public transcript citation; original publisher video identified in front matter",
+  "retrieved_at": "2026-07-12T08:44:29Z",
+  "rights_note": "The public transcript repository asserts no license; only a bounded timestamped span is preserved, and no complete transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "episode",
+  "stable_id": "podcasts-lenny-CYwgStMln6U",
+  "status": "accepted",
+  "title": "How marketplaces win: Liquidity, growth levers, quality, more | Benjamin Lauzier",
+  "transcript_source": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/main/episodes/benjamin-mann/transcript.md"
+}

@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://github.blog/news-insights/research/research-quantifying-github-copilots-impact-in-the-enterprise-with-accenture/",
+  "content_sha256": "d380be410a261e2e6b3655a8bb8670838fcc75deced63fdd1ae5c195a11f9f20",
+  "creator": "github.blog",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "public primary page",
+      "text": "several output performance metrics that reflect insights into developers’ regular coding activity. Beyond the initial experiment, we conducted a company-wide adoption analysis, which explored installation rates, generated code acceptance rates, and the time it took developers to accept GitHub Copilot’s first coding suggestion. Success was determined by whether they accepted a suggestion from GitHub Copilot or not. In addition, we surveyed the GitHub Copilot users at Accenture to gain a better understanding of how developers perceived the impact of GitHub Copilot on their workflows. Not only did this survey uncover insights into how and when"
+    }
+  ],
+  "platform": "case-studies",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-case-studies.",
+  "published_date": null,
+  "publisher": "github.blog",
+  "query_ids": [
+    "citation-catalog-case-studies"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Primary source evidence describes a learning, evaluation, feedback, adaptation, or agentic operating mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:34Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "case-study",
+  "stable_id": "case-studies-383c7aae946c41e1",
+  "status": "accepted",
+  "title": "Research: Quantifying GitHub Copilot’s impact in the enterprise with Accenture - The GitHub Blog"
+}

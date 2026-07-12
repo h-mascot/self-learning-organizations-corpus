@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://zephrcf.leaddev.com/technical-direction/theory-to-action-architecting-and-implementing-your-team-operating-system",
+  "content_sha256": "640b61fad19b614e68b52d3f75a88d69f82e547b447cf04cf09a39bbaafb01f9",
+  "creator": "zephrcf.leaddev.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "public primary page",
+      "text": "teams. Leave with a practical idea of how to design a flexible team operating system with rhythms, tools, and feedback loops for your team. Speakers: Meg Adams Register or log in to access this video Create an account to access our free engineering leadership content, free online events and to receive our weekly email newsletter. We will also keep you up to date with LeadDev events. Register with google or Enter email address Register Log in We have linked your account and just need a few more details to complete your registration: First name Last name Job title Company Country -- Please select -- United States United Kingdom German"
+    }
+  ],
+  "platform": "conferences",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-conferences.",
+  "published_date": null,
+  "publisher": "zephrcf.leaddev.com",
+  "query_ids": [
+    "citation-catalog-conferences"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Primary source evidence describes a learning, evaluation, feedback, adaptation, or agentic operating mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:26Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "talk",
+  "stable_id": "conferences-74c599be9d6dc364",
+  "status": "accepted",
+  "title": "Theory to action: Architecting and implementing your team operating system - LeadDev"
+}

@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/zhang677/AccelOpt",
+  "content_sha256": "1620e4e436cd158272b4f8da1ae1381082b7cac8dfb8bb7eea02a68ebba876e0",
+  "creator": "zhang677",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "[MLSys 2026] AccelOpt: Self-improving Agents for AI Accelerator Kernel Optimization <div align=\"center\"> <img src=\"img/main-method-with-fixer.png\" alt=\"Method\" style=\"width:85%;\"> </div> # AccelOpt: Self-improving Agents for AI Accelerator Kernel Optimization [![Paper](https://img.shields.io/badge/arXiv-2511.15915-b31b1b.svg)](https://arxiv.org/pdf/2511.15915) [![Blog Post](https://img.shields.io/badge/Blog-accelopt.html-blue)](https://ppl.stanford.edu/accelopt.html) [![HuggingFace](https://img.shields.io/badge/🤗-NKIBench-yellow)](https://huggingface.co/datasets/Genghan/NKIBench) AccelOpt is a self-improving"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository zhang677/AccelOpt; discovered by github-repos-06.",
+  "published_date": "2025-12-10",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-06"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "zhang677/AccelOpt",
+    "last_push": "2026-06-18T23:01:16Z",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "url": "https://api.github.com/licenses/apache-2.0"
+    },
+    "stars_at_retrieval": 57
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:56Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'apache-2.0', 'name': 'Apache License 2.0', 'url': 'https://api.github.com/licenses/apache-2.0'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-zhang677-accelopt",
+  "status": "rejected",
+  "title": "zhang677/AccelOpt"
+}

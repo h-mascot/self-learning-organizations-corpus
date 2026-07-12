@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/Mr-Q526/Agent-Observability-Demo",
+  "content_sha256": "286f38431786f8af0f42daf89a4adc4d98d90ad6b74fdf17e9ff7c53f3009f31",
+  "creator": "Mr-Q526",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "面向 AI Agent 入门者的教学项目。通过一个完整的电商客服 Agent，让你亲眼看到每一轮对话中 Agent 内部经历了哪些环节、做了什么决策、调用了什么工具、生成了什么 Prompt。 # 🔍 Agent Observability Demo — 看懂 AI Agent 的每一步 > **面向 AI Agent 入门者的教学项目。** > 通过一个完整的电商客服 Agent，让你亲眼看到每一轮对话中 Agent 内部经历了哪些环节、做了什么决策、调用了什么工具、生成了什么 Prompt。 --- ## 🔬 透明可观测的 Runtime 链路 本项目内部实现了一个完整的 Agent Runtime 引擎，**最重要的是，它的每一个处理环节都在前端 Trace 视图中对你完全透明可见**： - **NLU 意图识别**：你可以直接“看”到用户的输入是如何被分类为特定意图的，以及提取了哪些具体的 Slot (实体) 参数。 - **Guardrails 安全防护**：你可以直接“看”到安全护栏拦截注入攻击的全过程，审查被拦截的具体原因和耗时。 - **RAG 知识检索**：你可以直接“看”到系统从向量库中召回了哪些商品或知识片段，以及具体的排序打分。 - **Memory 记忆系统**：你可以直接“看”到 Agent 会话过程中，工作记忆、情节记忆和用户画像是怎么实时更新的。 - **Hybrid"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository Mr-Q526/Agent-Observability-Demo; discovered by github-repos-08.",
+  "published_date": "2026-03-14",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-08"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "Mr-Q526/Agent-Observability-Demo",
+    "last_push": "2026-03-15T07:55:37Z",
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "stars_at_retrieval": 47
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:40:27Z",
+  "rights_note": "Repository license reported by GitHub: {'key': '', 'name': '', 'url': ''}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-mr-q526-agent-observability-demo",
+  "status": "rejected",
+  "title": "Mr-Q526/Agent-Observability-Demo"
+}

@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://github.com/customer-stories/amd",
+  "content_sha256": "0c0e242447f57240af7a1953ab97936638678ed530e63ce30cc35df0e2155e4e",
+  "creator": "github.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "public primary page",
+      "text": "platform. Building on this foundation, the company deployed GitHub Copilot to automate complex development tasks using autonomous AI agents. The combination of a unified platform and agentic AI delivered three consecutive years of double-digit productivity gains and enabled an \"always-on\" workflow where agents identify and fix bugs around the clock. As a result, AMD automatically triages over 1 million nightly simulations and has compressed feature development cycles from weeks to days. Unifying 20,000+ engineers on a single platform A fundamental change in semiconductor architecture moved AMD from manufacturing single silicon dies to engine"
+    }
+  ],
+  "platform": "case-studies",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-case-studies.",
+  "published_date": null,
+  "publisher": "github.com",
+  "query_ids": [
+    "citation-catalog-case-studies"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Primary source evidence describes a learning, evaluation, feedback, adaptation, or agentic operating mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:35Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "case-study",
+  "stable_id": "case-studies-f05c072c51b3d942",
+  "status": "accepted",
+  "title": "AMD · GitHub"
+}

@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/liyecom/liye-ai",
+  "content_sha256": "ba2ff0947b8bea8b3324e200e7b8acc10f436e70c32be1e8795180e298a4f637",
+  "creator": "liyecom",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "的系统。 # LiYe OS <p align=\"center\"> <a href=\"./README.md\">English</a> | <a href=\"./README.zh-CN.md\">简体中文</a> </p> > **An AI-native infrastructure for orchestrating intelligent agents and upgrading how humans and systems work.** **Implementation**: A governance and architecture reference for Claude Code / AI-collaborative development. Turn AI outputs into auditable, replayable, and controllable engineering systems. [![Version](https://img.shields.io/badge/version-6.3.0-blue.svg)](https://github.com/liyecom/liye_os) [![License](https://img.shields.io/badge/license-Apache%202.0-green.svg)](LICENSE) [![Stability](http"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository liyecom/liye-ai; discovered by github-repos-03.",
+  "published_date": "2025-12-27",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-03"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "liyecom/liye-ai",
+    "last_push": "2026-07-12T00:45:18Z",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "url": "https://api.github.com/licenses/apache-2.0"
+    },
+    "stars_at_retrieval": 33
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:31Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'apache-2.0', 'name': 'Apache License 2.0', 'url': 'https://api.github.com/licenses/apache-2.0'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-liyecom-liye-ai",
+  "status": "rejected",
+  "title": "liyecom/liye-ai"
+}

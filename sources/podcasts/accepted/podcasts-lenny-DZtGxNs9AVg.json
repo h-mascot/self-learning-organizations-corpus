@@ -1,0 +1,35 @@
+{
+  "artifact_level": "transcript",
+  "canonical_url": "https://www.youtube.com/watch?v=DZtGxNs9AVg",
+  "content_sha256": "7397089f3c397276d64114cfa049db644117c4dc0f91392593b3c25ca52661f1",
+  "creator": "Anton Osika",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "transcript",
+      "locator": "public transcript near matched timestamp (anton-osika)",
+      "text": "(00:28:04): And so when you talk about things getting stuck, it's like the AI agent just saying, I don't know what to do from this point or they introduce some kind of bug. Is that an example of getting stuck? Anton Osika (00:28:13): Yeah. It introduces some kind of bug and then it's not smart enough to figure out how to get out of that bug. Lenny Rachitsky (00:28:20): I see. And this is a common problem people have with tools like this is they get to a certain point and then it's like, \"Well I don't know what to do. I'm not an engineer, here's a bug it's running into or the infrastructure's built the wrong way.\" And so it sounds like one of the paths to solving that is"
+    }
+  ],
+  "platform": "podcasts",
+  "provenance": "Public timestamped transcript at ChatPRD/lennys-podcast-transcripts/anton-osika; original video ID DZtGxNs9AVg.",
+  "published_date": "2025-03-09",
+  "publisher": "Lenny's Podcast",
+  "query_ids": [
+    "github-citation-lennys-podcast-transcripts"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Multiple transcript passages match organizational feedback, experimentation, learning, memory, or AI-agent operating mechanisms."
+  ],
+  "retrieval_method": "GitHub public transcript citation; original publisher video identified in front matter",
+  "retrieved_at": "2026-07-12T08:44:29Z",
+  "rights_note": "The public transcript repository asserts no license; only a bounded timestamped span is preserved, and no complete transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "episode",
+  "stable_id": "podcasts-lenny-DZtGxNs9AVg",
+  "status": "accepted",
+  "title": "Building Lovable: $10M ARR in 60 days with 15 people | Anton Osika (CEO and",
+  "transcript_source": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/main/episodes/anton-osika/transcript.md"
+}

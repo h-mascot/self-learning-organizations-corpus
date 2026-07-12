@@ -1,0 +1,44 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://github.com/VectorSpaceLab/general-agentic-memory",
+  "content_sha256": "2340b7896e05392f273d4e7eef6e6b0cd8d0653484cf1e20b9a522b732e1ef11",
+  "creator": "VectorSpaceLab",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "A general memory system for agents, powered by deep-research # GAM (General Agentic Memory via Deep Research in An Agent File System) English | [中文版](README_zh.md) A highly modular agentic file system framework that provides structured memory and operating environments for Large Language Models (LLMs). GAM supports both **text** and **video** modalities, offering four access levels: **Python SDK**, **CLI**, **REST API**, and **Web Platform**. ## Features ### 1. Core Features * 📝 **Intelligent Chunking**: LLM-based text segmentation that automatically identifies semantic boundaries. * 🧠 **Memory Generation**:"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository VectorSpaceLab/general-agentic-memory; discovered by github-repos-01.",
+  "published_date": "2025-10-08",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-01"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Repository supplies infrastructure for the agent memory learning/evaluation mechanism."
+  ],
+  "repository": {
+    "full_name": "VectorSpaceLab/general-agentic-memory",
+    "last_push": "2026-03-14T05:13:06Z",
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "stars_at_retrieval": 857
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:38:39Z",
+  "rights_note": "Repository license reported by GitHub: {'key': '', 'name': '', 'url': ''}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-vectorspacelab-general-agentic-memory",
+  "status": "accepted",
+  "title": "VectorSpaceLab/general-agentic-memory"
+}

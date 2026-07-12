@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://drcone.com/2026/05/18/toward-an-adaptive-organizational-intelligence-framework/",
+  "content_sha256": "39bca8e71b50a9a476bf0c74575fbdd1d99fdf754e2703efa373061ec51eb31d",
+  "creator": "drcone.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "public primary page",
+      "text": "Title: Toward an Adaptive Organizational Intelligence Framework - drcone.com Toward an Adaptive Organizational Intelligence Framework - drcone.com --> --> --> --> --> --> --> --> --> --> Bio/CV Books Subscribe Contact AgathonU Ergonyx Select Page Toward an Adaptive Organizational Intelligence Framework L&D , leadership , organizational leadership Today’s organizations increasingly face a paradox: they possess more technology, more automation, more data, and more management systems than ever before, yet many continue to struggle with fragmentation, disengagement, poor leadership development, operational rigidity, ineffective learning systems,"
+    }
+  ],
+  "platform": "blogs",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-blogs.",
+  "published_date": null,
+  "publisher": "drcone.com",
+  "query_ids": [
+    "citation-catalog-blogs"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Primary source evidence describes a learning, evaluation, feedback, adaptation, or agentic operating mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:23Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "article",
+  "stable_id": "blogs-abaac7fe059fe342",
+  "status": "accepted",
+  "title": "Toward an Adaptive Organizational Intelligence Framework - drcone.com"
+}

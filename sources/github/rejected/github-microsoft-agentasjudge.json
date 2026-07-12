@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/microsoft/AgentAsJudge",
+  "content_sha256": "06d22ae6f4be95648abce938bb04830d426f64619bca523bdb0284583efbf03e",
+  "creator": "microsoft",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "An agentic evaluation framework # README ## Project Overview This project evaluates the agentic quality of text samples using a multi-agent reasoning pipeline. It leverages Azure OpenAI services and a set of predefined prompts to assess the quality of content on a scale of 1 to 5, providing constructive feedback and scoring. ### Features Offered - **Multi-Agent Evaluation**: Includes discussion, criticism, and ranking agents to evaluate text samples. - **Customizable Prompts**: Prompts for agents can be tailored to specific evaluation needs. - **Scoring and Feedback**: Provides a score (1–10) and detailed"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository microsoft/AgentAsJudge; discovered by github-repos-03.",
+  "published_date": "2025-06-11",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-03"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "microsoft/AgentAsJudge",
+    "last_push": "2026-02-11T17:24:24Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stars_at_retrieval": 20
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:36Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'mit', 'name': 'MIT License', 'url': 'https://api.github.com/licenses/mit'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-microsoft-agentasjudge",
+  "status": "rejected",
+  "title": "microsoft/AgentAsJudge"
+}

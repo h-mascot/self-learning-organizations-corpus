@@ -1,0 +1,44 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://github.com/joshuadavidthomas/opencode-agent-memory",
+  "content_sha256": "56dc56da1f05c50a931029cdf1fa5ca1c2e8afd6e5f8201ef193e54f8a9e7be1",
+  "creator": "joshuadavidthomas",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "editable [memory blocks](https://docs.letta.com/guides/agents/memory-blocks/) for [OpenCode](https://opencode.ai). ## Experimental This plugin is experimental. The core idea - giving the agent persistent, self-editable memory blocks - is adapted from [Letta](https://github.com/letta-ai/letta). Specifially, the plugin follows Letta's [shared memory blocks](https://docs.letta.com/tutorials/shared-memory-blocks) pattern - the markdown files on disk are shared state that every OpenCode session can read and write. Think of it as AGENTS.md with a harness. OpenCode supports [rules](https://opencode.ai/docs/rules/) via"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository joshuadavidthomas/opencode-agent-memory; discovered by github-repos-01.",
+  "published_date": "2025-12-19",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-01"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Repository supplies infrastructure for the agent memory learning/evaluation mechanism."
+  ],
+  "repository": {
+    "full_name": "joshuadavidthomas/opencode-agent-memory",
+    "last_push": "2026-06-19T13:33:06Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stars_at_retrieval": 303
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:38:52Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'mit', 'name': 'MIT License', 'url': 'https://api.github.com/licenses/mit'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-joshuadavidthomas-opencode-agent-memory",
+  "status": "accepted",
+  "title": "joshuadavidthomas/opencode-agent-memory"
+}

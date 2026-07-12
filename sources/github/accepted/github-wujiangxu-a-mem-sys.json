@@ -1,0 +1,44 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://github.com/WujiangXu/A-mem-sys",
+  "content_sha256": "a2b90d9fa1403a29f459e53c6879dea4737494c3049e193d0eef469e697a93a1",
+  "creator": "WujiangXu",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "A-MEM: Agentic Memory for LLM Agents # Agentic Memory 🧠 A novel agentic memory system for LLM agents that can dynamically organize memories in an agentic way. ## Introduction 🌟 Large Language Model (LLM) agents have demonstrated remarkable capabilities in handling complex real-world tasks through external tool usage. However, to effectively leverage historical experiences, they require sophisticated memory systems. Traditional memory systems, while providing basic storage and retrieval functionality, often lack advanced memory organization capabilities. Our project introduces an innovative **Agentic Memory**"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository WujiangXu/A-mem-sys; discovered by github-repos-01.",
+  "published_date": "2025-07-14",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-01"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Repository supplies infrastructure for the agent memory learning/evaluation mechanism."
+  ],
+  "repository": {
+    "full_name": "WujiangXu/A-mem-sys",
+    "last_push": "2026-03-15T14:13:39Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stars_at_retrieval": 371
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:38:47Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'mit', 'name': 'MIT License', 'url': 'https://api.github.com/licenses/mit'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-wujiangxu-a-mem-sys",
+  "status": "accepted",
+  "title": "WujiangXu/A-mem-sys"
+}

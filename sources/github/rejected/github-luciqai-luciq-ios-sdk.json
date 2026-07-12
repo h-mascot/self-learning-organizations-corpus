@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/luciqai/luciq-ios-sdk",
+  "content_sha256": "902065bbb4ee040de24c22e02f0d91ff3ee316d417e607b7424ed65cb8dea082",
+  "creator": "luciqai",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "The Agentic Observability Platform built for Mobile <div align=\"center\"> <img src=\".github/assets/luciq-logo.png\" alt=\"Luciq\" width=\"120\" /> <p><strong>🚀 The Agentic Observability Platform built for Mobile</strong></p> [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/Luciq.svg?style=for-the-badge&color=blue)](https://cocoapods.org/pods/Luciq) [![Swift Package Manager](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg?style=for-the-badge)](https://github.com/apple/swift-package-manager)"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository luciqai/luciq-ios-sdk; discovered by github-repos-08.",
+  "published_date": "2025-09-03",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-08"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "luciqai/luciq-ios-sdk",
+    "last_push": "2026-07-05T13:28:10Z",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "url": ""
+    },
+    "stars_at_retrieval": 6
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:40:40Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'other', 'name': 'Other', 'url': ''}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-luciqai-luciq-ios-sdk",
+  "status": "rejected",
+  "title": "luciqai/luciq-ios-sdk"
+}

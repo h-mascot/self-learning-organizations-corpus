@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/UniPat-AI/SaaS-Bench",
+  "content_sha256": "2d7d1c0d3a9f7448ec1c5e1b69dfdbf2720fb890a884732eb804ce298e4ff003",
+  "creator": "UniPat-AI",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "Official repository for SaaS-Bench: realistic, locally deployable SaaS workflows for GUI agent evaluation. <div align=\"center\"> <img src=\"assets/banner.svg\" alt=\"SaaS-Bench\" width=70%/> <h1>SaaS-Bench: Can Computer-Use Agents Leverage Real-World SaaS to Solve Professional Workflows?</h1> [![Paper](https://img.shields.io/badge/arXiv-Paper-b91c1c?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.15777) [![Blog](https://img.shields.io/badge/Blog-Read_Post-f59e0b?style=for-the-badge&logo=substack&logoColor=white)](https://unipat.ai/blog/SaaS-Bench)"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository UniPat-AI/SaaS-Bench; discovered by github-repos-03.",
+  "published_date": "2026-05-11",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-03"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "UniPat-AI/SaaS-Bench",
+    "last_push": "2026-06-05T04:48:10Z",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "url": "https://api.github.com/licenses/apache-2.0"
+    },
+    "stars_at_retrieval": 85
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:23Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'apache-2.0', 'name': 'Apache License 2.0', 'url': 'https://api.github.com/licenses/apache-2.0'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-unipat-ai-saas-bench",
+  "status": "rejected",
+  "title": "UniPat-AI/SaaS-Bench"
+}

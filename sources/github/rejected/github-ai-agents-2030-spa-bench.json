@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/ai-agents-2030/SPA-Bench",
+  "content_sha256": "91d17847a7e5d0c28ad9bb4a58d779fb920985c8350ca7056adff4108fb92b3d",
+  "creator": "ai-agents-2030",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "SPA-Bench: A Comprehensive Benchmark for SmartPhone Agent Evaluation # 🌿🪑 SPA-Bench: A Comprehensive Benchmark for Smartphone Agent Evaluation <p align=\"center\"> <a href=\"https://ai-agents-2030.github.io/SPA-Bench/\" style=\"font-size:20px;\">Website</a> • <a href=\"https://arxiv.org/abs/2410.15164\" style=\"font-size:20px;\">Paper</a> </p> 👋 Welcome to the **SPA-Bench** repository, a benchmark designed to evaluate the performance of smartphone agents. This project offers a structured approach to assessing the efficiency, robustness, and accuracy of various smartphone agents across a variety of scenarios and"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository ai-agents-2030/SPA-Bench; discovered by github-repos-03.",
+  "published_date": "2024-12-02",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-03"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "ai-agents-2030/SPA-Bench",
+    "last_push": "2025-07-11T16:10:33Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stars_at_retrieval": 64
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:26Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'mit', 'name': 'MIT License', 'url': 'https://api.github.com/licenses/mit'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-ai-agents-2030-spa-bench",
+  "status": "rejected",
+  "title": "ai-agents-2030/SPA-Bench"
+}

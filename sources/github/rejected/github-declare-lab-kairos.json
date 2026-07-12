@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/declare-lab/KAIROS",
+  "content_sha256": "0f240ec8bea28bf1b63bece2aa533046bddee64932a6e1d63154d68832bc27c3",
+  "creator": "declare-lab",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "pip install -e . ``` ### 4. Environment Setup Create a `.env` file with your API keys (if using external APIs for evaluation): ```bash # OpenAI API (optional, for evaluation) OPENAI_API_KEY=your_openai_api_key # Azure OpenAI (optional, for evaluation) AZURE_OPENAI_API_KEY=your_azure_openai_api_key AZURE_OPENAI_ENDPOINT=your_azure_endpoint # Weights & Biases (optional, for logging) WANDB_API_KEY=your_wandb_api_key ``` ## 📚 Dataset This dataset contains question-answering tasks in multi-agent social interaction scenarios, supporting evaluation of trust, peer influence, robustness to misinformation, and more. "
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository declare-lab/KAIROS; discovered by github-repos-02.",
+  "published_date": "2025-08-23",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-02"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "declare-lab/KAIROS",
+    "last_push": "2025-11-22T18:09:29Z",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "url": "https://api.github.com/licenses/apache-2.0"
+    },
+    "stars_at_retrieval": 8
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:12Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'apache-2.0', 'name': 'Apache License 2.0', 'url': 'https://api.github.com/licenses/apache-2.0'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-declare-lab-kairos",
+  "status": "rejected",
+  "title": "declare-lab/KAIROS"
+}

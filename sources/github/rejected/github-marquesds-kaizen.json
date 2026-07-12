@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/marquesds/kaizen",
+  "content_sha256": "5c136784cd8d76d7a7179791c523d40118d462e1011c9ae5a675a72a5962ac68",
+  "creator": "marquesds",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "Real-time, self-hostable agent observability: retros and experiments to improve your repo, across Cursor, Claude Code, and Codex. SQLite; redact before any sync you enable. # kaizen Kaizen watches your coding agents work, locally, across Cursor, Claude Code, Codex, OpenClaw, Goose, OpenCode, and Copilot. At the end of the week, it tells you what's wasting tokens, causing loops, or making agents worse in this repo. Then it lets you test the fix: \"add this rule\", \"split this file\", or \"delete this unused skill\" becomes measurable instead of vibes."
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository marquesds/kaizen; discovered by github-repos-08.",
+  "published_date": "2026-04-23",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-08"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "marquesds/kaizen",
+    "last_push": "2026-07-02T15:16:21Z",
+    "license": {
+      "key": "agpl-3.0",
+      "name": "GNU Affero General Public License v3.0",
+      "url": "https://api.github.com/licenses/agpl-3.0"
+    },
+    "stars_at_retrieval": 9
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:40:38Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'agpl-3.0', 'name': 'GNU Affero General Public License v3.0', 'url': 'https://api.github.com/licenses/agpl-3.0'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-marquesds-kaizen",
+  "status": "rejected",
+  "title": "marquesds/kaizen"
+}

@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/aimshisui-ui/valosim",
+  "content_sha256": "7b5edd5455042eb7678a8e764aea18e7fffed9e3d2edff1bd81c4e7fefb46bc3",
+  "creator": "aimshisui-ui",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "C++17 Valorant esports management sim. Dear ImGui DX11. Belief-driven AI, organizational memory, multi-year team windows, chemistry graphs, transparent contract negotiation, broadcast-style match presentation. ~43k lines, 19 smoke tests. # Valosim — VLR Manager > An esports management sim for Valorant. C++17 engine, Dear ImGui DX11 UI. Built to feel like a living competitive ecosystem — players, orgs, contracts, scouting, regional metas, year-over-year coherence. This isn't a demo project. It's a deep simulation with belief-driven AI, organizational memory, multi-year team windows, chemistry graphs, transparent"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository aimshisui-ui/valosim; discovered by github-repos-05.",
+  "published_date": "2026-05-29",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-05"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "aimshisui-ui/valosim",
+    "last_push": "2026-07-05T10:46:25Z",
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "stars_at_retrieval": 0
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:40Z",
+  "rights_note": "Repository license reported by GitHub: {'key': '', 'name': '', 'url': ''}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-aimshisui-ui-valosim",
+  "status": "rejected",
+  "title": "aimshisui-ui/valosim"
+}

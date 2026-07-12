@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.anthropic.com/customers/cox-and-accenture",
+  "content_sha256": "efb362a88a603a4f24be7bedb1ca5a92b397d6fc4a76b9691cf93e0208f8ee2a",
+  "creator": "anthropic.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "public primary page",
+      "text": "governed, with guardrails and open visibility into usage and spend, rather than letting it become shadow IT. #### An agentic engine for the whole funnel, now in pilot The most ambitious system is still in pilot. Cox and Accenture are building an agentic go-to-market capability that runs from a prospect's first signal all the way to contract close. It generates and places ads through Amazon Ads, builds a tailored landing page for each prospect, and moves the opportunity along on its own. Rather than script every step, the team gave the agent room to define its own process. It tunes itself against goals like qualified-opportunity conversion "
+    }
+  ],
+  "platform": "case-studies",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-case-studies.",
+  "published_date": null,
+  "publisher": "anthropic.com",
+  "query_ids": [
+    "citation-catalog-case-studies"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Primary source evidence describes a learning, evaluation, feedback, adaptation, or agentic operating mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:42:50Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "case-study",
+  "stable_id": "case-studies-b9d2bee49a2b1afb",
+  "status": "accepted",
+  "title": "Cox Communications & Accenture Claude case study | Claude by Anthropic"
+}

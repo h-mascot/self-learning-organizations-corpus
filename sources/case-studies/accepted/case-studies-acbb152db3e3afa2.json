@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.anthropic.com/customers/jakala",
+  "content_sha256": "0f2208c342c28dcdbab9b68f5362c651f1fa6aa54b52781c7f01c856947a4766",
+  "creator": "anthropic.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "public primary page",
+      "text": "Global Managing Director of JAKALA's Data and AI Business Line. \"It was model trustworthiness inside multi-step agentic workflows at enterprise scale.\" External pressures compounded the internal one. Generative AI engines were displacing traditional search as the way customers find brands, and JAKALA’s clients had no established way to measure brand visibility inside those AI engines. At the same time, the economics of labor intensive delivery were tightening. \"If we did not evolve our delivery model from labor-intensive execution to AI-augmented service, our ability to keep investing in higher-value work for clients would erode,\" sai"
+    }
+  ],
+  "platform": "case-studies",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-case-studies.",
+  "published_date": null,
+  "publisher": "anthropic.com",
+  "query_ids": [
+    "citation-catalog-case-studies"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Primary source evidence describes a learning, evaluation, feedback, adaptation, or agentic operating mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:42:50Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "case-study",
+  "stable_id": "case-studies-acbb152db3e3afa2",
+  "status": "accepted",
+  "title": "JAKALA Claude case study | Claude by Anthropic"
+}

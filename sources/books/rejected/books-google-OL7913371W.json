@@ -1,0 +1,34 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://openlibrary.org/works/OL7913371W",
+  "content_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "creator": "Kenneth Zeigler",
+  "date_precision": "year",
+  "evidence": [],
+  "identifiers": {
+    "catalog_id": "OL7913371W",
+    "isbn": [
+      "007145778X",
+      "0071740619",
+      "9780071457781"
+    ]
+  },
+  "platform": "books",
+  "provenance": "Public bibliographic record OL7913371W; discovered by openlibrary-books-10.",
+  "published_date": "2005-01-01",
+  "publisher": "McGraw-Hill",
+  "query_ids": [
+    "openlibrary-books-10"
+  ],
+  "rejection_reason": "Metadata did not establish topical relevance.",
+  "relevance_evidence": [],
+  "retrieval_method": "Open Library public Search API",
+  "retrieved_at": "2026-07-12T08:38:30Z",
+  "rights_note": "Bibliographic metadata and at most a bounded publisher/API description are stored; no book text is copied.",
+  "rights_status": "metadata-only",
+  "schema_version": 2,
+  "source_type": "book",
+  "stable_id": "books-google-OL7913371W",
+  "status": "rejected",
+  "title": "Organizing for Success"
+}

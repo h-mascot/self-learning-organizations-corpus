@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/Soarcer/synapse",
+  "content_sha256": "754092dd9234dfc7cf5f5e2c860d2ae5c2e65925d353a322307a17736568f65d",
+  "creator": "Soarcer",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "Real-time agent observability for Claude Code # Synapse **See what your AI agents are actually doing.** --- Claude Code does a lot of things behind a blinking cursor. Synapse renders all of it — sessions, agents, subagents, tool calls — as a live, interactive node graph. Because understanding is its own reward. *For developers running Claude Code who want to see what's happening under the hood.* ![Synapse dashboard](docs/site/images/desktop_nodegraph_lens.png) ## Install ``` npm install -g @synapse-ai/cli ``` ``` synapse start ``` Server starts. Hooks configured. Browser opens. Done. Requires [Node.js"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository Soarcer/synapse; discovered by github-repos-08.",
+  "published_date": "2026-03-28",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-08"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "Soarcer/synapse",
+    "last_push": "2026-03-28T21:11:56Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stars_at_retrieval": 13
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:40:32Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'mit', 'name': 'MIT License', 'url': 'https://api.github.com/licenses/mit'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-soarcer-synapse",
+  "status": "rejected",
+  "title": "Soarcer/synapse"
+}

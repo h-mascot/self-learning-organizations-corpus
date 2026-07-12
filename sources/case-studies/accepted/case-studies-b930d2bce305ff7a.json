@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.claude.com/customers/figma",
+  "content_sha256": "6832d5bac064a6a96ddad67b57f27e88a329d3b13092d70e5b039ba279940319",
+  "creator": "claude.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "public primary page",
+      "text": "that could generate high-quality code while understanding design intent and aesthetics. Mullans described their evaluation process, saying, \"We regularly evaluate various models. Claude consistently delivers the right combination of speed, accuracy, and understanding user intent.\" Claude's design sensibility also sets it apart, the team shared. An engineer for Figma Make explained: \"Before Anthropic came around, you saw these AI models were intelligent, but they definitely lacked taste, they lacked character. You would ask them to generate a design and the design would come out rather flat. And then Anthropic came around and now we ha"
+    }
+  ],
+  "platform": "case-studies",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-case-studies.",
+  "published_date": null,
+  "publisher": "claude.com",
+  "query_ids": [
+    "citation-catalog-case-studies"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Primary source evidence describes a learning, evaluation, feedback, adaptation, or agentic operating mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:42:50Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "case-study",
+  "stable_id": "case-studies-b930d2bce305ff7a",
+  "status": "accepted",
+  "title": "Figma Claude Platform (API) case study | Claude by Anthropic"
+}

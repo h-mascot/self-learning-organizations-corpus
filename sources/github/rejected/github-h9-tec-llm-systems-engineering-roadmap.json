@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/h9-tec/llm-systems-engineering-roadmap",
+  "content_sha256": "a181e6c8fcb483ca135d5d5bea8404172ec7614c9609470911d10ba4f5141850",
+  "creator": "h9-tec",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "A practical roadmap for mastering LLM internals, training, inference, RAG, agents, evaluation, and production architecture. # LLM Systems Engineering Roadmap > A professional roadmap for mastering large language model internals, training, post-training, inference, retrieval, agents, evaluation, and production architecture. This repository is designed for engineers who want to move beyond surface-level LLM usage and build production-grade LLM systems with measurable quality, latency, cost, and reliability. It is not a collection of model news. It is not a prompt-engineering cookbook. It is a systems roadmap. The"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository h9-tec/llm-systems-engineering-roadmap; discovered by github-repos-03.",
+  "published_date": "2026-04-25",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-03"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "h9-tec/llm-systems-engineering-roadmap",
+    "last_push": "2026-04-25T13:28:14Z",
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "stars_at_retrieval": 169
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:19Z",
+  "rights_note": "Repository license reported by GitHub: {'key': '', 'name': '', 'url': ''}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-h9-tec-llm-systems-engineering-roadmap",
+  "status": "rejected",
+  "title": "h9-tec/llm-systems-engineering-roadmap"
+}

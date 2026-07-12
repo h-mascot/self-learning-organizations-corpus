@@ -1,0 +1,35 @@
+{
+  "artifact_level": "transcript",
+  "canonical_url": "https://www.youtube.com/watch?v=0qdR-XwHJ9o",
+  "content_sha256": "03ed391883989dea2a5a1336c3e5df56e06ead402a697c46a1d94e523d924261",
+  "creator": "Garrett Lord",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "transcript",
+      "locator": "public transcript near matched timestamp (garrett-lord)",
+      "text": "(00:00:52): That's not what we're hearing from our employers, this is just enabling human beings to be even more productive. You used to put a Google Search on a skill on your resume because you grew up with Google. Being AI native, young people are at a huge advantage. Lenny Rachitsky (00:01:05): Today my guest is Garrett Lord. Garrett is the co-founder and CEO of Handshake, which is one of the most interesting and incredible AI success stories that you probably haven't heard of. Handshake has been around for over 10 years, they're essentially LinkedIn for college students, it's a place for students to connect with companies to find a job. They are the platform of choic"
+    }
+  ],
+  "platform": "podcasts",
+  "provenance": "Public timestamped transcript at ChatPRD/lennys-podcast-transcripts/garrett-lord; original video ID 0qdR-XwHJ9o.",
+  "published_date": "2025-08-24",
+  "publisher": "Lenny's Podcast",
+  "query_ids": [
+    "github-citation-lennys-podcast-transcripts"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Multiple transcript passages match organizational feedback, experimentation, learning, memory, or AI-agent operating mechanisms."
+  ],
+  "retrieval_method": "GitHub public transcript citation; original publisher video identified in front matter",
+  "retrieved_at": "2026-07-12T08:44:29Z",
+  "rights_note": "The public transcript repository asserts no license; only a bounded timestamped span is preserved, and no complete transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "episode",
+  "stable_id": "podcasts-lenny-0qdR-XwHJ9o",
+  "status": "accepted",
+  "title": "Inside the expert network training every frontier AI model | Garrett Lord",
+  "transcript_source": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/main/episodes/garrett-lord/transcript.md"
+}

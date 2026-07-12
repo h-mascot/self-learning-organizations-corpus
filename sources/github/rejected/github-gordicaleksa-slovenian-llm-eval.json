@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/gordicaleksa/slovenian-llm-eval",
+  "content_sha256": "f1b65fc5bd5e3f01d349c27c929612538c401a2127bb77dda33559e1d4430c2f",
+  "creator": "gordicaleksa",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "Slovenian LLM Eval. # Slovenian LLM eval ## Currently supported: * `ARC-Challenge` ## What we want to support: * Common sense reasoning: `Hellaswag`, `Winogrande`, `PIQA`, `OpenbookQA`, `ARC-Easy`, `ARC-Challenge` * World knowledge: `NaturalQuestions`, `TriviaQA` * Reading comprehension: `BoolQ` Please email me at gordicaleksa at gmail com in case you're willing to sponsor the automated GPT-4 effort. You will get the credits and eternal glory. :) # Creating the eval - instructions ## IMPORTANT * running this this will eat your google cloud credits or will bill you if you're already in the billing mode (this"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository gordicaleksa/slovenian-llm-eval; discovered by github-repos-02.",
+  "published_date": "2024-03-08",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-02"
+  ],
+  "rejection_reason": "README/description did not establish a substantive learning or evaluation mechanism.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "gordicaleksa/slovenian-llm-eval",
+    "last_push": "2024-03-08T13:14:49Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stars_at_retrieval": 7
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:13Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'mit', 'name': 'MIT License', 'url': 'https://api.github.com/licenses/mit'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-gordicaleksa-slovenian-llm-eval",
+  "status": "rejected",
+  "title": "gordicaleksa/slovenian-llm-eval"
+}

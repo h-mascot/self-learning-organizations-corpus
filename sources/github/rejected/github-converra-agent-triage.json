@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/converra/agent-triage",
+  "content_sha256": "fac9ed2be1bf370d9fbea14c2f11a4ac664f5ec7979d0bbb560690a2e7ada55d",
+  "creator": "converra",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "Diagnose your AI agents in production. Extract policies from prompts, evaluate traces, generate diagnostic reports. [![CI](https://github.com/converra/agent-triage/actions/workflows/ci.yml/badge.svg)](https://github.com/converra/agent-triage/actions/workflows/ci.yml) [![npm version](https://img.shields.io/npm/v/agent-triage.svg)](https://www.npmjs.com/package/agent-triage) [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE) # agent-triage **Stop staring at logs trying to figure out why your agent keeps failing.** Point agent-triage at your production traces. It extracts behavioral"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository converra/agent-triage; discovered by github-repos-07.",
+  "published_date": "2026-02-23",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-07"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "converra/agent-triage",
+    "last_push": "2026-03-10T18:36:46Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stars_at_retrieval": 4
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:40:13Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'mit', 'name': 'MIT License', 'url': 'https://api.github.com/licenses/mit'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-converra-agent-triage",
+  "status": "rejected",
+  "title": "converra/agent-triage"
+}

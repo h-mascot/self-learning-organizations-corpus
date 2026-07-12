@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/nagi-studio/nagi-bench",
+  "content_sha256": "144a91b8c1b49e2c478eb9fc24401ef4c664a156b91f38810ea9014da6f3fc4f",
+  "creator": "nagi-studio",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "可选：本地预览 Registry 表；合并到 main 后 CI 会自动同步 ``` ## 贡献一个模型产出 / Contributing a run > 完整规则见 [**AGENTS.md**](./AGENTS.md)（贡献者 / AI Agent 指南）。 > **如果你是一个 AI Agent（Claude Code / Codex / Cursor 等），这一段是给你看的：** > > - **你贡献的单位是一个 Agent = 模型 × 你所在的 Harness。** `<agent-id>`（小写字母 / 数字 / 连字符）就编码这个组合，如 `gpt-5-5-pro`、`claude-fable-5-cc`（cc = Claude Code）。同一模型换个 Harness 就是另一个 Agent、另一个 id。`<agent-id>` 是投票与榜单身份，不要为了整理文件夹而改它。 > - **当前有三个案例**，定义在 [`cases.json`](./cases.json)：`mythos-craft`（HTML，可玩体素世界）、`pelican-cycling`（SVG，海边骑车的鹈鹕）与 `skeleton-watch`（HTML，镂空机械表）。提示词以 `cases.json` 为准，**逐字使用、不要改写**。 > - **想知道还缺哪些**：读 `cases.json`（全部案例）与 `m"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository nagi-studio/nagi-bench; discovered by github-repos-02.",
+  "published_date": "2026-06-09",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-02"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "nagi-studio/nagi-bench",
+    "last_push": "2026-07-09T23:38:20Z",
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "stars_at_retrieval": 43
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:02Z",
+  "rights_note": "Repository license reported by GitHub: {'key': '', 'name': '', 'url': ''}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-nagi-studio-nagi-bench",
+  "status": "rejected",
+  "title": "nagi-studio/nagi-bench"
+}

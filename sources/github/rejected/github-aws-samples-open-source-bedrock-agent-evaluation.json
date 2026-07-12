@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/aws-samples/open-source-bedrock-agent-evaluation",
+  "content_sha256": "4dd2ce9cee9e39291641995375f075e8d4bfb2a4c3a3ed0ddff3d41a59dbe75e",
+  "creator": "aws-samples",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "# Open Source Bedrock Agent Evaluation Open Source Bedrock Agent Evaluation is an evalauation framework for Amazon Bedrock agent tool-use and chain-of-thought reasoning with observability dashboards in LangFuse. ## Existing AWS assets https://github.com/awslabs/agent-evaluation implements an LLM agent (evaluator) that will orchestrate conversations with your own agent (target) and evaluate the responses during the conversation. Our repository provides the following additional features: ## Features - Test your own Bedrock Agent with custom questions - Provides the option for LLM-as-a-judge without ground truth"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository aws-samples/open-source-bedrock-agent-evaluation; discovered by github-repos-03.",
+  "published_date": "2025-02-11",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-03"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "aws-samples/open-source-bedrock-agent-evaluation",
+    "last_push": "2026-02-11T14:47:05Z",
+    "license": {
+      "key": "mit-0",
+      "name": "MIT No Attribution",
+      "url": "https://api.github.com/licenses/mit-0"
+    },
+    "stars_at_retrieval": 25
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:33Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'mit-0', 'name': 'MIT No Attribution', 'url': 'https://api.github.com/licenses/mit-0'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-aws-samples-open-source-bedrock-agent-evaluation",
+  "status": "rejected",
+  "title": "aws-samples/open-source-bedrock-agent-evaluation"
+}

@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/kleinsasser/cortex",
+  "content_sha256": "fe40838170c076008909fba158b913669112f970f543068d364fbf227a903882",
+  "creator": "kleinsasser",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "A framework leveraging SOTA DL models and a novel knowledge representation algorithm toward more intelligent continuously learning agents. # A Naive Attempt at Deep Learning Augmented Knowledge Representation and Continuously Learning Agents **Disclaimer: The ideas presented here are underdeveloped due to a lack of free time, but regardless it is a short read and some interesting results are achieved.** ![](adorable.png) ## Motivation Most AI practitioners agree that these are a few of the most pressing technical challenges to the field today: 1. State of the art (SOTA) AI models are only good at performing"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository kleinsasser/cortex; discovered by github-repos-04.",
+  "published_date": "2021-11-04",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-04"
+  ],
+  "rejection_reason": "README/description did not establish a substantive learning or evaluation mechanism.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "kleinsasser/cortex",
+    "last_push": "2021-11-08T15:15:31Z",
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "stars_at_retrieval": 0
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:39Z",
+  "rights_note": "Repository license reported by GitHub: {'key': '', 'name': '', 'url': ''}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-kleinsasser-cortex",
+  "status": "rejected",
+  "title": "kleinsasser/cortex"
+}

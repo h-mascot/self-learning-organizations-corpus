@@ -1,0 +1,30 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://openlibrary.org/works/OL17321525M",
+  "content_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "creator": "Unknown",
+  "date_precision": "year",
+  "evidence": [],
+  "identifiers": {
+    "catalog_id": "OL17321525M",
+    "isbn": []
+  },
+  "platform": "books",
+  "provenance": "Public bibliographic record OL17321525M; discovered by openlibrary-books-09.",
+  "published_date": "1996-01-01",
+  "publisher": "Butler Group",
+  "query_ids": [
+    "openlibrary-books-09"
+  ],
+  "rejection_reason": "Metadata did not establish topical relevance.",
+  "relevance_evidence": [],
+  "retrieval_method": "Open Library public Search API",
+  "retrieved_at": "2026-07-12T08:38:29Z",
+  "rights_note": "Bibliographic metadata and at most a bounded publisher/API description are stored; no book text is copied.",
+  "rights_status": "metadata-only",
+  "schema_version": 2,
+  "source_type": "book",
+  "stable_id": "books-google-OL17321525M",
+  "status": "rejected",
+  "title": "Application development for the adaptive enterprise"
+}

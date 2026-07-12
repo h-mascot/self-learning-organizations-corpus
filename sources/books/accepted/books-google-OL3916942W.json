@@ -1,0 +1,35 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://openlibrary.org/works/OL3916942W",
+  "content_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "creator": "Karen E. Watkins",
+  "date_precision": "year",
+  "evidence": [],
+  "identifiers": {
+    "catalog_id": "OL3916942W",
+    "isbn": [
+      "1555425763",
+      "9781555425760"
+    ]
+  },
+  "platform": "books",
+  "provenance": "Public bibliographic record OL3916942W; discovered by openlibrary-books-01.",
+  "published_date": "1993-01-01",
+  "publisher": "Jossey-Bass",
+  "query_ids": [
+    "openlibrary-books-01"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Title/description matches the corpus query family: learning organization."
+  ],
+  "retrieval_method": "Open Library public Search API",
+  "retrieved_at": "2026-07-12T08:38:19Z",
+  "rights_note": "Bibliographic metadata and at most a bounded publisher/API description are stored; no book text is copied.",
+  "rights_status": "metadata-only",
+  "schema_version": 2,
+  "source_type": "book",
+  "stable_id": "books-google-OL3916942W",
+  "status": "accepted",
+  "title": "Sculpting the learning organization"
+}

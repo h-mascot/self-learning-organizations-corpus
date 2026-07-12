@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/Azure-Samples/microsoft-foundry-e2e-agent-observability-workshop",
+  "content_sha256": "b8e791f5f8055287871d0fe525c2fc9bfba8871bbf4c1258a916ad8b94fdbd9a",
+  "creator": "Azure-Samples",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "an end-to-end walkthrough using Microsoft Foundry Portal, SDK and Skills # Workshop: \"Observe, Optimize & Protect Your AI Agents In Microsoft Foundry\" ## Session Description **Duration:** 75 minutes Want to build trustworthy AI agents? The hard part lies NOT in making them work the first time, but in **keeping them working continuously** over the lifetime of the application - even as models get updated, prompts get refined, retrieval pipelines drift, and real-world use uncovers edge cases. To do this, we need a unified platform that provides end-to-end observability - with rich developer tools that take us seaml"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository Azure-Samples/microsoft-foundry-e2e-agent-observability-workshop; discovered by github-repos-08.",
+  "published_date": "2026-03-07",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-08"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "Azure-Samples/microsoft-foundry-e2e-agent-observability-workshop",
+    "last_push": "2026-04-17T06:10:51Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stars_at_retrieval": 26
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:40:31Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'mit', 'name': 'MIT License', 'url': 'https://api.github.com/licenses/mit'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-azure-samples-microsoft-foundry-e2e-agent-observability-workshop",
+  "status": "rejected",
+  "title": "Azure-Samples/microsoft-foundry-e2e-agent-observability-workshop"
+}

@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/GuilhermeRuy97/prompt-evaluation-langsmith",
+  "content_sha256": "8321a1236efdf9c954b513045002641ce9b9d827483a146471413c41225890e2",
+  "creator": "GuilhermeRuy97",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "enhance it, submit it again, and then reevaluate the results. #LangSmith #PromptEngineer # Pull, Optimization and Evaluation of Prompts with LangChain and LangSmith ## Objective We must deliver a software capable of: 1. **Pull prompts** from LangSmith Prompt Hub containing low-quality prompts 2. **Refactor and optimize** these prompts using advanced Prompt Engineering techniques 3. **Push optimized prompts** back to LangSmith 4. **Evaluate quality** through custom metrics (F1-Score, Clarity, Precision) 5. **Achieve minimum score** of 0.9 (90%) on all evaluation metrics --- ## CLI Example ```bash # Execute p"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository GuilhermeRuy97/prompt-evaluation-langsmith; discovered by github-repos-07.",
+  "published_date": "2026-02-03",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-07"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "GuilhermeRuy97/prompt-evaluation-langsmith",
+    "last_push": "2026-02-19T20:23:50Z",
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "stars_at_retrieval": 6
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:40:09Z",
+  "rights_note": "Repository license reported by GitHub: {'key': '', 'name': '', 'url': ''}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-guilhermeruy97-prompt-evaluation-langsmith",
+  "status": "rejected",
+  "title": "GuilhermeRuy97/prompt-evaluation-langsmith"
+}

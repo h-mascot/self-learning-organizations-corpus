@@ -1,0 +1,35 @@
+{
+  "artifact_level": "transcript",
+  "canonical_url": "https://www.youtube.com/watch?v=gI0ZNhA0rvE",
+  "content_sha256": "46dd6abcdfbeb38c2735640b6a3b4cb635acf8c3d410b0d0567428de440a9097",
+  "creator": "Scott Wu",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "transcript",
+      "locator": "public transcript near matched timestamp (scott-wu)",
+      "text": "(00:01:20): Today my guest is Scott Wu. Scott is the co-founder and CEO of Cognition, which makes a product called Devin, the world's first autonomous AI software engineer. Unlike other AI tools that I've highlighted on this podcast, Devin is designed to act like an actual remote engineer that you chat with like you would with any other human engineer through Slack or through its dedicated website. When Devin launched about a year ago, it was very much a junior engineer. Over the past year, they've made a lot of progress and Devin is now being used by tons of companies in production. We chatted about how their engineering team of 15 uses Devins to build Devin, including h"
+    }
+  ],
+  "platform": "podcasts",
+  "provenance": "Public timestamped transcript at ChatPRD/lennys-podcast-transcripts/scott-wu; original video ID gI0ZNhA0rvE.",
+  "published_date": "2025-05-04",
+  "publisher": "Lenny's Podcast",
+  "query_ids": [
+    "github-citation-lennys-podcast-transcripts"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Multiple transcript passages match organizational feedback, experimentation, learning, memory, or AI-agent operating mechanisms."
+  ],
+  "retrieval_method": "GitHub public transcript citation; original publisher video identified in front matter",
+  "retrieved_at": "2026-07-12T08:44:29Z",
+  "rights_note": "The public transcript repository asserts no license; only a bounded timestamped span is preserved, and no complete transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "episode",
+  "stable_id": "podcasts-lenny-gI0ZNhA0rvE",
+  "status": "accepted",
+  "title": "Inside Devin: The AI engineer that''s set to write 50% of its company’s code",
+  "transcript_source": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/main/episodes/scott-wu/transcript.md"
+}

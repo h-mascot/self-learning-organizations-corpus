@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/IBM/Adversarial-Prompt-Evaluation",
+  "content_sha256": "acbdc08af04396f46b987178b7c5c5a24acee9b17409ca97bab190d413735b6f",
+  "creator": "IBM",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "Code Implementation of Adversarial Prompt Evaluation paper # Adversarial-Prompt-Evaluation ## Overview This repo contain the source code of [\"Adversarial Prompt Evaluation: Systematic Benchmarking of Guardrails Against Prompt Input Attacks on LLMs\"](https://openreview.net/pdf?id=a44MiSFw6G) paper accepted at the NeurIPS 2024 Workshop SafeGenAI (oral presentation). ## Abstract As Large Language Models (LLMs) become more integrated into everyday applications, ensuring their robustness and security is increasingly critical. In particular, LLMs can be manipulated into unsafe behaviour by prompts known as jailbreaks."
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository IBM/Adversarial-Prompt-Evaluation; discovered by github-repos-07.",
+  "published_date": "2024-05-20",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-07"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "IBM/Adversarial-Prompt-Evaluation",
+    "last_push": "2025-09-18T01:25:03Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stars_at_retrieval": 14
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:40:05Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'mit', 'name': 'MIT License', 'url': 'https://api.github.com/licenses/mit'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-ibm-adversarial-prompt-evaluation",
+  "status": "rejected",
+  "title": "IBM/Adversarial-Prompt-Evaluation"
+}

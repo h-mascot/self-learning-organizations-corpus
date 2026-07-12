@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents",
+  "content_sha256": "18351d36b0bf4f6a1b61200e5c67c605292fe58c5b44a24b8decea2154df7c27",
+  "creator": "anthropic.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "public primary page",
+      "text": "Title: Demystifying evals for AI agents \\ Anthropic Demystifying evals for AI agents \\ Anthropic Skip to main content Skip to footer Research Policy Commitments Learn News Try Claude Engineering at Anthropic Demystifying evals for AI agents Published Jan 09, 2026 The capabilities that make agents useful also make them difficult to evaluate. The strategies that work across deployments combine techniques to match the complexity of the systems they measure. Introduction Good evaluations help teams ship AI agents more confidently. Without them, it’s easy to get stuck in reactive loops—catching issues only in production, where fixing one failure"
+    }
+  ],
+  "platform": "blogs",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-blogs.",
+  "published_date": null,
+  "publisher": "anthropic.com",
+  "query_ids": [
+    "citation-catalog-blogs"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Primary source evidence describes a learning, evaluation, feedback, adaptation, or agentic operating mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:23Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "article",
+  "stable_id": "blogs-6c790a16de0afd2b",
+  "status": "accepted",
+  "title": "Demystifying evals for AI agents \\ Anthropic"
+}

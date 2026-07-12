@@ -1,0 +1,35 @@
+{
+  "artifact_level": "transcript",
+  "canonical_url": "https://www.youtube.com/watch?v=tOGK1nlHdFo",
+  "content_sha256": "da1bd135bd4abb673fa9e654e8666b596744f0c2189abb8e6ae5fd3921cb8eab",
+  "creator": "Marc Benioff",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "transcript",
+      "locator": "public transcript near matched timestamp (marc-benioff)",
+      "text": "(32:51): That is an agent. It isn't just the agent that we saw in the Matrix, Mr. Smith, or whatever it is. It's someone that's working with you, someone. That's an interesting, for you, slip. It's something that is working with you. It could be your piece of software in your phone. It could be a robot that's going to be in your home. It could be your car that knows you, understands your preferences, has an institutional memory of you, and now is helping to advise you. (33:22): I'll give you an example that I'm going to... I go into UCSF all the time. I'm actually just getting through an Achilles rupture right now, so I've had a lot of interactions, and the hospital... o"
+    }
+  ],
+  "platform": "podcasts",
+  "provenance": "Public timestamped transcript at ChatPRD/lennys-podcast-transcripts/marc-benioff; original video ID tOGK1nlHdFo.",
+  "published_date": "2024-12-22",
+  "publisher": "Lenny's Podcast",
+  "query_ids": [
+    "github-citation-lennys-podcast-transcripts"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Multiple transcript passages match organizational feedback, experimentation, learning, memory, or AI-agent operating mechanisms."
+  ],
+  "retrieval_method": "GitHub public transcript citation; original publisher video identified in front matter",
+  "retrieved_at": "2026-07-12T08:44:29Z",
+  "rights_note": "The public transcript repository asserts no license; only a bounded timestamped span is preserved, and no complete transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "episode",
+  "stable_id": "podcasts-lenny-tOGK1nlHdFo",
+  "status": "accepted",
+  "title": "Behind the founder: Marc Benioff",
+  "transcript_source": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/main/episodes/marc-benioff/transcript.md"
+}

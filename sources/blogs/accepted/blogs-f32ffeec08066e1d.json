@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://engineering.atspotify.com/2025/9/spotifys-experiments-with-learning-framework",
+  "content_sha256": "69cd8f85c814cbb835f4312a396c6b37d068e0eac2c67f5c75185a9c5647592a",
+  "creator": "engineering.atspotify.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "public primary page",
+      "text": "Title: Beyond Winning: Spotify’s Experiments with Learning Framework | Spotify Engineering URL Source: https://engineering.atspotify.com/2025/9/spotifys-experiments-with-learning-framework Markdown Content: **TL;DR** Spotify’s experimentation platform, Confidence, scaled product decision-making across hundreds of teams, evolving from experiment-velocity focus to maximizing experiment quality and learning. We developed the Experiments with Learning (EwL) metric to measure success: A successful experiment yields enough valid information to inform product decisions, not just those that find “winners.” Our learning rate (~64%) far exceeds our"
+    }
+  ],
+  "platform": "blogs",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-blogs.",
+  "published_date": null,
+  "publisher": "engineering.atspotify.com",
+  "query_ids": [
+    "citation-catalog-blogs"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Primary source evidence describes a learning, evaluation, feedback, adaptation, or agentic operating mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:23Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "article",
+  "stable_id": "blogs-f32ffeec08066e1d",
+  "status": "accepted",
+  "title": "Beyond Winning: Spotify’s Experiments with Learning Framework | Spotify Engineering"
+}

@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://dataworkers.io/blog/what-allspaw-blameless-postmortem-taught-our-incident-agent/",
+  "content_sha256": "26aa6a9018a5b7ffb19be1c2245f4b338d4c23107553f019751010252f5c4e82",
+  "creator": "dataworkers.io",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "public primary page",
+      "text": "Title: What John Allspaw's Blameless Postmortem Method Taught Our Incident Analysis Agent URL Source: https://dataworkers.io/blog/what-allspaw-blameless-postmortem-taught-our-incident-agent/ Published Time: 2026-06-07 Markdown Content: In May 2012, John Allspaw published a post on Etsy's engineering blog titled 'Blameless PostMortems and a Just Culture.' More than a decade later, it remains one of the most linked-to pieces in all of site reliability engineering. That staying power is not nostalgia. It is because the core idea is still being violated — by templates, by tools, and now by AI agents — every day. Allspaw is the cofounder of"
+    }
+  ],
+  "platform": "blogs",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-blogs.",
+  "published_date": null,
+  "publisher": "dataworkers.io",
+  "query_ids": [
+    "citation-catalog-blogs"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Primary source evidence describes a learning, evaluation, feedback, adaptation, or agentic operating mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:23Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "article",
+  "stable_id": "blogs-34d624e95ab6cd8f",
+  "status": "accepted",
+  "title": "What John Allspaw's Blameless Postmortem Method Taught Our Incident Analysis Agent"
+}

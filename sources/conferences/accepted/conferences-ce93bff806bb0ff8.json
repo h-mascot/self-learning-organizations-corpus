@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.infoq.com/presentations/controlled-experiments/",
+  "content_sha256": "0b9cc17882692aa6bf9dc2b4ef5c8a266b4342ca4f5c19fcf5eceef803611bf7",
+  "creator": "infoq.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "public primary page",
+      "text": "Title: Online Controlled Experiments: Introduction, Insights, Scaling, and Humbling Statistics URL Source: https://www.infoq.com/presentations/controlled-experiments/ Published Time: 2013-12-12T20:30:00+0000 Markdown Content: [BT](https://www.infoq.com/int/bt/ \"bt\") ## InfoQ Software Architects' Newsletter A monthly overview of things you need to know as an architect or aspiring architect. [View an example](https://www.infoq.com/software-architects-newsletter#placeholderPastIssues) Enter your e-mail address Select your country - [x] I consent to InfoQ.com handling my data as explained in this [Privacy"
+    }
+  ],
+  "platform": "conferences",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-conferences.",
+  "published_date": null,
+  "publisher": "infoq.com",
+  "query_ids": [
+    "citation-catalog-conferences"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Primary source evidence describes a learning, evaluation, feedback, adaptation, or agentic operating mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:26Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "talk",
+  "stable_id": "conferences-ce93bff806bb0ff8",
+  "status": "accepted",
+  "title": "Online Controlled Experiments: Introduction, Insights, Scaling, and Humbling Statistics"
+}

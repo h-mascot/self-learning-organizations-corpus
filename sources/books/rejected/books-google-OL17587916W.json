@@ -1,0 +1,33 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://openlibrary.org/works/OL17587916W",
+  "content_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "creator": "Richard Morrow",
+  "date_precision": "year",
+  "evidence": [],
+  "identifiers": {
+    "catalog_id": "OL17587916W",
+    "isbn": [
+      "1466594888",
+      "9781466594883"
+    ]
+  },
+  "platform": "books",
+  "provenance": "Public bibliographic record OL17587916W; discovered by openlibrary-books-07.",
+  "published_date": "2016-01-01",
+  "publisher": "CRC Press",
+  "query_ids": [
+    "openlibrary-books-07"
+  ],
+  "rejection_reason": "Metadata did not establish topical relevance.",
+  "relevance_evidence": [],
+  "retrieval_method": "Open Library public Search API",
+  "retrieved_at": "2026-07-12T08:38:27Z",
+  "rights_note": "Bibliographic metadata and at most a bounded publisher/API description are stored; no book text is copied.",
+  "rights_status": "metadata-only",
+  "schema_version": 2,
+  "source_type": "book",
+  "stable_id": "books-google-OL17587916W",
+  "status": "rejected",
+  "title": "Leading High Reliability Organizations in Healthcare"
+}

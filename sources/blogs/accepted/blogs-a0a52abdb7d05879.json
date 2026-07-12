@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.hyscaler.com/insights/internal-developer-platforms-idp-guide/",
+  "content_sha256": "cb2d06931f48a20bb2d573c9ec308975f40916d30dd577e2e160924903ad7ef9",
+  "creator": "hyscaler.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "public primary page",
+      "text": "headcount. Slow onboarding : compounds the cost. Without standardized paths to production, new engineers spend weeks learning organizational infrastructure conventions that are tribal knowledge, often undocumented and inconsistently applied. Kubernetes complexity : deserves specific mention. The Kubernetes abstraction is powerful but low-level. Writing production-grade YAML for deployments, ingress, HPA, Pod Disruption Budgets, RBAC, and Network Policies correctly requires deep expertise. Most application engineers don’t have it and shouldn’t need it. The business impact of solving these problems is quantifiable: Benefit Business Impact Se"
+    }
+  ],
+  "platform": "blogs",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-blogs.",
+  "published_date": null,
+  "publisher": "hyscaler.com",
+  "query_ids": [
+    "citation-catalog-blogs"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Primary source evidence describes a learning, evaluation, feedback, adaptation, or agentic operating mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:23Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "article",
+  "stable_id": "blogs-a0a52abdb7d05879",
+  "status": "accepted",
+  "title": "Internal Developer Platforms (IDP): The Complete Guide for 2026 - HyScaler"
+}

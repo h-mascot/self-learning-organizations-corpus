@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/Moore-Tian/SteeM-Memory-Control",
+  "content_sha256": "c6c06e7beec582d1e11494cfb62531144d338919a77c44ad7a0930879cdf3b26",
+  "creator": "Moore-Tian",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "Code, prompts, evaluation, and curated examples for \"Controllable Memory Usage: Balancing Anchoring and Innovation in Long-Term Human-Agent Interaction\". <div align=\"center\"> <h2 align=\"center\"> <img src=\"paper/SteeM%20logo.png\" alt=\"SteeM logo\" width=\"96\" height=\"96\" align=\"absmiddle\">&nbsp;&nbsp;&thinsp;Controllable Memory Usage: Balancing<br>Anchoring and Innovation in Long-Term Human-Agent Interaction </h2> <p> <a href=\"https://arxiv.org/abs/2601.05107\"><img src=\"https://img.shields.io/badge/arXiv-2601.05107-b31b1b.svg?style=for-the-badge\" alt=\"arXiv\"></a> <a href=\"paper/steem_memory_control_paper.pdf\"><img"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository Moore-Tian/SteeM-Memory-Control; discovered by github-repos-07.",
+  "published_date": "2026-06-04",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-07"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "Moore-Tian/SteeM-Memory-Control",
+    "last_push": "2026-06-09T12:32:14Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stars_at_retrieval": 3
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:40:15Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'mit', 'name': 'MIT License', 'url': 'https://api.github.com/licenses/mit'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-moore-tian-steem-memory-control",
+  "status": "rejected",
+  "title": "Moore-Tian/SteeM-Memory-Control"
+}

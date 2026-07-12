@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/aws-samples/sample-getting-started-with-strands-agents-course",
+  "content_sha256": "638891a3c935f49727b1c6dbee03e2e926358a8b44f3715d9321350d3026c4cb",
+  "creator": "aws-samples",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "Learn to build AI agents with Strands framework. Covers LLM integration via Amazon Bedrock/Anthropic, AWS service connections, tool implementation with MCP/A2A protocols, and agent evaluation using LangFuse/RAGAS. # Getting Started with Strands Agents - Complete Learning Path 🎯 **Learning Journey**: Course 1 (Fundamentals) → Course 2 (Advanced MCP, Hooks, Session Management) → Course 3 (Multi-Agent Systems) → Course 4 (Production Deployment) A comprehensive hands-on learning path for AI agent development using the [Strands Agents framework](https://strandsagents.com/). Build intelligent, multi-agent systems from"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository aws-samples/sample-getting-started-with-strands-agents-course; discovered by github-repos-03.",
+  "published_date": "2025-08-05",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-03"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "aws-samples/sample-getting-started-with-strands-agents-course",
+    "last_push": "2026-06-05T21:55:57Z",
+    "license": {
+      "key": "mit-0",
+      "name": "MIT No Attribution",
+      "url": "https://api.github.com/licenses/mit-0"
+    },
+    "stars_at_retrieval": 98
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:23Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'mit-0', 'name': 'MIT No Attribution', 'url': 'https://api.github.com/licenses/mit-0'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-aws-samples-sample-getting-started-with-strands-agents-course",
+  "status": "rejected",
+  "title": "aws-samples/sample-getting-started-with-strands-agents-course"
+}

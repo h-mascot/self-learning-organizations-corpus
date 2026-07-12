@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/NaniDAO/evals",
+  "content_sha256": "5b9362b5772799e9369f7268ede5e1daac7b647ad93e7dab2352c4083388f66c",
+  "creator": "NaniDAO",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "Prompt evaluation framework for NaniDAO models # NaniDAO/evals A Python library for generating completions and evaluating NaniDAO models using different datasets, prompts, and configuration files. ## Quick Start 1. Set up environment variables in `.env`: ```bash NANI_API_KEY=your_nani_api_key NANI_BASE_URL=http://nani.ooo/api/chat GEMINI_API_KEY=your_gemini_api_key ANTHROPIC_API_KEY=your_anthropic_api_key OPENAI_API_KEY=your_openai_api_key ``` If not, you can specify individual API_KEY/BASE_URL using CLI arguments. 2. Install dependencies: ```bash # Using uv (recommended) git clone"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository NaniDAO/evals; discovered by github-repos-07.",
+  "published_date": "2024-12-21",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-07"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "NaniDAO/evals",
+    "last_push": "2025-02-14T02:03:11Z",
+    "license": {
+      "key": "agpl-3.0",
+      "name": "GNU Affero General Public License v3.0",
+      "url": "https://api.github.com/licenses/agpl-3.0"
+    },
+    "stars_at_retrieval": 4
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:40:11Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'agpl-3.0', 'name': 'GNU Affero General Public License v3.0', 'url': 'https://api.github.com/licenses/agpl-3.0'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-nanidao-evals",
+  "status": "rejected",
+  "title": "NaniDAO/evals"
+}

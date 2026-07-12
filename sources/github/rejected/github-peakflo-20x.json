@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/peakflo/20x",
+  "content_sha256": "906978582807e973ca6a29c12bb4842f21074c1a457d2bcdf57facd404c653b6",
+  "creator": "peakflo",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "Self-improving Agent orchestrator for all knowledge work <p align=\"center\"> <img src=\"resources/icon.png\" alt=\"20x Logo\" width=\"120\" /> </p> # 20x [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE) [![Version](https://img.shields.io/github/package-json/v/peakflo/20x)](./package.json) [![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey.svg)](.) [![Discord](https://img.shields.io/badge/Discord-Join%20us-5865F2?logo=discord&logoColor=white)](https://discord.gg/fUVsqTWDxX) **One app. All your tasks. Powered by AI agents.** 20x is a desktop"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository peakflo/20x; discovered by github-repos-06.",
+  "published_date": "2026-02-07",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-06"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "peakflo/20x",
+    "last_push": "2026-07-12T04:11:46Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stars_at_retrieval": 91
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:54Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'mit', 'name': 'MIT License', 'url': 'https://api.github.com/licenses/mit'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-peakflo-20x",
+  "status": "rejected",
+  "title": "peakflo/20x"
+}

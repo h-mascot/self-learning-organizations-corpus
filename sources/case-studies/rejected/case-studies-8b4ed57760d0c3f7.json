@@ -1,0 +1,32 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://cloud.google.com/customers/emccamp",
+  "content_sha256": "7f62528e0300812068eff59c22ed9a8cf00d0e5a3e7cea0c691138225c329569",
+  "creator": "cloud.google.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "public primary page",
+      "text": "Title: Emccamp case study | Google Cloud Emccamp case study | Google Cloud"
+    }
+  ],
+  "platform": "case-studies",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-case-studies.",
+  "published_date": null,
+  "publisher": "cloud.google.com",
+  "query_ids": [
+    "citation-catalog-case-studies"
+  ],
+  "rejection_reason": "Page retrieval did not expose enough substantive topical evidence.",
+  "relevance_evidence": [],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:35Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "retrieval-evidence-only",
+  "schema_version": 2,
+  "source_type": "case-study",
+  "stable_id": "case-studies-8b4ed57760d0c3f7",
+  "status": "rejected",
+  "title": "Emccamp case study | Google Cloud"
+}

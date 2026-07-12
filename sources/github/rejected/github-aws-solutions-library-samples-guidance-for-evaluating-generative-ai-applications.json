@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/aws-solutions-library-samples/guidance-for-evaluating-generative-ai-applications-using-oss-on-aws",
+  "content_sha256": "e19a4a6cf575e83666dbbb7bd0b650effb5a0f2bd498541429fac775b57afad0",
+  "creator": "aws-solutions-library-samples",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "pipelines for AI applications on AWS, delivering significant business and technical advantages. By automating prompt evaluation and testing processes, organizations can dramatically reduce manual testing overhead while ensuring consistent, high-quality AI responses. # Guidance for Prompt Evaluation using OSS on AWS ## Table of Contents 1. [Overview](#overview) - [Cost](#cost) 2. [Prerequisites](#prerequisites) - [Operating System](#operating-system) - [Third-party tools](#third-party-tools) - [AWS account requirements](#aws-account-requirements) 3. [Deployment Steps](#deployment-steps) 4. [Deployment Validatio"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository aws-solutions-library-samples/guidance-for-evaluating-generative-ai-applications-using-oss-on-aws; discovered by github-repos-07.",
+  "published_date": "2025-09-09",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-07"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "aws-solutions-library-samples/guidance-for-evaluating-generative-ai-applications-using-oss-on-aws",
+    "last_push": "2025-10-30T18:31:20Z",
+    "license": {
+      "key": "mit-0",
+      "name": "MIT No Attribution",
+      "url": "https://api.github.com/licenses/mit-0"
+    },
+    "stars_at_retrieval": 5
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:40:11Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'mit-0', 'name': 'MIT No Attribution', 'url': 'https://api.github.com/licenses/mit-0'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-aws-solutions-library-samples-guidance-for-evaluating-generative-ai-applications",
+  "status": "rejected",
+  "title": "aws-solutions-library-samples/guidance-for-evaluating-generative-ai-applications-using-oss-on-aws"
+}

@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/0xsomesh/rawbench",
+  "content_sha256": "5c28478d58b446864b50af2a99fe11cfbc27dfe370ded3af018e707438aa3558",
+  "creator": "0xsomesh",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "RawBench: Powerful, minimal framework for LLM prompt evaluation with YAML configuration, tool execution support, and comprehensive result tracking. # RawBench Prompt Evaluation Powerful, minimal framework for LLM prompt evaluation with YAML configuration, tool execution support, and comprehensive result tracking. [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org) [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) ## Why RawBench? Most prompt testing tools are either too academic or too bloated. **RawBench is for devs who want:** - YAML-first, CLI-native"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository 0xsomesh/rawbench; discovered by github-repos-07.",
+  "published_date": "2025-06-24",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-07"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "0xsomesh/rawbench",
+    "last_push": "2025-07-05T03:41:52Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stars_at_retrieval": 8
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:40:08Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'mit', 'name': 'MIT License', 'url': 'https://api.github.com/licenses/mit'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-0xsomesh-rawbench",
+  "status": "rejected",
+  "title": "0xsomesh/rawbench"
+}

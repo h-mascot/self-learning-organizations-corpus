@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://fin.ai/customers/anthropic",
+  "content_sha256": "1b46b54e8d97b5ded911f75a87c754193261b2e1b12601da82c7bee1fe8b2577",
+  "creator": "fin.ai",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "public primary page",
+      "text": "Customers Pricing Log in Contact sales Start free trial View demo Intercom The world's best helpdesk, designed for the AI Agent era customer stories Anthropic Build vs buy: Why Anthropic chose Fin With Emily Lampert , Head of Product Support, and Isabel Larrow, Product Support Operations from Anthropic Link copied Fin AI Agent involvement rate 96% Fin AI Agent resolution rate achieved in just over a month 50.8% hours saved in first month 1,700 Region Global Industry Software & Technology Key features used Fin AI Agent, Intercom Helpdesk See all stories Share story Link copied At a glance Pioneering AI safety and research company Anthropic is"
+    }
+  ],
+  "platform": "case-studies",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-case-studies.",
+  "published_date": null,
+  "publisher": "fin.ai",
+  "query_ids": [
+    "citation-catalog-case-studies"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Primary source evidence describes a learning, evaluation, feedback, adaptation, or agentic operating mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:34Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "case-study",
+  "stable_id": "case-studies-590682dbc5cdac52",
+  "status": "accepted",
+  "title": "Build vs buy: Why Anthropic chose Fin"
+}

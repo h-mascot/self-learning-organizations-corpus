@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/FlowMetr/FlowMetr",
+  "content_sha256": "d5e96ba64d81c029e483d6d2f0aee18ef7d7cc5e42bdcbcd7869f933d0f695a1",
+  "creator": "FlowMetr",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "Workflow, Pipeline & AI Agent Observability Platform. Metrics, logs and traces for all your automations. # FlowMetr Workflow, Pipeline &amp; AI Agent Observability Platform. Metrics, logs and traces for all your automations. Works with every tool, which is capable of sending a http request like: [n8n](https://n8n.io), [make.com](https://make.com), [zapier](https://zapier.com), Website: [FlowMetr](https://FlowMetr.com) Newsletter: [FlowMetr Newsletter](https://flowmetr.beehiiv.com) <img src=\"app/assets/images/flowmetr_short.gif\" width=\"600\" alt=\"FlowMetr\"> ## Visualisations FlowMetr visualises the status of all"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository FlowMetr/FlowMetr; discovered by github-repos-08.",
+  "published_date": "2025-09-03",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-08"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "FlowMetr/FlowMetr",
+    "last_push": "2025-09-21T13:22:37Z",
+    "license": {
+      "key": "agpl-3.0",
+      "name": "GNU Affero General Public License v3.0",
+      "url": "https://api.github.com/licenses/agpl-3.0"
+    },
+    "stars_at_retrieval": 41
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:40:28Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'agpl-3.0', 'name': 'GNU Affero General Public License v3.0', 'url': 'https://api.github.com/licenses/agpl-3.0'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-flowmetr-flowmetr",
+  "status": "rejected",
+  "title": "FlowMetr/FlowMetr"
+}

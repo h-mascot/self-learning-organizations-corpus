@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.atlassian.com/incident-management/postmortem/blameless",
+  "content_sha256": "3953a4b553397c0a9cd5eabb92a833ecc9215085c2164a1c5645b37febff9d80",
+  "creator": "atlassian.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "public primary page",
+      "text": "Title: How to run a blameless postmortem | Atlassian How to run a blameless postmortem | Atlassian Skip to content Products Featured Developers Product Managers IT professionals Business Teams Leadership Teams See all apps Featured apps Jira Flexible project management Confluence Knowledge, all in one place Jira Service Management Deliver service at high velocity Atlassian Collections Supercharge teamwork seamlessly Jira Confluence Loom Optimize strategy and outcomes confidently Focus Talent Align Deliver service at high-velocity Jira Service Management Customer Service Management Assets Ship high-quality software fast Rovo Dev DX Pipelines"
+    }
+  ],
+  "platform": "blogs",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-blogs.",
+  "published_date": null,
+  "publisher": "atlassian.com",
+  "query_ids": [
+    "citation-catalog-blogs"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Primary source evidence describes a learning, evaluation, feedback, adaptation, or agentic operating mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:23Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "article",
+  "stable_id": "blogs-6a0fb5c2b002b162",
+  "status": "accepted",
+  "title": "How to run a blameless postmortem | Atlassian"
+}

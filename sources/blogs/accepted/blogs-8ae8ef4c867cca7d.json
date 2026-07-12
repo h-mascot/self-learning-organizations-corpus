@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://developers.openai.com/cookbook/examples/agents_sdk/agent_improvement_loop",
+  "content_sha256": "fdfaedb506d96526e86733540f824e1c7720a60d118d1ff81db89d97270a46a3",
+  "creator": "developers.openai.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "public primary page",
+      "text": "Overview Prompt engineering Citation formatting Migration guide Reasoning Reasoning models Reasoning best practices Evaluation Red teaming Realtime and audio Overview Voice agents Live translation Transcription Realtime transcription Speech to text Speech generation Realtime prompting guide Connection methods WebRTC WebSocket SIP Realtime sessions Managing conversations Voice activity detection Realtime with tools Webhooks and server-side controls Managing costs Specialized models Image generation Video generation Deep research Embeddings Moderation Going live Production best practices Private Link Workload identity federation Overview Ku"
+    }
+  ],
+  "platform": "blogs",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-blogs.",
+  "published_date": null,
+  "publisher": "developers.openai.com",
+  "query_ids": [
+    "citation-catalog-blogs"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Primary source evidence describes a learning, evaluation, feedback, adaptation, or agentic operating mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:23Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "article",
+  "stable_id": "blogs-8ae8ef4c867cca7d",
+  "status": "accepted",
+  "title": "Build an Agent Improvement Loop with Traces, Evals, and Codex"
+}

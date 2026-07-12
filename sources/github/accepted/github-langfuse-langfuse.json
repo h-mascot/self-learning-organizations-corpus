@@ -1,0 +1,44 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://github.com/langfuse/langfuse",
+  "content_sha256": "a52b66d06f9093a2117ac65d601af6694ea9aada537d772f95f43de90dfea5f8",
+  "creator": "langfuse",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "to strong caching on server and client side, you can iterate on prompts without adding latency to your application. - [Evaluations](https://langfuse.com/docs/evaluation/overview) are key to the LLM application development workflow, and Langfuse adapts to your needs. It supports LLM-as-a-judge, Code evaluators, user feedback collection, manual labeling, and custom evaluation pipelines via APIs/SDKs. - [Datasets](https://langfuse.com/docs/evaluation/dataset-runs/datasets) enable test sets and benchmarks for evaluating your LLM application. They support continuous improvement, pre-deployment testing, structured exp"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository langfuse/langfuse; discovered by github-repos-02.",
+  "published_date": "2023-05-18",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-02"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Repository supplies infrastructure for the llm evals learning/evaluation mechanism."
+  ],
+  "repository": {
+    "full_name": "langfuse/langfuse",
+    "last_push": "2026-07-11T07:49:08Z",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "url": ""
+    },
+    "stars_at_retrieval": 30951
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:38:56Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'other', 'name': 'Other', 'url': ''}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-langfuse-langfuse",
+  "status": "accepted",
+  "title": "langfuse/langfuse"
+}

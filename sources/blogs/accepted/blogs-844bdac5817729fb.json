@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://incident.io/blog/sre-incident-postmortem-best-practices",
+  "content_sha256": "debbde244d07d4c4b9aa65ab6778f1779d6ce9bf88eb959929bf590bcf7da0f7",
+  "creator": "incident.io",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "public primary page",
+      "text": "incident post-mortem best practices: Templates, process & learning culture What is an SRE incident post-mortem? The blameless post-mortem: Moving beyond \"human error\" Why accountability doesn't mean blame Creating psychological safety for honest reporting How to conduct an incident post-mortem: A 5-step process Step 1: Appoint an owner and gather the timeline Step 2: Analyze root causes using the 5 Whys Step 3: Draft the document asynchronously before the meeting Step 4: Run the review meeting Step 5: Assign and track follow-up actions SRE incident post-mortem template Core components checklist Example structure Measuring the effectivenes"
+    }
+  ],
+  "platform": "blogs",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-blogs.",
+  "published_date": null,
+  "publisher": "incident.io",
+  "query_ids": [
+    "citation-catalog-blogs"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Primary source evidence describes a learning, evaluation, feedback, adaptation, or agentic operating mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:23Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "article",
+  "stable_id": "blogs-844bdac5817729fb",
+  "status": "accepted",
+  "title": "SRE incident post-mortem best practices: Templates, process &amp; learning culture | Blog | incident.io"
+}

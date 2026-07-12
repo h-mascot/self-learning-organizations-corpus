@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.microsoft.com/en/customers/story/26166-microsoft-microsoft-copilot-studio",
+  "content_sha256": "e134546d1ab57e3087ce7679505a8cd570f8e1cbd484c36def718ee4b4fbaab8",
+  "creator": "microsoft.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "public primary page",
+      "text": "to go even further, moving beyond just information retrieval to having the agent actively help customers with product evaluation, technical support, even key business outcomes like product signups. Rapid deployment with Copilot Studio To begin testing their agentic vision, the team turned to Copilot Studio. “We wanted to get an agent out to support customers as quickly as possible and Copilot Studio turned out to be the ideal solution for the job,” says Haklitch. The agent—a web assistant called Ask Microsoft —was originally prototyped on Copilot Studio by the team responsible for the Azure product site on Microsoft.com. Leveraging the easy"
+    }
+  ],
+  "platform": "case-studies",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-case-studies.",
+  "published_date": null,
+  "publisher": "microsoft.com",
+  "query_ids": [
+    "citation-catalog-case-studies"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Primary source evidence describes a learning, evaluation, feedback, adaptation, or agentic operating mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:35Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "case-study",
+  "stable_id": "case-studies-eaeb477aa9007484",
+  "status": "accepted",
+  "title": "Microsoft uses Copilot Studio to reshape customer experience and drive higher engagement | Microsoft Customer Stories"
+}

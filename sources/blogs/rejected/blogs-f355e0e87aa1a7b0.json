@@ -1,0 +1,32 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://developers.redhat.com/articles/2026/03/23/eval-driven-development-build-evaluate-reliable-ai-agents",
+  "content_sha256": "3ec60c8e57669f5b2e6331e406b633ab92bb1afc84b18b39b2ec37256869013f",
+  "creator": "developers.redhat.com",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "public primary page",
+      "text": "Title: Page Not Found | Red Hat Developer URL Source: https://developers.redhat.com/articles/2026/03/23/eval-driven-development-build-evaluate-reliable-ai-agents Published Time: 2016-09-02T20:21:29+0000 Markdown Content: [Skip to main content](https://developers.redhat.com/articles/2026/03/23/eval-driven-development-build-evaluate-reliable-ai-agents#main-content) [![Image 3: Red Hat Developers logo](https://developers.redhat.com/themes/custom/rhdp_fe/images/branding/2023_RHDLogo_reverse.svg)](https://developers.redhat.com/) * AI ### Get started with AI * [Red Hat AI](https://developers.redhat.com/products/red-hat-ai)Accelerate the"
+    }
+  ],
+  "platform": "blogs",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-blogs.",
+  "published_date": null,
+  "publisher": "developers.redhat.com",
+  "query_ids": [
+    "citation-catalog-blogs"
+  ],
+  "rejection_reason": "Stale or missing publisher page; retrieval evidence preserved but not accepted.",
+  "relevance_evidence": [],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:23Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "article",
+  "stable_id": "blogs-f355e0e87aa1a7b0",
+  "status": "rejected",
+  "title": "Page Not Found | Red Hat Developer"
+}

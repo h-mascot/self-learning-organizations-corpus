@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/ChanningLua/prax-agent",
+  "content_sha256": "ac48b51bb918d8204a42fd240cd34ff9f1d659756b43aab0e2be1a0b0cc37d3a",
+  "creator": "ChanningLua",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "Self-improving agent runtime that learns from experience — test-verify-fix loops, correction detection, cross-project memory, multi-model orchestration. <div align=\"center\"> # Prax **Self-improving agent runtime that learns from experience and drives LLM agents through test-verify-fix loops** <br> [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/) [Quick Start](#quick-start) · [Why Prax](#why-prax) · [Usage](#usage-examples) · [Results](#results) · [Integration"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository ChanningLua/prax-agent; discovered by github-repos-06.",
+  "published_date": "2026-04-15",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-06"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "ChanningLua/prax-agent",
+    "last_push": "2026-07-12T08:33:15Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stars_at_retrieval": 290
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:49Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'mit', 'name': 'MIT License', 'url': 'https://api.github.com/licenses/mit'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-channinglua-prax-agent",
+  "status": "rejected",
+  "title": "ChanningLua/prax-agent"
+}

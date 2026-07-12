@@ -1,0 +1,42 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/YiShu5/claude-skills",
+  "content_sha256": "c59362ee3cf9af04cb616d1fd2e517bf9328345b9535245e2511c5a126546d5e",
+  "creator": "YiShu5",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository description/README",
+      "text": "🧩 通用 Claude Code Skills 集合 · 即插即用 · 包含 clawd-animation、self-improving-agent、wechat-article-publisher 等 <div align=\"center\"> # 🧩 Claude Skills **按场景整理的 Claude Code Skills：HTML 首页/演示、公众号工作流、动画生成、PRD 整理、中文写作与经验记忆** [![Skills](https://img.shields.io/badge/Skills-10-6366f1?style=for-the-badge)](./skills) [![Claude Code](https://img.shields.io/badge/Claude_Code-Compatible-6366f1?style=for-the-badge)](https://claude.com/claude-code) [![License](https://img.shields.io/badge/License-MIT-f59e0b?style=for-the-badge)](./LICENSE) </div> --- ## 🤔 Why this? 这个仓库不是大而全的插件市场，而是一组已经在真实工作流里反复打磨过的 Claude Code Skills。它们面向具体任务：做一个可运行的"
+    }
+  ],
+  "platform": "github",
+  "provenance": "GitHub repository YiShu5/claude-skills; discovered by github-repos-06.",
+  "published_date": "2026-03-16",
+  "publisher": "GitHub",
+  "query_ids": [
+    "github-repos-06"
+  ],
+  "rejection_reason": "Relevant discovery held outside the bounded accepted review set; evidence preserved and not counted.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "YiShu5/claude-skills",
+    "last_push": "2026-07-03T02:51:48Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stars_at_retrieval": 66
+  },
+  "retrieval_method": "GitHub CLI/API repository search and README endpoint",
+  "retrieved_at": "2026-07-12T08:39:55Z",
+  "rights_note": "Repository license reported by GitHub: {'key': 'mit', 'name': 'MIT License', 'url': 'https://api.github.com/licenses/mit'}. Only a bounded README/description span is stored.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-yishu5-claude-skills",
+  "status": "rejected",
+  "title": "YiShu5/claude-skills"
+}

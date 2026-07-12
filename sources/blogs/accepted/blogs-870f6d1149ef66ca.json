@@ -1,0 +1,34 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://blog.antnsn.dev/2026-p5-rre-weekly-reflection-framework/",
+  "content_sha256": "d07c1a60e6712e3571bd81b74bc1e2677511b7675a2ec9a6c37f8df1d9ef1d4f",
+  "creator": "blog.antnsn.dev",
+  "date_precision": "unknown",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "public primary page",
+      "text": "telemetry at all. No signal on whether the week moved things forward. No structured way to surface blockers early. No feedback loop that converts experience into better execution. Just meetings, Slack noise, and the vague sense that things are either fine or not fine. A month into managing a team, I wanted something better. So I built a lightweight weekly framework I call RRE — Recap, Rewind, Execute. Think of it as observability for team performance. The problem it solves # Without structured reflection, teams tend to repeat the same problems, lose context between weeks, and operate reactively. Wins get forgotten. Blockers stay invisible u"
+    }
+  ],
+  "platform": "blogs",
+  "provenance": "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-blogs.",
+  "published_date": null,
+  "publisher": "blog.antnsn.dev",
+  "query_ids": [
+    "citation-catalog-blogs"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Primary source evidence describes a learning, evaluation, feedback, adaptation, or agentic operating mechanism."
+  ],
+  "retrieval_method": "agent-reach documented Jina public reader",
+  "retrieved_at": "2026-07-12T08:37:23Z",
+  "rights_note": "Only a bounded public evidence span is stored; no complete third-party page, PDF, or talk transcript is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "article",
+  "stable_id": "blogs-870f6d1149ef66ca",
+  "status": "accepted",
+  "title": "RRE: the weekly reflection framework I built for my team &#183; DevOps Noldus"
+}
