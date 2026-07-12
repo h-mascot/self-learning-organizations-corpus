@@ -1,16 +1,17 @@
 # Goal 2 manager status
 
-Updated: 2026-07-12T15:34:15Z
+Updated: 2026-07-12T15:48:15Z
 Status: ACTIVE
 Phase: scale-and-saturation; fixed quotas remain verified floors, not completion
 
-## Active follow-up lanes
+## Integrated follow-up checkpoint
 
-- `goal/saturation-social-2` is HEALTHY in `/home/henrymascot/corpus-wt-saturation-social-2` (PID 1124344): X, Reddit, Substack/newsletters, and YouTube blocker review plus eligible high-precision saturation rounds.
-- `goal/saturation-webmedia-2` is HEALTHY in `/home/henrymascot/corpus-wt-saturation-webmedia-2` (PID 1124538): blogs, podcasts, books, conferences, case studies, GitHub, and academic saturation/entity-chasing rounds.
-- `goal/benchmark-2` is HEALTHY in `/home/henrymascot/corpus-wt-benchmark-2` (PID 1124735): broader competitor discovery and row/sample-level like-for-like measurement.
+- `goal/saturation-social-2` completed at `3473ed0` and was independently validated and merged. It records 12 materially different social/video attempts, but all are ineligible because retrieval was shallow or drifted; no saturation claim was manufactured.
+- `goal/saturation-webmedia-2` completed at `4f17c85` and was independently validated and merged. It records 21 rounds / 101 candidates: 1 strict accepted GitHub source, 100 rejected, 0 blocked, and 0 saturated channels.
+- `goal/benchmark-2` completed at `2253641` and was independently validated and merged. Benchmark coverage increased from 6 to 9 public collections and now enforces row/sample audit integrity; the largest claim remains unsupported.
+- Combined-tree validation passes with 50 tests and 1,053 audited records. The new web/media follow-up validator was added to the canonical `make check` chain rather than left as an orphan lane command.
 - Three initial wrapper launches exited during argument parsing because the orchestration path injected `--full-auto` before `exec`. The same clean worktrees were preserved and restarted through the installed Codex binary entrypoint; all three replacements passed the startup acceptance probe and began substantive repository inspection.
-- Main remains clean and synchronized at `0608ad195e266bfd2f770384cde56010fbf184d4`; local `make check` passed (47 tests, 1,052 audited records), and exact-SHA GitHub Actions run `29198024208` passed.
+- Prior remote baseline `7a111b8c5d93048fa8787b241c4935f06caef42c` passed exact-SHA GitHub Actions run `29198452558`. The current integrated checkpoint is pending commit/push/exact-SHA CI receipt.
 
 ## Scale checkpoint
 
@@ -19,7 +20,7 @@ Phase: scale-and-saturation; fixed quotas remain verified floors, not completion
 - Integrity held: generic tooling is excluded from organization counts; 267 saturation candidates were rejected and 24 remain blocked for primary-source review. Zero automatic accepts were explicitly ruled ineligible as saturation proof.
 - The benchmark does **not** permit a largest claim: adjacent public collections range from 19 content files to 928,650+ generic case studies, but broader discovery and row-level like-for-like audits remain incomplete.
 - No worker is live; all three completed lanes were independently checked and merged. Follow-up work is required to review the 24 blockers and run three eligible low-yield rounds per channel on higher-precision backends.
-- Completion remains unproven: 0/11 channels are saturated and `largest measured` is not supported.
+- Completion remains unproven: 0/11 channels are saturated and `largest measured` is not supported. Next work must use deeper/native backends and continue row-level competitor audits; repeating four-result web-search rounds would be quota theatre.
 
 ## Criterion-by-criterion proof
 

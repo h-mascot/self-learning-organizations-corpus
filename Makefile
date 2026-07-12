@@ -9,6 +9,7 @@ validate: audit
 	python3 scripts/generate_organization_index.py
 	python3 scripts/validate_public_competitor_benchmark.py
 	python3 scripts/validate_saturation.py
+	python3 scripts/validate_web_media_followup.py
 
 generate:
 	python3 tools/corpus.py generate
