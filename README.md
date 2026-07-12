@@ -4,56 +4,63 @@ Open research corpus about self-learning, self-improving, AI-native organization
 
 ## Corpus status
 
-- Accounted canonical/evidence records: **406**
-- Accepted relevant sources: **386**
-- Retrieved records (including accepted/rejected): **405**
-- Rejected records: **15**
-- Blocked retrieval records: **1**
+- Accounted canonical/evidence records: **1052**
+- Accepted relevant sources: **634**
+- Retrieved records (including accepted/rejected): **1045**
+- Rejected records: **411**
+- Blocked retrieval records: **7**
 - Complete timestamped YouTube transcripts: **100**
 
-| Platform | Discovered | Retrieved | Accepted | Rejected | Blocked |
-| --- | ---: | ---: | ---: | ---: | ---: |
-| youtube | 101 | 101 | 100 | 1 | 0 |
-| academic | 200 | 200 | 186 | 14 | 0 |
-| x | 50 | 50 | 50 | 0 | 0 |
-| reddit | 25 | 25 | 25 | 0 | 0 |
-| substack | 25 | 25 | 25 | 0 | 0 |
-| blogs | 3 | 2 | 0 | 0 | 1 |
-| podcasts | 0 | 0 | 0 | 0 | 0 |
-| conferences | 0 | 0 | 0 | 0 | 0 |
-| books | 0 | 0 | 0 | 0 | 0 |
-| case-studies | 2 | 2 | 0 | 0 | 0 |
-| github | 0 | 0 | 0 | 0 | 0 |
+| Platform | Discovered | Retrieved | Accepted | Rejected | Blocked | Artifact levels | Rights statuses | Provenance coverage |
+| --- | ---: | ---: | ---: | ---: | ---: | --- | --- | --- |
+| youtube | 101 | 101 | 100 | 1 | 0 | transcript: 101 | third-party: 101 | 101 records / 4 distinct values |
+| academic | 200 | 200 | 186 | 14 | 0 | abstract: 164, full_text: 13, metadata_only: 23 | open-license: 26, third-party-metadata-and-abstract: 174 | 200 records / 200 distinct values |
+| x | 50 | 50 | 50 | 0 | 0 | full_text: 50 | third-party: 50 | 50 records / 1 distinct values |
+| reddit | 25 | 25 | 25 | 0 | 0 | full_text: 25 | third-party: 25 | 25 records / 1 distinct values |
+| substack | 25 | 25 | 25 | 0 | 0 | metadata_only: 25 | third-party: 25 | 25 records / 1 distinct values |
+| blogs | 88 | 82 | 78 | 4 | 6 | metadata_only: 78, unavailable: 10 | bounded-public-evidence: 80, retrieval-evidence-only: 8 | 88 records / 3 distinct values |
+| podcasts | 51 | 51 | 30 | 21 | 0 | metadata_only: 30, unavailable: 21 | bounded-public-evidence: 50, retrieval-evidence-only: 1 | 51 records / 50 distinct values |
+| conferences | 53 | 53 | 30 | 23 | 0 | metadata_only: 30, unavailable: 23 | bounded-public-evidence: 53 | 53 records / 2 distinct values |
+| books | 174 | 174 | 30 | 144 | 0 | metadata_only: 30, unavailable: 144 | metadata-only: 174 | 174 records / 174 distinct values |
+| case-studies | 63 | 62 | 50 | 12 | 1 | metadata_only: 50, unavailable: 13 | bounded-public-evidence: 52, retrieval-evidence-only: 11 | 63 records / 3 distinct values |
+| github | 222 | 222 | 30 | 192 | 0 | metadata_only: 30, unavailable: 192 | bounded-public-evidence: 14, open-license: 208 | 222 records / 222 distinct values |
 
 | Artifact level | Records |
 | --- | ---: |
 | abstract | 164 |
-| excerpt | 4 |
 | full_text | 88 |
-| metadata_only | 48 |
-| retrieval_evidence | 1 |
+| metadata_only | 296 |
 | transcript | 101 |
+| unavailable | 403 |
 
 | Lifecycle | Records |
 | --- | ---: |
-| accepted | 386 |
-| blocked | 1 |
-| rejected | 15 |
-| retrieved | 4 |
+| accepted | 634 |
+| blocked | 7 |
+| rejected | 411 |
+
+| Rights status | Records |
+| --- | ---: |
+| bounded-public-evidence | 249 |
+| metadata-only | 174 |
+| open-license | 234 |
+| retrieval-evidence-only | 20 |
+| third-party | 201 |
+| third-party-metadata-and-abstract | 174 |
 
 ## Layout and contracts
 
 - `sources/youtube/<lifecycle>/` contains strict canonical transcript records.
 - `sources/academic/<source-type>/<lifecycle>/` contains academic metadata, abstract, or legally available full-text records.
-- Other platform directories may contain acquisition evidence or canonical records; their lifecycle and artifact level are reported honestly.
+- Web/media platform directories contain strict JSON acquisition records; social and legacy evidence may use canonical Markdown. Dispatch is by record format and path, not schema version alone.
 - `schema/source.schema.json` documents the canonical cross-platform contract and academic specialization.
 - `metadata/sources.csv`, `metadata/rejected-sources.csv`, and `metadata/statistics.json` are deterministic generated views.
 - `research/recursive-loops/` contains the separate 200-loop dependent research DAG; its artifacts are not double-counted as corpus sources.
 
-Canonical validation rejects duplicate stable IDs, normalized URLs, and content hashes globally. Placeholder `.gitkeep` files and `sources/README.md` are never records. Run `make check` before committing; it verifies regeneration is clean and preserves the dedicated YouTube gate.
+Canonical validation rejects duplicate stable IDs and normalized URLs globally. Markdown body hashes are also deduplicated; web/media evidence-array hashes are integrity checks because empty or shared bounded evidence is not a source identity. Placeholder `.gitkeep` files and `sources/README.md` are never records. Run `make check` before committing; it verifies regeneration is clean and preserves the dedicated lane gates.
 
 ## Counting and rights policy
 
-Only `accepted` + `relevant` records count as validated sources. Artifact levels distinguish full text, transcripts, abstracts, excerpts, metadata-only records, and failed retrieval evidence. A URL to full text does not itself make a record `full_text`; the preserved body must contain it. Third-party content remains subject to the declared rights holder and source terms, and inclusion transfers no ownership.
+Only `accepted` + `relevant` records count as validated sources. Artifact levels distinguish full text, transcripts, abstracts, excerpts, metadata-only records, unavailable artifacts, and failed retrieval evidence. Statistics retain platform, lifecycle, artifact, rights-status, and provenance dimensions. A URL to full text does not itself make a record `full_text`; the preserved body must contain it. Third-party content remains subject to the declared rights holder and source terms, and inclusion transfers no ownership.
 
 _This README is generated by `python3 tools/corpus.py generate`._

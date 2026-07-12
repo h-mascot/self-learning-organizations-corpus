@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import csv
 import hashlib
+import importlib.util
 import json
 import re
 import sys
@@ -29,10 +30,13 @@ _FrontMatterLoader.yaml_implicit_resolvers = {
 ROOT = Path(__file__).resolve().parents[1]
 PLATFORMS = ("youtube", "academic", "x", "reddit", "substack", "blogs", "podcasts", "conferences", "books", "case-studies", "github")
 ACADEMIC_TYPES = {"arxiv", "journal-article", "conference-paper", "book-chapter", "repository-preprint", "thesis"}
-ARTIFACT_LEVELS = {"full_text", "transcript", "abstract", "excerpt", "metadata_only", "retrieval_evidence"}
+ARTIFACT_LEVELS = {"full_text", "transcript", "abstract", "excerpt", "metadata_only", "unavailable", "retrieval_evidence"}
 LIFECYCLES = {"discovered", "retrieved", "accepted", "rejected", "blocked"}
 CONTENT_TYPES = {"transcript", "paper", "post", "article", "episode", "talk", "book", "case-study", "repository", "discussion"}
-RIGHTS_STATUSES = {"third-party", "licensed", "open-license", "public-domain", "permission-granted", "third-party-metadata-and-abstract", "third-party-full-text", "metadata-only", "short-evidence-spans-only", "metadata-and-short-evidence-spans-only", "retrieval-evidence-only"}
+RIGHTS_STATUSES = {"third-party", "licensed", "open-license", "public-domain", "permission-granted", "third-party-metadata-and-abstract", "third-party-full-text", "metadata-only", "bounded-public-evidence", "short-evidence-spans-only", "metadata-and-short-evidence-spans-only", "retrieval-evidence-only"}
+WEB_MEDIA_PLATFORMS = {"blogs", "podcasts", "books", "conferences", "case-studies", "github"}
+WEB_MEDIA_SOURCE_TYPES = {"article", "episode", "book", "book-chapter", "talk", "proceeding", "case-study", "repository", "issue", "discussion"}
+WEB_MEDIA_REQUIRED = {"schema_version", "platform", "stable_id", "title", "creator", "publisher", "canonical_url", "published_date", "date_precision", "source_type", "status", "artifact_level", "retrieved_at", "retrieval_method", "provenance", "rights_status", "rights_note", "content_sha256", "relevance_evidence", "evidence", "query_ids"}
 YOUTUBE_REQUIRED = ("schema_version", "platform", "stable_id", "title", "publisher", "canonical_url", "published_date", "content_type", "status", "relevance_status", "provenance", "rights_status", "rights_holder", "content_sha256")
 YOUTUBE_OPTIONAL = {"duration_seconds", "transcript_source", "rejection_reason", "availability", "license", "caption_error", "segment_count", "relevance_categories", "relevance_evidence", "relevance_spans", "rights_note", "raw_files", "raw_path", "asr_models"}
 ACADEMIC_REQUIRED = ("academic_schema_version", "stable_id", "openalex_id", "title", "authors", "publisher", "published_date", "canonical_url", "source_type", "lifecycle", "relevance_status", "relevance_reason", "artifact_level", "rights_status", "rights_holder", "retrieved_at", "provenance", "content_sha256")
@@ -90,6 +94,11 @@ def parse_document(path: Path) -> tuple[dict[str, object], str]:
 
 def body_hash(body: str) -> str:
     return hashlib.sha256(body.encode("utf-8")).hexdigest()
+
+
+def evidence_hash(evidence: object) -> str:
+    payload = json.dumps(evidence, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
+    return hashlib.sha256(payload.encode("utf-8")).hexdigest()
 
 
 def format_document(meta: dict[str, object], body: str) -> str:
@@ -243,17 +252,103 @@ def _validate_canonical(path: Path, meta: dict[str, object], body: str) -> list[
     return errors
 
 
+def _web_media_slug(value: object) -> str:
+    return slug(str(value))[:80] or "source"
+
+
+def _adapt_web_media(path: Path, record: dict[str, object]) -> tuple[dict[str, object], list[str]]:
+    errors = []
+    missing = sorted(key for key in WEB_MEDIA_REQUIRED if key not in record)
+    if missing:
+        return dict(record), ["missing required web/media metadata: " + ", ".join(missing)]
+    platform = record.get("platform")
+    status = record.get("status")
+    evidence = record.get("evidence")
+    if record.get("schema_version") != 2: errors.append("web/media schema_version must be 2")
+    if not isinstance(platform, str) or platform not in WEB_MEDIA_PLATFORMS: errors.append("invalid web/media platform")
+    if not isinstance(status, str) or status not in {"accepted", "rejected", "blocked"}: errors.append("invalid web/media status")
+    if not isinstance(record.get("source_type"), str) or record.get("source_type") not in WEB_MEDIA_SOURCE_TYPES: errors.append("invalid web/media source_type")
+    if not isinstance(record.get("artifact_level"), str) or record.get("artifact_level") not in {"full_text", "transcript", "abstract", "metadata_only", "unavailable"}: errors.append("invalid web/media artifact_level")
+    if not isinstance(record.get("rights_status"), str) or record.get("rights_status") not in RIGHTS_STATUSES: errors.append("invalid web/media rights_status")
+    for key in ("stable_id", "title", "creator", "publisher", "retrieval_method", "provenance", "rights_note"):
+        if not isinstance(record.get(key), str) or not str(record[key]).strip(): errors.append(f"web/media {key} must be a non-empty string")
+    try: normalize_url(str(record.get("canonical_url", "")))
+    except CorpusError as exc: errors.append(str(exc))
+    if not _timestamp(record.get("retrieved_at")): errors.append("web/media retrieved_at must be an ISO-8601 timestamp")
+    precision = record.get("date_precision")
+    published = record.get("published_date")
+    if precision not in {"day", "year", "unknown"}: errors.append("invalid web/media date_precision")
+    if published is None:
+        if precision != "unknown": errors.append("null published_date requires unknown date_precision")
+    elif not _date(published): errors.append("web/media published_date must be a real YYYY-MM-DD date or null")
+    if not isinstance(evidence, list):
+        errors.append("web/media evidence must be a list")
+    else:
+        for item in evidence:
+            if not isinstance(item, dict) or not all(isinstance(item.get(key), str) and item[key].strip() for key in ("kind", "locator", "text")):
+                errors.append("web/media evidence spans require non-empty kind, locator, and text"); break
+            if len(item["text"]) > 700: errors.append("web/media evidence span exceeds bounded 700-character limit")
+        if record.get("content_sha256") != evidence_hash(evidence): errors.append("content_sha256 does not match evidence")
+    if not isinstance(record.get("query_ids"), list) or not record["query_ids"] or not all(isinstance(item, str) and item.strip() for item in record["query_ids"]): errors.append("web/media query_ids must be a non-empty list of strings")
+    relevance = record.get("relevance_evidence")
+    if not isinstance(relevance, list) or not all(isinstance(item, str) and item.strip() for item in relevance): errors.append("web/media relevance_evidence must contain strings")
+    if status == "accepted":
+        if not relevance: errors.append("accepted web/media record requires relevance_evidence")
+        if not evidence: errors.append("accepted web/media record requires retained evidence")
+        if record.get("artifact_level") == "unavailable": errors.append("accepted web/media record cannot be unavailable")
+    elif not isinstance(record.get("rejection_reason"), str) or not str(record["rejection_reason"]).strip(): errors.append(f"{status} web/media record requires rejection_reason")
+    if record.get("artifact_level") == "full_text" and record.get("rights_status") not in {"licensed", "public-domain", "permission-granted", "open-license"}: errors.append("full_text web/media record lacks affirmative rights")
+    if record.get("artifact_level") == "transcript" and record.get("retained_complete_transcript") is not True: errors.append("transcript web/media record requires a retained complete transcript")
+    expected = f"{_web_media_slug(record.get('title'))}--{_web_media_slug(record.get('stable_id'))}.json"
+    if path.name != expected: errors.append("filename must be title-derived and end in the stable ID")
+    if len(path.parts) < 4 or path.parts[0] != "sources" or path.parts[1] != platform or path.parts[-2] != status: errors.append("web/media platform/status path mismatch")
+    content_type = "book" if record.get("source_type") == "book-chapter" else record.get("source_type")
+    adapted = dict(record)
+    adapted.update(
+        lifecycle=status, content_type=content_type,
+        relevance_status="relevant" if status == "accepted" else "unknown",
+        rights_holder=record.get("creator") or record.get("publisher"), path=path.as_posix(),
+    )
+    return adapted, errors
+
+
 def documents(root: Path = ROOT) -> list[Path]:
     source_root = root / "sources"
     if not source_root.exists(): return []
-    return sorted(path for path in source_root.rglob("*.md") if path.name != "README.md")
+    return sorted(path for path in source_root.rglob("*") if path.is_file() and path.suffix in {".md", ".json"} and path.name != "README.md")
+
+
+def _strict_web_media_errors(root: Path) -> list[str]:
+    spec = importlib.util.spec_from_file_location("corpus_web_media_validator", ROOT / "scripts/validate_web_media.py")
+    if spec is None or spec.loader is None: return ["cannot load strict web/media validator"]
+    module = importlib.util.module_from_spec(spec); spec.loader.exec_module(module)
+    errors, _, _ = module.validate(root, enforce_quotas=False, enforce_ledgers=False)
+    return errors
 
 
 def audit(root: Path = ROOT) -> tuple[list[dict[str, object]], list[str]]:
-    records, errors = [], []
+    records, errors = [], _strict_web_media_errors(root)
     seen: dict[str, dict[str, Path]] = {key: {} for key in ("stable_id", "canonical_url", "content_sha256")}
     for path in documents(root):
         rel = path.relative_to(root)
+        if path.suffix == ".json":
+            try:
+                loaded = json.loads(path.read_text(encoding="utf-8"))
+                if not isinstance(loaded, dict): raise CorpusError("JSON source record must be an object")
+            except (OSError, UnicodeError, json.JSONDecodeError, CorpusError) as exc:
+                errors.append(f"{rel}: malformed JSON record: {exc}"); continue
+            record, local_errors = _adapt_web_media(rel, loaded)
+            errors.extend(f"{rel}: {error}" for error in local_errors)
+            # JSON is a distinct web/media record format; never dispatch it as canonical Markdown by version.
+            # Web/media hashes identify retained evidence arrays (including the common empty array),
+            # not the source itself. Deduplicate these records by source identities only.
+            for key in ("stable_id", "canonical_url"):
+                value = str(record.get(key, ""))
+                identity = normalize_url(value) if key == "canonical_url" and value else value.casefold() if key == "stable_id" else value
+                if identity and identity in seen[key]: errors.append(f"{rel}: duplicate {key} also in {seen[key][identity]}")
+                elif identity: seen[key][identity] = rel
+            records.append(record)
+            continue
         try: meta, body = parse_document(path)
         except (OSError, UnicodeError, CorpusError) as exc: errors.append(f"{rel}: {exc}"); continue
         if "academic_schema_version" in meta:
@@ -313,6 +408,10 @@ def _counts(records: list[dict[str, object]], key: str) -> dict[str, int]:
     return dict(sorted(Counter(str(record.get(key) or "unknown") for record in records).items()))
 
 
+def _csv_row(record: dict[str, object]) -> dict[str, object]:
+    return {key: re.sub(r"\s+", " ", value).strip() if isinstance(value, str) else value for key, value in record.items()}
+
+
 def _channel_stats(records: list[dict[str, object]]) -> dict[str, dict[str, object]]:
     result = {}
     for platform in PLATFORMS:
@@ -321,6 +420,9 @@ def _channel_stats(records: list[dict[str, object]]) -> dict[str, dict[str, obje
             "discovered": len(rows), "retrieved": sum(r["lifecycle"] in {"retrieved", "accepted", "rejected"} for r in rows),
             "accepted": sum(r["lifecycle"] == "accepted" for r in rows), "rejected": sum(r["lifecycle"] == "rejected" for r in rows),
             "blocked": sum(r["lifecycle"] == "blocked" for r in rows), "by_artifact_level": _counts(rows, "artifact_level") if rows else {},
+            "by_lifecycle": _counts(rows, "lifecycle") if rows else {},
+            "by_rights_status": _counts(rows, "rights_status") if rows else {},
+            "by_provenance": _counts(rows, "provenance") if rows else {},
         }
     return result
 
@@ -332,11 +434,11 @@ def generate(root: Path = ROOT) -> dict[str, object]:
     metadata = root / "metadata"; metadata.mkdir(exist_ok=True)
     fields = ["stable_id", "platform", "title", "publisher", "canonical_url", "published_date", "duration_seconds", "content_type", "status", "lifecycle", "relevance_status", "artifact_level", "rights_status", "content_sha256", "path"]
     with (metadata / "sources.csv").open("w", newline="", encoding="utf-8") as handle:
-        writer = csv.DictWriter(handle, fields, extrasaction="ignore", lineterminator="\n"); writer.writeheader(); writer.writerows(records)
+        writer = csv.DictWriter(handle, fields, extrasaction="ignore", lineterminator="\n"); writer.writeheader(); writer.writerows(_csv_row(record) for record in records)
     rejected = [r for r in records if r["lifecycle"] == "rejected"]
     with (metadata / "rejected-sources.csv").open("w", newline="", encoding="utf-8") as handle:
         fields2 = ["stable_id", "platform", "title", "canonical_url", "rejection_reason", "path"]
-        writer = csv.DictWriter(handle, fields2, extrasaction="ignore", lineterminator="\n"); writer.writeheader(); writer.writerows(rejected)
+        writer = csv.DictWriter(handle, fields2, extrasaction="ignore", lineterminator="\n"); writer.writeheader(); writer.writerows(_csv_row(record) for record in rejected)
     accepted = [r for r in records if r["lifecycle"] == "accepted" and r["relevance_status"] == "relevant"]
     stats: dict[str, object] = {
         "schema_version": 2, "total_records": len(records), "discovered_sources": len(records),
@@ -346,16 +448,21 @@ def generate(root: Path = ROOT) -> dict[str, object]:
         "complete_timestamped_transcripts": sum(r["platform"] == "youtube" and r["lifecycle"] == "accepted" for r in records),
         "by_platform": _counts(records, "platform"), "by_artifact_level": _counts(records, "artifact_level"),
         "by_lifecycle": _counts(records, "lifecycle"), "by_content_type": _counts(records, "content_type"),
+        "by_rights_status": _counts(records, "rights_status"), "by_provenance": _counts(records, "provenance"),
         "academic_by_source_type": _counts([r for r in records if r["platform"] == "academic"], "source_type"),
     }
     stats["channels"] = _channel_stats(records)
     (metadata / "statistics.json").write_text(json.dumps(stats, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     platform_rows = "\n".join(
-        f"| {p} | {stats['channels'][p]['discovered']} | {stats['channels'][p]['retrieved']} | {stats['channels'][p]['accepted']} | {stats['channels'][p]['rejected']} | {stats['channels'][p]['blocked']} |"
+        f"| {p} | {stats['channels'][p]['discovered']} | {stats['channels'][p]['retrieved']} | {stats['channels'][p]['accepted']} | {stats['channels'][p]['rejected']} | {stats['channels'][p]['blocked']} | "
+        f"{', '.join(f'{key}: {value}' for key, value in stats['channels'][p]['by_artifact_level'].items()) or '—'} | "
+        f"{', '.join(f'{key}: {value}' for key, value in stats['channels'][p]['by_rights_status'].items()) or '—'} | "
+        f"{sum(stats['channels'][p]['by_provenance'].values())} records / {len(stats['channels'][p]['by_provenance'])} distinct values |"
         for p in PLATFORMS
     )
     artifact_rows = "\n".join(f"| {k} | {v} |" for k, v in stats["by_artifact_level"].items())
     lifecycle_rows = "\n".join(f"| {k} | {v} |" for k, v in stats["by_lifecycle"].items())
+    rights_rows = "\n".join(f"| {k} | {v} |" for k, v in stats["by_rights_status"].items())
     readme = f"""# Self-Learning Organizations Corpus
 
 Open research corpus about self-learning, self-improving, AI-native organizations and recursive organizational feedback loops.
@@ -369,8 +476,8 @@ Open research corpus about self-learning, self-improving, AI-native organization
 - Blocked retrieval records: **{stats['blocked_sources']}**
 - Complete timestamped YouTube transcripts: **{stats['complete_timestamped_transcripts']}**
 
-| Platform | Discovered | Retrieved | Accepted | Rejected | Blocked |
-| --- | ---: | ---: | ---: | ---: | ---: |
+| Platform | Discovered | Retrieved | Accepted | Rejected | Blocked | Artifact levels | Rights statuses | Provenance coverage |
+| --- | ---: | ---: | ---: | ---: | ---: | --- | --- | --- |
 {platform_rows}
 
 | Artifact level | Records |
@@ -381,20 +488,24 @@ Open research corpus about self-learning, self-improving, AI-native organization
 | --- | ---: |
 {lifecycle_rows}
 
+| Rights status | Records |
+| --- | ---: |
+{rights_rows}
+
 ## Layout and contracts
 
 - `sources/youtube/<lifecycle>/` contains strict canonical transcript records.
 - `sources/academic/<source-type>/<lifecycle>/` contains academic metadata, abstract, or legally available full-text records.
-- Other platform directories may contain acquisition evidence or canonical records; their lifecycle and artifact level are reported honestly.
+- Web/media platform directories contain strict JSON acquisition records; social and legacy evidence may use canonical Markdown. Dispatch is by record format and path, not schema version alone.
 - `schema/source.schema.json` documents the canonical cross-platform contract and academic specialization.
 - `metadata/sources.csv`, `metadata/rejected-sources.csv`, and `metadata/statistics.json` are deterministic generated views.
 - `research/recursive-loops/` contains the separate 200-loop dependent research DAG; its artifacts are not double-counted as corpus sources.
 
-Canonical validation rejects duplicate stable IDs, normalized URLs, and content hashes globally. Placeholder `.gitkeep` files and `sources/README.md` are never records. Run `make check` before committing; it verifies regeneration is clean and preserves the dedicated YouTube gate.
+Canonical validation rejects duplicate stable IDs and normalized URLs globally. Markdown body hashes are also deduplicated; web/media evidence-array hashes are integrity checks because empty or shared bounded evidence is not a source identity. Placeholder `.gitkeep` files and `sources/README.md` are never records. Run `make check` before committing; it verifies regeneration is clean and preserves the dedicated lane gates.
 
 ## Counting and rights policy
 
-Only `accepted` + `relevant` records count as validated sources. Artifact levels distinguish full text, transcripts, abstracts, excerpts, metadata-only records, and failed retrieval evidence. A URL to full text does not itself make a record `full_text`; the preserved body must contain it. Third-party content remains subject to the declared rights holder and source terms, and inclusion transfers no ownership.
+Only `accepted` + `relevant` records count as validated sources. Artifact levels distinguish full text, transcripts, abstracts, excerpts, metadata-only records, unavailable artifacts, and failed retrieval evidence. Statistics retain platform, lifecycle, artifact, rights-status, and provenance dimensions. A URL to full text does not itself make a record `full_text`; the preserved body must contain it. Third-party content remains subject to the declared rights holder and source terms, and inclusion transfers no ownership.
 
 _This README is generated by `python3 tools/corpus.py generate`._
 """
