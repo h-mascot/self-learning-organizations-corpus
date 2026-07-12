@@ -1,6 +1,6 @@
 # Goal 2 manager status
 
-Updated: 2026-07-12T08:33:09Z
+Updated: 2026-07-12T08:35:12Z
 Status: ACTIVE
 Phase: academic, global canonical accounting, and validated social lanes merged; web/media acquisition active
 
@@ -28,15 +28,15 @@ Phase: academic, global canonical accounting, and validated social lanes merged;
 - Academic: COMPLETE and merged; no process running.
 - Social: COMPLETE and merged; no process running.
 - Global canonical integration: COMPLETE and merged; no process running.
-- Web/media: LIVE, PID 960449 (child 960539, code-mode host 960918), branch `goal/web-media-acquisition`, still based at `75e3dbe` with 17 uncommitted path groups. Current raw file counts are blogs 114, podcasts 33, books 174, conferences 0, case studies 7, GitHub 185. These are candidate artifacts, not accepted quota proof; its checkpoint remains stale. CPU and artifact activity show it is healthy, so no duplicate was launched.
+- Web/media: LIVE, PID 960449 (child 960539, code-mode host 960918), branch `goal/web-media-acquisition`, still based at `75e3dbe` with 17 uncommitted path groups. Files were still being written at 08:34:59Z. Current raw candidate counts are blogs 9, podcasts 33, books 174, conferences 34, case studies 45, and GitHub 185; accepted/rejected splits remain unproven until its validator runs and it commits. Its checkpoint remains stale, but live artifact activity proves forward motion, so no duplicate was launched.
 
 ## Blockers and unmet gates
 
 - Blogs/company, podcasts, books, conferences, case studies, and GitHub quotas remain unproven until the web/media worker commits and independent lane validation/sampling passes.
-- Conference acquisition currently has zero candidate files and will require a quota-specific follow-up if the active worker does not fill it.
-- `make check` must be rerun from a clean generated checkpoint after committing this manager update, then main must be pushed and remote SHA/CI read back.
+- Blogs and case studies are currently below quota even by raw candidate file count and will require quota-specific follow-up if the active worker does not fill them.
+- Local `make check` passes all 25 tests and validates 406 records. GitHub Actions for `f6eec8c` failed before tests because the workflow did not install PyYAML; the workflow dependency fix is staged in this manager checkpoint and must pass remotely before this gate is restored.
 - Goal remains ACTIVE; achievement is forbidden while six channel quotas and final remote completion proof are absent.
 
 ## Next action
 
-Commit and push this verified social/global checkpoint, verify remote readback and CI, then independently validate and sample the first web/media commit. Merge only rights-honest records, regenerate global views, and dispatch isolated follow-up workers for any post-validation shortfalls, especially conferences and case studies.
+Commit and push the CI dependency repair, verify remote readback and GitHub Actions, then independently validate and sample the first web/media commit. Merge only rights-honest records, regenerate global views, and dispatch isolated follow-up workers for post-validation shortfalls, especially blogs and case studies.
