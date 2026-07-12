@@ -1,0 +1,6 @@
+{"platform":"all","path":"agent-reach","status":"blocked","evidence":"Required health-check executable absent from PATH.","next_legal_path":"Public search indexes and publisher RSS/web pages."}
+{"platform":"x","path":"twitter-cli","status":"blocked","evidence":"No browser cookies or TWITTER_AUTH_TOKEN/TWITTER_CT0 available.","next_legal_path":"Public search index result pages."}
+{"platform":"x","path":"Jina Reader","status":"blocked","evidence":"Anonymous x.com access temporarily blocked with AbuseAlleviationError 40305.","next_legal_path":"Public search index result pages."}
+{"platform":"reddit","path":"Reddit and Jina Reader","status":"blocked","evidence":"Anonymous direct access returned 403 network-security page requiring login or developer token.","next_legal_path":"Public search index result pages."}
+{"platform":"search","path":"Exa MCP","status":"blocked","evidence":"HTTP 429 free MCP rate limit preserved in research/raw/exa/redditx.txt.","next_legal_path":"Alternate public search index."}
+

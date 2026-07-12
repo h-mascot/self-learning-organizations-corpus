@@ -1,0 +1,12 @@
+{"at":"2026-07-12T07:19:00Z","platform":"all","backend":"agent-reach doctor","query":"agent-reach doctor --json","status":"blocked","result_count":0,"evidence":"zsh: command not found: agent-reach"}
+{"at":"2026-07-12T07:22:00Z","platform":"x","backend":"twitter-cli","query":"tweet https://x.com/Voxyz_ai/status/2060030680369627237","status":"blocked","result_count":0,"evidence":"not_authenticated: No Twitter cookies found; TWITTER_AUTH_TOKEN and TWITTER_CT0 unset"}
+{"at":"2026-07-12T07:23:00Z","platform":"x","backend":"opencli","query":"from:Voxyz_ai 2060030680369627237","status":"blocked","result_count":0,"evidence":"OpenCLI returned no structured result; direct read command unsupported"}
+{"at":"2026-07-12T07:28:00Z","platform":"x","backend":"public-search-index","query":"AI-native company; self-improving company; company AGI; organizational memory","status":"retrieved","result_count":12}
+{"at":"2026-07-12T07:32:00Z","platform":"reddit","backend":"public-search-index","query":"AI-native company; organizational memory; eval-driven; feedback loops; Brex; Ramp; YC","status":"retrieved","result_count":20}
+{"at":"2026-07-12T07:36:00Z","platform":"substack","backend":"public-search-index","query":"AI-native company; organizational memory; eval-driven; feedback loop; AI agents","status":"retrieved","result_count":11}
+{"at":"2026-07-12T07:39:00Z","platform":"substack","backend":"public-search-index","query":"AI native company substack; organizational memory substack; agentic operating model newsletter","status":"retrieved","result_count":10}
+{"at":"2026-07-12T07:43:00Z","platform":"x","backend":"public-search-index","query":"self-improving agents; AI operating system; agent memory; continuous improvement","status":"retrieved","result_count":24}
+{"at":"2026-07-12T07:47:00Z","platform":"x","backend":"public-search-index","query":"AI-native operations; evals; Ramp agents; Brex agents; Pedro Franceschi","status":"retrieved","result_count":18}
+{"at":"2026-07-12T07:50:00Z","platform":"reddit","backend":"public-search-index","query":"production agent feedback loop; learn from mistakes; AI-native YC","status":"retrieved","result_count":18}
+{"at":"2026-07-12T07:53:00Z","platform":"x","backend":"public-search-index","query":"Karpathy autoresearch; Aaron Levie agents; agentic organization","status":"retrieved","result_count":13}
+
