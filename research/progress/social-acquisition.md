@@ -1,30 +1,38 @@
-# Social acquisition checkpoint
+# Social acquisition independent-review correction
 
-Status: lane gates pass locally with bounded public-index evidence.
+Status: lane validator and quotas pass on resource-level source evidence; manager-owned generated files remain untouched.
 
-## Exact accepted counts
+## Honest accepted counts
 
-- X: 50
-- Reddit: 25
-- Substack/newsletters: 25
-- Total: 100
-- Artifact level: 100 `metadata_only`; 0 claimed full text
+| Platform | Accepted | `full_text` | `metadata_only` |
+| --- | ---: | ---: | ---: |
+| X | 50 | 50 | 0 |
+| Reddit | 25 | 25 | 0 |
+| Substack/newsletters | 25 | 0 | 25 |
+| **Total** | **100** | **75** | **25** |
 
-All accepted records include a canonical URL, stable ID, publisher/creator (or an explicit public-index limitation for Reddit handles), date or `unknown`, retrieval timestamp, SHA-256 body hash, relevance evidence, provenance, and rights status. Each body labels the evidence as a bounded excerpt.
+`full_text` means the complete X post/X Article or Reddit self-post body returned by the named public resource endpoint is retained. Newsletter records remain honestly `metadata_only`: each contains a substantial bounded span from a direct fetch of an individual `/p/...` article, not a complete redistributed article.
 
-## Voxyz recovery
+## Independent-review corrections
 
-Recovered `https://x.com/Voxyz_ai/status/2060030680369627237` from session-accessible evidence under the local Hermes/Clawd archive. The archived browser-state transcript displayed the exact URL and a later session note identified the tweet as the source that triggered a comparison of gstack, Superpowers, and Compound Engineering. Direct body retrieval remains blocked by missing X authentication and Jina's temporary anonymous-X abuse block; the record therefore remains `metadata_only` and does not invent the post body.
+- Audited all 100 accepted resources rather than accepting quota arithmetic.
+- Replaced all publication-homepage newsletter records with individual article URLs.
+- Removed generic synthesized descriptions and thin search-only evidence.
+- Recovered exact X authors, canonical IDs/redirects, UTC dates, and complete post/X Article text through the FxTwitter public read API.
+- Replaced Reddit snippets and unknown authors/dates with exact canonical IDs, authors, `created_utc`, permalinks, and complete self-post bodies from the Arctic Shift public archive.
+- Removed all `0001-01-01` sentinels and year-1 filenames.
+- Rejected 60+ superseded, thin, homepage-only, or off-topic resources in `research/social/rejected.jsonl`.
+- Preserved raw responses under `research/social/raw/` and precise queries/endpoints in `research/social/query-log.jsonl`.
 
-## Reproducibility and validation
+## Verification
 
-- Materialize: `python scripts/social_acquisition.py`
-- Validate: `python scripts/validate_social_lane.py`
-- Tests: `python -m unittest tests.test_social_lane`
-- Repository audit: `python tools/corpus.py audit` (`validated 201 sources`)
+- `python scripts/validate_social_lane.py`: `{'x': 50, 'reddit': 25, 'substack': 25}`
+- `python -m unittest discover -s tests -v`: 17 tests pass.
+- `python tools/corpus.py audit`: `validated 201 sources`.
+- `make check`: tests, audit, and generation pass; the final generated-artifact diff gate fails because it expects updates to manager-owned `README.md` and `metadata/{sources.csv,statistics.json}`. Those generated changes were deliberately restored and are not part of this branch.
 
-`make check` runs all 13 tests and the audit successfully, then stops at its generated-artifact diff because incorporating these 100 records requires edits to `README.md` and `metadata/{sources.csv,statistics.json}`. Those files are manager-owned and explicitly out of scope for this branch, so they were restored rather than committed here.
+## Remaining blockers
 
-## Preserved limitations
-
-See `research/social/query-log.jsonl`, `research/social/rejected.jsonl`, and `research/social/blockers.jsonl`. Direct X and Reddit retrieval was unavailable. Public search result pages supplied the bounded evidence, so none of these records claim full-text retrieval. Newsletter records cover the GOAL's combined Substack/newsletters channel and retain the publisher URL rather than pretending every newsletter is hosted by Substack.
+- `agent-reach doctor` is unavailable in this environment (`command not found`).
+- Authenticated first-party X/Reddit CLIs remain unavailable; public read/archive sources were used and their raw responses preserved.
+- Manager must regenerate and commit shared README/metadata after merging this lane.
