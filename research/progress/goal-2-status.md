@@ -1,15 +1,16 @@
 # Goal 2 manager status
 
-Updated: 2026-07-12T16:24:00Z
+Updated: 2026-07-12T16:26:13Z
 Status: ACTIVE
 Phase: scale-and-saturation; fixed quotas remain verified floors, not completion
 
 ## Active follow-up dispatch
 
-- Three isolated lanes were created from verified main `e24742f`: `goal/blocker-review-3` (PID 1134846), `goal/native-saturation-3` (PID 1135027), and `goal/benchmark-expansion-3` (PID 1135220).
-- All three initial wrapper launches failed during argument parsing because the orchestration path again injected `--full-auto` before `exec`. Each was immediately restarted through the installed Codex JavaScript entrypoint in its original clean worktree; all replacements passed startup polling and began repository inspection.
-- Ownership is non-overlapping: blocked primary-source dispositions/source records; social/video native saturation ledgers; and competitor benchmark audits/validator tests. No lane may edit `GOAL.md` or this manager status.
-- Exact-SHA GitHub Actions run `29198916275` passed for current remote main `e24742ffb3aa6fbe2bdea4695e780c6ffdf7cef1`. Main was fetched/read back and is synchronized before dispatch.
+- The prior workers stopped after leaving useful uncommitted artifacts. Live reality was rechecked rather than trusting stale PIDs; the same isolated worktrees were preserved and resumed: `goal/blocker-review-3` (PID 1143401), `goal/native-saturation-3` (PID 1143209), and `goal/benchmark-expansion-3` (PID 1143587).
+- The ordinary Codex wrapper again injected `--full-auto` before `exec` and all three acceptance probes exited with code 2. Each lane was immediately relaunched through the installed Codex JavaScript entrypoint; all replacements passed startup polling and began substantive inspection.
+- Ownership remains non-overlapping: blocked primary-source dispositions/source records; social/video native saturation ledgers; and competitor benchmark audits/validator tests. No lane may edit `GOAL.md` or this manager status.
+- Main `f07eceecee1264630737f48ae771cab882225ee6` was fetched/read back equal to `origin/main`; full `make check` passes with 50 tests and 1,053 audited records. Exact-SHA GitHub Actions run `29199529641` passed.
+- Current independently generated accounting is 635 accepted sources, 411 rejected, 7 blocked; strict organization indexing remains only 9 organizations / 10 source links; benchmark coverage remains 9 collections; canonical saturation accounting remains 33 rounds / 291 candidates across 11 channels with no proven saturated channel.
 - Completion remains blocked: no channel has three eligible low-yield rounds and the measured competitor evidence does not support the superlative.
 
 ## Integrated follow-up checkpoint
