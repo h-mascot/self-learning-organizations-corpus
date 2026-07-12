@@ -6,12 +6,12 @@
     "repository-preprint": 13,
     "thesis": 1
   },
-  "accepted_sources": 634,
+  "accepted_sources": 635,
   "blocked_sources": 7,
   "by_artifact_level": {
     "abstract": 164,
     "full_text": 88,
-    "metadata_only": 296,
+    "metadata_only": 297,
     "transcript": 101,
     "unavailable": 403
   },
@@ -22,12 +22,12 @@
     "episode": 51,
     "paper": 200,
     "post": 75,
-    "repository": 222,
+    "repository": 223,
     "talk": 53,
     "transcript": 101
   },
   "by_lifecycle": {
-    "accepted": 634,
+    "accepted": 635,
     "blocked": 7,
     "rejected": 411
   },
@@ -37,7 +37,7 @@
     "books": 174,
     "case-studies": 63,
     "conferences": 53,
-    "github": 222,
+    "github": 223,
     "podcasts": 51,
     "reddit": 25,
     "substack": 25,
@@ -46,6 +46,7 @@
   },
   "by_provenance": {
     "Arctic Shift public Reddit archive record with exact post ID": 25,
+    "Authenticated GitHub code search followed by manual review of the CC-BY-4.0 primary-source chapter at its immutable commit URL.": 1,
     "Full transcript audited at ChatPRD/lennys-podcast-transcripts/adam-fishman; original video ID wP8YyWH524A.": 1,
     "Full transcript audited at ChatPRD/lennys-podcast-transcripts/adam-grenier; original video ID -PDsvl2WCZU.": 1,
     "Full transcript audited at ChatPRD/lennys-podcast-transcripts/albert-cheng; original video ID 2BKmNmnEj9w.": 1,
@@ -710,7 +711,7 @@
   "by_rights_status": {
     "bounded-public-evidence": 249,
     "metadata-only": 174,
-    "open-license": 234,
+    "open-license": 235,
     "retrieval-evidence-only": 20,
     "third-party": 201,
     "third-party-metadata-and-abstract": 174
@@ -1205,17 +1206,18 @@
       "retrieved": 53
     },
     "github": {
-      "accepted": 30,
+      "accepted": 31,
       "blocked": 0,
       "by_artifact_level": {
-        "metadata_only": 30,
+        "metadata_only": 31,
         "unavailable": 192
       },
       "by_lifecycle": {
-        "accepted": 30,
+        "accepted": 31,
         "rejected": 192
       },
       "by_provenance": {
+        "Authenticated GitHub code search followed by manual review of the CC-BY-4.0 primary-source chapter at its immutable commit URL.": 1,
         "GitHub API metadata and bounded README evidence for Backstage/backstage.": 1,
         "GitHub API metadata and bounded README evidence for PagerDuty/incident-response-docs.": 1,
         "GitHub API metadata and bounded README evidence for getsentry/sentry.": 1,
@@ -1441,11 +1443,11 @@
       },
       "by_rights_status": {
         "bounded-public-evidence": 14,
-        "open-license": 208
+        "open-license": 209
       },
-      "discovered": 222,
+      "discovered": 223,
       "rejected": 192,
-      "retrieved": 222
+      "retrieved": 223
     },
     "podcasts": {
       "accepted": 30,
@@ -1600,10 +1602,10 @@
     }
   },
   "complete_timestamped_transcripts": 100,
-  "discovered_sources": 1052,
+  "discovered_sources": 1053,
   "rejected_sources": 411,
-  "retrieved_sources": 1045,
+  "retrieved_sources": 1046,
   "schema_version": 2,
-  "total_records": 1052,
-  "validated_relevant_sources": 634
+  "total_records": 1053,
+  "validated_relevant_sources": 635
 }

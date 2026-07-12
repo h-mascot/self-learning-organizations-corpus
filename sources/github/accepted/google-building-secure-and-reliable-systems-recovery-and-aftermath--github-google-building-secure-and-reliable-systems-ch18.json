@@ -1,0 +1,41 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://github.com/google/building-secure-and-reliable-systems/blob/2a2ae3e0d4dbd288f9862ed47194f5b1b1ed7c3c/raw/ch18.html",
+  "content_sha256": "6e6e98a24ea372d7ee1c7ad1373c3ca349889247bf5ac382d74bd5bb0f98f410",
+  "creator": "Google",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "raw/ch18.html, Recovery Logistics and Recovery Timeline",
+      "text": "At Google, the teams that perform recovery are the teams that build and run the systems day to day. These individuals include SREs, developers, system administrators, helpdesk personnel, and relevant security specialists that manage routine processes like code audits and configuration reviews. Typically, by the time you spin up a recovery operation, the investigation team has begun a postmortem document (perhaps in the form of preliminary raw notes), which the recovery team updates as they proceed."
+    }
+  ],
+  "organizational_mechanism": "Google's operating teams maintain and update postmortem documents during recovery.",
+  "platform": "github",
+  "provenance": "Authenticated GitHub code search followed by manual review of the CC-BY-4.0 primary-source chapter at its immutable commit URL.",
+  "published_date": "2022-03-25",
+  "publisher": "Google GitHub organization",
+  "query_ids": [
+    "web-media-followup-github-failure-artifact-2026-07-12"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Typically, by the time you spin up a recovery operation, the investigation team has begun a postmortem document (perhaps in the form of preliminary raw notes), which the recovery team updates as they proceed."
+  ],
+  "repository": {
+    "full_name": "google/building-secure-and-reliable-systems",
+    "last_push": "2023-05-23T23:56:49Z",
+    "license": "CC-BY-4.0",
+    "stars_at_retrieval": 157
+  },
+  "retrieval_method": "authenticated GitHub API and immutable raw chapter review",
+  "retrieved_at": "2026-07-12T15:36:36Z",
+  "rights_note": "GitHub reports CC-BY-4.0; only a bounded exact passage is retained.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-google-building-secure-and-reliable-systems-ch18",
+  "status": "accepted",
+  "title": "google/building-secure-and-reliable-systems: Recovery and Aftermath"
+}
