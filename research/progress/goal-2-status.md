@@ -1,8 +1,18 @@
 # Goal 2 manager status
 
-Updated: 2026-07-12T18:21:07Z
+Updated: 2026-07-12T18:29:05Z
 Status: ACTIVE
 Phase: scale-and-saturation; fixed quotas remain verified floors, not completion
+
+## Fifth-wave integration and sixth-wave dispatch
+
+- Integrated academic wave `fbe9687` and canonical dashboard/mechanism integration `5e84fda` plus manager compatibility fix `d82087c`.
+- Canonical aggregation now consumes 99 rounds / 596 reviewed candidates across all 11 channels. Ten channels have validator-backed three-round <5% novelty proof; academic remains unmet with two eligible rounds and one ineligible round containing a single blocked net-new candidate.
+- Generated artifacts now include `metadata/saturation.json`, `research/saturation-dashboard.md`, `metadata/mechanism-dashboard.json`, and `research/mechanism-dashboard.md`; organization indexing remains 13 strict organizations / 14 links and excludes generic tooling.
+- `make check` passes cleanly with 60 tests and all lane/global validators. Corpus accounting remains 1,052 audited, 638 accepted, 414 rejected, 0 canonical blocked; the academic search ledger separately has one unresolved candidate pending disposition.
+- Exact-SHA CI for prior checkpoint `9db38b461d60c2db2b0e792666478d5d02d8cf61` passed in run `29203720828`.
+- Dispatched `goal/academic-resolution-6` (PID 1177539) to independently disposition DOI `10.47176/smok.2025.1821` and continue live academic rounds until a truthful three-round sequence exists. Startup polling passed.
+- Completion remains unproven: academic saturation is unmet and the 14-collection benchmark still explicitly withholds `largest measured` because exhaustive like-for-like competitor coverage is not established.
 
 ## Fourth-wave integration and fifth-wave dispatch
 
