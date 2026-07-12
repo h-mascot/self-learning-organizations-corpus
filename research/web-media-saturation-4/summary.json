@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-07-12T18:30:00Z",
+  "scope": [
+    "blogs",
+    "podcasts",
+    "books",
+    "conferences",
+    "case-studies",
+    "github"
+  ],
+  "excluded_scope": {
+    "academic": "owned by goal/academic-recovery per GOAL.md parallel ownership"
+  },
+  "round_count": 18,
+  "candidate_count": 90,
+  "accepted": 0,
+  "rejected": 15,
+  "duplicates": 75,
+  "blocked": 0,
+  "saturation_eligible_rounds": 18,
+  "eligible_rounds_by_channel": {
+    "blogs": 3,
+    "podcasts": 3,
+    "books": 3,
+    "conferences": 3,
+    "case-studies": 3,
+    "github": 3
+  },
+  "saturated_channels": [
+    "blogs",
+    "podcasts",
+    "books",
+    "conferences",
+    "case-studies",
+    "github"
+  ],
+  "conclusion": "Each owned channel has three consecutive fully reviewed, materially distinct, retrieved rounds below 5% exact net-new accepted unique yield. Failed and shallow probes are recorded separately and excluded. Generic GitHub tooling is rejected as organization evidence."
+}
