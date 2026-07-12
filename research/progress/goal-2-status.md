@@ -1,8 +1,16 @@
 # Goal 2 manager status
 
-Updated: 2026-07-12T15:20:38Z
+Updated: 2026-07-12T15:34:15Z
 Status: ACTIVE
 Phase: scale-and-saturation; fixed quotas remain verified floors, not completion
+
+## Active follow-up lanes
+
+- `goal/saturation-social-2` is HEALTHY in `/home/henrymascot/corpus-wt-saturation-social-2` (PID 1124344): X, Reddit, Substack/newsletters, and YouTube blocker review plus eligible high-precision saturation rounds.
+- `goal/saturation-webmedia-2` is HEALTHY in `/home/henrymascot/corpus-wt-saturation-webmedia-2` (PID 1124538): blogs, podcasts, books, conferences, case studies, GitHub, and academic saturation/entity-chasing rounds.
+- `goal/benchmark-2` is HEALTHY in `/home/henrymascot/corpus-wt-benchmark-2` (PID 1124735): broader competitor discovery and row/sample-level like-for-like measurement.
+- Three initial wrapper launches exited during argument parsing because the orchestration path injected `--full-auto` before `exec`. The same clean worktrees were preserved and restarted through the installed Codex binary entrypoint; all three replacements passed the startup acceptance probe and began substantive repository inspection.
+- Main remains clean and synchronized at `0608ad195e266bfd2f770384cde56010fbf184d4`; local `make check` passed (47 tests, 1,052 audited records), and exact-SHA GitHub Actions run `29198024208` passed.
 
 ## Scale checkpoint
 
