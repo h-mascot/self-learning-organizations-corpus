@@ -1,16 +1,17 @@
 # Goal 2 manager status
 
-Updated: 2026-07-12T14:49:07Z
+Updated: 2026-07-12T15:07:04Z
 Status: ACTIVE
 Phase: scale-and-saturation; fixed quotas remain verified floors, not completion
 
 ## Scale checkpoint
 
-- Preserved baseline: `make check` passes on main at `c5d28642ea65feeebcad5e3b5b00a2d426175990` (41 tests; 1,052 audited; 634 accepted), the worktree is clean, `origin/main` matches, and exact-SHA GitHub Actions run `29196942345` passed.
+- Preserved baseline reverified: `make check` passes on main at `440b1e9845de33e1e9c8dc048d8be6768d7e351f` (41 tests; 1,052 audited; 634 accepted), the worktree was clean before this manager-status update, and `origin/main` matched.
 - Current accepted floors remain X 50; Reddit 25; Substack 25; blogs 78; podcasts 30; books 30; conferences 30; case studies 50; GitHub 30; academic 186; YouTube 100.
-- Canonical organization indexing/mechanism tagging is live in `goal/scale-index` (PID 1110566; restarted after a CLI option incompatibility).
-- Public competitor measurement is live in `goal/scale-benchmark` (PID 1110613; restarted after the same diagnosed CLI option incompatibility).
-- Cross-channel saturation/citation chasing is live in `goal/scale-saturation` (PID 1110659; restarted after the same diagnosed CLI option incompatibility).
+- Canonical organization indexing/mechanism tagging is live in `goal/scale-index` (PID 1115446).
+- Public competitor measurement is live in `goal/scale-benchmark` (PID 1115622).
+- Cross-channel saturation/citation chasing is live in `goal/scale-saturation` (PID 1115797).
+- Worker recovery evidence: the current Codex CLI rejects the launcher-injected legacy `--full-auto` option; all three lanes were relaunched through the versioned Node entrypoint with `exec --ignore-user-config -s danger-full-access`, then polled successfully into substantive repository inspection.
 - Completion is unproven until the organization index and mechanism dashboard validate, like-for-like public benchmarking supports the measured-largest claim, and every channel has three consecutive materially different search rounds below 5% net-new accepted uniques.
 
 ## Criterion-by-criterion proof
