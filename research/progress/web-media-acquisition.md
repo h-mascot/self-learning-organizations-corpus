@@ -32,9 +32,9 @@ Ledgers: 90 query attempts and 646 retrieval/deduplication events. Query outcome
 ## Tests
 
 - `python3 scripts/validate_web_media.py` — PASS (78/30/30/30/50/30 accepted).
-- `python3 -m unittest discover -s tests -v` — PASS (17 tests).
+- `python3 -m unittest discover -s tests -v` — PASS (20 tests), including sponsor-ad rejection, separated podcast-span enforcement, and generic-repository rejection.
 - `python3 tools/corpus.py audit` and `python3 scripts/validate_youtube.py` — PASS (101 sources; 100 relevant complete YouTube transcripts).
-- Deterministic offline rematerialization — PASS; aggregate web/media record hash unchanged (`a8b8b9de5e75c243dd9df241f77bf0ef39f55013538f3e958937aa3420b68c20`).
+- Deterministic accepted-record audit — PASS; 248 accepted web/media records hash to `7985083d02011daa2dae36616a34fe511b49e1d9bcedcbb42f09a0ddb58bcda1` in sorted filename order.
 - Manager-owned generated README/statistics files were intentionally not modified on this worker branch.
 
 ## Blockers
