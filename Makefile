@@ -10,6 +10,7 @@ validate: audit
 	python3 scripts/validate_public_competitor_benchmark.py
 	python3 scripts/validate_saturation.py
 	python3 scripts/validate_web_media_followup.py
+	python3 scripts/validate_native_saturation_3.py
 
 generate:
 	python3 tools/corpus.py generate
