@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-07-12",
+  "strict_unit_definition": "A unique named organization with public evidence that its operating system learns or improves through a documented feedback, evaluation, memory, experimentation, decision, failure-learning, specialized-agent, workflow-adaptation, knowledge-curation, or governance loop. A mere AI deployment, tool listing, hypothetical use case, theory paper, or vendor claim without an organization-level improvement loop does not qualify.",
+  "counting_rule": "Strict counts include only entries individually shown to meet strict_unit_definition. Zero means no qualifying entry was proven from the retrieved public evidence; it does not assert that none exists behind an inaccessible interface or after a future full audit.",
+  "largest_claim": {
+    "permitted": false,
+    "reason": "No exhaustive public-corpus universe or row-level like-for-like audit has been established. Large adjacent collections use different units, and the closest repository does not expose organization case records."
+  },
+  "retrieval_environment": {
+    "agent_reach_doctor": "blocked: agent-reach executable not installed",
+    "fallbacks": ["public search index", "Jina Reader public-page rendering", "GitHub public API via authenticated gh CLI"]
+  },
+  "collections": [
+    {
+      "id": "evidently-ml-llm-system-design",
+      "name": "Evidently ML and LLM system design case-study database",
+      "url": "https://www.evidentlyai.com/ml-system-design",
+      "scope": "Practical ML, LLM, and generative-AI product/application case studies from 150+ companies.",
+      "update_date": "2025-12-22",
+      "update_date_precision": "day",
+      "schema": ["company", "industry", "business use case", "ML use case", "content type", "technology tags", "link"],
+      "raw_count": 800,
+      "raw_count_unit": "case studies",
+      "raw_count_method": "publisher-stated exact count on landing page",
+      "strict_like_for_like_organization_evidence_count": 0,
+      "strict_count_method": "Landing-page scope and schema audit only; the 800 rows are application/system designs, not organization-level learning-loop records, and no row-level strict audit was available in the retrieved page.",
+      "exclusions": ["ML/LLM product implementations without an organizational improvement loop", "generic system-design learnings", "multiple use cases from one company"],
+      "retrieval_evidence": [{"retrieved_at":"2026-07-12T00:00:00Z","method":"Jina Reader public page","evidence":"The page states 800 case studies from 150+ companies, first published 2023-06-14 and last updated 2025-12-22; its filters describe industries, business/ML use cases, content types, and technology tags."}]
+    },
+    {
+      "id": "enterprise-ai-case-studies",
+      "name": "Enterprise AI Case Studies",
+      "url": "https://case-studies.ai/",
+      "scope": "Human-curated reference library of documented enterprise AI deployments with architecture, implementation, evaluation, and citations.",
+      "update_date": null,
+      "update_date_precision": "unknown",
+      "schema": ["case ID", "title", "category", "industry", "architecture", "implementation", "evaluation", "references"],
+      "raw_count": 67,
+      "raw_count_unit": "published case studies",
+      "raw_count_method": "publisher-stated exact count on landing page, cross-checked against 67 case links in the retrieved rendering",
+      "strict_like_for_like_organization_evidence_count": 0,
+      "strict_count_method": "All 67 landing-page records were title/summary screened. They document AI use cases or operational systems, but the index does not establish a named organization's organizational learning/improvement loop as the unit of record.",
+      "exclusions": ["cross-industry reference architectures", "AI task automation", "predictive optimization", "self-healing technical infrastructure without evidence the organization itself learns"],
+      "retrieval_evidence": [{"retrieved_at":"2026-07-12T00:00:00Z","method":"Jina Reader public landing and about pages","evidence":"Landing page states 67 Published and 8 Categories. About page specifies named organizations, production systems/pilots, verifiable metrics, and a five-document structure; individual pages carry Updated dates but the collection has no stated global update date."}]
+    },
+    {
+      "id": "case-ledger",
+      "name": "Case Ledger",
+      "url": "https://caseledger.ai/",
+      "scope": "Claimed searchable AI use-case and ROI ledger spanning industries, functions, workflows, maturity, sources, and failure variants.",
+      "update_date": null,
+      "update_date_precision": "unknown",
+      "schema": ["case ID", "sector", "baseline", "intervention", "outcome", "cost", "caveats", "sources", "ROI", "source grade", "version"],
+      "raw_count": 4217,
+      "raw_count_unit": "verified cases claimed",
+      "raw_count_method": "publisher-stated exact homepage counter; not independently enumerable from the retrieved public page",
+      "strict_like_for_like_organization_evidence_count": 0,
+      "strict_count_method": "Homepage and example-record audit only. The public evidence did not expose an enumerable row set or prove any record whose unit is a named self-learning organization.",
+      "exclusions": ["workflow use cases", "deployable agents and templates", "ROI records lacking a named organization-level learning loop", "uninspectable claimed records"],
+      "retrieval_evidence": [{"retrieved_at":"2026-07-12T00:00:00Z","method":"Jina Reader public homepage","evidence":"Homepage displayed Verified Cases 4,217, Source Docs 62k+, and an example CL-4188 with sector, baseline, ROI and sources; browse-row enumeration was not present in the retrieved rendering."}]
+    },
+    {
+      "id": "casestudies-dot-com",
+      "name": "CaseStudies.com",
+      "url": "https://www.casestudies.com/companies",
+      "scope": "B2B vendor/customer success-story directory across software, healthcare, manufacturing, fintech, and other industries.",
+      "update_date": null,
+      "update_date_precision": "unknown",
+      "schema": ["vendor/company profile", "case-study count", "customer success stories"],
+      "raw_count": 928650,
+      "raw_count_unit": "validated case studies claimed",
+      "raw_count_method": "publisher-stated lower-bound counter (928,650+) on directory page; stored numeric value is the advertised floor",
+      "strict_like_for_like_organization_evidence_count": 0,
+      "strict_count_method": "Directory-scope audit only. Its unit is a vendor/customer story and no strict topical filter or row-level organizational-loop audit was available.",
+      "exclusions": ["generic B2B customer stories", "software purchasing evidence", "vendor success claims", "non-AI cases"],
+      "retrieval_evidence": [{"retrieved_at":"2026-07-12T00:00:00Z","method":"public search result and directory rendering","evidence":"Directory advertised 43,957 B2B companies and 928,650+ validated case studies/customer stories; scope is software purchasing rather than self-learning organizations."}]
+    },
+    {
+      "id": "talented-learning-lms-case-directory",
+      "name": "Talented Learning LMS Case Study Directory",
+      "url": "https://talentedlearning.com/ads/basic-member-case-study-directory/",
+      "scope": "Vendor-published learning-system customer case studies categorized by solution, use case, client industry, vendor, functionality, and services.",
+      "update_date": null,
+      "update_date_precision": "unknown",
+      "schema": ["learning solution", "use case", "client industry", "vendor", "functionality", "vendor services"],
+      "raw_count": 100,
+      "raw_count_unit": "case studies",
+      "raw_count_method": "publisher-stated lower bound ('over 100'); stored numeric value is the advertised floor",
+      "strict_like_for_like_organization_evidence_count": 0,
+      "strict_count_method": "Directory-scope audit only. Employee/member training-system adoption is not evidence that an organization has a self-improving operating loop.",
+      "exclusions": ["LMS customer success stories", "training delivery and administration", "vendor satisfaction evidence"],
+      "retrieval_evidence": [{"retrieved_at":"2026-07-12T00:00:00Z","method":"public search result and directory rendering","evidence":"Page says it assembled and categorized over 100 case studies from learning-system vendors and exposes vendor-oriented filters."}]
+    },
+    {
+      "id": "jeremy-ai-native-company-research",
+      "name": "ai-native-company-research",
+      "url": "https://github.com/jeremy9682/ai-native-company-research",
+      "scope": "Public research notes on AI-native company operating systems, context engineering, internal agents, and self-improving loops.",
+      "update_date": "2026-07-09",
+      "update_date_precision": "day",
+      "schema": ["analysis", "blueprint", "note", "pattern", "source note"],
+      "raw_count": 19,
+      "raw_count_unit": "versioned content files excluding repository administration files",
+      "raw_count_method": "GitHub recursive tree: 24 blobs minus .gitignore, policy/contribution/license, and README = 19 content files",
+      "strict_like_for_like_organization_evidence_count": 0,
+      "strict_count_method": "Complete filename/tree audit. The repository packages patterns, analyses, blueprints and source notes rather than one independently countable record per evidenced organization.",
+      "exclusions": ["general patterns", "blueprints", "analysis essays", "source notes not normalized into organization case records"],
+      "retrieval_evidence": [{"retrieved_at":"2026-07-12T00:00:00Z","method":"GitHub public repository metadata and recursive tree API","evidence":"Repository default branch main had 24 blobs and was updated 2026-07-09T04:43:33Z; content paths comprise analyses, one blueprint, notes, patterns, and four source-note files."}]
+    }
+  ]
+}
