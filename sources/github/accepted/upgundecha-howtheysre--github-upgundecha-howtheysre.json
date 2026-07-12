@@ -1,27 +1,27 @@
 {
   "artifact_level": "metadata_only",
   "canonical_url": "https://github.com/upgundecha/howtheysre",
-  "content_sha256": "b0a2dce185b565a85eee36bee6cf89aa871f91859e89cc0db479b52ceada79ab",
+  "content_sha256": "e9bb7419c4c79b24ead6bc92e37f89240ce2e9ef67f0930c7edf6f40fd9b90d3",
   "creator": "upgundecha",
   "date_precision": "day",
   "evidence": [
     {
       "kind": "excerpt",
-      "locator": "repository README",
-      "text": "* Site Reliability Engineering * Hiring and Building SRE teams * SRE Culture * DevOps * Monitoring & Observability * Alerting * Incident Response & Post-Mortem * On-Call * Testing in Production * Chaos Engineering * Automation * Performance * Platform Engineering"
+      "locator": "full repository README",
+      "text": " SRE from LinkedIn](https://linkedin.github.io/school-of-sre/) * [Stripe Increment Magazine Issue 16 on Reliability](https://increment.com/reliability/) * [AWS Observability Recipes](https://aws-observability.github.io/aws-o11y-recipes/) * [Awesome Sysadmin](https://github.com/awesome-foss/awesome-sysadmin) #### Incidents & postmortems * [The Verica Open Incident Database](https://www.thevoid.community/) * [Postmortem Templates](https://github.com/dastergon/postmortem-templates) * [Incident Review and Postmortem Best Practices](https://blog.pragmaticengineer.com/postmortem-best-practices/) #### Newsletters * [SRE Weekly Newsletter](https://sreweekly.com/) * [Chaos Enginee"
     }
   ],
-  "organizational_mechanism": "cross-company evidence about reliability operating mechanisms",
+  "organizational_mechanism": " SRE from LinkedIn](https://linkedin.github.io/school-of-sre/) * [Stripe Increment Magazine Issue 16 on Reliability](https://increment.com/reliability/) * [AWS Observability Recipes](https://aws-observability.github.io/aws-o11y-recipes/) * [Awesome Sysadmin](https://github.com/awesome-foss/awesome-s",
   "platform": "github",
-  "provenance": "GitHub API metadata and bounded README evidence for upgundecha/howtheysre.",
+  "provenance": "GitHub metadata and full README manually audited for upgundecha/howtheysre.",
   "published_date": "2021-02-14",
   "publisher": "GitHub",
   "query_ids": [
-    "review-github-organizational-mechanisms"
+    "manual-full-readme-audit-2026-07-12"
   ],
   "rejection_reason": null,
   "relevance_evidence": [
-    "The repository documents cross-company evidence about reliability operating mechanisms; this is an organizational operating mechanism, not generic agent-memory research."
+    " SRE from LinkedIn](https://linkedin.github.io/school-of-sre/) * [Stripe Increment Magazine Issue 16 on Reliability](https://increment.com/reliability/) * [AWS Observability Recipes](https://aws-observability.github.io/aws-o11y-recipes/) * [Awesome Sysadmin](https://github.com/awesome-foss/awesome-s"
   ],
   "repository": {
     "full_name": "upgundecha/howtheysre",
@@ -29,9 +29,9 @@
     "license": "CC0-1.0",
     "stars_at_retrieval": 9753
   },
-  "retrieval_method": "agent-reach/GitHub CLI API and README endpoint",
-  "retrieved_at": "2026-07-12T09:15:57Z",
-  "rights_note": "GitHub reports CC0-1.0; only a bounded README excerpt is retained.",
+  "retrieval_method": "manual full-README audit via GitHub CLI API",
+  "retrieved_at": "2026-07-12T09:34:56Z",
+  "rights_note": "GitHub reports CC0-1.0; only a bounded exact mechanism passage is retained.",
   "rights_status": "open-license",
   "schema_version": 2,
   "source_type": "repository",

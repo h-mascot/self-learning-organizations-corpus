@@ -1,32 +1,38 @@
 {
   "artifact_level": "metadata_only",
   "canonical_url": "https://www.youtube.com/watch?v=hEzpiDuYFoE",
-  "content_sha256": "56407d6a9b18a47dae59f883020be8832307b1e1257f4d35ab09f33242a5bc16",
+  "content_sha256": "560a9bdbe4be803df2e371173fc3e2f807e0c3b2e8bb777d8fe2ed6ad3f7b719",
   "creator": "Ronny Kohavi",
   "date_precision": "day",
   "evidence": [
     {
       "kind": "transcript_excerpt",
-      "locator": "public transcript near matched timestamp (ronny-kohavi)",
-      "text": "(00:00:00): I'm very clear that I'm a big fan of test everything, which is any code change that you make, any feature that you introduce has to be in some experiment. Because again, I've observed this sort of surprising result that even small bug fixes, even small changes can sometimes have surprising, unexpected impact. Ronny Kohavi (00:00:22): And so I don't think it's possible to experiment too much. You have to allocate sometimes to these high risk, high reward ideas. We're going to try something that's most likely to fail. But if it does win, it's going to be a home run. Ronny Kohavi (00:00:38): And you have to be ready to understand and agree that most will fail."
+      "locator": "full transcript at (00:01:14)",
+      "text": "Lenny (00:01:14): Today my guest is Ronny Kohavi. Ronny is seen by many as the world expert on A/B testing and experimentation. Most recently, he was VP and technical fellow of relevance at Airbnb where he led their search experience team. Prior to that, he was corporate vice president at Microsoft, where he led Microsoft Experimentation Platform team. Before that, he was director of data mining and personalization at Amazon."
+    },
+    {
+      "kind": "transcript_excerpt",
+      "locator": "full transcript at (00:17:17)",
+      "text": "Ronny Kohavi (00:17:17): I think one of the mistakes that some company makes is they launch a lot of experiments and never go back and summarize the learnings. So I've actually put a lot of effort in this idea of institutional learning, of doing the quarterly meeting of the most surprising experiments."
     }
   ],
   "media_format": "podcast_episode",
   "platform": "podcasts",
-  "provenance": "Public timestamped transcript at ChatPRD/lennys-podcast-transcripts/ronny-kohavi; original video ID hEzpiDuYFoE.",
+  "provenance": "Full transcript audited at ChatPRD/lennys-podcast-transcripts/ronny-kohavi; original video ID hEzpiDuYFoE.",
   "published_date": "2023-07-27",
   "publisher": "Lenny's Podcast",
   "query_ids": [
-    "github-citation-lennys-podcast-transcripts"
+    "manual-full-transcript-audit-2026-07-12"
   ],
   "rejection_reason": null,
   "relevance_evidence": [
-    "Multiple transcript passages match organizational feedback, experimentation, learning, memory, or AI-agent operating mechanisms."
+    "Prior to that, he was corporate vice president at Microsoft, where he led Microsoft Experimentation Platform team.",
+    "I think one of the mistakes that some company makes is they launch a lot of experiments and never go back and summarize the learnings."
   ],
   "retained_complete_transcript": false,
-  "retrieval_method": "GitHub public transcript citation; original publisher video identified in front matter",
-  "retrieved_at": "2026-07-12T08:44:29Z",
-  "rights_note": "A genuine episode and public transcript source were verified; only the bounded transcript excerpt in evidence is retained.",
+  "retrieval_method": "full public transcript manual audit via GitHub citation",
+  "retrieved_at": "2026-07-12T09:34:38Z",
+  "rights_note": "The full public transcript was audited; only two bounded, separated guest passages are retained.",
   "rights_status": "bounded-public-evidence",
   "schema_version": 2,
   "source_type": "episode",

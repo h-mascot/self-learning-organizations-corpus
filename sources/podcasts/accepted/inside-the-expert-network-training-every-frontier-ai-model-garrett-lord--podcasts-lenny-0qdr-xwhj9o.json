@@ -1,32 +1,38 @@
 {
   "artifact_level": "metadata_only",
   "canonical_url": "https://www.youtube.com/watch?v=0qdR-XwHJ9o",
-  "content_sha256": "3ee08385251e8defa2fe933bed7abddc34a14bb3d90f431633890e135a0c1320",
+  "content_sha256": "dad900ea40f9d0e125751e74fdd1a64beaaff79c7b3d40073f361758414d8e5e",
   "creator": "Garrett Lord",
   "date_precision": "day",
   "evidence": [
     {
       "kind": "transcript_excerpt",
-      "locator": "public transcript near matched timestamp (garrett-lord)",
-      "text": "(00:00:52): That's not what we're hearing from our employers, this is just enabling human beings to be even more productive. You used to put a Google Search on a skill on your resume because you grew up with Google. Being AI native, young people are at a huge advantage. Lenny Rachitsky (00:01:05): Today my guest is Garrett Lord. Garrett is the co-founder and CEO of Handshake, which is one of the most interesting and incredible AI success stories that you probably haven't heard of. Handshake has been around for over 10 years, they're essentially LinkedIn for college students, it's a place for students to connect with companies to find a job. They are the platform of choic"
+      "locator": "full transcript at (00:08:41)",
+      "text": "Garrett Lord (00:08:41):  no because take for example trajectories, or you want to be able to do, people use flight search or an accounting end-to-end process, or you want to be able to conduct biological experiments, you need actual trajectory data. There's still very much, a lot of the labs are still, they have points of view on what data collect. It's evolving very quickly. But I think reinforcement learning is really preference ranking, like which question do you like more, question A or question B? SFT data is a prompt and a response, and obviously the labs are very focused on these thinking or reasoning models. So, in order to improve a reasoning model you need to a"
+    },
+    {
+      "kind": "transcript_excerpt",
+      "locator": "full transcript at (00:29:50)",
+      "text": "Garrett Lord (00:29:50): hat they built, just many great companies operating the space. I think to the core of your question, I think if you viewed your research team and your model building team, and the experiments they're running to be really the cornerstone of how you're improving, you probably wouldn't want the latest research of what you're trying to work on being invested in by a peer. I mean, that's just generally what we hear in this space. And so, we have seen an incredible search and demand, and are I think extraordinarily well positioned. We like to say the only moat in human data is access to an audience. Basically, there are many, many small players in this "
     }
   ],
   "media_format": "podcast_episode",
   "platform": "podcasts",
-  "provenance": "Public timestamped transcript at ChatPRD/lennys-podcast-transcripts/garrett-lord; original video ID 0qdR-XwHJ9o.",
+  "provenance": "Full transcript audited at ChatPRD/lennys-podcast-transcripts/garrett-lord; original video ID 0qdR-XwHJ9o.",
   "published_date": "2025-08-24",
   "publisher": "Lenny's Podcast",
   "query_ids": [
-    "github-citation-lennys-podcast-transcripts"
+    "manual-full-transcript-audit-2026-07-12"
   ],
   "rejection_reason": null,
   "relevance_evidence": [
-    "Multiple transcript passages match organizational feedback, experimentation, learning, memory, or AI-agent operating mechanisms."
+    "use flight search or an accounting end-to-end process, or you want to be able to conduct biological experiments, you need actual trajectory data.",
+    "re of your question, I think if you viewed your research team and your model building team, and the experiments they're running to be really the cornerstone of how you're improving, you probably wouldn't want the latest research of what you're trying to work on being invested in by a peer."
   ],
   "retained_complete_transcript": false,
-  "retrieval_method": "GitHub public transcript citation; original publisher video identified in front matter",
-  "retrieved_at": "2026-07-12T08:44:29Z",
-  "rights_note": "A genuine episode and public transcript source were verified; only the bounded transcript excerpt in evidence is retained.",
+  "retrieval_method": "full public transcript manual audit via GitHub citation",
+  "retrieved_at": "2026-07-12T09:34:39Z",
+  "rights_note": "The full public transcript was audited; only two bounded, separated guest passages are retained.",
   "rights_status": "bounded-public-evidence",
   "schema_version": 2,
   "source_type": "episode",

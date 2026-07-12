@@ -1,32 +1,38 @@
 {
   "artifact_level": "metadata_only",
   "canonical_url": "https://www.youtube.com/watch?v=qbvY0dQgSJ4",
-  "content_sha256": "605ba9adec38ba3901a18a1c93f0886c9bae751ab8a73f4f560d704c0190b24b",
+  "content_sha256": "7a57149d5b5c0e83850be41e2a8bc968f17325a08ed6f2087a9654cbd656e548",
   "creator": "Chip Huyen",
   "date_precision": "day",
   "evidence": [
     {
       "kind": "transcript_excerpt",
-      "locator": "public transcript near matched timestamp (chip-huyen)",
-      "text": "(00:39:32): For GenAI in company, I think there are two types of GenAI toolings that have been, I've seen ones is to internal productivity, like have coding tools, Slack chatbot, internal knowledge. A lot of big enterprises have some a wrapper around models, so with access to maybe some different type of a RAG solution. I think we talk about data or kind of like text-based RAG. We haven't talked about agentic RAG or I haven't talked about multi-modal RAG yet. But this, yes, it's a whole very exciting area around that. So basically, it should allow the employee to access internal document. Somebody ask, okay, I'm having a baby. What could be the maternal or paternal policy"
+      "locator": "full transcript at (00:27:54)",
+      "text": "Chip Huyen (00:27:54): I don't think of just a fixed number on the evals. What was the goal of eval? The goal of eval is to guide the product development. So you see eval, because I think I'm a big fan of eval, is that it helps you uncover opportunities where the progress are doing well. So sometimes, we've seen a very obvious [inaudible 00:28:15] where you look at the eval and we realize it's like, okay, it performed really poorly on this specific segment of users and then we look into it's like, okay, what's wrong with it? And it turns out, it's like we just don't have a good messaging to it. So people should just focus on the things that we're doing poorly, can improve"
+    },
+    {
+      "kind": "transcript_excerpt",
+      "locator": "full transcript at (00:57:40)",
+      "text": "Chip Huyen (00:57:40): ink this a lot of value plays in... So before we have a lot of disjointed teams. We have very clear engineering team, product team, but then there's a question of who should write eval? Who should own the metrics? And it turns out, eval, it's not a separate problem. It's a system problem because you need to look into different components, how they interact with each other. You need user behaviors because you need to know what users care about so that you can write eval reflect what users care about."
     }
   ],
   "media_format": "podcast_episode",
   "platform": "podcasts",
-  "provenance": "Public timestamped transcript at ChatPRD/lennys-podcast-transcripts/chip-huyen; original video ID qbvY0dQgSJ4.",
+  "provenance": "Full transcript audited at ChatPRD/lennys-podcast-transcripts/chip-huyen; original video ID qbvY0dQgSJ4.",
   "published_date": "2025-10-23",
   "publisher": "Lenny's Podcast",
   "query_ids": [
-    "github-citation-lennys-podcast-transcripts"
+    "manual-full-transcript-audit-2026-07-12"
   ],
   "rejection_reason": null,
   "relevance_evidence": [
-    "Multiple transcript passages match organizational feedback, experimentation, learning, memory, or AI-agent operating mechanisms."
+    "The goal of eval is to guide the product development.",
+    "We have very clear engineering team, product team, but then there's a question of who should write eval?"
   ],
   "retained_complete_transcript": false,
-  "retrieval_method": "GitHub public transcript citation; original publisher video identified in front matter",
-  "retrieved_at": "2026-07-12T08:44:29Z",
-  "rights_note": "A genuine episode and public transcript source were verified; only the bounded transcript excerpt in evidence is retained.",
+  "retrieval_method": "full public transcript manual audit via GitHub citation",
+  "retrieved_at": "2026-07-12T09:34:38Z",
+  "rights_note": "The full public transcript was audited; only two bounded, separated guest passages are retained.",
   "rights_status": "bounded-public-evidence",
   "schema_version": 2,
   "source_type": "episode",

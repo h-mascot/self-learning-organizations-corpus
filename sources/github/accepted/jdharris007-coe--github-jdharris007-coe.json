@@ -1,0 +1,41 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://github.com/JDHarris007/coe",
+  "content_sha256": "c4f6e249eb7fd90f23f659463ce6f41698e6f53dc6b7ec57a67caefa46e071c5",
+  "creator": "JDHarris007",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "full repository README",
+      "text": "Postmortem / Correction of Error (CoE) template Accompanying Medium article: [Postmortem / Correction of Error (CoE) template](https://medium.com/@josh_70523/postmortem-correction-of-error-coe-template-db69481da31d) Below is a template that I’ve developed over the years of building and operating online services. It’s been inspired by various public postmortem templates and shortcomings/lessons I’ve learned through trial and error. In an ideal world, failures don’t happen. Until we live in that world, the intention behind the postmortem template is to aid teams in structuring an incident review and facilitating conversation around what can be done better. It’s an opportuni"
+    }
+  ],
+  "organizational_mechanism": "Postmortem / Correction of Error (CoE) template Accompanying Medium article: [Postmortem / Correction of Error (CoE) template](https://medium.com/@josh_70523/postmortem-correction-of-error-coe-template-db69481da31d) Below is a template that I’ve developed over the years of building and operating onl",
+  "platform": "github",
+  "provenance": "GitHub metadata and full README manually audited for JDHarris007/coe.",
+  "published_date": "2019-11-20",
+  "publisher": "GitHub",
+  "query_ids": [
+    "manual-full-readme-audit-2026-07-12"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Postmortem / Correction of Error (CoE) template Accompanying Medium article: [Postmortem / Correction of Error (CoE) template](https://medium.com/@josh_70523/postmortem-correction-of-error-coe-template-db69481da31d) Below is a template that I’ve developed over the years of building and operating onl"
+  ],
+  "repository": {
+    "full_name": "JDHarris007/coe",
+    "last_push": "2022-06-19T18:23:52Z",
+    "license": "NOASSERTION",
+    "stars_at_retrieval": 36
+  },
+  "retrieval_method": "manual full-README audit via GitHub CLI API",
+  "retrieved_at": "2026-07-12T09:34:59Z",
+  "rights_note": "GitHub reports NOASSERTION; only a bounded exact mechanism passage is retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-jdharris007-coe",
+  "status": "accepted",
+  "title": "JDHarris007/coe"
+}

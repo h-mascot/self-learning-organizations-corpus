@@ -1,32 +1,38 @@
 {
   "artifact_level": "metadata_only",
   "canonical_url": "https://www.youtube.com/watch?v=JMeXWVw0r3E",
-  "content_sha256": "43b7f79f94a379834077d2c41eb93b65c5a2983515950d5a9d2e2fc915bbcd33",
+  "content_sha256": "32c17101f9d8f84db81dfc5e211a6cbc1dbc92f553570d513c9500aed4024574",
   "creator": "Dhanji R. Prasanna",
   "date_precision": "day",
   "evidence": [
     {
       "kind": "transcript_excerpt",
-      "locator": "public transcript near matched timestamp (dhanji-r-prasanna)",
-      "text": "(00:00:47): What's been surprising and really amazing, the non-technical people using AI agents and programming tools to build things, the people that are able to embrace it to optimize for their particular workday and their particular set of tasks are really showing the most impact from these tools. Lenny Rachitsky (00:01:07): How do you think things will look in a couple of years in terms of how engineers work that's different from today? Dhanji R. Prasanna (00:01:12): All these LLMs are sitting idle overnight and on weekends, while humans aren't there. There's no need for that. They should be working all the time. They should be trying to build in anticipation of wha"
+      "locator": "full transcript at (00:30:41)",
+      "text": "Dhanji R. Prasanna (00:30:41): Yeah, so voice is the other big part of it. It has voice processing capability, so it's always listening to what he's saying as well and trying to interpret that. I would say that this is mostly an experiment, given that he's on our core Goose team and he contributes to Goose, so he has a day job. This is a kind of thing on the side that he was developing."
+    },
+    {
+      "kind": "transcript_excerpt",
+      "locator": "full transcript at (00:46:55)",
+      "text": "Dhanji R. Prasanna (00:46:55): Yeah, a learning mindset is how I would put it. This is something that Jack our CEO talks about a lot is he wants us to be a learning first company. So everything we do, every experiment that we ship, what can we learn from it and did we feel that we gave it our best shot? And I think that that's more important to him than even sort of coming up with the right business answer every time."
     }
   ],
   "media_format": "podcast_episode",
   "platform": "podcasts",
-  "provenance": "Public timestamped transcript at ChatPRD/lennys-podcast-transcripts/dhanji-r-prasanna; original video ID JMeXWVw0r3E.",
+  "provenance": "Full transcript audited at ChatPRD/lennys-podcast-transcripts/dhanji-r-prasanna; original video ID JMeXWVw0r3E.",
   "published_date": "2025-10-26",
   "publisher": "Lenny's Podcast",
   "query_ids": [
-    "github-citation-lennys-podcast-transcripts"
+    "manual-full-transcript-audit-2026-07-12"
   ],
   "rejection_reason": null,
   "relevance_evidence": [
-    "Multiple transcript passages match organizational feedback, experimentation, learning, memory, or AI-agent operating mechanisms."
+    "I would say that this is mostly an experiment, given that he's on our core Goose team and he contributes to Goose, so he has a day job.",
+    "This is something that Jack our CEO talks about a lot is he wants us to be a learning first company."
   ],
   "retained_complete_transcript": false,
-  "retrieval_method": "GitHub public transcript citation; original publisher video identified in front matter",
-  "retrieved_at": "2026-07-12T08:44:29Z",
-  "rights_note": "A genuine episode and public transcript source were verified; only the bounded transcript excerpt in evidence is retained.",
+  "retrieval_method": "full public transcript manual audit via GitHub citation",
+  "retrieved_at": "2026-07-12T09:34:39Z",
+  "rights_note": "The full public transcript was audited; only two bounded, separated guest passages are retained.",
   "rights_status": "bounded-public-evidence",
   "schema_version": 2,
   "source_type": "episode",

@@ -1,27 +1,27 @@
 {
   "artifact_level": "metadata_only",
   "canonical_url": "https://github.com/braintrustdata/braintrust-sdk-javascript",
-  "content_sha256": "7f9cb63091fcf1feb9f6624d43932d133e35289aebfa10133f3b19bc18e590ac",
+  "content_sha256": "80e461ec186fab97c8dacb5cf1b0cede387a7dcd2acaf857facf52d1c78dfe6e",
   "creator": "braintrustdata",
   "date_precision": "day",
   "evidence": [
     {
       "kind": "excerpt",
-      "locator": "repository README",
-      "text": "ttps://img.shields.io/npm/v/%40braintrust%2Flangchain-js.svg)](https://www.npmjs.com/package/@braintrust/langchain-js) | [integrations/langchain-js/README.md](integrations/langchain-js/README.md) | | `@braintrust/openai-agents` | OpenAI Agents tracing integration for Braintrust. | [![npm: @braintrust/openai-agents](https://img.shields.io/npm/v/%40braintrust%2Fopenai-agents.svg)](https://www.npmjs.com/package/@braintrust/openai-agents) | [integrations/openai-agents-js/README.md](integrations/openai-agents-js/README.md) | | `@braintrust/otel` | OpenTelemetry span processor and compatibility helpers for Braintrust tracing. | [![npm: @braintrust/otel](https://img.shields.io/n"
+      "locator": "full repository README",
+      "text": "oke tests for JavaScript SDK development ## Quickstart Install the main SDK and autoeval scorers: ```bash npm install braintrust autoevals ``` Create `tutorial.eval.ts`: ```ts import { Eval } from \"braintrust\"; import { LevenshteinScorer } from \"autoevals\"; Eval(\"Say Hi Bot\", { data: () => [ { input: \"Foo\", expected: \"Hi Foo\" }, { input: \"Bar\", expected: \"Hello Bar\" }, ], task: (input) => \"Hi \" + input, scores: [LevenshteinScorer], }); ``` Run it: ```bash BRAINTRUST_API_KEY= npx braintrust eval tutorial.eval.ts ``` ## Packages | Package | Purpose | npm | Docs | | --------------------------- | ------------------------------------------------------------------------------- "
     }
   ],
-  "organizational_mechanism": "AI product evaluation and experiment operations",
+  "organizational_mechanism": "oke tests for JavaScript SDK development ## Quickstart Install the main SDK and autoeval scorers: ```bash npm install braintrust autoevals ``` Create `tutorial.eval.ts`: ```ts import { Eval } from \"braintrust\"; import { LevenshteinScorer } from \"autoevals\"; Eval(\"Say Hi Bot\", { data: () => [ { input",
   "platform": "github",
-  "provenance": "GitHub API metadata and bounded README evidence for braintrustdata/braintrust-sdk-javascript.",
+  "provenance": "GitHub metadata and full README manually audited for braintrustdata/braintrust-sdk-javascript.",
   "published_date": "2023-07-17",
   "publisher": "GitHub",
   "query_ids": [
-    "review-github-organizational-mechanisms"
+    "manual-full-readme-audit-2026-07-12"
   ],
   "rejection_reason": null,
   "relevance_evidence": [
-    "The repository documents AI product evaluation and experiment operations; this is an organizational operating mechanism, not generic agent-memory research."
+    "oke tests for JavaScript SDK development ## Quickstart Install the main SDK and autoeval scorers: ```bash npm install braintrust autoevals ``` Create `tutorial.eval.ts`: ```ts import { Eval } from \"braintrust\"; import { LevenshteinScorer } from \"autoevals\"; Eval(\"Say Hi Bot\", { data: () => [ { input"
   ],
   "repository": {
     "full_name": "braintrustdata/braintrust-sdk-javascript",
@@ -29,9 +29,9 @@
     "license": "Apache-2.0",
     "stars_at_retrieval": 25
   },
-  "retrieval_method": "agent-reach/GitHub CLI API and README endpoint",
-  "retrieved_at": "2026-07-12T09:15:46Z",
-  "rights_note": "GitHub reports Apache-2.0; only a bounded README excerpt is retained.",
+  "retrieval_method": "manual full-README audit via GitHub CLI API",
+  "retrieved_at": "2026-07-12T09:34:48Z",
+  "rights_note": "GitHub reports Apache-2.0; only a bounded exact mechanism passage is retained.",
   "rights_status": "open-license",
   "schema_version": 2,
   "source_type": "repository",

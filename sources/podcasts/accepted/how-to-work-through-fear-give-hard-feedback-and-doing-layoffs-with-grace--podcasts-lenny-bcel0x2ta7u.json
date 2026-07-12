@@ -1,0 +1,44 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.youtube.com/watch?v=bCel0X2Ta7U",
+  "content_sha256": "efa111ec7fbacad2de59c201dd4929f98e13c0ed6d80cf8f1ced78253d661ebe",
+  "creator": "Merci Grace",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "transcript_excerpt",
+      "locator": "full transcript at (19:04)",
+      "text": "Merci Grace (19:04): when something's true it becomes obvious and not at all surprising, but we had thought of Slack as a sync but also async kind of a platform, but then over the course of a bunch of experimentation and user research saw that a bunch of the things that moved the needle for us were about getting people into their new Slack team at the same time. So, Jules Walter, PM on the GRIF team, did some experiments around push notifications on mobile, just getting people in. It's still live in the product today because it was, it turns out, massively successful. It really matters that someone is there to greet you when you join."
+    },
+    {
+      "kind": "transcript_excerpt",
+      "locator": "full transcript at (30:18)",
+      "text": "Merci Grace (30:18): ompany that has a high volume of signups every day, to just always look at the conversion number and that anonymized pile of people winding their way through your actually made up benchmarks for them. It is messier and way more awkward to have to talk to human beings, but absolutely necessary. You want to hear the tone of voice. You want to see the expression on their face. So once a month, ideally, you should just have some sort of a schedule for yourself where if you're at a larger company and you have a user researcher who can recruit people for you, that's great, but if not, just go find people who either fit the demographic for your user or even "
+    }
+  ],
+  "media_format": "podcast_episode",
+  "platform": "podcasts",
+  "provenance": "Full transcript audited at ChatPRD/lennys-podcast-transcripts/merci-grace; original video ID bCel0X2Ta7U.",
+  "published_date": "2022-11-10",
+  "publisher": "Lenny's Podcast",
+  "query_ids": [
+    "manual-full-transcript-audit-2026-07-12"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "hought of Slack as a sync but also async kind of a platform, but then over the course of a bunch of experimentation and user research saw that a bunch of the things that moved the needle for us were about getting people into their new Slack team at the same time.",
+    "onversion number and that anonymized pile of people winding their way through your actually made up benchmarks for them. It is messier and way more awkward to have to talk to human beings, but absolutely necessary. You want to hear the tone of voice. You want to see the expression on their face. So"
+  ],
+  "retained_complete_transcript": false,
+  "retrieval_method": "full public transcript manual audit via GitHub citation",
+  "retrieved_at": "2026-07-12T09:34:39Z",
+  "rights_note": "The full public transcript was audited; only two bounded, separated guest passages are retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "episode",
+  "stable_id": "podcasts-lenny-bCel0X2Ta7U",
+  "status": "accepted",
+  "title": "How to work through fear, give hard feedback, and doing layoffs with grace",
+  "transcript_available": true,
+  "transcript_source": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/main/episodes/merci-grace/transcript.md"
+}

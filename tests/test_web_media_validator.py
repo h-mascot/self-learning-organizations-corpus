@@ -44,6 +44,35 @@ class WebMediaValidatorTests(unittest.TestCase):
     def test_navigation_boilerplate_is_detected(self):
         self.assertRegex("Skip to content and log in", MODULE.BOILERPLATE)
 
+    def test_podcast_sponsor_boilerplate_is_detected(self):
+        failures = [
+            "This episode is brought to you by Eppo, a next-generation A/B testing platform.",
+            "This episode is brought to you by Datadog, now home to Eppo.",
+            "Companies like Twitch rely on Eppo to power their experiments.",
+        ]
+        for failure in failures:
+            with self.subTest(failure=failure):
+                self.assertTrue(MODULE.is_podcast_ad(failure))
+
+    def test_podcast_requires_separated_substantive_spans(self):
+        evidence = [
+            {"kind": "transcript_excerpt", "locator": "transcript", "text": "Guest (00:20:00): We review failed launches and feed the findings into the next product experiment."},
+            {"kind": "transcript_excerpt", "locator": "transcript", "text": "Guest (00:20:25): That evaluation changes the rubric used by every product team."},
+        ]
+        self.assertFalse(MODULE.has_separated_podcast_spans(evidence))
+        evidence[1]["text"] = "Guest (01:02:00): The organization stores those decisions so new teams learn why the policy changed."
+        self.assertTrue(MODULE.has_separated_podcast_spans(evidence))
+
+    def test_generic_repository_boilerplate_is_not_a_mechanism(self):
+        failures = [
+            "XWiki Platform is a generic wiki platform offering runtime services for applications.",
+            "Examples and guides for using the OpenAI API.",
+            "An all-in-one developer platform for building successful products.",
+        ]
+        for failure in failures:
+            with self.subTest(failure=failure):
+                self.assertFalse(MODULE.has_explicit_organizational_mechanism(failure))
+
     def test_current_corpus_passes_strict_validation(self):
         errors, counts, artifacts = MODULE.validate()
         self.assertEqual([], errors)

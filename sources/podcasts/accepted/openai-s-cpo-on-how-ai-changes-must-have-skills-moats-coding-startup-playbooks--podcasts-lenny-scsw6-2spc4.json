@@ -1,0 +1,44 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.youtube.com/watch?v=scsW6_2SPC4",
+  "content_sha256": "6507847b2798310f270da28a652d2450be9b39e1e4bb801fb2edbae61a953d50",
+  "creator": "Kevin Weil",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "transcript_excerpt",
+      "locator": "full transcript at (00:19:23)",
+      "text": "Kevin Weil (00:19:23): Yeah, sure. I think the easiest way to think about it is almost like a quiz for a model, a test to gauge how well it knows a certain set of subject material or how good it is at responding to a certain set of questions. So in the same way you take a calculus class and then you have calculus tests that see if you've learned what you're supposed to learn. You have evals that test how good is the model at creative writing? How good is the model at graduate level science? How good is the model at competitive coding? And so you have these set of evals that basically perform as benchmarks for how smart or capable the model is."
+    },
+    {
+      "kind": "transcript_excerpt",
+      "locator": "full transcript at (00:53:52)",
+      "text": "Kevin Weil (00:53:52): all the time summarizing docs, using it to help write docs with GPTs that write product specs and things like that, all the stuff that you would imagine. I mean talk about writing evals, you can actually use models to help you write evals and they're pretty good at it. That all said, I'm still sort of disappointed by us, and I really mean me, in, if I were to just teleport my five-year-old self leading product at some other company into my day job, I would recognize it still. And I think we should be in a world, certainly a year from now, probably even more now, where I almost wouldn't recognize it because the workflows are so different and I'm usin"
+    }
+  ],
+  "media_format": "podcast_episode",
+  "platform": "podcasts",
+  "provenance": "Full transcript audited at ChatPRD/lennys-podcast-transcripts/kevin-weil; original video ID scsW6_2SPC4.",
+  "published_date": "2025-04-10",
+  "publisher": "Lenny's Podcast",
+  "query_ids": [
+    "manual-full-transcript-audit-2026-07-12"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "And so you have these set of evals that basically perform as benchmarks for how smart or capable the model is.",
+    "I mean talk about writing evals, you can actually use models to help you write evals and they're pretty good at it."
+  ],
+  "retained_complete_transcript": false,
+  "retrieval_method": "full public transcript manual audit via GitHub citation",
+  "retrieved_at": "2026-07-12T09:34:39Z",
+  "rights_note": "The full public transcript was audited; only two bounded, separated guest passages are retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "episode",
+  "stable_id": "podcasts-lenny-scsW6_2SPC4",
+  "status": "accepted",
+  "title": "OpenAI’s CPO on how AI changes must-have skills, moats, coding, startup playbooks,",
+  "transcript_available": true,
+  "transcript_source": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/main/episodes/kevin-weil/transcript.md"
+}

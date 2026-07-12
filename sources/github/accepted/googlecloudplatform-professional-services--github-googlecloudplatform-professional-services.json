@@ -1,0 +1,41 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://github.com/GoogleCloudPlatform/professional-services",
+  "content_sha256": "99beecd61ab4f7d5b130f0b96a3b0c47371d02e7c27d87460a36f34d0cc3127f",
+  "creator": "GoogleCloudPlatform",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "full repository README",
+      "text": "igQuery, CloudRun, MCP Toolbox and Claude LLM. ## Tools The tools folder contains ready-made utilities which can simplify Google Cloud Platform usage. * [agent-eval](tools/agent-eval) - A hand-on-shoulder CLI walkthrough of the Vertex AI Generative AI Evaluation Service for ADK agents. Drives the full eval loop — set up GCP, scaffold metrics + dataset, collect traces (UserSim multi-turn + DIY single-turn), score with Vertex's `client.evals.evaluate()`, and write a self-contained HTML report with Gemini-authored diagnosis. Surfaces deterministic metrics (tokens, cost, latency, cache hit, reasoning ratio) alongside LLM-as-judge metrics so you see code quality and runtime co"
+    }
+  ],
+  "organizational_mechanism": "* [agent-eval](tools/agent-eval) - A hand-on-shoulder CLI walkthrough of the Vertex AI Generative AI Evaluation Service for ADK agents.",
+  "platform": "github",
+  "provenance": "GitHub metadata and full README manually audited for GoogleCloudPlatform/professional-services.",
+  "published_date": "2017-05-18",
+  "publisher": "GitHub",
+  "query_ids": [
+    "manual-full-readme-audit-2026-07-12"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "* [agent-eval](tools/agent-eval) - A hand-on-shoulder CLI walkthrough of the Vertex AI Generative AI Evaluation Service for ADK agents."
+  ],
+  "repository": {
+    "full_name": "GoogleCloudPlatform/professional-services",
+    "last_push": "2026-07-11T01:16:46Z",
+    "license": "Apache-2.0",
+    "stars_at_retrieval": 3039
+  },
+  "retrieval_method": "manual full-README audit via GitHub CLI API",
+  "retrieved_at": "2026-07-12T09:34:59Z",
+  "rights_note": "GitHub reports Apache-2.0; only a bounded exact mechanism passage is retained.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-googlecloudplatform-professional-services",
+  "status": "accepted",
+  "title": "GoogleCloudPlatform/professional-services"
+}

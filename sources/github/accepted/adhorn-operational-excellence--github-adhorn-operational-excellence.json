@@ -1,0 +1,41 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://github.com/adhorn/operational-excellence",
+  "content_sha256": "870c9de5817a5961fcdefff9814d3085561eae1e9715de527eec9e60d00da5a1",
+  "creator": "adhorn",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "full repository README",
+      "text": "ten very specific to a specific company, its culture, and its tools. Yet, ORRs all have the same goal: help you find blind spots in your operations. ---- ## 2. Postmortem Template ### Compagnion blog post - [Incident Postmortem Template](https://adhorn.medium.com/incident-postmortem-template-7b0e0a04f7a8) A postmortem is a process where a team reflects on a problem — for example, an unexpected loss of redundancy, or perhaps a failed software deployment — and documents what the problem was and how to avoid it in the future."
+    }
+  ],
+  "organizational_mechanism": "Postmortem Template ### Compagnion blog post - [Incident Postmortem Template](https://adhorn.medium.com/incident-postmortem-template-7b0e0a04f7a8) A postmortem is a process where a team reflects on a problem — for example, an unexpected loss of redundancy, or perhaps a failed software deployment — a",
+  "platform": "github",
+  "provenance": "GitHub metadata and full README manually audited for adhorn/operational-excellence.",
+  "published_date": "2020-11-11",
+  "publisher": "GitHub",
+  "query_ids": [
+    "manual-full-readme-audit-2026-07-12"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Postmortem Template ### Compagnion blog post - [Incident Postmortem Template](https://adhorn.medium.com/incident-postmortem-template-7b0e0a04f7a8) A postmortem is a process where a team reflects on a problem — for example, an unexpected loss of redundancy, or perhaps a failed software deployment — a"
+  ],
+  "repository": {
+    "full_name": "adhorn/operational-excellence",
+    "last_push": "2026-02-26T16:18:32Z",
+    "license": "MIT",
+    "stars_at_retrieval": 85
+  },
+  "retrieval_method": "manual full-README audit via GitHub CLI API",
+  "retrieved_at": "2026-07-12T09:34:54Z",
+  "rights_note": "GitHub reports MIT; only a bounded exact mechanism passage is retained.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-adhorn-operational-excellence",
+  "status": "accepted",
+  "title": "adhorn/operational-excellence"
+}

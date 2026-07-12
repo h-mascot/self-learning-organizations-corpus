@@ -1,27 +1,27 @@
 {
   "artifact_level": "metadata_only",
   "canonical_url": "https://github.com/truera/trulens",
-  "content_sha256": "1a5353327be75a95596bdc5a0aab212a784f0e71212aab39a60cf6a1cd36c77f",
+  "content_sha256": "14a4f2f9356fffba54b575fa9ef063076334e993e37f19ded4fc391c65279fb7",
   "creator": "truera",
   "date_precision": "day",
   "evidence": [
     {
       "kind": "excerpt",
-      "locator": "repository README",
-      "text": "**Don't just vibe-check your LLM app!** Systematically evaluate and track your LLM experiments with TruLens. As you develop your app including prompts, models, retrievers, knowledge sources and more, *TruLens* is the tool you need to understand its performance."
+      "locator": "full repository README",
+      "text": "valuations help you to identify failure modes & systematically iterate to improve your application. Read more about the core concepts behind TruLens including [Feedback Functions](https://www.trulens.org/getting_started/core_concepts/feedback_functions/), [The RAG Triad](https://www.trulens.org/getting_started/core_concepts/rag_triad/), and [Honest, Harmless and Helpful Evals](https://www.trulens.org/getting_started/core_concepts/honest_harmless_helpful_evals/). ## TruLens in the development workflow Build your first prototype then connect instrumentation and logging with TruLens. Decide what feedbacks you need, and specify them with TruLens to run alongside your app. The"
     }
   ],
-  "organizational_mechanism": "feedback functions and evaluation for production AI applications",
+  "organizational_mechanism": "Read more about the core concepts behind TruLens including [Feedback Functions](https://www.trulens.org/getting_started/core_concepts/feedback_functions/), [The RAG Triad](https://www.trulens.org/getting_started/core_concepts/rag_triad/), and [Honest, Harmless and Helpful Evals](https://www.trulens.",
   "platform": "github",
-  "provenance": "GitHub API metadata and bounded README evidence for truera/trulens.",
+  "provenance": "GitHub metadata and full README manually audited for truera/trulens.",
   "published_date": "2020-11-02",
   "publisher": "GitHub",
   "query_ids": [
-    "review-github-organizational-mechanisms"
+    "manual-full-readme-audit-2026-07-12"
   ],
   "rejection_reason": null,
   "relevance_evidence": [
-    "The repository documents feedback functions and evaluation for production AI applications; this is an organizational operating mechanism, not generic agent-memory research."
+    "Read more about the core concepts behind TruLens including [Feedback Functions](https://www.trulens.org/getting_started/core_concepts/feedback_functions/), [The RAG Triad](https://www.trulens.org/getting_started/core_concepts/rag_triad/), and [Honest, Harmless and Helpful Evals](https://www.trulens."
   ],
   "repository": {
     "full_name": "truera/trulens",
@@ -29,9 +29,9 @@
     "license": "MIT",
     "stars_at_retrieval": 3435
   },
-  "retrieval_method": "agent-reach/GitHub CLI API and README endpoint",
-  "retrieved_at": "2026-07-12T09:15:48Z",
-  "rights_note": "GitHub reports MIT; only a bounded README excerpt is retained.",
+  "retrieval_method": "manual full-README audit via GitHub CLI API",
+  "retrieved_at": "2026-07-12T09:34:50Z",
+  "rights_note": "GitHub reports MIT; only a bounded exact mechanism passage is retained.",
   "rights_status": "open-license",
   "schema_version": 2,
   "source_type": "repository",

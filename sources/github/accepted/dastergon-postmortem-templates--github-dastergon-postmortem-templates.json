@@ -1,0 +1,41 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://github.com/dastergon/postmortem-templates",
+  "content_sha256": "b2b11d4fee32d61371a15022cde77a7bde3b8de571efe5034dbc3a73f5a7d3ee",
+  "creator": "dastergon",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "full repository README",
+      "text": ".amazon.com/message/5467D2/) * [Elastic Cloud Incident Report: February 4, 2019](https://www.elastic.co/blog/elastic-cloud-incident-report-feburary-4-2019) ### Postmortem resources * [Learn out of mistakes. Postmortems to the rescue.](https://fernandocejas.com/2020/03/21/learn-out-of-mistakes-postmortems/) * [A collection of post-mortems](https://github.com/danluu/post-mortems) * [Blameless PostMortems and a Just Culture](https://codeascraft.com/2012/05/22/blameless-postmortems/) * [A Tale of Postmortems](https://blog.box.com/blog/a-tale-of-postmortems/) * [Building a Blameless Post-Mortem Culture with Jason Hand](http://runasradio.com/Shows/Show/486) * [The infinite hows"
+    }
+  ],
+  "organizational_mechanism": "Postmortems to the rescue.](https://fernandocejas.com/2020/03/21/learn-out-of-mistakes-postmortems/) * [A collection of post-mortems](https://github.com/danluu/post-mortems) * [Blameless PostMortems and a Just Culture](https://codeascraft.com/2012/05/22/blameless-postmortems/) * [A Tale of Postmorte",
+  "platform": "github",
+  "provenance": "GitHub metadata and full README manually audited for dastergon/postmortem-templates.",
+  "published_date": "2017-05-29",
+  "publisher": "GitHub",
+  "query_ids": [
+    "manual-full-readme-audit-2026-07-12"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Postmortems to the rescue.](https://fernandocejas.com/2020/03/21/learn-out-of-mistakes-postmortems/) * [A collection of post-mortems](https://github.com/danluu/post-mortems) * [Blameless PostMortems and a Just Culture](https://codeascraft.com/2012/05/22/blameless-postmortems/) * [A Tale of Postmorte"
+  ],
+  "repository": {
+    "full_name": "dastergon/postmortem-templates",
+    "last_push": "2023-07-12T22:45:40Z",
+    "license": "CC0-1.0",
+    "stars_at_retrieval": 1441
+  },
+  "retrieval_method": "manual full-README audit via GitHub CLI API",
+  "retrieved_at": "2026-07-12T09:34:53Z",
+  "rights_note": "GitHub reports CC0-1.0; only a bounded exact mechanism passage is retained.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-dastergon-postmortem-templates",
+  "status": "accepted",
+  "title": "dastergon/postmortem-templates"
+}

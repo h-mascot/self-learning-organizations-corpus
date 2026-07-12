@@ -1,0 +1,44 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.youtube.com/watch?v=_CCwoQZH5hI",
+  "content_sha256": "be6a70d15062830de876686c654bdcacc49c9af921bd82ffb0bccc5e8e1797de",
+  "creator": "Jackson Shuttleworth",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "transcript_excerpt",
+      "locator": "full transcript at (00:25:22)",
+      "text": "Jackson Shuttleworth (00:25:22): a monetization win that they had, I think there's a lot of, because Duolingo runs... I don't know what percentile we're in, but it's got to be a very high percentile of per capita experiments run for a company, based on company size. We're just constantly learning so many things and there's a really great cross-sharing of monetization say, hey, this thing worked for us, is that something you can use? So, I'd say it's rare that we go into something where it's just like, let's just try something. Typically, we have some insight because of all of these experiments that we've run, that hey, if we do this, I don't know, it's one here, or it's w"
+    },
+    {
+      "kind": "transcript_excerpt",
+      "locator": "full transcript at (01:08:41)",
+      "text": "Jackson Shuttleworth (01:08:41): Again, my team lead runs, Antonia runs the most... A really process, if you're going to run this experiments, you have to be really process-oriented and really thoughtful about which experiments am I going to run when, how is that going to set up the next one, there's heavy Jira automation, I think sometimes the Atlassian suite makes my eyes bleed, but there's a lot of times where that degree of process helps the team unblock engineers and make them move really fast. And so, making sure that you have really good process around how are you going to run so many experiments, it's worth investing in."
+    }
+  ],
+  "media_format": "podcast_episode",
+  "platform": "podcasts",
+  "provenance": "Full transcript audited at ChatPRD/lennys-podcast-transcripts/jackson-shuttleworth; original video ID _CCwoQZH5hI.",
+  "published_date": "2024-12-15",
+  "publisher": "Lenny's Podcast",
+  "query_ids": [
+    "manual-full-transcript-audit-2026-07-12"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "I don't know what percentile we're in, but it's got to be a very high percentile of per capita experiments run for a company, based on company size.",
+    "A really process, if you're going to run this experiments, you have to be really process-oriented and really thoughtful about which experiments am I going to run when, how is that going to set up the next one, there's heavy Jira automation, I think sometimes the Atlassian suite makes my eyes bleed,"
+  ],
+  "retained_complete_transcript": false,
+  "retrieval_method": "full public transcript manual audit via GitHub citation",
+  "retrieved_at": "2026-07-12T09:34:38Z",
+  "rights_note": "The full public transcript was audited; only two bounded, separated guest passages are retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "episode",
+  "stable_id": "podcasts-lenny-_CCwoQZH5hI",
+  "status": "accepted",
+  "title": "Behind the product: Duolingo streaks | Jackson Shuttleworth (Group PM, Retention",
+  "transcript_available": true,
+  "transcript_source": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/main/episodes/jackson-shuttleworth/transcript.md"
+}

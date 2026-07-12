@@ -1,0 +1,41 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://github.com/joelparkerhenderson/issue-postmortem-template",
+  "content_sha256": "9ce32dd778d6ad49905b86717309a670dd1588f3c10e4e7fb042c5b9d7ca30b6",
+  "creator": "joelparkerhenderson",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "full repository README",
+      "text": "Issue postmortem template for incident response documentation # Issue postmortem template Title: Short title within 50 characters. Status: Diagnosis complete; treatment in progress. Contacts: X (x@example.com), X (x@example.com) Updated: YYYY-MM-DDTHH:MM:SS.NNNNNNNNN+00:00 ## Summary ## Issue: Summarize the issue in one sentence. Impact: Summarize the impact in one sentence. Participants: Summarize the partipants in one sentence. Symptoms: Summarize the symptoms in one sentence. Diagnosis: Summarize the diagnosis in one sentence. Treatments: Summarize the treatments in one sentence. Retrospectives: Summarize the retrospectives in one sentence. ## Participants ## Contacts:"
+    }
+  ],
+  "organizational_mechanism": "Issue postmortem template for incident response documentation # Issue postmortem template Title: Short title within 50 characters.",
+  "platform": "github",
+  "provenance": "GitHub metadata and full README manually audited for joelparkerhenderson/issue-postmortem-template.",
+  "published_date": "2018-10-22",
+  "publisher": "GitHub",
+  "query_ids": [
+    "manual-full-readme-audit-2026-07-12"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Issue postmortem template for incident response documentation # Issue postmortem template Title: Short title within 50 characters."
+  ],
+  "repository": {
+    "full_name": "joelparkerhenderson/issue-postmortem-template",
+    "last_push": "2025-04-14T08:42:34Z",
+    "license": "NOASSERTION",
+    "stars_at_retrieval": 10
+  },
+  "retrieval_method": "manual full-README audit via GitHub CLI API",
+  "retrieved_at": "2026-07-12T09:34:58Z",
+  "rights_note": "GitHub reports NOASSERTION; only a bounded exact mechanism passage is retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-joelparkerhenderson-issue-postmortem-template",
+  "status": "accepted",
+  "title": "joelparkerhenderson/issue-postmortem-template"
+}

@@ -1,32 +1,38 @@
 {
   "artifact_level": "metadata_only",
   "canonical_url": "https://www.youtube.com/watch?v=2BKmNmnEj9w",
-  "content_sha256": "ec9683bfdbbc8ef99e9bdbf37344497ee1e435bccbf5d268e44e2a9b0bdd513e",
+  "content_sha256": "60966f5e5010ced85f547d538cdb8a8a67806b552b24acd2ddca2fa42b48d012",
   "creator": "Albert Cheng",
   "date_precision": "day",
   "evidence": [
     {
       "kind": "transcript_excerpt",
-      "locator": "public transcript near matched timestamp (albert-cheng)",
-      "text": "(00:01:32): His unique approach to growth blends marketing, data, strategy, and product management, and in our conversation, we cover a lot of ground, including his explore and exploit framework to find growth opportunities. His biggest and most interesting growth wins at Duolingo, Grammarly and Chess.com, how he uses AI to accelerate his growth work, what he's come to realize about the power of brand and community in your growth work, his top experimentation, best practices, why his goal at every company is to run 1,000 experiments a year and so much more. (00:02:02): A huge thank you to Erik Allebest, Noam Levinsky, and Jorge Mazal for suggesting topics for this conver"
+      "locator": "full transcript at (00:13:34)",
+      "text": "Albert Cheng (00:13:34): Yeah, exactly right. In my experience, the typical win rate, and I hate to use that term for experiments, is often something like 30 to 50%. Usually you're trying a bunch of things, a lot of hypotheses turn out not to be true, consumer products are very unpredictable like that, but when you do find a thing that breaks through the noise, and it could actually be a hugely losing experiment too, those are also super valuable."
+    },
+    {
+      "kind": "transcript_excerpt",
+      "locator": "full transcript at (01:01:30)",
+      "text": "Albert Cheng (01:01:30): The system matters just as much as any given experiment, probably even more, right? I think starting with a growth model, so you have an understanding of how your company grows in the first place and which channels you're going to leverage is critical. You need to make sure that you are instrumenting your product in and out. Otherwise, you're going to run experiments and have wonky results."
     }
   ],
   "media_format": "podcast_episode",
   "platform": "podcasts",
-  "provenance": "Public timestamped transcript at ChatPRD/lennys-podcast-transcripts/albert-cheng; original video ID 2BKmNmnEj9w.",
+  "provenance": "Full transcript audited at ChatPRD/lennys-podcast-transcripts/albert-cheng; original video ID 2BKmNmnEj9w.",
   "published_date": "2025-10-05",
   "publisher": "Lenny's Podcast",
   "query_ids": [
-    "github-citation-lennys-podcast-transcripts"
+    "manual-full-transcript-audit-2026-07-12"
   ],
   "rejection_reason": null,
   "relevance_evidence": [
-    "Multiple transcript passages match organizational feedback, experimentation, learning, memory, or AI-agent operating mechanisms."
+    "ut when you do find a thing that breaks through the noise, and it could actually be a hugely losing experiment too, those are also super valuable.",
+    "The system matters just as much as any given experiment, probably even more, right?"
   ],
   "retained_complete_transcript": false,
-  "retrieval_method": "GitHub public transcript citation; original publisher video identified in front matter",
-  "retrieved_at": "2026-07-12T08:44:29Z",
-  "rights_note": "A genuine episode and public transcript source were verified; only the bounded transcript excerpt in evidence is retained.",
+  "retrieval_method": "full public transcript manual audit via GitHub citation",
+  "retrieved_at": "2026-07-12T09:34:39Z",
+  "rights_note": "The full public transcript was audited; only two bounded, separated guest passages are retained.",
   "rights_status": "bounded-public-evidence",
   "schema_version": 2,
   "source_type": "episode",

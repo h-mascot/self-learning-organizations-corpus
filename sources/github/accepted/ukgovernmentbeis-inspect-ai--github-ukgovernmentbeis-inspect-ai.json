@@ -1,27 +1,27 @@
 {
   "artifact_level": "metadata_only",
   "canonical_url": "https://github.com/UKGovernmentBEIS/inspect_ai",
-  "content_sha256": "1da15588965f78eb783cf111326777409a9fe246f205cfcb9725e5c1f0fdf1bf",
+  "content_sha256": "0b5b58d014ec1f14fb33ffa25ba9a38311c913766b309a9c15b905ea5a4309d0",
   "creator": "UKGovernmentBEIS",
   "date_precision": "day",
   "evidence": [
     {
       "kind": "excerpt",
-      "locator": "repository README",
-      "text": "> Coding agents: a structured index of the docs is published at <https://inspect.aisi.org.uk/llms.txt>. The user guide is concatenated as Markdown at <https://inspect.aisi.org.uk/llms-guide.txt>, and <https://inspect.aisi.org.uk/llms-full.txt> additionally bundles the API and CLI reference. Individual pages are available as Markdown by appending `.md` to the `.html` path (e.g. `/extensions/index.html.md`)."
+      "locator": "full repository README",
+      "text": "Inspect: A framework for large language model evaluations [ ](https://aisi.gov.uk/) Welcome to Inspect, a framework for large language model evaluations created by the [UK AI Security Institute](https://aisi.gov.uk/). Inspect provides many built-in components, including facilities for prompt engineering, tool usage, multi-turn dialog, and model graded evaluations. Extensions to Inspect (e.g. to support new elicitation and scoring techniques) can be provided by other Python packages. To get started with Inspect, please see the documentation at . Inspect also includes a collection of over 200 pre-built evaluations ready to run on any model (learn more at ). > Coding agents:"
     }
   ],
-  "organizational_mechanism": "repeatable AI evaluation operated by an organization",
+  "organizational_mechanism": "Inspect: A framework for large language model evaluations [ ](https://aisi.gov.uk/) Welcome to Inspect, a framework for large language model evaluations created by the [UK AI Security Institute](https://aisi.gov.uk/).",
   "platform": "github",
-  "provenance": "GitHub API metadata and bounded README evidence for UKGovernmentBEIS/inspect_ai.",
+  "provenance": "GitHub metadata and full README manually audited for UKGovernmentBEIS/inspect_ai.",
   "published_date": "2023-11-14",
   "publisher": "GitHub",
   "query_ids": [
-    "review-github-organizational-mechanisms"
+    "manual-full-readme-audit-2026-07-12"
   ],
   "rejection_reason": null,
   "relevance_evidence": [
-    "The repository documents repeatable AI evaluation operated by an organization; this is an organizational operating mechanism, not generic agent-memory research."
+    "Inspect: A framework for large language model evaluations [ ](https://aisi.gov.uk/) Welcome to Inspect, a framework for large language model evaluations created by the [UK AI Security Institute](https://aisi.gov.uk/)."
   ],
   "repository": {
     "full_name": "UKGovernmentBEIS/inspect_ai",
@@ -29,9 +29,9 @@
     "license": "MIT",
     "stars_at_retrieval": 2332
   },
-  "retrieval_method": "agent-reach/GitHub CLI API and README endpoint",
-  "retrieved_at": "2026-07-12T09:15:46Z",
-  "rights_note": "GitHub reports MIT; only a bounded README excerpt is retained.",
+  "retrieval_method": "manual full-README audit via GitHub CLI API",
+  "retrieved_at": "2026-07-12T09:34:48Z",
+  "rights_note": "GitHub reports MIT; only a bounded exact mechanism passage is retained.",
   "rights_status": "open-license",
   "schema_version": 2,
   "source_type": "repository",

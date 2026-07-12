@@ -1,27 +1,27 @@
 {
   "artifact_level": "metadata_only",
   "canonical_url": "https://github.com/Flagsmith/flagsmith",
-  "content_sha256": "a8046d26fea125187f02a22013766b73903e00a03add21e398860b23828bbf87",
+  "content_sha256": "6ccca7e80639b9f29be6b0f219c09a97baf1b39f8fb4bc95d309b282fabf6941",
   "creator": "Flagsmith",
   "date_precision": "day",
   "evidence": [
     {
       "kind": "excerpt",
-      "locator": "repository README",
-      "text": "* Feature flags: Release features behind the safety of a feature flag * Make changes remotely: Easily toggle individual features on and off, and make changes without deploying new code * A/B testing: Use segments to run A/B and multivariate tests on new features * Segments: Release features to beta testers, collect feedback, and iterate * Organisation management: Stay organised with orgs, projects, and roles for team members * SDKs & frameworks: Choose from 15+ popular languages like Typescript, .NET, Java, and more. Integrate with any framework, including React, Next.js, and more * Integrations: Use your favourite tools with Flagsmith"
+      "locator": "full repository README",
+      "text": "ses Change the way your team releases software. Roll out, segment, and optimise—with granular control. Stay secure with on-premise and private cloud hosting. * Feature flags: Release features behind the safety of a feature flag * Make changes remotely: Easily toggle individual features on and off, and make changes without deploying new code * A/B testing: Use segments to run A/B and multivariate tests on new features * Segments: Release features to beta testers, collect feedback, and iterate * Organisation management: Stay organised with orgs, projects, and roles for team members * SDKs & frameworks: Choose from 15+ popular languages like Typescript, .NET, Java, and more."
     }
   ],
-  "organizational_mechanism": "feature flags and measured progressive delivery",
+  "organizational_mechanism": "* Feature flags: Release features behind the safety of a feature flag * Make changes remotely: Easily toggle individual features on and off, and make changes without deploying new code * A/B testing: Use segments to run A/B and multivariate tests on new features * Segments: Release features to beta ",
   "platform": "github",
-  "provenance": "GitHub API metadata and bounded README evidence for Flagsmith/flagsmith.",
+  "provenance": "GitHub metadata and full README manually audited for Flagsmith/flagsmith.",
   "published_date": "2018-06-05",
   "publisher": "GitHub",
   "query_ids": [
-    "review-github-organizational-mechanisms"
+    "manual-full-readme-audit-2026-07-12"
   ],
   "rejection_reason": null,
   "relevance_evidence": [
-    "The repository documents feature flags and measured progressive delivery; this is an organizational operating mechanism, not generic agent-memory research."
+    "* Feature flags: Release features behind the safety of a feature flag * Make changes remotely: Easily toggle individual features on and off, and make changes without deploying new code * A/B testing: Use segments to run A/B and multivariate tests on new features * Segments: Release features to beta "
   ],
   "repository": {
     "full_name": "Flagsmith/flagsmith",
@@ -29,9 +29,9 @@
     "license": "BSD-3-Clause",
     "stars_at_retrieval": 6440
   },
-  "retrieval_method": "agent-reach/GitHub CLI API and README endpoint",
-  "retrieved_at": "2026-07-12T09:15:40Z",
-  "rights_note": "GitHub reports BSD-3-Clause; only a bounded README excerpt is retained.",
+  "retrieval_method": "manual full-README audit via GitHub CLI API",
+  "retrieved_at": "2026-07-12T09:34:42Z",
+  "rights_note": "GitHub reports BSD-3-Clause; only a bounded exact mechanism passage is retained.",
   "rights_status": "open-license",
   "schema_version": 2,
   "source_type": "repository",

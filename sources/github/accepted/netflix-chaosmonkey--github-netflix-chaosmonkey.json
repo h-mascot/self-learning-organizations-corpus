@@ -1,27 +1,27 @@
 {
   "artifact_level": "metadata_only",
   "canonical_url": "https://github.com/Netflix/chaosmonkey",
-  "content_sha256": "7d4ff8f87310b4984f44fc35d1c682b3429b4b7ea32d02fa3496c10718744cd7",
+  "content_sha256": "13aa472b064bf6563d100e23d268df52d551cd30c29411dec862f593f594be5d",
   "creator": "Netflix",
   "date_precision": "day",
   "evidence": [
     {
       "kind": "excerpt",
-      "locator": "repository README",
-      "text": "Chaos Monkey is a resiliency tool that helps applications tolerate random instance failures. ![logo](docs/logo.png \"logo\") [![NetflixOSS Lifecycle](https://img.shields.io/osslifecycle/Netflix/chaosmonkey.svg)](OSSMETADATA) [![Build Status][travis-badge]][travis] [![GoDoc][godoc-badge]][godoc] [![GoReportCard][report-badge]][report] [travis-badge]: https://travis-ci.com/Netflix/chaosmonkey.svg?branch=master [travis]: https://travis-ci.com/Netflix/chaosmonkey [godoc-badge]: https://godoc.org/github.com/Netflix/chaosmonkey?status.svg [godoc]: https://godoc.org/github.com/Netflix/chaosmonkey [report-badge]: https://goreportcard.com/badge/github.com/Netflix/chaosmonkey [report"
+      "locator": "full repository README",
+      "text": "Chaos Monkey is a resiliency tool that helps applications tolerate random instance failures. [ ](OSSMETADATA) [![Build Status][travis-badge]][travis] [![GoDoc][godoc-badge]][godoc] [![GoReportCard][report-badge]][report] [travis-badge]: https://travis-ci.com/Netflix/chaosmonkey.svg?branch=master [travis]: https://travis-ci.com/Netflix/chaosmonkey [godoc-badge]: https://godoc.org/github.com/Netflix/chaosmonkey?status.svg [godoc]: https://godoc.org/github.com/Netflix/chaosmonkey [report-badge]: https://goreportcard.com/badge/github.com/Netflix/chaosmonkey [report]: https://goreportcard.com/report/github.com/Netflix/chaosmonkey Chaos Monkey randomly terminates virtual machin"
     }
   ],
-  "organizational_mechanism": "company resilience learning through controlled failure experiments",
+  "organizational_mechanism": "Chaos Monkey is a resiliency tool that helps applications tolerate random instance failures.",
   "platform": "github",
-  "provenance": "GitHub API metadata and bounded README evidence for Netflix/chaosmonkey.",
+  "provenance": "GitHub metadata and full README manually audited for Netflix/chaosmonkey.",
   "published_date": "2016-10-18",
   "publisher": "GitHub",
   "query_ids": [
-    "review-github-organizational-mechanisms"
+    "manual-full-readme-audit-2026-07-12"
   ],
   "rejection_reason": null,
   "relevance_evidence": [
-    "The repository documents company resilience learning through controlled failure experiments; this is an organizational operating mechanism, not generic agent-memory research."
+    "Chaos Monkey is a resiliency tool that helps applications tolerate random instance failures."
   ],
   "repository": {
     "full_name": "Netflix/chaosmonkey",
@@ -29,9 +29,9 @@
     "license": "Apache-2.0",
     "stars_at_retrieval": 17013
   },
-  "retrieval_method": "agent-reach/GitHub CLI API and README endpoint",
-  "retrieved_at": "2026-07-12T09:15:49Z",
-  "rights_note": "GitHub reports Apache-2.0; only a bounded README excerpt is retained.",
+  "retrieval_method": "manual full-README audit via GitHub CLI API",
+  "retrieved_at": "2026-07-12T09:34:51Z",
+  "rights_note": "GitHub reports Apache-2.0; only a bounded exact mechanism passage is retained.",
   "rights_status": "open-license",
   "schema_version": 2,
   "source_type": "repository",

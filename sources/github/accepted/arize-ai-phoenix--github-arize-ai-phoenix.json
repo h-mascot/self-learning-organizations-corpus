@@ -1,27 +1,27 @@
 {
   "artifact_level": "metadata_only",
   "canonical_url": "https://github.com/Arize-ai/phoenix",
-  "content_sha256": "018abe78898682834dbf3dc85db82a66ca94d35e9437915120cf72ececb678cf",
+  "content_sha256": "040ea6c304d454e6683b2942e1d61441c543a00b4233f638152c1a5ade3d2524",
   "creator": "Arize-ai",
   "date_precision": "day",
   "evidence": [
     {
       "kind": "excerpt",
-      "locator": "repository README",
-      "text": "By default, Phoenix collects basic web analytics (e.g., page views, UI interactions) to help us understand how Phoenix is used and improve the product. **None of your trace data, evaluation results, or any sensitive information is ever collected.**"
+      "locator": "full repository README",
+      "text": "AI Observability & Evaluation Phoenix is an open-source AI observability platform designed for experimentation, evaluation, and troubleshooting. It provides: - [**_Tracing_**](https://arize.com/docs/phoenix/tracing/llm-traces) - Trace your LLM application's runtime using OpenTelemetry-based instrumentation. - [**_Evaluation_**](https://arize.com/docs/phoenix/evaluation/llm-evals) - Leverage LLMs to benchmark your application's performance using response and retrieval evals. - [**_Datasets_**](https://arize.com/docs/phoenix/datasets-and-experiments/overview-datasets) - Create versioned datasets of examples for experimentation, evaluation, and fine-tuning. - [**_Experiments"
     }
   ],
-  "organizational_mechanism": "production AI observability, evaluation, and improvement",
+  "organizational_mechanism": "- [**_Evaluation_**](https://arize.com/docs/phoenix/evaluation/llm-evals) - Leverage LLMs to benchmark your application's performance using response and retrieval evals.",
   "platform": "github",
-  "provenance": "GitHub API metadata and bounded README evidence for Arize-ai/phoenix.",
+  "provenance": "GitHub metadata and full README manually audited for Arize-ai/phoenix.",
   "published_date": "2022-11-09",
   "publisher": "GitHub",
   "query_ids": [
-    "review-github-organizational-mechanisms"
+    "manual-full-readme-audit-2026-07-12"
   ],
   "rejection_reason": null,
   "relevance_evidence": [
-    "The repository documents production AI observability, evaluation, and improvement; this is an organizational operating mechanism, not generic agent-memory research."
+    "- [**_Evaluation_**](https://arize.com/docs/phoenix/evaluation/llm-evals) - Leverage LLMs to benchmark your application's performance using response and retrieval evals."
   ],
   "repository": {
     "full_name": "Arize-ai/phoenix",
@@ -29,9 +29,9 @@
     "license": "NOASSERTION",
     "stars_at_retrieval": 10513
   },
-  "retrieval_method": "agent-reach/GitHub CLI API and README endpoint",
-  "retrieved_at": "2026-07-12T09:15:44Z",
-  "rights_note": "GitHub reports NOASSERTION; only a bounded README excerpt is retained.",
+  "retrieval_method": "manual full-README audit via GitHub CLI API",
+  "retrieved_at": "2026-07-12T09:34:46Z",
+  "rights_note": "GitHub reports NOASSERTION; only a bounded exact mechanism passage is retained.",
   "rights_status": "bounded-public-evidence",
   "schema_version": 2,
   "source_type": "repository",

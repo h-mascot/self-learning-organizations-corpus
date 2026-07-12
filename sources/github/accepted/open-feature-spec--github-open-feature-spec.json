@@ -1,27 +1,27 @@
 {
   "artifact_level": "metadata_only",
   "canonical_url": "https://github.com/open-feature/spec",
-  "content_sha256": "bb271af506e90d9d67545a740579415dbc827d195e578dcb9fe067ea00bed58e",
+  "content_sha256": "66c20c6a752d9dcf4435edae4437f6c5b1ffb76d52e81e1423cf561d6001d26b",
   "creator": "open-feature",
   "date_precision": "day",
   "evidence": [
     {
       "kind": "excerpt",
-      "locator": "repository README",
-      "text": "The project aims to provide a unified API and SDK feature flag evaluation across popular technology stacks. The OpenFeature SDK provides a mechanism for interfacing with an external evaluation engine in a vendor agnostic way; it does **not** itself handle the flag evaluation logic."
+      "locator": "full repository README",
+      "text": "ibes the requirements and expectations for OpenFeature. ## Design Principles The OpenFeature specification must be designed with: - compatibility with existing feature flag offerings. - simple, understandable APIs. - vendor agnosticism. - language agnosticism. - low/no dependency. - extensibility. ### SDKs and Client Libraries The project aims to provide a unified API and SDK feature flag evaluation across popular technology stacks. The OpenFeature SDK provides a mechanism for interfacing with an external evaluation engine in a vendor agnostic way; it does **not** itself handle the flag evaluation logic. An up-to-date SDK compatibility overview can be found [here](https:/"
     }
   ],
-  "organizational_mechanism": "vendor-neutral organizational feature-flag operations",
+  "organizational_mechanism": "The OpenFeature SDK provides a mechanism for interfacing with an external evaluation engine in a vendor agnostic way; it does **not** itself handle the flag evaluation logic.",
   "platform": "github",
-  "provenance": "GitHub API metadata and bounded README evidence for open-feature/spec.",
+  "provenance": "GitHub metadata and full README manually audited for open-feature/spec.",
   "published_date": "2022-02-11",
   "publisher": "GitHub",
   "query_ids": [
-    "review-github-organizational-mechanisms"
+    "manual-full-readme-audit-2026-07-12"
   ],
   "rejection_reason": null,
   "relevance_evidence": [
-    "The repository documents vendor-neutral organizational feature-flag operations; this is an organizational operating mechanism, not generic agent-memory research."
+    "The OpenFeature SDK provides a mechanism for interfacing with an external evaluation engine in a vendor agnostic way; it does **not** itself handle the flag evaluation logic."
   ],
   "repository": {
     "full_name": "open-feature/spec",
@@ -29,9 +29,9 @@
     "license": "Apache-2.0",
     "stars_at_retrieval": 1209
   },
-  "retrieval_method": "agent-reach/GitHub CLI API and README endpoint",
-  "retrieved_at": "2026-07-12T09:15:41Z",
-  "rights_note": "GitHub reports Apache-2.0; only a bounded README excerpt is retained.",
+  "retrieval_method": "manual full-README audit via GitHub CLI API",
+  "retrieved_at": "2026-07-12T09:34:43Z",
+  "rights_note": "GitHub reports Apache-2.0; only a bounded exact mechanism passage is retained.",
   "rights_status": "open-license",
   "schema_version": 2,
   "source_type": "repository",

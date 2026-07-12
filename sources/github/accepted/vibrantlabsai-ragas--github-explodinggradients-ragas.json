@@ -1,27 +1,27 @@
 {
   "artifact_level": "metadata_only",
   "canonical_url": "https://github.com/vibrantlabsai/ragas",
-  "content_sha256": "d46139ededcaa4c019de48c0d867f4a6c46bf1e5d2cf2f98adedb31cd437b81c",
+  "content_sha256": "686f29609e311f409abcc8bf9f483570ea63f028e83224bc14404daf1000a3ef",
   "creator": "vibrantlabsai",
   "date_precision": "day",
   "evidence": [
     {
       "kind": "excerpt",
-      "locator": "repository README",
-      "text": "Coming Soon: - `agent_evals` - Evaluate AI agents - `benchmark_llm` - Benchmark and compare LLMs - `prompt_evals` - Evaluate prompt variations - `workflow_eval` - Evaluate complex workflows"
+      "locator": "full repository README",
+      "text": "Supercharge Your LLM Application Evaluations 🚀 Supercharge Your LLM Application Evaluations 🚀 Documentation | Quick start | Join Discord | Blog | NewsLetter | Careers Objective metrics, intelligent test generation, and data-driven insights for LLM apps Ragas is your ultimate toolkit for evaluating and optimizing Large Language Model (LLM) applications. Say goodbye to time-consuming, subjective assessments and hello to data-driven, efficient evaluation workflows. Don't have a test dataset ready? We also do production-aligned test set generation. ## Key Features - 🎯 Objective Metrics: Evaluate your LLM applications with precision using both LLM-based and traditional metrics"
     }
   ],
-  "organizational_mechanism": "evaluation-driven improvement of retrieval systems",
+  "organizational_mechanism": "Supercharge Your LLM Application Evaluations 🚀 Supercharge Your LLM Application Evaluations 🚀 Documentation | Quick start | Join Discord | Blog | NewsLetter | Careers Objective metrics, intelligent test generation, and data-driven insights for LLM apps Ragas is your ultimate toolkit for evaluating a",
   "platform": "github",
-  "provenance": "GitHub API metadata and bounded README evidence for vibrantlabsai/ragas.",
+  "provenance": "GitHub metadata and full README manually audited for vibrantlabsai/ragas.",
   "published_date": "2023-05-08",
   "publisher": "GitHub",
   "query_ids": [
-    "review-github-organizational-mechanisms"
+    "manual-full-readme-audit-2026-07-12"
   ],
   "rejection_reason": null,
   "relevance_evidence": [
-    "The repository documents evaluation-driven improvement of retrieval systems; this is an organizational operating mechanism, not generic agent-memory research."
+    "Supercharge Your LLM Application Evaluations 🚀 Supercharge Your LLM Application Evaluations 🚀 Documentation | Quick start | Join Discord | Blog | NewsLetter | Careers Objective metrics, intelligent test generation, and data-driven insights for LLM apps Ragas is your ultimate toolkit for evaluating a"
   ],
   "repository": {
     "full_name": "vibrantlabsai/ragas",
@@ -29,9 +29,9 @@
     "license": "Apache-2.0",
     "stars_at_retrieval": 14795
   },
-  "retrieval_method": "agent-reach/GitHub CLI API and README endpoint",
-  "retrieved_at": "2026-07-12T09:15:47Z",
-  "rights_note": "GitHub reports Apache-2.0; only a bounded README excerpt is retained.",
+  "retrieval_method": "manual full-README audit via GitHub CLI API",
+  "retrieved_at": "2026-07-12T09:34:49Z",
+  "rights_note": "GitHub reports Apache-2.0; only a bounded exact mechanism passage is retained.",
   "rights_status": "open-license",
   "schema_version": 2,
   "source_type": "repository",

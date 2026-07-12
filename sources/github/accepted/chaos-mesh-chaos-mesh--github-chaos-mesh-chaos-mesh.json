@@ -1,0 +1,41 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://github.com/chaos-mesh/chaos-mesh",
+  "content_sha256": "d0fdf0ada26f5f5e9f5a435809e36910a8260aa7aa2c511cc04d78bf44a588b5",
+  "creator": "chaos-mesh",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "full repository README",
+      "text": "ents: - **Chaos Operator**: the core component for chaos orchestration. Fully open sourced. - **Chaos Dashboard**: a Web UI for managing, designing, monitoring Chaos Experiments. See the following demo video for a quick view of Chaos Mesh: [ ](https://www.youtube.com/watch?v=ifZEwdJO868) ## Chaos Operator Chaos Operator injects chaos into the applications and Kubernetes infrastructure in a manageable way, which provides easy, custom definitions for chaos experiments and automatic orchestration. There are two components at play: **Chaos Controller Manager**: is primarily responsible for the scheduling and management of Chaos experiments. This component contains several CRD"
+    }
+  ],
+  "organizational_mechanism": "See the following demo video for a quick view of Chaos Mesh: [ ](https://www.youtube.com/watch?v=ifZEwdJO868) ## Chaos Operator Chaos Operator injects chaos into the applications and Kubernetes infrastructure in a manageable way, which provides easy, custom definitions for chaos experiments and auto",
+  "platform": "github",
+  "provenance": "GitHub metadata and full README manually audited for chaos-mesh/chaos-mesh.",
+  "published_date": "2019-09-04",
+  "publisher": "GitHub",
+  "query_ids": [
+    "manual-full-readme-audit-2026-07-12"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "See the following demo video for a quick view of Chaos Mesh: [ ](https://www.youtube.com/watch?v=ifZEwdJO868) ## Chaos Operator Chaos Operator injects chaos into the applications and Kubernetes infrastructure in a manageable way, which provides easy, custom definitions for chaos experiments and auto"
+  ],
+  "repository": {
+    "full_name": "chaos-mesh/chaos-mesh",
+    "last_push": "2026-07-07T14:20:35Z",
+    "license": "Apache-2.0",
+    "stars_at_retrieval": 7793
+  },
+  "retrieval_method": "manual full-README audit via GitHub CLI API",
+  "retrieved_at": "2026-07-12T09:35:00Z",
+  "rights_note": "GitHub reports Apache-2.0; only a bounded exact mechanism passage is retained.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-chaos-mesh-chaos-mesh",
+  "status": "accepted",
+  "title": "chaos-mesh/chaos-mesh"
+}

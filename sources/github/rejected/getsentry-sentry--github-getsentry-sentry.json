@@ -1,0 +1,39 @@
+{
+  "artifact_level": "unavailable",
+  "canonical_url": "https://github.com/getsentry/sentry",
+  "content_sha256": "310744c816b774cfc8a3cdf4355211a8e5702ae0ea672c70e1bf2b7e38474f79",
+  "creator": "getsentry",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository README",
+      "text": "Developer-first error tracking and performance monitoring <p align=\"center\"> <p align=\"center\"> <a href=\"https://sentry.io/?utm_source=github&utm_medium=logo\" target=\"_blank\"> <img src=\"https://sentry-brand.storage.googleapis.com/sentry-wordmark-dark-280x84.png\" alt=\"Sentry\" width=\"280\" height=\"84\" /> </a> </p> <p align=\"center\"> Users and logs provide clues. Sentry provides answers. </p> </p> # What's Sentry? Sentry is the debugging platform that helps every developer detect, trace, and fix issues. Code breaks, fix it faster. <p align=\"center\"> <img src=\"https://github.com/getsentry/sentry/raw/master/.github/screenshots/issue-details.png\" width=\"270\" /> <img src=\"https:/"
+    }
+  ],
+  "organizational_mechanism": "incident telemetry and feedback for organizational software learning",
+  "platform": "github",
+  "provenance": "GitHub API metadata and bounded README evidence for getsentry/sentry.",
+  "published_date": "2010-08-30",
+  "publisher": "GitHub",
+  "query_ids": [
+    "review-github-organizational-mechanisms"
+  ],
+  "rejection_reason": "Full-README audit did not retain explicit evidence of an organization-level learning mechanism.",
+  "relevance_evidence": [],
+  "repository": {
+    "full_name": "getsentry/sentry",
+    "last_push": "2026-07-12T07:00:43Z",
+    "license": "NOASSERTION",
+    "stars_at_retrieval": 44269
+  },
+  "retrieval_method": "agent-reach/GitHub CLI API and README endpoint",
+  "retrieved_at": "2026-07-12T09:15:48Z",
+  "rights_note": "GitHub reports NOASSERTION; only a bounded README excerpt is retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-getsentry-sentry",
+  "status": "rejected",
+  "title": "getsentry/sentry"
+}

@@ -1,27 +1,27 @@
 {
   "artifact_level": "metadata_only",
   "canonical_url": "https://github.com/openai/evals",
-  "content_sha256": "5b7ff0f3fe6b48648812e48060a9489f00c555c4c225e28e93f35c3eadafc73d",
+  "content_sha256": "3f7d3220bebfe25ce0a9f77fa8aa6e7352dde3378f6e9dc527db69b049dd9827",
   "creator": "openai",
   "date_precision": "day",
   "evidence": [
     {
       "kind": "excerpt",
-      "locator": "repository README",
-      "text": "Evals provide a framework for evaluating large language models (LLMs) or systems built using LLMs. We offer an existing registry of evals to test different dimensions of OpenAI models and the ability to write your own custom evals for use cases you care about. You can also use your data to build private evals which represent the common LLMs patterns in your workflow without exposing any of that data publicly."
+      "locator": "full repository README",
+      "text": "ndb_fc/openai-evals/reports/OpenAI-Evals-Demo-Using-W-B-Prompts-to-Run-Evaluations--Vmlldzo0MTI4ODA3). **Minimum Required Version: Python 3.9** ### Downloading evals Our evals registry is stored using [Git-LFS](https://git-lfs.com/). Once you have downloaded and installed LFS, you can fetch the evals (from within your local copy of the evals repo) with: ```sh cd evals git lfs fetch --all git lfs pull ``` This will populate all the pointer files under `evals/registry/data`. You may just want to fetch data for a select eval. You can achieve this via: ```sh git lfs fetch --include=evals/registry/data/${your eval} git lfs pull ``` ### Making evals If you are going to be creat"
     }
   ],
-  "organizational_mechanism": "repeatable evaluation feedback for improving AI systems",
+  "organizational_mechanism": "Once you have downloaded and installed LFS, you can fetch the evals (from within your local copy of the evals repo) with: ```sh cd evals git lfs fetch --all git lfs pull ``` This will populate all the pointer files under `evals/registry/data`.",
   "platform": "github",
-  "provenance": "GitHub API metadata and bounded README evidence for openai/evals.",
+  "provenance": "GitHub metadata and full README manually audited for openai/evals.",
   "published_date": "2023-01-23",
   "publisher": "GitHub",
   "query_ids": [
-    "review-github-organizational-mechanisms"
+    "manual-full-readme-audit-2026-07-12"
   ],
   "rejection_reason": null,
   "relevance_evidence": [
-    "The repository documents repeatable evaluation feedback for improving AI systems; this is an organizational operating mechanism, not generic agent-memory research."
+    "Once you have downloaded and installed LFS, you can fetch the evals (from within your local copy of the evals repo) with: ```sh cd evals git lfs fetch --all git lfs pull ``` This will populate all the pointer files under `evals/registry/data`."
   ],
   "repository": {
     "full_name": "openai/evals",
@@ -29,9 +29,9 @@
     "license": "NOASSERTION",
     "stars_at_retrieval": 18899
   },
-  "retrieval_method": "agent-reach/GitHub CLI API and README endpoint",
-  "retrieved_at": "2026-07-12T09:15:42Z",
-  "rights_note": "GitHub reports NOASSERTION; only a bounded README excerpt is retained.",
+  "retrieval_method": "manual full-README audit via GitHub CLI API",
+  "retrieved_at": "2026-07-12T09:34:44Z",
+  "rights_note": "GitHub reports NOASSERTION; only a bounded exact mechanism passage is retained.",
   "rights_status": "bounded-public-evidence",
   "schema_version": 2,
   "source_type": "repository",

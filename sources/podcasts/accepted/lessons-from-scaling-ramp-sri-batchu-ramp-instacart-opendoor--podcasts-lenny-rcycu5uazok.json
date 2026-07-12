@@ -1,0 +1,44 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.youtube.com/watch?v=RcYCU5UAZOk",
+  "content_sha256": "26ba9310a3fa1a661fb7d787a8fa33654a84fc182e471abfed517806ff3e65ee",
+  "creator": "Sri Batchu",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "transcript_excerpt",
+      "locator": "full transcript at (00:10:37)",
+      "text": "Sri Batchu (00:10:37): Rather than going into the specifics, one thing I'll say about the growth system today is if you were to look at what percentage of our business comes from outbound sales, paid marketing, field, and then a bunch of other channels and then you compare it against industry benchmarks, I think the secret sauce of Ramp is not that we've found a channel that's unique and that we've over-invested or under-invested. I don't think our distribution would be not that far off from looking at other companies at our size and stage."
+    },
+    {
+      "kind": "transcript_excerpt",
+      "locator": "full transcript at (00:59:27)",
+      "text": "Sri Batchu (00:59:27):  of prospecting, lead scoring, and how we talk to our customers. But for the most part, we use external tools. Instacart and Opendoor were not like that. We built our own internal experiment tracking systems, A/B testing frameworks and all of that in-house."
+    }
+  ],
+  "media_format": "podcast_episode",
+  "platform": "podcasts",
+  "provenance": "Full transcript audited at ChatPRD/lennys-podcast-transcripts/sri-batchu; original video ID RcYCU5UAZOk.",
+  "published_date": "2023-06-25",
+  "publisher": "Lenny's Podcast",
+  "query_ids": [
+    "manual-full-transcript-audit-2026-07-12"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "paid marketing, field, and then a bunch of other channels and then you compare it against industry benchmarks, I think the secret sauce of Ramp is not that we've found a channel that's unique and that we've over-invested or under-invested.",
+    "We built our own internal experiment tracking systems, A/B testing frameworks and all of that in-house."
+  ],
+  "retained_complete_transcript": false,
+  "retrieval_method": "full public transcript manual audit via GitHub citation",
+  "retrieved_at": "2026-07-12T09:34:39Z",
+  "rights_note": "The full public transcript was audited; only two bounded, separated guest passages are retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "episode",
+  "stable_id": "podcasts-lenny-RcYCU5UAZOk",
+  "status": "accepted",
+  "title": "Lessons from scaling Ramp | Sri Batchu (Ramp, Instacart, Opendoor)",
+  "transcript_available": true,
+  "transcript_source": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/main/episodes/sri-batchu/transcript.md"
+}

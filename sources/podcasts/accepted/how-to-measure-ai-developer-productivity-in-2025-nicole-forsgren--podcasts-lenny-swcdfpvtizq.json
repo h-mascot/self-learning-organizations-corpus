@@ -1,0 +1,44 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.youtube.com/watch?v=SWcDfPVTizQ",
+  "content_sha256": "a76a9490835c4725dab2753411741e9a46c335777d95b76216141e35c75808e9",
+  "creator": "Nicole Forsgren",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "transcript_excerpt",
+      "locator": "full transcript at (00:15:01)",
+      "text": "Nicole Forsgren (00:15:01): e are used to assess the speed of the pipeline and the general performance of the pipeline, that's great. If you're trying to use those to understand... Because implied in that is feedback loops, right, because you used to kind of get feedback from customers. But we can't just use that blindly now when we're using AI, as an example, because we have feedback loops much earlier and not even just at the local build and test phase. We have feedback loops throughout, and even sometimes in the middle of some of the pipeline, that we really want to leverage in ways that weren't as useful before. I won't say they weren't possible, but we just didn't re"
+    },
+    {
+      "kind": "transcript_excerpt",
+      "locator": "full transcript at (00:30:26)",
+      "text": "Nicole Forsgren (00:30:26): atives that you want to test. Because now, the engineering can go, or at least the prototyping especially, much, much faster. We can throw out prototypes. We can run any tests and experiments that are customer facing, assuming that we have the infrastructure in place, which allows us to learn and progress much faster before. In some places, it used to take months to get something through production to do A/B testing and get feedback. We can do this in a day or two, definitely under a week. But we want to make sure that we're building and testing the right things, \"Are we partnering with the right... Do we have the data that we need?\""
+    }
+  ],
+  "media_format": "podcast_episode",
+  "platform": "podcasts",
+  "provenance": "Full transcript audited at ChatPRD/lennys-podcast-transcripts/nicole-forsgren; original video ID SWcDfPVTizQ.",
+  "published_date": "2025-10-19",
+  "publisher": "Lenny's Podcast",
+  "query_ids": [
+    "manual-full-transcript-audit-2026-07-12"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Because implied in that is feedback loops, right, because you used to kind of get feedback from customers.",
+    "We can run any tests and experiments that are customer facing, assuming that we have the infrastructure in place, which allows us to learn and progress much faster before."
+  ],
+  "retained_complete_transcript": false,
+  "retrieval_method": "full public transcript manual audit via GitHub citation",
+  "retrieved_at": "2026-07-12T09:34:38Z",
+  "rights_note": "The full public transcript was audited; only two bounded, separated guest passages are retained.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "episode",
+  "stable_id": "podcasts-lenny-SWcDfPVTizQ",
+  "status": "accepted",
+  "title": "How to measure AI developer productivity in 2025 | Nicole Forsgren",
+  "transcript_available": true,
+  "transcript_source": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/main/episodes/nicole-forsgren/transcript.md"
+}

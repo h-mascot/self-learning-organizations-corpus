@@ -33,6 +33,56 @@ REQUIRED = {
 SHA256 = re.compile(r"^[0-9a-f]{64}$")
 TIMESTAMP = re.compile(r"\b\d{1,2}:\d{2}(?::\d{2})?\b")
 BOILERPLATE = re.compile(r"skip to (?:content|main)|privacy policy|cookie settings|sign in|log in|upcoming events|all rights reserved", re.I)
+PODCAST_AD = re.compile(
+    r"this episode is (?:brought|presented) to you by|today'?s episode is sponsored by|"
+    r"thanks? to .{0,80} for sponsoring|use (?:the )?(?:code|promo code)|"
+    r"(?:check it out|learn more|get started) at\s+\S+\.com|"
+    r"companies like .{0,120} rely on .{0,80} to power their experiments|"
+    r"(?:eppo|datadog).{0,160}(?:a/?b testing|experimentation|feature flag)", re.I
+)
+GENERIC_REPOSITORY = re.compile(
+    r"generic (?:wiki |software |developer )?platform|examples and guides for using|"
+    r"all-in-one developer platform for building successful products", re.I
+)
+ORGANIZATIONAL_MECHANISM = re.compile(
+    r"postmortem|post-mortem|incident review|after-action review|retrospective|architecture decision records?|\bADRs?\b|"
+    r"institutional (?:knowledge|memory)|decision (?:log|record|memory)|"
+    r"controlled experiment|experimentation|feature flags?|progressive delivery|"
+    r"chaos experiments?|resilien(?:t|ce|cy)|evaluations?|\bevals?\b|benchmarks?|"
+    r"continuous evaluation|human feedback|user feedback|production feedback|agent (?:evaluation|memory)|"
+    r"organizational learning|shared operational knowledge", re.I
+)
+PODCAST_MECHANISM = re.compile(
+    r"institutional (?:memory|learning|knowledge)|organizational learning|learning.first company|"
+    r"self-improv|post.?mortem|retrospective|feedback loop|customer feedback|user feedback|"
+    r"experiment(?:ation|s|ing)?|\bevals?\b|evaluations?|dogfood|failure modes?|"
+    r"fail(?:ed|ure)? and learn|learnings? (?:from|came)|measure progress|benchmark|decision (?:log|record)|"
+    r"iterat(?:e|ed|ing|ion) on the experiment", re.I
+)
+
+
+def is_podcast_ad(text: str) -> bool:
+    return bool(PODCAST_AD.search(text))
+
+
+def timestamp_seconds(text: str) -> int | None:
+    match = TIMESTAMP.search(text)
+    if not match:
+        return None
+    parts = [int(part) for part in match.group().split(":")]
+    if len(parts) == 2:
+        return parts[0] * 60 + parts[1]
+    return parts[0] * 3600 + parts[1] * 60 + parts[2]
+
+
+def has_separated_podcast_spans(evidence: list[dict], minimum_gap: int = 300) -> bool:
+    times = sorted({stamp for item in evidence if not is_podcast_ad(item.get("text", ""))
+                    if (stamp := timestamp_seconds(item.get("text", ""))) is not None})
+    return len(times) >= 2 and times[-1] - times[0] >= minimum_gap
+
+
+def has_explicit_organizational_mechanism(text: str) -> bool:
+    return bool(ORGANIZATIONAL_MECHANISM.search(text))
 
 
 def slug(value: str, limit: int = 80) -> str:
@@ -157,6 +207,11 @@ def validate() -> tuple[list[str], Counter, Counter]:
             if record["status"] == "accepted" and lane == "github":
                 if not isinstance(record.get("organizational_mechanism"), str) or len(record["organizational_mechanism"].strip()) < 20:
                     errors.append(f"{rel}: GitHub acceptance lacks a concrete organizational mechanism")
+                retained = " ".join(e.get("text", "") for e in record["evidence"])
+                if not has_explicit_organizational_mechanism(retained):
+                    errors.append(f"{rel}: GitHub evidence lacks an explicit organization-level learning mechanism")
+                if not all(quote in retained for quote in record["relevance_evidence"]):
+                    errors.append(f"{rel}: GitHub relevance_evidence must quote the retained mechanism exactly")
             if record["status"] == "accepted" and lane == "podcasts":
                 if record.get("media_format") != "podcast_episode" or record["source_type"] != "episode":
                     errors.append(f"{rel}: podcast acceptance lacks genuine episode classification")
@@ -168,6 +223,17 @@ def validate() -> tuple[list[str], Counter, Counter]:
                     errors.append(f"{rel}: podcast needs distinct episode and transcript/notes sources")
                 if not any(e.get("kind") in {"transcript_excerpt", "timestamped-note"} and TIMESTAMP.search(e.get("text", "")) for e in record["evidence"]):
                     errors.append(f"{rel}: podcast lacks a retained timestamped transcript excerpt/note")
+                if any(is_podcast_ad(e.get("text", "")) for e in record["evidence"]):
+                    errors.append(f"{rel}: podcast evidence contains sponsor/ad boilerplate")
+                if not has_separated_podcast_spans(record["evidence"]):
+                    errors.append(f"{rel}: podcast requires multiple substantive timestamped spans separated across the episode")
+                retained = " ".join(e.get("text", "") for e in record["evidence"])
+                if not all(quote in retained for quote in record["relevance_evidence"]):
+                    errors.append(f"{rel}: podcast relevance_evidence must quote retained guest discussion exactly")
+                if not all(PODCAST_MECHANISM.search(e.get("text", "")) for e in record["evidence"]):
+                    errors.append(f"{rel}: every podcast span must state a qualifying learning/evaluation/experimentation mechanism")
+                if not all(PODCAST_MECHANISM.search(quote) for quote in record["relevance_evidence"]):
+                    errors.append(f"{rel}: every podcast relevance quote must include the exact qualifying mechanism")
             if record["status"] == "accepted" and lane == "books":
                 identifiers = record.get("identifiers") or {}
                 if not identifiers.get("catalog_id"):

@@ -1,32 +1,38 @@
 {
   "artifact_level": "metadata_only",
   "canonical_url": "https://www.youtube.com/watch?v=xZifSLGOrrw",
-  "content_sha256": "eff0d2f1f5f5a61ad63bc6bfbd6ffe776edeece67712397650f8e815818f5ad1",
+  "content_sha256": "f387cf58a83fcdc66bebb17c1c68545599653e09fd431e10d937839821f33a5c",
   "creator": "Alexander Embiricos",
   "date_precision": "day",
   "evidence": [
     {
       "kind": "transcript_excerpt",
-      "locator": "public transcript near matched timestamp (alexander-embiricos)",
-      "text": "(00:01:59): In our conversation, we chat about what it's truly like to build product at OpenAI, how Codex allowed the Sora team to ship the Sora app, which became the number one app in the app store in under one month. Also, the 20x growth Codex is seeing right now and what they did to make it so good at coding, why his team is now focused on making it easier to review code, not just write code, his AGI timelines, his thoughts on when AI agents will actually be really useful, and so much more. A huge thank you to Ed Bayes, Nick Turley, and Dennis Yang for suggesting topics for this conversation. If you enjoy this podcast, don't forget to subscribe and follow it in your fa"
+      "locator": "full transcript at (00:20:21)",
+      "text": "Alexander Embiricos (00:20:21): Totally. And it was quite interesting because we dogfood product a ton at OpenAI. So dogfood as in we use our own product. And so Codex has been accelerating OpenAI over the course of the entire year, and the cloud product was a massive accelerant to the company as well. It just turns out that this was one of those places where the signal we got from dogfooding is a little bit different from the signal you get from the general market because at OpenAI, we train reasoning models all day and so we're very used to this kind of prompting and think upfront, run things massively in parallel and it would take some time and then come back to it lat"
+    },
+    {
+      "kind": "transcript_excerpt",
+      "locator": "full transcript at (00:44:24)",
+      "text": "Alexander Embiricos (00:44:24): ostly I just feel much more empowered. I've always been sort of more technical leaning PM, and especially when I'm working on products for engineers, I feel like it's necessary to dogfood the product. But even beyond that, I just feel like I can do much, much more as a PM. And Scott Belsky talks about this idea of compressing the talent stack. I'm not sure if I've phrased that right. But it's basically this idea that maybe the boundaries between these roles are a little bit less needed than before because people can just do much more. And every time someone can do more, you can skip one communication boundary and make the team that much mor"
     }
   ],
   "media_format": "podcast_episode",
   "platform": "podcasts",
-  "provenance": "Public timestamped transcript at ChatPRD/lennys-podcast-transcripts/alexander-embiricos; original video ID xZifSLGOrrw.",
+  "provenance": "Full transcript audited at ChatPRD/lennys-podcast-transcripts/alexander-embiricos; original video ID xZifSLGOrrw.",
   "published_date": "2023-09-24",
   "publisher": "Lenny's Podcast",
   "query_ids": [
-    "github-citation-lennys-podcast-transcripts"
+    "manual-full-transcript-audit-2026-07-12"
   ],
   "rejection_reason": null,
   "relevance_evidence": [
-    "Multiple transcript passages match organizational feedback, experimentation, learning, memory, or AI-agent operating mechanisms."
+    "And it was quite interesting because we dogfood product a ton at OpenAI.",
+    "eaning PM, and especially when I'm working on products for engineers, I feel like it's necessary to dogfood the product."
   ],
   "retained_complete_transcript": false,
-  "retrieval_method": "GitHub public transcript citation; original publisher video identified in front matter",
-  "retrieved_at": "2026-07-12T08:44:29Z",
-  "rights_note": "A genuine episode and public transcript source were verified; only the bounded transcript excerpt in evidence is retained.",
+  "retrieval_method": "full public transcript manual audit via GitHub citation",
+  "retrieved_at": "2026-07-12T09:34:39Z",
+  "rights_note": "The full public transcript was audited; only two bounded, separated guest passages are retained.",
   "rights_status": "bounded-public-evidence",
   "schema_version": 2,
   "source_type": "episode",
