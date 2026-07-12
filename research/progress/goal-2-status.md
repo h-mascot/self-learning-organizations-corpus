@@ -1,6 +1,6 @@
 # Goal 2 manager status
 
-Updated: 2026-07-12T08:49:52Z
+Updated: 2026-07-12T09:02:13Z
 Status: ACTIVE
 Phase: academic, canonical accounting, and social lanes merged; web/media lane under corrective audit
 
@@ -18,14 +18,14 @@ Phase: academic, canonical accounting, and social lanes merged; web/media lane u
 - Academic merged as `19b2022`; global accounting as `1a49edf`; social as `c6af7af` with the reviewed correction `5fdb679`.
 - Voxyz is preserved at X post `2060030680369627237` (`https://x.com/Voxyz_ai/status/2060030680369627237`).
 - `make check` passes on main: 25 tests, 406 audited sources, 100 complete YouTube transcripts, deterministic generated-file diff clean.
-- Local main and fetched `origin/main` both equal `185a7389d16051052625389eaa84807ec3357291`.
-- Exact-SHA GitHub Actions run `29186127349` (`Corpus validation`) completed successfully.
+- Local main and fetched `origin/main` both equal `2b9bacb3222545b1cb9b32da34c576a57e31758e`.
+- Exact-SHA GitHub Actions run `29186479506` (`Corpus validation`) completed successfully.
 
 ## Worker state
 
 - Academic (`goal/academic-recovery`, latest `44068b8`): MERGED; no lane worker.
 - Social (`goal/social-acquisition`, latest `5fdb679`): MERGED; no lane worker.
-- Web/media (`goal/web-media-acquisition`, latest `d94c6f0`): LIVE corrective audit, parent PID `1009052`, Codex PID `1009088`, host PID `1009276`. CPU is advancing; worktree is currently clean because the correction worker has only just started. No duplicate launched.
+- Web/media (`goal/web-media-acquisition`, latest committed `d94c6f0`): LIVE corrective audit, parent PID `1009052`, Codex PID `1009088`, host PID `1009276`. The worker has produced an uncommitted correction script and updated candidate/query/retrieval ledgers through 09:01Z; process CPU time and artifact mtimes advanced, so it is healthy and no duplicate was launched.
 
 ## Web/media review status and blockers
 
