@@ -4,47 +4,56 @@ Open research corpus about self-learning, self-improving, AI-native organization
 
 ## Corpus status
 
-- Discovered sources (including rejected controls): **101**
-- Validated relevant sources: **100**
-- Complete timestamped transcripts: **100**
-- Rejected sources excluded from validated totals: **1**
+- Accounted canonical/evidence records: **306**
+- Accepted relevant sources: **286**
+- Retrieved records (including accepted/rejected): **305**
+- Rejected records: **15**
+- Blocked retrieval records: **1**
+- Complete timestamped YouTube transcripts: **100**
 
-| Platform | Discovered sources |
+| Platform | Discovered | Retrieved | Accepted | Rejected | Blocked |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| youtube | 101 | 101 | 100 | 1 | 0 |
+| academic | 200 | 200 | 186 | 14 | 0 |
+| x | 0 | 0 | 0 | 0 | 0 |
+| reddit | 0 | 0 | 0 | 0 | 0 |
+| substack | 0 | 0 | 0 | 0 | 0 |
+| blogs | 3 | 2 | 0 | 0 | 1 |
+| podcasts | 0 | 0 | 0 | 0 | 0 |
+| conferences | 0 | 0 | 0 | 0 | 0 |
+| books | 0 | 0 | 0 | 0 | 0 |
+| case-studies | 2 | 2 | 0 | 0 | 0 |
+| github | 0 | 0 | 0 | 0 | 0 |
+
+| Artifact level | Records |
 | --- | ---: |
-| youtube | 101 |
-| arxiv | 0 |
-| x | 0 |
-| reddit | 0 |
-| substack | 0 |
-| blogs | 0 |
-| podcasts | 0 |
-| conferences | 0 |
-| books | 0 |
-| case-studies | 0 |
+| abstract | 164 |
+| excerpt | 4 |
+| full_text | 13 |
+| metadata_only | 23 |
+| retrieval_evidence | 1 |
+| transcript | 101 |
+
+| Lifecycle | Records |
+| --- | ---: |
+| accepted | 286 |
+| blocked | 1 |
+| rejected | 15 |
+| retrieved | 4 |
 
 ## Layout and contracts
 
-- `sources/<platform>/accepted/` contains validated, relevant source records.
-- `sources/<platform>/rejected/` preserves false positives and other excluded evidence.
-- `raw/youtube/` preserves immutable caption/ASR evidence and source metadata.
-- `metadata/youtube/` records per-video hashes, relevance spans, and retrieval details.
-- `schema/source.schema.json` defines canonical metadata.
-- `metadata/sources.csv` is the generated inventory.
-- `metadata/rejected-sources.csv` is the generated rejection log.
-- `metadata/migration-manifest.csv` maps legacy paths to canonical paths and hashes.
-- `metadata/statistics.json` is the generated machine-readable status.
-- `research/` contains taxonomy, reports, synthesis, and progress checkpoints.
-- `research/recursive-loops/` contains the validated 200-loop dependent research DAG.
+- `sources/youtube/<lifecycle>/` contains strict canonical transcript records.
+- `sources/academic/<source-type>/<lifecycle>/` contains academic metadata, abstract, or legally available full-text records.
+- Other platform directories may contain acquisition evidence or canonical records; their lifecycle and artifact level are reported honestly.
+- `schema/source.schema.json` documents the canonical cross-platform contract and academic specialization.
+- `metadata/sources.csv`, `metadata/rejected-sources.csv`, and `metadata/statistics.json` are deterministic generated views.
+- `research/recursive-loops/` contains the separate 200-loop dependent research DAG; its artifacts are not double-counted as corpus sources.
 
-Canonical filenames are `<date>--<normalized-title>--<publisher>--<stable-id>.md`. Run `make check` before committing. Run `make generate` after changing corpus records; generated files must remain reproducible.
-Run `python3 scripts/validate_youtube.py` for the exact YouTube evidence count and `python3 scripts/validate_genuine_recursive_research.py` for the recursive DAG gate.
+Canonical validation rejects duplicate stable IDs, normalized URLs, and content hashes globally. Placeholder `.gitkeep` files and `sources/README.md` are never records. Run `make check` before committing; it verifies regeneration is clean and preserves the dedicated YouTube gate.
 
-## Counting policy
+## Counting and rights policy
 
-Only `accepted` records with `relevance_status: relevant` count toward validated totals. Timestamped transcripts additionally require non-empty timestamped text whose final timestamp reaches at least 80% of the declared duration. Rejected evidence remains discoverable but never inflates the relevant-source or complete-transcript totals.
-
-## Rights
-
-Repository metadata and original annotations may be reused subject to the repository license. Third-party transcripts remain subject to source-platform terms and original rights holders. Inclusion does not transfer ownership; each record must declare its provenance, rights status, and rights holder.
+Only `accepted` + `relevant` records count as validated sources. Artifact levels distinguish full text, transcripts, abstracts, excerpts, metadata-only records, and failed retrieval evidence. A URL to full text does not itself make a record `full_text`; the preserved body must contain it. Third-party content remains subject to the declared rights holder and source terms, and inclusion transfers no ownership.
 
 _This README is generated by `python3 tools/corpus.py generate`._
