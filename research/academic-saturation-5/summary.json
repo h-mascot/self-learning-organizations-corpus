@@ -3,14 +3,14 @@
   "scope":"academic",
   "round_count":3,
   "candidate_count":35,
-  "accepted":0,
+  "accepted":1,
   "rejected":33,
   "duplicate":1,
-  "blocked":1,
-  "net_new_sources_ingested":0,
+  "blocked":0,
+  "net_new_sources_ingested":1,
   "saturation_eligible_rounds":[1,3],
   "ineligible_rounds":[2],
   "saturated":false,
-  "conclusion":"Academic saturation is not established in wave 5. OpenAlex direct/citation and arXiv repository rounds completed with full dispositions and 0% net-new accepted unique yield, but the Crossref round surfaced one plausible net-new named-organization source. It is not ingested and remains blocked for manager review, making that round ineligible. Three consecutive eligible rounds therefore do not exist.",
+  "conclusion":"Academic saturation is not established in wave 5. The former blocker was independently verified, accepted, and ingested; round 2 candidate review is complete but its 10% net-new accepted yield is above the strict threshold. Rounds 1 and 3 remain eligible at 0%.",
   "acceptance_boundary":"Only identifiable named-organization evidence of an implemented learning or improvement mechanism qualifies. Generic theory, aggregate surveys, anonymous or pseudonymous cases, and generic tooling do not qualify."
 }

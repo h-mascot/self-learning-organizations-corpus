@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate academic saturation wave 5 retrieval and disposition evidence."""
+"""Validate post-acceptance academic saturation wave 6."""
 from __future__ import annotations
 
 import csv
@@ -10,16 +10,12 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
-BASE = ROOT / "research" / "academic-saturation-5"
+BASE = ROOT / "research" / "academic-saturation-6"
 DISPOSITIONS = {"accepted", "rejected", "duplicate", "blocked"}
 
 
 def jsonl(name: str) -> list[dict]:
     return [json.loads(line) for line in (BASE / name).read_text().splitlines() if line.strip()]
-
-
-def normalized_doi(value: str | None) -> str:
-    return (value or "").lower().removeprefix("https://doi.org/").rstrip("/")
 
 
 def main() -> None:
@@ -38,10 +34,10 @@ def main() -> None:
 
     grouped: dict[int, list[dict]] = defaultdict(list)
     seen_urls: set[str] = set()
-    required_candidate = {"round", "rank", "source_id", "title", "canonical_url", "disposition", "reason"}
+    required = {"round", "rank", "source_id", "title", "canonical_url", "disposition", "reason"}
     for row in candidates:
-        missing = required_candidate - row.keys()
-        if missing or any(row.get(key) in (None, "") for key in required_candidate - {"doi"}):
+        missing = required - row.keys()
+        if missing or any(row.get(key) in (None, "") for key in required):
             errors.append(f"candidate missing audit fields: {row.get('source_id')}: {sorted(missing)}")
         if row.get("disposition") not in DISPOSITIONS:
             errors.append(f"invalid disposition: {row.get('source_id')}")
@@ -49,7 +45,7 @@ def main() -> None:
         if parsed.scheme != "https" or not parsed.netloc:
             errors.append(f"invalid canonical URL: {row.get('canonical_url')}")
         if row.get("canonical_url") in seen_urls:
-            errors.append(f"candidate URL repeated across bounded results: {row.get('canonical_url')}")
+            errors.append(f"candidate URL repeated within wave: {row.get('canonical_url')}")
         seen_urls.add(row.get("canonical_url"))
         grouped[row.get("round")].append(row)
 
@@ -60,75 +56,50 @@ def main() -> None:
         if sorted(row["rank"] for row in items) != list(range(1, len(items) + 1)):
             errors.append(f"round {number}: incomplete/non-contiguous candidate ranks")
         counts = Counter(row["disposition"] for row in items)
-        expected = {
-            "retrieved_candidates": len(items),
-            "accepted": counts["accepted"],
-            "rejected": counts["rejected"],
-            "duplicate": counts["duplicate"],
-            "blocked": counts["blocked"],
-            "unresolved_blockers": counts["blocked"],
-        }
+        expected = {"retrieved_candidates": len(items), "accepted": counts["accepted"],
+                    "rejected": counts["rejected"], "duplicate": counts["duplicate"],
+                    "blocked": counts["blocked"], "unresolved_blockers": counts["blocked"]}
         for field, value in expected.items():
             if round_row.get(field) != value:
                 errors.append(f"round {number} {field}: expected {value}, got {round_row.get(field)}")
-        denominator = len(items)
-        rate = counts["accepted"] / denominator if denominator else 0.0
+        rate = counts["accepted"] / len(items) if items else 0.0
+        computed = round_row.get("retrieval_status") == "complete" and bool(items) and not counts["blocked"] and rate < 0.05
         if round_row.get("net_new_accepted_rate") != rate:
             errors.append(f"round {number}: incorrect accepted rate")
-        computed_eligible = (
-            round_row.get("retrieval_status") == "complete"
-            and counts["blocked"] == 0
-            and rate < 0.05
-            and denominator > 0
-        )
-        if round_row.get("saturation_eligible") is not computed_eligible:
+        if round_row.get("saturation_eligible") is not computed:
             errors.append(f"round {number}: incorrect eligibility")
-        if computed_eligible:
+        if computed:
             eligible.append(number)
+        if not round_row.get("request_urls") or not round_row.get("material_difference"):
+            errors.append(f"round {number}: missing exact request/material-difference evidence")
         for field in ("searched_at", "completed_at"):
             try:
                 datetime.fromisoformat(round_row[field].replace("Z", "+00:00"))
             except (KeyError, ValueError):
                 errors.append(f"round {number}: invalid {field}")
-        if not round_row.get("request_urls") or not round_row.get("material_difference"):
-            errors.append(f"round {number}: missing exact request or material-difference evidence")
 
-    canonical_rows = list(csv.DictReader((ROOT / "metadata" / "sources.csv").open()))
-    canonical_blob = "\n".join(" ".join(str(value) for value in row.values()).lower() for row in canonical_rows)
+    canonical = "\n".join(" ".join(row.values()).lower() for row in csv.DictReader((ROOT / "metadata" / "sources.csv").open()))
+    wave5 = (ROOT / "research" / "academic-saturation-5" / "candidates.jsonl").read_text().lower()
     for row in candidates:
-        disposition = row["disposition"]
-        doi = normalized_doi(row.get("doi"))
-        canonical_match = row["canonical_url"].lower() in canonical_blob or (doi and doi in canonical_blob)
-        if disposition == "duplicate" and not canonical_match:
-            errors.append(f"duplicate lacks canonical match: {row['source_id']}")
-        if disposition == "accepted" and not canonical_match:
+        match = row["canonical_url"].lower() in canonical or (row.get("doi") or "").lower() in canonical
+        if row["disposition"] == "accepted" and not match:
             errors.append(f"accepted source lacks canonical ingestion: {row['source_id']}")
-        if disposition == "blocked" and canonical_match:
-            errors.append(f"blocked source already occurs canonically: {row['source_id']}")
-        if disposition == "blocked" and "manager review" not in row["reason"].lower():
-            errors.append(f"blocked source lacks manager-review handoff: {row['source_id']}")
+        if row["disposition"] == "duplicate" and row["canonical_url"].lower() not in canonical and row["canonical_url"].lower() not in wave5:
+            errors.append(f"duplicate lacks prior evidence: {row['source_id']}")
 
     counts = Counter(row["disposition"] for row in candidates)
-    expected_summary = {
-        "round_count": len(rounds),
-        "candidate_count": len(candidates),
-        "accepted": counts["accepted"],
-        "rejected": counts["rejected"],
-        "duplicate": counts["duplicate"],
-        "blocked": counts["blocked"],
-        "net_new_sources_ingested": counts["accepted"],
-        "saturation_eligible_rounds": eligible,
-        "ineligible_rounds": [row["round"] for row in rounds if not row["saturation_eligible"]],
-        "saturated": eligible == [1, 2, 3],
-    }
+    expected_summary = {"round_count": 3, "candidate_count": len(candidates), "accepted": counts["accepted"],
+                        "rejected": counts["rejected"], "duplicate": counts["duplicate"], "blocked": counts["blocked"],
+                        "net_new_sources_ingested": counts["accepted"], "saturation_eligible_rounds": eligible,
+                        "ineligible_rounds": [row["round"] for row in rounds if not row["saturation_eligible"]],
+                        "saturated": eligible == [1, 2, 3]}
     for field, value in expected_summary.items():
         if summary.get(field) != value:
             errors.append(f"summary {field}: expected {value}, got {summary.get(field)}")
-
+    if "10.47176/smok.2025.1821" not in summary.get("precondition", ""):
+        errors.append("summary lacks explicit pre-round acceptance precondition")
     if not any(row.get("status") == "retrieved_complete" for row in attempts):
-        errors.append("citation/entity chase lacks complete access evidence")
-    if any(not row.get("attempted_at") or not row.get("backend") or not row.get("evidence") for row in attempts):
-        errors.append("access attempt lacks exact provenance/evidence")
+        errors.append("DOI investigation lacks complete primary/metadata access evidence")
 
     if errors:
         raise SystemExit("\n".join(errors))

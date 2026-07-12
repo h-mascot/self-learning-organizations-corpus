@@ -78,9 +78,10 @@ def build(root: Path = ROOT) -> tuple[dict, str, list[str]]:
         ("native-saturation-3", "research/native-saturation-3/rounds.jsonl"),
         ("web-media-saturation-4", "research/web-media-saturation-4/rounds.jsonl"),
         ("academic-saturation-5", "research/academic-saturation-5/rounds.jsonl"),
+        ("academic-saturation-6", "research/academic-saturation-6/rounds.jsonl"),
     )
     for wave, relative in inputs:
-        rounds.extend(ordinary_rounds(root / relative, wave, "academic" if wave == "academic-saturation-5" else None))
+        rounds.extend(ordinary_rounds(root / relative, wave, "academic" if wave.startswith("academic-saturation-") else None))
     rounds.extend(native_four(root))
     rounds.sort(key=lambda row: (row["searched_at"], row["wave"], row["channel"], row["round"]))
 
@@ -121,12 +122,13 @@ def build(root: Path = ROOT) -> tuple[dict, str, list[str]]:
         "round_count": len(rounds), "candidate_count": sum(row["candidate_count"] for row in rounds),
         "eligible_round_count": sum(row["eligible"] for row in rounds),
         "saturated_channels": saturated, "unsaturated_channels": sorted(set(channels) - set(saturated)),
-        "academic_status": "unmet: wave 5 has two eligible rounds and one ineligible round with a blocked net-new candidate",
+        "academic_status": ("met: wave 6 has three consecutive eligible post-acceptance rounds below 5%"
+                            if "academic" in proof else "unmet: no qualifying three-round academic sequence"),
         "channels": channels, "rounds": rounds,
     }
     lines = ["# Canonical Saturation Dashboard", "", "Generated from every saturation wave; raw lane ledgers remain authoritative evidence.", "",
              f"- Qualifying channels: **{len(saturated)}** — {', '.join(saturated) if saturated else 'none'}",
-             f"- Academic: **unmet** — {data['academic_status'].split(': ', 1)[1]}",
+             f"- Academic: **{'met' if 'academic' in proof else 'unmet'}** — {data['academic_status'].split(': ', 1)[1]}",
              f"- Canonical rounds: **{data['round_count']}**; candidates reviewed: **{data['candidate_count']}**", "",
              "| Channel | Rounds | Candidates | Eligible | Blocked | Three-round proof |", "| --- | ---: | ---: | ---: | ---: | --- |"]
     for channel, item in channels.items():
@@ -158,7 +160,7 @@ def main() -> int:
         if stale: print("stale generated artifacts: " + ", ".join(stale)); return 1
     else:
         OUTPUT.write_text(rendered); DASHBOARD.write_text(markdown); STATISTICS.write_text(statistics)
-    print(f"canonical saturation: {len(data['saturated_channels'])} qualifying, academic unmet")
+    print(f"canonical saturation: {len(data['saturated_channels'])} qualifying, academic {'met' if 'academic' in data['saturated_channels'] else 'unmet'}")
     return 0
 
 

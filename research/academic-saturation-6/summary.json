@@ -1,0 +1,16 @@
+{
+  "generated_at": "2026-07-12T18:34:00Z",
+  "scope": "academic",
+  "precondition": "DOI 10.47176/smok.2025.1821 accepted from academic-saturation-5 round 2 before these searches",
+  "round_count": 3,
+  "candidate_count": 15,
+  "accepted": 0,
+  "rejected": 14,
+  "duplicate": 1,
+  "blocked": 0,
+  "net_new_sources_ingested": 0,
+  "saturation_eligible_rounds": [1, 2, 3],
+  "ineligible_rounds": [],
+  "saturated": true,
+  "conclusion": "After accepting and ingesting the wave-5 DOI, three later materially distinct live academic rounds completed with every bounded candidate dispositioned, no blockers, and 0% net-new accepted unique yield in each round."
+}

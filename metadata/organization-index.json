@@ -5,18 +5,19 @@
     "failure/postmortem learning": 3,
     "feedback/evals": 5,
     "governance": 4,
-    "knowledge curation": 5,
+    "knowledge curation": 6,
     "measurable outcome": 9,
-    "organizational memory": 6,
+    "organizational memory": 7,
     "specialized agents": 4,
-    "workflow adaptation": 8
+    "workflow adaptation": 9
   },
   "by_platform": {
+    "academic": 1,
     "blogs": 8,
     "case-studies": 6
   },
-  "organization_count": 13,
-  "organization_evidence_source_count": 14,
+  "organization_count": 14,
+  "organization_evidence_source_count": 15,
   "organizations": [
     {
       "mechanisms": [
@@ -210,6 +211,33 @@
           "source_path": "sources/blogs/accepted/google-sre-blameless-postmortem-for-system-resilience--blogs-571b75f6e0d45b7e.json",
           "source_title": "Google SRE - Blameless Postmortem for System Resilience",
           "source_url": "https://sre.google/sre-book/postmortem-culture/"
+        }
+      ]
+    },
+    {
+      "mechanisms": [
+        "organizational memory",
+        "workflow adaptation",
+        "knowledge curation"
+      ],
+      "organization": "Khorasan Regional Electric Company",
+      "source_count": 1,
+      "sources": [
+        {
+          "artifact_level": "abstract",
+          "claim": "The company's employee learning network carries knowledge through informal social interaction and collaborative work; network analysis identified fragmentation and peripheral knowledge consumers, motivating cross-functional communities and learning facilitators.",
+          "evidence_basis": "Named single-organization academic study of 327 employees with explicit knowledge-flow mechanisms; recommendations are distinguished from observed findings.",
+          "evidence_locator": "public abstract, findings and practical implications",
+          "mechanisms": [
+            "organizational memory",
+            "workflow adaptation",
+            "knowledge curation"
+          ],
+          "platform": "academic",
+          "source_id": "openalex:W4412059342",
+          "source_path": "sources/academic/journal-article/accepted/2025-02-25--description-of-organizational-learning-network--w4412059342.md",
+          "source_title": "Description of Organizational Learning Network and Identification of Factors Influencing Its Formation Using Network Analysis Method (Case Study: Khorasan Regional Electric Company)",
+          "source_url": "https://doi.org/10.47176/smok.2025.1821"
         }
       ]
     },

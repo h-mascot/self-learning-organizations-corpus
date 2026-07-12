@@ -14,6 +14,7 @@ validate: audit
 	python3 scripts/validate_native_saturation_3.py
 	python3 scripts/validate_native_saturation_4.py
 	python3 scripts/validate_academic_saturation_5.py
+	python3 scripts/validate_academic_saturation_6.py
 	python3 scripts/generate_saturation_dashboard.py --check
 
 generate:

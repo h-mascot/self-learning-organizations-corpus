@@ -2,14 +2,14 @@
   "academic_by_source_type": {
     "book-chapter": 10,
     "conference-paper": 28,
-    "journal-article": 148,
+    "journal-article": 149,
     "repository-preprint": 13,
     "thesis": 1
   },
-  "accepted_sources": 638,
+  "accepted_sources": 639,
   "blocked_sources": 0,
   "by_artifact_level": {
-    "abstract": 164,
+    "abstract": 165,
     "full_text": 88,
     "metadata_only": 300,
     "transcript": 101,
@@ -20,18 +20,18 @@
     "book": 174,
     "case-study": 63,
     "episode": 51,
-    "paper": 200,
+    "paper": 201,
     "post": 75,
     "repository": 223,
     "talk": 53,
     "transcript": 101
   },
   "by_lifecycle": {
-    "accepted": 638,
+    "accepted": 639,
     "rejected": 414
   },
   "by_platform": {
-    "academic": 200,
+    "academic": 201,
     "blogs": 87,
     "books": 174,
     "case-studies": 63,
@@ -46,6 +46,7 @@
   "by_provenance": {
     "Arctic Shift public Reddit archive record with exact post ID": 25,
     "Authenticated GitHub code search followed by manual review of the CC-BY-4.0 primary-source chapter at its immutable commit URL.": 1,
+    "Crossref DOI registry metadata and OpenAlex W4412059342 metadata/abstract; OpenAlex identifies the publisher-hosted published version as CC BY and diamond open access.": 1,
     "Full transcript audited at ChatPRD/lennys-podcast-transcripts/adam-fishman; original video ID wP8YyWH524A.": 1,
     "Full transcript audited at ChatPRD/lennys-podcast-transcripts/adam-grenier; original video ID -PDsvl2WCZU.": 1,
     "Full transcript audited at ChatPRD/lennys-podcast-transcripts/albert-cheng; original video ID 2BKmNmnEj9w.": 1,
@@ -717,25 +718,26 @@
   "by_rights_status": {
     "bounded-public-evidence": 252,
     "metadata-only": 174,
-    "open-license": 235,
+    "open-license": 236,
     "retrieval-evidence-only": 16,
     "third-party": 201,
     "third-party-metadata-and-abstract": 174
   },
   "channels": {
     "academic": {
-      "accepted": 186,
+      "accepted": 187,
       "blocked": 0,
       "by_artifact_level": {
-        "abstract": 164,
+        "abstract": 165,
         "full_text": 13,
         "metadata_only": 23
       },
       "by_lifecycle": {
-        "accepted": 186,
+        "accepted": 187,
         "rejected": 14
       },
       "by_provenance": {
+        "Crossref DOI registry metadata and OpenAlex W4412059342 metadata/abstract; OpenAlex identifies the publisher-hosted published version as CC BY and diamond open access.": 1,
         "OpenAlex W121121963 API metadata plus preserved legacy evidence": 1,
         "OpenAlex W1490729419 API metadata plus preserved legacy evidence": 1,
         "OpenAlex W1525574620 API metadata plus preserved legacy evidence": 1,
@@ -938,12 +940,12 @@
         "OpenAlex W98219716 API metadata plus preserved legacy evidence": 1
       },
       "by_rights_status": {
-        "open-license": 26,
+        "open-license": 27,
         "third-party-metadata-and-abstract": 174
       },
-      "discovered": 200,
+      "discovered": 201,
       "rejected": 14,
-      "retrieved": 200
+      "retrieved": 201
     },
     "blogs": {
       "accepted": 80,
@@ -1613,15 +1615,16 @@
     }
   },
   "complete_timestamped_transcripts": 100,
-  "discovered_sources": 1052,
+  "discovered_sources": 1053,
   "rejected_sources": 414,
-  "retrieved_sources": 1052,
+  "retrieved_sources": 1053,
   "saturation": {
-    "academic_status": "unmet: wave 5 has two eligible rounds and one ineligible round with a blocked net-new candidate",
-    "candidate_count": 596,
-    "eligible_round_count": 37,
-    "round_count": 99,
+    "academic_status": "met: wave 6 has three consecutive eligible post-acceptance rounds below 5%",
+    "candidate_count": 611,
+    "eligible_round_count": 40,
+    "round_count": 102,
     "saturated_channels": [
+      "academic",
       "blogs",
       "books",
       "case-studies",
@@ -1634,11 +1637,9 @@
       "youtube"
     ],
     "threshold": 0.05,
-    "unsaturated_channels": [
-      "academic"
-    ]
+    "unsaturated_channels": []
   },
   "schema_version": 2,
-  "total_records": 1052,
-  "validated_relevant_sources": 638
+  "total_records": 1053,
+  "validated_relevant_sources": 639
 }

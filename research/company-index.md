@@ -2,8 +2,8 @@
 
 Generated from `research/organization-evidence.json`. Only accepted evidence about a named organization's implemented operating practice is indexed; generic tooling and theory are excluded.
 
-- Organizations: **13**
-- Organization-evidence source links: **14**
+- Organizations: **14**
+- Organization-evidence source links: **15**
 - Sources with a measurable outcome: **9**
 - Independently sampled generic/theory exclusions: **10**
 
@@ -12,13 +12,13 @@ Generated from `research/organization-evidence.json`. Only accepted evidence abo
 | Mechanism | Source links |
 | --- | ---: |
 | feedback/evals | 5 |
-| organizational memory | 6 |
+| organizational memory | 7 |
 | experimentation | 5 |
 | decision systems | 2 |
 | failure/postmortem learning | 3 |
 | specialized agents | 4 |
-| workflow adaptation | 8 |
-| knowledge curation | 5 |
+| workflow adaptation | 9 |
+| knowledge curation | 6 |
 | governance | 4 |
 | measurable outcome | 9 |
 
@@ -51,6 +51,10 @@ Generated from `research/organization-evidence.json`. Only accepted evidence abo
 ### Google
 
 - [Google SRE - Blameless Postmortem for System Resilience](https://sre.google/sre-book/postmortem-culture/) — organizational memory, failure/postmortem learning, knowledge curation, governance, measurable outcome. Google coordinates postmortems across the company, standardizes templates, automates evidence capture, and mines postmortems for trends. Evidence: First-party SRE book describes a named working group and company-wide mechanism; outage reduction is a company claim.
+
+### Khorasan Regional Electric Company
+
+- [Description of Organizational Learning Network and Identification of Factors Influencing Its Formation Using Network Analysis Method (Case Study: Khorasan Regional Electric Company)](https://doi.org/10.47176/smok.2025.1821) — organizational memory, workflow adaptation, knowledge curation. The company's employee learning network carries knowledge through informal social interaction and collaborative work; network analysis identified fragmentation and peripheral knowledge consumers, motivating cross-functional communities and learning facilitators. Evidence: Named single-organization academic study of 327 employees with explicit knowledge-flow mechanisms; recommendations are distinguished from observed findings.
 
 ### LG CNS
 

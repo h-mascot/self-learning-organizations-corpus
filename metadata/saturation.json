@@ -1,17 +1,42 @@
 {
-  "academic_status": "unmet: wave 5 has two eligible rounds and one ineligible round with a blocked net-new candidate",
-  "candidate_count": 596,
+  "academic_status": "met: wave 6 has three consecutive eligible post-acceptance rounds below 5%",
+  "candidate_count": 611,
   "channels": {
     "academic": {
-      "accepted": 0,
-      "blocked": 8,
-      "candidate_count": 77,
+      "accepted": 1,
+      "blocked": 7,
+      "candidate_count": 92,
       "duplicates": 1,
-      "eligible_round_count": 2,
-      "qualifying_rounds": [],
-      "rejected": 68,
-      "round_count": 9,
-      "saturated": false
+      "eligible_round_count": 5,
+      "qualifying_rounds": [
+        {
+          "blocked": 0,
+          "candidate_count": 5,
+          "novelty_rate": 0.0,
+          "query_family": "openalex-named-network-mechanism-screen",
+          "round": 1,
+          "wave": "academic-saturation-6"
+        },
+        {
+          "blocked": 0,
+          "candidate_count": 5,
+          "novelty_rate": 0.0,
+          "query_family": "crossref-memory-failure-case-screen",
+          "round": 2,
+          "wave": "academic-saturation-6"
+        },
+        {
+          "blocked": 0,
+          "candidate_count": 5,
+          "novelty_rate": 0.0,
+          "query_family": "arxiv-memory-lessons-repository-screen",
+          "round": 3,
+          "wave": "academic-saturation-6"
+        }
+      ],
+      "rejected": 82,
+      "round_count": 12,
+      "saturated": true
     },
     "blogs": {
       "accepted": 0,
@@ -374,16 +399,17 @@
       "saturated": true
     }
   },
-  "eligible_round_count": 37,
+  "eligible_round_count": 40,
   "input_waves": [
     "initial-saturation",
     "web-media-followup",
     "native-saturation-3",
     "web-media-saturation-4",
     "academic-saturation-5",
+    "academic-saturation-6",
     "native-saturation-4"
   ],
-  "round_count": 99,
+  "round_count": 102,
   "rounds": [
     {
       "accepted": 0,
@@ -1808,16 +1834,16 @@
       "wave": "academic-saturation-5"
     },
     {
-      "accepted": 0,
+      "accepted": 1,
       "backend": "Crossref REST API",
-      "blocked": 1,
+      "blocked": 0,
       "candidate_count": 10,
       "channel": "academic",
       "duplicates": 0,
-      "eligibility_note": "Retrieval and review are complete, but one plausible net-new named-organization source is intentionally blocked for manager review; a blocked round is ineligible regardless of its numerical rate.",
+      "eligibility_note": "Candidate-level review is complete and the former blocker was accepted and ingested. The 10% net-new accepted rate is not below 5%, so this round remains honestly ineligible.",
       "eligible": false,
       "material_difference": "DOI-registry bibliographic ranking focused on published company case studies rather than OpenAlex full-text relevance and citations.",
-      "novelty_rate": 0.0,
+      "novelty_rate": 0.1,
       "query": "query.bibliographic=organizational learning named company case study postmortem feedback; filter=type:journal-article; rows=10",
       "query_family": "crossref-doi-case-study-screen",
       "rejected": 9,
@@ -2166,10 +2192,65 @@
       "round": 3,
       "searched_at": "2026-07-12T18:30:00Z",
       "wave": "web-media-saturation-4"
+    },
+    {
+      "accepted": 0,
+      "backend": "OpenAlex Works API",
+      "blocked": 0,
+      "candidate_count": 5,
+      "channel": "academic",
+      "duplicates": 0,
+      "eligibility_note": "The bounded five-result page completed and every candidate was dispositioned; 0% net-new accepted is below 5%.",
+      "eligible": true,
+      "material_difference": "Concept-indexed discovery over abstracts for named network and knowledge-sharing mechanisms, after accepting the wave-5 DOI.",
+      "novelty_rate": 0.0,
+      "query": "search=\"organizational learning\" \"named company\" knowledge sharing network case; filter=has_abstract:true; per-page=5",
+      "query_family": "openalex-named-network-mechanism-screen",
+      "rejected": 5,
+      "round": 1,
+      "searched_at": "2026-07-12T18:32:00Z",
+      "wave": "academic-saturation-6"
+    },
+    {
+      "accepted": 0,
+      "backend": "Crossref REST API",
+      "blocked": 0,
+      "candidate_count": 5,
+      "channel": "academic",
+      "duplicates": 0,
+      "eligibility_note": "The bounded five-result registry page completed and every candidate was dispositioned; no unresolved candidate remains.",
+      "eligible": true,
+      "material_difference": "DOI-registry bibliographic ranking for memory/failure/lessons cases, independent of OpenAlex concept ranking.",
+      "novelty_rate": 0.0,
+      "query": "query.bibliographic=company case study organizational memory lessons learned postmortem learning mechanism; filter=type:journal-article; rows=5",
+      "query_family": "crossref-memory-failure-case-screen",
+      "rejected": 4,
+      "round": 2,
+      "searched_at": "2026-07-12T18:32:02Z",
+      "wave": "academic-saturation-6"
+    },
+    {
+      "accepted": 0,
+      "backend": "arXiv Atom API",
+      "blocked": 0,
+      "candidate_count": 5,
+      "channel": "academic",
+      "duplicates": 0,
+      "eligibility_note": "The bounded Atom feed completed and all five records received candidate-level review; 0% net-new accepted is below 5%.",
+      "eligible": true,
+      "material_difference": "Repository-native preprint retrieval across titles and abstracts for memory/lessons terminology, independent of DOI and concept indexes.",
+      "novelty_rate": 0.0,
+      "query": "search_query=(all:\"organizational memory\" OR all:\"lessons learned\") AND (all:company OR all:organization); start=0; max_results=5; sortBy=relevance",
+      "query_family": "arxiv-memory-lessons-repository-screen",
+      "rejected": 5,
+      "round": 3,
+      "searched_at": "2026-07-12T18:32:04Z",
+      "wave": "academic-saturation-6"
     }
   ],
   "rule": "three consecutive eligible rounds in one wave, with materially distinct query families and less than 5% net-new accepted unique sources",
   "saturated_channels": [
+    "academic",
     "blogs",
     "books",
     "case-studies",
@@ -2183,7 +2264,5 @@
   ],
   "schema_version": 1,
   "threshold": 0.05,
-  "unsaturated_channels": [
-    "academic"
-  ]
+  "unsaturated_channels": []
 }
