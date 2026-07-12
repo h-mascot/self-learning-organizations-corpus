@@ -1,8 +1,8 @@
 # Goal 2 manager status
 
-Updated: 2026-07-12T09:02:13Z
+Updated: 2026-07-12T09:14:00Z
 Status: ACTIVE
-Phase: academic, canonical accounting, and social lanes merged; web/media lane under corrective audit
+Phase: academic, canonical accounting, and social lanes merged; web/media corrective batch staged and awaiting worker commit plus independent review
 
 ## Independently verified counts on main
 
@@ -18,19 +18,20 @@ Phase: academic, canonical accounting, and social lanes merged; web/media lane u
 - Academic merged as `19b2022`; global accounting as `1a49edf`; social as `c6af7af` with the reviewed correction `5fdb679`.
 - Voxyz is preserved at X post `2060030680369627237` (`https://x.com/Voxyz_ai/status/2060030680369627237`).
 - `make check` passes on main: 25 tests, 406 audited sources, 100 complete YouTube transcripts, deterministic generated-file diff clean.
-- Local main and fetched `origin/main` both equal `2b9bacb3222545b1cb9b32da34c576a57e31758e`.
-- Exact-SHA GitHub Actions run `29186479506` (`Corpus validation`) completed successfully.
+- Local main and fetched `origin/main` both equal `cc80eb9f2889ab396723597e4e41c313da9b5c4c` before this status checkpoint.
+- `make check` passed again at 09:14Z: 25 tests, 406 audited sources, 100 complete YouTube transcripts, deterministic generated-file diff clean.
+- Exact-SHA GitHub Actions run `29186819414` (`Corpus validation`) completed successfully for `cc80eb9`.
 
 ## Worker state
 
 - Academic (`goal/academic-recovery`, latest `44068b8`): MERGED; no lane worker.
 - Social (`goal/social-acquisition`, latest `5fdb679`): MERGED; no lane worker.
-- Web/media (`goal/web-media-acquisition`, latest committed `d94c6f0`): LIVE corrective audit, parent PID `1009052`, Codex PID `1009088`, host PID `1009276`. The worker has produced an uncommitted correction script and updated candidate/query/retrieval ledgers through 09:01Z; process CPU time and artifact mtimes advanced, so it is healthy and no duplicate was launched.
+- Web/media (`goal/web-media-acquisition`, latest committed `d94c6f0`): LIVE corrective audit, parent PID `1009052`, Codex PID `1009088`, host PID `1009276`. At 09:14Z the full corrective batch was staged with no untracked files, the checkpoint and artifacts had advanced through 09:13Z, and the worker remained live. No duplicate was launched.
 
 ## Web/media review status and blockers
 
-- The branch validator currently reports candidates: blogs 77/75, podcasts 32/30, books 30/25, conferences 34/30, case studies 51/50, GitHub 35/30. These are **not independently accepted counts** and are not merged.
-- Independent review rejected the lane's completion claim pending correction: generic LeadDev articles lack conference proof; many GitHub records are generic agent-memory repositories rather than organizational mechanisms; podcast records label bounded excerpts as transcripts; books can have empty substantive evidence; blog/case-study excerpts may contain boilerplate; and random-hash filenames violate human-readable naming requirements.
+- The corrected branch validator now passes with staged candidate counts: blogs 78/75, podcasts 30/30, books 30/25, conferences 30/30, case studies 50/50, GitHub 30/30; all 248 are labeled `metadata_only`, with podcasts separately preserving transcript availability plus timestamped excerpts rather than claiming retained transcripts. These remain **unmerged and not yet independently accepted**.
+- The staged corrective batch adds strict filename, evidence-hash, navigation-boilerplate, bibliographic, conference-proof, podcast, and GitHub relevance checks; lane validation and 17 lane tests pass. Manager sampling and combined-tree compatibility are still required.
 - The active worker owns only those corrections and unmet proof gates. It must strengthen validators, reject/replace weak records, preserve evidence, rerun tests, and commit before manager sampling and integration.
 - Goal remains ACTIVE. Six web/media quotas, combined-tree validation, final generated accounting, and final remote proof remain unmet.
 
