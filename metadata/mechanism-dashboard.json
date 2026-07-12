@@ -1,0 +1,30 @@
+{
+  "organization_count": 13,
+  "organization_evidence_source_count": 14,
+  "schema_version": 1,
+  "source_links_by_mechanism": {
+    "decision systems": 2,
+    "experimentation": 5,
+    "failure/postmortem learning": 3,
+    "feedback/evals": 5,
+    "governance": 4,
+    "knowledge curation": 5,
+    "measurable outcome": 9,
+    "organizational memory": 6,
+    "specialized agents": 4,
+    "workflow adaptation": 8
+  },
+  "sources_with_measurable_outcome": 9,
+  "vocabulary": [
+    "feedback/evals",
+    "organizational memory",
+    "experimentation",
+    "decision systems",
+    "failure/postmortem learning",
+    "specialized agents",
+    "workflow adaptation",
+    "knowledge curation",
+    "governance",
+    "measurable outcome"
+  ]
+}

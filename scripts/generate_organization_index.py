@@ -61,7 +61,24 @@ def build(root: Path = ROOT):
 def main():
     dashboard, markdown, errors = build()
     if errors: print("\n".join(errors), file=sys.stderr); return 1
+    mechanism_dashboard = {
+        "schema_version": 1,
+        "vocabulary": list(VOCABULARY),
+        "source_links_by_mechanism": dashboard["by_mechanism"],
+        "organization_count": dashboard["organization_count"],
+        "organization_evidence_source_count": dashboard["organization_evidence_source_count"],
+        "sources_with_measurable_outcome": dashboard["sources_with_measurable_outcome"],
+    }
+    mechanism_markdown = "\n".join([
+        "# Canonical Mechanism Dashboard", "",
+        "Generated from the canonical organization evidence index. Counts are accepted named-organization source links, not generic theory or tooling.", "",
+        "| Mechanism | Source links |", "| --- | ---: |",
+        *[f"| {tag} | {dashboard['by_mechanism'][tag]} |" for tag in VOCABULARY], "",
+        f"Organizations: **{dashboard['organization_count']}**. Organization-evidence source links: **{dashboard['organization_evidence_source_count']}**. Measurable-outcome links: **{dashboard['sources_with_measurable_outcome']}**.", "",
+    ])
     (ROOT/"metadata/organization-index.json").write_text(json.dumps(dashboard,indent=2,sort_keys=True)+"\n")
+    (ROOT/"metadata/mechanism-dashboard.json").write_text(json.dumps(mechanism_dashboard,indent=2,sort_keys=True)+"\n")
     (ROOT/"research/company-index.md").write_text(markdown)
+    (ROOT/"research/mechanism-dashboard.md").write_text(mechanism_markdown)
     print(f"generated {dashboard['organization_count']} organizations from {dashboard['organization_evidence_source_count']} source links"); return 0
 if __name__ == "__main__": raise SystemExit(main())

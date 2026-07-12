@@ -1616,6 +1616,28 @@
   "discovered_sources": 1052,
   "rejected_sources": 414,
   "retrieved_sources": 1052,
+  "saturation": {
+    "academic_status": "unmet: no three-round eligible proof; separate academic recovery wave pending",
+    "candidate_count": 561,
+    "eligible_round_count": 35,
+    "round_count": 96,
+    "saturated_channels": [
+      "blogs",
+      "books",
+      "case-studies",
+      "conferences",
+      "github",
+      "podcasts",
+      "reddit",
+      "substack",
+      "x",
+      "youtube"
+    ],
+    "threshold": 0.05,
+    "unsaturated_channels": [
+      "academic"
+    ]
+  },
   "schema_version": 2,
   "total_records": 1052,
   "validated_relevant_sources": 638
