@@ -26,7 +26,8 @@ Ledgers: 90 query attempts and 646 retrieval/deduplication events. Query outcome
 ## Latest commits
 
 - Baseline: `75e3dbe`.
-- Lane commit: `ab91bed` (`feat: acquire validated web and media corpus lanes`).
+- Acquisition commit: `3ffa11e` (`feat: acquire validated web and media corpus lanes`).
+- Checkpoint pointer update: committed immediately after the acquisition commit.
 
 ## Tests
 
