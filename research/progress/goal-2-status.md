@@ -1,8 +1,17 @@
 # Goal 2 manager status
 
-Updated: 2026-07-12T10:14:00Z
-Status: ACHIEVED
-Phase: completion audit passed; final exact-SHA remote and CI receipt verified
+Updated: 2026-07-12T14:49:07Z
+Status: ACTIVE
+Phase: scale-and-saturation; fixed quotas remain verified floors, not completion
+
+## Scale checkpoint
+
+- Preserved baseline: `make check` passes on main at `c5d28642ea65feeebcad5e3b5b00a2d426175990` (41 tests; 1,052 audited; 634 accepted), the worktree is clean, `origin/main` matches, and exact-SHA GitHub Actions run `29196942345` passed.
+- Current accepted floors remain X 50; Reddit 25; Substack 25; blogs 78; podcasts 30; books 30; conferences 30; case studies 50; GitHub 30; academic 186; YouTube 100.
+- Canonical organization indexing/mechanism tagging is dispatched in `goal/scale-index` (PID 1110025).
+- Public competitor measurement is dispatched in `goal/scale-benchmark` (PID 1110071).
+- Cross-channel saturation/citation chasing is dispatched in `goal/scale-saturation` (PID 1110117).
+- Completion is unproven until the organization index and mechanism dashboard validate, like-for-like public benchmarking supports the measured-largest claim, and every channel has three consecutive materially different search rounds below 5% net-new accepted uniques.
 
 ## Criterion-by-criterion proof
 
@@ -30,6 +39,6 @@ Phase: completion audit passed; final exact-SHA remote and CI receipt verified
 - Academic, social, web/media, and integration workers are stopped; no duplicate worker is live.
 - Main checkpoint `66e8abdd3ff5198b1c36a7ca542c7c44103964ed` and completion checkpoint `b132bb908d723030e764b92569397789de6d10a9` were each pushed and fetched back byte-for-byte; exact-SHA GitHub Actions runs `29188335313` and `29188365294` passed.
 
-## Finalization
+## Prior floor milestone
 
-The goal contract is satisfied locally and remotely. Workers are stopped, main is clean and synchronized, and the completion checkpoint has an exact-SHA passing CI receipt.
+The former fixed-quota completion audit remains valid as a preserved baseline, but it no longer completes the expanded contract. Main is clean and synchronized at the scale-phase kickoff; finalization now depends on competitor measurement and channel saturation proof.
