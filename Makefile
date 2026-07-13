@@ -1,4 +1,7 @@
-.PHONY: audit validate generate test check
+.PHONY: audit validate generate test check review
+
+review:
+	python3 review-ui/review.py serve --host 0.0.0.0 --port 8765
 
 audit:
 	python3 tools/corpus.py audit

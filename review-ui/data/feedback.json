@@ -1,0 +1,12 @@
+{
+  "category_preferences": {
+    "ada_categories": {},
+    "platforms": {}
+  },
+  "description": "Review-derived similarity seeds and category preferences for future corpus research.",
+  "feedback_queue": [],
+  "generated_at": "2026-07-13T10:48:06Z",
+  "negative_similarity_seeds": [],
+  "positive_similarity_seeds": [],
+  "schema_version": 1
+}

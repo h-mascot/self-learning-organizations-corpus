@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0d10">
+  <title>Ada Corpus Review</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<div class="app-shell">
+  <aside class="sidebar" aria-label="Resource navigation">
+    <header class="brand-block">
+      <div class="eyebrow">Ada · corpus review</div>
+      <h1>Evidence queue</h1>
+      <p>Human decisions are saved as overlays. Canonical sources stay untouched until an explicit apply.</p>
+    </header>
+
+    <section class="progress-card" aria-label="Review progress">
+      <div class="progress-head"><strong id="progress-label">Loading…</strong><span id="progress-percent">0%</span></div>
+      <div class="progress-track"><span id="progress-bar"></span></div>
+      <div class="progress-grid">
+        <span><b id="count-accept">0</b> accepted</span>
+        <span><b id="count-maybe">0</b> maybe</span>
+        <span><b id="count-reject">0</b> rejected</span>
+        <span><b id="count-pending">0</b> pending</span>
+      </div>
+    </section>
+
+    <label class="search-wrap">
+      <span class="sr-only">Search resources</span>
+      <input id="search" type="search" placeholder="Search 1,053 resources…" autocomplete="off">
+      <kbd>/</kbd>
+    </label>
+
+    <nav class="category-tabs" id="category-tabs" aria-label="Ada category">
+      <button class="chip active" data-category="all">All</button>
+      <button class="chip works" data-category="works">Works</button>
+      <button class="chip maybe" data-category="maybe">Maybe</button>
+      <button class="chip doesnt" data-category="doesnt_fit">Doesn't fit</button>
+    </nav>
+
+    <label class="pending-toggle"><input id="pending-only" type="checkbox"><span>Pending only</span></label>
+
+    <div class="bulk-row">
+      <button id="bulk-accept" class="subtle safe-accept" title="Accept only current-page resources Ada categorizes as Works">Accept safe</button>
+      <button id="bulk-reject" class="subtle safe-reject" title="Reject only current-page resources Ada categorizes as Doesn't fit">Reject safe</button>
+    </div>
+
+    <div id="resource-list" class="resource-list" role="listbox" aria-label="Resources"></div>
+    <footer class="pager">
+      <button id="page-prev" aria-label="Previous page">←</button>
+      <span id="page-label">Page 1</span>
+      <button id="page-next" aria-label="Next page">→</button>
+    </footer>
+  </aside>
+
+  <main class="review-main">
+    <header class="topbar">
+      <div class="platform-tabs" id="platform-tabs" aria-label="Corpus platform"></div>
+      <div id="save-state" class="save-state" role="status">Server overlay ready</div>
+    </header>
+
+    <article id="review-card" class="review-card empty">
+      <div class="empty-state"><div class="spinner"></div><p>Loading corpus index…</p></div>
+    </article>
+  </main>
+</div>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<script src="/app.js"></script>
+</body>
+</html>

@@ -503,6 +503,29 @@ Open research corpus about self-learning, self-improving, AI-native organization
 
 Canonical validation rejects duplicate stable IDs and normalized URLs globally. Markdown body hashes are also deduplicated; web/media evidence-array hashes are integrity checks because empty or shared bounded evidence is not a source identity. Placeholder `.gitkeep` files and `sources/README.md` are never records. Run `make check` before committing; it verifies regeneration is clean and preserves the dedicated lane gates.
 
+## Human review UI
+
+Run the stdlib HTTP server from the repository root:
+
+```bash
+make review
+# equivalent: python3 review-ui/review.py serve --host 0.0.0.0 --port 8765
+```
+
+Open `http://100.106.69.9:8765/` on the tailnet (or `http://127.0.0.1:8765/` locally). The UI indexes every canonical record in `sources/`, supports platform and Ada-category tabs, search, pagination, pending-only review, safe bulk actions, and Accept / Maybe / Reject decisions with comments. Accept emits a positive “find more like this” seed; Reject emits a negative “avoid similar” seed. Decisions persist as versionable overlays in `review-ui/data/decisions.json`; similarity seeds, category preferences, and the future-research queue are regenerated in `review-ui/data/feedback.json`. Reviewing never changes canonical sources.
+
+Useful commands:
+
+```bash
+python3 review-ui/review.py report                 # decisions + feedback queue
+python3 review-ui/review.py report --json          # machine-readable report
+python3 review-ui/review.py export-feedback        # refresh feedback.json
+python3 review-ui/review.py apply                   # dry-run plan (default)
+python3 review-ui/review.py apply --yes             # explicitly apply moves/metadata changes
+```
+
+`apply` is deliberately dry-run unless `--yes` is present. Inspect and commit the overlay data first, run the dry-run, then use `--yes` only when intentionally promoting review decisions into `sources/`. Run `make check` after any real apply.
+
 ## Counting and rights policy
 
 Only `accepted` + `relevant` records count as validated sources. Artifact levels distinguish full text, transcripts, abstracts, excerpts, metadata-only records, unavailable artifacts, and failed retrieval evidence. Statistics retain platform, lifecycle, artifact, rights-status, and provenance dimensions. A URL to full text does not itself make a record `full_text`; the preserved body must contain it. Third-party content remains subject to the declared rights holder and source terms, and inclusion transfers no ownership.
