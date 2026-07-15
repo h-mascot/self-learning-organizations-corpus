@@ -1,0 +1,61 @@
+{
+  "asr_models": [],
+  "availability": "public-at-ingestion",
+  "caption_error": null,
+  "channel": "AI News & Strategy Daily | Nate B Jones",
+  "duration_seconds": 1072,
+  "license": null,
+  "raw_files": {
+    "captions.vtt": "389efe0192e73d490aa73348eb974f4a99d79ec16af88f68a6fd89f44b2f2b84",
+    "source-info.json": "0696baf16bda1b16512317380ca810fc07eb65cb056cefbf21fca61f956fa94f",
+    "youtube-transcript-api.json": "e73e52b6a29d26576b3bcb4991b65d1ab90a01cd1ce633084158cd5254954924"
+  },
+  "raw_path": "raw/youtube/2026-07-12--your-roadmap-is-why-you-re-losing-to-ai-native-teams--ai-news-and-strategy-daily-nate-b-jones--hYcOFTMesGc",
+  "relevance_categories": [
+    "ai-native-company",
+    "agent-operations",
+    "continuous-improvement",
+    "feedback-systems"
+  ],
+  "relevance_evidence": [
+    "ai heavy company",
+    "agents can act",
+    "build and improve on over time",
+    "accelerating learning loops"
+  ],
+  "relevance_spans": [
+    {
+      "category": "ai-native-company",
+      "phrase": "ai heavy company",
+      "text": "easier to avoid. So an AI heavy company",
+      "timestamp": "4:02"
+    },
+    {
+      "category": "agent-operations",
+      "phrase": "agents can act",
+      "text": "become systems that agents can act on",
+      "timestamp": "1:21"
+    },
+    {
+      "category": "continuous-improvement",
+      "phrase": "build and improve on over time",
+      "text": "and build and improve on over time.",
+      "timestamp": "1:23"
+    },
+    {
+      "category": "feedback-systems",
+      "phrase": "accelerating learning loops",
+      "text": "is really about accelerating learning loops.",
+      "timestamp": "4:38"
+    }
+  ],
+  "rights_note": "YouTube source content remains owned by its rightsholder. Transcript is retained for research, indexing, quotation, and verification; no ownership is claimed.",
+  "segment_count": 499,
+  "source_url": "https://www.youtube.com/watch?v=hYcOFTMesGc",
+  "title": "Your Roadmap Is Why You're Losing to AI-Native Teams.",
+  "transcript_method": "youtube-transcript-api",
+  "transcript_path": "sources/youtube/accepted/2026-07-12--your-roadmap-is-why-you-re-losing-to-ai-native-teams--ai-news-and-strategy-daily-nate-b-jones--hYcOFTMesGc.md",
+  "transcript_sha256": "f9ec2942a50c1cd161f2d94914a0baad899aec5d231df7c9bdcb52d1c30809d5",
+  "upload_date": "20260712",
+  "video_id": "hYcOFTMesGc"
+}

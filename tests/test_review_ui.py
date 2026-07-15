@@ -56,7 +56,7 @@ class ReviewUITests(unittest.TestCase):
     def test_indexes_real_corpus_at_documented_scale(self):
         corpus_root = Path(__file__).resolve().parents[1]
         resources = review.ResourceIndex(corpus_root).all()
-        self.assertEqual(1053, len(resources))
+        self.assertEqual(1054, len(resources))
         self.assertEqual(
             {"youtube", "academic", "x", "reddit", "substack", "blogs", "podcasts", "conferences", "books", "case-studies", "github"},
             {item["platform"] for item in resources},

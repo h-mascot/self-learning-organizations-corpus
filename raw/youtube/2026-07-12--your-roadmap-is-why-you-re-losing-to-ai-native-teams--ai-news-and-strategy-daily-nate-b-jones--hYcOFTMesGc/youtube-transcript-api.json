@@ -1,0 +1,2501 @@
+{
+  "video_id": "hYcOFTMesGc",
+  "language": "en",
+  "segments": [
+    {
+      "text": "I couldn't not make this video. We have",
+      "start": 0.16,
+      "duration": 5.119
+    },
+    {
+      "text": "so much pain in front of us when we're",
+      "start": 3.28,
+      "duration": 4.16
+    },
+    {
+      "text": "trying to adjust to AI. I get so many",
+      "start": 5.279,
+      "duration": 4.961
+    },
+    {
+      "text": "questions about Nate, why is my business",
+      "start": 7.44,
+      "duration": 4.64
+    },
+    {
+      "text": "moving slow and Anthropic is able to",
+      "start": 10.24,
+      "duration": 4.64
+    },
+    {
+      "text": "release like every week. I'll tell you",
+      "start": 12.08,
+      "duration": 6.08
+    },
+    {
+      "text": "the answer is relatively simple. I made",
+      "start": 14.88,
+      "duration": 6.08
+    },
+    {
+      "text": "this video to tell you why companies",
+      "start": 18.16,
+      "duration": 5.039
+    },
+    {
+      "text": "like Anthropic and OpenAI and small",
+      "start": 20.96,
+      "duration": 4.319
+    },
+    {
+      "text": "startups in the valley are able to ship",
+      "start": 23.199,
+      "duration": 4.801
+    },
+    {
+      "text": "so so fast and why almost everybody else",
+      "start": 25.279,
+      "duration": 4.881
+    },
+    {
+      "text": "isn't able to use AI that way. What is",
+      "start": 28.0,
+      "duration": 4.079
+    },
+    {
+      "text": "their secret sauce? What is the thing",
+      "start": 30.16,
+      "duration": 4.96
+    },
+    {
+      "text": "that they have? Hint, it's not AI. So,",
+      "start": 32.079,
+      "duration": 5.521
+    },
+    {
+      "text": "in this video, you are going to learn",
+      "start": 35.12,
+      "duration": 6.24
+    },
+    {
+      "text": "the 15 rules of the road that I use to",
+      "start": 37.6,
+      "duration": 7.52
+    },
+    {
+      "text": "help teams move toward that kind of fast",
+      "start": 41.36,
+      "duration": 6.0
+    },
+    {
+      "text": "shipping cadence. I think operators have",
+      "start": 45.12,
+      "duration": 5.279
+    },
+    {
+      "text": "a new job in the AI era. Move more of",
+      "start": 47.36,
+      "duration": 4.719
+    },
+    {
+      "text": "the company's repeatable human",
+      "start": 50.399,
+      "duration": 4.8
+    },
+    {
+      "text": "interactions toward code. They are",
+      "start": 52.079,
+      "duration": 6.32
+    },
+    {
+      "text": "changing where the company lives. They",
+      "start": 55.199,
+      "duration": 5.121
+    },
+    {
+      "text": "do it in different ways. Decisions that",
+      "start": 58.399,
+      "duration": 3.921
+    },
+    {
+      "text": "used to vanish inside meetings, for",
+      "start": 60.32,
+      "duration": 4.479
+    },
+    {
+      "text": "example, they become documents that",
+      "start": 62.32,
+      "duration": 4.56
+    },
+    {
+      "text": "people can refer to, but really that",
+      "start": 64.799,
+      "duration": 4.161
+    },
+    {
+      "text": "agents can act on. And that's a hint.",
+      "start": 66.88,
+      "duration": 4.16
+    },
+    {
+      "text": "Product managers who used to direct",
+      "start": 68.96,
+      "duration": 4.64
+    },
+    {
+      "text": "engineers through ticketing work now put",
+      "start": 71.04,
+      "duration": 4.72
+    },
+    {
+      "text": "things in the terminal and work with",
+      "start": 73.6,
+      "duration": 4.559
+    },
+    {
+      "text": "engineers directly there. Reviews, they",
+      "start": 75.76,
+      "duration": 5.679
+    },
+    {
+      "text": "become eval. Repeated reminders, they",
+      "start": 78.159,
+      "duration": 5.121
+    },
+    {
+      "text": "become systems that agents can act on",
+      "start": 81.439,
+      "duration": 3.68
+    },
+    {
+      "text": "and build and improve on over time.",
+      "start": 83.28,
+      "duration": 4.8
+    },
+    {
+      "text": "Design gets into code, gets into the SDK",
+      "start": 85.119,
+      "duration": 5.36
+    },
+    {
+      "text": "in ways that it never did in the 2010s.",
+      "start": 88.08,
+      "duration": 4.32
+    },
+    {
+      "text": "Look, I'm not saying every human",
+      "start": 90.479,
+      "duration": 4.64
+    },
+    {
+      "text": "interaction moves into software. Trust",
+      "start": 92.4,
+      "duration": 5.92
+    },
+    {
+      "text": "stays human. Taste stays human. But a",
+      "start": 95.119,
+      "duration": 4.801
+    },
+    {
+      "text": "lot of the repeatable parts of",
+      "start": 98.32,
+      "duration": 3.36
+    },
+    {
+      "text": "coordination that we use to run our",
+      "start": 99.92,
+      "duration": 5.28
+    },
+    {
+      "text": "businesses can be moved toward code so",
+      "start": 101.68,
+      "duration": 6.479
+    },
+    {
+      "text": "we can speed up execution with agents.",
+      "start": 105.2,
+      "duration": 5.84
+    },
+    {
+      "text": "If every decision has to be reexplained",
+      "start": 108.159,
+      "duration": 5.6
+    },
+    {
+      "text": "by a person, the humans become the rate",
+      "start": 111.04,
+      "duration": 4.88
+    },
+    {
+      "text": "limit on the business. And that is the",
+      "start": 113.759,
+      "duration": 4.0
+    },
+    {
+      "text": "distinguishing factor between companies",
+      "start": 115.92,
+      "duration": 3.68
+    },
+    {
+      "text": "like Anthropic and OpenAI that are",
+      "start": 117.759,
+      "duration": 3.601
+    },
+    {
+      "text": "shipping quick and companies everywhere",
+      "start": 119.6,
+      "duration": 3.839
+    },
+    {
+      "text": "else that are not shipping as fast. And",
+      "start": 121.36,
+      "duration": 4.64
+    },
+    {
+      "text": "that is why I've written 15 commandments",
+      "start": 123.439,
+      "duration": 5.6
+    },
+    {
+      "text": "to guide organizational change toward",
+      "start": 126.0,
+      "duration": 5.28
+    },
+    {
+      "text": "this kind of AI future. And I'm sharing",
+      "start": 129.039,
+      "duration": 4.001
+    },
+    {
+      "text": "them with you here today. They are",
+      "start": 131.28,
+      "duration": 3.52
+    },
+    {
+      "text": "actual commandments. I did have fun with",
+      "start": 133.04,
+      "duration": 3.919
+    },
+    {
+      "text": "this. I wrote thou shalt not language",
+      "start": 134.8,
+      "duration": 4.159
+    },
+    {
+      "text": "etc. And I want to share them and",
+      "start": 136.959,
+      "duration": 3.601
+    },
+    {
+      "text": "discuss them because I want us to",
+      "start": 138.959,
+      "duration": 4.801
+    },
+    {
+      "text": "understand how together they form a",
+      "start": 140.56,
+      "duration": 5.28
+    },
+    {
+      "text": "system that we can use to move our",
+      "start": 143.76,
+      "duration": 4.32
+    },
+    {
+      "text": "organization toward a faster shipping",
+      "start": 145.84,
+      "duration": 4.8
+    },
+    {
+      "text": "cadence toward a world where we all are",
+      "start": 148.08,
+      "duration": 4.72
+    },
+    {
+      "text": "able to move as quickly as these AI",
+      "start": 150.64,
+      "duration": 4.8
+    },
+    {
+      "text": "tools allow. Now, each of these 15",
+      "start": 152.8,
+      "duration": 5.439
+    },
+    {
+      "text": "commandments exists because AI has",
+      "start": 155.44,
+      "duration": 5.12
+    },
+    {
+      "text": "changed the work underneath it. Some",
+      "start": 158.239,
+      "duration": 4.0
+    },
+    {
+      "text": "move coordination out of meetings and",
+      "start": 160.56,
+      "duration": 3.6
+    },
+    {
+      "text": "into durable systems. Some move product",
+      "start": 162.239,
+      "duration": 4.321
+    },
+    {
+      "text": "judgment closer to actually building.",
+      "start": 164.16,
+      "duration": 4.96
+    },
+    {
+      "text": "Protect the time now made more valuable",
+      "start": 166.56,
+      "duration": 4.24
+    },
+    {
+      "text": "by quick execution because the value of",
+      "start": 169.12,
+      "duration": 3.6
+    },
+    {
+      "text": "our time is shifted. And the rest",
+      "start": 170.8,
+      "duration": 4.32
+    },
+    {
+      "text": "protect human relationships that let a",
+      "start": 172.72,
+      "duration": 5.04
+    },
+    {
+      "text": "company operate at that speed with high",
+      "start": 175.12,
+      "duration": 5.759
+    },
+    {
+      "text": "trust. Together we've got one intention.",
+      "start": 177.76,
+      "duration": 6.0
+    },
+    {
+      "text": "Find the point of greatest leverage for",
+      "start": 180.879,
+      "duration": 4.64
+    },
+    {
+      "text": "the business and for the humans involved",
+      "start": 183.76,
+      "duration": 3.6
+    },
+    {
+      "text": "in the business and then move scarce",
+      "start": 185.519,
+      "duration": 3.681
+    },
+    {
+      "text": "human judgment to that point. The",
+      "start": 187.36,
+      "duration": 3.599
+    },
+    {
+      "text": "easiest analogy here is digital",
+      "start": 189.2,
+      "duration": 4.399
+    },
+    {
+      "text": "photography. Back when film cost money,",
+      "start": 190.959,
+      "duration": 4.56
+    },
+    {
+      "text": "and I remember those days, a family",
+      "start": 193.599,
+      "duration": 4.401
+    },
+    {
+      "text": "might take 24 pictures on a vacation or",
+      "start": 195.519,
+      "duration": 4.72
+    },
+    {
+      "text": "48 pictures on a vacation. Somebody",
+      "start": 198.0,
+      "duration": 4.319
+    },
+    {
+      "text": "chose the shot, somebody waited for",
+      "start": 200.239,
+      "duration": 3.601
+    },
+    {
+      "text": "everyone to look at the camera. I",
+      "start": 202.319,
+      "duration": 4.161
+    },
+    {
+      "text": "remember that. The price of film and the",
+      "start": 203.84,
+      "duration": 4.399
+    },
+    {
+      "text": "complexity of processing that film",
+      "start": 206.48,
+      "duration": 3.839
+    },
+    {
+      "text": "supplied a kind of discipline in how",
+      "start": 208.239,
+      "duration": 3.841
+    },
+    {
+      "text": "many images were produced. Digital",
+      "start": 210.319,
+      "duration": 3.681
+    },
+    {
+      "text": "photography completely removed that",
+      "start": 212.08,
+      "duration": 4.0
+    },
+    {
+      "text": "price barrier. And now you can have",
+      "start": 214.0,
+      "duration": 4.64
+    },
+    {
+      "text": "40,000 pictures and six versions of the",
+      "start": 216.08,
+      "duration": 5.6
+    },
+    {
+      "text": "exact same sunset and no idea where your",
+      "start": 218.64,
+      "duration": 4.56
+    },
+    {
+      "text": "kid's birthday went in that pile of",
+      "start": 221.68,
+      "duration": 3.839
+    },
+    {
+      "text": "40,000 pictures. This is what AI has",
+      "start": 223.2,
+      "duration": 4.48
+    },
+    {
+      "text": "done to all of work. The cost of another",
+      "start": 225.519,
+      "duration": 3.921
+    },
+    {
+      "text": "draft, another prototype, another",
+      "start": 227.68,
+      "duration": 3.68
+    },
+    {
+      "text": "analysis, another piece of code is",
+      "start": 229.44,
+      "duration": 4.079
+    },
+    {
+      "text": "collapsing to zero. The old scarcity",
+      "start": 231.36,
+      "duration": 3.84
+    },
+    {
+      "text": "used to force choices and a lot of our",
+      "start": 233.519,
+      "duration": 3.041
+    },
+    {
+      "text": "organizations are designed to force",
+      "start": 235.2,
+      "duration": 3.599
+    },
+    {
+      "text": "those choices. But when it disappeared,",
+      "start": 236.56,
+      "duration": 4.0
+    },
+    {
+      "text": "the choices did not become less",
+      "start": 238.799,
+      "duration": 3.601
+    },
+    {
+      "text": "important. They actually just became",
+      "start": 240.56,
+      "duration": 5.28
+    },
+    {
+      "text": "easier to avoid. So an AI heavy company",
+      "start": 242.4,
+      "duration": 5.52
+    },
+    {
+      "text": "needs to answer two questions to",
+      "start": 245.84,
+      "duration": 5.2
+    },
+    {
+      "text": "successfully process this volume. One,",
+      "start": 247.92,
+      "duration": 5.36
+    },
+    {
+      "text": "what can we make now? What are we",
+      "start": 251.04,
+      "duration": 5.039
+    },
+    {
+      "text": "unwilling to spend time on, even if it's",
+      "start": 253.28,
+      "duration": 5.28
+    },
+    {
+      "text": "nearly free? Getting to these 15",
+      "start": 256.079,
+      "duration": 4.481
+    },
+    {
+      "text": "commandments helps you answer those",
+      "start": 258.56,
+      "duration": 3.76
+    },
+    {
+      "text": "questions. Let's start with commandment",
+      "start": 260.56,
+      "duration": 4.32
+    },
+    {
+      "text": "one. Thou shalt not slow down",
+      "start": 262.32,
+      "duration": 4.8
+    },
+    {
+      "text": "engineering. Thou shalt go fast. I get",
+      "start": 264.88,
+      "duration": 4.319
+    },
+    {
+      "text": "that that sounds like what every Silicon",
+      "start": 267.12,
+      "duration": 3.92
+    },
+    {
+      "text": "Valley startup says. So let me be",
+      "start": 269.199,
+      "duration": 4.161
+    },
+    {
+      "text": "specific about what I mean. Speed is not",
+      "start": 271.04,
+      "duration": 5.2
+    },
+    {
+      "text": "asking people to work more with AI just",
+      "start": 273.36,
+      "duration": 4.88
+    },
+    {
+      "text": "for the sake of working with AI. Speed",
+      "start": 276.24,
+      "duration": 3.76
+    },
+    {
+      "text": "is really about accelerating learning",
+      "start": 278.24,
+      "duration": 4.16
+    },
+    {
+      "text": "loops. And learning loops are driven by",
+      "start": 280.0,
+      "duration": 4.0
+    },
+    {
+      "text": "what we can put in front of customers",
+      "start": 282.4,
+      "duration": 3.76
+    },
+    {
+      "text": "which is driven by the code we can put",
+      "start": 284.0,
+      "duration": 4.8
+    },
+    {
+      "text": "together. The old process stretched the",
+      "start": 286.16,
+      "duration": 5.039
+    },
+    {
+      "text": "distance between these bets because",
+      "start": 288.8,
+      "duration": 5.04
+    },
+    {
+      "text": "every change consumed scarce engineering",
+      "start": 291.199,
+      "duration": 4.321
+    },
+    {
+      "text": "capacity and the original question might",
+      "start": 293.84,
+      "duration": 3.12
+    },
+    {
+      "text": "have moved by then. I have been the",
+      "start": 295.52,
+      "duration": 2.8
+    },
+    {
+      "text": "product manager that launched something",
+      "start": 296.96,
+      "duration": 3.12
+    },
+    {
+      "text": "and the original question had changed.",
+      "start": 298.32,
+      "duration": 4.56
+    },
+    {
+      "text": "Right? A lot of us have AI has removed",
+      "start": 300.08,
+      "duration": 4.72
+    },
+    {
+      "text": "so much of the cost of the queue that",
+      "start": 302.88,
+      "duration": 3.84
+    },
+    {
+      "text": "the queue itself isn't really relevant",
+      "start": 304.8,
+      "duration": 3.839
+    },
+    {
+      "text": "anymore. And then we don't have issues",
+      "start": 306.72,
+      "duration": 3.6
+    },
+    {
+      "text": "with the queue and we can actually focus",
+      "start": 308.639,
+      "duration": 3.921
+    },
+    {
+      "text": "our time on saying given this enormous",
+      "start": 310.32,
+      "duration": 3.599
+    },
+    {
+      "text": "engineering velocity that we're",
+      "start": 312.56,
+      "duration": 5.28
+    },
+    {
+      "text": "protecting, how do we build ambitiously",
+      "start": 313.919,
+      "duration": 5.761
+    },
+    {
+      "text": "to deliver extraordinary value to",
+      "start": 317.84,
+      "duration": 4.079
+    },
+    {
+      "text": "customers. So commandment one puts every",
+      "start": 319.68,
+      "duration": 4.239
+    },
+    {
+      "text": "other rule on trial. Does this meeting",
+      "start": 321.919,
+      "duration": 3.681
+    },
+    {
+      "text": "shorten the path from evidence to a",
+      "start": 323.919,
+      "duration": 2.72
+    },
+    {
+      "text": "better product? Does it shorten our",
+      "start": 325.6,
+      "duration": 2.319
+    },
+    {
+      "text": "learning loop? If it doesn't, get rid of",
+      "start": 326.639,
+      "duration": 3.441
+    },
+    {
+      "text": "it. Does this document carry a decision?",
+      "start": 327.919,
+      "duration": 3.761
+    },
+    {
+      "text": "If it doesn't, get rid of it. Does this",
+      "start": 330.08,
+      "duration": 3.92
+    },
+    {
+      "text": "approval actually catch a risk or is it",
+      "start": 331.68,
+      "duration": 4.239
+    },
+    {
+      "text": "just paperwork? Does this handoff",
+      "start": 334.0,
+      "duration": 3.84
+    },
+    {
+      "text": "improve the customer experience or is it",
+      "start": 335.919,
+      "duration": 3.921
+    },
+    {
+      "text": "not really worth doing? If we cannot",
+      "start": 337.84,
+      "duration": 3.68
+    },
+    {
+      "text": "name the job that we're doing with the",
+      "start": 339.84,
+      "duration": 3.52
+    },
+    {
+      "text": "process around engineering and how it's",
+      "start": 341.52,
+      "duration": 4.08
+    },
+    {
+      "text": "actually delivering value in this world",
+      "start": 343.36,
+      "duration": 4.8
+    },
+    {
+      "text": "with an agentified development pipeline,",
+      "start": 345.6,
+      "duration": 3.92
+    },
+    {
+      "text": "then we're probably slowing down the",
+      "start": 348.16,
+      "duration": 2.96
+    },
+    {
+      "text": "process. The other scarce thing is",
+      "start": 349.52,
+      "duration": 3.119
+    },
+    {
+      "text": "distribution. Building something that",
+      "start": 351.12,
+      "duration": 4.56
+    },
+    {
+      "text": "nobody sees is still worth 0, just as it",
+      "start": 352.639,
+      "duration": 6.241
+    },
+    {
+      "text": "was 10 years ago. Cheap execution raises",
+      "start": 355.68,
+      "duration": 6.32
+    },
+    {
+      "text": "the premium on deciding what deserves to",
+      "start": 358.88,
+      "duration": 5.599
+    },
+    {
+      "text": "exist and getting the useful thing in",
+      "start": 362.0,
+      "duration": 4.0
+    },
+    {
+      "text": "front of the right person. To make it",
+      "start": 364.479,
+      "duration": 2.801
+    },
+    {
+      "text": "simple, I'm going to put these in",
+      "start": 366.0,
+      "duration": 2.8
+    },
+    {
+      "text": "clusters and I'm going to show you the",
+      "start": 367.28,
+      "duration": 3.44
+    },
+    {
+      "text": "rule clusters, the commandment clusters,",
+      "start": 368.8,
+      "duration": 4.239
+    },
+    {
+      "text": "right, that matter the most, why each",
+      "start": 370.72,
+      "duration": 5.44
+    },
+    {
+      "text": "one exists because of AI and why none of",
+      "start": 373.039,
+      "duration": 5.361
+    },
+    {
+      "text": "them is safe to copy alone. You need to",
+      "start": 376.16,
+      "duration": 4.24
+    },
+    {
+      "text": "go through all 15 because they are a",
+      "start": 378.4,
+      "duration": 4.56
+    },
+    {
+      "text": "system that works together. Let's take",
+      "start": 380.4,
+      "duration": 4.16
+    },
+    {
+      "text": "the most provocative cluster first.",
+      "start": 382.96,
+      "duration": 4.0
+    },
+    {
+      "text": "Commandment three, product does not make",
+      "start": 384.56,
+      "duration": 5.12
+    },
+    {
+      "text": "road maps. Commandment five, product",
+      "start": 386.96,
+      "duration": 4.959
+    },
+    {
+      "text": "does not control or direct engineering",
+      "start": 389.68,
+      "duration": 4.0
+    },
+    {
+      "text": "time. If I just stopped there, I would",
+      "start": 391.919,
+      "duration": 3.681
+    },
+    {
+      "text": "not have a radical new operating system",
+      "start": 393.68,
+      "duration": 3.44
+    },
+    {
+      "text": "for building companies. I would just",
+      "start": 395.6,
+      "duration": 2.96
+    },
+    {
+      "text": "have a good way to produce confusion,",
+      "start": 397.12,
+      "duration": 2.799
+    },
+    {
+      "text": "right? But now we live in a different",
+      "start": 398.56,
+      "duration": 2.96
+    },
+    {
+      "text": "world. AI has driven the cost of",
+      "start": 399.919,
+      "duration": 3.201
+    },
+    {
+      "text": "building to zero. So what does that mean",
+      "start": 401.52,
+      "duration": 4.08
+    },
+    {
+      "text": "for us in roadmap world? A team can now",
+      "start": 403.12,
+      "duration": 4.32
+    },
+    {
+      "text": "put a working version in front of a",
+      "start": 405.6,
+      "duration": 4.56
+    },
+    {
+      "text": "customer before the old roadmap meeting",
+      "start": 407.44,
+      "duration": 4.08
+    },
+    {
+      "text": "would have found a free hour on",
+      "start": 410.16,
+      "duration": 2.72
+    },
+    {
+      "text": "everyone's calendar. And I'm not",
+      "start": 411.52,
+      "duration": 4.48
+    },
+    {
+      "text": "kidding. With tools like 5.6 Ultra, with",
+      "start": 412.88,
+      "duration": 5.439
+    },
+    {
+      "text": "tools like Fable 5, with a multi- aent",
+      "start": 416.0,
+      "duration": 3.919
+    },
+    {
+      "text": "system like Ringer, which I talked about",
+      "start": 418.319,
+      "duration": 4.401
+    },
+    {
+      "text": "this week, you can get an entire product",
+      "start": 419.919,
+      "duration": 4.72
+    },
+    {
+      "text": "out there before 2 days from now when",
+      "start": 422.72,
+      "duration": 3.28
+    },
+    {
+      "text": "you have the meeting. But that doesn't",
+      "start": 424.639,
+      "duration": 3.601
+    },
+    {
+      "text": "remove the need for product judgment.",
+      "start": 426.0,
+      "duration": 4.479
+    },
+    {
+      "text": "Instead, it removes the need for product",
+      "start": 428.24,
+      "duration": 4.64
+    },
+    {
+      "text": "to stay out of the code. So, commandment",
+      "start": 430.479,
+      "duration": 4.241
+    },
+    {
+      "text": "four goes with commandments three and",
+      "start": 432.88,
+      "duration": 4.0
+    },
+    {
+      "text": "five. It says product shall be in the",
+      "start": 434.72,
+      "duration": 4.319
+    },
+    {
+      "text": "terminal daily. You will get into the",
+      "start": 436.88,
+      "duration": 3.759
+    },
+    {
+      "text": "code one way or another. Commandment six",
+      "start": 439.039,
+      "duration": 3.201
+    },
+    {
+      "text": "is in the same cluster. It says product",
+      "start": 440.639,
+      "duration": 3.361
+    },
+    {
+      "text": "shall sit with engineering and jam",
+      "start": 442.24,
+      "duration": 3.679
+    },
+    {
+      "text": "daily. But you take on the obligation as",
+      "start": 444.0,
+      "duration": 4.16
+    },
+    {
+      "text": "a PM to sit in the work, touch the",
+      "start": 445.919,
+      "duration": 3.921
+    },
+    {
+      "text": "material, bring the customer and make",
+      "start": 448.16,
+      "duration": 3.28
+    },
+    {
+      "text": "decisions while the thing is becoming",
+      "start": 449.84,
+      "duration": 3.359
+    },
+    {
+      "text": "real. Remember I started by saying you",
+      "start": 451.44,
+      "duration": 4.319
+    },
+    {
+      "text": "don't slow down engineering. Getting PM",
+      "start": 453.199,
+      "duration": 5.44
+    },
+    {
+      "text": "into the code, getting product to jam",
+      "start": 455.759,
+      "duration": 4.72
+    },
+    {
+      "text": "with engineering on the code so that we",
+      "start": 458.639,
+      "duration": 3.921
+    },
+    {
+      "text": "are focused on the artifact that's being",
+      "start": 460.479,
+      "duration": 4.801
+    },
+    {
+      "text": "produced for the customer. That is what",
+      "start": 462.56,
+      "duration": 5.359
+    },
+    {
+      "text": "enables us to do good product thinking",
+      "start": 465.28,
+      "duration": 4.24
+    },
+    {
+      "text": "without slowing down the whole train.",
+      "start": 467.919,
+      "duration": 3.12
+    },
+    {
+      "text": "And I want to make something clear. The",
+      "start": 469.52,
+      "duration": 3.6
+    },
+    {
+      "text": "core questions these job competencies",
+      "start": 471.039,
+      "duration": 4.241
+    },
+    {
+      "text": "need to answer aren't changing.",
+      "start": 473.12,
+      "duration": 4.24
+    },
+    {
+      "text": "Engineering still has to answer. Does",
+      "start": 475.28,
+      "duration": 4.24
+    },
+    {
+      "text": "this code work and will it keep working",
+      "start": 477.36,
+      "duration": 4.0
+    },
+    {
+      "text": "and that is a high bar and a lot of",
+      "start": 479.52,
+      "duration": 3.92
+    },
+    {
+      "text": "teams are using AI to slip by on that.",
+      "start": 481.36,
+      "duration": 4.239
+    },
+    {
+      "text": "Product still has to answer. Should this",
+      "start": 483.44,
+      "duration": 4.56
+    },
+    {
+      "text": "exist and does anybody care enough to",
+      "start": 485.599,
+      "duration": 5.04
+    },
+    {
+      "text": "use it? Same terminal, maybe you're in",
+      "start": 488.0,
+      "duration": 4.479
+    },
+    {
+      "text": "the codebase together. Different",
+      "start": 490.639,
+      "duration": 4.641
+    },
+    {
+      "text": "questions. And that's why commandment 13",
+      "start": 492.479,
+      "duration": 6.241
+    },
+    {
+      "text": "matters. Act like all that matters is",
+      "start": 495.28,
+      "duration": 5.759
+    },
+    {
+      "text": "one profoundly helpful and delightful",
+      "start": 498.72,
+      "duration": 4.879
+    },
+    {
+      "text": "customer experience. You are doing the",
+      "start": 501.039,
+      "duration": 4.401
+    },
+    {
+      "text": "coordination work that all of the",
+      "start": 503.599,
+      "duration": 3.921
+    },
+    {
+      "text": "roadmap process used to do. Commandment",
+      "start": 505.44,
+      "duration": 3.92
+    },
+    {
+      "text": "12 gets at this. It broadens out the",
+      "start": 507.52,
+      "duration": 4.48
+    },
+    {
+      "text": "product surface for design. Design is in",
+      "start": 509.36,
+      "duration": 4.4
+    },
+    {
+      "text": "the code, right? The terminal is a",
+      "start": 512.0,
+      "duration": 4.24
+    },
+    {
+      "text": "design space. The SDK is a design space.",
+      "start": 513.76,
+      "duration": 5.12
+    },
+    {
+      "text": "So is the UI. When a payment fails and",
+      "start": 516.24,
+      "duration": 4.4
+    },
+    {
+      "text": "the error tells the customer exactly",
+      "start": 518.88,
+      "duration": 4.8
+    },
+    {
+      "text": "what to do next, somebody designed that",
+      "start": 520.64,
+      "duration": 5.68
+    },
+    {
+      "text": "fallback experience. When an agent",
+      "start": 523.68,
+      "duration": 4.32
+    },
+    {
+      "text": "reaches a permission boundary, yes,",
+      "start": 526.32,
+      "duration": 3.519
+    },
+    {
+      "text": "we're designing for agents now, and",
+      "start": 528.0,
+      "duration": 4.0
+    },
+    {
+      "text": "explains what it needs to do instead of",
+      "start": 529.839,
+      "duration": 4.481
+    },
+    {
+      "text": "failing silently, someone designed that",
+      "start": 532.0,
+      "duration": 5.36
+    },
+    {
+      "text": "agentic experience. A designer who only",
+      "start": 534.32,
+      "duration": 5.68
+    },
+    {
+      "text": "designs screens is now designing the",
+      "start": 537.36,
+      "duration": 4.56
+    },
+    {
+      "text": "lobby while the rest of the building",
+      "start": 540.0,
+      "duration": 3.2
+    },
+    {
+      "text": "gets built without them. We don't want",
+      "start": 541.92,
+      "duration": 3.599
+    },
+    {
+      "text": "to be in that position because we need",
+      "start": 543.2,
+      "duration": 5.04
+    },
+    {
+      "text": "the questions design asks all the way",
+      "start": 545.519,
+      "duration": 4.641
+    },
+    {
+      "text": "through our technical systems. I don't",
+      "start": 548.24,
+      "duration": 3.76
+    },
+    {
+      "text": "see a world where we aren't using",
+      "start": 550.16,
+      "duration": 3.679
+    },
+    {
+      "text": "design. I see a world where design is",
+      "start": 552.0,
+      "duration": 3.839
+    },
+    {
+      "text": "overmployed because there's so many more",
+      "start": 553.839,
+      "duration": 4.481
+    },
+    {
+      "text": "surfaces that need good design input. So",
+      "start": 555.839,
+      "duration": 3.761
+    },
+    {
+      "text": "these different commandments I",
+      "start": 558.32,
+      "duration": 3.36
+    },
+    {
+      "text": "mentioned, these rules of the road, they",
+      "start": 559.6,
+      "duration": 4.16
+    },
+    {
+      "text": "form one system. If you remove road",
+      "start": 561.68,
+      "duration": 3.68
+    },
+    {
+      "text": "maps, you have to have a system for",
+      "start": 563.76,
+      "duration": 3.759
+    },
+    {
+      "text": "replacing distant coordination with",
+      "start": 565.36,
+      "duration": 4.88
+    },
+    {
+      "text": "daily contact, clear accountability, and",
+      "start": 567.519,
+      "duration": 5.121
+    },
+    {
+      "text": "a customer experience that's concrete",
+      "start": 570.24,
+      "duration": 4.159
+    },
+    {
+      "text": "enough that you can judge. And you need",
+      "start": 572.64,
+      "duration": 3.04
+    },
+    {
+      "text": "to be able to do all of that in real",
+      "start": 574.399,
+      "duration": 3.44
+    },
+    {
+      "text": "time. That's what that whole cluster of",
+      "start": 575.68,
+      "duration": 4.0
+    },
+    {
+      "text": "commandments is all about. So here's our",
+      "start": 577.839,
+      "duration": 3.761
+    },
+    {
+      "text": "writing system. Commandment two says no",
+      "start": 579.68,
+      "duration": 3.68
+    },
+    {
+      "text": "meetings longer than an hour. If that",
+      "start": 581.6,
+      "duration": 3.679
+    },
+    {
+      "text": "forces documentation, that is the point.",
+      "start": 583.36,
+      "duration": 4.0
+    },
+    {
+      "text": "You want to be prioritizing",
+      "start": 585.279,
+      "duration": 4.081
+    },
+    {
+      "text": "documentation because increasingly we",
+      "start": 587.36,
+      "duration": 4.4
+    },
+    {
+      "text": "have agents that need to have feedback",
+      "start": 589.36,
+      "duration": 4.88
+    },
+    {
+      "text": "on the things we discuss in meetings.",
+      "start": 591.76,
+      "duration": 4.0
+    },
+    {
+      "text": "Writing is a forcing function for",
+      "start": 594.24,
+      "duration": 3.76
+    },
+    {
+      "text": "agents. And this gets to commandment 11,",
+      "start": 595.76,
+      "duration": 4.72
+    },
+    {
+      "text": "which talks about documentation as code.",
+      "start": 598.0,
+      "duration": 4.24
+    },
+    {
+      "text": "I mean that more literally than I would",
+      "start": 600.48,
+      "duration": 3.919
+    },
+    {
+      "text": "have meant it even a year or so ago.",
+      "start": 602.24,
+      "duration": 4.64
+    },
+    {
+      "text": "Agents read documents and they use them",
+      "start": 604.399,
+      "duration": 4.56
+    },
+    {
+      "text": "to decide what to do. A document can",
+      "start": 606.88,
+      "duration": 3.76
+    },
+    {
+      "text": "supply the standard, the source",
+      "start": 608.959,
+      "duration": 3.521
+    },
+    {
+      "text": "hierarchy, the permissions, the",
+      "start": 610.64,
+      "duration": 4.8
+    },
+    {
+      "text": "escalation path, the definition of done.",
+      "start": 612.48,
+      "duration": 5.44
+    },
+    {
+      "text": "If you have ambiguous documents, you are",
+      "start": 615.44,
+      "duration": 4.48
+    },
+    {
+      "text": "just spreading chaos through that",
+      "start": 617.92,
+      "duration": 4.8
+    },
+    {
+      "text": "system. You need to obsess over your",
+      "start": 619.92,
+      "duration": 5.039
+    },
+    {
+      "text": "documents so that they are clear.",
+      "start": 622.72,
+      "duration": 4.48
+    },
+    {
+      "text": "Otherwise, you're just pushing that",
+      "start": 624.959,
+      "duration": 3.921
+    },
+    {
+      "text": "chaos downstream. And that's actually",
+      "start": 627.2,
+      "duration": 4.56
+    },
+    {
+      "text": "the risk of AI slop. I don't care if you",
+      "start": 628.88,
+      "duration": 4.639
+    },
+    {
+      "text": "say you're absolutely right in a",
+      "start": 631.76,
+      "duration": 3.68
+    },
+    {
+      "text": "document. I do care if you know what's",
+      "start": 633.519,
+      "duration": 5.201
+    },
+    {
+      "text": "in it. I care if you understand what",
+      "start": 635.44,
+      "duration": 4.72
+    },
+    {
+      "text": "you're trying to accomplish with that",
+      "start": 638.72,
+      "duration": 3.6
+    },
+    {
+      "text": "document. And so often when people sit",
+      "start": 640.16,
+      "duration": 4.16
+    },
+    {
+      "text": "down to write, they don't have that",
+      "start": 642.32,
+      "duration": 4.72
+    },
+    {
+      "text": "clarity. And what comes through is AI",
+      "start": 644.32,
+      "duration": 4.56
+    },
+    {
+      "text": "slot because the human clarity isn't",
+      "start": 647.04,
+      "duration": 4.16
+    },
+    {
+      "text": "there. There's no substitute for that. I",
+      "start": 648.88,
+      "duration": 3.68
+    },
+    {
+      "text": "want to be really clear about that.",
+      "start": 651.2,
+      "duration": 3.12
+    },
+    {
+      "text": "There's no substitute for that. I",
+      "start": 652.56,
+      "duration": 3.68
+    },
+    {
+      "text": "learned the discipline behind writing at",
+      "start": 654.32,
+      "duration": 3.84
+    },
+    {
+      "text": "Amazon. Long before the current agent",
+      "start": 656.24,
+      "duration": 3.76
+    },
+    {
+      "text": "wave, we had to type everything by hand",
+      "start": 658.16,
+      "duration": 5.119
+    },
+    {
+      "text": "like troglodites. I once got to 57",
+      "start": 660.0,
+      "duration": 5.519
+    },
+    {
+      "text": "drafts of a six-page narrative. In",
+      "start": 663.279,
+      "duration": 4.161
+    },
+    {
+      "text": "product, we had a culture of learning to",
+      "start": 665.519,
+      "duration": 3.44
+    },
+    {
+      "text": "write from one another. We would take",
+      "start": 667.44,
+      "duration": 3.76
+    },
+    {
+      "text": "lunches and sit down and review docs",
+      "start": 668.959,
+      "duration": 4.961
+    },
+    {
+      "text": "together because that helped us make our",
+      "start": 671.2,
+      "duration": 4.56
+    },
+    {
+      "text": "own docs better and it helped us to",
+      "start": 673.92,
+      "duration": 3.599
+    },
+    {
+      "text": "critique others. It helped us to ask",
+      "start": 675.76,
+      "duration": 4.56
+    },
+    {
+      "text": "questions better. It led to a stronger",
+      "start": 677.519,
+      "duration": 5.601
+    },
+    {
+      "text": "document culture that should not die. We",
+      "start": 680.32,
+      "duration": 4.48
+    },
+    {
+      "text": "don't all need to adopt the exact same",
+      "start": 683.12,
+      "duration": 4.0
+    },
+    {
+      "text": "document standards as Amazon, but we all",
+      "start": 684.8,
+      "duration": 4.479
+    },
+    {
+      "text": "need to care about our writing that much",
+      "start": 687.12,
+      "duration": 5.2
+    },
+    {
+      "text": "in the age of agents. We need to treat",
+      "start": 689.279,
+      "duration": 5.201
+    },
+    {
+      "text": "the clarity of intent we communicate",
+      "start": 692.32,
+      "duration": 4.0
+    },
+    {
+      "text": "through writing with that degree of",
+      "start": 694.48,
+      "duration": 3.76
+    },
+    {
+      "text": "rigor. And this is where we get to",
+      "start": 696.32,
+      "duration": 4.0
+    },
+    {
+      "text": "commandment 7. So commandment 7 talks",
+      "start": 698.24,
+      "duration": 4.64
+    },
+    {
+      "text": "about killing monthly meetings. We want",
+      "start": 700.32,
+      "duration": 5.6
+    },
+    {
+      "text": "to be in a place where we are auditing",
+      "start": 702.88,
+      "duration": 5.519
+    },
+    {
+      "text": "our regular time commitments and we are",
+      "start": 705.92,
+      "duration": 5.039
+    },
+    {
+      "text": "allocating more time to building because",
+      "start": 708.399,
+      "duration": 4.641
+    },
+    {
+      "text": "as I discussed earlier in this video,",
+      "start": 710.959,
+      "duration": 3.921
+    },
+    {
+      "text": "it's an incredible time to build. We",
+      "start": 713.04,
+      "duration": 3.68
+    },
+    {
+      "text": "have so much leverage in building if we",
+      "start": 714.88,
+      "duration": 3.68
+    },
+    {
+      "text": "have ambition, if we have alignment. And",
+      "start": 716.72,
+      "duration": 3.6
+    },
+    {
+      "text": "if you're wondering, I did actually",
+      "start": 718.56,
+      "duration": 4.399
+    },
+    {
+      "text": "build a tool for this. I built a tool to",
+      "start": 720.32,
+      "duration": 4.32
+    },
+    {
+      "text": "help you audit your meetings because",
+      "start": 722.959,
+      "duration": 3.841
+    },
+    {
+      "text": "this is something that is personal to",
+      "start": 724.64,
+      "duration": 4.24
+    },
+    {
+      "text": "me. I want to make sure we use our time",
+      "start": 726.8,
+      "duration": 3.44
+    },
+    {
+      "text": "well. If we're going to have meetings, I",
+      "start": 728.88,
+      "duration": 3.68
+    },
+    {
+      "text": "want them to be effective. So if that's",
+      "start": 730.24,
+      "duration": 3.68
+    },
+    {
+      "text": "you, if you want to use your time",
+      "start": 732.56,
+      "duration": 2.88
+    },
+    {
+      "text": "better, I've got a tool for you. There's",
+      "start": 733.92,
+      "duration": 2.8
+    },
+    {
+      "text": "there's a link below. We can get into",
+      "start": 735.44,
+      "duration": 3.04
+    },
+    {
+      "text": "it. So that's the writing cluster. We",
+      "start": 736.72,
+      "duration": 3.2
+    },
+    {
+      "text": "talk about the quality at which we need",
+      "start": 738.48,
+      "duration": 2.799
+    },
+    {
+      "text": "to write. We talk about our time",
+      "start": 739.92,
+      "duration": 3.039
+    },
+    {
+      "text": "commitment. We talk about how we spend",
+      "start": 741.279,
+      "duration": 4.161
+    },
+    {
+      "text": "time in meetings. We talk about where we",
+      "start": 742.959,
+      "duration": 4.481
+    },
+    {
+      "text": "go with writing so we can save time in",
+      "start": 745.44,
+      "duration": 4.399
+    },
+    {
+      "text": "meetings. And you can see how this all",
+      "start": 747.44,
+      "duration": 5.68
+    },
+    {
+      "text": "adds up to thinking about intent. Are we",
+      "start": 749.839,
+      "duration": 4.8
+    },
+    {
+      "text": "communicating intent clearly in",
+      "start": 753.12,
+      "duration": 3.2
+    },
+    {
+      "text": "meetings? Are we communicating intent",
+      "start": 754.639,
+      "duration": 4.561
+    },
+    {
+      "text": "clearly in writing? The third cluster is",
+      "start": 756.32,
+      "duration": 4.959
+    },
+    {
+      "text": "a behavioral cluster. It's for us",
+      "start": 759.2,
+      "duration": 4.319
+    },
+    {
+      "text": "humans. It's about making the speed of",
+      "start": 761.279,
+      "duration": 4.721
+    },
+    {
+      "text": "AI survivable for human cultures and",
+      "start": 763.519,
+      "duration": 4.961
+    },
+    {
+      "text": "teams because it is a big change. So,",
+      "start": 766.0,
+      "duration": 4.0
+    },
+    {
+      "text": "Commandment 8 talks about staying",
+      "start": 768.48,
+      "duration": 3.44
+    },
+    {
+      "text": "flexible to deliver value like like",
+      "start": 770.0,
+      "duration": 4.399
+    },
+    {
+      "text": "water over stone. They're able to adapt.",
+      "start": 771.92,
+      "duration": 4.24
+    },
+    {
+      "text": "I think that's especially important. I",
+      "start": 774.399,
+      "duration": 3.68
+    },
+    {
+      "text": "know you've seen that in business books.",
+      "start": 776.16,
+      "duration": 3.6
+    },
+    {
+      "text": "But the reason that matters in the age",
+      "start": 778.079,
+      "duration": 4.56
+    },
+    {
+      "text": "of AI is because we are communicating",
+      "start": 779.76,
+      "duration": 5.12
+    },
+    {
+      "text": "and writing more. We're used to talking",
+      "start": 782.639,
+      "duration": 5.281
+    },
+    {
+      "text": "face to face. We now have more value on",
+      "start": 784.88,
+      "duration": 5.04
+    },
+    {
+      "text": "those facetoface meetings. And it's",
+      "start": 787.92,
+      "duration": 3.68
+    },
+    {
+      "text": "really important that the writing level",
+      "start": 789.92,
+      "duration": 4.4
+    },
+    {
+      "text": "up and that we assume best intent.",
+      "start": 791.6,
+      "duration": 4.56
+    },
+    {
+      "text": "There's no reason, no matter what your",
+      "start": 794.32,
+      "duration": 4.16
+    },
+    {
+      "text": "level is, to moan or complain. And the",
+      "start": 796.16,
+      "duration": 5.04
+    },
+    {
+      "text": "reason why is that we all have access to",
+      "start": 798.48,
+      "duration": 4.72
+    },
+    {
+      "text": "an incredible amount of intelligence and",
+      "start": 801.2,
+      "duration": 4.48
+    },
+    {
+      "text": "tooling to build solutions. We should be",
+      "start": 803.2,
+      "duration": 4.72
+    },
+    {
+      "text": "in a position, regardless of our level",
+      "start": 805.68,
+      "duration": 3.599
+    },
+    {
+      "text": "in the business, where we can either",
+      "start": 807.92,
+      "duration": 2.96
+    },
+    {
+      "text": "directly fix the problem we're worried",
+      "start": 809.279,
+      "duration": 4.321
+    },
+    {
+      "text": "about or propose a fix and propose a",
+      "start": 810.88,
+      "duration": 4.24
+    },
+    {
+      "text": "complete fix. And that gets to",
+      "start": 813.6,
+      "duration": 3.12
+    },
+    {
+      "text": "commandment 14, which talks about",
+      "start": 815.12,
+      "duration": 3.44
+    },
+    {
+      "text": "building with a team. You do not build",
+      "start": 816.72,
+      "duration": 2.96
+    },
+    {
+      "text": "alone. And this is somewhat",
+      "start": 818.56,
+      "duration": 2.719
+    },
+    {
+      "text": "controversial. I know that there are",
+      "start": 819.68,
+      "duration": 3.2
+    },
+    {
+      "text": "entire startups out there that are all",
+      "start": 821.279,
+      "duration": 3.521
+    },
+    {
+      "text": "about the oneperson billion-dollar",
+      "start": 822.88,
+      "duration": 4.88
+    },
+    {
+      "text": "company. I believe enduring businesses",
+      "start": 824.8,
+      "duration": 5.36
+    },
+    {
+      "text": "are built with teams. They may not be as",
+      "start": 827.76,
+      "duration": 4.16
+    },
+    {
+      "text": "large as they were in the past because",
+      "start": 830.16,
+      "duration": 3.6
+    },
+    {
+      "text": "we can do so much with a small team",
+      "start": 831.92,
+      "duration": 5.2
+    },
+    {
+      "text": "that's wellcoordinated, but great small",
+      "start": 833.76,
+      "duration": 5.92
+    },
+    {
+      "text": "teams build incredible things and",
+      "start": 837.12,
+      "duration": 4.48
+    },
+    {
+      "text": "they're building together because",
+      "start": 839.68,
+      "duration": 4.159
+    },
+    {
+      "text": "building together enables us to catch",
+      "start": 841.6,
+      "duration": 4.56
+    },
+    {
+      "text": "each other's mistakes, to clarify intent",
+      "start": 843.839,
+      "duration": 5.12
+    },
+    {
+      "text": "for AI, and ultimately to build more",
+      "start": 846.16,
+      "duration": 5.119
+    },
+    {
+      "text": "effectively for customers. Find a",
+      "start": 848.959,
+      "duration": 3.601
+    },
+    {
+      "text": "community. Doesn't have to be mine. Find",
+      "start": 851.279,
+      "duration": 2.961
+    },
+    {
+      "text": "somebody else's community. That's great,",
+      "start": 852.56,
+      "duration": 3.68
+    },
+    {
+      "text": "but find a community. Teamwork matters",
+      "start": 854.24,
+      "duration": 4.32
+    },
+    {
+      "text": "because cheap individual output is not",
+      "start": 856.24,
+      "duration": 4.56
+    },
+    {
+      "text": "the same as making something that people",
+      "start": 858.56,
+      "duration": 4.88
+    },
+    {
+      "text": "want. One person and one agent can",
+      "start": 860.8,
+      "duration": 4.479
+    },
+    {
+      "text": "produce an enormous amount of material,",
+      "start": 863.44,
+      "duration": 4.24
+    },
+    {
+      "text": "but they still need all of us working",
+      "start": 865.279,
+      "duration": 4.161
+    },
+    {
+      "text": "together to get to taste and domain",
+      "start": 867.68,
+      "duration": 4.0
+    },
+    {
+      "text": "knowledge and customer connection and",
+      "start": 869.44,
+      "duration": 4.16
+    },
+    {
+      "text": "brand and willingness to say that this",
+      "start": 871.68,
+      "duration": 3.519
+    },
+    {
+      "text": "doesn't work and have some courage to",
+      "start": 873.6,
+      "duration": 3.2
+    },
+    {
+      "text": "actually confront that. And there's one",
+      "start": 875.199,
+      "duration": 3.121
+    },
+    {
+      "text": "more commandment I want to bring up here",
+      "start": 876.8,
+      "duration": 3.599
+    },
+    {
+      "text": "that's in this cluster of of adjusting",
+      "start": 878.32,
+      "duration": 4.079
+    },
+    {
+      "text": "to our world of AI. I call it the",
+      "start": 880.399,
+      "duration": 3.921
+    },
+    {
+      "text": "teaching commandment. It's about helping",
+      "start": 882.399,
+      "duration": 4.0
+    },
+    {
+      "text": "folks along who are not going as fast",
+      "start": 884.32,
+      "duration": 3.68
+    },
+    {
+      "text": "and learning from folks who are going",
+      "start": 886.399,
+      "duration": 4.0
+    },
+    {
+      "text": "faster. That is how we all get faster",
+      "start": 888.0,
+      "duration": 4.32
+    },
+    {
+      "text": "together. It's true in organizations. If",
+      "start": 890.399,
+      "duration": 3.44
+    },
+    {
+      "text": "you don't have an organization or if you",
+      "start": 892.32,
+      "duration": 3.36
+    },
+    {
+      "text": "want to learn from others, it's true",
+      "start": 893.839,
+      "duration": 4.56
+    },
+    {
+      "text": "outside in internet communities as well.",
+      "start": 895.68,
+      "duration": 4.719
+    },
+    {
+      "text": "Now, before we close, there are two",
+      "start": 898.399,
+      "duration": 4.081
+    },
+    {
+      "text": "common ways to ruin this whole concept.",
+      "start": 900.399,
+      "duration": 4.401
+    },
+    {
+      "text": "And the first is partial adoption. If",
+      "start": 902.48,
+      "duration": 5.28
+    },
+    {
+      "text": "you only take the no roadmap rule for",
+      "start": 904.8,
+      "duration": 5.279
+    },
+    {
+      "text": "example, but you don't get your PMs into",
+      "start": 907.76,
+      "duration": 4.24
+    },
+    {
+      "text": "the code, all you're doing is producing",
+      "start": 910.079,
+      "duration": 4.161
+    },
+    {
+      "text": "chaos. And one of the things I see in",
+      "start": 912.0,
+      "duration": 3.839
+    },
+    {
+      "text": "the journey of adoption for a lot of",
+      "start": 914.24,
+      "duration": 4.32
+    },
+    {
+      "text": "firms outside the valley is that they",
+      "start": 915.839,
+      "duration": 5.201
+    },
+    {
+      "text": "don't realize that they have to actually",
+      "start": 918.56,
+      "duration": 4.719
+    },
+    {
+      "text": "do this process all at once or it's",
+      "start": 921.04,
+      "duration": 3.76
+    },
+    {
+      "text": "going to fail. And it's going to be",
+      "start": 923.279,
+      "duration": 3.601
+    },
+    {
+      "text": "painful, but it's easier to adjust to it",
+      "start": 924.8,
+      "duration": 4.08
+    },
+    {
+      "text": "if you set out the entire expectation",
+      "start": 926.88,
+      "duration": 3.759
+    },
+    {
+      "text": "set. Why am I talking about all these at",
+      "start": 928.88,
+      "duration": 4.399
+    },
+    {
+      "text": "once? It can be overwhelming to get 15",
+      "start": 930.639,
+      "duration": 4.401
+    },
+    {
+      "text": "of these rules and be like, \"Oh my gosh,",
+      "start": 933.279,
+      "duration": 3.601
+    },
+    {
+      "text": "it's too much.\" But I want to let you",
+      "start": 935.04,
+      "duration": 4.64
+    },
+    {
+      "text": "know that I'm sharing them all at once",
+      "start": 936.88,
+      "duration": 4.639
+    },
+    {
+      "text": "because the teams that I see that are",
+      "start": 939.68,
+      "duration": 4.08
+    },
+    {
+      "text": "successfully accelerating cadences",
+      "start": 941.519,
+      "duration": 4.641
+    },
+    {
+      "text": "aren't biting this off piece by piece.",
+      "start": 943.76,
+      "duration": 4.319
+    },
+    {
+      "text": "They are actually looking at this as an",
+      "start": 946.16,
+      "duration": 3.919
+    },
+    {
+      "text": "interconnected systems where humans need",
+      "start": 948.079,
+      "duration": 4.0
+    },
+    {
+      "text": "to change. Clarity of intent needs to",
+      "start": 950.079,
+      "duration": 3.841
+    },
+    {
+      "text": "change around writing and getting into",
+      "start": 952.079,
+      "duration": 3.76
+    },
+    {
+      "text": "the code needs to change. The way you",
+      "start": 953.92,
+      "duration": 3.44
+    },
+    {
+      "text": "get into the code needs to change. And",
+      "start": 955.839,
+      "duration": 3.521
+    },
+    {
+      "text": "so there is no substitution. And that's",
+      "start": 957.36,
+      "duration": 4.32
+    },
+    {
+      "text": "why I want to call out two failure modes",
+      "start": 959.36,
+      "duration": 4.96
+    },
+    {
+      "text": "that I see. One of them, as I'm kind of",
+      "start": 961.68,
+      "duration": 4.64
+    },
+    {
+      "text": "hinting, is just taking a part of this.",
+      "start": 964.32,
+      "duration": 3.519
+    },
+    {
+      "text": "Oh, you know what, Nate? You're right.",
+      "start": 966.32,
+      "duration": 3.759
+    },
+    {
+      "text": "We should get better at no meetings.",
+      "start": 967.839,
+      "duration": 3.36
+    },
+    {
+      "text": "That's not going to get you where you",
+      "start": 970.079,
+      "duration": 2.641
+    },
+    {
+      "text": "want to go. You actually have to look at",
+      "start": 971.199,
+      "duration": 4.241
+    },
+    {
+      "text": "the whole system as a way of building",
+      "start": 972.72,
+      "duration": 6.0
+    },
+    {
+      "text": "human infrastructure to accelerate",
+      "start": 975.44,
+      "duration": 7.36
+    },
+    {
+      "text": "moving the company toward a codefocused,",
+      "start": 978.72,
+      "duration": 6.96
+    },
+    {
+      "text": "agentfocused reality. You are moving",
+      "start": 982.8,
+      "duration": 4.88
+    },
+    {
+      "text": "more of the company into code so that",
+      "start": 985.68,
+      "duration": 3.92
+    },
+    {
+      "text": "agents can operate against it. So you",
+      "start": 987.68,
+      "duration": 3.92
+    },
+    {
+      "text": "can get higher quality, faster results.",
+      "start": 989.6,
+      "duration": 3.599
+    },
+    {
+      "text": "That's really what this is all about.",
+      "start": 991.6,
+      "duration": 4.72
+    },
+    {
+      "text": "And so a lot of the root of why OpenAI",
+      "start": 993.199,
+      "duration": 5.041
+    },
+    {
+      "text": "and Anthropic are shipping faster is",
+      "start": 996.32,
+      "duration": 4.959
+    },
+    {
+      "text": "because they have had this culture. They",
+      "start": 998.24,
+      "duration": 5.12
+    },
+    {
+      "text": "are teaching this culture. They are",
+      "start": 1001.279,
+      "duration": 3.761
+    },
+    {
+      "text": "inculcating this culture and they are",
+      "start": 1003.36,
+      "duration": 3.36
+    },
+    {
+      "text": "hiring for this culture. And so they're",
+      "start": 1005.04,
+      "duration": 3.52
+    },
+    {
+      "text": "reinforcing it as they go and it's",
+      "start": 1006.72,
+      "duration": 3.44
+    },
+    {
+      "text": "speeding up. It's like everyone they",
+      "start": 1008.56,
+      "duration": 4.16
+    },
+    {
+      "text": "hire at Anthropic is expecting this kind",
+      "start": 1010.16,
+      "duration": 5.2
+    },
+    {
+      "text": "of speed now. And that makes it so much",
+      "start": 1012.72,
+      "duration": 4.559
+    },
+    {
+      "text": "easier than coming into a company where",
+      "start": 1015.36,
+      "duration": 4.32
+    },
+    {
+      "text": "everyone expected quarterly releases and",
+      "start": 1017.279,
+      "duration": 4.161
+    },
+    {
+      "text": "trying to get them to speed up. There is",
+      "start": 1019.68,
+      "duration": 3.76
+    },
+    {
+      "text": "a massive culture change and that is",
+      "start": 1021.44,
+      "duration": 3.359
+    },
+    {
+      "text": "part of what is going on. And that is",
+      "start": 1023.44,
+      "duration": 3.28
+    },
+    {
+      "text": "why I keep saying you got to have this",
+      "start": 1024.799,
+      "duration": 3.76
+    },
+    {
+      "text": "whole conversation and be willing to",
+      "start": 1026.72,
+      "duration": 4.079
+    },
+    {
+      "text": "move the whole business forward. Okay,",
+      "start": 1028.559,
+      "duration": 4.48
+    },
+    {
+      "text": "if you want to dive into this much more",
+      "start": 1030.799,
+      "duration": 4.321
+    },
+    {
+      "text": "deeply, I have a whole Substack article",
+      "start": 1033.039,
+      "duration": 3.92
+    },
+    {
+      "text": "on this that you can dig into. There's",
+      "start": 1035.12,
+      "duration": 3.52
+    },
+    {
+      "text": "obviously the calendar tool that I built",
+      "start": 1036.959,
+      "duration": 4.48
+    },
+    {
+      "text": "for this. And I have, of course, a",
+      "start": 1038.64,
+      "duration": 4.08
+    },
+    {
+      "text": "companion guide that you can run",
+      "start": 1041.439,
+      "duration": 2.88
+    },
+    {
+      "text": "through, feed to your agent, and",
+      "start": 1042.72,
+      "duration": 4.4
+    },
+    {
+      "text": "actually build a complete change",
+      "start": 1044.319,
+      "duration": 5.201
+    },
+    {
+      "text": "management process for you, for your",
+      "start": 1047.12,
+      "duration": 3.76
+    },
+    {
+      "text": "company, for your team, whatever scale",
+      "start": 1049.52,
+      "duration": 2.72
+    },
+    {
+      "text": "you're at. Because I want to make this",
+      "start": 1050.88,
+      "duration": 2.48
+    },
+    {
+      "text": "easy. I want you to be able to apply",
+      "start": 1052.24,
+      "duration": 2.799
+    },
+    {
+      "text": "this in a way that's useful for you.",
+      "start": 1053.36,
+      "duration": 3.28
+    },
+    {
+      "text": "This video is a starting point. This",
+      "start": 1055.039,
+      "duration": 3.681
+    },
+    {
+      "text": "video should get you thinking about what",
+      "start": 1056.64,
+      "duration": 4.399
+    },
+    {
+      "text": "it really takes to transform in the age",
+      "start": 1058.72,
+      "duration": 4.4
+    },
+    {
+      "text": "of AI. I hope it does. I hope you had",
+      "start": 1061.039,
+      "duration": 3.681
+    },
+    {
+      "text": "fun. I hope you're excited for it.",
+      "start": 1063.12,
+      "duration": 3.28
+    },
+    {
+      "text": "There's a whole discussion on that",
+      "start": 1064.72,
+      "duration": 5.4
+    },
+    {
+      "text": "coming on Monday.",
+      "start": 1066.4,
+      "duration": 3.72
+    }
+  ]
+}

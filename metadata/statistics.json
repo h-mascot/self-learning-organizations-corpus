@@ -6,13 +6,13 @@
     "repository-preprint": 13,
     "thesis": 1
   },
-  "accepted_sources": 639,
+  "accepted_sources": 640,
   "blocked_sources": 0,
   "by_artifact_level": {
     "abstract": 165,
     "full_text": 88,
     "metadata_only": 300,
-    "transcript": 101,
+    "transcript": 102,
     "unavailable": 399
   },
   "by_content_type": {
@@ -24,10 +24,10 @@
     "post": 75,
     "repository": 223,
     "talk": 53,
-    "transcript": 101
+    "transcript": 102
   },
   "by_lifecycle": {
-    "accepted": 639,
+    "accepted": 640,
     "rejected": 414
   },
   "by_platform": {
@@ -41,7 +41,7 @@
     "reddit": 25,
     "substack": 25,
     "x": 50,
-    "youtube": 101
+    "youtube": 102
   },
   "by_provenance": {
     "Arctic Shift public Reddit archive record with exact post ID": 25,
@@ -713,14 +713,15 @@
     "YouTube captions retained from the original repository seed": 1,
     "YouTube transcript retained from the goal/youtube worker via groq-whisper-asr": 90,
     "YouTube transcript retained from the goal/youtube worker via groq-whisper-large-v3-turbo": 5,
-    "YouTube transcript retained from the goal/youtube worker via legacy-youtube-captions": 5
+    "YouTube transcript retained from the goal/youtube worker via legacy-youtube-captions": 5,
+    "YouTube transcript retained via youtube-transcript-api": 1
   },
   "by_rights_status": {
     "bounded-public-evidence": 252,
     "metadata-only": 174,
     "open-license": 236,
     "retrieval-evidence-only": 16,
-    "third-party": 201,
+    "third-party": 202,
     "third-party-metadata-and-abstract": 174
   },
   "channels": {
@@ -1591,33 +1592,34 @@
       "retrieved": 50
     },
     "youtube": {
-      "accepted": 100,
+      "accepted": 101,
       "blocked": 0,
       "by_artifact_level": {
-        "transcript": 101
+        "transcript": 102
       },
       "by_lifecycle": {
-        "accepted": 100,
+        "accepted": 101,
         "rejected": 1
       },
       "by_provenance": {
         "YouTube captions retained from the original repository seed": 1,
         "YouTube transcript retained from the goal/youtube worker via groq-whisper-asr": 90,
         "YouTube transcript retained from the goal/youtube worker via groq-whisper-large-v3-turbo": 5,
-        "YouTube transcript retained from the goal/youtube worker via legacy-youtube-captions": 5
+        "YouTube transcript retained from the goal/youtube worker via legacy-youtube-captions": 5,
+        "YouTube transcript retained via youtube-transcript-api": 1
       },
       "by_rights_status": {
-        "third-party": 101
+        "third-party": 102
       },
-      "discovered": 101,
+      "discovered": 102,
       "rejected": 1,
-      "retrieved": 101
+      "retrieved": 102
     }
   },
-  "complete_timestamped_transcripts": 100,
-  "discovered_sources": 1053,
+  "complete_timestamped_transcripts": 101,
+  "discovered_sources": 1054,
   "rejected_sources": 414,
-  "retrieved_sources": 1053,
+  "retrieved_sources": 1054,
   "saturation": {
     "academic_status": "met: wave 6 has three consecutive eligible post-acceptance rounds below 5%",
     "candidate_count": 611,
@@ -1640,6 +1642,6 @@
     "unsaturated_channels": []
   },
   "schema_version": 2,
-  "total_records": 1053,
-  "validated_relevant_sources": 639
+  "total_records": 1054,
+  "validated_relevant_sources": 640
 }

@@ -4,16 +4,16 @@ Open research corpus about self-learning, self-improving, AI-native organization
 
 ## Corpus status
 
-- Accounted canonical/evidence records: **1053**
-- Accepted relevant sources: **639**
-- Retrieved records (including accepted/rejected): **1053**
+- Accounted canonical/evidence records: **1054**
+- Accepted relevant sources: **640**
+- Retrieved records (including accepted/rejected): **1054**
 - Rejected records: **414**
 - Blocked retrieval records: **0**
-- Complete timestamped YouTube transcripts: **100**
+- Complete timestamped YouTube transcripts: **101**
 
 | Platform | Discovered | Retrieved | Accepted | Rejected | Blocked | Artifact levels | Rights statuses | Provenance coverage |
 | --- | ---: | ---: | ---: | ---: | ---: | --- | --- | --- |
-| youtube | 101 | 101 | 100 | 1 | 0 | transcript: 101 | third-party: 101 | 101 records / 4 distinct values |
+| youtube | 102 | 102 | 101 | 1 | 0 | transcript: 102 | third-party: 102 | 102 records / 5 distinct values |
 | academic | 201 | 201 | 187 | 14 | 0 | abstract: 165, full_text: 13, metadata_only: 23 | open-license: 27, third-party-metadata-and-abstract: 174 | 201 records / 201 distinct values |
 | x | 50 | 50 | 50 | 0 | 0 | full_text: 50 | third-party: 50 | 50 records / 1 distinct values |
 | reddit | 25 | 25 | 25 | 0 | 0 | full_text: 25 | third-party: 25 | 25 records / 1 distinct values |
@@ -30,12 +30,12 @@ Open research corpus about self-learning, self-improving, AI-native organization
 | abstract | 165 |
 | full_text | 88 |
 | metadata_only | 300 |
-| transcript | 101 |
+| transcript | 102 |
 | unavailable | 399 |
 
 | Lifecycle | Records |
 | --- | ---: |
-| accepted | 639 |
+| accepted | 640 |
 | rejected | 414 |
 
 | Rights status | Records |
@@ -44,7 +44,7 @@ Open research corpus about self-learning, self-improving, AI-native organization
 | metadata-only | 174 |
 | open-license | 236 |
 | retrieval-evidence-only | 16 |
-| third-party | 201 |
+| third-party | 202 |
 | third-party-metadata-and-abstract | 174 |
 
 ## Layout and contracts
