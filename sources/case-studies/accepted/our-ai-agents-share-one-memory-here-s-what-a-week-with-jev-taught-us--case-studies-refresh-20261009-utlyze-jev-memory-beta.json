@@ -21,7 +21,8 @@
   "published_date": "2026-09-26",
   "publisher": "Utlyze",
   "query_ids": [
-    "refresh-20261009-case-studies-utlyze-jev"
+    "refresh-20261009-case-studies-websearch-review",
+    "refresh-20261009-case-studies-publisher-review"
   ],
   "rejection_reason": null,
   "relevance_evidence": [

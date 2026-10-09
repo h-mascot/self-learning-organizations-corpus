@@ -5,9 +5,9 @@ Open research corpus about self-learning, self-improving, AI-native organization
 ## Corpus status
 
 - Accounted canonical/evidence records: **1062**
-- Accepted relevant sources: **648**
+- Accepted relevant sources: **647**
 - Retrieved records (including accepted/rejected): **1062**
-- Rejected records: **414**
+- Rejected records: **415**
 - Blocked retrieval records: **0**
 - Complete timestamped YouTube transcripts: **101**
 
@@ -21,7 +21,7 @@ Open research corpus about self-learning, self-improving, AI-native organization
 | blogs | 88 | 88 | 81 | 7 | 0 | metadata_only: 81, unavailable: 7 | bounded-public-evidence: 83, retrieval-evidence-only: 5 | 88 records / 10 distinct values |
 | podcasts | 51 | 51 | 30 | 21 | 0 | metadata_only: 30, unavailable: 21 | bounded-public-evidence: 50, retrieval-evidence-only: 1 | 51 records / 50 distinct values |
 | conferences | 54 | 54 | 31 | 23 | 0 | metadata_only: 31, unavailable: 23 | bounded-public-evidence: 54 | 54 records / 3 distinct values |
-| books | 175 | 175 | 31 | 144 | 0 | metadata_only: 31, unavailable: 144 | metadata-only: 175 | 175 records / 175 distinct values |
+| books | 175 | 175 | 30 | 145 | 0 | metadata_only: 31, unavailable: 144 | metadata-only: 175 | 175 records / 175 distinct values |
 | case-studies | 64 | 64 | 52 | 12 | 0 | metadata_only: 52, unavailable: 12 | bounded-public-evidence: 54, retrieval-evidence-only: 10 | 64 records / 5 distinct values |
 | github | 224 | 224 | 32 | 192 | 0 | metadata_only: 32, unavailable: 192 | bounded-public-evidence: 14, open-license: 210 | 224 records / 224 distinct values |
 
@@ -35,8 +35,8 @@ Open research corpus about self-learning, self-improving, AI-native organization
 
 | Lifecycle | Records |
 | --- | ---: |
-| accepted | 648 |
-| rejected | 414 |
+| accepted | 647 |
+| rejected | 415 |
 
 | Rights status | Records |
 | --- | ---: |

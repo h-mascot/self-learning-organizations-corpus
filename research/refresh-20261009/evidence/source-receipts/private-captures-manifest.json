@@ -1,0 +1,170 @@
+{
+  "captures": [
+    {
+      "bytes": 219458,
+      "content_type": null,
+      "error": null,
+      "name": "writer-agent-memory",
+      "path": "/tmp/corpus-refresh-20261009-private-captures/writer-agent-memory.raw",
+      "retrieved_at": "2026-10-09T11:18:05Z",
+      "sha256": "14b94befccd89c088fceee0dd4a24bfbc2eadfa49f633bee5d3fe09fc4f9b07b",
+      "status": 200,
+      "url": "https://writer.com/engineering/building-agent-memory/"
+    },
+    {
+      "bytes": 102743,
+      "content_type": null,
+      "error": null,
+      "name": "utlyze-jev-memory-beta",
+      "path": "/tmp/corpus-refresh-20261009-private-captures/utlyze-jev-memory-beta.raw",
+      "retrieved_at": "2026-10-09T11:18:05Z",
+      "sha256": "0dd9a1b87b376305aa322e8ac123eba197c006f9400a9f4f8eba780f6d157d02",
+      "status": 200,
+      "url": "https://www.utlyze.com/notes/jev-memory-beta"
+    },
+    {
+      "bytes": 196583,
+      "content_type": null,
+      "error": null,
+      "name": "infoq-linkedin-context-engineering",
+      "path": "/tmp/corpus-refresh-20261009-private-captures/infoq-linkedin-context-engineering.raw",
+      "retrieved_at": "2026-10-09T11:18:05Z",
+      "sha256": "7a850bed575e292f8dc9c2f32eb613a7c29fb9a464cc46f62e29d8117a78d174",
+      "status": 200,
+      "url": "https://www.infoq.com/presentations/linkedin-context-engineering/"
+    },
+    {
+      "bytes": 407482,
+      "content_type": null,
+      "error": null,
+      "name": "manning-self-improving-agents",
+      "path": "/tmp/corpus-refresh-20261009-private-captures/manning-self-improving-agents.raw",
+      "retrieved_at": "2026-10-09T11:18:05Z",
+      "sha256": "71f6ff648ef6355634503019b0c3e64fd12587e749c4696a11bbf95a7f14d725",
+      "status": 200,
+      "url": "https://www.manning.com/books/self-improving-agents"
+    },
+    {
+      "bytes": 460019,
+      "content_type": null,
+      "error": null,
+      "name": "podscripts-stripe-kai",
+      "path": "/tmp/corpus-refresh-20261009-private-captures/podscripts-stripe-kai.raw",
+      "retrieved_at": "2026-10-09T11:18:05Z",
+      "sha256": "c73d97ffe617f9e46cbb9fbaef3522490a0886d57e50a0b60c34913d5009723e",
+      "status": 200,
+      "url": "https://podscripts.co/podcasts/how-i-ai/build-your-own-company-brain-the-enterprise-ai-playbook-from-stripes-engineering-team-sharadh-krishnamurthy"
+    },
+    {
+      "bytes": 285173,
+      "content_type": null,
+      "error": null,
+      "name": "substack-harness-evals",
+      "path": "/tmp/corpus-refresh-20261009-private-captures/substack-harness-evals.raw",
+      "retrieved_at": "2026-10-09T11:18:05Z",
+      "sha256": "f0c0e9775c3d9f8c4cacac294e37b646818e1b91731b38f016d6e21206d59c54",
+      "status": 200,
+      "url": "https://hugobowne.substack.com/p/how-evals-are-central-to-harness"
+    },
+    {
+      "bytes": 0,
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "name": "perplexity-brain",
+      "path": null,
+      "retrieved_at": "2026-10-09T11:18:05Z",
+      "sha256": null,
+      "status": null,
+      "url": "https://www.perplexity.ai/hub/blog/brain-agentic-memory-as-a-knowledge-wiki"
+    },
+    {
+      "bytes": 6585,
+      "content_type": null,
+      "error": null,
+      "name": "github-mem-plus-plus-repo-api",
+      "path": "/tmp/corpus-refresh-20261009-private-captures/github-mem-plus-plus-repo-api.raw",
+      "retrieved_at": "2026-10-09T11:18:05Z",
+      "sha256": "183b594dc3df48dba80f85a2c132a2590a7afe90064e29322f7af73c8f78dea0",
+      "status": 200,
+      "url": "https://api.github.com/repos/AIDAChip-Inc/mem-plus-plus"
+    },
+    {
+      "bytes": 17016,
+      "content_type": null,
+      "error": null,
+      "name": "github-mem-plus-plus-readme-initial",
+      "path": "/tmp/corpus-refresh-20261009-private-captures/github-mem-plus-plus-readme-initial.raw",
+      "retrieved_at": "2026-10-09T11:18:05Z",
+      "sha256": "96da7b754b0649ec7104b11ae44fbc28bf75f5612c0597008fea54e22167f7a4",
+      "status": 200,
+      "url": "https://raw.githubusercontent.com/AIDAChip-Inc/mem-plus-plus/9196597779435736005095574beac11cd3a78742/README.md"
+    },
+    {
+      "bytes": 43740,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "name": "arxiv-entlore-abs",
+      "path": "/tmp/corpus-refresh-20261009-private-captures/arxiv-entlore-abs.raw",
+      "retrieved_at": "2026-10-09T11:18:05Z",
+      "sha256": "2fb92efe68016b425d1ced73fb863133a50fa3d43299e95bee50e7c9d3c5c301",
+      "status": 200,
+      "url": "https://arxiv.org/abs/2608.10679"
+    },
+    {
+      "bytes": 41454,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "name": "arxiv-dolphinbench-abs",
+      "path": "/tmp/corpus-refresh-20261009-private-captures/arxiv-dolphinbench-abs.raw",
+      "retrieved_at": "2026-10-09T11:18:05Z",
+      "sha256": "47527ebcf724e06f301b8b33b06666681ae5b18a8e11e642291007e83d0c7eb7",
+      "status": 200,
+      "url": "https://arxiv.org/abs/2609.24971"
+    },
+    {
+      "bytes": 42758,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "name": "arxiv-mem-plus-plus-abs",
+      "path": "/tmp/corpus-refresh-20261009-private-captures/arxiv-mem-plus-plus-abs.raw",
+      "retrieved_at": "2026-10-09T11:18:05Z",
+      "sha256": "6b4112e031a713eea718a20d6011ce0d9dbcc8cf8846352a3791511f0c91233d",
+      "status": 200,
+      "url": "https://arxiv.org/abs/2610.02002"
+    },
+    {
+      "bytes": 13758,
+      "content_type": null,
+      "error": null,
+      "name": "openalex-entlore",
+      "path": "/tmp/corpus-refresh-20261009-private-captures/openalex-entlore.raw",
+      "retrieved_at": "2026-10-09T11:18:05Z",
+      "sha256": "a5e83d0d31aea37c5075524fa8896527134c50ae5766adb8d534bc3cd09bc9eb",
+      "status": 200,
+      "url": "https://api.openalex.org/works/W7202272297"
+    },
+    {
+      "bytes": 13077,
+      "content_type": null,
+      "error": null,
+      "name": "openalex-dolphinbench",
+      "path": "/tmp/corpus-refresh-20261009-private-captures/openalex-dolphinbench.raw",
+      "retrieved_at": "2026-10-09T11:18:05Z",
+      "sha256": "f1d93952cce83360846dec4ca019d8572dfd10e9c191ca19c3926de9cc5a0cb0",
+      "status": 200,
+      "url": "https://api.openalex.org/works/W7214043592"
+    },
+    {
+      "bytes": 14623,
+      "content_type": null,
+      "error": null,
+      "name": "openalex-mem-plus-plus",
+      "path": "/tmp/corpus-refresh-20261009-private-captures/openalex-mem-plus-plus.raw",
+      "retrieved_at": "2026-10-09T11:18:05Z",
+      "sha256": "d41357751a0a77f96b82ace2d76bc3fa99cb3581b5cafd5ca94520e6ebe28172",
+      "status": 200,
+      "url": "https://api.openalex.org/works/W7216530988"
+    }
+  ],
+  "created_at": "2026-10-09T11:18:05Z",
+  "note": "Private full source captures are intentionally outside the git repository. Repository files retain only compact receipts and bounded excerpts."
+}

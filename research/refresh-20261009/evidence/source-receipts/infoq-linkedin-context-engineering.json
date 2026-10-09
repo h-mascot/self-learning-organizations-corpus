@@ -1,0 +1,18 @@
+{
+  "bounded_excerpts": [
+    {
+      "kind": "excerpt",
+      "locator": "InfoQ presentation transcript/summary",
+      "text": "Ajay Prakash discusses how LinkedIn overcomes AI agent limitations in large codebases. He explains Contextual Agent Playbooks and Tools - built on Model Context Protocol (MCP) - which serves procedural memory, code search, and runbooks directly to coding agents. Prakash shares architectural details and operational guardrails that deliver a 20% productivity boost with zero loss in reliability."
+    },
+    {
+      "kind": "excerpt",
+      "locator": "InfoQ presentation transcript",
+      "text": "That's the whole concept of procedural memory. This procedural memory is also the concept behind skills, which is open sourced by Anthropic. At LinkedIn, we had a similar implementation. We developed our own concept of procedural memory, we called it playbooks."
+    }
+  ],
+  "page_publication_date_evidence": "Sep 19, 2026 displayed on InfoQ page",
+  "recording_date_evidence": "No distinct earlier recording/original-publication date observed in fetched page; accepted freshness relies on publisher page publication date.",
+  "retrieved_at": "2026-10-09T11:18:05Z",
+  "url": "https://www.infoq.com/presentations/linkedin-context-engineering/"
+}

@@ -1,43 +1,48 @@
 {
   "artifact_level": "metadata_only",
   "canonical_url": "https://github.com/AIDAChip-Inc/mem-plus-plus",
-  "content_sha256": "7290cf79de877f8dff2c554f20cd6562e01c5d2a5bb85d3982b613b631300fc7",
+  "content_sha256": "98119637977b93649fcc0cff5e589c561b88df7a94e02f3ba2e82b410842c3c4",
   "creator": "AIDAChip-Inc",
   "date_precision": "day",
   "evidence": [
     {
-      "kind": "excerpt",
-      "locator": "repository README",
-      "text": "Mem++ is AIDAChip's organizational memory system for LLM agents that work over an organization's record: the Slack threads, emails, meeting notes, tickets and documents that many people write over months and years, and that revise, supersede and contradict one another."
+      "kind": "pinned_readme_excerpt",
+      "locator": "README.md at 9196597779435736005095574beac11cd3a78742",
+      "text": "Conversational memory distils a single narrator's facts at ingest and loses the originals; organizational memory keeps every record from many authors and lets the question do the choosing"
     },
     {
-      "kind": "excerpt",
-      "locator": "repository README",
-      "text": "Mem++ is evaluated on OrgMemBench, a benchmark for organizational memory: 443 artifacts in 157 threads spanning 18 months, and 73 questions across six capabilities. The harness in eval/ also runs the conversational memory benchmarks LoCoMo, LongMemEval, LongBench and MemBench."
+      "kind": "pinned_readme_excerpt",
+      "locator": "README.md at 9196597779435736005095574beac11cd3a78742",
+      "text": "Mem++ is evaluated on **OrgMemBench**, a benchmark for organizational memory: 443 artifacts in\n157 threads spanning 18 months, and 73 questions across six capabilities."
     }
   ],
-  "organizational_mechanism": "Mem++ keeps original organizational records non-destructively and evaluates organizational memory over supersession, provenance, bi-temporal, audit replay, justification, and contradiction capabilities.",
+  "organizational_mechanism": "At the initial release commit, Mem++ describes organizational memory as preserving every author record, keeping superseded/conflicting records instead of deleting them, and evaluating those mechanisms on OrgMemBench.",
   "platform": "github",
-  "provenance": "GitHub CLI metadata proved createdAt 2026-09-03; README captured by GitHub/WebSearch route at agent-tools and repository metadata receipt.",
-  "published_date": "2026-09-03",
+  "provenance": "GitHub API commit/contents receipts and README pinned to initial substantive release commit 9196597779435736005095574beac11cd3a78742; compact receipt at research/refresh-20261009/evidence/source-receipts/github-mem-plus-plus.json.",
+  "published_date": "2026-09-28",
   "publisher": "GitHub",
   "query_ids": [
-    "refresh-20261009-github-mem-plus-plus"
+    "refresh-20261009-github-websearch-review",
+    "refresh-20261009-github-api-review"
   ],
   "rejection_reason": null,
   "relevance_evidence": [
-    "organizational memory system for LLM agents",
+    "organizational memory keeps every record from many authors",
     "benchmark for organizational memory"
   ],
   "repository": {
     "created_at": "2026-09-03T21:34:57Z",
     "full_name": "AIDAChip-Inc/mem-plus-plus",
-    "last_push": "2026-10-06T19:42:10Z",
+    "last_push_observed": "2026-10-06T19:42:10Z",
     "license": "apache-2.0",
-    "stars_at_retrieval": 7
+    "qualifying_artifact": "initial release commit with README mechanism evidence",
+    "qualifying_artifact_date": "2026-09-28T01:09:22Z",
+    "qualifying_artifact_sha": "9196597779435736005095574beac11cd3a78742",
+    "readme_path": "README.md",
+    "readme_sha256": "96da7b754b0649ec7104b11ae44fbc28bf75f5612c0597008fea54e22167f7a4"
   },
-  "retrieval_method": "agent-reach documented public direct fetch plus publisher/API page inspection",
-  "retrieved_at": "2026-10-09T12:25:00Z",
+  "retrieval_method": "agent-reach GitHub route: gh API plus raw README at pinned commit SHA",
+  "retrieved_at": "2026-10-09T11:18:05Z",
   "rights_note": "Only bounded public evidence spans or bibliographic metadata are retained; no complete third-party page, book, transcript, or repository text is copied.",
   "rights_status": "open-license",
   "schema_version": 2,

@@ -32,8 +32,11 @@ Refresh `h-mascot/self-learning-organizations-corpus` locally on branch `refresh
 On compaction or restart, reread `docs/plans/ACTIVE_PLAN.md`, `research/refresh-20261009/CORPUS.md`, `research/refresh-20261009/STATUS.json`, `research/refresh-20261009/manager/state.json`, and the latest lane ledgers before continuing. Do not start a second collection owner.
 
 ## Closeout Update
-- 2026-10-09T12:55:00Z: Collection complete and validation green. Accepted additions by lane: academic 3, blogs 1, books 1, conferences 1, case-studies 1, github 1; youtube/x/reddit/substack/podcasts 0.
-- Candidate outcomes in refresh evidence ledgers: 8 accepted, 2 rejected, 6 blocked, 0 duplicates.
-- Independent generated corpus totals: 1,062 accounted records, 648 accepted relevant sources, 414 rejected, 0 canonical blocked.
+- 2026-10-09T12:55:00Z: Collection complete and validation green. Accepted additions by lane after independent repair: academic 3, blogs 1, conferences 1, case-studies 1, github 1; books/youtube/x/reddit/substack/podcasts 0.
+- Candidate outcomes in refresh evidence ledgers after repair: 7 accepted, 3 rejected, 6 blocked, 0 duplicates.
+- Independent generated corpus totals after repair will be regenerated; expected accounting is 1,062 records, 647 accepted relevant sources, 415 rejected, 0 canonical blocked.
 - Validation: `make generate`, `make test`, `make audit`, dedicated lane validators, `make check`, and `git diff --cached --check` passed.
-- Status: `READY_FOR_REVIEW`; Ada review remains pending; no push or merge performed.
+- Status: `READY_FOR_PUBLICATION` after independent repair, pending validation rerun and local repair commit; no push or merge performed.
+
+## Independent Repair Update
+- 2026-10-09T11:18:05Z: Resolved known review findings, removed invalid accepted book, repaired academic/GitHub/InfoQ evidence, compacted third-party receipts, and wrote `publication/independent-review.json` plus `review.md`.

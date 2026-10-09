@@ -6,7 +6,7 @@
     "repository-preprint": 16,
     "thesis": 1
   },
-  "accepted_sources": 648,
+  "accepted_sources": 647,
   "blocked_sources": 0,
   "by_artifact_level": {
     "abstract": 168,
@@ -27,8 +27,8 @@
     "transcript": 102
   },
   "by_lifecycle": {
-    "accepted": 648,
-    "rejected": 414
+    "accepted": 647,
+    "rejected": 415
   },
   "by_platform": {
     "academic": 204,
@@ -78,6 +78,7 @@
     "Full transcript audited at ChatPRD/lennys-podcast-transcripts/ryan-j-salva; original video ID awcd3P1DnX4.": 1,
     "Full transcript audited at ChatPRD/lennys-podcast-transcripts/sri-batchu; original video ID RcYCU5UAZOk.": 1,
     "FxTwitter public API response for the canonical X resource": 50,
+    "GitHub API commit/contents receipts and README pinned to initial substantive release commit 9196597779435736005095574beac11cd3a78742; compact receipt at research/refresh-20261009/evidence/source-receipts/github-mem-plus-plus.json.": 1,
     "GitHub API metadata and bounded README evidence for Backstage/backstage.": 1,
     "GitHub API metadata and bounded README evidence for PagerDuty/incident-response-docs.": 1,
     "GitHub API metadata and bounded README evidence for getsentry/sentry.": 1,
@@ -86,7 +87,6 @@
     "GitHub API metadata and bounded README evidence for openai/openai-cookbook.": 1,
     "GitHub API metadata and bounded README evidence for outline/outline.": 1,
     "GitHub API metadata and bounded README evidence for xwiki/xwiki-platform.": 1,
-    "GitHub CLI metadata proved createdAt 2026-09-03; README captured by GitHub/WebSearch route at agent-tools and repository metadata receipt.": 1,
     "GitHub metadata and full README manually audited for Arize-ai/phoenix.": 1,
     "GitHub metadata and full README manually audited for Flagsmith/flagsmith.": 1,
     "GitHub metadata and full README manually audited for GoogleCloudPlatform/professional-services.": 1,
@@ -302,9 +302,9 @@
     "GitHub repository zhangfengcdt/memoir; discovered by github-repos-01.": 1,
     "GitHub repository zzc-1998/SJTU-H3D; discovered by github-repos-07.": 1,
     "InfoQ presentation page with recorded-event marker, speaker attribution, and bounded source excerpt.": 32,
-    "InfoQ publisher page captured directly at research/refresh-20261009/evidence/sources/public-fetch/6838de73ee59.direct.txt.": 1,
+    "InfoQ publisher page compact receipt at research/refresh-20261009/evidence/source-receipts/infoq-linkedin-context-engineering.json. Page displays Sep 19, 2026; fetched page did not expose an earlier recording date.": 1,
     "Jina Reader direct fetch of the canonical individual article": 25,
-    "Manning publisher catalog captured directly at research/refresh-20261009/evidence/sources/public-fetch/725fd1599450.direct.txt.": 1,
+    "Manning publisher catalog compact receipt at research/refresh-20261009/evidence/source-receipts/book-self-improving-agents.json; full capture preserved outside repository per private-captures manifest.": 1,
     "OpenAlex W121121963 API metadata plus preserved legacy evidence": 1,
     "OpenAlex W1490729419 API metadata plus preserved legacy evidence": 1,
     "OpenAlex W1525574620 API metadata plus preserved legacy evidence": 1,
@@ -503,9 +503,9 @@
     "OpenAlex W4399441943 API metadata plus preserved legacy evidence": 1,
     "OpenAlex W4400268572 API metadata plus preserved legacy evidence": 1,
     "OpenAlex W48413605 API metadata plus preserved legacy evidence": 1,
-    "OpenAlex W7202272297 metadata plus arXiv DOI 10.48550/arxiv.2608.10679; retrieved during refresh-20261009.": 1,
-    "OpenAlex W7214043592 metadata plus arXiv DOI 10.48550/arxiv.2609.24971; retrieved during refresh-20261009.": 1,
-    "OpenAlex W7216530988 metadata plus arXiv DOI 10.48550/arxiv.2610.02002; retrieved during refresh-20261009.": 1,
+    "OpenAlex W7202272297 API metadata/abstract plus arXiv publication-date receipt at research/refresh-20261009/evidence/source-receipts/academic-W7202272297.json.": 1,
+    "OpenAlex W7214043592 API metadata/abstract plus arXiv publication-date receipt at research/refresh-20261009/evidence/source-receipts/academic-W7214043592.json.": 1,
+    "OpenAlex W7216530988 API metadata/abstract plus arXiv publication-date receipt at research/refresh-20261009/evidence/source-receipts/academic-W7216530988.json.": 1,
     "OpenAlex W83397471 API metadata plus preserved legacy evidence": 1,
     "OpenAlex W98219716 API metadata plus preserved legacy evidence": 1,
     "Primary Etsy Code as Craft publication manually re-reviewed from blocked saturation discovery on 2026-07-12.": 1,
@@ -945,9 +945,9 @@
         "OpenAlex W4399441943 API metadata plus preserved legacy evidence": 1,
         "OpenAlex W4400268572 API metadata plus preserved legacy evidence": 1,
         "OpenAlex W48413605 API metadata plus preserved legacy evidence": 1,
-        "OpenAlex W7202272297 metadata plus arXiv DOI 10.48550/arxiv.2608.10679; retrieved during refresh-20261009.": 1,
-        "OpenAlex W7214043592 metadata plus arXiv DOI 10.48550/arxiv.2609.24971; retrieved during refresh-20261009.": 1,
-        "OpenAlex W7216530988 metadata plus arXiv DOI 10.48550/arxiv.2610.02002; retrieved during refresh-20261009.": 1,
+        "OpenAlex W7202272297 API metadata/abstract plus arXiv publication-date receipt at research/refresh-20261009/evidence/source-receipts/academic-W7202272297.json.": 1,
+        "OpenAlex W7214043592 API metadata/abstract plus arXiv publication-date receipt at research/refresh-20261009/evidence/source-receipts/academic-W7214043592.json.": 1,
+        "OpenAlex W7216530988 API metadata/abstract plus arXiv publication-date receipt at research/refresh-20261009/evidence/source-receipts/academic-W7216530988.json.": 1,
         "OpenAlex W83397471 API metadata plus preserved legacy evidence": 1,
         "OpenAlex W98219716 API metadata plus preserved legacy evidence": 1
       },
@@ -991,18 +991,18 @@
       "retrieved": 88
     },
     "books": {
-      "accepted": 31,
+      "accepted": 30,
       "blocked": 0,
       "by_artifact_level": {
         "metadata_only": 31,
         "unavailable": 144
       },
       "by_lifecycle": {
-        "accepted": 31,
-        "rejected": 144
+        "accepted": 30,
+        "rejected": 145
       },
       "by_provenance": {
-        "Manning publisher catalog captured directly at research/refresh-20261009/evidence/sources/public-fetch/725fd1599450.direct.txt.": 1,
+        "Manning publisher catalog compact receipt at research/refresh-20261009/evidence/source-receipts/book-self-improving-agents.json; full capture preserved outside repository per private-captures manifest.": 1,
         "Public bibliographic record OL10460640W; discovered by openlibrary-books-05.": 1,
         "Public bibliographic record OL10692849W; discovered by openlibrary-books-07.": 1,
         "Public bibliographic record OL11623853W; discovered by openlibrary-books-06.": 1,
@@ -1182,7 +1182,7 @@
         "metadata-only": 175
       },
       "discovered": 175,
-      "rejected": 144,
+      "rejected": 145,
       "retrieved": 175
     },
     "case-studies": {
@@ -1224,7 +1224,7 @@
       },
       "by_provenance": {
         "InfoQ presentation page with recorded-event marker, speaker attribution, and bounded source excerpt.": 32,
-        "InfoQ publisher page captured directly at research/refresh-20261009/evidence/sources/public-fetch/6838de73ee59.direct.txt.": 1,
+        "InfoQ publisher page compact receipt at research/refresh-20261009/evidence/source-receipts/infoq-linkedin-context-engineering.json. Page displays Sep 19, 2026; fetched page did not expose an earlier recording date.": 1,
         "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-conferences.": 21
       },
       "by_rights_status": {
@@ -1247,6 +1247,7 @@
       },
       "by_provenance": {
         "Authenticated GitHub code search followed by manual review of the CC-BY-4.0 primary-source chapter at its immutable commit URL.": 1,
+        "GitHub API commit/contents receipts and README pinned to initial substantive release commit 9196597779435736005095574beac11cd3a78742; compact receipt at research/refresh-20261009/evidence/source-receipts/github-mem-plus-plus.json.": 1,
         "GitHub API metadata and bounded README evidence for Backstage/backstage.": 1,
         "GitHub API metadata and bounded README evidence for PagerDuty/incident-response-docs.": 1,
         "GitHub API metadata and bounded README evidence for getsentry/sentry.": 1,
@@ -1255,7 +1256,6 @@
         "GitHub API metadata and bounded README evidence for openai/openai-cookbook.": 1,
         "GitHub API metadata and bounded README evidence for outline/outline.": 1,
         "GitHub API metadata and bounded README evidence for xwiki/xwiki-platform.": 1,
-        "GitHub CLI metadata proved createdAt 2026-09-03; README captured by GitHub/WebSearch route at agent-tools and repository metadata receipt.": 1,
         "GitHub metadata and full README manually audited for Arize-ai/phoenix.": 1,
         "GitHub metadata and full README manually audited for Flagsmith/flagsmith.": 1,
         "GitHub metadata and full README manually audited for GoogleCloudPlatform/professional-services.": 1,
@@ -1634,7 +1634,7 @@
   },
   "complete_timestamped_transcripts": 101,
   "discovered_sources": 1062,
-  "rejected_sources": 414,
+  "rejected_sources": 415,
   "retrieved_sources": 1062,
   "saturation": {
     "academic_status": "met: wave 6 has three consecutive eligible post-acceptance rounds below 5%",
@@ -1659,5 +1659,5 @@
   },
   "schema_version": 2,
   "total_records": 1062,
-  "validated_relevant_sources": 648
+  "validated_relevant_sources": 647
 }

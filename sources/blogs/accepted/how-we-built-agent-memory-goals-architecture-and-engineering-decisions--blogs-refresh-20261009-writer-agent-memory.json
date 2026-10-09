@@ -21,7 +21,8 @@
   "published_date": "2026-09-09",
   "publisher": "WRITER",
   "query_ids": [
-    "refresh-20261009-blogs-writer-agent-memory"
+    "refresh-20261009-blogs-websearch-review",
+    "refresh-20261009-blogs-publisher-review"
   ],
   "rejection_reason": null,
   "relevance_evidence": [

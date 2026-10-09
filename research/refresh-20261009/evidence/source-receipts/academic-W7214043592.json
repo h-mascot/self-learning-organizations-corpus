@@ -1,0 +1,28 @@
+{
+  "arxiv": {
+    "abs_sha256": "47527ebcf724e06f301b8b33b06666681ae5b18a8e11e642291007e83d0c7eb7",
+    "abs_status": 200,
+    "api_entry_version": "2609.24971v2",
+    "api_published": "2026-09-21T17:54:35Z",
+    "api_sha256": "de851695213b5b93be637f4b184ad5888c4bb9c936acfce5af0c190e23010b83",
+    "api_status": 200,
+    "id": "2609.24971",
+    "submitted_marker": "21 Sep 2026 ("
+  },
+  "date_agreement": true,
+  "openalex": {
+    "abstract": "Agents today often take real-world actions that depend on long-term memory and context recall over time. However, most current memory benchmarks are built for a conversational question-answer format, where the question itself signals that some fact must be retrieved, and often which one. Moreover, benchmarks rarely require anything beyond accuracy from submissions, allowing memory systems to make unreasonable cost/time tradeoffs to achieve higher scores. We present DolphinBench, a benchmark that evaluates memory directly through an agent's task completion. DolphinBench includes three knowledge-work personas with roughly 500k tokens of user messages per persona and evaluates agents on tasks that depend on information from that history. We verify all 200 tasks per persona by running an agent with and without the relevant history, requiring success with it and failure without it. Finally, we require all evaluations to report total cost and latency alongside accuracy, which enables us to evaluate agent memory systems holistically. No existing memory benchmark combines all three. The dataset and evaluation code are available at https://dolphinbench.ai.",
+    "authors": [
+      "Soumil Rathi",
+      "Deshraj Yadav",
+      "Taranjeet Singh"
+    ],
+    "doi": "https://doi.org/10.48550/arxiv.2609.24971",
+    "id": "https://openalex.org/W7214043592",
+    "publication_date": "2026-09-21",
+    "sha256": "f1d93952cce83360846dec4ca019d8572dfd10e9c191ca19c3926de9cc5a0cb0",
+    "status": 200,
+    "title": "DolphinBench: Mapping the Pareto Frontier of Agent Memory"
+  },
+  "retrieved_at": "2026-10-09T11:18:05Z"
+}

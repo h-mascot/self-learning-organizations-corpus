@@ -1,0 +1,29 @@
+{
+  "bounded_excerpts": [
+    {
+      "kind": "pinned_readme_excerpt",
+      "locator": "README.md at 9196597779435736005095574beac11cd3a78742",
+      "text": "Conversational memory distils a single narrator's facts at ingest and loses the originals; organizational memory keeps every record from many authors and lets the question do the choosing"
+    },
+    {
+      "kind": "pinned_readme_excerpt",
+      "locator": "README.md at 9196597779435736005095574beac11cd3a78742",
+      "text": "Mem++ is evaluated on **OrgMemBench**, a benchmark for organizational memory: 443 artifacts in\n157 threads spanning 18 months, and 73 questions across six capabilities."
+    }
+  ],
+  "qualifying_artifact": {
+    "committed_at": "2026-09-28T01:09:22Z",
+    "message": "Initial release of Mem++",
+    "path": "README.md",
+    "raw_sha256": "96da7b754b0649ec7104b11ae44fbc28bf75f5612c0597008fea54e22167f7a4",
+    "raw_url": "https://raw.githubusercontent.com/AIDAChip-Inc/mem-plus-plus/9196597779435736005095574beac11cd3a78742/README.md",
+    "sha": "9196597779435736005095574beac11cd3a78742",
+    "type": "commit"
+  },
+  "repo_api": {
+    "created_at": "2026-09-03T21:34:57Z",
+    "license": "apache-2.0",
+    "url": "https://api.github.com/repos/AIDAChip-Inc/mem-plus-plus"
+  },
+  "retrieved_at": "2026-10-09T11:18:05Z"
+}

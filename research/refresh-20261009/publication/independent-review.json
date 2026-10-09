@@ -1,0 +1,197 @@
+{
+  "baseline_commit": "207ce27b193b3980d66e3b7bcadb1b9e956e9472",
+  "counts_after_repair": {
+    "accepted_additions": 7,
+    "accepted_by_lane": {
+      "academic": 3,
+      "blogs": 1,
+      "books": 0,
+      "case-studies": 1,
+      "conferences": 1,
+      "github": 1,
+      "podcasts": 0,
+      "reddit": 0,
+      "substack": 0,
+      "x": 0,
+      "youtube": 0
+    },
+    "blocked_candidates": 6,
+    "canonical_accepted_relevant_sources": 647,
+    "canonical_rejected_sources": 415,
+    "canonical_total_records": 1062,
+    "duplicate_candidates": 0,
+    "rejected_candidates": 3
+  },
+  "draft_commit_reviewed": "ea89646a1c1276a344747bafef304fb0dbe97281",
+  "findings": [
+    {
+      "finding": "Accepted record used invented day-level date for month-level MEAP evidence and estimated 2027 publication.",
+      "id": "book-self-improving-agents",
+      "resolution": "Removed from accepted canonical lane; retained as rejected/deferred lead with explicit date limitation."
+    },
+    {
+      "finding": "Academic bodies paraphrased abstracts while claiming preserved abstract evidence.",
+      "id": "academic-abstracts",
+      "resolution": "Replaced with exact OpenAlex abstracts and arXiv date receipts; content hashes recomputed."
+    },
+    {
+      "finding": "GitHub evidence used current README and repo createdAt without pinned artifact.",
+      "id": "github-mem-plus-plus",
+      "resolution": "Pinned README evidence to initial release commit 9196597779435736005095574beac11cd3a78742 dated 2026-09-28; repo creation retained only as supporting metadata."
+    },
+    {
+      "finding": "Needed page publication versus recording-date distinction.",
+      "id": "infoq-publication-date",
+      "resolution": "Recorded Sep 19, 2026 page publication and explicit limitation that no separate earlier recording date was exposed in fetched page."
+    },
+    {
+      "finding": "Ledgers had reconstructed queries, identical timestamps, and placeholder returned_candidates.",
+      "id": "search-ledgers",
+      "resolution": "Rewrote lane query ledgers with recovered/fresh actual query families, concrete candidates, outcomes, and unavailable-result notes."
+    },
+    {
+      "finding": "Full third-party HTML/transcripts were committed despite rights note.",
+      "id": "rights-full-captures",
+      "resolution": "Preserved full captures privately outside repo and replaced repository captures with compact receipts and bounded evidence only."
+    },
+    {
+      "finding": "State/plan counts included invalid accepted book and stale READY_FOR_REVIEW language.",
+      "id": "counts-state",
+      "resolution": "Updated counts/status to READY_FOR_PUBLICATION after repairs, pending validation rerun."
+    }
+  ],
+  "receipt_paths": [
+    "research/refresh-20261009/evidence/source-receipts/private-captures-manifest.json"
+  ],
+  "reviewed_at": "2026-10-09T11:18:05Z",
+  "route": "Cursor gpt-5.5-extra-high-fast (model alias availability verified)",
+  "schema_version": 1,
+  "source_reviews": [
+    {
+      "claim_to_source": "verified against primary/API evidence",
+      "date_proof": "verified; see source record provenance/receipts",
+      "decision": "accepted",
+      "dedupe": "stable ID/URL lane uniqueness preserved by validators",
+      "lane": "blogs",
+      "rights": "bounded excerpts or abstract policy; no full third-party page retained in repo",
+      "stable_id": "blogs-refresh-20261009-writer-agent-memory"
+    },
+    {
+      "claim_to_source": "verified against primary/API evidence",
+      "date_proof": "verified; see source record provenance/receipts",
+      "decision": "accepted",
+      "dedupe": "stable ID/URL lane uniqueness preserved by validators",
+      "lane": "conferences",
+      "rights": "bounded excerpts or abstract policy; no full third-party page retained in repo",
+      "stable_id": "conferences-refresh-20261009-infoq-linkedin-context-engineering"
+    },
+    {
+      "claim_to_source": "verified against primary/API evidence",
+      "date_proof": "verified; see source record provenance/receipts",
+      "decision": "accepted",
+      "dedupe": "stable ID/URL lane uniqueness preserved by validators",
+      "lane": "case-studies",
+      "rights": "bounded excerpts or abstract policy; no full third-party page retained in repo",
+      "stable_id": "case-studies-refresh-20261009-utlyze-jev-memory-beta"
+    },
+    {
+      "claim_to_source": "verified against primary/API evidence",
+      "date_proof": "verified; see source record provenance/receipts",
+      "decision": "accepted",
+      "dedupe": "stable ID/URL lane uniqueness preserved by validators",
+      "lane": "github",
+      "rights": "bounded excerpts or abstract policy; no full third-party page retained in repo",
+      "stable_id": "github-refresh-20261009-aidachip-mem-plus-plus"
+    },
+    {
+      "claim_to_source": "verified against primary/API evidence",
+      "date_proof": "verified; see source record provenance/receipts",
+      "decision": "accepted",
+      "dedupe": "stable ID/URL lane uniqueness preserved by validators",
+      "lane": "academic",
+      "rights": "bounded excerpts or abstract policy; no full third-party page retained in repo",
+      "stable_id": "openalex:W7202272297"
+    },
+    {
+      "claim_to_source": "verified against primary/API evidence",
+      "date_proof": "verified; see source record provenance/receipts",
+      "decision": "accepted",
+      "dedupe": "stable ID/URL lane uniqueness preserved by validators",
+      "lane": "academic",
+      "rights": "bounded excerpts or abstract policy; no full third-party page retained in repo",
+      "stable_id": "openalex:W7216530988"
+    },
+    {
+      "claim_to_source": "verified against primary/API evidence",
+      "date_proof": "verified; see source record provenance/receipts",
+      "decision": "accepted",
+      "dedupe": "stable ID/URL lane uniqueness preserved by validators",
+      "lane": "academic",
+      "rights": "bounded excerpts or abstract policy; no full third-party page retained in repo",
+      "stable_id": "openalex:W7214043592"
+    },
+    {
+      "decision": "blocked",
+      "lane": "youtube",
+      "resolution": "yt-dlp/WebSearch lead found current-window video, but complete timestamped transcript was not retained in accepted YouTube canonical format; blocked rather than accepted.",
+      "stable_id": "xyL2Ltkh-SA"
+    },
+    {
+      "decision": "blocked",
+      "lane": "youtube",
+      "resolution": "yt-dlp/WebSearch lead found current-window video, but complete timestamped transcript was not retained in accepted YouTube canonical format; blocked rather than accepted.",
+      "stable_id": "4gI52y0hyi8"
+    },
+    {
+      "decision": "blocked",
+      "lane": "x",
+      "resolution": "twitter-cli/Bird route unauthenticated; fresh public WebSearch returned no X result payload, so no source-level proof was accepted.",
+      "stable_id": "bird-auth"
+    },
+    {
+      "decision": "blocked",
+      "lane": "reddit",
+      "resolution": "Reddit direct backend unavailable; WebSearch produced candidate snippets but no raw/API post receipt, so preserved as lead only.",
+      "stable_id": "1rw06lp"
+    },
+    {
+      "decision": "blocked",
+      "lane": "substack",
+      "resolution": "Fresh WebSearch found Substack leads; lane accepted no source because exact social/newsletter acquisition path and canonical raw proof were not available.",
+      "stable_id": "hugobowne-harness-evals"
+    },
+    {
+      "decision": "blocked",
+      "lane": "blogs",
+      "resolution": "Direct/Jina retrieval unavailable or 403; search result only, no publisher source receipt.",
+      "stable_id": "perplexity-brain"
+    },
+    {
+      "decision": "rejected",
+      "lane": "podcasts",
+      "resolution": "Rejected as canonical podcast addition after strict validator found separated passages did not state qualifying mechanisms with exact accepted terminology.",
+      "stable_id": "podcasts-refresh-20261009-chainofthought-genspark"
+    },
+    {
+      "decision": "rejected",
+      "lane": "podcasts",
+      "resolution": "Rejected as canonical podcast addition after timestamped eval passages were not separated by five minutes without stretching evidence.",
+      "stable_id": "podcasts-refresh-20261009-howiai-stripe-kai"
+    },
+    {
+      "decision": "rejected",
+      "lane": "books",
+      "resolution": "Publisher page proves only month-level MEAP start (September 2026) and estimated publication in Summer 2027; no original publication day within the refresh contract is supplied, so it cannot enter the accepted canonical lane.",
+      "stable_id": "books-refresh-20261009-manning-self-improving-agents"
+    }
+  ],
+  "validation_results": {
+    "git_diff_cached_check": "passed",
+    "lane_validators": "passed (web/media, youtube, social, academic saturation spot check)",
+    "make_audit": "passed (1062 sources)",
+    "make_check": "passed",
+    "make_generate": "passed (1062 records, 647 accepted relevant sources)",
+    "make_test": "passed (65 tests)"
+  },
+  "verdict": "pass"
+}

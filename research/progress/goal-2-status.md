@@ -5,7 +5,7 @@
 - Local branch `refresh/2026-10-09` is initialized from baseline `207ce27b193b3980d66e3b7bcadb1b9e956e9472`.
 - Refresh workspace `research/refresh-20261009/` owns the current bounded July-to-October collection state. Canonical owner is the local worker session; Ada review remains pending and this refresh must end `READY_FOR_REVIEW`, never `ACHIEVED`.
 - Scope is a bounded publication-window refresh across all 11 lanes, not a new saturation claim. Historical July completion and saturation evidence below remains historical.
-- Refresh collection is READY_FOR_REVIEW: 8 accepted additions, 2 rejected candidates, 6 blocked candidates, 0 duplicates; generated total is 648 accepted relevant sources across 1,062 records. Validation passed through `make check` and staged diff whitespace check.
+- Refresh collection repaired by independent review: 7 accepted additions, 3 rejected candidates, 6 blocked candidates, 0 duplicates; generated totals pending rerun are expected to be 647 accepted relevant sources across 1,062 records.
 
 Updated: 2026-07-12T18:45:00Z
 Status: ACHIEVED

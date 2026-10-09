@@ -6,8 +6,10 @@
   "date_precision": "day",
   "event_proof": {
     "duration_or_media_observed": true,
+    "page_publication_date": "2026-09-19",
     "publisher": "InfoQ",
-    "recorded_marker_observed": true
+    "recorded_marker_observed": true,
+    "recording_original_publication_date": "not separately exposed in fetched page"
   },
   "evidence": [
     {
@@ -22,11 +24,12 @@
     }
   ],
   "platform": "conferences",
-  "provenance": "InfoQ publisher page captured directly at research/refresh-20261009/evidence/sources/public-fetch/6838de73ee59.direct.txt.",
+  "provenance": "InfoQ publisher page compact receipt at research/refresh-20261009/evidence/source-receipts/infoq-linkedin-context-engineering.json. Page displays Sep 19, 2026; fetched page did not expose an earlier recording date.",
   "published_date": "2026-09-19",
   "publisher": "InfoQ",
   "query_ids": [
-    "refresh-20261009-conferences-infoq-linkedin"
+    "refresh-20261009-conferences-websearch-review",
+    "refresh-20261009-conferences-publisher-review"
   ],
   "rejection_reason": null,
   "relevance_evidence": [
@@ -34,7 +37,7 @@
     "deliver a 20% productivity boost with zero loss in reliability"
   ],
   "retrieval_method": "agent-reach documented public direct fetch plus publisher/API page inspection",
-  "retrieved_at": "2026-10-09T12:25:00Z",
+  "retrieved_at": "2026-10-09T11:18:05Z",
   "rights_note": "Only bounded public evidence spans or bibliographic metadata are retained; no complete third-party page, book, transcript, or repository text is copied.",
   "rights_status": "bounded-public-evidence",
   "schema_version": 2,

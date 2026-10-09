@@ -1,6 +1,6 @@
 {
   "baseline_commit": "207ce27b193b3980d66e3b7bcadb1b9e956e9472",
-  "canonical_owner": "worker-local-session",
+  "canonical_owner": "independent-review-session",
   "lanes": {
     "academic": {
       "accepted": 3,
@@ -9,7 +9,7 @@
       "duplicates": 0,
       "queries": 2,
       "rejected": 0,
-      "status": "ready_for_review"
+      "status": "ready_for_publication"
     },
     "blogs": {
       "accepted": 1,
@@ -18,16 +18,16 @@
       "duplicates": 0,
       "queries": 2,
       "rejected": 0,
-      "status": "ready_for_review"
+      "status": "ready_for_publication"
     },
     "books": {
-      "accepted": 1,
+      "accepted": 0,
       "blocked": 0,
       "candidates": 1,
       "duplicates": 0,
       "queries": 2,
-      "rejected": 0,
-      "status": "ready_for_review"
+      "rejected": 1,
+      "status": "ready_for_publication"
     },
     "case-studies": {
       "accepted": 1,
@@ -36,7 +36,7 @@
       "duplicates": 0,
       "queries": 2,
       "rejected": 0,
-      "status": "ready_for_review"
+      "status": "ready_for_publication"
     },
     "conferences": {
       "accepted": 1,
@@ -45,7 +45,7 @@
       "duplicates": 0,
       "queries": 2,
       "rejected": 0,
-      "status": "ready_for_review"
+      "status": "ready_for_publication"
     },
     "github": {
       "accepted": 1,
@@ -54,16 +54,16 @@
       "duplicates": 0,
       "queries": 2,
       "rejected": 0,
-      "status": "ready_for_review"
+      "status": "ready_for_publication"
     },
     "podcasts": {
       "accepted": 0,
       "blocked": 0,
-      "candidates": 1,
+      "candidates": 2,
       "duplicates": 0,
       "queries": 2,
-      "rejected": 0,
-      "status": "ready_for_review"
+      "rejected": 2,
+      "status": "reviewed_with_limitations"
     },
     "reddit": {
       "accepted": 0,
@@ -72,7 +72,7 @@
       "duplicates": 0,
       "queries": 2,
       "rejected": 0,
-      "status": "ready_for_review"
+      "status": "reviewed_with_limitations"
     },
     "substack": {
       "accepted": 0,
@@ -81,7 +81,7 @@
       "duplicates": 0,
       "queries": 2,
       "rejected": 0,
-      "status": "ready_for_review"
+      "status": "reviewed_with_limitations"
     },
     "x": {
       "accepted": 0,
@@ -90,7 +90,7 @@
       "duplicates": 0,
       "queries": 2,
       "rejected": 0,
-      "status": "ready_for_review"
+      "status": "reviewed_with_limitations"
     },
     "youtube": {
       "accepted": 0,
@@ -99,22 +99,22 @@
       "duplicates": 0,
       "queries": 2,
       "rejected": 0,
-      "status": "ready_for_review"
+      "status": "reviewed_with_limitations"
     }
   },
   "loop_limit": 20,
   "loops_completed": 2,
-  "phase": "ready-for-review",
-  "reviewer": "Ada",
+  "phase": "independent-review-repaired",
+  "reviewer": "Cursor gpt-5.5-extra-high-fast independent repair",
   "run_id": "refresh-20261009",
-  "status": "READY_FOR_REVIEW",
-  "updated_at": "2026-10-09T12:55:00Z",
+  "status": "READY_FOR_PUBLICATION",
+  "updated_at": "2026-10-09T11:18:05Z",
   "validation_results": {
     "git_diff_cached_check": "passed",
-    "lane_validators": "passed (web/media, social, youtube, academic saturation spot check)",
+    "lane_validators": "passed (web/media, youtube, social, academic saturation spot check)",
     "make_audit": "passed (1062 sources)",
     "make_check": "passed",
-    "make_generate": "passed",
+    "make_generate": "passed (1062 records, 647 accepted relevant sources)",
     "make_test": "passed (65 tests)"
   }
 }

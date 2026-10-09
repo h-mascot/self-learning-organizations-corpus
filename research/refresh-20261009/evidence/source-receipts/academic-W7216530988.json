@@ -1,0 +1,32 @@
+{
+  "arxiv": {
+    "abs_sha256": "6b4112e031a713eea718a20d6011ce0d9dbcc8cf8846352a3791511f0c91233d",
+    "abs_status": 200,
+    "api_entry_version": "2610.02002v1",
+    "api_published": "2026-10-01T16:32:38Z",
+    "api_sha256": "68688deaa72aa819a793297fec31244a629586c13aa2e910a0c01278cdde7070",
+    "api_status": 200,
+    "id": "2610.02002",
+    "submitted_marker": "1 Oct 2026]"
+  },
+  "date_agreement": true,
+  "openalex": {
+    "abstract": "Large Language Model (LLM) agents now take part in organizational work, where many authors record decisions across documents over months. Because a revised decision arrives as a new document rather than an edit, answering a question requires knowing which version held at a given time. However, most memory systems compress the record at write time. By distilling each document into facts, notes or graph edges, these methods fix what can be answered before any question is asked. To address this, we propose Mem++, a non-destructive memory framework shifting from write-time distillation to read-time selection. Mem++ stores every document whole with its date and author, and it calls no generative model at write time. At read time, it retrieves only documents dated up to the time a question asks about and fuses lexical and semantic rankings. Unlike systems that overwrite older versions, Mem++ keeps them and leaves the choice to the answering model. Evaluations on the organizational benchmark OrgMemBench demonstrate that Mem++ surpasses the strongest memory system baseline by 8.0 to 13.1 points across two answering models. With gpt-4.1-mini, it also achieves the best overall score, 2.6 points above RAG. In addition, Mem++ achieves the best average LLM-judge score on LoCoMo and ranks second on LongMemEval-S, behind only its entity-graph variant. Code for benchmark evaluation is available at https://github.com/AIDAChip-Inc/mem-plus-plus.",
+    "authors": [
+      "Ahmad Yehia",
+      "Aly O. Abdelkareem",
+      "Islam Ahmed",
+      "Hesham Omran",
+      "Khaled Alashmouny",
+      "Christian Claudel",
+      "Abduallah Mohamed"
+    ],
+    "doi": "https://doi.org/10.48550/arxiv.2610.02002",
+    "id": "https://openalex.org/W7216530988",
+    "publication_date": "2026-10-01",
+    "sha256": "d8b5144bde0f9ff57ea319569cb6d3878e1a372e696e203dea501457e9e2e7ca",
+    "status": 200,
+    "title": "Mem++: Non-Destructive Memory for Long-Term Organizational LLM Agents"
+  },
+  "retrieved_at": "2026-10-09T11:18:05Z"
+}

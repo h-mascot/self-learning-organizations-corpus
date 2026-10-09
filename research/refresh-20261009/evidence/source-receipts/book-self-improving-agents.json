@@ -1,0 +1,22 @@
+{
+  "date_evidence": [
+    "MEAP began September 2026",
+    "Last updated September 2026",
+    "Publication in Summer 2027 (estimated)"
+  ],
+  "decision": "rejected_deferred_lead",
+  "private_capture": {
+    "bytes": 407482,
+    "content_type": null,
+    "error": null,
+    "name": "manning-self-improving-agents",
+    "path": "/tmp/corpus-refresh-20261009-private-captures/manning-self-improving-agents.raw",
+    "retrieved_at": "2026-10-09T11:18:05Z",
+    "sha256": "71f6ff648ef6355634503019b0c3e64fd12587e749c4696a11bbf95a7f14d725",
+    "status": 200,
+    "url": "https://www.manning.com/books/self-improving-agents"
+  },
+  "reason": "Publisher page proves only month-level MEAP start (September 2026) and estimated publication in Summer 2027; no original publication day within the refresh contract is supplied, so it cannot enter the accepted canonical lane.",
+  "retrieved_at": "2026-10-09T11:18:05Z",
+  "url": "https://www.manning.com/books/self-improving-agents"
+}

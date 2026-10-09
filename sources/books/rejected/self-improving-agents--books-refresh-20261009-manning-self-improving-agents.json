@@ -3,7 +3,7 @@
   "canonical_url": "https://www.manning.com/books/self-improving-agents",
   "content_sha256": "816836f479963cda698e50d32262a1bccde7301f1f67ba6de942a7fc488552e1",
   "creator": "Micheal Lanham",
-  "date_precision": "year",
+  "date_precision": "unknown",
   "evidence": [
     {
       "kind": "bibliographic_metadata",
@@ -23,24 +23,25 @@
     ]
   },
   "platform": "books",
-  "provenance": "Manning publisher catalog captured directly at research/refresh-20261009/evidence/sources/public-fetch/725fd1599450.direct.txt.",
-  "published_date": "2026-09-01",
+  "provenance": "Manning publisher catalog compact receipt at research/refresh-20261009/evidence/source-receipts/book-self-improving-agents.json; full capture preserved outside repository per private-captures manifest.",
+  "published_date": null,
   "publisher": "Manning",
   "query_ids": [
-    "refresh-20261009-books-manning-self-improving-agents"
+    "refresh-20261009-books-websearch-review",
+    "refresh-20261009-books-publisher-review"
   ],
-  "rejection_reason": null,
+  "rejection_reason": "Publisher page proves only month-level MEAP start (September 2026) and estimated publication in Summer 2027; no original publication day within the refresh contract is supplied, so it cannot enter the accepted canonical lane.",
   "relevance_evidence": [
     "MEAP began September 2026",
     "measured, versioned, auditable improvement loop that adapts and improves as it runs"
   ],
   "retrieval_method": "agent-reach documented public direct fetch plus publisher/API page inspection",
-  "retrieved_at": "2026-10-09T12:25:00Z",
-  "rights_note": "Only bounded public evidence spans or bibliographic metadata are retained; no complete third-party page, book, transcript, or repository text is copied.",
+  "retrieved_at": "2026-10-09T11:18:05Z",
+  "rights_note": "Bibliographic metadata and bounded catalog excerpt only; retained as a rejected/deferred lead because day-level original-publication proof is missing.",
   "rights_status": "metadata-only",
   "schema_version": 2,
   "source_type": "book",
   "stable_id": "books-refresh-20261009-manning-self-improving-agents",
-  "status": "accepted",
+  "status": "rejected",
   "title": "Self-Improving Agents"
 }
