@@ -1,0 +1,468 @@
+{
+  "cells": [
+    {
+      "acceptance_criteria": [
+        "date within window",
+        "primary publisher/API publication proof",
+        "qualifying mechanism evidence",
+        "deduped against canonical corpus",
+        "rights/artifact honesty"
+      ],
+      "allowed_secondary_leads": [
+        "web search snippets",
+        "citations",
+        "RSS metadata"
+      ],
+      "cell_id": "youtube",
+      "claim_under_test": "New original youtube sources in the 2026-07-16..2026-10-09 window contain primary evidence for self-learning organization mechanisms.",
+      "lane": "youtube",
+      "output_paths": [
+        "research/refresh-20261009/workers/youtube/manifest.json",
+        "research/refresh-20261009/evidence/accepted.jsonl",
+        "research/refresh-20261009/evidence/rejected.jsonl"
+      ],
+      "owner": "worker-local-session",
+      "query_family_minimum": 2,
+      "rejection_criteria": [
+        "outside window",
+        "date unknown",
+        "generic AI adoption only",
+        "no primary proof",
+        "duplicate",
+        "blocked with exact error after legal alternate route"
+      ],
+      "required_artifacts": [
+        "query ledger",
+        "retrieval ledger",
+        "candidate decisions",
+        "publisher/API publication proof",
+        "dedupe proof"
+      ],
+      "retry_budget": 2,
+      "reviewer": "Ada",
+      "status": "queued"
+    },
+    {
+      "acceptance_criteria": [
+        "date within window",
+        "primary publisher/API publication proof",
+        "qualifying mechanism evidence",
+        "deduped against canonical corpus",
+        "rights/artifact honesty"
+      ],
+      "allowed_secondary_leads": [
+        "web search snippets",
+        "citations",
+        "RSS metadata"
+      ],
+      "cell_id": "academic",
+      "claim_under_test": "New original academic sources in the 2026-07-16..2026-10-09 window contain primary evidence for self-learning organization mechanisms.",
+      "lane": "academic",
+      "output_paths": [
+        "research/refresh-20261009/workers/academic/manifest.json",
+        "research/refresh-20261009/evidence/accepted.jsonl",
+        "research/refresh-20261009/evidence/rejected.jsonl"
+      ],
+      "owner": "worker-local-session",
+      "query_family_minimum": 2,
+      "rejection_criteria": [
+        "outside window",
+        "date unknown",
+        "generic AI adoption only",
+        "no primary proof",
+        "duplicate",
+        "blocked with exact error after legal alternate route"
+      ],
+      "required_artifacts": [
+        "query ledger",
+        "retrieval ledger",
+        "candidate decisions",
+        "publisher/API publication proof",
+        "dedupe proof"
+      ],
+      "retry_budget": 2,
+      "reviewer": "Ada",
+      "status": "queued"
+    },
+    {
+      "acceptance_criteria": [
+        "date within window",
+        "primary publisher/API publication proof",
+        "qualifying mechanism evidence",
+        "deduped against canonical corpus",
+        "rights/artifact honesty"
+      ],
+      "allowed_secondary_leads": [
+        "web search snippets",
+        "citations",
+        "RSS metadata"
+      ],
+      "cell_id": "x",
+      "claim_under_test": "New original x sources in the 2026-07-16..2026-10-09 window contain primary evidence for self-learning organization mechanisms.",
+      "lane": "x",
+      "output_paths": [
+        "research/refresh-20261009/workers/x/manifest.json",
+        "research/refresh-20261009/evidence/accepted.jsonl",
+        "research/refresh-20261009/evidence/rejected.jsonl"
+      ],
+      "owner": "worker-local-session",
+      "query_family_minimum": 2,
+      "rejection_criteria": [
+        "outside window",
+        "date unknown",
+        "generic AI adoption only",
+        "no primary proof",
+        "duplicate",
+        "blocked with exact error after legal alternate route"
+      ],
+      "required_artifacts": [
+        "query ledger",
+        "retrieval ledger",
+        "candidate decisions",
+        "publisher/API publication proof",
+        "dedupe proof"
+      ],
+      "retry_budget": 2,
+      "reviewer": "Ada",
+      "status": "queued"
+    },
+    {
+      "acceptance_criteria": [
+        "date within window",
+        "primary publisher/API publication proof",
+        "qualifying mechanism evidence",
+        "deduped against canonical corpus",
+        "rights/artifact honesty"
+      ],
+      "allowed_secondary_leads": [
+        "web search snippets",
+        "citations",
+        "RSS metadata"
+      ],
+      "cell_id": "reddit",
+      "claim_under_test": "New original reddit sources in the 2026-07-16..2026-10-09 window contain primary evidence for self-learning organization mechanisms.",
+      "lane": "reddit",
+      "output_paths": [
+        "research/refresh-20261009/workers/reddit/manifest.json",
+        "research/refresh-20261009/evidence/accepted.jsonl",
+        "research/refresh-20261009/evidence/rejected.jsonl"
+      ],
+      "owner": "worker-local-session",
+      "query_family_minimum": 2,
+      "rejection_criteria": [
+        "outside window",
+        "date unknown",
+        "generic AI adoption only",
+        "no primary proof",
+        "duplicate",
+        "blocked with exact error after legal alternate route"
+      ],
+      "required_artifacts": [
+        "query ledger",
+        "retrieval ledger",
+        "candidate decisions",
+        "publisher/API publication proof",
+        "dedupe proof"
+      ],
+      "retry_budget": 2,
+      "reviewer": "Ada",
+      "status": "queued"
+    },
+    {
+      "acceptance_criteria": [
+        "date within window",
+        "primary publisher/API publication proof",
+        "qualifying mechanism evidence",
+        "deduped against canonical corpus",
+        "rights/artifact honesty"
+      ],
+      "allowed_secondary_leads": [
+        "web search snippets",
+        "citations",
+        "RSS metadata"
+      ],
+      "cell_id": "substack",
+      "claim_under_test": "New original substack sources in the 2026-07-16..2026-10-09 window contain primary evidence for self-learning organization mechanisms.",
+      "lane": "substack",
+      "output_paths": [
+        "research/refresh-20261009/workers/substack/manifest.json",
+        "research/refresh-20261009/evidence/accepted.jsonl",
+        "research/refresh-20261009/evidence/rejected.jsonl"
+      ],
+      "owner": "worker-local-session",
+      "query_family_minimum": 2,
+      "rejection_criteria": [
+        "outside window",
+        "date unknown",
+        "generic AI adoption only",
+        "no primary proof",
+        "duplicate",
+        "blocked with exact error after legal alternate route"
+      ],
+      "required_artifacts": [
+        "query ledger",
+        "retrieval ledger",
+        "candidate decisions",
+        "publisher/API publication proof",
+        "dedupe proof"
+      ],
+      "retry_budget": 2,
+      "reviewer": "Ada",
+      "status": "queued"
+    },
+    {
+      "acceptance_criteria": [
+        "date within window",
+        "primary publisher/API publication proof",
+        "qualifying mechanism evidence",
+        "deduped against canonical corpus",
+        "rights/artifact honesty"
+      ],
+      "allowed_secondary_leads": [
+        "web search snippets",
+        "citations",
+        "RSS metadata"
+      ],
+      "cell_id": "blogs",
+      "claim_under_test": "New original blogs sources in the 2026-07-16..2026-10-09 window contain primary evidence for self-learning organization mechanisms.",
+      "lane": "blogs",
+      "output_paths": [
+        "research/refresh-20261009/workers/blogs/manifest.json",
+        "research/refresh-20261009/evidence/accepted.jsonl",
+        "research/refresh-20261009/evidence/rejected.jsonl"
+      ],
+      "owner": "worker-local-session",
+      "query_family_minimum": 2,
+      "rejection_criteria": [
+        "outside window",
+        "date unknown",
+        "generic AI adoption only",
+        "no primary proof",
+        "duplicate",
+        "blocked with exact error after legal alternate route"
+      ],
+      "required_artifacts": [
+        "query ledger",
+        "retrieval ledger",
+        "candidate decisions",
+        "publisher/API publication proof",
+        "dedupe proof"
+      ],
+      "retry_budget": 2,
+      "reviewer": "Ada",
+      "status": "queued"
+    },
+    {
+      "acceptance_criteria": [
+        "date within window",
+        "primary publisher/API publication proof",
+        "qualifying mechanism evidence",
+        "deduped against canonical corpus",
+        "rights/artifact honesty"
+      ],
+      "allowed_secondary_leads": [
+        "web search snippets",
+        "citations",
+        "RSS metadata"
+      ],
+      "cell_id": "podcasts",
+      "claim_under_test": "New original podcasts sources in the 2026-07-16..2026-10-09 window contain primary evidence for self-learning organization mechanisms.",
+      "lane": "podcasts",
+      "output_paths": [
+        "research/refresh-20261009/workers/podcasts/manifest.json",
+        "research/refresh-20261009/evidence/accepted.jsonl",
+        "research/refresh-20261009/evidence/rejected.jsonl"
+      ],
+      "owner": "worker-local-session",
+      "query_family_minimum": 2,
+      "rejection_criteria": [
+        "outside window",
+        "date unknown",
+        "generic AI adoption only",
+        "no primary proof",
+        "duplicate",
+        "blocked with exact error after legal alternate route"
+      ],
+      "required_artifacts": [
+        "query ledger",
+        "retrieval ledger",
+        "candidate decisions",
+        "publisher/API publication proof",
+        "dedupe proof"
+      ],
+      "retry_budget": 2,
+      "reviewer": "Ada",
+      "status": "queued"
+    },
+    {
+      "acceptance_criteria": [
+        "date within window",
+        "primary publisher/API publication proof",
+        "qualifying mechanism evidence",
+        "deduped against canonical corpus",
+        "rights/artifact honesty"
+      ],
+      "allowed_secondary_leads": [
+        "web search snippets",
+        "citations",
+        "RSS metadata"
+      ],
+      "cell_id": "books",
+      "claim_under_test": "New original books sources in the 2026-07-16..2026-10-09 window contain primary evidence for self-learning organization mechanisms.",
+      "lane": "books",
+      "output_paths": [
+        "research/refresh-20261009/workers/books/manifest.json",
+        "research/refresh-20261009/evidence/accepted.jsonl",
+        "research/refresh-20261009/evidence/rejected.jsonl"
+      ],
+      "owner": "worker-local-session",
+      "query_family_minimum": 2,
+      "rejection_criteria": [
+        "outside window",
+        "date unknown",
+        "generic AI adoption only",
+        "no primary proof",
+        "duplicate",
+        "blocked with exact error after legal alternate route"
+      ],
+      "required_artifacts": [
+        "query ledger",
+        "retrieval ledger",
+        "candidate decisions",
+        "publisher/API publication proof",
+        "dedupe proof"
+      ],
+      "retry_budget": 2,
+      "reviewer": "Ada",
+      "status": "queued"
+    },
+    {
+      "acceptance_criteria": [
+        "date within window",
+        "primary publisher/API publication proof",
+        "qualifying mechanism evidence",
+        "deduped against canonical corpus",
+        "rights/artifact honesty"
+      ],
+      "allowed_secondary_leads": [
+        "web search snippets",
+        "citations",
+        "RSS metadata"
+      ],
+      "cell_id": "conferences",
+      "claim_under_test": "New original conferences sources in the 2026-07-16..2026-10-09 window contain primary evidence for self-learning organization mechanisms.",
+      "lane": "conferences",
+      "output_paths": [
+        "research/refresh-20261009/workers/conferences/manifest.json",
+        "research/refresh-20261009/evidence/accepted.jsonl",
+        "research/refresh-20261009/evidence/rejected.jsonl"
+      ],
+      "owner": "worker-local-session",
+      "query_family_minimum": 2,
+      "rejection_criteria": [
+        "outside window",
+        "date unknown",
+        "generic AI adoption only",
+        "no primary proof",
+        "duplicate",
+        "blocked with exact error after legal alternate route"
+      ],
+      "required_artifacts": [
+        "query ledger",
+        "retrieval ledger",
+        "candidate decisions",
+        "publisher/API publication proof",
+        "dedupe proof"
+      ],
+      "retry_budget": 2,
+      "reviewer": "Ada",
+      "status": "queued"
+    },
+    {
+      "acceptance_criteria": [
+        "date within window",
+        "primary publisher/API publication proof",
+        "qualifying mechanism evidence",
+        "deduped against canonical corpus",
+        "rights/artifact honesty"
+      ],
+      "allowed_secondary_leads": [
+        "web search snippets",
+        "citations",
+        "RSS metadata"
+      ],
+      "cell_id": "case-studies",
+      "claim_under_test": "New original case-studies sources in the 2026-07-16..2026-10-09 window contain primary evidence for self-learning organization mechanisms.",
+      "lane": "case-studies",
+      "output_paths": [
+        "research/refresh-20261009/workers/case-studies/manifest.json",
+        "research/refresh-20261009/evidence/accepted.jsonl",
+        "research/refresh-20261009/evidence/rejected.jsonl"
+      ],
+      "owner": "worker-local-session",
+      "query_family_minimum": 2,
+      "rejection_criteria": [
+        "outside window",
+        "date unknown",
+        "generic AI adoption only",
+        "no primary proof",
+        "duplicate",
+        "blocked with exact error after legal alternate route"
+      ],
+      "required_artifacts": [
+        "query ledger",
+        "retrieval ledger",
+        "candidate decisions",
+        "publisher/API publication proof",
+        "dedupe proof"
+      ],
+      "retry_budget": 2,
+      "reviewer": "Ada",
+      "status": "queued"
+    },
+    {
+      "acceptance_criteria": [
+        "date within window",
+        "primary publisher/API publication proof",
+        "qualifying mechanism evidence",
+        "deduped against canonical corpus",
+        "rights/artifact honesty"
+      ],
+      "allowed_secondary_leads": [
+        "web search snippets",
+        "citations",
+        "RSS metadata"
+      ],
+      "cell_id": "github",
+      "claim_under_test": "New original github sources in the 2026-07-16..2026-10-09 window contain primary evidence for self-learning organization mechanisms.",
+      "lane": "github",
+      "output_paths": [
+        "research/refresh-20261009/workers/github/manifest.json",
+        "research/refresh-20261009/evidence/accepted.jsonl",
+        "research/refresh-20261009/evidence/rejected.jsonl"
+      ],
+      "owner": "worker-local-session",
+      "query_family_minimum": 2,
+      "rejection_criteria": [
+        "outside window",
+        "date unknown",
+        "generic AI adoption only",
+        "no primary proof",
+        "duplicate",
+        "blocked with exact error after legal alternate route"
+      ],
+      "required_artifacts": [
+        "query ledger",
+        "retrieval ledger",
+        "candidate decisions",
+        "publisher/API publication proof",
+        "dedupe proof"
+      ],
+      "retry_budget": 2,
+      "reviewer": "Ada",
+      "status": "queued"
+    }
+  ],
+  "run_id": "refresh-20261009",
+  "schema_version": 1
+}

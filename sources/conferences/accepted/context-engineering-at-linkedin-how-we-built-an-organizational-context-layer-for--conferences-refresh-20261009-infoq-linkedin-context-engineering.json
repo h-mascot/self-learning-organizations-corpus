@@ -1,0 +1,45 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.infoq.com/presentations/linkedin-context-engineering/",
+  "content_sha256": "b93f5eb93231eb677ccd05f64cbe228307bca843eb9800d1df2256dd80dbc1a5",
+  "creator": "Ajay Prakash",
+  "date_precision": "day",
+  "event_proof": {
+    "duration_or_media_observed": true,
+    "publisher": "InfoQ",
+    "recorded_marker_observed": true
+  },
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "InfoQ presentation transcript/summary",
+      "text": "Ajay Prakash discusses how LinkedIn overcomes AI agent limitations in large codebases. He explains Contextual Agent Playbooks and Tools - built on Model Context Protocol (MCP) - which serves procedural memory, code search, and runbooks directly to coding agents. Prakash shares architectural details and operational guardrails that deliver a 20% productivity boost with zero loss in reliability."
+    },
+    {
+      "kind": "excerpt",
+      "locator": "InfoQ presentation transcript",
+      "text": "That's the whole concept of procedural memory. This procedural memory is also the concept behind skills, which is open sourced by Anthropic. At LinkedIn, we had a similar implementation. We developed our own concept of procedural memory, we called it playbooks."
+    }
+  ],
+  "platform": "conferences",
+  "provenance": "InfoQ publisher page captured directly at research/refresh-20261009/evidence/sources/public-fetch/6838de73ee59.direct.txt.",
+  "published_date": "2026-09-19",
+  "publisher": "InfoQ",
+  "query_ids": [
+    "refresh-20261009-conferences-infoq-linkedin"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "serves procedural memory, code search, and runbooks directly to coding agents",
+    "deliver a 20% productivity boost with zero loss in reliability"
+  ],
+  "retrieval_method": "agent-reach documented public direct fetch plus publisher/API page inspection",
+  "retrieved_at": "2026-10-09T12:25:00Z",
+  "rights_note": "Only bounded public evidence spans or bibliographic metadata are retained; no complete third-party page, book, transcript, or repository text is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "talk",
+  "stable_id": "conferences-refresh-20261009-infoq-linkedin-context-engineering",
+  "status": "accepted",
+  "title": "Context Engineering at LinkedIn: How We Built an Organizational Context Layer for AI Agents with MCP"
+}

@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>What 15,865 agent memories taught us</title>
+    <link rel="stylesheet" href="/assets/built/screen.css?v=f23029a8d8">
+
+
+    <style>
+        :root {
+            --background-color: #ffffff
+        }
+    </style>
+
+    <script>
+        /* The script for calculating the color contrast was taken from
+        https://gomakethings.com/dynamically-changing-the-text-color-based-on-background-color-contrast-with-vanilla-js/ */
+        var accentColor = getComputedStyle(document.documentElement).getPropertyValue('--background-color');
+        accentColor = accentColor.trim().slice(1);
+        var r = parseInt(accentColor.substr(0, 2), 16);
+        var g = parseInt(accentColor.substr(2, 2), 16);
+        var b = parseInt(accentColor.substr(4, 2), 16);
+        var yiq = ((r * 299) + (g * 587) + (b * 114)) / 1000;
+        var textColor = (yiq >= 128) ? 'dark' : 'light';
+
+        document.documentElement.className = `has-${textColor}-text`;
+    </script>
+
+    <meta name="description" content="Numbers from our own agent fleet: 84% facts, 33% superseded, 1,273 catalog entries gaming salience, and how the audit reshaped our product plans.">
+    <link rel="icon" href="https://cdn.codecora.dev/2026/07/logo_compress.png" type="image/png">
+    <link rel="canonical" href="https://blog.codecora.dev/what-15865-agent-memories-taught-us/">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+
+    <meta property="og:site_name" content="CodeCora Blog — Make AI Agents Actually Productive">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="What 15,865 agent memories taught us">
+    <meta property="og:description" content="We audited our own fleet&#x27;s memory store: 15,865 memories across 180 rooms. Most are small facts, a third are dead, and salience can lie.">
+    <meta property="og:url" content="https://blog.codecora.dev/what-15865-agent-memories-taught-us/">
+    <meta property="og:image" content="https://cdn.codecora.dev/2026/09/thumb-uteke-fleet-audit-std-1.png">
+    <meta property="article:published_time" content="2026-09-21T03:15:00.000Z">
+    <meta property="article:modified_time" content="2026-09-21T03:15:00.000Z">
+    <meta property="article:tag" content="Uteke">
+    <meta property="article:tag" content="Hermes">
+    <meta property="article:tag" content="Agent Memory">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="What 15,865 agent memories taught us">
+    <meta name="twitter:description" content="We audited our own fleet&#x27;s memory store: 15,865 memories across 180 rooms. Most are small facts, a third are dead, and salience can lie.">
+    <meta name="twitter:url" content="https://blog.codecora.dev/what-15865-agent-memories-taught-us/">
+    <meta name="twitter:image" content="https://cdn.codecora.dev/2026/09/thumb-uteke-fleet-audit-std-1.png">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="Codecora">
+    <meta name="twitter:label2" content="Filed under">
+    <meta name="twitter:data2" content="Uteke, Hermes, Agent Memory">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "CodeCora Blog — Make AI Agents Actually Productive",
+        "url": "https://blog.codecora.dev/",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://cdn.codecora.dev/2026/07/codecora_logo_compress.png",
+            "width": 60,
+            "height": 60
+        }
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Codecora",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://cdn.codecora.dev/2026/09/codecora_logo_compress.png",
+            "width": 819,
+            "height": 819
+        },
+        "url": "https://blog.codecora.dev/author/codecora/",
+        "sameAs": []
+    },
+    "headline": "What 15,865 agent memories taught us",
+    "url": "https://blog.codecora.dev/what-15865-agent-memories-taught-us/",
+    "datePublished": "2026-09-21T03:15:00.000Z",
+    "dateModified": "2026-09-21T03:15:00.000Z",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://cdn.codecora.dev/2026/09/thumb-uteke-fleet-audit-std-1.png",
+        "width": 1200,
+        "height": 630
+    },
+    "keywords": "Uteke, Hermes, Agent Memory",
+    "description": "We audited our own fleet&#x27;s memory store: 15,865 memories across 180 rooms. Most are small facts, a third are dead, and salience can lie.",
+    "mainEntityOfPage": "https://blog.codecora.dev/what-15865-agent-memories-taught-us/"
+}
+    </script>
+
+    <meta name="generator" content="Ghost 6.41">
+    <link rel="alternate" type="application/rss+xml" title="CodeCora Blog — Make AI Agents Actually Productive" href="https://blog.codecora.dev/rss/">
+    <script defer src="https://cdn.jsdelivr.net/ghost/portal@~2.68/umd/portal.min.js" data-i18n="true" data-ghost="https://blog.codecora.dev/" data-key="1397edb3a3e82b757a45b474e2" data-api="https://blog.codecora.dev/ghost/api/content/" data-locale="en" crossorigin="anonymous"></script><style id="gh-members-styles">.gh-post-upgrade-cta-content,
+.gh-post-upgrade-cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.gh-post-upgrade-cta-content {
+    border-radius: 8px;
+    padding: 40px 4vw;
+}
+
+.gh-post-upgrade-cta h2 {
+    color: #ffffff;
+    font-size: 28px;
+    letter-spacing: -0.2px;
+    margin: 0;
+    padding: 0;
+}
+
+.gh-post-upgrade-cta p {
+    margin: 20px 0 0;
+    padding: 0;
+}
+
+.gh-post-upgrade-cta small {
+    font-size: 16px;
+    letter-spacing: -0.2px;
+}
+
+.gh-post-upgrade-cta a {
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 500;
+    box-shadow: none;
+    text-decoration: underline;
+}
+
+.gh-post-upgrade-cta a:hover {
+    color: #ffffff;
+    opacity: 0.8;
+    box-shadow: none;
+    text-decoration: underline;
+}
+
+.gh-post-upgrade-cta a.gh-btn {
+    display: block;
+    background: #ffffff;
+    text-decoration: none;
+    margin: 28px 0 0;
+    padding: 8px 18px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.gh-post-upgrade-cta a.gh-btn:hover {
+    opacity: 0.92;
+}</style>
+    <script defer src="https://cdn.jsdelivr.net/ghost/sodo-search@~1.8/umd/sodo-search.min.js" data-key="1397edb3a3e82b757a45b474e2" data-styles="https://cdn.jsdelivr.net/ghost/sodo-search@~1.8/umd/main.css" data-sodo-search="https://blog.codecora.dev/" data-locale="en" crossorigin="anonymous"></script>
+
+    <link href="https://blog.codecora.dev/webmentions/receive/" rel="webmention">
+    <script defer src="/public/cards.min.js?v=f23029a8d8"></script>
+    <link rel="stylesheet" type="text/css" href="/public/cards.min.css?v=f23029a8d8">
+    <script defer src="/public/comment-counts.min.js?v=f23029a8d8" data-ghost-comments-counts-api="https://blog.codecora.dev/members/api/comments/counts/"></script>
+    <script defer src="/public/member-attribution.min.js?v=f23029a8d8"></script><style>:root {--ghost-accent-color: #1985ff;}</style>
+    <script async defer src="https://u.azfirazka.com/script.js" data-website-id="93c1df0b-c548-427f-96f2-a8bcb8da5b6a"></script>
+</head>
+
+<body class="post-template tag-uteke tag-hermes tag-agent-memory is-head-left-logo has-classic-feed">
+<div class="gh-site">
+
+    <header id="gh-head" class="gh-head gh-outer">
+        <div class="gh-head-inner gh-inner">
+            <div class="gh-head-brand">
+                <div class="gh-head-brand-wrapper">
+                    <a class="gh-head-logo" href="https://blog.codecora.dev">
+                            <img src="https://cdn.codecora.dev/2026/07/codecora_logo_compress.png" alt="CodeCora Blog — Make AI Agents Actually Productive">
+                    </a>
+                </div>
+                <button class="gh-search gh-icon-btn" aria-label="Search this site" data-ghost-search><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M17.5 17.5L12.5 12.5L17.5 17.5ZM14.1667 8.33333C14.1667 9.09938 14.0158 9.85792 13.7226 10.5657C13.4295 11.2734 12.9998 11.9164 12.4581 12.4581C11.9164 12.9998 11.2734 13.4295 10.5657 13.7226C9.85792 14.0158 9.09938 14.1667 8.33333 14.1667C7.56729 14.1667 6.80875 14.0158 6.10101 13.7226C5.39328 13.4295 4.75022 12.9998 4.20854 12.4581C3.66687 11.9164 3.23719 11.2734 2.94404 10.5657C2.65088 9.85792 2.5 9.09938 2.5 8.33333C2.5 6.78624 3.11458 5.30251 4.20854 4.20854C5.30251 3.11458 6.78624 2.5 8.33333 2.5C9.88043 2.5 11.3642 3.11458 12.4581 4.20854C13.5521 5.30251 14.1667 6.78624 14.1667 8.33333Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</button>
+                <button class="gh-burger" aria-label="Toggle menu"></button>
+            </div>
+
+            <nav class="gh-head-menu">
+                <ul class="nav">
+    <li class="nav-home"><a href="https://blog.codecora.dev/">Home</a></li>
+    <li class="nav-about"><a href="https://blog.codecora.dev/about/">About</a></li>
+</ul>
+
+            </nav>
+
+            <div class="gh-head-actions">
+                    <button class="gh-search gh-icon-btn" aria-label="Search this site" data-ghost-search><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M17.5 17.5L12.5 12.5L17.5 17.5ZM14.1667 8.33333C14.1667 9.09938 14.0158 9.85792 13.7226 10.5657C13.4295 11.2734 12.9998 11.9164 12.4581 12.4581C11.9164 12.9998 11.2734 13.4295 10.5657 13.7226C9.85792 14.0158 9.09938 14.1667 8.33333 14.1667C7.56729 14.1667 6.80875 14.0158 6.10101 13.7226C5.39328 13.4295 4.75022 12.9998 4.20854 12.4581C3.66687 11.9164 3.23719 11.2734 2.94404 10.5657C2.65088 9.85792 2.5 9.09938 2.5 8.33333C2.5 6.78624 3.11458 5.30251 4.20854 4.20854C5.30251 3.11458 6.78624 2.5 8.33333 2.5C9.88043 2.5 11.3642 3.11458 12.4581 4.20854C13.5521 5.30251 14.1667 6.78624 14.1667 8.33333Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</button>
+                    <div class="gh-head-members">
+                                <a class="gh-head-link" href="#/portal/signin" data-portal="signin">Sign in</a>
+                                <a class="gh-head-btn gh-btn gh-primary-btn" href="#/portal/signup" data-portal="signup">Subscribe</a>
+                    </div>
+            </div>
+        </div>
+    </header>
+
+
+<main class="gh-main gh-outer">
+    <div class="gh-inner">
+            <article class="gh-article post tag-uteke tag-hermes tag-agent-memory">
+                    <header class="gh-article-header gh-canvas">
+                        <h1 class="gh-article-title">What 15,865 agent memories taught us</h1>
+                            <p class="gh-article-excerpt">We audited our own fleet&#x27;s memory store: 15,865 memories across 180 rooms. Most are small facts, a third are dead, and salience can lie.</p>
+                            <figure class="gh-article-image">
+        <img
+            srcset="https://cdn.codecora.dev/2026/09/thumb-uteke-fleet-audit-std-1.png 300w,
+                    https://cdn.codecora.dev/2026/09/thumb-uteke-fleet-audit-std-1.png 720w,
+                    https://cdn.codecora.dev/2026/09/thumb-uteke-fleet-audit-std-1.png 960w,
+                    https://cdn.codecora.dev/2026/09/thumb-uteke-fleet-audit-std-1.png 1200w,
+                    https://cdn.codecora.dev/2026/09/thumb-uteke-fleet-audit-std-1.png 2000w,
+                    https://cdn.codecora.dev/2026/09/thumb-uteke-fleet-audit-std-1.png"
+            sizes="(max-width: 1200px) 100vw, 1200px"
+            src="https://cdn.codecora.dev/2026/09/thumb-uteke-fleet-audit-std-1.png"
+            alt="What 15,865 agent memories taught us"
+        >
+    </figure>
+                    </header>
+
+                <section class="gh-content gh-canvas">
+                    <p>We make a memory engine for AI agents. So a few weeks ago we asked ourselves an uncomfortable question: what do our own agents put in theirs?</p><p>We run a fleet of agents on our own infrastructure. Around sixty of them run on Hermes alone, handling research, content, code review, and operations. Every one of them shares one Uteke instance with scoped rooms. When we pulled the production snapshot and counted, the store held 15,865 memories across 180 rooms. This post is what the data taught us, including the parts we did not expect.</p><p>If you followed <a href="https://blog.codecora.dev/local-llm-isnt-dumb-its-amnesic/">our piece on why a local model without memory feels amnesic</a>, this is the sequel. That post named the problem. This one shows what a real solution looks like after months of daily use, and how the numbers reshaped the product we are building.</p><h2 id="most-memories-are-boring-and-that-is-the-point">Most memories are boring, and that is the point</h2><p>Our marketing story says decisions. The data says facts. 84 percent of everything our fleet stores is plain factual memory: a deployment time, a file path, a naming convention, a preference stated once by a human and never repeated again.</p><p>The average memory is 449 characters. The largest single one is 83,583. Almost everything lives near the small end. It turns out the highest traffic in an agent memory store is not the grand architectural rationale. It is the small stuff that would cost a whole conversation to re-explain.</p><p>That finding changed how we think about pricing the managed version. When your quota counts memories, you had better count the ones in daily use. More on that below.</p><h2 id="rooms-turned-out-to-be-the-real-feature">Rooms turned out to be the real feature</h2><p>We expected shared memory to be a nice-to-have. Instead, rooms are where the fleet lives: 180 of them, with the busiest single room holding 60 Hermes agents that work daily. Agents inherit project context from each other through the room, so a research agent's findings are recallable by the writing agent without anyone copy-pasting anything.</p><p>Cross-agent recall with author attribution became the workload we optimize for first, because it is the workload we run ourselves every day.</p><h2 id="a-third-of-our-memories-are-dead-on-purpose">A third of our memories are dead, on purpose</h2><p>5,190 of the 15,865 memories, about 33 percent, are deprecated. Superseded by newer versions, kept for history.</p><p>Our first reaction was mild embarrassment. Then we looked closer. A third of a memory store rotting is not a bug when your agents operate a real company. Decisions change, facts get corrected, plans move. A memory layer that cannot retire an old fact quietly becomes a liability that serves stale answers with total confidence. The supersede flow, where recall flags a stale result instead of serving it, is one of the features we are proudest of, precisely because the data proved it earns its keep.</p><h2 id="the-uncomfortable-finding-salience-can-lie">The uncomfortable finding: salience can lie</h2><p>The finding we did not enjoy: 4,458 memories had an access count above 500. Dug in, at least 1,273 of them were catalog entries that get embedded on every recall loop. Mechanical popularity, not relevance. If we billed per recall, that quirk would silently burn user money on repeated identical entries.</p><p>We caught it because we audit our own usage. The managed service now needs dedup and throttling around access counting before beta, and that requirement exists because of this one number in our own data.</p><h2 id="what-the-audit-changed-in-the-product">What the audit changed in the product</h2><p>The usage data directly shaped the cloud version we are building:</p><ul><li>Count caps now count live memories only. With a 33 percent deprecated ratio, counting totals would punish active users for their own housekeeping.</li><li>Consolidation that needs an LLM is a paid operation. The free tier gets the deterministic dry run, which needs no model call at all.</li><li>Bulk import became a first-class endpoint, tested to 64 MB and 50,000 entries, because moving your history in should not be a hack.</li></ul><p>None of this came from a whiteboard. It came from watching 15,865 memories behave.</p><h2 id="try-it-on-your-own-fleet">Try it on your own fleet</h2><p>Uteke is Apache-2.0, at version 0.18.1, one Rust binary, zero API keys, fully offline. Recall runs in around 45 milliseconds on a CPU with fusion search scoring 0.98 recall at 5 on our public benchmark suite, and the reproduction scripts ship with the repo so you can check that number yourself.</p><p>Connect it to your agent over MCP, or use the auto-recall hook if you want context injected on every call. Rooms work the same way ours do.</p><p>For the managed version, we just put the landing live at <a href="https://cloud.uteke.app/?ref=blog.codecora.dev">cloud.uteke.app</a>. It ships the same core contract as the open source engine, operated for you, and the waitlist is open now.</p><p>Start local: <code>curl -sSL codecora.dev/uteke/install | sh</code>. In a month, audit your own store. Whatever you find in there, it will probably not match your assumptions either.</p>
+                    <aside class="gh-article-meta">
+                        <div class="gh-article-meta-inner">
+                            <div class="gh-author-image-list instapaper_ignore">
+                                    <a class="gh-author-image" href="/author/codecora/">
+                                            <img src="https://cdn.codecora.dev/2026/09/codecora_logo_compress.png" alt="Codecora">
+                                    </a>
+                            </div>
+                            <div class="gh-article-meta-wrapper">
+                                <div class="gh-author-name-list">
+                                    <a href="/author/codecora/">Codecora</a>
+                                </div>
+                                <time class="gh-article-date" datetime="2026-09-21">21 Sep 2026</time>
+                            </div>
+                                <a class="gh-article-tag" href="https://blog.codecora.dev/tag/uteke/" style="--tag-color: ">Uteke</a>
+                        </div>
+                    </aside>
+                </section>
+
+                    <div class="gh-comments gh-canvas">
+                        <h2 class="gh-comments-title"><script
+    data-ghost-comment-count="6ab063ca21c929001e5ee77f"
+    data-ghost-comment-count-empty=""
+    data-ghost-comment-count-singular="comment"
+    data-ghost-comment-count-plural="comments"
+    data-ghost-comment-count-tag="span"
+    data-ghost-comment-count-class-name=""
+    data-ghost-comment-count-autowrap="true"
+>
+</script></h2>
+
+        <script defer src="https://cdn.jsdelivr.net/ghost/comments-ui@~1.4/umd/comments-ui.min.js" data-locale="en" data-ghost-comments="https://blog.codecora.dev/" data-api="https://blog.codecora.dev/ghost/api/content/" data-admin="https://blog.codecora.dev/ghost/" data-key="1397edb3a3e82b757a45b474e2" data-title="" data-count="false" data-post-id="6ab063ca21c929001e5ee77f" data-color-scheme="auto" data-avatar-saturation="60" data-accent-color="#1985ff" data-comments-enabled="all" data-publication="CodeCora Blog — Make AI Agents Actually Productive" crossorigin="anonymous"></script>
+
+                    </div>
+
+                <footer class="gh-article-footer gh-canvas">
+                    <nav class="gh-navigation">
+                        <div class="gh-navigation-previous">
+                                <a class="gh-navigation-link" href="/vecq-4-bit-edge-recall-budget/">← <span class="gh-navigation-text">Previous</span></a>
+                        </div>
+
+                        <div class="gh-navigation-middle">
+                            <a href="#/share" class="gh-button-share">Share</a>
+                        </div>
+
+                        <div class="gh-navigation-next">
+                                <a class="gh-navigation-link" href="/ai-workflow-automation-all-time-high/"><span class="gh-navigation-text">Next</span> →</a>
+                        </div>
+                    </nav>
+                </footer>
+            </article>
+    </div>
+</main>
+
+    <footer class="gh-foot gh-outer">
+        <div class="gh-foot-inner gh-inner">
+            <div class="gh-foot-center">
+                <div class="gh-social-links">
+                        <a href="https://www.threads.net/@codecoradev" target="_blank" rel="noopener" aria-label="Threads">
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M12.1159 7.41573C12.0508 7.38263 11.9847 7.35087 11.9177 7.32043C11.8011 5.04485 10.6268 3.74208 8.655 3.72875C8.64608 3.72869 8.63723 3.72869 8.6283 3.72869C7.44894 3.72869 6.46805 4.26174 5.86433 5.23173L6.94875 6.0194C7.39976 5.29486 8.10757 5.1404 8.62882 5.1404C8.63479 5.1404 8.64084 5.1404 8.64681 5.14046C9.29608 5.14484 9.78599 5.34472 10.1031 5.7345C10.3338 6.01828 10.4881 6.41042 10.5645 6.90529C9.98892 6.80172 9.36642 6.76987 8.70094 6.8103C6.82626 6.92464 5.62108 8.08234 5.70202 9.691C5.74309 10.507 6.12701 11.209 6.783 11.6676C7.3376 12.0553 8.05197 12.2448 8.79436 12.2019C9.77478 12.145 10.5439 11.7489 11.0805 11.0247C11.488 10.4747 11.7457 9.76195 11.8596 8.86384C12.3268 9.16238 12.6731 9.55536 12.8643 10.0276C13.1895 10.8306 13.2085 12.15 12.1918 13.2257C11.3009 14.168 10.2301 14.5757 8.61186 14.5883C6.81678 14.5742 5.45917 13.9646 4.57649 12.7764C3.74993 11.6638 3.32277 10.0568 3.30683 8C3.32277 5.94315 3.74993 4.33613 4.57649 3.22355C5.45917 2.03541 6.81675 1.42583 8.61186 1.41171C10.42 1.42594 11.8012 2.03845 12.7177 3.23234C13.1671 3.8178 13.5058 4.55407 13.7292 5.41253L15 5.05352C14.7293 3.99685 14.3033 3.08631 13.7236 2.33117C12.5487 0.800554 10.8303 0.0162654 8.61629 0H8.60744C6.39789 0.0162029 4.69879 0.803481 3.55734 2.33994C2.54161 3.7072 2.01766 5.60964 2.00005 7.99438L2 8L2.00005 8.00562C2.01766 10.3903 2.54161 12.2928 3.55734 13.6601C4.69879 15.1965 6.39789 15.9838 8.60744 16H8.61629C10.5807 15.9856 11.9653 15.441 13.106 14.2342C14.5984 12.6555 14.5534 10.6766 14.0616 9.46178C13.7087 8.59059 13.0359 7.883 12.1159 7.41573ZM8.72416 10.7923C7.90258 10.8413 7.04898 10.4507 7.00687 9.61436C6.97567 8.99419 7.42365 8.3022 8.7746 8.21971C8.9293 8.21026 9.08113 8.20566 9.23023 8.20566C9.72095 8.20566 10.18 8.25616 10.5973 8.35278C10.4417 10.4112 9.52864 10.7455 8.72416 10.7923Z" fill="currentColor"/>
+</svg>                        </a>
+                        <a href="https://www.instagram.com/codecoradev" target="_blank" rel="noopener" aria-label="Instagram">
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M8.00033 1.98784C9.95833 1.98784 10.1903 1.99517 10.9637 2.0305C11.4286 2.03592 11.8891 2.12139 12.325 2.28317C12.6437 2.40057 12.9319 2.58808 13.1683 2.83184C13.4121 3.0683 13.5996 3.35651 13.717 3.67517C13.8788 4.11107 13.9642 4.57158 13.9697 5.0365C14.005 5.80984 14.0123 6.04184 14.0123 7.99984C14.0123 9.95784 14.005 10.1898 13.9697 10.9632C13.9642 11.4281 13.8788 11.8886 13.717 12.3245C13.5949 12.6408 13.408 12.9281 13.1683 13.1678C12.9286 13.4076 12.6413 13.5945 12.325 13.7165C11.8891 13.8783 11.4286 13.9638 10.9637 13.9692C10.1903 14.0045 9.95833 14.0118 8.00033 14.0118C6.04233 14.0118 5.81033 14.0045 5.03699 13.9692C4.57207 13.9638 4.11156 13.8783 3.67566 13.7165C3.357 13.5991 3.06879 13.4116 2.83233 13.1678C2.58857 12.9314 2.40106 12.6432 2.28366 12.3245C2.12188 11.8886 2.03641 11.4281 2.03099 10.9632C1.99566 10.1898 1.98833 9.95784 1.98833 7.99984C1.98833 6.04184 1.99566 5.80984 2.03099 5.0365C2.03641 4.57158 2.12188 4.11107 2.28366 3.67517C2.40106 3.35651 2.58857 3.0683 2.83233 2.83184C3.06879 2.58808 3.357 2.40057 3.67566 2.28317C4.11156 2.12139 4.57207 2.03592 5.03699 2.0305C5.81033 1.99517 6.04233 1.98784 8.00033 1.98784ZM8.00033 0.666504C6.00899 0.666504 5.75899 0.675171 4.97699 0.710504C4.36872 0.723075 3.76693 0.838249 3.19699 1.05117C2.70936 1.23995 2.26659 1.52863 1.89713 1.89866C1.52767 2.2687 1.23968 2.71191 1.05166 3.19984C0.838737 3.76977 0.723563 4.37156 0.710992 4.97984C0.675659 5.7585 0.666992 6.0085 0.666992 7.99984C0.666992 9.99117 0.675659 10.2412 0.710992 11.0232C0.723563 11.6314 0.838737 12.2332 1.05166 12.8032C1.24044 13.2908 1.52912 13.7336 1.89915 14.103C2.26919 14.4725 2.7124 14.7605 3.20033 14.9485C3.77026 15.1614 4.37205 15.2766 4.98033 15.2892C5.75899 15.3245 6.00899 15.3332 8.00033 15.3332C9.99166 15.3332 10.2417 15.3245 11.0237 15.2892C11.6319 15.2766 12.2337 15.1614 12.8037 14.9485C13.2913 14.7597 13.7341 14.471 14.1035 14.101C14.473 13.731 14.761 13.2878 14.949 12.7998C15.1619 12.2299 15.2771 11.6281 15.2897 11.0198C15.325 10.2412 15.3337 9.99117 15.3337 7.99984C15.3337 6.0085 15.325 5.7585 15.2897 4.9765C15.2771 4.36823 15.1619 3.76644 14.949 3.1965C14.7602 2.70887 14.4715 2.2661 14.1015 1.89664C13.7315 1.52718 13.2883 1.23919 12.8003 1.05117C12.2304 0.838249 11.6286 0.723075 11.0203 0.710504C10.2417 0.675171 9.99166 0.666504 8.00033 0.666504Z" fill="currentColor"/>
+    <path d="M8.00038 4.23389C7.25553 4.23389 6.52741 4.45476 5.9081 4.86857C5.28878 5.28239 4.80609 5.87055 4.52105 6.5587C4.23601 7.24685 4.16143 8.00406 4.30674 8.7346C4.45205 9.46513 4.81073 10.1362 5.33741 10.6629C5.8641 11.1895 6.53513 11.5482 7.26567 11.6935C7.9962 11.8388 8.75342 11.7643 9.44156 11.4792C10.1297 11.1942 10.7179 10.7115 11.1317 10.0922C11.5455 9.47285 11.7664 8.74473 11.7664 7.99989C11.7664 7.00108 11.3696 6.04318 10.6633 5.33692C9.95708 4.63066 8.99918 4.23389 8.00038 4.23389ZM8.00038 10.4446C7.51687 10.4446 7.04422 10.3012 6.64219 10.0326C6.24017 9.76393 5.92683 9.38212 5.7418 8.93542C5.55677 8.48872 5.50836 7.99717 5.60268 7.52296C5.69701 7.04874 5.92984 6.61314 6.27174 6.27125C6.61363 5.92935 7.04923 5.69652 7.52345 5.60219C7.99767 5.50787 8.48921 5.55628 8.93591 5.74131C9.38261 5.92634 9.76442 6.23968 10.033 6.6417C10.3017 7.04373 10.445 7.51638 10.445 7.99989C10.445 8.64825 10.1875 9.27006 9.72902 9.72853C9.27055 10.187 8.64874 10.4446 8.00038 10.4446Z" fill="currentColor"/>
+    <path d="M11.9152 4.96508C12.4012 4.96508 12.7952 4.57109 12.7952 4.08508C12.7952 3.59907 12.4012 3.20508 11.9152 3.20508C11.4291 3.20508 11.0352 3.59907 11.0352 4.08508C11.0352 4.57109 11.4291 4.96508 11.9152 4.96508Z" fill="currentColor"/>
+</svg>                        </a>
+                </div>
+                <nav class="gh-foot-menu">
+                    <ul class="nav">
+    <li class="nav-sign-up"><a href="#/portal/">Sign up</a></li>
+</ul>
+
+                </nav>
+            </div>
+
+            <div class="gh-copyright">
+                    CodeCora Blog — Make AI Agents Actually Productive © 2026. Powered by <a href="https://ghost.org/" target="_blank" rel="noopener">Ghost</a>
+            </div>
+        </div>
+    </footer>
+
+</div>
+
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="pswp__bg"></div>
+
+    <div class="pswp__scroll-wrap">
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="/assets/built/main.min.js?v=f23029a8d8"></script>
+
+
+
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920" integrity="sha512-L0ha0OXavK/8okipN9F8BtP84dg9DUhPERbBXzwI6dgTA55d2+yweo3pn5CSFYs45/r8md2+xvUPtTdvTNRfjA==" data-cf-beacon='{"version":"2024.11.0","token":"cb4806b1846647b7bd1d7d1873413ac2","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+
+</html>

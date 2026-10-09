@@ -3,40 +3,40 @@
     "book-chapter": 10,
     "conference-paper": 28,
     "journal-article": 149,
-    "repository-preprint": 13,
+    "repository-preprint": 16,
     "thesis": 1
   },
-  "accepted_sources": 640,
+  "accepted_sources": 648,
   "blocked_sources": 0,
   "by_artifact_level": {
-    "abstract": 165,
+    "abstract": 168,
     "full_text": 88,
-    "metadata_only": 300,
+    "metadata_only": 305,
     "transcript": 102,
     "unavailable": 399
   },
   "by_content_type": {
-    "article": 112,
-    "book": 174,
-    "case-study": 63,
+    "article": 113,
+    "book": 175,
+    "case-study": 64,
     "episode": 51,
-    "paper": 201,
+    "paper": 204,
     "post": 75,
-    "repository": 223,
-    "talk": 53,
+    "repository": 224,
+    "talk": 54,
     "transcript": 102
   },
   "by_lifecycle": {
-    "accepted": 640,
+    "accepted": 648,
     "rejected": 414
   },
   "by_platform": {
-    "academic": 201,
-    "blogs": 87,
-    "books": 174,
-    "case-studies": 63,
-    "conferences": 53,
-    "github": 223,
+    "academic": 204,
+    "blogs": 88,
+    "books": 175,
+    "case-studies": 64,
+    "conferences": 54,
+    "github": 224,
     "podcasts": 51,
     "reddit": 25,
     "substack": 25,
@@ -86,6 +86,7 @@
     "GitHub API metadata and bounded README evidence for openai/openai-cookbook.": 1,
     "GitHub API metadata and bounded README evidence for outline/outline.": 1,
     "GitHub API metadata and bounded README evidence for xwiki/xwiki-platform.": 1,
+    "GitHub CLI metadata proved createdAt 2026-09-03; README captured by GitHub/WebSearch route at agent-tools and repository metadata receipt.": 1,
     "GitHub metadata and full README manually audited for Arize-ai/phoenix.": 1,
     "GitHub metadata and full README manually audited for Flagsmith/flagsmith.": 1,
     "GitHub metadata and full README manually audited for GoogleCloudPlatform/professional-services.": 1,
@@ -301,7 +302,9 @@
     "GitHub repository zhangfengcdt/memoir; discovered by github-repos-01.": 1,
     "GitHub repository zzc-1998/SJTU-H3D; discovered by github-repos-07.": 1,
     "InfoQ presentation page with recorded-event marker, speaker attribution, and bounded source excerpt.": 32,
+    "InfoQ publisher page captured directly at research/refresh-20261009/evidence/sources/public-fetch/6838de73ee59.direct.txt.": 1,
     "Jina Reader direct fetch of the canonical individual article": 25,
+    "Manning publisher catalog captured directly at research/refresh-20261009/evidence/sources/public-fetch/725fd1599450.direct.txt.": 1,
     "OpenAlex W121121963 API metadata plus preserved legacy evidence": 1,
     "OpenAlex W1490729419 API metadata plus preserved legacy evidence": 1,
     "OpenAlex W1525574620 API metadata plus preserved legacy evidence": 1,
@@ -500,6 +503,9 @@
     "OpenAlex W4399441943 API metadata plus preserved legacy evidence": 1,
     "OpenAlex W4400268572 API metadata plus preserved legacy evidence": 1,
     "OpenAlex W48413605 API metadata plus preserved legacy evidence": 1,
+    "OpenAlex W7202272297 metadata plus arXiv DOI 10.48550/arxiv.2608.10679; retrieved during refresh-20261009.": 1,
+    "OpenAlex W7214043592 metadata plus arXiv DOI 10.48550/arxiv.2609.24971; retrieved during refresh-20261009.": 1,
+    "OpenAlex W7216530988 metadata plus arXiv DOI 10.48550/arxiv.2610.02002; retrieved during refresh-20261009.": 1,
     "OpenAlex W83397471 API metadata plus preserved legacy evidence": 1,
     "OpenAlex W98219716 API metadata plus preserved legacy evidence": 1,
     "Primary Etsy Code as Craft publication manually re-reviewed from blocked saturation discovery on 2026-07-12.": 1,
@@ -707,6 +713,8 @@
     "Public timestamped transcript at ChatPRD/lennys-podcast-transcripts/sander-schulhoff-20; original video ID J9982NLmTXg.": 1,
     "Public timestamped transcript at ChatPRD/lennys-podcast-transcripts/sander-schulhoff; original video ID eKuFqQKYRrA.": 1,
     "Public timestamped transcript at ChatPRD/lennys-podcast-transcripts/scott-wu; original video ID gI0ZNhA0rvE.": 1,
+    "Publisher article captured directly at research/refresh-20261009/evidence/sources/public-fetch/d2533f91d512.direct.txt.": 1,
+    "Publisher field note captured directly at research/refresh-20261009/evidence/sources/public-fetch/2b78c2237e6a.direct.txt.": 1,
     "Recovered from research/discovery-inventory.md via early-inventory-blogs.": 6,
     "Recovered from research/discovery-inventory.md via early-inventory-case-studies.": 5,
     "Recovered from research/discovery-inventory.md via early-inventory-podcasts.": 2,
@@ -717,24 +725,24 @@
     "YouTube transcript retained via youtube-transcript-api": 1
   },
   "by_rights_status": {
-    "bounded-public-evidence": 252,
-    "metadata-only": 174,
-    "open-license": 236,
+    "bounded-public-evidence": 255,
+    "metadata-only": 175,
+    "open-license": 237,
     "retrieval-evidence-only": 16,
     "third-party": 202,
-    "third-party-metadata-and-abstract": 174
+    "third-party-metadata-and-abstract": 177
   },
   "channels": {
     "academic": {
-      "accepted": 187,
+      "accepted": 190,
       "blocked": 0,
       "by_artifact_level": {
-        "abstract": 165,
+        "abstract": 168,
         "full_text": 13,
         "metadata_only": 23
       },
       "by_lifecycle": {
-        "accepted": 187,
+        "accepted": 190,
         "rejected": 14
       },
       "by_provenance": {
@@ -937,26 +945,29 @@
         "OpenAlex W4399441943 API metadata plus preserved legacy evidence": 1,
         "OpenAlex W4400268572 API metadata plus preserved legacy evidence": 1,
         "OpenAlex W48413605 API metadata plus preserved legacy evidence": 1,
+        "OpenAlex W7202272297 metadata plus arXiv DOI 10.48550/arxiv.2608.10679; retrieved during refresh-20261009.": 1,
+        "OpenAlex W7214043592 metadata plus arXiv DOI 10.48550/arxiv.2609.24971; retrieved during refresh-20261009.": 1,
+        "OpenAlex W7216530988 metadata plus arXiv DOI 10.48550/arxiv.2610.02002; retrieved during refresh-20261009.": 1,
         "OpenAlex W83397471 API metadata plus preserved legacy evidence": 1,
         "OpenAlex W98219716 API metadata plus preserved legacy evidence": 1
       },
       "by_rights_status": {
         "open-license": 27,
-        "third-party-metadata-and-abstract": 174
+        "third-party-metadata-and-abstract": 177
       },
-      "discovered": 201,
+      "discovered": 204,
       "rejected": 14,
-      "retrieved": 201
+      "retrieved": 204
     },
     "blogs": {
-      "accepted": 80,
+      "accepted": 81,
       "blocked": 0,
       "by_artifact_level": {
-        "metadata_only": 80,
+        "metadata_only": 81,
         "unavailable": 7
       },
       "by_lifecycle": {
-        "accepted": 80,
+        "accepted": 81,
         "rejected": 7
       },
       "by_provenance": {
@@ -968,28 +979,30 @@
         "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-blogs.": 73,
         "Primary Wise Engineering publication manually re-reviewed from blocked saturation discovery on 2026-07-12.": 1,
         "Public first-party Google SRE book chapter; bounded source evidence retained.": 2,
+        "Publisher article captured directly at research/refresh-20261009/evidence/sources/public-fetch/d2533f91d512.direct.txt.": 1,
         "Recovered from research/discovery-inventory.md via early-inventory-blogs.": 6
       },
       "by_rights_status": {
-        "bounded-public-evidence": 82,
+        "bounded-public-evidence": 83,
         "retrieval-evidence-only": 5
       },
-      "discovered": 87,
+      "discovered": 88,
       "rejected": 7,
-      "retrieved": 87
+      "retrieved": 88
     },
     "books": {
-      "accepted": 30,
+      "accepted": 31,
       "blocked": 0,
       "by_artifact_level": {
-        "metadata_only": 30,
+        "metadata_only": 31,
         "unavailable": 144
       },
       "by_lifecycle": {
-        "accepted": 30,
+        "accepted": 31,
         "rejected": 144
       },
       "by_provenance": {
+        "Manning publisher catalog captured directly at research/refresh-20261009/evidence/sources/public-fetch/725fd1599450.direct.txt.": 1,
         "Public bibliographic record OL10460640W; discovered by openlibrary-books-05.": 1,
         "Public bibliographic record OL10692849W; discovered by openlibrary-books-07.": 1,
         "Public bibliographic record OL11623853W; discovered by openlibrary-books-06.": 1,
@@ -1166,68 +1179,70 @@
         "Public bibliographic record OL8915040W; discovered by openlibrary-books-09.": 1
       },
       "by_rights_status": {
-        "metadata-only": 174
+        "metadata-only": 175
       },
-      "discovered": 174,
+      "discovered": 175,
       "rejected": 144,
-      "retrieved": 174
+      "retrieved": 175
     },
     "case-studies": {
-      "accepted": 51,
+      "accepted": 52,
       "blocked": 0,
       "by_artifact_level": {
-        "metadata_only": 51,
+        "metadata_only": 52,
         "unavailable": 12
       },
       "by_lifecycle": {
-        "accepted": 51,
+        "accepted": 52,
         "rejected": 12
       },
       "by_provenance": {
         "Primary OpenAI customer story with named Endava executives manually re-reviewed from blocked saturation discovery on 2026-07-12.": 1,
         "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-case-studies.": 56,
         "Public first-party customer case page; bounded source evidence retained.": 1,
+        "Publisher field note captured directly at research/refresh-20261009/evidence/sources/public-fetch/2b78c2237e6a.direct.txt.": 1,
         "Recovered from research/discovery-inventory.md via early-inventory-case-studies.": 5
       },
       "by_rights_status": {
-        "bounded-public-evidence": 53,
+        "bounded-public-evidence": 54,
         "retrieval-evidence-only": 10
       },
-      "discovered": 63,
+      "discovered": 64,
       "rejected": 12,
-      "retrieved": 63
+      "retrieved": 64
     },
     "conferences": {
-      "accepted": 30,
-      "blocked": 0,
-      "by_artifact_level": {
-        "metadata_only": 30,
-        "unavailable": 23
-      },
-      "by_lifecycle": {
-        "accepted": 30,
-        "rejected": 23
-      },
-      "by_provenance": {
-        "InfoQ presentation page with recorded-event marker, speaker attribution, and bounded source excerpt.": 32,
-        "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-conferences.": 21
-      },
-      "by_rights_status": {
-        "bounded-public-evidence": 53
-      },
-      "discovered": 53,
-      "rejected": 23,
-      "retrieved": 53
-    },
-    "github": {
       "accepted": 31,
       "blocked": 0,
       "by_artifact_level": {
         "metadata_only": 31,
-        "unavailable": 192
+        "unavailable": 23
       },
       "by_lifecycle": {
         "accepted": 31,
+        "rejected": 23
+      },
+      "by_provenance": {
+        "InfoQ presentation page with recorded-event marker, speaker attribution, and bounded source excerpt.": 32,
+        "InfoQ publisher page captured directly at research/refresh-20261009/evidence/sources/public-fetch/6838de73ee59.direct.txt.": 1,
+        "Primary URL recovered from earlier Exa discovery and citation chasing; catalog query citation-catalog-conferences.": 21
+      },
+      "by_rights_status": {
+        "bounded-public-evidence": 54
+      },
+      "discovered": 54,
+      "rejected": 23,
+      "retrieved": 54
+    },
+    "github": {
+      "accepted": 32,
+      "blocked": 0,
+      "by_artifact_level": {
+        "metadata_only": 32,
+        "unavailable": 192
+      },
+      "by_lifecycle": {
+        "accepted": 32,
         "rejected": 192
       },
       "by_provenance": {
@@ -1240,6 +1255,7 @@
         "GitHub API metadata and bounded README evidence for openai/openai-cookbook.": 1,
         "GitHub API metadata and bounded README evidence for outline/outline.": 1,
         "GitHub API metadata and bounded README evidence for xwiki/xwiki-platform.": 1,
+        "GitHub CLI metadata proved createdAt 2026-09-03; README captured by GitHub/WebSearch route at agent-tools and repository metadata receipt.": 1,
         "GitHub metadata and full README manually audited for Arize-ai/phoenix.": 1,
         "GitHub metadata and full README manually audited for Flagsmith/flagsmith.": 1,
         "GitHub metadata and full README manually audited for GoogleCloudPlatform/professional-services.": 1,
@@ -1457,11 +1473,11 @@
       },
       "by_rights_status": {
         "bounded-public-evidence": 14,
-        "open-license": 209
+        "open-license": 210
       },
-      "discovered": 223,
+      "discovered": 224,
       "rejected": 192,
-      "retrieved": 223
+      "retrieved": 224
     },
     "podcasts": {
       "accepted": 30,
@@ -1617,9 +1633,9 @@
     }
   },
   "complete_timestamped_transcripts": 101,
-  "discovered_sources": 1054,
+  "discovered_sources": 1062,
   "rejected_sources": 414,
-  "retrieved_sources": 1054,
+  "retrieved_sources": 1062,
   "saturation": {
     "academic_status": "met: wave 6 has three consecutive eligible post-acceptance rounds below 5%",
     "candidate_count": 611,
@@ -1642,6 +1658,6 @@
     "unsaturated_channels": []
   },
   "schema_version": 2,
-  "total_records": 1054,
-  "validated_relevant_sources": 640
+  "total_records": 1062,
+  "validated_relevant_sources": 648
 }

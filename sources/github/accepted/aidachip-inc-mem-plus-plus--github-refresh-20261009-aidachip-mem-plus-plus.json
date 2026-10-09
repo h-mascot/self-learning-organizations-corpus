@@ -1,0 +1,48 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://github.com/AIDAChip-Inc/mem-plus-plus",
+  "content_sha256": "7290cf79de877f8dff2c554f20cd6562e01c5d2a5bb85d3982b613b631300fc7",
+  "creator": "AIDAChip-Inc",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "repository README",
+      "text": "Mem++ is AIDAChip's organizational memory system for LLM agents that work over an organization's record: the Slack threads, emails, meeting notes, tickets and documents that many people write over months and years, and that revise, supersede and contradict one another."
+    },
+    {
+      "kind": "excerpt",
+      "locator": "repository README",
+      "text": "Mem++ is evaluated on OrgMemBench, a benchmark for organizational memory: 443 artifacts in 157 threads spanning 18 months, and 73 questions across six capabilities. The harness in eval/ also runs the conversational memory benchmarks LoCoMo, LongMemEval, LongBench and MemBench."
+    }
+  ],
+  "organizational_mechanism": "Mem++ keeps original organizational records non-destructively and evaluates organizational memory over supersession, provenance, bi-temporal, audit replay, justification, and contradiction capabilities.",
+  "platform": "github",
+  "provenance": "GitHub CLI metadata proved createdAt 2026-09-03; README captured by GitHub/WebSearch route at agent-tools and repository metadata receipt.",
+  "published_date": "2026-09-03",
+  "publisher": "GitHub",
+  "query_ids": [
+    "refresh-20261009-github-mem-plus-plus"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "organizational memory system for LLM agents",
+    "benchmark for organizational memory"
+  ],
+  "repository": {
+    "created_at": "2026-09-03T21:34:57Z",
+    "full_name": "AIDAChip-Inc/mem-plus-plus",
+    "last_push": "2026-10-06T19:42:10Z",
+    "license": "apache-2.0",
+    "stars_at_retrieval": 7
+  },
+  "retrieval_method": "agent-reach documented public direct fetch plus publisher/API page inspection",
+  "retrieved_at": "2026-10-09T12:25:00Z",
+  "rights_note": "Only bounded public evidence spans or bibliographic metadata are retained; no complete third-party page, book, transcript, or repository text is copied.",
+  "rights_status": "open-license",
+  "schema_version": 2,
+  "source_type": "repository",
+  "stable_id": "github-refresh-20261009-aidachip-mem-plus-plus",
+  "status": "accepted",
+  "title": "AIDAChip-Inc/mem-plus-plus"
+}

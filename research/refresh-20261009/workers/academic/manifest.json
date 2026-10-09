@@ -1,0 +1,16 @@
+{
+  "cell_id": "academic",
+  "completed_at": "2026-10-09T12:25:00Z",
+  "lane": "academic",
+  "outputs": {
+    "decisions": "research/refresh-20261009/workers/academic/decisions.jsonl",
+    "query_ledger": "research/refresh-20261009/workers/academic/query-ledger.jsonl",
+    "retrieval_ledger": "research/refresh-20261009/workers/academic/retrieval-ledger.jsonl"
+  },
+  "owner": "worker-local-session",
+  "query_families_required": 2,
+  "retry_budget": 2,
+  "reviewer": "Ada",
+  "started_at": "2026-10-09T12:25:00Z",
+  "status": "collected"
+}

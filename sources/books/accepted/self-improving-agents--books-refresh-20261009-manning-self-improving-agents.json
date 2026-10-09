@@ -1,0 +1,46 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.manning.com/books/self-improving-agents",
+  "content_sha256": "816836f479963cda698e50d32262a1bccde7301f1f67ba6de942a7fc488552e1",
+  "creator": "Micheal Lanham",
+  "date_precision": "year",
+  "evidence": [
+    {
+      "kind": "bibliographic_metadata",
+      "locator": "publisher catalog page",
+      "text": "Title: Self-Improving Agents; creator: Micheal Lanham; publisher: Manning; MEAP began September 2026; last updated September 2026; ISBN 9781633433182; publication in Summer 2027 estimated."
+    },
+    {
+      "kind": "excerpt",
+      "locator": "publisher catalog description",
+      "text": "Self-Improving Agents equips you with techniques to transform your agent’s harness—context, memory, metacognition, tools, and code—into a measured, versioned, auditable improvement loop that adapts and improves as it runs."
+    }
+  ],
+  "identifiers": {
+    "catalog_id": "manning-9781633433182",
+    "isbn": [
+      "9781633433182"
+    ]
+  },
+  "platform": "books",
+  "provenance": "Manning publisher catalog captured directly at research/refresh-20261009/evidence/sources/public-fetch/725fd1599450.direct.txt.",
+  "published_date": "2026-09-01",
+  "publisher": "Manning",
+  "query_ids": [
+    "refresh-20261009-books-manning-self-improving-agents"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "MEAP began September 2026",
+    "measured, versioned, auditable improvement loop that adapts and improves as it runs"
+  ],
+  "retrieval_method": "agent-reach documented public direct fetch plus publisher/API page inspection",
+  "retrieved_at": "2026-10-09T12:25:00Z",
+  "rights_note": "Only bounded public evidence spans or bibliographic metadata are retained; no complete third-party page, book, transcript, or repository text is copied.",
+  "rights_status": "metadata-only",
+  "schema_version": 2,
+  "source_type": "book",
+  "stable_id": "books-refresh-20261009-manning-self-improving-agents",
+  "status": "accepted",
+  "title": "Self-Improving Agents"
+}

@@ -1,0 +1,1 @@
+{"canonical_url": "https://x.com/search?q=self-improving%20agents", "decided_at": "2026-10-09T12:25:00Z", "decision": "blocked", "lane": "x", "reason": "Bird/twitter direct reads unavailable due missing credentials; public web-search route returned no accepted source proof.", "stable_id": "bird-auth"}

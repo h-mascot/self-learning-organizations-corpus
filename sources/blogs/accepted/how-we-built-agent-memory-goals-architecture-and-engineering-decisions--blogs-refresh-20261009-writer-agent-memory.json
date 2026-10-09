@@ -1,0 +1,40 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://writer.com/engineering/building-agent-memory/",
+  "content_sha256": "d461af20af772e0ff78d277c4c98fd81791fc204df62c19ca2cd3b4691b0196b",
+  "creator": "Guy Aglionby, Mark Saad, Manhal Daaboul",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "publisher article body",
+      "text": "Memory evaluation benchmarks are beginning to be created to measure this application of a memory system. They test things like the ability to share conversational knowledge and governance around sharing facts, but do so separately. We have not found a benchmark that provides a complete evaluation of governed organisational memory: how practices, requirements and work products are established, scoped, revised and applied across a company."
+    },
+    {
+      "kind": "excerpt",
+      "locator": "publisher article body",
+      "text": "We adopt a graded approach to evaluation. Rather than one verdict per scenario, we break each expected effect of memory into a separate checkable property of the output. If an earlier review established that an opportunity qualifies only with confirmed budget, an identified decision-maker, and a timeline inside six months, then a later account review missing the budget can be judged on three counts independently."
+    }
+  ],
+  "platform": "blogs",
+  "provenance": "Publisher article captured directly at research/refresh-20261009/evidence/sources/public-fetch/d2533f91d512.direct.txt.",
+  "published_date": "2026-09-09",
+  "publisher": "WRITER",
+  "query_ids": [
+    "refresh-20261009-blogs-writer-agent-memory"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "Memory evaluation benchmarks are beginning to be created to measure this application of a memory system.",
+    "We adopt a graded approach to evaluation."
+  ],
+  "retrieval_method": "agent-reach documented public direct fetch plus publisher/API page inspection",
+  "retrieved_at": "2026-10-09T12:25:00Z",
+  "rights_note": "Only bounded public evidence spans or bibliographic metadata are retained; no complete third-party page, book, transcript, or repository text is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "article",
+  "stable_id": "blogs-refresh-20261009-writer-agent-memory",
+  "status": "accepted",
+  "title": "How we built Agent Memory: goals, architecture, and engineering decisions"
+}

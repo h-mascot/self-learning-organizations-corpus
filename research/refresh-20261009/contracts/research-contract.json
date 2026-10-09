@@ -1,0 +1,51 @@
+{
+  "baseline_accepted_sources": 640,
+  "baseline_commit": "207ce27b193b3980d66e3b7bcadb1b9e956e9472",
+  "dedupe_keys": [
+    "stable_platform_id",
+    "normalized_url",
+    "doi",
+    "repository_identity"
+  ],
+  "lanes": [
+    "youtube",
+    "academic",
+    "x",
+    "reddit",
+    "substack",
+    "blogs",
+    "podcasts",
+    "books",
+    "conferences",
+    "case-studies",
+    "github"
+  ],
+  "limits": {
+    "manager_max_loops": 20,
+    "retry_limit": 2
+  },
+  "publication_window": {
+    "end": "2026-10-09",
+    "inclusive": true,
+    "start": "2026-07-16"
+  },
+  "question": "How self-learning, self-improving, AI-native organizations improve through feedback/evals, organizational memory, failure reviews, experimentation, decision systems, specialized agents and workflow adaptation.",
+  "review": {
+    "reviewer": "Ada",
+    "terminal_status": "READY_FOR_REVIEW",
+    "worker_may_self_approve": false
+  },
+  "rights": {
+    "full_text_claim_requires_affirmative_rights": true,
+    "third_party_span_max_chars": 700
+  },
+  "run_id": "refresh-20261009",
+  "schema_version": 1,
+  "source_requirements": {
+    "no_invented_data": true,
+    "primary_evidence_must_state_qualifying_mechanism": true,
+    "publisher_or_api_publication_proof_required": true,
+    "search_snippets_are_leads_only": true,
+    "updated_pages_do_not_establish_original_publication": true
+  }
+}

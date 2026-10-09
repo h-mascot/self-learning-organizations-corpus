@@ -1,0 +1,52 @@
+{
+  "accepted_by_lane": {
+    "academic": 3,
+    "blogs": 1,
+    "books": 1,
+    "case-studies": 1,
+    "conferences": 1,
+    "github": 1,
+    "podcasts": 0,
+    "reddit": 0,
+    "substack": 0,
+    "x": 0,
+    "youtube": 0
+  },
+  "baseline_commit": "207ce27b193b3980d66e3b7bcadb1b9e956e9472",
+  "blocked_count": 6,
+  "branch": "refresh/2026-10-09",
+  "canonical_owner": "worker-local-session",
+  "duplicate_count": 0,
+  "final_commit": null,
+  "limitations": [
+    "Bounded refresh only; no saturation claim.",
+    "YouTube current-window candidates were blocked by caption HTTP 429, so no complete timestamped transcript was accepted.",
+    "X/Bird and Reddit direct routes were unavailable without auth/backend; public snippets were preserved as leads only.",
+    "Podcast candidates were rejected rather than stretched because strict separated-span mechanism evidence was not met.",
+    "Substack direct pages were searched but not ingested because the social lane requires exact raw acquisition/allow-list proof."
+  ],
+  "manager_loop_limit": 20,
+  "manager_loops_completed": 0,
+  "new_total_independently_computed": 648,
+  "rejected_count": 2,
+  "retry_limit": 2,
+  "review_state": "pending",
+  "reviewer": "Ada",
+  "run_id": "refresh-20261009",
+  "self_approval": false,
+  "status": "READY_FOR_REVIEW",
+  "total_records_independently_computed": 1062,
+  "updated_at": "2026-10-09T12:55:00Z",
+  "validation_results": {
+    "git_diff_cached_check": "passed",
+    "lane_validators": "passed (web/media, social, youtube, academic saturation spot check)",
+    "make_audit": "passed (1062 sources)",
+    "make_check": "passed",
+    "make_generate": "passed",
+    "make_test": "passed (65 tests)"
+  },
+  "window": {
+    "from": "2026-07-16",
+    "through": "2026-10-09"
+  }
+}

@@ -1,0 +1,1 @@
+{"artifact_observed": "metadata_only", "attempted_at": "2026-10-09T12:25:00Z", "http_status": 200, "lane": "books", "method": "publisher/API direct retrieval or OpenAlex/GitHub API", "note": "accepted into canonical corpus", "outcome": "retrieved", "stable_id": "books-refresh-20261009-manning-self-improving-agents", "url": "https://www.manning.com/books/self-improving-agents"}

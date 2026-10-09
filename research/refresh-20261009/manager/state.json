@@ -1,0 +1,120 @@
+{
+  "baseline_commit": "207ce27b193b3980d66e3b7bcadb1b9e956e9472",
+  "canonical_owner": "worker-local-session",
+  "lanes": {
+    "academic": {
+      "accepted": 3,
+      "blocked": 0,
+      "candidates": 3,
+      "duplicates": 0,
+      "queries": 2,
+      "rejected": 0,
+      "status": "ready_for_review"
+    },
+    "blogs": {
+      "accepted": 1,
+      "blocked": 1,
+      "candidates": 2,
+      "duplicates": 0,
+      "queries": 2,
+      "rejected": 0,
+      "status": "ready_for_review"
+    },
+    "books": {
+      "accepted": 1,
+      "blocked": 0,
+      "candidates": 1,
+      "duplicates": 0,
+      "queries": 2,
+      "rejected": 0,
+      "status": "ready_for_review"
+    },
+    "case-studies": {
+      "accepted": 1,
+      "blocked": 0,
+      "candidates": 1,
+      "duplicates": 0,
+      "queries": 2,
+      "rejected": 0,
+      "status": "ready_for_review"
+    },
+    "conferences": {
+      "accepted": 1,
+      "blocked": 0,
+      "candidates": 1,
+      "duplicates": 0,
+      "queries": 2,
+      "rejected": 0,
+      "status": "ready_for_review"
+    },
+    "github": {
+      "accepted": 1,
+      "blocked": 0,
+      "candidates": 1,
+      "duplicates": 0,
+      "queries": 2,
+      "rejected": 0,
+      "status": "ready_for_review"
+    },
+    "podcasts": {
+      "accepted": 0,
+      "blocked": 0,
+      "candidates": 1,
+      "duplicates": 0,
+      "queries": 2,
+      "rejected": 0,
+      "status": "ready_for_review"
+    },
+    "reddit": {
+      "accepted": 0,
+      "blocked": 1,
+      "candidates": 1,
+      "duplicates": 0,
+      "queries": 2,
+      "rejected": 0,
+      "status": "ready_for_review"
+    },
+    "substack": {
+      "accepted": 0,
+      "blocked": 1,
+      "candidates": 1,
+      "duplicates": 0,
+      "queries": 2,
+      "rejected": 0,
+      "status": "ready_for_review"
+    },
+    "x": {
+      "accepted": 0,
+      "blocked": 1,
+      "candidates": 1,
+      "duplicates": 0,
+      "queries": 2,
+      "rejected": 0,
+      "status": "ready_for_review"
+    },
+    "youtube": {
+      "accepted": 0,
+      "blocked": 2,
+      "candidates": 2,
+      "duplicates": 0,
+      "queries": 2,
+      "rejected": 0,
+      "status": "ready_for_review"
+    }
+  },
+  "loop_limit": 20,
+  "loops_completed": 2,
+  "phase": "ready-for-review",
+  "reviewer": "Ada",
+  "run_id": "refresh-20261009",
+  "status": "READY_FOR_REVIEW",
+  "updated_at": "2026-10-09T12:55:00Z",
+  "validation_results": {
+    "git_diff_cached_check": "passed",
+    "lane_validators": "passed (web/media, social, youtube, academic saturation spot check)",
+    "make_audit": "passed (1062 sources)",
+    "make_check": "passed",
+    "make_generate": "passed",
+    "make_test": "passed (65 tests)"
+  }
+}

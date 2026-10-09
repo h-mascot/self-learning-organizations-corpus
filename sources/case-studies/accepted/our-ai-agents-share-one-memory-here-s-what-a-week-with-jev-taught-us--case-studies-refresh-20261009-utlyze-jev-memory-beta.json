@@ -1,0 +1,40 @@
+{
+  "artifact_level": "metadata_only",
+  "canonical_url": "https://www.utlyze.com/notes/jev-memory-beta",
+  "content_sha256": "35f8ebfce2fb9d8fb96d5ea35ffd47e3be3c4359354301990af7bef7640ebc7c",
+  "creator": "James Brady",
+  "date_precision": "day",
+  "evidence": [
+    {
+      "kind": "excerpt",
+      "locator": "publisher field note",
+      "text": "Our AI agents do real work every day: they write code, review changes and run our operations. They share one memory, about 117,000 notes of facts, decisions and lessons they've saved along the way. When an agent starts a task, the notes that look most relevant are pulled from that memory and put in front of it."
+    },
+    {
+      "kind": "excerpt",
+      "locator": "publisher field note",
+      "text": "For three days, only 3% of memory lookups got Jev's ranking. The rest fell back to plain search. The cause was ours: our cost tracker counted timed-out calls as if they had been paid for, so a small daily budget looked used up. After the fix, 84% of lookups got Jev's ranking."
+    }
+  ],
+  "platform": "case-studies",
+  "provenance": "Publisher field note captured directly at research/refresh-20261009/evidence/sources/public-fetch/2b78c2237e6a.direct.txt.",
+  "published_date": "2026-09-26",
+  "publisher": "Utlyze",
+  "query_ids": [
+    "refresh-20261009-case-studies-utlyze-jev"
+  ],
+  "rejection_reason": null,
+  "relevance_evidence": [
+    "They share one memory, about 117,000 notes of facts, decisions and lessons they've saved along the way.",
+    "After the fix, 84% of lookups got Jev's ranking."
+  ],
+  "retrieval_method": "agent-reach documented public direct fetch plus publisher/API page inspection",
+  "retrieved_at": "2026-10-09T12:25:00Z",
+  "rights_note": "Only bounded public evidence spans or bibliographic metadata are retained; no complete third-party page, book, transcript, or repository text is copied.",
+  "rights_status": "bounded-public-evidence",
+  "schema_version": 2,
+  "source_type": "case-study",
+  "stable_id": "case-studies-refresh-20261009-utlyze-jev-memory-beta",
+  "status": "accepted",
+  "title": "Our AI agents share one memory. Here's what a week with Jev taught us."
+}

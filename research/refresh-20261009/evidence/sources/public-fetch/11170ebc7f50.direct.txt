@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <script src="https://chainofthought.transistor.fm/theme-assets/theme-graphite-1791497830.js" data-turbo-track="reload"></script>
+        <meta name="transistor-theme" content="graphite" />
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YZZ3R1SRTQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-YZZ3R1SRTQ');
+</script>
+<meta content="G-YZZ3R1SRTQ" name="ga-code" />
+<!-- / Google Analytics -->
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="https://assets.transistor.fm/assets/favicon-636b619b27c8932b15adac78178e70ebdf1f2c3a33de896176872b88cb3a5e48.ico" />
+
+
+    <!-- Twitter -->
+<meta name="twitter:site" content="@TransistorFM">
+<meta name="twitter:title" content="Chain of Thought | AI Agents, Infrastructure &amp; Engineering | Transcript: Genspark&#39;s Bet: AI Agents Become the Users of Software | Wen Sang">
+<meta name="twitter:description" content="Genspark co-founder and COO Wen Sang on taking the company from launch to $250 million in ARR in about a year, why a meeting note should be the start of work rather than the end of it, and the bet ...">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://img.transistorcdn.com/vHSKS973EcSL1pkvPlh9W27pvooLm9ZsTK3DHGsmWVo/rs:fill:0:0:1/w:800/h:800/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS82MTdi/OTNiYjY5ZGI3OTNl/Njc4YjZmOWYyZWJi/MmY4NC5qcGc.webp">
+<!-- /Twitter -->
+
+    <!-- Open Graph  -->
+<meta property="og:url" content="https://chainofthought.transistor.fm/episodes/gensparks-bet-ai-agents-become-the-users-of-software">
+
+  <meta property="og:image" content="https://img.transistorcdn.com/vHSKS973EcSL1pkvPlh9W27pvooLm9ZsTK3DHGsmWVo/rs:fill:0:0:1/w:800/h:800/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS82MTdi/OTNiYjY5ZGI3OTNl/Njc4YjZmOWYyZWJi/MmY4NC5qcGc.webp">
+  <meta property="og:image:width" content="800">
+  <meta property="og:image:height" content="800">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Chain of Thought | AI Agents, Infrastructure &amp; Engineering">
+<meta property="og:description" content="Genspark co-founder and COO Wen Sang on taking the company from launch to $250 million in ARR in about a year, why a meeting note should be the start of work rather than the end of it, and the bet ...">
+<meta property="og:title" content="Chain of Thought | AI Agents, Infrastructure &amp; Engineering | Transcript: Genspark&#39;s Bet: AI Agents Become the Users of Software | Wen Sang">
+<!-- /Open Graph  -->
+
+    <meta content="Genspark co-founder and COO Wen Sang on taking the company from launch to $250 million in ARR in about a year, why a meeting note should be the start of work rather than the end of it, and the bet ..." name="description" />
+    <meta content="technology, ai agents, artificial intelligence, software engineering, ai engineering, ai infrastructure" name="keywords" />
+
+      <!-- iTunes Banner -->
+      <meta content="app-id=1776879655" name="apple-itunes-app">
+      <!-- /iTunes Banner -->
+
+    <link rel="alternate" type="application/rss+xml" title="Chain of Thought | AI Agents, Infrastructure &amp; Engineering" href="https://feeds.transistor.fm/chain-of-thought" />
+    <script src="https://assets.transistor.fm/assets/sites-a37463b4c1de0b10ae6440d149f938b5190d166967847660dfe758c0ac28c6a8.js" defer data-turbo-track="reload"></script>
+    <script>
+      document.addEventListener('alpine:init', () => {
+        transistor.translations.add({ comments: {"headline":"Comments and Discussion","loading":"Loading comments\u0026hellip;","view_and_reply":"View post and reply on Bluesky","likes":"likes","reposts":"reposts","replies":"replies","join_discussion":"Reply on Bluesky \u003ca :href=\"postUrl\" :title=\"t('comments.view_and_reply')\" target=\"_bsky\"\u003ehere\u003c/a\u003e to join the discussion.","no_comments":"No comments yet. Be the first by \u003ca :href=\"postUrl\" :title=\"t('comments.view_and_reply')\" target=\"_bsky\" class=\"episode-comments-reply-link\"\u003ereplying on Bluesky\u003c/a\u003e!","error_loading":"There was a problem loading the comments. Please try again soon."} })
+      })
+    </script>
+
+    <title>Chain of Thought | AI Agents, Infrastructure &amp; Engineering | Transcript: Genspark&#39;s Bet: AI Agents Become the Users of Software | Wen Sang</title>
+    <meta content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=yes" name="viewport" />
+    <style>
+      :root {
+        --color-header: #1E293B;
+        --color-secondary: #3B82F6;
+        --color-background: #F1F5F9;
+        --color-header-text: #FFFFFF;
+        --color-link: #222222;
+        --color-player: #475569;
+        --color-transistor: #111827;
+        --color-text-secondary: #FFFFFF;
+      }
+    </style>
+    <link rel="stylesheet" media="all" href="https://chainofthought.transistor.fm/theme-assets/theme-graphite-1791497830.css" type="text/css" data-turbo-track="reload" />
+
+
+  </head>
+  <body x-data="{ mobileNavOpen: false }" class="transcript">
+
+    <header class="site-header">
+      <div class="site-container">
+        <div class="site-header-intro">
+
+            <a href="/" class="site-header-artwork" title="Home"><img src="https://img.transistorcdn.com/MtMJlK48bPgLIK7sL3C7ENtEDcvaiNIlB6DhWPeD2Gk/rs:fill:0:0:1/w:800/h:800/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9hYWM2/NmYwMjc4MmJiYTYw/ZTI5NGZhNzRhNmZh/NTU0OC5qcGc.webp" alt="Chain of Thought | AI Agents, Infrastructure &amp; Engineering"></a>
+
+          <hgroup>
+
+              <h1 class="site-header-title">Chain of Thought | AI Agents, Infrastructure &amp; Engineering</h1>
+
+            <nav class="site-nav">
+
+    <a title="Home" class="" href="/">Home</a>
+    <a title="Episodes" class="current" href="/episodes">Episodes</a>
+    <a title="People" class="" href="/people">People</a>
+    <a title="Get Our Newsletter" target="_blank" class="" href="https://newsletter.chainofthought.show/">Get Our Newsletter</a>
+    <a title="Subscribe" class="" href="/subscribe">Subscribe</a>
+
+            </nav>
+          </hgroup>
+        </div>
+      </div>
+      <span x-show="!mobileNavOpen" class="site-mobile-nav-trigger" @click="mobileNavOpen = true">
+  <svg role="img" class="icon-menu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><title>menu</title><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd" /></svg>
+
+</span>
+      <span x-cloak x-show="mobileNavOpen" class="site-mobile-nav-trigger" @click="mobileNavOpen = false">
+  <svg role="img" class="icon-close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><title>close</title><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" /></svg>
+
+</span>
+    </header>
+    <nav x-cloak @click.outside="mobileNavOpen = false" class="site-mobile-nav" x-show="mobileNavOpen" x-transition:enter="transition ease-out duration-100" x-transition:enter-start="transform opacity-0 scale-95" x-transition:enter-end="transform opacity-100 scale-100" x-transition:leave="transition ease-in duration-75" x-transition:leave-start="transform opacity-100 scale-100" x-transition:leave-end="transform opacity-0 scale-95">
+
+    <a title="Home" class="" href="/">Home</a>
+    <a title="Episodes" class="current" href="/episodes">Episodes</a>
+    <a title="People" class="" href="/people">People</a>
+    <a title="Get Our Newsletter" target="_blank" class="" href="https://newsletter.chainofthought.show/">Get Our Newsletter</a>
+    <a title="Subscribe" class="" href="/subscribe">Subscribe</a>
+
+    </nav>
+
+    <main class="site-container site-container-main">
+      <section class="site-content-main">
+        <section class="site-content">
+          <div class="site-episode">
+  <header class="site-episode-header">
+    <button x-show="!($store.player.playing && $store.player.audio_url === 'https://media.transistor.fm/c898a0e8/e81a275b.mp3?src=site')" data-url="https://media.transistor.fm/c898a0e8/e81a275b.mp3?src=site" data-title="Genspark&#39;s Bet: AI Agents Become the Users of Software | Wen Sang" data-show-title="Chain of Thought | AI Agents, Infrastructure &amp; Engineering" data-duration="3697" data-artwork="https://img.transistorcdn.com/vHSKS973EcSL1pkvPlh9W27pvooLm9ZsTK3DHGsmWVo/rs:fill:0:0:1/w:800/h:800/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS82MTdi/OTNiYjY5ZGI3OTNl/Njc4YjZmOWYyZWJi/MmY4NC5qcGc.webp" title="Play Episode" role="button" @click.prevent="$dispatch('play-episode', $event.currentTarget.dataset); $store.player.audio_url = $el.dataset.url; $store.player.playing = true" class="player-button site-episode-play">
+
+  <svg role="img" class="icon-play" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>play</title><path fill-rule="evenodd" d="M8,16 C12.4183,16 16,12.4183 16,8 C16,3.58172 12.4183,0 8,0 C3.58172,0 0,3.58172 0,8 C0,12.4183 3.58172,16 8,16 Z M7.5547,5.16795 C7.24784,4.96338 6.8533,4.94431 6.52814,5.11833 C6.20298,5.29235 6,5.63121 6,6.00000106 L6,10.0000011 C6,10.3688 6.20298,10.7077 6.52814,10.8817 C6.8533,11.0557 7.24784,11.0366 7.5547,10.8321 L10.5547,8.8321 C10.8329,8.6466 11,8.3344 11,8.00000106 C11,7.66565 10.8329,7.35342 10.5547,7.16795 L7.5547,5.16795 Z"></path></svg>
+
+
+</button>
+<button x-show="$store.player.playing && $store.player.audio_url == 'https://media.transistor.fm/c898a0e8/e81a275b.mp3?src=site'" title="Pause Episode" role="button" @click.prevent="$dispatch('pause-episode')" class="player-button site-episode-play">
+
+  <svg role="img" class="icon-pause" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>pause</title><path fill-rule="evenodd" d="M16,8 C16,12.4183 12.4183,16 8,16 C3.58172,16 0,12.4183 0,8 C0,3.58172 3.58172,0 8,0 C12.4183,0 16,3.58172 16,8 Z M5,6 C5,5.44772 5.44772,5 6,5 C6.55228,5 7,5.44772 7,6 L7,10 C7,10.5523 6.55228,11 6,11 C5.44772,11 5,10.5523 5,10 L5,6 Z M10,5 C9.4477,5 9,5.44772 9,6 L9,10 C9,10.5523 9.4477,11 10,11 C10.5523,11 11,10.5523 11,10 L11,6 C11,5.44772 10.5523,5 10,5 Z"></path></svg>
+
+
+</button>
+
+    <hgroup>
+      <h2 class="site-episode-title">Genspark&#39;s Bet: AI Agents Become the Users of Software | Wen Sang</h2>
+      <span class="site-episode-metadata">
+        <time>September 17, 2026</time>
+<span>/</span>
+<span>01:01:37</span><span>/</span><span>S4 E73</span>
+      </span>
+
+    </hgroup>
+  </header>
+
+  <div class="site-two-col-grid">
+    <div class="site-episode-grid-content">
+
+        <div class="site-episode-summary">Genspark co-founder and COO Wen Sang on taking the company from launch to $250 million in ARR in about a year, why a meeting note should be the start of work rather than the end of it, and the bet that AI agents, not people, become the users of software.</div>
+
+
+
+        <nav class="site-episode-nav">
+          <a href="/episodes/gensparks-bet-ai-agents-become-the-users-of-software" class="site-episode-notes-link" title="View episode details">Show Notes</a> <span>/</span>
+          <a href="/episodes/gensparks-bet-ai-agents-become-the-users-of-software/transcript" class="site-episode-transcript-link" title="View episode transcript">Transcript</a>
+        </nav>
+
+
+      <div class="site-content-text site-episode-show-notes">
+
+          <p>FINAL TRANSCRIPT
+<br />================
+<br />Speakers: Conor Bronsdon, Wen Sang
+<br />Duration: <a href="#t=1h1m36s" data-turbo="false" title="Jump to 1:01:36
+ in this episode">1:01:36
+</a><br />Total Words: 10191
+<br />Generated: 2026-09-17</p>
+
+<p>---</p>
+
+<p>[<a href="#t=0m0s" data-turbo="false" title="Jump to 0:00 in this episode">0:00</a>] Wen Sang:
+<br />Intelligence is what we leverage to get work done. We built a FSD vehicle so that you don't even need to touch the steering wheel. All you need to do is just articulate the destination. We get you there. Our view is meeting notes are just start points of work. It's not the end point. Majority of these devices out there, they basically say, hey, here's your meeting note and my job is done here. Well, we say our job is getting started here.</p>
+
+<p>[<a href="#t=0m32s" data-turbo="false" title="Jump to 0:32 in this episode">0:32</a>] Conor Bronsdon:
+<br />LLMs are geniuses with goldfish memories. New sessions are a blank slate without supporting infrastructure. My guest today is building the AI workspace and hardware to provide LLMs with all the context they need. Wen Sang is co-founder and COO of Genspark, which went from launch to 250 million in ARR in about a year, recently shipped their first piece of hardware, a card-thin meeting recorder, which I have in my hand right here, and open-sourced an entire AI-native office suite. When Genspark has been busy taking on a hard problem, aligning AI-enabled software with hardware because you clearly see a new way for people to collaborate with AI agents that includes a hardware interface, how do you think we should be altering our approach today to work with AI?</p>
+
+<p>[<a href="#t=1m19s" data-turbo="false" title="Jump to 1:19 in this episode">1:19</a>] Wen Sang:
+<br />First off, Conor, thank you for having me here. Super excited to be here and you ask excellent questions. So today's world to what you just said, on the one hand, you know, majority of the AI applications out there, if you interact with them, you ask them for answers for tasks. Geniuses with goldfish memories. They don't know you. Every time you have the prompt all over again. So we believe the AI should interact with human beings just like how we interact with each other. That's why we believe it is important for the AI to have memories. Not only that, they should also be able to tap into the world that we literally live in, the physical world, instead of just being trapped with whatever's already been digitized. Um, I mean, some of the most important conversations we having our lives are in-person conversations in real life. So why shouldn't AI, our AI agents being able to tap into those content and then do real work for us? That is what motivated us to break the, uh, grounds and then, uh, essentially, uh, unlock the, some of the most important information. That is going around in our lives with the the second brain notes. I have one myself here as well</p>
+
+<p>[<a href="#t=2m41s" data-turbo="false" title="Jump to 2:41 in this episode">2:41</a>] Conor Bronsdon:
+<br />Awesome. Yeah, I'll say thank you, by the way, for letting me have a review copy of The Second Brain Notes. It's been very fun to test it out. And before we get too far into the conversation, I do want to say a quick thank you to our presenting sponsors for the episode as well. Inngest, Walrus Memory, and Svix, who are sponsoring season four of Chain of Thought. You can find their links in the episode description. And G2i has joined them as well, helping teams find specialized engineering talent. But we're here to talk about Genspark today. And Genspark's seeing this incredible growth across the last year or two since you've started the company. You've been open sourcing quite a few tools. You've been building on top of hardware. And you brought up memory and context for agents, which I think are very important themes that we've talked a lot about on this show. How do you think about this infrastructure that you're constructing around the models, and when should we be focusing on the outputs of these in-person conversations versus inputs that maybe we're making from documentation and these other sources?</p>
+
+<p>[<a href="#t=3m47s" data-turbo="false" title="Jump to 3:47 in this episode">3:47</a>] Wen Sang:
+<br />So if I got your question accurately, Conor, you're asking about our consideration behind the technology architecture?</p>
+
+<p>[<a href="#t=3m56s" data-turbo="false" title="Jump to 3:56 in this episode">3:56</a>] Conor Bronsdon:
+<br />Yes, yeah.</p>
+
+<p>[<a href="#t=3m57s" data-turbo="false" title="Jump to 3:57 in this episode">3:57</a>] Wen Sang:
+<br />Yeah, so look, our view of the world is this, Conor. Frontier Labs, they've done amazing work to build the next generation intelligence. Now, those are engines. What we do is we build vehicles, we build cars around the engines for our users, for our customers. Intelligence does not equal to</p>
+
+<p>[<a href="#t=4m22s" data-turbo="false" title="Jump to 4:22 in this episode">4:22</a>] Wen Sang: [OVERLAP]
+<br />work results or the output. Intelligence is what we leverage to get work done. Frontier Labs, a lot of good partners of ours, OpenAI, Anthropic, Google, we work with all of them. We also work with overweight model hosts, providers like Fireworks, Vell, together, all of them. Now, these folks, they've done great work, especially Frontier Labs, to allow us to see the possibilities, and they would build products as well. But their focus is always, how do we make the model smarter? How do we make the models solve partial differential equations? That is important. That is where the raw power comes from. For the 1 billion plus global nodge workers, for people like you and me, you might be very technical. I'm a mechanical engineer by training, so I don't know how to code. So for me to maneuver a Fable 5 and trying to get the full power out of it, I don't know how. Even when I'm using some of these you know, work applications. If I'm asking one of these applications to give me a presentation, a five page slide deck, it's going to ask me to download 10 things from GitHub. I don't even know where those things are. I don't want to think about that sort of stuff. I want all my tools, applications, everything's already packaged up. I just want to interact with my agents like how I'm talking to a very competent, fast, tireless associate of mine. Um, so, so that's what we do at Genspark. We, we don't even build a formula one racing car for you. We built a FSD vehicle so that you don't even need to touch the steering wheel. All you need to do is just articulate the destination. We get you there. That's</p>
+
+<p>[<a href="#t=6m8s" data-turbo="false" title="Jump to 6:08 in this episode">6:08</a>] Conor Bronsdon: [OVERLAP]
+<br />I</p>
+
+<p>[<a href="#t=6m8s" data-turbo="false" title="Jump to 6:08 in this episode">6:08</a>] Wen Sang: [OVERLAP]
+<br />how we think.</p>
+
+<p>[<a href="#t=6m8s" data-turbo="false" title="Jump to 6:08 in this episode">6:08</a>] Conor Bronsdon: [OVERLAP]
+<br />love</p>
+
+<p>[<a href="#t=6m9s" data-turbo="false" title="Jump to 6:09 in this episode">6:09</a>] Wen Sang: [OVERLAP]
+<br />Yeah.</p>
+
+<p>[<a href="#t=6m9s" data-turbo="false" title="Jump to 6:09 in this episode">6:09</a>] Conor Bronsdon: [OVERLAP]
+<br />that you brought up Formula One, even though it's not exactly what you're doing. It is immediately what I thought about when you were like, oh, we work with engine providers, we built the chassis, we built the car around it. But to your point, you're building a self-driving car, hopefully.</p>
+
+<p>[<a href="#t=6m23s" data-turbo="false" title="Jump to 6:23 in this episode">6:23</a>] Wen Sang: [OVERLAP]
+<br />Yes, exactly. Yeah. To that a little bit on the technology, maybe we have a three layer kind of a technology architecture on the bottom. Exactly. As you pointed out, we actually released the world's first mixture of agents tech architecture. Today, we sit on top of 70 plus models. We. of each different model to do different things. The models that are good at reasoning and planning, we use them to come up with the work plan for a project. The models that are good at coding, we ask them to code. For example, if you're building a presentation, we ask them to code in HTML first. And the models that are good at image video, we use them for multimodal media stuff. And there are obviously the models that are fast and cost effective, we might leverage them to kind of visualize data or do something else. So it's a combination. On top of that, we also built out 150 plus in-house tools to put them in place so that models could call on these tools under the right context to accomplish the real world work. On top of that, we also pay to get access to premium data sets, PitchBook, Crunchbase, S&amp;P, all the good stuff. Like we're in conversation, for example, with the Unlight SE because they have a data business that is called ICE. So all of them, and we're also talking to the Wall Street Journal because they have a data business as well. So our target audience are the non-technical knowledge workers. We want to make sure they not only have their own data, they not only have access to the web, they also have access to these premium data sets to ground and align the output so that they're reliable, useful, and ready to go. You can't just rely on what people say on Reddit. That's one big part of the source of information, but that's not 100% what you can rely on. You got to have access to all of it.</p>
+
+<p>[<a href="#t=8m11s" data-turbo="false" title="Jump to 8:11 in this episode">8:11</a>] Conor Bronsdon: [OVERLAP]
+<br />data integrity definitely matters. I had a great conversation with the CTO of Thomson Reuters recently about their Thomson One model</p>
+
+<p>[<a href="#t=8m20s" data-turbo="false" title="Jump to 8:20 in this episode">8:20</a>] Wen Sang: [OVERLAP]
+<br />you</p>
+
+<p>[<a href="#t=8m20s" data-turbo="false" title="Jump to 8:20 in this episode">8:20</a>] Conor Bronsdon: [OVERLAP]
+<br />and basically how they're leveraging legal AI data in that framework. And really what enabled them to fine tune and train their model much more cheaply was the fact that they run Westlaw, which has annotated case law for all this different content. And to your point, I think things like PitchBook, etc. can give you a huge leg up. And I have to point out, too, something you kind of skated past this, but I actually did not realize that Genspark were the originators of the first commercial mixture of agents architecture that was out there. I knew Together really led the research around that back in 2024. But, you know, as I'm hearing you talk and looking it up, like that's very cool to see that you were the first commercial users of this.</p>
+
+<p>[<a href="#t=9m3s" data-turbo="false" title="Jump to 9:03 in this episode">9:03</a>] Wen Sang:
+<br />Yeah, because very early on, we realized, you know, for the knowledge works, for our target audience, they don't care about what model is behind this. They just want the results. And everything else is means to an end. So we're like, OK, we got to put this all together. That's what drove the model orchestration. Yeah, architecture.</p>
+
+<p>[<a href="#t=9m27s" data-turbo="false" title="Jump to 9:27 in this episode">9:27</a>] Conor Bronsdon:
+<br />Well, I</p>
+
+<p>[<a href="#t=9m28s" data-turbo="false" title="Jump to 9:28 in this episode">9:28</a>] Wen Sang: [OVERLAP]
+<br />Yeah.</p>
+
+<p>[<a href="#t=9m28s" data-turbo="false" title="Jump to 9:28 in this episode">9:28</a>] Conor Bronsdon: [OVERLAP]
+<br />also think you're a little too humble here because you're calling yourself non-technical, but you spent, what, a decade leading a Y Combinator-backed analytics company that was acquired. You have a doctorate in mechanical engineering. I think you picked up a few tricks along the way. But I hear you for sure on the idea that we want to extend ourselves with agents because I agree, I don't want to spend all my time fine-tuning the little bits and pieces of whatever I need for my Git stack to get a repo over the line. I want my coding agent to handle those problems for me. I want to never have to worry about a merge conflict ever again in my life. I want an agent to handle that for me.</p>
+
+<p>[<a href="#t=10m3s" data-turbo="false" title="Jump to 10:03 in this episode">10:03</a>] Wen Sang:
+<br />When it comes to how users would experience AIs these days, human beings, we're smart. It's pretty easy for us to tell if I'm burning the tokens, wasting my time teaching AI and not getting what I want, or it's like one prompt. Oh, this is exactly what I need, right? So to that, one key thing is how people do eval. Our good partners, Frontier Labs, when they do eval, they truly focus on the analogies. And when it comes to our eval, it's the autonomous recursive learning algorithm that grades every interaction between our users and our product. But it focuses on if the users are getting the uh boardroom ready materials if the users are getting the uh so for example personally for me i haven't solved one partial differential equation in my last 10 years running my last company but i wrote a lot of business emails i uh built a lot of financial models i i did a lot of documents put together a lot of sales proposals i care about if my sales proposal responded appropriately to every point that the RFP had in it, right? So those are the reliability, the accuracy, the usability of the work output. That is what our eval benchmark system focuses on, right? So those things make a huge difference.</p>
+
+<p>[<a href="#t=11m22s" data-turbo="false" title="Jump to 11:22 in this episode">11:22</a>] Conor Bronsdon:
+<br />Let's talk about that work output. So if I have my second brain node and I am recording a meeting, what should I expect from the follow on through that? You have a variety of agents built in the platform. You've got a transcript that comes out of it. A meeting produces an hour of audio. What does it actually look like as a memory a week later when an agent needs it and what kind of workflows are you running across it?</p>
+
+<p>[<a href="#t=11m47s" data-turbo="false" title="Jump to 11:47 in this episode">11:47</a>] Wen Sang: [OVERLAP]
+<br />That is such an excellent question, Conor. So exactly to what you said, there are many devices out there on the market that you could use to get the audio file, to get the transcript or even a summary. Some would even say that I don't need anything else. I could just use my iPhone. Right. But I know Yeah, well, if you do do that, first off, iPhone is not designed for a boardroom setting. It will pick up one-to-one conversations very clearly, but you know, there's a lot of, it's not designed for that, and battery would just drain out in two hours. But a lot of these devices solve that problem, including Jazz Park secondary note, it could go on for 35 hours. But our view is, even the meeting notes are just start points of work. It's not the endpoint. Majority of these devices out there, they basically say, here's your meeting node NF. My job is done here." Well, we say, our job is getting started here. You could now talk to your meeting notes in a way that, hey, turn everything in this meeting into a sales proposal, into a pricing model, into a ROI analysis for our clients, or turn this into a presentation I could send to the client or to the master to follow up on all the things that they asked about. Or, hey, based off this meeting notes, Do all the research around the topics that we left open. Come back with a collection of the answers for me and then turn that into something. So we carry our users and our customers end to end. That's one thing. Secondly, when it comes to the memory piece, this new piece of meeting note is now going to be incorporated into your second brain, which is a layer of the semantic understanding we've built for you. so that your Genspark super agent would be able to tap into when it's working for you instead of like every time you gotta introduce yourself, you gotta introduce your work, you gotta ask the agent to say you're the world's best expert in this and that. None of that. Your preferences, how you do things, who is your most important relationship, what are your work priorities, Is this meeting some of the most important things you got to follow up this week or it's okay to follow up next week? It remembers and understands all of that. It synchronizes this new piece of context into the Genspark's holistic understanding of you as a person and it's all human-centric. It does work around you, not the other way around. So information retrieval is information collection. Retrieval is only the start point. The true understanding is what the second brain does for you when it comes to that layer. And then the real power comes from the output, right? Like you can just turn your meeting notes directly into results. Now, on top of that, Beyond individuals, if if you are an enterprise company, say if you have a thousand team members on your business team or your revenue team, now you finally have the opportunity toward the end of month to say you can ask the 1000 second brain nodes. Okay, so what are some of the good meetings we had in the past month? What is the market asking for? How can we do better from a product perspective to make our customers' lives a lot easier? What are the opportunities? What are the risks? And the way it works is you don't have to kind of send a fleet of biz ops analysts into each of those meeting notes to look through, copy and paste, and then do none of that. You know, you can just ask Genspark's second brain to answer those questions directly, because not only you have access to the data, but you also have a full layer of understanding of what's going on as well, as individuals, as organizations.</p>
+
+<p>[<a href="#t=15m45s" data-turbo="false" title="Jump to 15:45 in this episode">15:45</a>] Conor Bronsdon: [OVERLAP]
+<br />Season 4 of Chain of Thought is presented by Walrus Memory, the portable memory layer for AI agents. Your agent has learned your codebase and how you work. Now you want to use that context in another tool. Exporting a file gives you a snapshot, but what happens when the context changes? Walrus Memory is a portable memory layer that lets your agent store context for later use across tools. Python and TypeScript SDKs, plus native MCP support, let you connect it to your agents no matter where they are. You said who can read and write, so sharing context doesn't mean opening up your whole memory store. If you're building across tools or model families, take a look at walrus memory. Learn more at walrus.xyz.cot. That's walrus.xyz.cot. So if I'm understanding the approach here correctly,</p>
+
+<p>[<a href="#t=16m37s" data-turbo="false" title="Jump to 16:37 in this episode">16:37</a>] Conor Bronsdon: [OVERLAP]
+<br />what you're calling the second brain is essentially memory and quite a bit of context, but it's not the whole context layer. It's this base layer of a lot of information, though. You then have an intelligence layer that's running across that and helping pull up the right information, make decisions, run workflows. You then have your tool suite, which is your open source tools, other tools you want to bring in. It also includes a lot more content and context. And then you have like a collaboration layer where you're both collaborating with agents and then also with teammates. Is that</p>
+
+<p>[<a href="#t=17m8s" data-turbo="false" title="Jump to 17:08 in this episode">17:08</a>] Wen Sang: [OVERLAP]
+<br />Yeah,</p>
+
+<p>[<a href="#t=17m9s" data-turbo="false" title="Jump to 17:09 in this episode">17:09</a>] Conor Bronsdon: [OVERLAP]
+<br />a correct understanding?</p>
+
+<p>[<a href="#t=17m9s" data-turbo="false" title="Jump to 17:09 in this episode">17:09</a>] Wen Sang:
+<br />I love that. So essentially, the models, the tools and the premium data sets, those three things packaged up as we call it the execution layer. So those are the arms and legs of your agents that will do things with the intelligence from the models, obviously. Now, to examine what you said, now we have built out the memory layer. which enables you to interact with Genspark in a way that, this is a breakthrough for us, right? Like the agents now, they know you intrinsically. Not only you can get understanding from, it could get understanding from your work, from the meeting notes, it would tap into your emails. it could tap into your drive and all of these information on an ongoing basis when they refresh the memory layer of the second brain of yours it would refresh itself and it'll have new better understanding of you on an ongoing basis as well and it's holistic it's not limited to one system if you're working sales it could tap into your CRM and truly understand the latest dynamics of your pipeline. It may also, you know, if you have, you know, kind of trade-offs to make next week, do I go to this conference or do I focus on this client? Just nail down this lead or this opportunity. It could understand where you are and then actually work with you to your preference, to your priorities, not just limited to the meeting notes. Now, on top of that, one thing you pointed out is our collaboration layer, which is also a new capability we've built out of our 6.0 package, which is called GenTeam. So basically, it's kind of an instant message, kind of an experience, but not only you can talk to your team members, you can create and interact with your AI agents, team members, and you can ask for work output and all of them could have the level of understanding of you to the extent you allow them to tap into those data sources. If you allow them to tap into your second brain, they know you instantly. Fun story, I was in Bora Bora with my family for about 10 days because my kids, they have their summer vacation and we took them out. But I was sufficiently unplugged, but I obviously couldn't unplug entirely. So every morning I would spend 30 minutes talking to my executive assistant, my AI agent, Chloe, on my gen team. verbally or I could type but I could call my EA as well and we'll get the work done for today and then I'll get on to the you know quality of time with my family. When I came back some of my team members they were like wait you were out for vacation? We didn't even notice that because I was unbeat with everything so that's how work can be done these days. Yeah I didn't bring my laptop.</p>
+
+<p>[<a href="#t=20m7s" data-turbo="false" title="Jump to 20:07 in this episode">20:07</a>] Conor Bronsdon:
+<br />I'm curious, so I've talked to Slack recently, and they obviously have a big focus on enabling collaboration between agents and humans within Slack, a huge focus.</p>
+
+<p>[<a href="#t=20m21s" data-turbo="false" title="Jump to 20:21 in this episode">20:21</a>] Conor Bronsdon:
+<br />Do you view Gen Team as competitive to what Slack's doing with agents, or do you view it as something like, oh, we could integrate Gen Team into Slack, or maybe that's something that's already happening?</p>
+
+<p>[<a href="#t=20m30s" data-turbo="false" title="Jump to 20:30 in this episode">20:30</a>] Wen Sang: [OVERLAP]
+<br />So both, I'll be honest. So, yeah, I mean, like we human beings, we we we get work done a lot of times through talking to each other. That's how collaborations happen. And from an experience standpoint, there might be a kind of overlap when it comes to that. But at the same time, we understand. So we are working on making Genspark capabilities, Genteam capabilities available everywhere. So we would want our users to be able to call up your Genteam agents right within Slack, that's one. But beyond that also, if you just wanted your entire AI stack To be honest, Genspark, we offer an AI native experience for you that you don't necessarily have to go anywhere else to get everything done. Because our worldview is this, Conor. The world was too centric. Each of us would have to tap into Yo, so many different tools, 20, 30, 40 tools, may it be Microsoft Suites, Google Suites, Slack, Notion, Salesforce, you name it, all of these things. And then we do the busy work. We do the grunt work, the copy and pasting, same piece of business context from a piece of meeting note to an email to a Slack message. We do all of that to get the work done. Now, with platforms like Genspark, you no longer have to do that. The world is now human-centric in a way that we only need one entry point to work. And that entry point is, say, if it is Genspark, it's not the next generation of software, it's the next generation users of software. So Salesforce went headless. We're building the head, is basically the case. All you need to do to get work done is talk to your Genspark agents and the agents would run around to tapping to all of these different systems, system records and or messages, etc. Get it done for you. You don't have to go anywhere else. But if you prefer to be there, You can. Here, the reality that, for example, Genspark team lives in is this. A lot of our enterprise clients, they prefer Microsoft Teams. That's where their work is done. We interact with these folks there because they prefer that. A lot of the Frontier Labs and our partners, the techies, they live in Slack. We collaborate on model testing and so on and so forth over there. And then there is a group of people just love Google Suites. the advertisement agencies that we would work with as clients, as they just love Google. And we have to interact with them over there. But for me as a human being, I'm like, my head is exploding. I don't even know when to check what. And then there's WhatsApp, there's iMessage. Clients love you so much that they put you onto their. So it's all over the place. And in APAC, like in Japan, for example, we have some major clients. They love to be on the</p>
+
+<p>[<a href="#t=23m28s" data-turbo="false" title="Jump to 23:28 in this episode">23:28</a>] Conor Bronsdon: [OVERLAP]
+<br />Hmm.</p>
+
+<p>[<a href="#t=23m28s" data-turbo="false" title="Jump to 23:28 in this episode">23:28</a>] Wen Sang: [OVERLAP]
+<br />line. So you have to be there. It's a lot. So we wanted to meet with our customers, our partners, where they are, but at the same time, it's too much. So we have this place where I can just tell my agents, hey, look through all of these platforms. Give me the gist of it and draft the responses for me to, you know, wherever they are. Right. Like maybe email, Slack, Teams, Line, WhatsApp. I don't care. You make it happen. So that is the beautiful experience we can offer. So that's how we operate internally because luckily, we're a global company from day one. And unfortunately, because of that, you have to deal with so many systems.</p>
+
+<p>[<a href="#t=24m11s" data-turbo="false" title="Jump to 24:11 in this episode">24:11</a>] Conor Bronsdon:
+<br />Yeah, you get pros and cons for sure. Definitely challenges that come with the opportunities there. I'm curious about one thing that I've been thinking a lot about recently, which is how to decide when contacts or memories are no longer valuable. What's the approach that you're taking to updating memory? So let's say, you know, two weeks ago, something was true on a sales deal. But now, based off of recent meetings, or a change in strategy, we've had alterations. What does it look like to make those updates within SecondBrain and within Genspark's, you know, memory and content architecture?</p>
+
+<p>[<a href="#t=24m47s" data-turbo="false" title="Jump to 24:47 in this episode">24:47</a>] Wen Sang:
+<br />So today, we basically, our desire is twofold. One, we wanted to make it as painless as possible. Two, we wanted to make sure it works to the customer's, user's preference. So basically, we allow you to choose if you wanted to load new memories in every day, like you would just sleep on it and then you have new memory, or if you wanted to do it every week, every month, that's completely up to you. And you could set this up for different system records. It could be for your drive, for your email, for your meeting notes, for your Genspark project history. And you can do one click migration or let's say memory loading from your Notion, from your CRMs. It's available. So you could manually trigger it. You could let it trigger by itself automatically and then turn on this cadence. It's completely up to you. We work with your preferences.</p>
+
+<p>[<a href="#t=25m40s" data-turbo="false" title="Jump to 25:40 in this episode">25:40</a>] Conor Bronsdon:
+<br />Season 4 of Chain of Thought is delivered by Svix. We spend a lot of time talking about what agents need in production, and one of the least glamorous answers is events. Your customers want agent workflows that react to things happening inside your system, which means your API needs webhooks that actually work. not just a post request and a prayer, retries, ordering, idempotency, replay protection. Svix does that as a service, and they wrote standard webhooks, the spec that Anthropic, OpenAI, and Google belled against. So if your API doesn't have reliable webhooks, that's turning into a lost deal. Join Brex, Drata, Daytona, and many others on Svix. Get started at link.svix.com slash c-o-t or go to the show notes to grab the link. Qualified startups will get $12,000 in credits. $50,000 for YC companies. I can't recommend Svix enough. I'm a huge fan of their open source project. I've actually contributed a bit myself and they're so easy to integrate with. I think you'll really enjoy it. check out Svix at link.svix.com slash C-O-T. And then one of the ways you've obviously specialized all of this is through hardware. And we've alluded to the second brain node a couple times throughout the conversation. But I want to talk a bit more specifically about what that looks like, because A, it's less rare than it used to be, but it's still rare for software first companies to launch hardware. B, I've heard you say this is just the first hardware piece you're going to launch, and so I'm interested to know if you'll give us a bit of a preview there. But let's start first on what you've done today. We mentioned phones earlier, and phones are designed for one-to-one conversations. They're not necessarily designed to record and understand multi-person conversations. What was the engineering approach behind the second-brain note, and what were the decisions that you've had to make along the way to get to where you are?</p>
+
+<p>[<a href="#t=27m37s" data-turbo="false" title="Jump to 27:37 in this episode">27:37</a>] Wen Sang:
+<br />Yes, so look, Conor, such excellent question. So we first off, we understand in in real life, we would have conversations with you in a one on one settings. Yes. But we would also have conversations with a group. We would we might sometimes wanted to talk to ourselves or getting a little sprawl. So we want to cover it all. The goal is to make sure that the context in the real life can be put in place for your agents to work for you as well. That's why when we designed it, it's not just like the phone has like one microphone and then that's it, right? Like it's really meant to do this for you. But then for us, we designed an array of microphones. along the edge, so it could pick up signals. If you sit in a big boardroom, if there was a group of people, wherever you sit, we've done testing to make sure that it could pick up everybody's voice. So this is one. Secondly, as I mentioned earlier, if you use your iPhone to do the recording, you can. But it is not designed to do that. One, the battery would drain out in two hours. Two, obviously it's going to get white hot. Two, all you get is the audio file. You would have to do the processing of transcripting it and then turn it into a memory or summary and then it does not connect to anything. So we take care of all of that for you. You don't have to go through any of the middle steps. So you can, the moment you tap this button, it's in there. A few seconds later after the meeting, you can just open up your Genspark application and you can ask questions directly with the meeting notes and then turn it into presentations or AI podcasts. You know what? I love this meeting so much so that I wanted the TLDR version of it verbally. We can have that through Genspark.</p>
+
+<p>[<a href="#t=29m35s" data-turbo="false" title="Jump to 29:35 in this episode">29:35</a>] Conor Bronsdon:
+<br />It's interesting because I spoke with Dhruv Batra at Yutori on this show a few weeks ago, and we talked about their Navigator N2 and N1.5 models, which are designed for browser usage, computer usage. And what we really talked about was most of the web will never get APIs for AI agents. The top companies are building APIs, we're building agent-first, but a lot of the long tail of the web is going to take years, maybe decades, to up-level it to be designed for agents first. And the physical world today is even more so, it's not designed for agents to operate with it. We're having to redesign the meeting rooms, like we talked to Neat about a few weeks back, Do you think about the note almost as like an API for the room you're standing in to enable you to upload the context into your second brain?</p>
+
+<p>[<a href="#t=30m27s" data-turbo="false" title="Jump to 30:27 in this episode">30:27</a>] Wen Sang:
+<br />I think that's a great way to look at it, Conor. And to that, I would say right now we're covering the conversations which contains a lot of information. I wouldn't be surprised if we started to capture image, video, some other modality in the future as well. I'm not saying we're working on any of that, but I am saying that for all of us, we live in a real world that information comes from everywhere. And yes, we have our tools, system records, but also we're having conversations, we're seeing things, we're hearing things. So all of those information that human beings can get, AI, probably would get.</p>
+
+<p>[<a href="#t=31m19s" data-turbo="false" title="Jump to 31:19 in this episode">31:19</a>] Conor Bronsdon:
+<br />So without asking you to pre-announce anything, what's your decision framework for what is going to deserve dedicated hardware support versus what stays software?</p>
+
+<p>[<a href="#t=31m31s" data-turbo="false" title="Jump to 31:31 in this episode">31:31</a>] Wen Sang:
+<br />So that's amazing. That's an amazing question, because we think about this a lot. So really the selection comes from the breaking point of the current digital world and what we need to get done from a work perspective, right? So if you go out and then visit a client, you're gonna have a conversation, but if you're just</p>
+
+<p>[<a href="#t=32m2s" data-turbo="false" title="Jump to 32:02 in this episode">32:02</a>] Wen Sang:
+<br />scribbling down the notes while you're having that conversation, that's hard. So that's where we say the break. So we wanted to make sure you can focus on the human beings. Let the AI focus on all the other stuff. That's kind of how we look at it. Same thing when it comes to some other scenarios, like for example, right now, a lot of us We have to interact with our AI through typing. That's fine and dandy. We've done it for decades. But this is unnatural for human beings. We're not born to do this. This did not exist when our DNAs were formed. So what we have is our voice. That's why we have a product called Speakly. You just talk to your AI. That's how we should be able to interact. Right. So so we're trying to get as closer as possible. We're trying to indefinitely approach the very humane kind of characteristics to make it as smooth, easy for us to incorporate all the contexts, work context, you know, for AI so that they could they could truly understand us. They could learn about us and they could work for us like, you know, a fleet of Goldman Sachs analysts who know you really well. That is the goal.</p>
+
+<p>[<a href="#t=33m33s" data-turbo="false" title="Jump to 33:33 in this episode">33:33</a>] Conor Bronsdon:
+<br />And I imagine that there have been challenges along the way here, because hardware is famously where many software companies struggle, whether it's inventory, return, support, firmware. You ran a SaaS company for a decade. What did you learn from building a physical supply chain at, what, just over a two-year-old AI company?</p>
+
+<p>[<a href="#t=33m55s" data-turbo="false" title="Jump to 33:55 in this episode">33:55</a>] Wen Sang:
+<br />Well, first off, I wouldn't take the credits. So to your point, I was running a computer software company. I know very little about, you know, the hardware stuff. But the beautiful thing is my co-founders, Eric Kay, before this, they built a company from zero to $5.5 billion worth. And that company leveraged the last generation deep learning technologies to build voice AI. And one of the key products there is a hardware piece. And they built, tremendous expertise in, you know, designing, testing, building, shipping, and iterating hardware devices. This first product is actually, I'd say, much simpler than what they built before. So, yeah, and we have solid engineers to you know, cover all of these areas for us. And to be honest, the expertise and relationships they've built from the supply chain side of the world and past decade has been tremendously valuable. It's, yeah, the know-how that, yeah, I mean, there are many options. So, so, yeah, yeah, that this is kind of us playing to our strength in a way.</p>
+
+<p>[<a href="#t=35m2s" data-turbo="false" title="Jump to 35:02 in this episode">35:02</a>] Conor Bronsdon:
+<br />Fair, fair. Another big decision that I'm sure you've had to make along the way has been when to go closed source versus when to open source. And you open source a full AI native office suite instead of keeping it as a paid feature. How did you come by that decision?</p>
+
+<p>[<a href="#t=35m23s" data-turbo="false" title="Jump to 35:23 in this episode">35:23</a>] Wen Sang:
+<br />We wrote a blog about this, and really, we just, on the one hand, this project was, how do I put it, a little spontaneous, I'd say. So one of our engineers, he is obsessed with the capability to, you know, build tools for people to easily, you know, do all the, you know, office related work. So, uh, he just had this opportunity. We, we went, uh, unlimited tokens policy, uh, back in, I think in March or April, I can't remember, but, um, he was like, okay, great. So he started hacking around and, um, then he just thought, Hey, I mean, so many people use these sort of tools. Can we make it not only easy for you to use, but also I could have my own version of it, given that building new things is so affordable and possible today. So he started hanging around and then it was one week he spent, I think, $10,000 worth of tokens in the Voila, the prototype was done and we were all surprised how capable it was. And we were like, OK, I mean, the world has some solutions out there, but we do also know a big chunk of the world. One, they don't necessarily have access to these things. Two, they can't have it in a way that they prefer. And three, we believe that the world is pulling away from kind of a tool-centric world, but more into a human-centric world, meaning that for all of these things, you have to have AI natively built in. So we just wanted to have as many as possible people to be able to benefit from it, to be able to change it to their preferences. So that's why we released GenOffice fully open sourced with our agentic AI capabilities built in. From a business standpoint, I'll be honest, it is to create certain traffic for AI capabilities. So people would see that, oh, hey, you know what? While I can edit this document, it's great. I could just ask Genspark to do all the work. That's even better. So that's kind of how we wanted the people to experience it. Yes, you can have the tool, but but you'd prefer your agent to work with the tool, not you. So that's kind of the logic there.</p>
+
+<p>[<a href="#t=37m40s" data-turbo="false" title="Jump to 37:40 in this episode">37:40</a>] Conor Bronsdon:
+<br />I love it, and I think it speaks to where we think the future of work is going, which is changing the level of abstraction across what we're doing with knowledge work. We're already seeing it with coding, we're seeing it with math, we're starting to see it in other areas, though I'll argue that things like writing are far from solved. If agents with persistent memory are handling busy work end-to-end, what do you see knowledge workers spending their time on day-to-day in the coming years?</p>
+
+<p>[<a href="#t=38m11s" data-turbo="false" title="Jump to 38:11 in this episode">38:11</a>] Wen Sang:
+<br />So the way we look at this, Conor, is that if you look at, so we cater to the, as I mentioned earlier, 1 billion plus global knowledge workers. And this group creates 30 to 50 trillion dollars worth of value, according to some of the McKinsey study. OK. Now, the way we create those values, if you distill it down on an individual level, it's really three things. We collect information, we process information, we generate output. Regardless, if you work in banking, consulting, advertising, food and beverage, regardless, as long as you're not working with your hands, you're basically typing in front of a computer and all that, right? So those are the core parts of it. Now, in each of those steps, Much of our time, 60, 70, 80% of our time is spent on the busy work. The work that does not directly generate, you know, leverage creativity or generate strategic values. It's like we have to do those work to get the real work done. So our view is, with agents auto-piloting a lot of those busy work, we actually can focus on decision-making, handshaking, meaning making human connections, use our creativity. Everybody could work like a Jensen Huang, because when the journalists interviewed Jensen, hey you work hard, and how do you do that? Jensen was like, I don't feel like I'm working hard. People feel like they're working hard because they're working on things that they don't like to spend time on. When I work, I feel like I'm dreaming. I'm thinking about what can be, what is possible in the next three, five years. That is what we want for everybody. We believe now with this wave of AI breakthroughs, many of us, maybe all of us could have that opportunity to leverage, to tap the full potential out of each of us. So the time we have to spend on busy work is no longer the limit of what we can create. It's ourselves.</p>
+
+<p>[<a href="#t=40m7s" data-turbo="false" title="Jump to 40:07 in this episode">40:07</a>] Conor Bronsdon:
+<br />So speaking of creativity, as a developer who is building systems for myself, obviously I can use the Genspark platform, but if I want to build tools that interact with Genspark or that work with my second brain node, what can I do today to customize to my needs?</p>
+
+<p>[<a href="#t=40m26s" data-turbo="false" title="Jump to 40:26 in this episode">40:26</a>] Wen Sang:
+<br />Oh, 100% Conor. We have a CLI that you've the leverage you could just yeah. Matter of fact, this is not only for individual developers, we just went live with one of the major. enterprise companies in the world that their developer teams, they love our CLI capability. So they just built their application on top of our harness in that sense. So yes, you could put Genspark anywhere in your world, in your workflows, and enjoy the amazing capabilities we've built out of that three-layer kind of package. And yeah, take full advantage of it.</p>
+
+<p>[<a href="#t=41m10s" data-turbo="false" title="Jump to 41:10 in this episode">41:10</a>] Conor Bronsdon:
+<br />Season 4 of Chain of Thought is presented by Inngest. Agents in production run long. They call models and wait on APIs and people. But the longer agents run, the more they break. Inngest handles that with durable execution. You build your agent as steps in TypeScript, Python, and Go. When a step fails, Inngest retries it with exponential backoff, and completed steps are saved and skipped. A run can wait on an event for minutes or for months. You can trace runs and replay past runs against new code. And Inngest has built-in observability, evals, and experiments so you can wrap your agent tools and steps and use it as a full-on agent harness. The dev server is open source and you can get started for free. Grab the Inngest link in the description or visit inngest.link slash cot dash pod to get started. It's definitely a really exciting space, but I also think we should address some of the concerns that I know folks have. So, I mean, like an obvious one is I live in Washington State. It's a two-party consent state. You know, a card in my pocket that picks up voices from a few meters away may concern some people. What do you see as the line between, you know, a second brain and note-taking versus surveillance? And, you know, what's the advice you're giving to people who are out there using these products day to day?</p>
+
+<p>[<a href="#t=42m30s" data-turbo="false" title="Jump to 42:30 in this episode">42:30</a>] Wen Sang:
+<br />100%. So we recommend that whenever I use secondary notes, the consent has to be clear and explicit. So I would ask for permission. Hey, could I record this meeting? It's the same thing as when we do it online. No difference. And then I would tap this. And then you see the light will turn on. So the consent got to be clear and explicit. The recording is visible, right? And then the data access, the control is to the human being, to you. Like if you're using second brain nodes, you are the decision maker, you are the automated controller of the access, the editing, the deletion of all the information. That's how it should work. We believe that privacy matters a lot. And the way to use this is no different than how you would use an iPhone to record the ambient environment or how you use an online meeting bot to do the meeting notes. It's the same thing. Explicit consent, visible recording, and human responsible control.</p>
+
+<p>[<a href="#t=43m46s" data-turbo="false" title="Jump to 43:46 in this episode">43:46</a>] Conor Bronsdon:
+<br />And speaking of individual control and customization, I also know that Genspark has launched your own claw, Genspark Claw. I'm curious how that interacts with everything else in the stack.</p>
+
+<p>[<a href="#t=43m58s" data-turbo="false" title="Jump to 43:58 in this episode">43:58</a>] Wen Sang:
+<br />So Genspark Claw is basically, we got inspired by the Open Claw kind of framework that now not only you can interact with your AI agents within this one place, the AI basically follows you, you can interact with your agents anywhere you want. But then, challenge for non-technical folks is that I personally don't know how to set up a Mac Mini and run Node.js and update the Omicloud versions and then keep it all secure and safe. So we thought, you know what, for people who wanted to talk to their agents through WhatsApp or whatnot, you don't have to deal with any of that. We stack the whole thing on top of Microsoft Azure Infra. It's enterprise-grade security and all that. And we made it so easy that if you wanted to turn on connections between your agent and WhatsApp or Slack, you just click a button. That's how simple it is to set it up. So we created that experience. And basically, Euroclaw lives in this virtual machine environment by Microsoft Azure. And you don't have to deal with any of that setting up, maintenance and all that. You don't have to have a IT team and you don't have to pay $1,400 upfront to get it set up. So that's kind of the premise of it. Now, I would say though, Claw, not only you can have it just through Genspark Claw now, you can also have it through GenTeam, which in my view is an even better kind of work environment because with that, I'd say the stability, the performance of the Claw is getting upgraded. So the clock gave us, I'd say, inspiration. I mean, today's world, you see disruptors getting disrupted all the time. We're disrupting ourselves, is basically the case. So yeah, we're constantly taking on these new possibilities and turning them into more reliable, useful, and just easy to use technologies for our target users. Because look, AI is happening fast. AI is happening so fast so that Mark Andreessen said AGI is already here. But to his point, it's not everywhere. He's right. So we see that gap. Our view is the world shouldn't be one that only the elite developers in Silicon Valley would have access to the greatest and latest AI and they can just turn magics out of this.</p>
+
+<p>[<a href="#t=46m44s" data-turbo="false" title="Jump to 46:44 in this episode">46:44</a>] Wen Sang:
+<br />have the top speed of this engine, just like a Formula One racing car, but all you need to do is to just say, hey, I wanted to do this. And then FMSD delivers to you. That's kind of how we think about this. That's why when it comes to KLAW and so on, we wanted to break it down so that, you know, a non-technical person like me, I just say a few words and then voila, it's mine.</p>
+
+<p>[<a href="#t=47m9s" data-turbo="false" title="Jump to 47:09 in this episode">47:09</a>] Conor Bronsdon:
+<br />It's interesting to look at the areas in Genspark's approach where you're going very simple, which is essentially a cheaper version of some of these other pins that we've seen. You've seen Humane's pin, Rabbit R1, etc. They're like $700. And you're saying, look, we want a more affordable, simpler device. And yet you're also going complex as far as what you integrate with and what you enable. And another element of complexity that has been added to a lot of AI conversations today, and particularly ones around agent memory, is As we start to slide into these deeper conversations about memory, we start talking about consciousness. We start talking about model welfare. Anyone who reads Steve Yege's work I think has seen a few different perspectives on this. My general take is that letting agents carry context between sessions is simply correct infrastructure regardless, whatever you believe about welfare. I'm curious if you and the Genspark team have a perspective on welfare for models in the long term and how you're thinking about persistent agent memory, or are you purely focused on, hey, this is what's right for enterprises anyways?</p>
+
+<p>[<a href="#t=48m21s" data-turbo="false" title="Jump to 48:21 in this episode">48:21</a>] Wen Sang:
+<br />Yeah, look, there are a couple of things, Conor. So first, we believe those are important topics</p>
+
+<p>[<a href="#t=48m28s" data-turbo="false" title="Jump to 48:28 in this episode">48:28</a>] Wen Sang:
+<br />for the entire humanity. These things are happening in real time. And it's important to, I'd say, have deep discussions around these topics and have solutions collectively for the entire human race. At Genspark, though, we are a human-centric company, and we're a practical company. What I mean by that is our worldview is AI is a piece of technology that should serve human beings, first and foremost. And our work is all around that. And our work is all around, not only AI should serve human beings, it should serve as many as possible billions of human beings. That's why we're focused on building technology that is so easy to use. If you can use a Google search, you can use Genspark, but get the greatest and latest, most advanced AI capabilities to work for you, especially in a productivity world, especially in the world where you want to get work done. so that you could then work harder and earn more, or you could sit back and then relax. That's all up to you. We want to create more freedom for each person, each individual. We want you to feel like you can tap your full potential to create things because that, you know, Genspark would take take care of all the busy work, all the grunt work for you. So that's our focus. And we have a rather pragmatic view of how to do that. The products we've developed, we've kind of essentially followed that philosophy that we want to build useful things for human beings. We believe AI could be extremely useful here for us to do that, to level up. And that is what we focused on. Now, we are also a very active member in this entire community. As I mentioned, not only we work with all the Frontier Labs, we're great partners with Microsoft. We're great partners with, you know, when NVIDIA pushed out the openweight model letter. We co-signed when the Open Secure AI Alliance was formed. We were one of the earliest members. We believe in the importance of having optionality, having open way models to advance the entire industry together. We also believe in the importance of agents, governance, security, privacy, all of these good stuff. And we intend to contribute when it comes to these rather important aspects of this you know, booming, but still in a baby infant stage kind of AI industry. That's kind of how we think about this and look at the world.</p>
+
+<p>[<a href="#t=51m13s" data-turbo="false" title="Jump to 51:13 in this episode">51:13</a>] Conor Bronsdon:
+<br />How big is your human team today? Obviously you've seen incredible growth.</p>
+
+<p>[<a href="#t=51m16s" data-turbo="false" title="Jump to 51:16 in this episode">51:16</a>] Wen Sang: [OVERLAP]
+<br />We, we have a lot of agents running around. Yes. Uh, human wise, we have 70 plus, almost 80 people around the globe. Uh, so yeah, we're headquartered here in Palo Alto, California, but, uh, we do also have a team in Japan, um, uh, that is focused on marketing sales, customer support, customer success, uh, solutions, engineering, or for deployment engineering, all that good stuff. We have a Singapore office, and we have a few team members in Seoul, Korea. We're building up possibly our New York office very soon. Our chief family officer and his team is based in New York. New York has 10 million plus global knowledge workers.</p>
+
+<p>[<a href="#t=51m56s" data-turbo="false" title="Jump to 51:56 in this episode">51:56</a>] Conor Bronsdon: [OVERLAP]
+<br />Good place to be.</p>
+
+<p>[<a href="#t=51m57s" data-turbo="false" title="Jump to 51:57 in this episode">51:57</a>] Wen Sang:
+<br />Yes, yes. And we're thinking about our next potentially a London office. And we see great tractions now from the GCC region, from South America, it's all coming up Brazil, and so on. So we're thinking about, you know, how to essentially, you know, have human interactions with our users and customers and communities in these different parts of the world as well.</p>
+
+<p>[<a href="#t=52m21s" data-turbo="false" title="Jump to 52:21 in this episode">52:21</a>] Conor Bronsdon: [OVERLAP]
+<br />This episode is sponsored by G2i. I've said before on Chain of Thought that most teams still treat evals like unit tests. Write them once, check a box, and move on. That doesn't hold up once an agent is making decisions. G2i is about to close that gap. For over a decade, they vetted and placed engineers at other companies, from startups to FAANG. Two years ago, they turned that same judgment inwards, building their own bench to review our environments, evals, and training data that models are trained on. These reviewers know the difference between code that runs and code that's actually good because they've shipped it themselves. If your team needs that kind of work and doesn't have the engineers for it, check the link in the show notes to bring them in. Thank you for a wide-ranging and deep conversation. As we close out, I'd love to get your take on what the future looks like. We've talked from a variety of angles about what the future for Genspark looks like, where you see hardware going. Something we haven't talked about is this takeoff we may see from recursive learning and this new wave. What do you expect to happen in the next couple of years, and how are you thinking about the future of knowledge, work, and AI? I mean, at least for 2027, maybe. I don't want us to project too far out,</p>
+
+<p>[<a href="#t=53m33s" data-turbo="false" title="Jump to 53:33 in this episode">53:33</a>] Wen Sang: [OVERLAP]
+<br />Sure,</p>
+
+<p>[<a href="#t=53m33s" data-turbo="false" title="Jump to 53:33 in this episode">53:33</a>] Conor Bronsdon: [OVERLAP]
+<br />unless you want to.</p>
+
+<p>[<a href="#t=53m34s" data-turbo="false" title="Jump to 53:34 in this episode">53:34</a>] Wen Sang: [OVERLAP]
+<br />sure. We'll talk about the full spectrum. So, I mean, most immediately, what we are seeing today, Conor, I'm sure you're seeing it as well, is innovation is continuously happening on all levels of the whole stack. New chips are coming out, new models are coming out every day, and our mixture of agents, our tech architecture, it's a plug and play. We constantly evaluate. We constantly get early access from all the Frontier Labs partners. We constantly evaluate the models from a genetic use perspective. From our use cases, we provide feedback. And when they release new models, they would quote us, say, Genspark said great things about this model. You should all use it. So we do all that. And we're seeing that models are continuously not only improving from a performance standpoint, but we're also seeing new kind of models coming out, right? Dr. Fei-Fei Li's lab just released their first model with the We're excited about all of these. I had the opportunity to talk to Dr. Yann LeCun back in the RAISE Summit in Paris. And I asked him, when is your new model going to come out? And he shared his perspectives on the world models. We're excited about all of these amazing stuff. So that is going to continue to happen. When new models and new model capabilities come out, I would say new possibilities are getting created on all the stacks above. We're just snakes. I'll give you one. So before, so when Genspark, we launched our super agent or AI workspace 1.0 last April, that was only possible. But before that, we actually worked on a search product. But we knew that we wanted to not only let the AI get information for us, but also to do work. But for AI to do work for us, they got to be able to reason really coherently. And that was only possible because the new models came out toward the end of 2024. So we took full advantage of that. It's like waves of new breakthroughs. You can only get eugenic actions going if the models can reason and then later on they can code really well. And then you see, even from our own products, AI Slides 6.0 now compared to AI Slide 1.0 is like day and night. It's just insane. So we continue to see new possibilities. Secondly, the new possibilities would come out from a harness standpoint as well. You know, the proof points are being clawed now, open claw 2.0, armies. You know, we view this as now everybody's in a sandbox. We see this kind of movement continuously happen so that not only the models are getting smarter, but agents are getting a lot more capable. From a tooling standpoint, I think we're fairly ahead of the game there. And from a virtual environment, kind of a computer user perspective, I think we're fairly ahead there as well. Like if you try, I'm just going to do this play, if you try Gen Team, you try Rockbot, you try Buzz, you try them all, I'm very confident you will see the difference there. That's because how you kind of maneuver models to use the right tools to build the right agents and let them collaborate with human beings. That makes a huge difference. We see continued innovation there as well. Now, with all that, and we see continued innovation in memory, in collaboration. But all this is pointing to one, I'd say one direction that is the AI agents are indefinitely approaching the kind of endgame of how you would be able to interact with AI is going to be indefinitely approaching how you would interact with other human beings. A lot of that is happening in the digital world, but we also know that there's the physical AI component there that is progressing as well. That is what we all see, right? So, so, so, so that's that now. Much for their future, Conor, our belief is this. When, when the 60, 70, 80% of the time we human beings today, or in the past, the spent on busy work, get pushed down to, I don't know, 20, 30, 10, 5, 0%. Each of us would have so much more freedom to do a lot more valuable things, so much more freedom to spend time with our families or like people who we love and or our friends. So so that is there is going to be an elevation of two things. One, life quality. Just like if you look back a thousand years ago, you and me, we're probably living a better life than a king. a thousand years ago, right? So that is going to happen. Secondly, how we're going to create, how we're going to build is going to be on the next levels. I would dare to say, to fathom that if we get to that point, There will be less people working on the specific things that will keep us human beings alive, like</p>
+
+<p>[<a href="#t=58m33s" data-turbo="false" title="Jump to 58:33 in this episode">58:33</a>] Wen Sang:
+<br />create food or whatnot. But more people would work on things like explore the universe. We have not gone out to solar systems just yet. Come on. Right. There will be more. There will be more than one SpaceX. There will be more scientific progress that we will understand the world and ourselves a lot better, a lot deeper. I would be able to maybe talk to the little shark when I saw in Bora Bora one day. I don't know. So, so, yeah, I'm excited about what is possible. And then, yeah, yeah. So that's kind of, yeah.</p>
+
+<p>[<a href="#t=59m11s" data-turbo="false" title="Jump to 59:11 in this episode">59:11</a>] Conor Bronsdon:
+<br />I love the inspirational view. I think there is a lot of toil that we can vastly improve on and potentially eliminate or pass off to agents, and a lot of creativity that we can unlock if we're using AI tools in the right way. So Wen, it's been fantastic talking to you. And if you enjoyed this conversation, you're listening or watching on YouTube, make sure you drop a comment. Let us know what you enjoyed. Let us know what we didn't talk about that we need to address next time we have one back. And for folks who really love to hear from one, where can they follow you and the work of Genspark?</p>
+
+<p>[<a href="#t=59m43s" data-turbo="false" title="Jump to 59:43 in this episode">59:43</a>] Wen Sang:
+<br />So I'm on LinkedIn. I'm on X. I just searched one son. I should pop up. I think Possibly I'm the only one there But also more importantly my recommendation, please try Genspark GenTeam. It is amazing Today, all my work starts there and end there. I don't get into my email inbox. I don't go onto my, you know, three message platforms. I just ask my agents to triage my email, triage my messages, to write social posts for me. I'll proofread everything. Human beings take responsibilities. There's no question on that. But otherwise, internally at Genspark, we do our product feedback triage with our agents. We don't have, like, dedicated PMs. You close the loop end-to-end between our users. We build in public. We have big groups of 500 people for gen office to throw feedback into this. Our bugs agent or product agent would triage those tickets and assign it directly to our dev. Our dev would let their agents pick up those issues, push it onto GitHub issues, solve those, test those, pull it back, and then report back. Full closed loop. That's how things are getting built these days. That's how we get over 660 forks out of GenOffice on GitHub. Yeah.</p>
+
+<p>[<a href="#t=1h1m1s" data-turbo="false" title="Jump to 1:01:01 in this episode">1:01:01</a>] Conor Bronsdon:
+<br />amazing. And I'll say, uh, when's content is great on LinkedIn and X, but perhaps my favorite tweet I've seen from him for the last few days is him talking about how much he loves hot pot and his hot pot set up when he's on vacation, where he will even bring his own pot grocery shop and, uh, hit the slope. So, uh, definitely recommend checking out when, uh, when thank you so much for joining me today. It's been a pleasure chatting with you.</p>
+
+<p>[<a href="#t=1h1m25s" data-turbo="false" title="Jump to 1:01:25 in this episode">1:01:25</a>] Wen Sang:
+<br />Thank you, Conor.</p>
+
+      </div>
+
+
+
+
+        <div class="site-episode-people">
+          <h3>Creators and Guests</h3>
+
+          <div class="site-people">
+
+
+
+<div class="site-person">
+  <a href="/people/conor-bronsdon" title="Conor Bronsdon" class="site-person-avatar">
+
+      <img src="https://img.transistorcdn.com/lsCv5hDZpoiZaxBqw8MhZfPIA-GDVlidobaS1qQ-4G4/rs:fill:0:0:1/w:400/h:400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS83MTQ4/MTA1MGEwMjEwYjc0/MmUzMWIwYWU2YzMy/ZDQ0Mi5wbmc.webp" alt="Conor Bronsdon" class="site-person-image">
+
+    <div class="site-person-role">Host</div>
+  </a>
+
+  <div class="site-person-details">
+    <a class="site-person-name" href="/people/conor-bronsdon" title="Conor Bronsdon">Conor Bronsdon</a>
+
+      <div class="site-person-bio">Creator and Host of the Chain of Thought Podcast</div>
+
+
+    <div class="site-person-links">
+
+        <a href="https://x.com/ConorBronsdon" title="Twitter" target="_twitter">
+
+  <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>X</title><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg>
+
+
+        </a>
+
+        <a href="https://www.linkedin.com/in/conorbronsdon/" title="LinkedIn" target="_linkedIn">
+
+  <svg role="img" class="icon-linkedin" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>LinkedIn</title><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+
+
+        </a>
+
+        <a href="https://github.com/conorbronsdon" title="Github" target="_github">
+
+  <svg role="img" viewBox="0 0 24 24" class="icon-github" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+
+
+        </a>
+
+        <a href="https://conorbronsdon.com/" title="Website" target="_website">
+
+  <svg role="img" viewBox="0 0 20 20"><title>Website Link</title><path fill-rule="evenodd" d="M12.586 4.586a2 2 0 112.828 2.828l-3 3a2 2 0 01-2.828 0 1 1 0 00-1.414 1.414 4 4 0 005.656 0l3-3a4 4 0 00-5.656-5.656l-1.5 1.5a1 1 0 101.414 1.414l1.5-1.5zm-5 5a2 2 0 012.828 0 1 1 0 101.414-1.414 4 4 0 00-5.656 0l-3 3a4 4 0 105.656 5.656l1.5-1.5a1 1 0 10-1.414-1.414l-1.5 1.5a2 2 0 11-2.828-2.828l3-3z" clip-rule="evenodd"></path></svg>
+
+
+        </a>
+
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="site-person">
+  <a href="/people/wen-sang" title="Wen Sang" class="site-person-avatar">
+
+      <img src="https://img.transistorcdn.com/Nq3RfNy1w6BP3dBzb1AhiKRCWiu_F0YLZ5A2Fec_4N4/rs:fill:0:0:1/w:400/h:400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS85ZjEx/ZDkxY2VlZWRkMDIy/NjlhZDA2NWY1MTMw/OTY3NS5qcGc.webp" alt="Wen Sang" class="site-person-image">
+
+    <div class="site-person-role">Guest</div>
+  </a>
+
+  <div class="site-person-details">
+    <a class="site-person-name" href="/people/wen-sang" title="Wen Sang">Wen Sang</a>
+
+      <div class="site-person-bio">Genspark</div>
+
+
+    <div class="site-person-links">
+
+        <a href="https://www.genspark.ai" title="Website" target="_website">
+
+  <svg role="img" viewBox="0 0 20 20"><title>Website Link</title><path fill-rule="evenodd" d="M12.586 4.586a2 2 0 112.828 2.828l-3 3a2 2 0 01-2.828 0 1 1 0 00-1.414 1.414 4 4 0 005.656 0l3-3a4 4 0 00-5.656-5.656l-1.5 1.5a1 1 0 101.414 1.414l1.5-1.5zm-5 5a2 2 0 012.828 0 1 1 0 101.414-1.414 4 4 0 00-5.656 0l-3 3a4 4 0 105.656 5.656l1.5-1.5a1 1 0 10-1.414-1.414l-1.5 1.5a2 2 0 11-2.828-2.828l3-3z" clip-rule="evenodd"></path></svg>
+
+
+        </a>
+
+    </div>
+  </div>
+</div>
+
+
+          </div>
+        </div>
+
+    </div>
+
+    <div class="site-episode-grid-artwork">
+      <img src="https://img.transistorcdn.com/vHSKS973EcSL1pkvPlh9W27pvooLm9ZsTK3DHGsmWVo/rs:fill:0:0:1/w:800/h:800/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS82MTdi/OTNiYjY5ZGI3OTNl/Njc4YjZmOWYyZWJi/MmY4NC5qcGc.webp" alt="Genspark&#39;s Bet: AI Agents Become the Users of Software | Wen Sang">
+    </div>
+
+    <div class="site-episode-grid-subscribe">
+      <h2 class="site-content-subheader">
+
+  <svg role="img" class="icon-headphones" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>headphones</title><g><path d="M7,12a3,3,0,0,0-3,3v6a3,3,0,0,0,6,0V15A3,3,0,0,0,7,12Zm10,0a3,3,0,0,0-3,3v6a3,3,0,0,0,6,0V15A3,3,0,0,0,17,12ZM12,0A12,12,0,0,0,0,12v5a1,1,0,0,0,2,0V12a10,10,0,0,1,20,0v5a1,1,0,0,0,2,0V12A12,12,0,0,0,12,0Z"></path></g></svg>
+
+
+        <span>Listen Anywhere</span>
+      </h2>
+      <nav class="site-subscribe">
+        <a href="https://podcasts.apple.com/us/podcast/chain-of-thought/id1776879655?uo=4" class="site-subscribe-link apple_podcasts" target="_apple_podcasts" title="Listen to Chain of Thought | AI Agents, Infrastructure &amp; Engineering on Apple Podcasts">
+  <svg role="img" fill="#9933CC" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Apple Podcasts</title><path d="M5.34 0A5.328 5.328 0 000 5.34v13.32A5.328 5.328 0 005.34 24h13.32A5.328 5.328 0 0024 18.66V5.34A5.328 5.328 0 0018.66 0zm6.525 2.568c2.336 0 4.448.902 6.056 2.587 1.224 1.272 1.912 2.619 2.264 4.392.12.59.12 2.2.007 2.864a8.506 8.506 0 01-3.24 5.296c-.608.46-2.096 1.261-2.336 1.261-.088 0-.096-.091-.056-.46.072-.592.144-.715.48-.856.536-.224 1.448-.874 2.008-1.435a7.644 7.644 0 002.008-3.536c.208-.824.184-2.656-.048-3.504-.728-2.696-2.928-4.792-5.624-5.352-.784-.16-2.208-.16-3 0-2.728.56-4.984 2.76-5.672 5.528-.184.752-.184 2.584 0 3.336.456 1.832 1.64 3.512 3.192 4.512.304.2.672.408.824.472.336.144.408.264.472.856.04.36.03.464-.056.464-.056 0-.464-.176-.896-.384l-.04-.03c-2.472-1.216-4.056-3.274-4.632-6.012-.144-.706-.168-2.392-.03-3.04.36-1.74 1.048-3.1 2.192-4.304 1.648-1.737 3.768-2.656 6.128-2.656zm.134 2.81c.409.004.803.04 1.106.106 2.784.62 4.76 3.408 4.376 6.174-.152 1.114-.536 2.03-1.216 2.88-.336.43-1.152 1.15-1.296 1.15-.023 0-.048-.272-.048-.603v-.605l.416-.496c1.568-1.878 1.456-4.502-.256-6.224-.664-.67-1.432-1.064-2.424-1.246-.64-.118-.776-.118-1.448-.008-1.02.167-1.81.562-2.512 1.256-1.72 1.704-1.832 4.342-.264 6.222l.413.496v.608c0 .336-.027.608-.06.608-.03 0-.264-.16-.512-.36l-.034-.011c-.832-.664-1.568-1.842-1.872-2.997-.184-.698-.184-2.024.008-2.72.504-1.878 1.888-3.335 3.808-4.019.41-.145 1.133-.22 1.814-.211zm-.13 2.99c.31 0 .62.06.844.178.488.253.888.745 1.04 1.259.464 1.578-1.208 2.96-2.72 2.254h-.015c-.712-.331-1.096-.956-1.104-1.77 0-.733.408-1.371 1.112-1.745.224-.117.534-.176.844-.176zm-.011 4.728c.988-.004 1.706.349 1.97.97.198.464.124 1.932-.218 4.302-.232 1.656-.36 2.074-.68 2.356-.44.39-1.064.498-1.656.288h-.003c-.716-.257-.87-.605-1.164-2.644-.341-2.37-.416-3.838-.218-4.302.262-.616.974-.966 1.97-.97z"/></svg>
+
+<label>
+          <span>Listen On</span>
+          <b>Apple Podcasts</b>
+        </label>
+      </a><a href="https://open.spotify.com/show/4axe6uydH3PT0Fy1jemjFT" class="site-subscribe-link spotify" target="_spotify" title="Listen to Chain of Thought | AI Agents, Infrastructure &amp; Engineering on Spotify">
+  <svg role="img" fill="#1DB954" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Spotify</title><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg>
+
+<label>
+          <span>Listen On</span>
+          <b>Spotify</b>
+        </label>
+      </a><a href="https://overcast.fm/itunes1776879655" class="site-subscribe-link overcast" target="_overcast" title="Listen to Chain of Thought | AI Agents, Infrastructure &amp; Engineering on Overcast">
+  <svg role="img" fill="#FC7E0F" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Overcast</title><path d="M12 24C5.389 24.018.017 18.671 0 12.061V12C0 5.35 5.351 0 12 0s12 5.35 12 12c0 6.649-5.351 12-12 12zm0-4.751l.9-.899-.9-3.45-.9 3.45.9.899zm-1.15-.05L10.4 20.9l1.05-1.052-.6-.649zm2.3 0l-.6.601 1.05 1.051-.45-1.652zm.85 3.102L12 20.3l-2 2.001c.65.1 1.3.199 2 .199s1.35-.05 2-.199zM12 1.5C6.201 1.5 1.5 6.201 1.5 12c-.008 4.468 2.825 8.446 7.051 9.899l2.25-8.35c-.511-.372-.809-.968-.801-1.6 0-1.101.9-2.001 2-2.001s2 .9 2 2.001c0 .649-.301 1.2-.801 1.6l2.25 8.35c4.227-1.453 7.06-5.432 7.051-9.899 0-5.799-4.701-10.5-10.5-10.5zm6.85 15.7c-.255.319-.714.385-1.049.15-.313-.207-.4-.628-.194-.941.014-.021.028-.04.044-.06 0 0 1.35-1.799 1.35-4.35s-1.35-4.35-1.35-4.35c-.239-.289-.198-.719.091-.957.02-.016.039-.031.06-.044.335-.235.794-.169 1.049.15.1.101 1.65 2.15 1.65 5.2S18.949 17.1 18.85 17.2zm-3.651-1.95c-.3-.3-.249-.85.051-1.15 0 0 .75-.799.75-2.1s-.75-2.051-.75-2.1c-.3-.301-.3-.801-.051-1.15.232-.303.666-.357.969-.125.029.022.056.047.082.074C16.301 8.75 17.5 10 17.5 12s-1.199 3.25-1.25 3.301c-.301.299-.75.25-1.051-.051zm-6.398 0c-.301.301-.75.35-1.051.051C7.699 15.199 6.5 14 6.5 12s1.199-3.199 1.25-3.301c.301-.299.801-.299 1.051.051.3.3.249.85-.051 1.15 0 .049-.75.799-.75 2.1s.75 2.1.75 2.1c.3.3.351.799.051 1.15zm-2.602 2.101c-.335.234-.794.169-1.05-.15C5.051 17.1 3.5 15.05 3.5 12s1.551-5.1 1.649-5.2c.256-.319.715-.386 1.05-.15.313.206.4.628.194.941-.013.02-.028.04-.043.059C6.35 7.65 5 9.449 5 12s1.35 4.35 1.35 4.35c.25.3.15.75-.151 1.001z"/></svg>
+
+<label>
+          <span>Listen On</span>
+          <b>Overcast</b>
+        </label>
+      </a><a href="https://pca.st/itunes/1776879655" class="site-subscribe-link pocket_casts" target="_pocket_casts" title="Listen to Chain of Thought | AI Agents, Infrastructure &amp; Engineering on Pocket Casts">
+  <svg role="img" fill="#F43E37" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Pocket Casts</title><path d="M12,0C5.372,0,0,5.372,0,12c0,6.628,5.372,12,12,12c6.628,0,12-5.372,12-12 C24,5.372,18.628,0,12,0z M15.564,12c0-1.968-1.596-3.564-3.564-3.564c-1.968,0-3.564,1.595-3.564,3.564 c0,1.968,1.595,3.564,3.564,3.564V17.6c-3.093,0-5.6-2.507-5.6-5.6c0-3.093,2.507-5.6,5.6-5.6c3.093,0,5.6,2.507,5.6,5.6H15.564z M19,12c0-3.866-3.134-7-7-7c-3.866,0-7,3.134-7,7c0,3.866,3.134,7,7,7v2.333c-5.155,0-9.333-4.179-9.333-9.333 c0-5.155,4.179-9.333,9.333-9.333c5.155,0,9.333,4.179,9.333,9.333H19z"/></svg>
+
+<label>
+          <span>Listen On</span>
+          <b>Pocket Casts</b>
+        </label>
+      </a><a href="https://music.amazon.com/podcasts/c35917ec-2b32-4013-a06f-7ca13a5a7a4d" class="site-subscribe-link amazon_music" target="_amazon_music" title="Listen to Chain of Thought | AI Agents, Infrastructure &amp; Engineering on Amazon Music">
+  <svg role="img" viewBox="2.167 .438 251.038 259.969" xmlns="http://www.w3.org/2000/svg"><title>Amazon Music</title><g fill="none" fill-rule="evenodd"><path d="m221.503 210.324c-105.235 50.083-170.545 8.18-212.352-17.271-2.587-1.604-6.984.375-3.169 4.757 13.928 16.888 59.573 57.593 119.153 57.593 59.621 0 95.09-32.532 99.527-38.207 4.407-5.627 1.294-8.731-3.16-6.872zm29.555-16.322c-2.826-3.68-17.184-4.366-26.22-3.256-9.05 1.078-22.634 6.609-21.453 9.93.606 1.244 1.843.686 8.06.127 6.234-.622 23.698-2.826 27.337 1.931 3.656 4.79-5.57 27.608-7.255 31.288-1.628 3.68.622 4.629 3.68 2.178 3.016-2.45 8.476-8.795 12.14-17.774 3.639-9.028 5.858-21.622 3.71-24.424z" fill="#4BA5DC" fill-rule="nonzero"/><path d="m150.744 108.13c0 13.141.332 24.1-6.31 35.77-5.361 9.489-13.853 15.324-23.341 15.324-12.952 0-20.495-9.868-20.495-24.432 0-28.75 25.76-33.968 50.146-33.968zm34.015 82.216c-2.23 1.992-5.456 2.135-7.97.806-11.196-9.298-13.189-13.615-19.356-22.487-18.502 18.882-31.596 24.527-55.601 24.527-28.37 0-50.478-17.506-50.478-52.565 0-27.373 14.85-46.018 35.96-55.126 18.313-8.066 43.884-9.489 63.43-11.718v-4.365c0-8.018.616-17.506-4.08-24.432-4.128-6.215-12.003-8.777-18.93-8.777-12.856 0-24.337 6.594-27.136 20.257-.57 3.037-2.799 6.026-5.835 6.168l-32.735-3.51c-2.751-.618-5.787-2.847-5.028-7.07 7.543-39.66 43.36-51.616 75.43-51.616 16.415 0 37.858 4.365 50.81 16.795 16.415 15.323 14.849 35.77 14.849 58.02v52.565c0 15.798 6.547 22.724 12.714 31.264 2.182 3.036 2.657 6.69-.095 8.966-6.879 5.74-19.119 16.415-25.855 22.393l-.095-.095" fill="#000"/><path d="m221.503 210.324c-105.235 50.083-170.545 8.18-212.352-17.271-2.587-1.604-6.984.375-3.169 4.757 13.928 16.888 59.573 57.593 119.153 57.593 59.621 0 95.09-32.532 99.527-38.207 4.407-5.627 1.294-8.731-3.16-6.872zm29.555-16.322c-2.826-3.68-17.184-4.366-26.22-3.256-9.05 1.078-22.634 6.609-21.453 9.93.606 1.244 1.843.686 8.06.127 6.234-.622 23.698-2.826 27.337 1.931 3.656 4.79-5.57 27.608-7.255 31.288-1.628 3.68.622 4.629 3.68 2.178 3.016-2.45 8.476-8.795 12.14-17.774 3.639-9.028 5.858-21.622 3.71-24.424z" fill="#4BA5DC" fill-rule="nonzero"/><path d="m150.744 108.13c0 13.141.332 24.1-6.31 35.77-5.361 9.489-13.853 15.324-23.341 15.324-12.952 0-20.495-9.868-20.495-24.432 0-28.75 25.76-33.968 50.146-33.968zm34.015 82.216c-2.23 1.992-5.456 2.135-7.97.806-11.196-9.298-13.189-13.615-19.356-22.487-18.502 18.882-31.596 24.527-55.601 24.527-28.37 0-50.478-17.506-50.478-52.565 0-27.373 14.85-46.018 35.96-55.126 18.313-8.066 43.884-9.489 63.43-11.718v-4.365c0-8.018.616-17.506-4.08-24.432-4.128-6.215-12.003-8.777-18.93-8.777-12.856 0-24.337 6.594-27.136 20.257-.57 3.037-2.799 6.026-5.835 6.168l-32.735-3.51c-2.751-.618-5.787-2.847-5.028-7.07 7.543-39.66 43.36-51.616 75.43-51.616 16.415 0 37.858 4.365 50.81 16.795 16.415 15.323 14.849 35.77 14.849 58.02v52.565c0 15.798 6.547 22.724 12.714 31.264 2.182 3.036 2.657 6.69-.095 8.966-6.879 5.74-19.119 16.415-25.855 22.393l-.095-.095" fill="#000"/></g></svg>
+
+<label>
+          <span>Listen On</span>
+          <b>Amazon Music</b>
+        </label>
+      </a><a href="https://www.youtube.com/@ChainOfThoughtAI" class="site-subscribe-link youtube" target="_youtube" title="Listen to Chain of Thought | AI Agents, Infrastructure &amp; Engineering on YouTube">
+  <svg role="img" fill="#FF0000" class="icon-youtube" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>YouTube</title><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+
+<label>
+          <span>Listen On</span>
+          <b>YouTube</b>
+        </label>
+      </a>
+      </nav>
+      <a href="/subscribe" class="site-simple-link">More Options &raquo;</a>
+    </div>
+  </div>
+</div>
+
+        </section>
+        <footer class="site-footer">
+          <div class="site-footer-container">
+            <div class="site-social-credits">
+
+
+                <nav class="site-social">
+
+
+
+
+
+
+      <a href="https://www.youtube.com/@ChainOfThoughtAI" class="site-social-link site-social-youtube" target="_youtube" title="View Chain of Thought | AI Agents, Infrastructure &amp; Engineering on Youtube">
+
+  <svg role="img" fill="#FF0000" class="icon-youtube" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>YouTube</title><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+
+
+      </a>
+
+
+
+
+
+
+      <a href="https://www.linkedin.com/company/chain-of-thought-podcast/" class="site-social-link site-social-linkedIn" target="_linkedIn" title="View Chain of Thought | AI Agents, Infrastructure &amp; Engineering on LinkedIn">
+
+  <svg role="img" class="icon-linkedin" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>LinkedIn</title><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+
+
+      </a>
+
+
+
+
+
+
+      <a href="https://x.com/Chain_OfThought" class="site-social-link site-social-twitter" target="_twitter" title="View Chain of Thought | AI Agents, Infrastructure &amp; Engineering on X">
+
+  <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>X</title><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg>
+
+
+      </a>
+
+
+
+
+
+      <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%70%6f%64%63%61%73%74@%63%6f%6e%6f%72%62%72%6f%6e%73%64%6f%6e.%63%6f%6d" class="site-social-link site-social-email" title="Email Us">
+
+  <svg role="img" class="icon-email" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><title>Email</title><path d="M384 32H64C28.63 32 0 60.63 0 96v320c0 35.38 28.62 64 64 64h320c35.38 0 64-28.62 64-64V96C448 60.63 419.4 32 384 32zM384 336c0 17.67-14.33 32-32 32H96c-17.67 0-32-14.33-32-32V225.9l138.5 69.27C209.3 298.5 216.6 300.2 224 300.2s14.75-1.688 21.47-5.047L384 225.9V336zM384 190.1l-152.8 76.42c-4.5 2.25-9.812 2.25-14.31 0L64 190.1V176c0-17.67 14.33-32 32-32h256c17.67 0 32 14.33 32 32V190.1z"/></svg>
+
+
+      </a>
+
+
+
+
+                </nav>
+
+              <section class="site-credits">
+
+                <span class="site-copyright">Conor Bronsdon</span>
+              </section>
+            </div>
+
+          </div>
+          <nav class="site-footer-nav">
+
+    <a title="Home" class="" href="/">Home</a>
+    <a title="Episodes" class="current" href="/episodes">Episodes</a>
+    <a title="People" class="" href="/people">People</a>
+    <a title="Get Our Newsletter" target="_blank" class="" href="https://newsletter.chainofthought.show/">Get Our Newsletter</a>
+    <a title="Subscribe" class="" href="/subscribe">Subscribe</a>
+
+          </nav>
+        </footer>
+      </section>
+
+        <div class="site-powered-by">
+  <a href="https://transistor.fm" target="_transistor" title="Transistor.fm - Podcast Hosting and Analytics">
+
+      <span>Broadcast by</span>
+
+
+  <svg class="transistor-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 547 144"><title>transistor logo</title><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="transistor-horizontal-logo" fill-rule="nonzero" fill="#FFFFFF"><g transform="translate(191.000000, 42.000000)"><polygon points="0.7 10.4 0.7 1.8 38.6 1.8 38.6 10.4 24.5 10.4 24.5 58.3 14.7 58.3 14.7 10.4"></polygon><path d="M63.3,26.2 C62.1,26 60.7,25.8 58.7,25.8 C52.4,25.8 48.7,29.9 48.7,38.2 L48.7,58.2 L39.4,58.2 L39.4,18.6 L48.5,18.6 L48.5,24.2 L48.7,24.2 C50.5,20.8 54.5,17.3 59.8,17.3 C61.3,17.3 62.3,17.4 63.3,17.5 L63.3,26.2 L63.3,26.2 Z"></path><path d="M107.8,58.2 L98.8,58.2 L98.8,53.2 L98.6,53.2 C95.9,56.6 91.6,59.7 85,59.7 C76.1,59.7 66,52.6 66,38.4 C66,25.8 74.9,17.4 85.7,17.4 C92.3,17.4 96.3,20.9 98.7,24 L98.9,24 L98.9,18.6 L107.9,18.6 L107.9,58.2 L107.8,58.2 Z M87.4,51.5 C93.5,51.5 99.2,46.2 99.2,38.6 C99.2,30.6 94,25.3 87.5,25.3 C79.3,25.3 75.4,31.9 75.4,38.4 C75.4,45 79.2,51.5 87.4,51.5 Z"></path><path d="M118.6,18.6 L127.8,18.6 L127.8,23.6 L128,23.6 C131.1,19.1 135.7,17.3 140.1,17.3 C148.3,17.3 155.5,22.7 155.5,35.4 L155.5,58.2 L146.2,58.2 L146.2,35.9 C146.2,29.1 143,25.5 137.7,25.5 C131.9,25.5 127.9,29.6 127.9,37.3 L127.9,58.3 L118.6,58.3 L118.6,18.6 L118.6,18.6 Z"></path><path d="M183.6,28.8 C183.2,25.9 181,24 178.3,24 C175.1,24 173.3,26 173.3,28.2 C173.3,30.6 174.5,32.3 181.4,34.6 C189.9,37.3 192.9,41.7 192.9,47.3 C192.9,54.6 187.4,59.7 178.3,59.7 C168.8,59.7 164.1,54.5 163.4,47.1 L172,47.1 C172.4,50.4 174.4,52.9 178.5,52.9 C182,52.9 184,50.7 184,48 C184,45 182.3,43.1 175.7,40.9 C168.3,38.5 164.5,34.8 164.5,28.6 C164.5,22.1 169.6,17.3 178,17.3 C186.5,17.3 191,22.3 192,28.8 L183.6,28.8 L183.6,28.8 Z"></path><path d="M201,0.4 L211.3,0.4 L211.3,9.8 L201,9.8 L201,0.4 Z M201.5,18.6 L210.8,18.6 L210.8,58.3 L201.5,58.3 L201.5,18.6 Z"></path><path d="M239.5,28.8 C239.1,25.9 236.9,24 234.2,24 C231,24 229.2,26 229.2,28.2 C229.2,30.6 230.4,32.3 237.3,34.6 C245.8,37.3 248.8,41.7 248.8,47.3 C248.8,54.6 243.3,59.7 234.2,59.7 C224.7,59.7 220,54.5 219.3,47.1 L227.9,47.1 C228.3,50.4 230.3,52.9 234.4,52.9 C237.9,52.9 239.9,50.7 239.9,48 C239.9,45 238.2,43.1 231.6,40.9 C224.2,38.5 220.4,34.8 220.4,28.6 C220.4,22.1 225.5,17.3 233.9,17.3 C242.4,17.3 246.9,22.3 247.9,28.8 L239.5,28.8 L239.5,28.8 Z"></path><path d="M252.8,18.6 L257.8,18.6 L257.8,5.9 L267.1,5.9 L267.1,18.6 L277,18.6 L277,26.4 L267,26.4 L267,44.1 C267,49.5 268.7,51 272.5,51 C274.1,51 275.9,50.7 277.3,50.3 L277.3,57.8 C275.2,58.4 272.6,58.7 270.3,58.7 C260.4,58.7 257.8,52.7 257.8,44.6 L257.8,26.4 L252.8,26.4 L252.8,18.6 Z"></path><path d="M302.3,17.3 C314.7,17.3 323.5,26.4 323.5,38.4 C323.5,50.1 314.6,59.7 302.3,59.7 C290.2,59.7 281.1,50.4 281.1,38.4 C281.1,26.1 290.3,17.3 302.3,17.3 Z M302.3,51.4 C309.3,51.4 314.1,45.8 314.1,38.4 C314.1,31.4 309.6,25.5 302.3,25.5 C295.2,25.5 290.5,31 290.5,38.4 C290.5,46 295.9,51.4 302.3,51.4 Z"></path><path d="M350.9,25.8 C344.6,25.8 340.9,29.9 340.9,38.2 L340.9,58.2 L331.6,58.2 L331.6,18.6 L340.7,18.6 L340.7,24.2 L340.9,24.2 C342.7,20.8 346.7,17.3 352,17.3 C353.5,17.3 354.5,17.4 355.5,17.5 L355.5,26.2 C354.3,26 352.9,25.8 350.9,25.8 Z"></path></g><g><g transform="translate(24.000000, 24.000000)"><path d="M48,95.9 C45.4,95.9 43.2,93.8 43.2,91.1 L43.2,4.9 C43.2,2.3 45.3,0.1 48,0.1 C50.6,0.1 52.8,2.2 52.8,4.9 L52.8,91.1 C52.8,93.7 50.6,95.9 48,95.9 Z"></path><path d="M28,52.8 L5,52.8 C2.4,52.8 0.2,50.7 0.2,48 C0.2,45.3 2.3,43.2 5,43.2 L28,43.2 C30.6,43.2 32.8,45.3 32.8,48 C32.8,50.7 30.6,52.8 28,52.8 Z"></path><path d="M91.1,52.8 L68,52.8 C65.4,52.8 63.2,50.7 63.2,48 C63.2,45.3 65.3,43.2 68,43.2 L91,43.2 C93.6,43.2 95.8,45.3 95.8,48 C95.8,50.7 93.7,52.8 91.1,52.8 Z"></path></g><path d="M72,144 C32.3,144 0,111.7 0,72 C0,32.3 32.3,0 72,0 C111.7,0 144,32.3 144,72 C144,111.7 111.7,144 72,144 Z M72,9.6 C37.6,9.6 9.6,37.6 9.6,72 C9.6,106.4 37.6,134.4 72,134.4 C106.4,134.4 134.4,106.4 134.4,72 C134.4,37.6 106.4,9.6 72,9.6 Z"></path></g></g></g></svg>
+
+
+  </a>
+</div>
+
+
+    </main>
+    <span id="default-audio" data-default-audio-url="https://media.transistor.fm/c898a0e8/e81a275b.mp3?src=site" data-default-audio-title="Genspark&#39;s Bet: AI Agents Become the Users of Software | Wen Sang" data-default-audio-duration="3697"></span>
+<footer
+  data-turbo-permanent
+  id="site-sticky-player"
+  class="site-sticky-player"
+  aria-label="Audio Player"
+  tabindex="0"
+  x-data="transistor.audioPlayer()"
+  @play-episode.window="playEpisode($event.detail)"
+  @pause-episode.window="pause; $store.player.playing = false"
+  @timejump.window="seekToSeconds($event.detail.timestamp); active = true"
+  :class="{ 'open': active }"
+  :style="{
+    '--player-progress': `${progressPercentage()}%`,
+  }"
+>
+  <audio
+    x-ref="audio"
+    preload="none"
+    @volumechange="updateVolume"
+    @waiting="waiting"
+    @canplaythrough="canPlayThrough = true"
+    @play="play(false, true); $store.player.playing = true"
+    @pause="pause; $store.player.playing = false"
+    @ended="reset; $store.player.playing = false"
+    @loadedmetadata="init; $store.player.audio_url = $refs.audio.src"
+    @keyup.document.right="seekBySeconds(30)"
+    @keyup.document.left="seekBySeconds(-10)"
+    @keyup.document.m="toggleMute"
+    @keyup.document.s="toggleSpeed"
+  >
+  </audio>
+  <nav class="site-sticky-player-buttons">
+    <button x-show="!playing && !loading" title="Play" @click="play; $store.player.playing = true" class="player-button site-sticky-player-play">
+
+  <svg role="img" class="icon-play" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>play</title><path fill-rule="evenodd" d="M8,16 C12.4183,16 16,12.4183 16,8 C16,3.58172 12.4183,0 8,0 C3.58172,0 0,3.58172 0,8 C0,12.4183 3.58172,16 8,16 Z M7.5547,5.16795 C7.24784,4.96338 6.8533,4.94431 6.52814,5.11833 C6.20298,5.29235 6,5.63121 6,6.00000106 L6,10.0000011 C6,10.3688 6.20298,10.7077 6.52814,10.8817 C6.8533,11.0557 7.24784,11.0366 7.5547,10.8321 L10.5547,8.8321 C10.8329,8.6466 11,8.3344 11,8.00000106 C11,7.66565 10.8329,7.35342 10.5547,7.16795 L7.5547,5.16795 Z"></path></svg>
+
+
+    </button>
+    <button x-show="playing && !loading" @click="pause; $store.player.playing = false" title="Pause" class="player-button site-sticky-player-pause">
+
+  <svg role="img" class="icon-pause" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>pause</title><path fill-rule="evenodd" d="M16,8 C16,12.4183 12.4183,16 8,16 C3.58172,16 0,12.4183 0,8 C0,3.58172 3.58172,0 8,0 C12.4183,0 16,3.58172 16,8 Z M5,6 C5,5.44772 5.44772,5 6,5 C6.55228,5 7,5.44772 7,6 L7,10 C7,10.5523 6.55228,11 6,11 C5.44772,11 5,10.5523 5,10 L5,6 Z M10,5 C9.4477,5 9,5.44772 9,6 L9,10 C9,10.5523 9.4477,11 10,11 C10.5523,11 11,10.5523 11,10 L11,6 C11,5.44772 10.5523,5 10,5 Z"></path></svg>
+
+
+    </button>
+    <span x-show="loading" class="site-sticky-player-loading">
+      <svg class="site-sticky-player-spinner-background" fill="currentColor" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8,16 C12.4183,16 16,12.4183 16,8 C16,3.58172 12.4183,0 8,0 C3.58172,0 0,3.58172 0,8 C0,12.4183 3.58172,16 8,16 Z"></path></svg>
+      <span class="site-sticky-player-spinner">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+          <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+          <path fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+        </svg>
+      </span>
+    </span>
+  </nav>
+
+  <div class="site-sticky-player-progress-controls">
+    <div class="site-sticky-player-currently-playing">
+      <div class="site-sticky-player-title" x-text="title"></div>
+    </div>
+
+    <div class="site-sticky-player-progress" :class="{ 'seeking-by-touch': seekingByTouch }" role="progressbar" >
+      <div title="Seek within Episode" role="button" class="site-sticky-player-progress-bar" @click="seekTo" @mousemove="hoverSeekTo" @touchmove.prevent="touchDragSeekTo" @touchend="touchDragEnd">
+        <span></span>
+      </div>
+      <t class="seek-tooltip" x-text="formatTime(duration * seekHoverPercent)" :style="`left: ${seekHoverPercent * 100}%`"></t>
+    </div>
+
+    <div class="site-sticky-player-controls-duration">
+      <div class="site-sticky-player-controls">
+        <button @click="seekBySeconds(-10)" title="Rewind 10 seconds" class="site-sticky-player-rewind">
+
+  <svg role="img" class="icon-rewind" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>rewind</title><path d="M19.419962,2.57 L20.789962,1.21 L20.789962,1.20999999 C21.066111,0.931608989 21.064293,0.482064989 20.7859019,0.205919989 C20.6539209,0.0750019893 20.4758579,0.00106998926 20.2899619,2.98926377e-06 L14.9999619,2.98926377e-06 L14.9999619,5.29000299 L14.9999619,5.2900038 C15.0022111,5.6821198 15.3219069,5.9981688 15.7140229,5.9959198 C15.8999189,5.99485348 16.0779819,5.9209207 16.2099629,5.7900028 L17.9999629,4.00000299 L17.9999633,4.00000299 C22.4115033,7.32267305 23.2942133,13.5924931 19.9715433,18.0040031 C16.6488733,22.4155431 10.3790533,23.2982531 5.96754326,19.9755831 C1.55600326,16.6529131 0.67329326,10.3830931 3.99596326,5.97158305 C5.50733326,3.96493305 7.71859326,2.60063305 10.1899933,2.15000305 L10.1899934,2.15000303 C10.7422784,2.05059173 11.1094044,1.52228803 11.0099934,0.970003035 C10.9105821,0.417718035 10.3822784,0.0505920346 9.82999335,0.150003035 L9.82999275,0.150003146 C3.31278275,1.35360315 -0.994707248,7.61255315 0.208852752,14.1298031 C1.41245275,20.6470131 7.67140275,24.9545031 14.1886528,23.7509431 C20.7058628,22.5473431 25.0133528,16.2883931 23.8097928,9.77114315 C23.2799238,6.90203315 21.7229128,4.32424315 19.4300328,2.52000315 L19.419962,2.57 Z M8.99996191,16 L8.99996191,16 C9.55224696,16 9.99996191,15.552285 9.99996191,15 L9.99996191,8 L6.99996191,8 L6.99996191,8 C6.44767691,8 5.99996191,8.447715 5.99996191,9 C5.99996191,9.552285 6.44767691,10 6.99996191,10 L7.99996191,10 L7.99996191,15 L7.99996191,15 C7.99996191,15.5522848 8.44767691,16 8.99996191,16 C8.99996191,16 8.99996191,16 8.99996191,16 L8.99996191,16 Z M13.9999619,16 L13.9999619,16 C15.6568119,16 16.9999619,14.65685 16.9999619,13 L16.9999619,11 L16.9999619,11 C16.9999619,9.34315 15.6568119,8 13.9999619,8 C12.3431119,8 10.9999619,9.34315 10.9999619,11 L10.9999619,13 L10.9999619,13 C10.9999619,14.6568505 12.3431119,16 13.9999619,16 C13.9999619,16 13.9999619,16 13.9999619,16 L13.9999619,16 Z M12.999962,11.0000002 L12.999962,11.0000002 C12.999962,10.4477152 13.447677,10.0000002 13.999962,10.0000002 C14.552247,10.0000002 14.999962,10.4477152 14.999962,11.0000002 C14.999962,11.0000002 14.999962,11.0000002 14.999962,11.0000002 L14.999962,13.0000002 L14.999962,13.0000002 C14.999962,13.5522852 14.552247,14.0000002 13.999962,14.0000002 C13.447677,14.0000002 12.999962,13.5522852 12.999962,13.0000002 L12.999962,11.0000002 Z"></path></svg>
+
+
+        </button>
+        <button @click="toggleSpeed" title="Change Playback Speed" class="site-sticky-player-speed" x-text="`${displaySpeed}x`"></button>
+        <button @click="seekBySeconds(30)" title="Fast Forward 30 seconds" class="site-sticky-player-fastforward">
+
+  <svg role="img" class="icon-fastforward" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>fast forward</title><path d="M15.0000099,16 L15.0000099,16 C16.6568599,16 18.0000099,14.65685 18.0000099,13 L18.0000099,11 L18.0000099,11 C18.0000099,9.34315 16.6568599,8 15.0000099,8 C13.3431599,8 12.0000099,9.34315 12.0000099,11 L12.0000099,13 L12.0000099,13 C12.0000099,14.6568505 13.3431599,16 15.0000099,16 C15.0000099,16 15.0000099,16 15.0000099,16 L15.0000099,16 Z M14.00001,11.0000002 L14.00001,11.0000002 C14.00001,10.4477152 14.447725,10.0000002 15.00001,10.0000002 C15.552295,10.0000002 16.00001,10.4477152 16.00001,11.0000002 C16.00001,11.0000002 16.00001,11.0000002 16.00001,11.0000002 L16.00001,13.0000002 L16.00001,13.0000002 C16.00001,13.5522852 15.552295,14.0000002 15.00001,14.0000002 C14.447725,14.0000002 14.00001,13.5522852 14.00001,13.0000002 L14.00001,11.0000002 Z M7.00000983,7.99999762 L7.00000983,7.99999762 C6.44772496,7.99999762 6.00000983,8.447715 6.00000983,8.99999762 C6.00000983,9.552285 6.44772496,9.99999762 7.00000983,9.99999762 L8.50000983,9.99999762 L8.50000983,9.99999762 C8.77615193,9.99999762 9.00000983,10.223858 9.00000983,10.4999976 C9.00000983,10.776142 8.77615193,10.9999976 8.50000983,10.9999976 L7.00000983,10.9999976 L7.00000983,10.9999976 C6.44772489,10.9999976 6.00000983,11.447715 6.00000983,11.9999976 C6.00000983,12.552285 6.44772489,12.9999976 7.00000983,12.9999976 L8.50000983,12.9999976 L8.50000983,12.9999976 C8.77615187,12.9999976 9.00000983,13.223858 9.00000983,13.4999976 C9.00000983,13.776142 8.77615187,13.9999976 8.50000983,13.9999976 L7.00000983,13.9999976 L7.00000983,13.9999976 C6.44772483,13.9999976 6.00000983,14.447715 6.00000983,14.9999976 C6.00000983,15.552285 6.44772483,15.9999976 7.00000983,15.9999976 L8.50000983,15.9999976 L8.50000983,15.9999976 C9.88071972,15.9999976 11.0000098,14.88071 11.0000098,13.4999976 L11.0000098,13.5000078 C10.9949875,12.9583018 10.8162208,12.4325078 10.4900148,12.0000078 L10.4900147,12.0000079 C10.8162217,11.5675019 10.9949887,11.0417099 11.0000098,10.4999976 L11.0000098,10.4999976 C11.0000098,9.11928762 9.88071974,7.99999762 8.50000983,7.99999762 C8.50000983,7.99999762 8.50000983,7.99999762 8.50000983,7.99999762 L7.00000983,7.99999762 Z M14.18001,0.2 L14.1800101,0.200000017 C13.6277251,0.100588717 13.0994201,0.467715017 13.0000101,1.02000002 C12.9005988,1.57228502 13.2677251,2.10059002 13.8200101,2.20000002 L13.8200112,2.20000022 C19.2469712,3.22467022 22.8157312,8.45476022 21.7910512,13.8817002 C20.7663812,19.3086602 15.5362912,22.8774202 10.1093512,21.8527402 C4.68239119,20.8280702 1.11363119,15.5979802 2.13831119,10.1710402 C2.60451319,7.70190022 3.98319119,5.49877022 6.00003119,4.00000013 L7.79003119,5.79000022 L7.79003121,5.79000024 C8.06842221,6.06614924 8.51796621,6.06433124 8.79411121,5.78594013 C8.92502921,5.65395913 8.99896121,5.47589613 9.00002821,5.29000013 L9.00002821,1.31893483e-07 L3.71002821,1.31893483e-07 L3.71002824,1.31893483e-07 C3.31791224,0.00224888189 3.00186324,0.321944132 3.00411124,0.714060132 C3.00517734,0.899956132 3.07910994,1.07801913 3.21002824,1.21000013 L4.58002824,2.57000013 L4.58002779,2.57000049 C-0.628262215,6.66833049 -1.52806221,14.2128005 2.57026779,19.4211005 C6.66859779,24.6293905 14.2130678,25.5291905 19.4213678,21.4308605 C24.6296578,17.3325305 25.5294578,9.78806049 21.4311278,4.57976049 C19.6268878,2.28688049 17.0490978,0.729870486 14.1799878,0.200000486 L14.18001,0.2 Z"></path></svg>
+
+
+        </button>
+      </div>
+      <div class="site-sticky-player-duration">
+        <div x-text="formatTime(currentTime)"></div>
+        <div>|</div>
+        <div :datetime="formatTime(duration)" x-text="formatTime(duration)"></div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  </body>
+</html>
