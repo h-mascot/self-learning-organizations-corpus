@@ -38,14 +38,15 @@
   "self_approval": false,
   "status": "READY_FOR_PUBLICATION",
   "total_records_independently_computed": 1062,
-  "updated_at": "2026-10-09T11:18:05Z",
+  "updated_at": "2026-10-09T12:55:00Z",
   "validation_results": {
     "git_diff_cached_check": "passed",
     "lane_validators": "passed (web/media, youtube, social, academic saturation spot check)",
     "make_audit": "passed (1062 sources)",
     "make_check": "passed",
     "make_generate": "passed (1062 records, 647 accepted relevant sources)",
-    "make_test": "passed (65 tests)"
+    "make_test": "passed (65 tests)",
+    "retrieval_ledger_restored": "all 673 baseline stable_ids present; 1267 baseline attempt rows restored; 1275 total rows; 0 duplicates; restored and full gate re-run passed 2026-10-09"
   },
   "window": {
     "from": "2026-07-16",
